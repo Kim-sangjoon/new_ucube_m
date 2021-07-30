@@ -283,19 +283,19 @@
     					<w2:caption style="" id="caption1" value="this is a grid caption."></w2:caption>
     					<w2:header style="" id="header1">
     						<w2:row style="" id="row1">
-    							<w2:column removeBorderStyle="false" width="120" inputType="text" id="column5" value="권한영문명"
+    							<w2:column removeBorderStyle="false" width="100" inputType="text" id="column5" value="권한영문명"
     								blockSelect="false" displayMode="label">
     							</w2:column>
-    							<w2:column removeBorderStyle="false" width="120" inputType="text" id="column4" value="권한설명"
+    							<w2:column removeBorderStyle="false" width="100" inputType="text" id="column4" value="권한설명"
     								blockSelect="false" displayMode="label">
     							</w2:column>
-    							<w2:column removeBorderStyle="false" width="120" inputType="text" id="column3" value="권한유형"
+    							<w2:column removeBorderStyle="false" width="100" inputType="text" id="column3" value="권한유형"
     								blockSelect="false" displayMode="label">
     							</w2:column>
-    							<w2:column removeBorderStyle="false" width="120" inputType="text" id="column2" value="권한성격"
+    							<w2:column removeBorderStyle="false" width="100" inputType="text" id="column2" value="권한성격"
     								blockSelect="false" displayMode="label">
     							</w2:column>
-    							<w2:column removeBorderStyle="false" width="120" inputType="text" id="column1" value="권한종류"
+    							<w2:column removeBorderStyle="false" width="100" inputType="text" id="column1" value="권한종류"
     								blockSelect="false" displayMode="label">
     							</w2:column>
     						</w2:row>
