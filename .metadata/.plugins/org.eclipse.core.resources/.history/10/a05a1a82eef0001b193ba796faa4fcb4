@@ -278,8 +278,8 @@
     				<w2:textbox id="" label="권한승인자 정보" style="" tagname="h3"></w2:textbox>
     			</xf:group>
     			<xf:group class="gvwbox" id="">
-    				<w2:gridView id="" style="height:274px;" scrollByColumn="false" defaultCellHeight="" scrollByColumnAdaptive="false"
-    					dataList="data:dataList1" class="wq_gvw" autoFit="allColumn">
+    				<w2:gridView id="" style="height:274px;" scrollByColumn="false" defaultCellHeight="20" scrollByColumnAdaptive="false"
+    					dataList="data:dataList1" class="wq_gvw">
     					<w2:caption style="" id="caption1" value="this is a grid caption."></w2:caption>
     					<w2:header style="" id="header1">
     						<w2:row style="" id="row1">
