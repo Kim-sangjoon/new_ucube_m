@@ -3775,3 +3775,21 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.eclipse.jface.text 2 0 2021-07-30 13:40:46.416
 !MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY com.inswave.websquare 1 0 2021-07-30 13:53:51.502
+!MESSAGE 07/30 13:53:51.502[main/INFO] [com.inswave.websquare.util.ResourceUtil] [getCaptureURL]url:http://127.0.0.1:49275/websquare/studiocapture.html?w2Config=/.settings/config.xml&w2xPath=
+
+!ENTRY com.inswave.websquare 1 0 2021-07-30 13:53:54.160
+!MESSAGE 07/30 13:53:54.160[main/INFO] [com.inswave.websquare.util.PhantomJsUtil] execute cmd  :[Ljava.lang.String;@79e9e564
+
+!ENTRY com.inswave.websquare 1 0 2021-07-30 13:53:54.161
+!MESSAGE 07/30 13:53:54.161[main/INFO] [com.inswave.websquare.util.PhantomJsUtil] execute result code  :0
+
+!ENTRY com.inswave.websquare 1 0 2021-07-30 14:05:28.476
+!MESSAGE 07/30 14:05:28.476[main/INFO] [com.inswave.websquare.util.ResourceUtil] [getCaptureURL]url:http://127.0.0.1:49275/websquare/studiocapture.html?w2Config=/.settings/config.xml&w2xPath=
+
+!ENTRY com.inswave.websquare 1 0 2021-07-30 14:05:30.966
+!MESSAGE 07/30 14:05:30.966[main/INFO] [com.inswave.websquare.util.PhantomJsUtil] execute cmd  :[Ljava.lang.String;@2a1df324
+
+!ENTRY com.inswave.websquare 1 0 2021-07-30 14:05:30.967
+!MESSAGE 07/30 14:05:30.967[main/INFO] [com.inswave.websquare.util.PhantomJsUtil] execute result code  :0
