@@ -3744,3 +3744,12 @@ user global configuration and to define the default location to store repositori
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.inswave.websquare 1 0 2021-07-30 13:37:08.038
+!MESSAGE 07/30 13:37:08.037[main/INFO] [com.inswave.websquare.util.ResourceUtil] [getCaptureURL]url:http://127.0.0.1:57586/websquare/studiocapture.html?w2Config=/new_ucube_m/.settings/config.xml&w2xPath=
+
+!ENTRY com.inswave.websquare 1 0 2021-07-30 13:37:11.039
+!MESSAGE 07/30 13:37:11.039[main/INFO] [com.inswave.websquare.util.PhantomJsUtil] execute cmd  :[Ljava.lang.String;@68832f1c
+
+!ENTRY com.inswave.websquare 1 0 2021-07-30 13:37:11.040
+!MESSAGE 07/30 13:37:11.040[main/INFO] [com.inswave.websquare.util.PhantomJsUtil] execute result code  :0
