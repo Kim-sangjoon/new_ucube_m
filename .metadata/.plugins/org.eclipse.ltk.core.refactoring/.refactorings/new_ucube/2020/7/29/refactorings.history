@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;new_ucube/WebContent/static/web/pub/ksj/test.xml&apos; to &apos;PG_EACM_AU_WM_0003.xml&apos;" description="Rename resource &apos;test.xml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="WebContent/static/web/pub/ksj/test.xml" name="PG_EACM_AU_WM_0003.xml" stamp="1594709113354" updateReferences="true"/>
+</session>
