@@ -3753,3 +3753,25 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY com.inswave.websquare 1 0 2021-07-30 13:37:11.040
 !MESSAGE 07/30 13:37:11.040[main/INFO] [com.inswave.websquare.util.PhantomJsUtil] execute result code  :0
+!SESSION 2021-07-30 13:39:49.362 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_251
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -clean
+
+!ENTRY com.inswave.websquare.webapp 1 0 2021-07-30 13:40:23.779
+!MESSAGE 07/30 13:40:23.774[main/INFO] [com.inswave.websquare.webapp.WebSquareWebAppPlugin] CheckEmbeddedEngineVersion : 5.0_4.4052B.20200612.164341_1.5
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-07-30 13:40:28.351
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\taran-001'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jface.text 2 0 2021-07-30 13:40:46.416
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2021-07-30 13:40:46.416
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
