@@ -127,13 +127,13 @@
     								<w2:colspan>3</w2:colspan>
     								<w2:rowspan>1</w2:rowspan>
     							</w2:attributes>
-    						<xf:group id="" class="ly_form">
+    						<xf:group id="" class="ly_form.wa">
     							<xf:select1 ref="" submenuSize="auto" appearance="minimal" disabledClass="w2selectbox_disabled"
-    								chooseOption="true" disabled="false" style="" allOption="" id="" class="wd-150 fn" direction="auto" chooseOptionLabel="">
+    								chooseOption="true" disabled="false" style="" allOption="" id="" class="wd-150" direction="auto" chooseOptionLabel="">
     								<xf:choices></xf:choices>
     							</xf:select1>
     							<xf:select1 ref="" submenuSize="auto" appearance="minimal" disabledClass="w2selectbox_disabled"
-    								chooseOption="true" disabled="false" style="" allOption="" id="" class="wd-150 fn" direction="auto" chooseOptionLabel="">
+    								chooseOption="true" disabled="false" style="" allOption="" id="" class="wd-150" direction="auto" chooseOptionLabel="">
     								<xf:choices></xf:choices>
     							</xf:select1></xf:group></xf:group>
     					</xf:group>
