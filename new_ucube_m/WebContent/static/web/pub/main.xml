@@ -31,5 +31,7 @@
     		<w2:textbox label="한글이 어떻게 나오는지 함번 보자" style="" id="" class="txt_red"></w2:textbox>
     		<w2:textbox label="이거왜 안되는거야" style="" id="" class="txt_red"></w2:textbox>
     	</xf:group>
+    	<xf:group class="bg_test" id="" style="width:499px;height:200px;">
+    	</xf:group>
     </body>
 </html>

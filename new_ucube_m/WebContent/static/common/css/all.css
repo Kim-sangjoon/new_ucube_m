@@ -55,4 +55,4 @@ textarea[disabled]{padding:11px; font-size:16px; color:#666; font-weight:normal;
 .clear:after { content:""; display:block; clear:both;}
 
 .txt_red{color:red;}
-
+.bg_test{background:url(/WebContent/static/common/images/close.png)}
