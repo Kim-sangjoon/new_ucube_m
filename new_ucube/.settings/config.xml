@@ -98,7 +98,8 @@
 	</wframe>
 
 	<clearMemory value="false"/>
-	<stylesheet earlyImportList="../../../common/css/all.css" enable="true" import="link" value="stylesheet_ext.css"/>
+	<!-- <stylesheet earlyImportList="../../../common/css/all.css" enable="true" import="link" value="stylesheet_ext.css"/> -->
+	<stylesheet earlyImportList="/WebContent/static/common/css/all.css" enable="true" import="link" value="stylesheet_ext.css"/>
 	<style>
 		<removeDefaultClass value="true"/>
 	</style>
@@ -325,10 +326,15 @@
 	</windowContainer>
 
 	<pageList>
-		<leftPageBackImage value="../../../common/images/ico_pgl_first.png"/>
+		<!-- <leftPageBackImage value="../../../common/images/ico_pgl_first.png"/>
 		<leftPageImage value="../../../common/images/ico_pgl_prev.png"/>
 		<rightPageBackImage value="../../../common/images/ico_pgl_last.png"/>
-		<rightPageImage value="../../../common/images/ico_pgl_next.png"/>
+		<rightPageImage value="../../../common/images/ico_pgl_next.png"/> -->
+		
+		<leftPageBackImage value="/WebContent/static/common/images/ico_pgl_first.png"/>
+		<leftPageImage value="/WebContent/static/common/images/ico_pgl_prev.png"/>
+		<rightPageBackImage value="/WebContent/static/common/images/ico_pgl_last.png"/>
+		<rightPageImage value="/WebContent/static/common/images/ico_pgl_next.png"/>
 	</pageList>
 
 	<radio>
