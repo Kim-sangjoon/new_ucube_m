@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml"
     xmlns:ev="http://www.w3.org/2001/xml-events"
     xmlns:w2="http://www.inswave.com/websquare" xmlns:xf="http://www.w3.org/2002/xforms">
-    <head meta_programName="P1 MainPage ToDo">
+    <head meta_programName="MainPage ToDo">
     	<w2:type>DEFAULT</w2:type>
         <w2:buildDate/>
         <xf:model>
@@ -28,9 +28,31 @@
     </head>
     <body ev:onpageload="scwin.onpageload" ev:onpageunload="scwin.onpageunload">
     	<xf:group style="" id="" class="wrapper">
-    		<xf:group style="" id="" class="page_header"></xf:group>
-    		<xf:group style="" id="" class="page_contents">
-    			<xf:group style="" id="" class="page_contents_inner"></xf:group>
+    		<xf:group style="" id="" class="header" tagname="section">
+    			
+    		<xf:group style="" id="" class="titlebar">
+    				<xf:group id="" class="cta"><w2:textbox tagname="h2" style="" label="To-Do List" id="" class="title"></w2:textbox><w2:textbox tagname="em" style="" id="" label="7" class=""></w2:textbox></xf:group></xf:group><xf:group tagname="button" style="" id="" class="btn_menu"></xf:group></xf:group>
+    		<xf:group style="" id="" class="container" tagname="section">
+    			<xf:group style="" id="" class="container_inner">
+    				<xf:group style="" id="" class="filterbox" tagname="">
+    					<xf:group class="fboxgroup" id="" style="" tagname="">
+    						<xf:group style="" id="" class="lta">
+    							<w2:textbox label="구분" style="" id="" class="" tagname="span"></w2:textbox>
+    						</xf:group>
+    						<xf:group id="" style="" class="rta">
+    							<xf:trigger type="button" style="" id="" class="btn_df">
+    								<xf:label><![CDATA[전체]]></xf:label>
+    							</xf:trigger>
+    							<xf:trigger class="btn_df" id="" style="" type="button">
+    								<xf:label><![CDATA[꼬리표처리 필요건]]></xf:label>
+    							</xf:trigger>
+    						</xf:group>
+    					</xf:group></xf:group>
+    				
+    			</xf:group>
+    		</xf:group>
+    		<xf:group style="" id="" class="bottom_menu">
+    			<xf:group style="" id="" class="navbox"></xf:group>
     		</xf:group>
     	</xf:group>
     </body>
