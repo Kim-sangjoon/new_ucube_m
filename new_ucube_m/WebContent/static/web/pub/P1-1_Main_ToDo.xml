@@ -40,15 +40,38 @@
     							<w2:textbox label="구분" style="" id="" class="" tagname="span"></w2:textbox>
     						</xf:group>
     						<xf:group id="" style="" class="rta">
-    							<xf:trigger type="button" style="" id="" class="btn_df">
+    							<xf:trigger type="button" style="" id="" class="btn_df on">
     								<xf:label><![CDATA[전체]]></xf:label>
     							</xf:trigger>
     							<xf:trigger class="btn_df" id="" style="" type="button">
     								<xf:label><![CDATA[꼬리표처리 필요건]]></xf:label>
     							</xf:trigger>
     						</xf:group>
-    					</xf:group></xf:group>
-    				
+    					</xf:group>
+    					<xf:group class="fboxgroup" id="" style="" tagname="">
+    						<xf:group class="lta" id="" style="">
+    							<w2:textbox class="" id="" label="처리상태" style="" tagname="span"></w2:textbox>
+    						</xf:group>
+    						<xf:group class="rta" id="" style="">
+    							<xf:trigger class="btn_df on" id="" style="" type="button">
+    								<xf:label><![CDATA[전체]]></xf:label>
+    							</xf:trigger>
+    							<xf:trigger class="btn_df" id="" style="" type="button">
+    								<xf:label><![CDATA[접수대기]]></xf:label>
+    							</xf:trigger>
+    							<xf:trigger class="btn_df" id="" style="" type="button">
+    								<xf:label><![CDATA[접수]]></xf:label>
+    							</xf:trigger>
+    							<xf:trigger class="btn_df" id="" style="" type="button">
+    								<xf:label><![CDATA[진행중]]></xf:label>
+    							</xf:trigger>
+    							<xf:trigger class="btn_df" id="" style="" type="button">
+    								<xf:label><![CDATA[당일]]></xf:label>
+    							</xf:trigger>
+    						</xf:group>
+    					</xf:group>
+    				</xf:group>
+
     			</xf:group>
     		</xf:group>
     		<xf:group style="" id="" class="bottom_menu">

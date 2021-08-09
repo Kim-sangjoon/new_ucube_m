@@ -1,5 +1,5 @@
 @charset "utf-8";
-@import url("./noto-sans-korean.css");
+@import url(./noto-sans-korean.css);
 
 /* Reset */
 *{outline:0 !important; -webkit-text-size-adjust:none;}
@@ -57,7 +57,6 @@ textarea[disabled]{padding:11px; font-size:16px; color:#666; font-weight:normal;
 
 .clear {clear:both;}
 .clear:after { content:""; display:block; clear:both;}
-
 .txt_red{color:red;}
 
 /* layout */
@@ -71,11 +70,13 @@ textarea[disabled]{padding:11px; font-size:16px; color:#666; font-weight:normal;
 
 .container{display: block;}
 .container .container_inner{padding: 0 16px;}
-.filterbox{border-top: 1px solid #DAE3ED; height: 27px;}
+.filterbox{border-top: 1px solid #DAE3ED; min-width: 320px;}
 .filterbox .fboxgroup{display: inline-block; width: 100%; margin-top: 16px;}
+.filterbox .fboxgroup:first-child{margin-bottom: -4px;}
 .filterbox .fboxgroup > .lta{float: left; vertical-align: middle;}
-.filterbox .fboxgroup > .lta > span{font-weight:normal; font-size: 13px; letter-spacing: -0.02em; color: #56606B;}
+.filterbox .fboxgroup > .lta > span{font-weight:normal; font-size: 13px; letter-spacing: -0.02em; color: #56606B; line-height: 26px;}
 .filterbox .fboxgroup > .rta{float: right; vertical-align: middle;}
-.filterbox .fboxgroup > .rta > .btn_df{margin-left: 6px; background-color: transparent; border: 1px solid #BEC9D4; box-sizing: border-box; border-radius: 5px; font-size: 13px; font-weight: bold; color: #8996A3; padding: 4px 8px;}
-
+.filterbox .fboxgroup > .rta > .btn_df{margin-left: 6px; background-color: transparent; border: 1px solid #BEC9D4; box-sizing: border-box; border-radius: 5px; font-size: 13px; font-weight: 500; color: #8996A3; padding: 4px 8px; cursor: default;}
+.filterbox .fboxgroup > .rta > .btn_df.on{background-color: #fff; color: #7B558D; border: 1px solid #8D669F;}
+.filterbox .fboxgroup > .rta > .btn_df:first-child{margin-left: 0px;}
 
