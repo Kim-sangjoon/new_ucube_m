@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml"
     xmlns:ev="http://www.w3.org/2001/xml-events"
     xmlns:w2="http://www.inswave.com/websquare" xmlns:xf="http://www.w3.org/2002/xforms">
-    <head>
+    <head meta_programName="P1 MainPage ToDo">
     	<w2:type>DEFAULT</w2:type>
         <w2:buildDate/>
         <xf:model>
@@ -27,11 +27,11 @@
 	]]></script>
     </head>
     <body ev:onpageload="scwin.onpageload" ev:onpageunload="scwin.onpageunload">
-    	<xf:group style="width:499px;height:200px;" id="" class="">
-    		<w2:textbox label="한글이 어떻게 나오는지 함번 보자" style="" id="" class="txt_red"></w2:textbox>
-    		<w2:textbox label="이거왜 안되는거야" style="" id="" class="txt_red"></w2:textbox>
-    	</xf:group>
-    	<xf:group class="bg_test" id="" style="width:499px;height:200px;">
+    	<xf:group style="" id="" class="wrapper">
+    		<xf:group style="" id="" class="page_header"></xf:group>
+    		<xf:group style="" id="" class="page_contents">
+    			<xf:group style="" id="" class="page_contents_inner"></xf:group>
+    		</xf:group>
     	</xf:group>
     </body>
 </html>
