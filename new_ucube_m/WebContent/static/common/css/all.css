@@ -109,11 +109,7 @@ h1,h2,h3,span,label,div,input,a{letter-spacing: -0.02em;}
 
 .bottomMenu{position: fixed; bottom: 0; width: 100%; min-width: 360px; height: 72px; background: #fff; border-top: 1px solid #DAE3ED;}
 .bottomMenu .navbox{display: flex; flex-direction: row; justify-content: space-around;}
-.bottomMenu .navbox .menu01,
-.bottomMenu .navbox .menu02,
-.bottomMenu .navbox .menu03,
-.bottomMenu .navbox .menu04,
-.bottomMenu .navbox .menu05{position: relative; width: 72px; height: 64px; background-position: center 11px; margin-top: 3px;}
+.bottomMenu .navbox .menu01,.bottomMenu .navbox .menu02,.bottomMenu .navbox .menu03,.bottomMenu .navbox .menu04,.bottomMenu .navbox .menu05{position: relative; width: 72px; height: 64px; background-position: center 11px; margin-top: 3px;}
 
 .navbox .title{position: absolute; bottom: 8px; width: 100%; text-align: center; color: #424952; font-weight: normal; font-size: 11px;}
 .navbox .on .title{position: absolute; bottom: 8px; width: 100%; text-align: center; color: #425FA3; font-weight: 500; font-size: 11px;}
