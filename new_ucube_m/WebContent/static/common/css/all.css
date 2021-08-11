@@ -110,7 +110,7 @@ body{overflow: hidden;}
 .bottomMenu .navbox .menu01,.bottomMenu .navbox .menu02,.bottomMenu .navbox .menu03,.bottomMenu .navbox .menu04,.bottomMenu .navbox .menu05{position: relative; width: 72px; height: 64px; background-position: center 11px; margin-top: 3px; background-repeat: no-repeat;}
 .navbox .title{position: absolute; bottom: 8px; width: 100%; text-align: center; color: #424952; font-weight: normal; font-size: 11px;}
 .navbox .on .title{position: absolute; bottom: 8px; width: 100%; text-align: center; color: #425FA3; font-weight: 500; font-size: 11px;}
-.navbox .numberbox{position: absolute; top: 19px; left: 39px; background: #F94B50; border: 1px solid #FFFFFF; border-radius: 5px; text-align: center; color: #fff; font-weight: 400; font-size: 10px; padding: 0px 3px 1px 2.5px;}
+.navbox .numberbox{position: absolute; top: 19px; left: 39px; background: #F94B50; border: 1px solid #FFFFFF; border-radius: 5px; text-align: center; color: #fff; font-weight: 400; font-size: 10px; padding: 0px 3px 1px;}
 .navbox .numberbox .num{line-height: 14px; letter-spacing: initial;}
 .menu01{background: url(./../images/ico_01_todo.svg);}
 .menu02{background: url(./../images/ico_02_search.svg);}
