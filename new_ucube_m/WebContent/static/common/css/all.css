@@ -127,6 +127,6 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow: hid
 .menu04.on{background: url(./../images/ico_04_area_on.svg);}
 .menu05.on{background: url(./../images/ico_05_alarm_on.svg);}
 
-/* 가입정보조회 */
+/* 가입정보조회 */ 
 .vcenter{display: flex; align-items: center;}
 .searchbox .inputbox{background: #FFFFFF; box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.22), 0px 7px 10px rgba(0, 0, 0, 0.12); border-radius: 4px; padding: 28px 24px 31px;}
