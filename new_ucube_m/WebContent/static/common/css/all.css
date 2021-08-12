@@ -14,7 +14,7 @@ table{width:100%;border-spacing:0; border-collapse:collapse;}
 img,fieldset{border:0;}
 address,cite,code,em{font-style:normal; font-weight:normal;}
 label,img,input,select,textarea,button{vertical-align:middle;}
-.hide,caption,legend{line-height:0; font-size:1px;overflow:hidden;}
+caption,legend{line-height:0; font-size:1px;overflow:hidden;}
 hr{display:none;}
 main,header,section,nav,footer,aside,article,figure{display:block;}
 a{color:#000; text-decoration:none;}
@@ -57,6 +57,8 @@ textarea[disabled]{padding:11px; font-size:16px; color:#666; font-weight:normal;
 
 .clear {clear:both;}
 .clear:after {content:""; display:block; clear:both;}
+.hide{display: none !important;}
+.show{display: block !important;}
 .txt_red{color:red;}
 .lta{float: left; vertical-align: middle;}
 .rta{float: right; vertical-align: middle;}
@@ -122,3 +124,4 @@ body{overflow: hidden;}
 .menu03.on{background: url(./../images/ico_03_filesearch_on.svg);}
 .menu04.on{background: url(./../images/ico_04_area_on.svg);}
 .menu05.on{background: url(./../images/ico_05_alarm_on.svg);}
+
