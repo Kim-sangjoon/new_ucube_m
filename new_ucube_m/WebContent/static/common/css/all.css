@@ -75,7 +75,7 @@ body{overflow: hidden;}
 .header .cta{text-align: center;}
 .header .btn_menu{display: block; height: 24px; width: 24px; background: url(./../images/ico_menu.svg); position: absolute; top: 16px; right: 16px;}
 
-.container{display: block; height: calc( 100vh - 127px); overflow-y: auto; }
+.container{display: block; height: calc( 100vh - 127px); overflow-y: auto; -webkit-overflow-scrolling: touch;}
 .container .container_inner{padding: 0 16px 16px 16px;}
 .filterbox{ border-top: 1px solid #DAE3ED;}
 .filterbox .fboxgroup{display: inline-block; width: 100%; margin-top: 16px; min-width: 315px;}

@@ -273,6 +273,222 @@
     							</xf:group>
     						</xf:group>
     					</xf:group>
+    					<xf:group class="ctbox" id="" style="">
+    						<xf:group class="stbox" id="" style="">
+    							<xf:group class="lta" id="" style="">
+    								<w2:textbox class="badge_gray" id="" label="접수대기" style="" tagname="span"></w2:textbox>
+    								<w2:textbox class="badge_red" id="" label="접점1차처리" style="" tagname="span"></w2:textbox>
+    								<w2:textbox class="badge_blue" id="" label="이동통신" style="" tagname="span"></w2:textbox>
+    							</xf:group>
+    							<xf:group class="rta" id="" style="">
+    								<w2:textbox class="period" id="" label="15일 남음" style="" tagname="span"></w2:textbox>
+    							</xf:group>
+    						</xf:group>
+    						<xf:group class="ifbox" id="" style="">
+    							<w2:textbox id="" label="상품번호" style="" tagname="label"></w2:textbox>
+    							<w2:textbox id="" label="0100****0000" style="" tagname="span"></w2:textbox>
+    							<xf:group class="bar" id="" style=""></xf:group>
+    							<w2:textbox id="" label="가입번호" style="" tagname="label"></w2:textbox>
+    							<w2:textbox id="" label="50000000000" style="" tagname="span"></w2:textbox>
+    						</xf:group>
+    						<xf:group class="psbox" id="" style="">
+    							<w2:textbox class="ct_text" id="" label="모바일_단순문의_자사 상품(요금제, 부가서비스, 부가서비스" style=""></w2:textbox>
+    							<xf:group class="rta" id="" style="">
+    								<w2:anchor class="process" id="" outerDiv="false" style="">
+    									<xf:label><![CDATA[처리]]></xf:label>
+    								</w2:anchor>
+    							</xf:group>
+    						</xf:group>
+    					</xf:group>
+    					<xf:group class="ctbox" id="" style="">
+    						<xf:group class="stbox" id="" style="">
+    							<xf:group class="lta" id="" style="">
+    								<w2:textbox class="badge_gray" id="" label="접수대기" style="" tagname="span"></w2:textbox>
+    								<w2:textbox class="badge_red" id="" label="접점1차처리" style="" tagname="span"></w2:textbox>
+    								<w2:textbox class="badge_blue" id="" label="이동통신" style="" tagname="span"></w2:textbox>
+    							</xf:group>
+    							<xf:group class="rta" id="" style="">
+    								<w2:textbox class="period" id="" label="15일 남음" style="" tagname="span"></w2:textbox>
+    							</xf:group>
+    						</xf:group>
+    						<xf:group class="ifbox" id="" style="">
+    							<w2:textbox id="" label="상품번호" style="" tagname="label"></w2:textbox>
+    							<w2:textbox id="" label="0100****0000" style="" tagname="span"></w2:textbox>
+    							<xf:group class="bar" id="" style=""></xf:group>
+    							<w2:textbox id="" label="가입번호" style="" tagname="label"></w2:textbox>
+    							<w2:textbox id="" label="50000000000" style="" tagname="span"></w2:textbox>
+    						</xf:group>
+    						<xf:group class="psbox" id="" style="">
+    							<w2:textbox class="ct_text" id="" label="모바일_단순문의_자사 상품(요금제, 부가서비스, 부가서비스" style=""></w2:textbox>
+    							<xf:group class="rta" id="" style="">
+    								<w2:anchor class="process" id="" outerDiv="false" style="">
+    									<xf:label><![CDATA[처리]]></xf:label>
+    								</w2:anchor>
+    							</xf:group>
+    						</xf:group>
+    					</xf:group>
+    					<xf:group class="ctbox" id="" style="">
+    						<xf:group class="stbox" id="" style="">
+    							<xf:group class="lta" id="" style="">
+    								<w2:textbox class="badge_gray" id="" label="접수대기" style="" tagname="span"></w2:textbox>
+    								<w2:textbox class="badge_red" id="" label="접점1차처리" style="" tagname="span"></w2:textbox>
+    								<w2:textbox class="badge_blue" id="" label="이동통신" style="" tagname="span"></w2:textbox>
+    							</xf:group>
+    							<xf:group class="rta" id="" style="">
+    								<w2:textbox class="period" id="" label="15일 남음" style="" tagname="span"></w2:textbox>
+    							</xf:group>
+    						</xf:group>
+    						<xf:group class="ifbox" id="" style="">
+    							<w2:textbox id="" label="상품번호" style="" tagname="label"></w2:textbox>
+    							<w2:textbox id="" label="0100****0000" style="" tagname="span"></w2:textbox>
+    							<xf:group class="bar" id="" style=""></xf:group>
+    							<w2:textbox id="" label="가입번호" style="" tagname="label"></w2:textbox>
+    							<w2:textbox id="" label="50000000000" style="" tagname="span"></w2:textbox>
+    						</xf:group>
+    						<xf:group class="psbox" id="" style="">
+    							<w2:textbox class="ct_text" id="" label="모바일_단순문의_자사 상품(요금제, 부가서비스, 부가서비스" style=""></w2:textbox>
+    							<xf:group class="rta" id="" style="">
+    								<w2:anchor class="process" id="" outerDiv="false" style="">
+    									<xf:label><![CDATA[처리]]></xf:label>
+    								</w2:anchor>
+    							</xf:group>
+    						</xf:group>
+    					</xf:group>
+    					<xf:group class="ctbox" id="" style="">
+    						<xf:group class="stbox" id="" style="">
+    							<xf:group class="lta" id="" style="">
+    								<w2:textbox class="badge_gray" id="" label="접수대기" style="" tagname="span"></w2:textbox>
+    								<w2:textbox class="badge_red" id="" label="접점1차처리" style="" tagname="span"></w2:textbox>
+    								<w2:textbox class="badge_blue" id="" label="이동통신" style="" tagname="span"></w2:textbox>
+    							</xf:group>
+    							<xf:group class="rta" id="" style="">
+    								<w2:textbox class="period" id="" label="15일 남음" style="" tagname="span"></w2:textbox>
+    							</xf:group>
+    						</xf:group>
+    						<xf:group class="ifbox" id="" style="">
+    							<w2:textbox id="" label="상품번호" style="" tagname="label"></w2:textbox>
+    							<w2:textbox id="" label="0100****0000" style="" tagname="span"></w2:textbox>
+    							<xf:group class="bar" id="" style=""></xf:group>
+    							<w2:textbox id="" label="가입번호" style="" tagname="label"></w2:textbox>
+    							<w2:textbox id="" label="50000000000" style="" tagname="span"></w2:textbox>
+    						</xf:group>
+    						<xf:group class="psbox" id="" style="">
+    							<w2:textbox class="ct_text" id="" label="모바일_단순문의_자사 상품(요금제, 부가서비스, 부가서비스" style=""></w2:textbox>
+    							<xf:group class="rta" id="" style="">
+    								<w2:anchor class="process" id="" outerDiv="false" style="">
+    									<xf:label><![CDATA[처리]]></xf:label>
+    								</w2:anchor>
+    							</xf:group>
+    						</xf:group>
+    					</xf:group>
+    					<xf:group class="ctbox" id="" style="">
+    						<xf:group class="stbox" id="" style="">
+    							<xf:group class="lta" id="" style="">
+    								<w2:textbox class="badge_gray" id="" label="접수대기" style="" tagname="span"></w2:textbox>
+    								<w2:textbox class="badge_red" id="" label="접점1차처리" style="" tagname="span"></w2:textbox>
+    								<w2:textbox class="badge_blue" id="" label="이동통신" style="" tagname="span"></w2:textbox>
+    							</xf:group>
+    							<xf:group class="rta" id="" style="">
+    								<w2:textbox class="period" id="" label="15일 남음" style="" tagname="span"></w2:textbox>
+    							</xf:group>
+    						</xf:group>
+    						<xf:group class="ifbox" id="" style="">
+    							<w2:textbox id="" label="상품번호" style="" tagname="label"></w2:textbox>
+    							<w2:textbox id="" label="0100****0000" style="" tagname="span"></w2:textbox>
+    							<xf:group class="bar" id="" style=""></xf:group>
+    							<w2:textbox id="" label="가입번호" style="" tagname="label"></w2:textbox>
+    							<w2:textbox id="" label="50000000000" style="" tagname="span"></w2:textbox>
+    						</xf:group>
+    						<xf:group class="psbox" id="" style="">
+    							<w2:textbox class="ct_text" id="" label="모바일_단순문의_자사 상품(요금제, 부가서비스, 부가서비스" style=""></w2:textbox>
+    							<xf:group class="rta" id="" style="">
+    								<w2:anchor class="process" id="" outerDiv="false" style="">
+    									<xf:label><![CDATA[처리]]></xf:label>
+    								</w2:anchor>
+    							</xf:group>
+    						</xf:group>
+    					</xf:group>
+    					<xf:group class="ctbox" id="" style="">
+    						<xf:group class="stbox" id="" style="">
+    							<xf:group class="lta" id="" style="">
+    								<w2:textbox class="badge_gray" id="" label="접수대기" style="" tagname="span"></w2:textbox>
+    								<w2:textbox class="badge_red" id="" label="접점1차처리" style="" tagname="span"></w2:textbox>
+    								<w2:textbox class="badge_blue" id="" label="이동통신" style="" tagname="span"></w2:textbox>
+    							</xf:group>
+    							<xf:group class="rta" id="" style="">
+    								<w2:textbox class="period" id="" label="15일 남음" style="" tagname="span"></w2:textbox>
+    							</xf:group>
+    						</xf:group>
+    						<xf:group class="ifbox" id="" style="">
+    							<w2:textbox id="" label="상품번호" style="" tagname="label"></w2:textbox>
+    							<w2:textbox id="" label="0100****0000" style="" tagname="span"></w2:textbox>
+    							<xf:group class="bar" id="" style=""></xf:group>
+    							<w2:textbox id="" label="가입번호" style="" tagname="label"></w2:textbox>
+    							<w2:textbox id="" label="50000000000" style="" tagname="span"></w2:textbox>
+    						</xf:group>
+    						<xf:group class="psbox" id="" style="">
+    							<w2:textbox class="ct_text" id="" label="모바일_단순문의_자사 상품(요금제, 부가서비스, 부가서비스" style=""></w2:textbox>
+    							<xf:group class="rta" id="" style="">
+    								<w2:anchor class="process" id="" outerDiv="false" style="">
+    									<xf:label><![CDATA[처리]]></xf:label>
+    								</w2:anchor>
+    							</xf:group>
+    						</xf:group>
+    					</xf:group>
+    					<xf:group class="ctbox" id="" style="">
+    						<xf:group class="stbox" id="" style="">
+    							<xf:group class="lta" id="" style="">
+    								<w2:textbox class="badge_gray" id="" label="접수대기" style="" tagname="span"></w2:textbox>
+    								<w2:textbox class="badge_red" id="" label="접점1차처리" style="" tagname="span"></w2:textbox>
+    								<w2:textbox class="badge_blue" id="" label="이동통신" style="" tagname="span"></w2:textbox>
+    							</xf:group>
+    							<xf:group class="rta" id="" style="">
+    								<w2:textbox class="period" id="" label="15일 남음" style="" tagname="span"></w2:textbox>
+    							</xf:group>
+    						</xf:group>
+    						<xf:group class="ifbox" id="" style="">
+    							<w2:textbox id="" label="상품번호" style="" tagname="label"></w2:textbox>
+    							<w2:textbox id="" label="0100****0000" style="" tagname="span"></w2:textbox>
+    							<xf:group class="bar" id="" style=""></xf:group>
+    							<w2:textbox id="" label="가입번호" style="" tagname="label"></w2:textbox>
+    							<w2:textbox id="" label="50000000000" style="" tagname="span"></w2:textbox>
+    						</xf:group>
+    						<xf:group class="psbox" id="" style="">
+    							<w2:textbox class="ct_text" id="" label="모바일_단순문의_자사 상품(요금제, 부가서비스, 부가서비스" style=""></w2:textbox>
+    							<xf:group class="rta" id="" style="">
+    								<w2:anchor class="process" id="" outerDiv="false" style="">
+    									<xf:label><![CDATA[처리]]></xf:label>
+    								</w2:anchor>
+    							</xf:group>
+    						</xf:group>
+    					</xf:group>
+    					<xf:group class="ctbox" id="" style="">
+    						<xf:group class="stbox" id="" style="">
+    							<xf:group class="lta" id="" style="">
+    								<w2:textbox class="badge_gray" id="" label="접수대기" style="" tagname="span"></w2:textbox>
+    								<w2:textbox class="badge_red" id="" label="접점1차처리" style="" tagname="span"></w2:textbox>
+    								<w2:textbox class="badge_blue" id="" label="이동통신" style="" tagname="span"></w2:textbox>
+    							</xf:group>
+    							<xf:group class="rta" id="" style="">
+    								<w2:textbox class="period" id="" label="15일 남음" style="" tagname="span"></w2:textbox>
+    							</xf:group>
+    						</xf:group>
+    						<xf:group class="ifbox" id="" style="">
+    							<w2:textbox id="" label="상품번호" style="" tagname="label"></w2:textbox>
+    							<w2:textbox id="" label="0100****0000" style="" tagname="span"></w2:textbox>
+    							<xf:group class="bar" id="" style=""></xf:group>
+    							<w2:textbox id="" label="가입번호" style="" tagname="label"></w2:textbox>
+    							<w2:textbox id="" label="50000000000" style="" tagname="span"></w2:textbox>
+    						</xf:group>
+    						<xf:group class="psbox" id="" style="">
+    							<w2:textbox class="ct_text" id="" label="모바일_단순문의_자사 상품(요금제, 부가서비스, 부가서비스" style=""></w2:textbox>
+    							<xf:group class="rta" id="" style="">
+    								<w2:anchor class="process" id="" outerDiv="false" style="">
+    									<xf:label><![CDATA[처리]]></xf:label>
+    								</w2:anchor>
+    							</xf:group>
+    						</xf:group>
+    					</xf:group>
     				</xf:group>
 
     			</xf:group>
