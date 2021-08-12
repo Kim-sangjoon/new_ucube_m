@@ -66,7 +66,7 @@ textarea[disabled]{padding:11px; font-size:16px; color:#666; font-weight:normal;
 h1,h2,h3,span,label,div,input,a{letter-spacing: -0.02em;}
 
 /* Main To-Do layout */
-body{overflow: hidden;}
+html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow: hidden;}
 .wrapper{display: flex; flex-direction: column; min-width: 360px;}
 .header{padding: 15px 16px; position: relative;}
 .header .titlebar{display: inline; height: 56px;}
