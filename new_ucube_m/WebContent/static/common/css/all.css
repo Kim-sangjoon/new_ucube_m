@@ -75,6 +75,7 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow: hid
 .header .titlebar em{font-weight: 500; color: #8996A3; font-size: 13px; padding-left: 8px; vertical-align: middle;}
 .header .cta{text-align: center;}
 .header .btn_menu{display: block; height: 24px; width: 24px; background: url(./../images/ico_menu.svg); position: absolute; top: 16px; right: 16px;}
+.header .btn_pre{display: block; height: 24px; width: 24px; background: url(./../images/ico_pre.svg); position: absolute; top: 16px; left: 16px;}
 
 .container{display: block; height: calc( 100vh - 127px); overflow-y: auto; -webkit-overflow-scrolling: touch;}
 .container .container_inner{padding: 0 16px 16px 16px;}
@@ -145,6 +146,29 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow: hid
 .searchbox .inputbox .boxitem{margin-top: 24px;}
 .searchbox .inputbox .boxitem:first-child{margin-top: 0px;}
 .searchbox .inputbox .boxitem label{display: inline-block; position: relative; font-weight:500; color: #A5B3C2; font-size: 14px; line-height: 20px;}
-.searchbox .inputbox .boxitem label.req::after{content: ''; display: block; position: absolute; top:0; right:0; width: 6px; height: 21px; background: url(./../images/ico_req.svg);}
+.searchbox .inputbox .boxitem label.req::after{content: ''; display: block; position: absolute; top:0; right:-7px; width: 6px; height: 21px; background: url(./../images/ico_req.svg);}
 .searchbox .inputbox .boxitem input[type=text]{background: #FFFFFF; border: none; border-bottom: 1px solid #BEC9D4; padding: 0px; height: 32px;}
+.searchbox .inputbox .boxitem input.ico_address{padding-left: 36px; background: url(./../images/Ico_address.svg) no-repeat; background-position: 0 1px; width: calc(100% - 36px);}
 .searchbox .inputbox .boxitem input.req{border-bottom: 1px solid #2FB8A8;}
+/* .searchbox .inputbox.fadein{animation: fadein 0.3s; animation-fill-mode: forwards;} */
+/* .searchbox .inputbox.fadeout{animation: fadeout 0.3s; animation-fill-mode: forwards;} */
+@keyframes fadeout {
+    from {
+        opacity: 1;
+    } to {
+        opacity: 0;
+    }
+}
+@keyframes fadein {
+    from {
+        opacity: 0;
+    } to {
+        opacity: 1;
+    }
+}
+
+.btnbox{margin-top: 24px; display: flex; flex-direction: row; gap: 8px;}
+.btnbox .btn_sh{border: none; width: 100%; background: #7B558D; border-radius: 4px; color: #FFFFFF; font-weight: 500; font-size: 15px; line-height: 48px; text-align: center; letter-spacing: -0.02em;}
+.btnbox .btn_sh.w2trigger_disabled{background: #E8EFF5; color: #BEC9D4;}
+
+

@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml"
     xmlns:ev="http://www.w3.org/2001/xml-events"
     xmlns:w2="http://www.inswave.com/websquare" xmlns:xf="http://www.w3.org/2002/xforms">
-    <head meta_programName="메인화면 - 고객조회">
+    <head meta_programName="메인화면 - 고객조회결과">
     	<w2:type>DEFAULT</w2:type>
         <w2:buildDate/>
         <xf:model>
@@ -67,54 +67,17 @@
     <body ev:onpageload="scwin.onpageload" ev:onpageunload="scwin.onpageunload">
     	<xf:group style="" id="" class="wrapper">
     		<xf:group style="" id="" class="header" tagname="section">
-    			
-    		<xf:group style="" id="" class="titlebar">
-    				<xf:group id="" class="cta"><w2:textbox tagname="h2" style="" label="가입정보조회" id="" class="title"></w2:textbox></xf:group></xf:group><xf:group tagname="button" style="" id="" class="btn_menu"></xf:group></xf:group>
-    		<xf:group style="" id="" class="container vcenter" tagname="section">
-    			<xf:group style="" id="" class="container_inner">
-    				<xf:group style="" id="" class="searchbox">
-    					<xf:group style="" id="serviceToggleBtn" class="toggle_swich mobile" ev:onclick="scwin.serviceToggleBtn_onclick">
-    						<xf:group style="" id="" class="bg"></xf:group>
-    						<xf:group class="btn" id="" style=""></xf:group>
-    						<xf:group class="label" id="" style="">
-    							<w2:textbox id="" label="모바일" style="" tagname="span" class="mobile"></w2:textbox>
-    							<w2:textbox id="" label="홈" style="" tagname="span" class="home"></w2:textbox>
-    						</xf:group>
-    					</xf:group>
-    					<xf:group id="ipxMobile" style="" class="inputbox">
-    						<xf:group id="" class="boxitem">
-    							<w2:textbox tagname="label" style="" label="상품번호" id="" class=""></w2:textbox>
-    							<xf:input adjustMaxLength="false" style="" id="ipxMoProductNo" placeholder="01000000000" class="" dataType="" ev:onchange="" ev:onkeydown="scwin.ipxMoProductNo_onkeydown"></xf:input>
-    						</xf:group>
-    						<xf:group class="boxitem" id="" style="">
-    							<w2:textbox id="" label="고객명" style="" tagname="label"></w2:textbox>
-    							<xf:input adjustMaxLength="false" id="" style="" placeholder="홍길동"></xf:input>
-    						</xf:group>
-    						<xf:group class="boxitem" id="" style="">
-    							<w2:textbox id="" label="생년월일" style="" tagname="label"></w2:textbox>
-    							<xf:input adjustMaxLength="false" id="" style="" placeholder="1900-00-00"></xf:input>
-    						</xf:group>
-    					</xf:group>
-    					<xf:group class="inputbox" id="ipxHome" style="" adaptiveThreshold="">
-    						<xf:group class="boxitem" id="">
-    							<w2:textbox class="req" id="" label="고객명" style="" tagname="label"></w2:textbox>
-    							<xf:input adjustMaxLength="false" class="req" dataType="" id="ipxHoCustomerNm" placeholder="홍길동" style="" ev:onkeydown="scwin.ipxHoCustomerNm_onkeydown"></xf:input>
-    						</xf:group>
-    						<xf:group class="boxitem" id="" style="">
-    							<w2:textbox id="" label="생년월일" style="" tagname="label" class="req"></w2:textbox>
-    							<xf:input adjustMaxLength="false" id="" placeholder="1900-00-00" style="" class="req"></xf:input>
-    						</xf:group>
-    						<xf:group class="boxitem" id="" style="">
-    							<w2:textbox id="" label="설치주소(시군구)" style="" tagname="label"></w2:textbox>
-    							<xf:input adjustMaxLength="false" id="" placeholder="설치주소 검색입력" style="" class="ico_address"></xf:input>
-    						</xf:group>
-    					</xf:group>
-    					<xf:group id="" style="" class="btnbox">
-    						<xf:trigger type="button" style="" id="btnSearch" class="btn_sh" disabled="true">
-    							<xf:label><![CDATA[조회]]></xf:label>
-    						</xf:trigger>
-    					</xf:group>
+
+    			<xf:group style="" id="" class="titlebar">
+    				<xf:group id="" class="cta">
+    					<w2:textbox tagname="h2" style="" label="조회 결과" id="" class="title"></w2:textbox>
     				</xf:group>
+    			</xf:group>
+    			<xf:group tagname="button" style="" id="" class="btn_menu" text=""></xf:group>
+    			<xf:group class="btn_pre" id="" style="" tagname="button"></xf:group>
+    		</xf:group>
+    		<xf:group style="" id="" class="container" tagname="section">
+    			<xf:group style="" id="" class="container_inner">
 
     			</xf:group>
     		</xf:group>
