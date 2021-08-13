@@ -45,8 +45,9 @@
 	
 	/* 모바일 > 상품번호 입력 */
 	scwin.ipxMoProductNo_onkeydown = function(e) {		
-		const cipxMoProductNo = ipxMoProductNo.getValue();		
-		if(cipxMoProductNo.length > 0) {
+		const cipxMoProductNo = ipxMoProductNo.getValue();
+		console.log(cipxMoProductNo.length);
+		if(cipxMoProductNo.length > 1) {
 			btnSearch.setDisabled(false);
 		} else {
 			btnSearch.setDisabled(true);
@@ -56,7 +57,7 @@
 	/* 홈 > 고객명 입력 */
 	scwin.ipxHoCustomerNm_onkeydown = function(e) {		
 		const cipxHoCustomerNm = ipxHoCustomerNm.getValue();		
-		if(cipxHoCustomerNm.length > 0) {
+		if(cipxHoCustomerNm.length > 1) {
 			btnSearch.setDisabled(false);
 		} else {
 			btnSearch.setDisabled(true);
