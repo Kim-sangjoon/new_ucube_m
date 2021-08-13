@@ -57,15 +57,15 @@
     							</xf:group>
     						</xf:group>
     						<xf:group id="" style="" class="inputbox">
-    							<xf:group id="" class="item">
-    								<w2:textbox tagname="label" style="" label="상품번호" id=""></w2:textbox>
-    								<xf:input adjustMaxLength="false" style="" id="" placeholder="01000000000"></xf:input>
+    							<xf:group id="" class="boxitem">
+    								<w2:textbox tagname="label" style="" label="상품번호" id="" class="req"></w2:textbox>
+    								<xf:input adjustMaxLength="false" style="" id="" placeholder="01000000000" class="req"></xf:input>
     							</xf:group>
-    							<xf:group class="item" id="" style="">
+    							<xf:group class="boxitem" id="" style="">
     								<w2:textbox id="" label="고객명" style="" tagname="label"></w2:textbox>
     								<xf:input adjustMaxLength="false" id="" style="" placeholder="홍길동"></xf:input>
     							</xf:group>
-    							<xf:group class="item" id="" style="">
+    							<xf:group class="boxitem" id="" style="">
     								<w2:textbox id="" label="생년월일" style="" tagname="label"></w2:textbox>
     								<xf:input adjustMaxLength="false" id="" style="" placeholder="1900-00-00"></xf:input>
     							</xf:group>
