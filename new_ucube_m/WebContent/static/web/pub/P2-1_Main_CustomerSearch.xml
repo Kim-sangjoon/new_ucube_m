@@ -24,6 +24,19 @@
 		
 	};
 	
+	
+	scwin.serviceToggleBtn_onclick = function(e) {
+		const stb = serviceToggleBtn;		
+		if (stb.hasClass("mobile") || !stb.hasClass("home")){
+			stb.removeClass("mobile");
+			stb.addClass("home");
+			console.log("홈");
+		} else if (stb.hasClass("home")){
+			stb.removeClass("home");
+			stb.addClass("mobile");
+			console.log("모바일");
+		}
+	};
 	]]></script>
     </head>
     <body ev:onpageload="scwin.onpageload" ev:onpageunload="scwin.onpageunload">
@@ -35,7 +48,7 @@
     		<xf:group style="" id="" class="container vcenter" tagname="section">
     			<xf:group style="" id="" class="container_inner">
     				<xf:group style="" id="" class="searchbox">
-    						<xf:group style="" id="" class="toggle_swich">
+    						<xf:group style="" id="serviceToggleBtn" class="toggle_swich mobile" ev:onclick="scwin.serviceToggleBtn_onclick">
     							<xf:group style="" id="" class="bg"></xf:group>
     							<xf:group class="btn" id="" style=""></xf:group>
     							<xf:group class="label" id="" style="">
