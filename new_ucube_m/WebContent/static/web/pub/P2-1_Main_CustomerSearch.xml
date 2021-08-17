@@ -110,12 +110,12 @@
     							<xf:input adjustMaxLength="false" id="" placeholder="설치주소 검색입력" style="" class="ico_address"></xf:input>
     						</xf:group>
     					</xf:group>
-    					<xf:group id="" style="" class="btnbox">
+    					
+    				</xf:group><xf:group id="" style="" class="btnbox">
     						<xf:trigger type="button" style="" id="btnSearch" class="btn_sh" disabled="true">
     							<xf:label><![CDATA[조회]]></xf:label>
     						</xf:trigger>
     					</xf:group>
-    				</xf:group>
 
     			</xf:group>
     		</xf:group>

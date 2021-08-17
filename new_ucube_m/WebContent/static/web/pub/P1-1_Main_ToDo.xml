@@ -71,7 +71,7 @@
     						</xf:group>
     					</xf:group>
     				</xf:group>
-    				<xf:group style="" id="" tagname="section">
+    				<xf:group style="" id="" tagname="" userData2="" class="todo_listbox">
     					<xf:group style="" id="" class="ctbox">
     						<xf:group style="" id="" class="stbox">
     							<xf:group style="" id="" class="lta">

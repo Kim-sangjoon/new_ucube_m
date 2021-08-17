@@ -79,6 +79,128 @@
     		<xf:group style="" id="" class="container" tagname="section">
     			<xf:group style="" id="" class="container_inner">
 
+    				<xf:group style="" id="" tagname="" class="result_listbox">
+    					<xf:group class="result_header" id="" style="">
+    						<w2:textbox id="" label="가입번호/설치주소" style="" tagname="label"></w2:textbox>
+    						<w2:textbox id="" label="상품" style="" tagname="label"></w2:textbox>
+    						<w2:textbox id="" label="서비스" style="" tagname="label"></w2:textbox>
+    					</xf:group>
+    					<xf:group style="" id="" class="result_body">
+    						<xf:group class="item mobile" id="" style="">
+    							<xf:group class="lta" id="" style="">
+    								<w2:textbox id="" label="50001234****" style="" tagname="span"></w2:textbox>
+    								<w2:textbox id="" label="이동통신" style="" tagname="span"></w2:textbox>
+    								<w2:textbox id="" label="5G 프리미엄" style="" tagname="span"></w2:textbox>
+    							</xf:group>
+    							<xf:group class="rta" id="" style="">
+    								<w2:anchor class="ico_next" id="" outerDiv="false" style="">
+    									<xf:label><![CDATA[다음]]></xf:label>
+    								</w2:anchor>
+    							</xf:group>
+    						</xf:group>
+    						<xf:group class="item mobile" id="" style="">
+    							<xf:group class="lta" id="" style="">
+    								<w2:textbox id="" label="50001234****" style="" tagname="span"></w2:textbox>
+    								<w2:textbox id="" label="이동통신" style="" tagname="span"></w2:textbox>
+    								<w2:textbox id="" label="추가 요금 걱정안하는 상품" style="" tagname="span"></w2:textbox>
+    							</xf:group>
+    							<xf:group class="rta" id="" style="">
+    								<w2:anchor class="ico_next" id="" outerDiv="false" style="">
+    									<xf:label><![CDATA[다음]]></xf:label>
+    								</w2:anchor>
+    							</xf:group>
+    						</xf:group>
+    						<xf:group id="" class="item home">
+    							<xf:group style="" id="" class="lta">
+    								<w2:textbox tagname="span" style="" id="" label="50001234****"></w2:textbox>
+    								<w2:textbox tagname="span" style="" id="" label="U+인터넷"></w2:textbox>
+    								<w2:textbox tagname="span" style="" id="" label="광랜_19"></w2:textbox>
+    								<xf:group id="" class="address">
+    									<w2:textbox tagname="span" style="" id="" label="인천 남구 염창로 ***-**"></w2:textbox>
+    								</xf:group>
+
+    							</xf:group>
+    							<xf:group style="" id="" class="rta">
+    								<w2:anchor outerDiv="false" style="" id="" class="ico_next">
+    									<xf:label><![CDATA[다음]]></xf:label>
+    								</w2:anchor>
+    							</xf:group>
+    						</xf:group>
+    						<xf:group class="item home" id="" style="">
+    							<xf:group class="lta" id="" style="">
+    								<w2:textbox id="" label="50001234****" style="" tagname="span"></w2:textbox>
+    								<w2:textbox id="" label="U+TV" style="" tagname="span"></w2:textbox>
+    								<w2:textbox id="" label="베이직" style="" tagname="span"></w2:textbox>
+    								<xf:group class="address" id="">
+    									<w2:textbox id="" label="서울시 마포구 상암동 1600 (주)엘지**** ****" style="" tagname="span"></w2:textbox>
+    								</xf:group>
+    							</xf:group>
+    							<xf:group class="rta" id="" style="">
+    								<w2:anchor class="ico_next" id="" outerDiv="false" style="">
+    									<xf:label><![CDATA[다음]]></xf:label>
+    								</w2:anchor>
+    							</xf:group>
+    						</xf:group>
+    						<xf:group class="item home" id="" style="">
+    							<xf:group class="lta" id="" style="">
+    								<w2:textbox id="" label="50001234****" style="" tagname="span"></w2:textbox>
+    								<w2:textbox id="" label="U+TV" style="" tagname="span"></w2:textbox>
+    								<w2:textbox id="" label="베이직" style="" tagname="span"></w2:textbox>
+    								<xf:group class="address" id="">
+    									<w2:textbox id="" label="서울시 마포구 상암동 1600 (주)엘지**** ****" style="" tagname="span"></w2:textbox>
+    								</xf:group>
+    							</xf:group>
+    							<xf:group class="rta" id="" style="">
+    								<w2:anchor class="ico_next" id="" outerDiv="false" style="">
+    									<xf:label><![CDATA[다음]]></xf:label>
+    								</w2:anchor>
+    							</xf:group>
+    						</xf:group>
+    						<xf:group class="item home" id="" style="">
+    							<xf:group class="lta" id="" style="">
+    								<w2:textbox id="" label="50001234****" style="" tagname="span"></w2:textbox>
+    								<w2:textbox id="" label="U+인터넷" style="" tagname="span"></w2:textbox>
+    								<w2:textbox id="" label="내맘대로 패키지" style="" tagname="span"></w2:textbox>
+    								<xf:group class="address" id="">
+    									<w2:textbox id="" label="인천 남구 염창로 ***-**" style="" tagname="span"></w2:textbox>
+    								</xf:group>
+    							</xf:group>
+    							<xf:group class="rta" id="" style="">
+    								<w2:anchor class="ico_next" id="" outerDiv="false" style="">
+    									<xf:label><![CDATA[다음]]></xf:label>
+    								</w2:anchor>
+    							</xf:group>
+    						</xf:group>
+    						<xf:group class="item mobile" id="" style="">
+    							<xf:group class="lta" id="" style="">
+    								<w2:textbox id="" label="50004494****" style="" tagname="span"></w2:textbox>
+    								<w2:textbox id="" label="이동통신" style="" tagname="span"></w2:textbox>
+    								<w2:textbox id="" label="5G 청소년" style="" tagname="span"></w2:textbox>
+    							</xf:group>
+    							<xf:group class="rta" id="" style="">
+    								<w2:anchor class="ico_next" id="" outerDiv="false" style="">
+    									<xf:label><![CDATA[다음]]></xf:label>
+    								</w2:anchor>
+    							</xf:group>
+    						</xf:group>
+    						<xf:group class="item home" id="" style="">
+    							<xf:group class="lta" id="" style="">
+    								<w2:textbox id="" label="50001234****" style="" tagname="span"></w2:textbox>
+    								<w2:textbox id="" label="U+인터넷" style="" tagname="span"></w2:textbox>
+    								<w2:textbox id="" label="내맘대로 패키지" style="" tagname="span"></w2:textbox>
+    								<xf:group class="address" id="">
+    									<w2:textbox id="" label="경기 동두천시 지행로 50 **리 ****" style="" tagname="span"></w2:textbox>
+    								</xf:group>
+    							</xf:group>
+    							<xf:group class="rta" id="" style="">
+    								<w2:anchor class="ico_next" id="" outerDiv="false" style="">
+    									<xf:label><![CDATA[다음]]></xf:label>
+    								</w2:anchor>
+    							</xf:group>
+    						</xf:group>
+
+    					</xf:group>
+    				</xf:group>
     			</xf:group>
     		</xf:group>
     		<xf:group style="" id="" class="bottomMenu" tagname="section">
