@@ -8,7 +8,7 @@ dl,dt,dd,table,thead,tbody,tfoot,label,caption,th,td,form,fieldset,legend,hr,inp
 html, body{width:100%;}
 html{-webkit-touch-callout:none; -webkit-user-select:none; user-select:none; -webkit-tap-highlight-color:rgba(0, 0, 0, 0);}
 body{width:100%; min-width:320px; -webkit-text-size-adjust:none; word-wrap:break-word; word-break:break-all;}
-body,input,.w2input,select,textarea,button,span,label {border:none; font-size:12px; font-family:"Noto Sans KR", sans-serif; color:#424952;}
+body,input,.w2input,select,textarea,button,span,label {border:none; font-size:12px; font-family:"Noto Sans KR", Malgun Gothic, sans-serif; color:#424952;}
 ul,ol,li{list-style:none;}
 table{width:100%;border-spacing:0; border-collapse:collapse;}
 img,fieldset{border:0;}
@@ -197,5 +197,46 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow: hid
 .result_body .item {position: relative;}
 .result_body .item .rta > .ico_next{position: absolute; right: 8px; top: calc( 50% - 10px ); display: block; height: 20px; width: 20px; background: url(./../images/ico_arrow_right20.svg); text-indent: -9999px; font-size:1px; color: transparent; }
 
+/* 가입정보조회상세 */
+.csinfobox{margin-top: 16px;}
+.csinfobox .title{height: 33px;}
+.csinfobox .title span{display: inline-block; color: #202020; font-weight: 800; font-size: 22px; vertical-align: middle;}
+.csinfobox .title .name{margin-right: 5px;}
+.csinfobox .title .text{margin-right: 8px;}
+.csinfobox .title .badge{display: inline-block; padding: 1px 6px 3px; background: linear-gradient(90deg, #FF53A5 0%, #FFBB8A 100%); border-radius: 3px; font-family: Malgun Gothic; color: #FFFFFF; font-size: 12px; font-weight: normal;}
+
+.csinfobox .listbox{margin-top: 12px;}
+.csinfobox .listbox li{position:relative; padding-left: 12px; line-height: 26px;}
+.csinfobox .listbox li::before{content: ''; display: block; position: absolute; background: #A5B3C2; width: 4px; height: 4px; border-radius: 4px; left: 0; top: 12px;}
+.csinfobox .listbox li .title{font-size: 13px; color: #424952; font-weight: 500; margin-right: 8px;}
+.csinfobox .listbox li .text{font-size: 13px; color: #56606B; font-weight: 300;}
 
 
+.carouselboxwrap{position: relative;}
+.carouselbox{position: relative; left: 16px;}
+.carouselbox.col{padding-bottom: 0px;}
+.carouselbox .itembox {display: flex; flex-direction: row;}
+.carouselbox.col .itembox {display: flex; flex-direction: column;}
+.carouselbox .itembox > .item{flex: none; width: calc(100vw - 32px); background: #9A69ED; border-radius: 8px; height: 216px; margin-right: 10px; overflow: hidden;}
+.carouselbox .itembox > .item .titlewrap{}
+.carouselbox .itembox > .item .contlist{}
+.carouselbox .itembox > .item:last-child,.carouselbox.col .itembox > .item:last-child{background: #424952; margin-right: 0; margin-bottom: 0;}
+.carouselbox.col .itembox > .item{flex: none; width: calc(100vw - 32px); background: #9A69ED; border-radius: 8px; height: 216px; margin-bottom: 10px; margin-right: 0px;}
+
+.indibox{display: flex; justify-content: center; margin-top: 16px;}
+.indibox > .circle{display: inline-block; width: 6px; height: 6px; background: #DAE3ED; border-radius: 99px; margin-right: 5px;}
+.indibox > .circle:last-child{margin-right: 0px;}
+.indibox > .circle.on{background: #9A69ED; width: 12px;}
+.carouselbox.col + .indibox{display: none;}
+.vhtoggle{position: absolute; top: 8px; right: 8px; width: 70px; height: 37px; background: #FFFFFF; box-shadow: 0px 0px 2px rgba(86, 36, 104, 0.22), 0px 7px 20px rgba(167, 81, 235, 0.3); border-radius: 99px; z-index: 1;}
+.vhtoggle::before{content: '확장'; color:#56606B; font-size: 12px; position: absolute; top: 10px; left: 13px; font-weight: 500; white-space: nowrap;}
+.vhtoggle::after{content: ''; background: url(./../images/ico_arrow_down22.svg); display: block; position: absolute; top: 8px; right: 10px; width: 22px; height: 22px;}
+.carouselbox.col + .indibox + .vhtoggle{position: fixed; top: calc(100vh - 125px);}
+.carouselbox.col + .indibox + .vhtoggle::before{content: '축소'; color:#56606B; font-size: 12px; position: absolute; top: 10px; left: 13px; font-weight: 500;}
+.carouselbox.col + .indibox + .vhtoggle::after{content: ''; background: url(./../images/ico_arrow_up22.svg); display: block; position: absolute; top: 8px; right: 10px; width: 22px; height: 22px;}
+
+.infoboxwrap{margin-top: 16px;}
+.infobox{background: #F5F7FA; border-radius: 8px; padding: 12px 12px 12px 16px;}
+.infobox .dfbox{position: relative; width: 100%; margin: 0 0 19px; box-sizing: border-box;}
+.infobox .dfbox h3{display:inline-block; font-size: 17px; color: #202020; font-weight: 800; line-height: 34px; }
+.infobox .dfbox .btn_df{border: 1px solid #DAE3ED; box-sizing: border-box; border-radius: 2px; padding: 5.5px 8px; color: #56606B; background: #FFFFFF; line-height: 21px; font-weight: 800;}
