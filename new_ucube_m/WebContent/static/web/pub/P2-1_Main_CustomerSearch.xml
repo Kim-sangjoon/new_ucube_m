@@ -72,20 +72,19 @@
     		<xf:group style="" id="" class="titlebar">
     				<xf:group id="" class="cta"><w2:textbox tagname="h2" style="" label="가입정보조회" id="" class="title"></w2:textbox></xf:group></xf:group><xf:group tagname="button" style="" id="" class="btn_menu"></xf:group></xf:group>
     		<xf:group style="" id="" class="container vcenter" tagname="section">
-    			<xf:group style="" id="" class="container_inner">
-    				<xf:group style="" id="" class="searchbox">
-    					<xf:group style="" id="serviceToggleBtn" class="toggle_swich mobile" ev:onclick="scwin.serviceToggleBtn_onclick">
+    			<xf:group style="" id="" class="container_inner"><xf:group style="" id="" class="searchbox">
+    					
+    					<xf:group ev:onclick="scwin.serviceToggleBtn_onclick" style="" id="serviceToggleBtn" class="toggle_swich mobile">
     						<xf:group style="" id="" class="bg"></xf:group>
-    						<xf:group class="btn" id="" style=""></xf:group>
-    						<xf:group class="label" id="" style="">
-    							<w2:textbox id="" label="모바일" style="" tagname="span" class="mobile"></w2:textbox>
-    							<w2:textbox id="" label="홈" style="" tagname="span" class="home"></w2:textbox>
+    						<xf:group style="" id="" class="btn"></xf:group>
+    						<xf:group style="" id="" class="label">
+    							<w2:textbox tagname="span" style="" id="" label="모바일" class="mobile"></w2:textbox>
+    							<w2:textbox tagname="span" style="" id="" label="홈" class="home"></w2:textbox>
     						</xf:group>
-    					</xf:group>
-    					<xf:group id="ipxMobile" style="" class="inputbox">
+    					</xf:group><xf:group id="ipxMobile" style="" class="inputbox">
     						<xf:group id="" class="boxitem">
     							<w2:textbox tagname="label" style="" label="상품번호" id="" class=""></w2:textbox>
-    							<xf:input adjustMaxLength="false" style="" id="ipxMoProductNo" placeholder="01000000000" class="" dataType="" ev:onchange="" ev:onkeydown="scwin.ipxMoProductNo_onkeydown"></xf:input>
+    							<xf:input adjustMaxLength="false" style="" id="ipxMoProductNo" placeholder="01000000000" class="" dataType="number" ev:onchange="" ev:onkeydown="scwin.ipxMoProductNo_onkeydown"></xf:input>
     						</xf:group>
     						<xf:group class="boxitem" id="" style="">
     							<w2:textbox id="" label="고객명" style="" tagname="label"></w2:textbox>
@@ -93,7 +92,7 @@
     						</xf:group>
     						<xf:group class="boxitem" id="" style="">
     							<w2:textbox id="" label="생년월일" style="" tagname="label"></w2:textbox>
-    							<xf:input adjustMaxLength="false" id="" style="" placeholder="1900-00-00"></xf:input>
+    							<xf:input adjustMaxLength="false" id="" style="" placeholder="1900-00-00" dataType="date"></xf:input>
     						</xf:group>
     					</xf:group>
     					<xf:group class="inputbox" id="ipxHome" style="" adaptiveThreshold="">
@@ -103,7 +102,7 @@
     						</xf:group>
     						<xf:group class="boxitem" id="" style="">
     							<w2:textbox id="" label="생년월일" style="" tagname="label" class="req"></w2:textbox>
-    							<xf:input adjustMaxLength="false" id="" placeholder="1900-00-00" style="" class="req"></xf:input>
+    							<xf:input adjustMaxLength="false" id="" placeholder="1900-00-00" style="" class="req" dataType="date"></xf:input>
     						</xf:group>
     						<xf:group class="boxitem" id="" style="">
     							<w2:textbox id="" label="설치주소(시군구)" style="" tagname="label"></w2:textbox>
