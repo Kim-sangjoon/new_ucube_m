@@ -196,10 +196,8 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow: hid
 .result_body .item .lta > span:nth-child(1){width: 118px; color: #202020; font-size: 14px; }
 .result_body .item .lta > span:nth-child(2){width: 68px;}
 .result_body .item .lta > span:nth-child(3){width: calc(100vw - 260px);}
-
 .result_body .item .lta > .address{margin-top: 2px;}
 .result_body .item .lta > .address > span{display: inline-block; height: 18px; color: #A27FB1; font-weight: 300; overflow: hidden; text-overflow: ellipsis; width: calc(100vw - 90px);}
-
 .result_body .item {position: relative;}
 .result_body .item .rta > .ico_next{position: absolute; right: 8px; top: calc( 50% - 10px ); display: block; height: 20px; width: 20px; background: url(./../images/ico_arrow_right20.svg); text-indent: -9999px; font-size:1px; color: transparent; }
 
@@ -216,7 +214,6 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow: hid
 .csinfobox .listbox li::before{content: ''; display: block; position: absolute; background: #A5B3C2; width: 4px; height: 4px; border-radius: 4px; left: 0; top: 12px;}
 .csinfobox .listbox li .title{font-size: 13px; color: #424952; font-weight: 500; margin-right: 8px;}
 .csinfobox .listbox li .text{font-size: 13px; color: #56606B; font-weight: 300;}
-
 
 .carouselboxwrap{position: relative;}
 .carouselbox{position: relative; left: 16px;}
