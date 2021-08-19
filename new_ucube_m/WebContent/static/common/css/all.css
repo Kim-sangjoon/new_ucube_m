@@ -64,6 +64,12 @@ textarea[disabled]{padding:11px; font-size:16px; color:#666; font-weight:normal;
 .lta{float: left; vertical-align: middle;}
 .rta{float: right; vertical-align: middle;}
 
+.ly {display:-webkit-box; display:-ms-flexbox; display:flex; position:relative; width: 100%;}
+.ly > div.fn{flex: none;}
+.ly > div {-webkit-box-flex:1; -ms-flex:1; flex:1; word-break:break-all}
+.ly > div:first-child {margin-left:0}
+.ly > div:last-child {margin-right:0}
+
 h1,h2,h3,span,label,div,input,a{letter-spacing: -0.02em;}
 
 /* Main & To-Do layout */
@@ -157,7 +163,7 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow: hid
 .searchbox .inputbox .boxitem input.req{border-bottom: 1px solid #2FB8A8;}
 /* .searchbox .inputbox.fadein{animation: fadein 0.3s; animation-fill-mode: forwards;} */
 /* .searchbox .inputbox.fadeout{animation: fadeout 0.3s; animation-fill-mode: forwards;} */
-@keyframes fadeout {
+/* @keyframes fadeout {
     from {
         opacity: 1;
     } to {
@@ -170,7 +176,7 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow: hid
     } to {
         opacity: 1;
     }
-}
+} */
 
 .btnbox{margin-top: 24px; display: flex; flex-direction: row; gap: 8px;}
 .btnbox .btn_sh{border: none; width: 100%; background: #7B558D; border-radius: 4px; color: #FFFFFF; font-weight: 500; font-size: 15px; line-height: 48px; text-align: center; letter-spacing: -0.02em;}
@@ -218,8 +224,8 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow: hid
 .carouselbox .itembox {display: flex; flex-direction: row;}
 .carouselbox.col .itembox {display: flex; flex-direction: column;}
 .carouselbox .itembox > .item{flex: none; width: calc(100vw - 32px); background: #9A69ED; border-radius: 8px; height: 216px; margin-right: 10px; overflow: hidden;}
-.carouselbox .itembox > .item .titlewrap{}
-.carouselbox .itembox > .item .contlist{}
+/* .carouselbox .itembox > .item .titlewrap{}
+.carouselbox .itembox > .item .contlist{} */
 .carouselbox .itembox > .item:last-child,.carouselbox.col .itembox > .item:last-child{background: #424952; margin-right: 0; margin-bottom: 0;}
 .carouselbox.col .itembox > .item{flex: none; width: calc(100vw - 32px); background: #9A69ED; border-radius: 8px; height: 216px; margin-bottom: 10px; margin-right: 0px;}
 
@@ -236,7 +242,64 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow: hid
 .carouselbox.col + .indibox + .vhtoggle::after{content: ''; background: url(./../images/ico_arrow_up22.svg); display: block; position: absolute; top: 8px; right: 10px; width: 22px; height: 22px;}
 
 .infoboxwrap{margin-top: 16px;}
-.infobox{background: #F5F7FA; border-radius: 8px; padding: 12px 12px 12px 16px;}
-.infobox .dfbox{position: relative; width: 100%; margin: 0 0 19px; box-sizing: border-box;}
-.infobox .dfbox h3{display:inline-block; font-size: 17px; color: #202020; font-weight: 800; line-height: 34px; }
-.infobox .dfbox .btn_df{border: 1px solid #DAE3ED; box-sizing: border-box; border-radius: 2px; padding: 5.5px 8px; color: #56606B; background: #FFFFFF; line-height: 21px; font-weight: 800;}
+.infobox{background: #F5F7FA; border-radius: 8px; padding: 12px 12px 12px 16px; margin-top: 8px;}
+.infobox:first-child{margin-top: 0;}
+.infobox .dfbox{position: relative; width: 100%; box-sizing: border-box; vertical-align: middle;}
+.infobox .dfbox h3{display:inline-block; font-size: 17px; color: #202020; font-weight: 800; line-height: 32px; }
+.infobox .dfbox .btn_df{border: 1px solid #DAE3ED; box-sizing: border-box; border-radius: 2px; padding: 5.5px 8px; color: #56606B; background: #FFFFFF; line-height: 21px; font-weight: 500; font-size: 14px;}
+.infobox .dfbox .rta span{display: inline-block; color: #202020; font-size: 15px; line-height: 32px; margin-right: 8px; font-weight: 400; vertical-align: middle;}
+
+.infobox .listbox{margin-top: 16px;}
+.infobox .listbox .item{position: relative; width: 100%; box-sizing: border-box; vertical-align: middle; margin-top: 10px;}
+.infobox .listbox .item:first-child{margin-top: 0;}
+.infobox .listbox .item span{color: #202020; font-size: 14px; font-weight: 300;}
+
+.infobox .grpbox{margin-top: 24px;}
+.infobox .grpbox .item{border-bottom: 1px dashed #BEC9D4; padding: 16px 0 18px;}
+.infobox .grpbox .item:first-child{padding-top: 0;}
+.infobox .grpbox .item:last-child{border-bottom: 1px solid #BEC9D4;}
+
+.infobox .grpbox .item .ly > .textgroup{width: 114px;}
+.infobox .grpbox .item .ly > .textgroup .title{position: relative; display: inline-block; color: #6B7682; font-weight: 500; font-size: 12px; line-height: 22px; padding-left: 28px;}
+.infobox .grpbox .item .ly > .textgroup .title::before{content: ''; display:block; position:absolute; width: 22px; height: 22px; top: 0; left: 0; background: url(./../images/ico_smartphone_black.svg) no-repeat;}
+.infobox .grpbox .item .ly > .textgroup .price{display: inline-block; color: #6B7682; font-weight: 200; font-size: 12px; padding-left: 28px; margin-top: 7px;}
+
+.infobox .grpbox .item .ly > .graphgroup{margin-top: 8px;}
+.infobox .grpbox .item .ly > .graphgroup .progbox{position: relative; width: 100%; height: 8px; }
+.infobox .grpbox .item .ly > .graphgroup .progbox .grpbg{position: absolute; display: block; top: 0; left: 0; background: #DAE3ED; border-radius: 99px; height: 6px; width: 100%;}
+.infobox .grpbox .item .ly > .graphgroup .progbox .grpbar{position: absolute; top: -1px; left: 0; height: 8px; border-radius: 99px; height: 8px; width: 50%;}
+.infobox .grpbox .item .ly > .graphgroup .progbox .grpbar.purple{background: linear-gradient(90deg, #B756DE 0%, #6885E7 100%);}
+.infobox .grpbox .item .ly > .graphgroup .progbox .grpbar.pink{background: linear-gradient(90deg, #AF75F9 0%, #FF82A7 100%);}
+.infobox .grpbox .item .ly > .graphgroup .progbox .grpbar.blue{background: linear-gradient(90deg, #75D1F9 0%, #8B6FFF 100%);}
+
+.infobox .grpbox .item .ly > .graphgroup .monthbox{position: relative; display: block; width: 100%; margin-top: 12px;}
+.infobox .grpbox .item .ly > .graphgroup .monthbox > .box{position: absolute; display: inline-block; border-radius: 3px; padding: 2px 4px; color: #FFFFFF; font-size: 11px; font-weight: 200; line-height: 18px; background: #6B7682;}
+.infobox .grpbox .item .ly > .graphgroup .monthbox > .box::before{content:''; position: absolute; display: block; width: 12px; height: 10px; top: -7px;}
+
+.infobox .grpbox .item .ly > .graphgroup .monthbox > .box.start{left: 0;}
+.infobox .grpbox .item .ly > .graphgroup .monthbox > .box.start::before{left:8px;}
+.infobox .grpbox .item .ly > .graphgroup .monthbox > .box.center{left: calc(50% - 32px);}
+.infobox .grpbox .item .ly > .graphgroup .monthbox > .box.center::before{left: calc(50% - 6px);}
+.infobox .grpbox .item .ly > .graphgroup .monthbox > .box.end{right: 0;}
+.infobox .grpbox .item .ly > .graphgroup .monthbox > .box.end::before{right: 8px;}
+.infobox .grpbox .item .ly > .graphgroup .monthbox > .box.blue{background: #8F91DF;}
+.infobox .grpbox .item .ly > .graphgroup .monthbox > .box.blue::before{background:url(./../images/ico_triangle_blue.svg);}
+.infobox .grpbox .item .ly > .graphgroup .monthbox > .box.pink{background: #E38CBA;}
+.infobox .grpbox .item .ly > .graphgroup .monthbox > .box.pink::before{background:url(./../images/ico_triangle_pink.svg);}
+.infobox .grpbox .item .ly > .graphgroup .monthbox > .box.sky{background: #7ABADE;}
+.infobox .grpbox .item .ly > .graphgroup .monthbox > .box.sky::before{background:url(./../images/ico_triangle_sky.svg);}
+.infobox .grpbox .item .ly > .graphgroup .monthbox > .box.black::before{background:url(./../images/ico_triangle_black.svg);}
+
+.infobox .grpbox .item .other{display:inline-block; width: 100%; text-align: right; margin-top: 18px; font-size: 12px; font-weight: 200; color: #6B7682;}
+.infobox .grptextbox{margin-top: 16px;}
+.infobox .grptextbox > div{margin-top: 10px;}
+.infobox .grptextbox > div:first-child{margin-top: 0;}
+.infobox .grptextbox > div span{ font-size: 14px; color: #202020; font-weight: 300;}
+
+.msgbox01 > div{margin-top: 8px;}
+.msgbox01 > div:first-child{margin-top: 0;}
+.msgbox01 > div label{font-size: 14px; color: #202020; font-weight: 800;}
+.msgbox01 > div span{font-size: 14px; color: #202020; font-weight: 300;}
+
+/* tabcontrol */
+.tabcontrol_type1 .w2tabcontrol_container {border: 1px solid #b3b3b3; clear: both; float: left; width: 100%; background: #FFFFFF; margin-top: 0;}
