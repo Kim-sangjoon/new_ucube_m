@@ -166,7 +166,7 @@
     									<xf:group tagname="" style="" id="" class="graphgroup">
     										<xf:group id="" class="progbox">
     											<xf:group style="" id="" class="grpbg"></xf:group>
-    											<xf:group style="" id="" class="grpbar purple"></xf:group>
+    											<xf:group style="width: 45%;" id="" class="grpbar purple"></xf:group>
     										</xf:group>
     										<xf:group id="" class="monthbox">
     											<w2:textbox class="box center blue" id="" label="납부 11개월" style="" tagname="span"></w2:textbox>
@@ -185,7 +185,7 @@
     									<xf:group class="graphgroup" id="" style="" tagname="">
     										<xf:group class="progbox" id="">
     											<xf:group class="grpbg" id="" style=""></xf:group>
-    											<xf:group class="grpbar pink" id="" style=""></xf:group>
+    											<xf:group class="grpbar pink" id="" style="width: 80%;"></xf:group>
     										</xf:group>
     										<xf:group class="monthbox" id="">
     											<w2:textbox class="box center pink" id="" label="납부 10개월" style="" tagname="span"></w2:textbox>
@@ -203,7 +203,7 @@
     									<xf:group class="graphgroup" id="" style="" tagname="">
     										<xf:group class="progbox" id="">
     											<xf:group class="grpbg" id="" style=""></xf:group>
-    											<xf:group class="grpbar blue" id="" style=""></xf:group>
+    											<xf:group class="grpbar blue" id="" style="width: 20%;"></xf:group>
     										</xf:group>
     										<xf:group class="monthbox" id="">
     											<w2:textbox class="box start sky" id="" label="납부 1개월" style="" tagname="span"></w2:textbox>
@@ -248,28 +248,25 @@
     					</xf:group>
     				</xf:group>
     			</xf:group>
-    			<xf:group style="" id="" class="tabcontrol_type1">
-    				<w2:tabControl useTabKeyOnly="true" id="" useMoveNextTabFocus="false" useConfirmMessage="false"
-    					confirmTrueAction="exist" confirmFalseAction="new" alwaysDraw="false" style="">
+    		<xf:group id="" class="background_inner"><xf:group style="" id="" class="tabcontrol_type1">
+    				<w2:tabControl confirmTrueAction="exist" useTabKeyOnly="true" confirmFalseAction="new" useMoveNextTabFocus="false" useConfirmMessage="false" alwaysDraw="false" style="" id="">
     					<w2:tabs disabled="false" style="" id="tabs1" label="응대메모"></w2:tabs>
     					<w2:tabs disabled="false" style="" id="tabs2" label="작업메모"></w2:tabs>
     					<w2:content alwaysDraw="false" style="" id="content1">
-    						<xf:group class="infobox" id="" style="" tagname="">
-    							<xf:group class="dfbox" id="" style="" tagname="">
-    								<w2:textbox id="" label="요금제" ref="" style="" tagname="h3"></w2:textbox>
-    								<xf:group class="rta" id="" style="" tagname="">
-    									<w2:textbox id="" label="5G 프리미엄" style="" tagname="span"></w2:textbox>
-    									<xf:trigger class="btn_df" id="" style="" type="button">
-    										<xf:label><![CDATA[변경]]></xf:label>
-    									</xf:trigger>
-    								</xf:group>
-    							</xf:group>
-    						</xf:group>
+    						<xf:group tagname="" style="" id="" class="tabcontentswrap">
+    						<xf:group id="" class="contentbox" style=""><xf:group tagname="" style="" id="" class="dfbox">
+    								<xf:group class="lta" id="" style="">
+    										<w2:textbox class="badge_red" id="" label="이동통신" style="" tagname="span"></w2:textbox><w2:textbox class="badge_blue" id="" label="공통" style="" tagname="span"></w2:textbox><w2:textbox class="badge_green" id="" label="일반상담" style="" tagname="span"></w2:textbox>
+    										
+    										
+    									</xf:group><xf:group class="rta" id="" style="">
+    										<w2:textbox class="datetime" id="" label="2019-04-23 10:38:39" style="" tagname="span"></w2:textbox>
+    									</xf:group>
+    							</xf:group></xf:group></xf:group>
     					</w2:content>
     					<w2:content alwaysDraw="false" style="" id="content2"></w2:content>
     				</w2:tabControl>
-    			</xf:group>
-    		</xf:group>
+    			</xf:group></xf:group></xf:group>
     		<xf:group style="" id="" class="bottomMenu" tagname="section">
     			<xf:group style="" id="" class="navbox">
     				<xf:group style="" id="" class="menu01">
