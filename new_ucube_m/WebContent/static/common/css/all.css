@@ -13,7 +13,7 @@ ul,ol,li{list-style:none;}
 table{width:100%;border-spacing:0; border-collapse:collapse;}
 img,fieldset{border:0;}
 address,cite,code,em{font-style:normal; font-weight:normal;}
-label,img,input,select,textarea,button{vertical-align:middle;}
+label,img,input,select,textarea,button,span{vertical-align:middle;}
 caption,legend{line-height:0; font-size:1px;overflow:hidden;}
 hr{display:none;}
 main,header,section,nav,footer,aside,article,figure{display:block;}
@@ -62,7 +62,7 @@ textarea[disabled]{padding:11px; font-size:16px; color:#666; font-weight:normal;
 .show{display: block !important;}
 .txt_red{color:red;}
 .lta{float: left; vertical-align: middle;}
-.rta{float: right; vertical-align: middle;}
+.rta{float: right; text-align: right; vertical-align: middle;}
 
 .ly {display:-webkit-box; display:-ms-flexbox; display:flex; position:relative; width: 100%;}
 .ly > div.fn{flex: none;}
@@ -71,6 +71,9 @@ textarea[disabled]{padding:11px; font-size:16px; color:#666; font-weight:normal;
 .ly > div:last-child {margin-right:0}
 
 h1,h2,h3,span,label,div,input,a{letter-spacing: -0.02em;}
+
+.bbn{border-bottom: none !important;}
+.mr5{margin-right: 5px !important;}
 
 /* Main & To-Do layout */
 html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow: hidden;}
@@ -104,11 +107,17 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow: hid
 .ctbox:first-child{margin-top: 0px;}
 .ctbox .stbox{width: 100%; height: 20px;}
 .ctbox .stbox .rta:last-child{margin-right: 0px;}
-.badge_gray,.badge_red,.badge_blue,.badge_green{display: inline-block; font-size: 12px; font-weight: 500; letter-spacing: -0.02em; padding: 1px 4px; border-radius: 2px; margin-right: 4px;}
+.badge_gray,.badge_red,.badge_blue,.badge_green{display: inline-block; font-size: 12px; font-weight: 400; letter-spacing: -0.02em; padding: 1px 4px; border-radius: 2px; margin-right: 4px;}
 .badge_gray{color: #424952; background: #E8EFF5;}
 .badge_red{color: #603973; background: #EEE5F2;}
 .badge_blue{color: #425FA3; background: #DEE6FB;}
 .badge_green{color: #139989; background: #E0FCF9;}
+
+.lable_purple,.lable_blue,.lable_green{display: inline-block; font-size: 13px; font-weight: 400; line-height: 19px; margin-right: 8px; letter-spacing: -0.02em;}
+.lable_purple{color: #A27FB1;}
+.lable_blue{color: #637FC3;}
+.lable_green{color: #139989;}
+
 .period{font-size: 12px; font-weight: 300; color: #6B7682; line-height: 20px;}
 .period.red{color: #F94B50;}
 .ctbox .ifbox{width: 100%; height: 18px; margin-top: 5px;}
@@ -251,10 +260,9 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow: hid
 .infobox .listbox .item:first-child{margin-top: 0;}
 .infobox .listbox .item span{color: #202020; font-size: 14px; font-weight: 300;}
 
-.infobox .grpbox{margin-top: 24px;}
-.infobox .grpbox .item{border-bottom: 1px dashed #BEC9D4; padding: 16px 0 18px;}
-.infobox .grpbox .item:first-child{padding-top: 0;}
-.infobox .grpbox .item:last-child{border-bottom: 1px solid #BEC9D4;}
+.infobox .grpbox{margin-top: 24px; border-bottom: 1px solid #BEC9D4;}
+.infobox .grpbox .item{border-top: 1px dashed #BEC9D4; padding: 16px 0 18px;}
+.infobox .grpbox .item:first-child{padding-top: 0; border-top: none;}
 
 .infobox .grpbox .item .ly > .textgroup{width: 114px;}
 .infobox .grpbox .item .ly > .textgroup .title{position: relative; display: inline-block; color: #6B7682; font-weight: 500; font-size: 12px; line-height: 22px; padding-left: 28px;}
@@ -287,7 +295,7 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow: hid
 .infobox .grpbox .item .ly > .graphgroup .monthbox > .box.sky::before{background:url(./../images/ico_triangle_sky.svg);}
 .infobox .grpbox .item .ly > .graphgroup .monthbox > .box.black::before{background:url(./../images/ico_triangle_black.svg);}
 
-.infobox .grpbox .item .other{display:inline-block; width: 100%; text-align: right; margin-top: 18px; font-size: 12px; font-weight: 200; color: #6B7682;}
+.infobox .grpbox .other{display:inline-block; width: 100%; text-align: right; margin-bottom: 16px; font-size: 12px; font-weight: 200; color: #6B7682;}
 .infobox .grptextbox{margin-top: 16px;}
 .infobox .grptextbox > div{margin-top: 10px;}
 .infobox .grptextbox > div:first-child{margin-top: 0;}
@@ -299,19 +307,42 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow: hid
 .msgbox01 > div span{font-size: 14px; color: #202020; font-weight: 300;}
 
 /* tabcontrol_type1 */
-.tabcontrol_type1{background: #F5F7FA;}
-.tabcontrol_type1 .w2tabcontrol{width: 100%;}
-.tabcontrol_type1 .w2tabcontrol_tabhost {margin: 0; padding: 0 18px; float: left; list-style: none; height: 54px; width: 100%; font-size: 16px; background: #F5F7FA; color: #BEC9D4;}
-.tabcontrol_type1 .w2tabcontrol_tabhost li {float: left; margin: 0; padding: 0; height: 100%; margin-right: 12px; margin-bottom: 0; background: transparent; overflow: hidden; position: relative;}
+
+.tabcontrol_type1{display: inline-block; width: 100%; background: #F5F7FA;}
+.tabcontrol_type1 .w2tabcontrol{display: inline-block; width: 100%;}
+.tabcontrol_type1 .w2tabcontrol_tabhost {margin: 0; padding: 0 18px; float: left; list-style: none; height: 54px; width: calc(100% - 36px); font-size: 16px; background: #F5F7FA; color: #BEC9D4;}
+.tabcontrol_type1 .w2tabcontrol_tabhost li {float: left; margin: 0; padding: 0; height: 100%; margin-bottom: 0; background: transparent; overflow: hidden; position: relative;}
 .tabcontrol_type1 .w2tabcontrol_tabhost .w2tabcontrol_tab_left { position: absolute; top: 0; left: 0; height: 100%; width: 10px; background-image: none;}
 .tabcontrol_type1 .w2tabcontrol_tabhost .w2tabcontrol_active .w2tabcontrol_tab_left {background-image: none; background-repeat: no-repeat;}
-.tabcontrol_type1 .w2tabcontrol_tabhost .w2tabcontrol_tab_center{overflow: hidden; height: 100%; text-align: center; background-image: none;}
-.tabcontrol_type1 .w2tabcontrol_tabhost .w2tabcontrol_active .w2tabcontrol_tab_center {background-image: none; border-top: 2px solid #202020;}
+.tabcontrol_type1 .w2tabcontrol_tabhost .w2tabcontrol_active .w2tabcontrol_tab_center {background-image: none;}
+.tabcontrol_type1 .w2tabcontrol_tabhost .w2tabcontrol_tab_center{overflow: hidden; height: 100%; text-align: center; background-image: none; margin-right: 12px;}
+.tabcontrol_type1 .w2tabcontrol_tabhost .w2tabcontrol_active .w2tabcontrol_tab_center {background-image: none; border-top: 2px solid #202020; margin-right: 12px;}
 .tabcontrol_type1 .w2tabcontrol_tabhost .w2tabcontrol_active .w2tabcontrol_tab_center a{color: #202020; font-weight: 800; top: 16px;}
 .tabcontrol_type1 .w2tabcontrol_tabhost .w2tabcontrol_tab_right {position: absolute; top: 0; height: 100%; right: 0; width: 10px; background-image: none;}
 .tabcontrol_type1 .w2tabcontrol_tabhost .w2tabcontrol_active .w2tabcontrol_tab_right {background-image: none; background-repeat: no-repeat; background-position: right 0;}
 .tabcontrol_type1 .w2tabcontrol_tabhost li a {position: relative; top: 18px; line-height: 15px; margin-right: 0px; margin-left: 0px; text-decoration: none; color: #BEC9D4; display: block; text-align: center; font-weight: 500;}
-.tabcontrol_type1 .w2tabcontrol_container {border: none; clear: both; float: left; width: calc(100% - 32px); background: transparent; margin-top: 0; background: #F5F7FA; padding: 0 16px;}
+.tabcontrol_type1 .w2tabcontrol_container {height: auto !important; border: none; clear: both; float: left; width: calc(100% - 32px); background: transparent; margin-top: 0; padding: 0 16px 16px 16px;}
+.tabcontrol_type1 .w2tabcontrol_contents {width: 100%; height: 100%; visibility: hidden;}
+.tabcontrol_type1 .w2tabcontrol_contents_wrapper {position: relative; overflow: auto; height: 100%;}
+.tabcontrol_type1 .w2tabcontrol_bridge {display: block;}
 
-.tabcontentswrap{}
-.tabcontentswrap .contentbox{}
+.contentbox{display:inline-block; width: 100%; background: #FFFFFF; border: 1px solid #DAE3ED; box-sizing: border-box; border-radius: 3px; padding: 10px 17px; margin-bottom: 6px;}
+.contentbox.type2{display:inline-block; width: 100%; background: #FFFFFF; border: 1px solid #DAE3ED; box-sizing: border-box; border-radius: 3px; padding: 12px; margin-bottom: 6px;}
+.contentbox:last-child{margin-bottom: 0;}
+.contentbox .dfbox{display:inline-block; width: 100%; margin-bottom: -2px;}
+.contentbox .dfbox .datetime{font-size: 13px; color: #6B7682; font-weight: 200; line-height: 19px;}
+.contentbox.type2 .dfbox .datetime{font-size: 12px; color: #6B7682; font-weight: 200; line-height: 18px;}
+.contentbox .psbox_type2{display:flex; flex-direction: row; height: 22px; margin-top: 4px;}
+.contentbox .psbox_type2 .ct_text{flex: 1; color: #202020; font-weight: 400; font-size: 15px; line-height: 22px;}
+.contentbox .psbox_type2 .process_type2{flex: none; position: relative; color: #7B558D; font-weight: 800; font-size: 14px;padding: 0px 26px 0px 8px; line-height: 44px;}
+.contentbox .psbox_type2 .process_type2::after{content:''; display: block; position: absolute; width: 26px; height: 26px; top: 9.5px; right: 0; background: url(./../images/ico_arrow_right26.svg) no-repeat;}
+.contentbox .btnmore{text-align: center; font-weight: 500; font-size: 14px; line-height: 20px; color: #56606B;}
+
+.contentbox .listbox{margin-top: 8px;}
+.contentbox .listbox li{margin-top: 2px;}
+.contentbox .listbox li:first-child{margin-top: 0;}
+.contentbox .listbox li .item{display: inline-block; width: 100%;}
+.contentbox .listbox li .item > *{display: inline-block;}
+.contentbox .listbox li .item label{font-size: 12px; width: 70px; color: #8996A3; font-weight: 300;}
+.contentbox .listbox li .item span{font-size: 12px; color: #424952; font-weight: 300;}
+.contentbox .listbox li .item span.sublabel{font-size: 12px; color: #603973; margin-right: 5px; font-weight: 300;}
