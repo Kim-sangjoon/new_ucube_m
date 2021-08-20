@@ -230,10 +230,30 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow: hid
 .carouselbox .itembox {display: flex; flex-direction: row;}
 .carouselbox.col .itembox {display: flex; flex-direction: column;}
 .carouselbox .itembox > .item{flex: none; width: calc(100vw - 32px); background: #9A69ED; border-radius: 8px; height: 216px; margin-right: 10px; overflow: hidden;}
-/* .carouselbox .itembox > .item .titlewrap{}
-.carouselbox .itembox > .item .contlist{} */
-.carouselbox .itembox > .item:last-child,.carouselbox.col .itembox > .item:last-child{background: #424952; margin-right: 0; margin-bottom: 0;}
+.carouselbox .itembox > .item.black,.carouselbox.col .itembox > .item.black{background: #424952; margin-right: 0; margin-bottom: 0;}
 .carouselbox.col .itembox > .item{flex: none; width: calc(100vw - 32px); background: #9A69ED; border-radius: 8px; height: 216px; margin-bottom: 10px; margin-right: 0px;}
+
+/* ---------------작업중공간----------------- */
+.carouselbox .itembox > .item .itemwrap{padding: 10px;}
+.carouselbox .itembox > .item .itemwrap .titlebox{}
+.carouselbox .itembox > .item .itemwrap .titlebox .badge{}
+.carouselbox .itembox > .item .itemwrap .titlebox .title{}
+.carouselbox .itembox > .item .itemwrap .titlebox .num{}
+
+.carouselbox .itembox > .item .itemwrap ul.listbox{}
+.carouselbox .itembox > .item .itemwrap ul.listbox li{}
+.carouselbox .itembox > .item .itemwrap ul.listbox li.mobile{}
+.carouselbox .itembox > .item .itemwrap ul.listbox li.internet{}
+.carouselbox .itembox > .item .itemwrap ul.listbox li.tv{}
+
+.carouselbox .itembox > .item .itemwrap ul.listbox li .liwrap{}
+.carouselbox .itembox > .item .itemwrap ul.listbox li .liwrap label{}
+.carouselbox .itembox > .item .itemwrap ul.listbox li .liwrap .txt{}
+.carouselbox .itembox > .item .itemwrap ul.listbox li .liwrap .num{}
+.carouselbox .itembox > .item .itemwrap ul.listbox li .liwrap .btn_search{}
+.carouselbox .itembox > .item.black .itemwrap ul.listbox li .liwrap .btn_search{}
+
+/* ---------------작업중공간----------------- */
 
 .indibox{display: flex; justify-content: center; margin-top: 16px;}
 .indibox > .circle{display: inline-block; width: 6px; height: 6px; background: #DAE3ED; border-radius: 99px; margin-right: 5px;}

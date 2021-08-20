@@ -69,11 +69,58 @@
     				</xf:group>
     			</xf:group>
     			<xf:group id="" class="carouselboxwrap">
-    				<xf:group tagname="" style="" id="carouselbox01" class="carouselbox">
+    				<xf:group tagname="" style="" id="carouselbox01" class="carouselbox col">
     					<xf:group id="" class="itembox">
-    						<xf:group id="" class="item"></xf:group>
+    						<xf:group id="" class="item">
+    						<xf:group id="" class="itemwrap">
+    							<xf:group style="" id="" class="titlebox">
+    								<w2:textbox tagname="span" style="" label="결합" id="" class="badge"></w2:textbox>
+    								<w2:textbox tagname="span" style="" id="" label="가족무한사랑(유무선)" class="title"></w2:textbox>
+    								<w2:textbox tagname="span" style="" id="" label="6개" class="num"></w2:textbox>
+    							</xf:group>
+    							<xf:group style="" id="" class="listbox" tagname="ul">
+    								<xf:group class="mobile" id="" style="" tagname="li">
+    									<xf:group class="liwrap" id="" style="" tagname="">
+    										<xf:group class="lta" id="" style="" tagname="">
+    											<w2:textbox class="" id="" label="이동통신(1)" style="" tagname="label"></w2:textbox>
+    										</xf:group>
+    										<xf:group class="rta" id="" style="" tagname="">
+    											<w2:textbox class="txt" id="" label="5G 프리미엄" style="" tagname="span"></w2:textbox>
+    											<w2:textbox class="num" id="" label="0100*****000" style="" tagname="span"></w2:textbox>
+    										</xf:group>
+    									</xf:group>
+    								</xf:group>
+    								<xf:group class="internet" id="" style="" tagname="li">
+    									<xf:group class="liwrap" id="" style="" tagname="">
+    										<xf:group class="lta" id="" style="" tagname="">
+    											<w2:textbox class="" id="" label="U+인터넷" style="" tagname="label"></w2:textbox>
+    										</xf:group>
+    										<xf:group class="rta" id="" style="" tagname="">
+    											<w2:textbox class="txt" id="" label="광랜_19" style="" tagname="span"></w2:textbox>
+    											<xf:trigger type="button" style="" id="" class="btn_search">
+    												<xf:label><![CDATA[검색]]></xf:label>
+    											</xf:trigger>
+    										</xf:group>
+    									</xf:group>
+    								</xf:group>
+    								<xf:group class="tv" id="" style="" tagname="li">
+    									<xf:group class="liwrap" id="" style="" tagname="">
+    										<xf:group class="lta" id="" style="" tagname="">
+    											<w2:textbox class="" id="" label="U+TV(주)" style="" tagname="label"></w2:textbox>
+    										</xf:group>
+    										<xf:group class="rta" id="" style="" tagname="">
+    											<w2:textbox class="txt" id="" label="베이직" style="" tagname="span"></w2:textbox>
+    											<xf:trigger class="btn_search" id="" style="" type="button">
+    												<xf:label><![CDATA[검색]]></xf:label>
+    											</xf:trigger>
+    										</xf:group>
+    									</xf:group>
+    								</xf:group>
+    							</xf:group>
+    							
+    						</xf:group></xf:group>
     						<xf:group style="" id="" class="item"></xf:group>
-    						<xf:group style="" id="" class="item"></xf:group>
+    						<xf:group style="" id="" class="item black"></xf:group>
     					</xf:group>
 
 
