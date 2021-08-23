@@ -241,7 +241,7 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow: hid
 .swiper-slide {text-align: left; font-size: 18px; background: #fff; /* Center slide text vertically */ display: -webkit-box; display: -ms-flexbox; display: -webkit-flex; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; -webkit-justify-content: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; -webkit-align-items: center; align-items: center;}
 .swiper-slide img {display: block; width: 100%; height: 100%; object-fit: cover;}
 
-/* ---------------작업중공간----------------- */
+/* 캐러셀 */
 .carouselbox .itembox > .item .itemwrap{width: 100%; height: 100%;}
 .carouselbox .itembox > .item .itemwrap .titlebox{display: inline-block; width: 100%; /* width: calc(100% - 32px); */ border-bottom: 1px solid #AC7EF9; padding: 16px;}
 .carouselbox .itembox > .item.black .itemwrap .titlebox{border-bottom: 1px solid #56606B;}
@@ -267,8 +267,6 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow: hid
 .carouselbox .itembox > .item .itemwrap ul.listbox li .liwrap .num{display: block; font-weight: 100; font-size: 12px; margin-top: -3px; line-height: 18px;}
 .carouselbox .itembox > .item .itemwrap ul.listbox li .liwrap .btn_search{background-color: #8752DE; background-image: url(./../images/ico_search_white21.svg); background-repeat: no-repeat; background-position: center; border-radius: 2px; margin-left: 8px; border: none; width: 32px; height: 32px; font-size: 1px; color: transparent; letter-spacing: 9999px;}
 .carouselbox .itembox > .item.black .itemwrap ul.listbox li .liwrap .btn_search{background-color: #2C3238;}
-
-/* ---------------작업중공간----------------- */
 
 /* .indibox{display: flex; justify-content: center; margin-top: 16px;}
 .indibox > .circle{display: inline-block; width: 6px; height: 6px; background: #DAE3ED; border-radius: 99px; margin-right: 5px;}
