@@ -19,14 +19,29 @@
 	scwin.onpageload = function() {
 		
 		var swiper = new Swiper(".mySwiper", {
+			enabled: true,
 	        slidesPerView: 1,
 	        spaceBetween: 10,
 	        centeredSlides: true,
 	        pagination: {
 	          el: ".swiper-pagination",
-	          clickable: true,
+	          clickable: false,
 	        },
-		});		
+		});
+		
+		$(".vhtoggle").mouseenter(function(){
+			if(carouselbox01.hasClass("col")){
+				carouselbox01.removeClass("col");
+				console.log(swiper);
+				swiper.enabled = true;
+				
+			} else {
+				carouselbox01.addClass("col");
+				console.log(swiper);
+				swiper.enabled = false;
+			}
+		});	
+		
 	};
 	
 	scwin.onpageunload = function() {
@@ -35,11 +50,14 @@
 	
 		
 	scwin.btnVhToggle_onclick = function(e) {
+	/*
 		if(carouselbox01.hasClass("col")){
 			carouselbox01.removeClass("col");
+
 		} else {
 			carouselbox01.addClass("col");
-		}		
+		}
+	*/		
 	};
 	]]></script>
     </head>
@@ -79,8 +97,8 @@
     			</xf:group>
     			<xf:group id="" class="carouselboxwrap">
     				<xf:group tagname="" style="" id="carouselbox01" class="carouselbox swiper-container mySwiper">
-    					<xf:group id="" class="itembox swiper-wrapper">
-    						<xf:group id="" class="item swiper-slide">
+    					<xf:group id="carouselitem01" class="itembox swiper-wrapper" tabIndex="" style="">
+    						<xf:group id="" class="item swiper-slide first">
     							<xf:group id="" class="itemwrap">
     								<xf:group style="" id="" class="titlebox">
     									<w2:textbox tagname="span" style="" label="결합" id="" class="badge"></w2:textbox>
