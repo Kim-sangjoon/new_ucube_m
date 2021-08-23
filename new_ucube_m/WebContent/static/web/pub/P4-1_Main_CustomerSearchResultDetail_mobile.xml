@@ -29,7 +29,7 @@
 	        },
 		});
 		
-		$(".vhtoggle").mouseenter(function(){
+		$(".vhtoggle").click(function(){
 			if(carouselbox01.hasClass("col")){
 				carouselbox01.removeClass("col");
 				console.log(swiper);
@@ -48,17 +48,8 @@
 		
 	};
 	
-		
-	scwin.btnVhToggle_onclick = function(e) {
-	/*
-		if(carouselbox01.hasClass("col")){
-			carouselbox01.removeClass("col");
-
-		} else {
-			carouselbox01.addClass("col");
-		}
-	*/		
-	};
+	
+	
 	]]></script>
     </head>
     <body ev:onpageload="scwin.onpageload" ev:onpageunload="scwin.onpageunload">
@@ -377,7 +368,7 @@
     				</xf:group>
     				<xf:group class="swiper-pagination" id="" style="">
     				</xf:group>
-    				<xf:group style="" id="btnVhToggle" class="vhtoggle" ev:onclick="scwin.btnVhToggle_onclick"></xf:group>
+    				<xf:group style="" id="" class="vhtoggle" ev:onclick=""></xf:group>
     			</xf:group>
     			<xf:group style="" id="" class="container_inner">
     				<xf:group id="" class="infoboxwrap">
