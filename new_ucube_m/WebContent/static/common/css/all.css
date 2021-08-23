@@ -1,6 +1,6 @@
 @charset "utf-8";
 @import url(./noto-sans-kr.css);
-@import url(./swiper-bundle.min.css);
+@import url(./swiper.css);
 
 /* Reset */
 *{outline:0 !important; -webkit-text-size-adjust:none;}
@@ -227,7 +227,7 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow: hid
 
 .carouselboxwrap{position: relative;}
 .carouselboxwrap *{color: #FFFFFF;}
-.carouselbox{position: relative; left: 16px;}
+/* .carouselbox{position: relative; left: 16px;}/ */
 .carouselbox.col{padding-bottom: 0px; left: 16px;}
 .carouselbox .itembox {display: flex; flex-direction: row;}
 .carouselbox.col .itembox {display: flex; flex-direction: column;}
@@ -235,9 +235,15 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow: hid
 .carouselbox .itembox > .item.black,.carouselbox.col .itembox > .item.black{background: #424952; margin-right: 0; margin-bottom: 0;}
 .carouselbox.col .itembox > .item{flex: none; width: calc(100vw - 32px); background: #9A69ED; border-radius: 8px; height: auto;  margin-bottom: 10px; margin-right: 0px; }
 
+
+.swiper-container {width: 100%; height: 100%;}
+.swiper-slide {text-align: left; font-size: 18px; background: #fff; /* Center slide text vertically */ display: -webkit-box; display: -ms-flexbox; display: -webkit-flex; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; -webkit-justify-content: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; -webkit-align-items: center; align-items: center;}
+.swiper-slide img {display: block; width: 100%; height: 100%; object-fit: cover;}
+
+
 /* ---------------작업중공간----------------- */
 /* .carouselbox .itembox > .item .itemwrap{} */
-.carouselbox .itembox > .item .itemwrap .titlebox{display: inline-block; width: calc(100% - 32px); border-bottom: 1px solid #AC7EF9; padding: 16px;}
+.carouselbox .itembox > .item .itemwrap .titlebox{display: inline-block; /* width: calc(100% - 32px); */ border-bottom: 1px solid #AC7EF9; padding: 16px;}
 .carouselbox .itembox > .item.black .itemwrap .titlebox{border-bottom: 1px solid #56606B;}
 .carouselbox .itembox > .item .itemwrap .titlebox .badge{font-size: 13px; font-weight: 400; padding: 0 3.5px 1px 3px; background: #8752DE; margin-right: 6px;}
 .carouselbox .itembox > .item .itemwrap .titlebox .title{font-size: 15px; font-weight: 400; margin-right: 6px;}

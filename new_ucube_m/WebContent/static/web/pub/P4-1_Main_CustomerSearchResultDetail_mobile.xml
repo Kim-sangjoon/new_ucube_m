@@ -18,6 +18,15 @@
         
 	scwin.onpageload = function() {
 		
+		var swiper = new Swiper(".mySwiper", {
+	        slidesPerView: 1,
+	        spaceBetween: 10,
+	        centeredSlides: true,
+	        pagination: {
+	          el: ".swiper-pagination",
+	          clickable: true,
+	        },
+		});		
 	};
 	
 	scwin.onpageunload = function() {
@@ -69,9 +78,9 @@
     				</xf:group>
     			</xf:group>
     			<xf:group id="" class="carouselboxwrap">
-    				<xf:group tagname="" style="" id="carouselbox01" class="carouselbox">
-    					<xf:group id="" class="itembox">
-    						<xf:group id="" class="item">
+    				<xf:group tagname="" style="" id="carouselbox01" class="carouselbox swiper-container mySwiper">
+    					<xf:group id="" class="itembox swiper-wrapper">
+    						<xf:group id="" class="item swiper-slide">
     							<xf:group id="" class="itemwrap">
     								<xf:group style="" id="" class="titlebox">
     									<w2:textbox tagname="span" style="" label="결합" id="" class="badge"></w2:textbox>
@@ -170,7 +179,7 @@
 
     							</xf:group>
     						</xf:group>
-    						<xf:group class="item" id="" style="">
+    						<xf:group class="item swiper-slide" id="" style="">
     							<xf:group class="itemwrap" id="">
     								<xf:group class="titlebox" id="" style="">
     									<w2:textbox class="badge" id="" label="결합" style="" tagname="span"></w2:textbox>
@@ -229,7 +238,7 @@
     								</xf:group>
     							</xf:group>
     						</xf:group>
-    						<xf:group class="item black" id="" style="">
+    						<xf:group class="item black swiper-slide" id="" style="">
     							<xf:group class="itemwrap" id="">
     								<xf:group class="titlebox" id="" style="">
     									<w2:textbox class="title" id="" label="단독상품" style="" tagname="span"></w2:textbox>
@@ -343,10 +352,12 @@
 
 
     				</xf:group>
-    				<xf:group style="" id="" class="indibox">
+    				<xf:group style="" id="" class="indibox hide">
     					<xf:group style="" id="" class="circle on"></xf:group>
     					<xf:group style="" id="" class="circle"></xf:group>
     					<xf:group style="" id="" class="circle"></xf:group>
+    				</xf:group>
+    				<xf:group class="swiper-pagination" id="" style="">
     				</xf:group>
     				<xf:group style="" id="btnVhToggle" class="vhtoggle" ev:onclick="scwin.btnVhToggle_onclick"></xf:group>
     			</xf:group>
