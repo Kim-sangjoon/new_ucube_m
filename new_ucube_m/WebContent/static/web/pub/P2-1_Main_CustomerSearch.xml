@@ -18,7 +18,7 @@
         
 	scwin.onpageload = function() {
 		/* default mobile */
-		ipxHome.addClass("hide");
+		/* ipxHome.addClass("hide"); */
 	};
 	
 	scwin.onpageunload = function() {
@@ -95,7 +95,7 @@
     							<xf:input adjustMaxLength="false" id="" style="" placeholder="1900-00-00" dataType="date"></xf:input>
     						</xf:group>
     					</xf:group>
-    					<xf:group class="inputbox" id="ipxHome" style="" adaptiveThreshold="">
+    					<xf:group class="inputbox hide" id="ipxHome" style="" adaptiveThreshold="">
     						<xf:group class="boxitem" id="">
     							<w2:textbox class="req" id="" label="고객명" style="" tagname="label"></w2:textbox>
     							<xf:input adjustMaxLength="false" class="req" dataType="" id="ipxHoCustomerNm" placeholder="홍길동" style="" ev:onkeydown="scwin.ipxHoCustomerNm_onkeydown"></xf:input>

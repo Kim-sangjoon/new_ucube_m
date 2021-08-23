@@ -24,7 +24,10 @@
     <style>
         <removeDefaultClass value="true"/>
     </style>
-    <engine/>
+    <engine>
+		<module src="/common/js/common.js"/>
+	</engine>
+    <!-- <engine/> -->
     <ModelUtil>
         <copyChildrenNodes refresh="false"/>
     </ModelUtil>
