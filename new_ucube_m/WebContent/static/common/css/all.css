@@ -276,11 +276,11 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow: hid
 .vhtoggle{position: absolute; top: 8px; right: 8px; width: 70px; height: 37px; background: #FFFFFF; box-shadow: 0px 0px 2px rgba(86, 36, 104, 0.22), 0px 7px 20px rgba(167, 81, 235, 0.3); border-radius: 99px; z-index: 1;}
 .vhtoggle::before{content: '확장'; color:#56606B; font-size: 12px; position: absolute; top: 10px; left: 13px; font-weight: 500; white-space: nowrap;}
 .vhtoggle::after{content: ''; background: url(./../images/ico_arrow_down22.svg); display: block; position: absolute; top: 8px; right: 10px; width: 22px; height: 22px;}
-.carouselbox + .indibox + .swiper-pagination{margin-top: 8px; margin-bottom: -4px;}
-.carouselbox.col + .indibox + .swiper-pagination{display: none;}
-.carouselbox.col + .indibox + .swiper-pagination + .vhtoggle{position: absolute; /* top: calc(100vh - 125px); */ top: calc(100% - 26px); right: 16px;}
-.carouselbox.col + .indibox + .swiper-pagination + .vhtoggle::before{content: '축소'; color:#56606B; font-size: 12px; position: absolute; top: 10px; left: 13px; font-weight: 500;}
-.carouselbox.col + .indibox + .swiper-pagination + .vhtoggle::after{content: ''; background: url(./../images/ico_arrow_up22.svg); display: block; position: absolute; top: 8px; right: 10px; width: 22px; height: 22px;}
+.carouselbox + .swiper-pagination{margin-top: 8px; margin-bottom: -4px;}
+.carouselbox.col + .swiper-pagination{display: none;}
+.carouselbox.col + .swiper-pagination + .vhtoggle{position: absolute; /* top: calc(100vh - 125px); */ top: calc(100% - 26px); right: 16px;}
+.carouselbox.col + .swiper-pagination + .vhtoggle::before{content: '축소'; color:#56606B; font-size: 12px; position: absolute; top: 10px; left: 13px; font-weight: 500;}
+.carouselbox.col + .swiper-pagination + .vhtoggle::after{content: ''; background: url(./../images/ico_arrow_up22.svg); display: block; position: absolute; top: 8px; right: 10px; width: 22px; height: 22px;}
 
 .infoboxwrap{margin-top: 16px;}
 .infobox{background: #F5F7FA; border-radius: 8px; padding: 12px 12px 12px 16px; margin-top: 8px;}

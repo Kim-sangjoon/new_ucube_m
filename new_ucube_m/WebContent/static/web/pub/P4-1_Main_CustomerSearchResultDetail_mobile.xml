@@ -19,25 +19,22 @@
 	scwin.onpageload = function() {
 		
 		var swiper = new Swiper(".mySwiper", {
-			enabled: true,
 	        slidesPerView: 1,
 	        spaceBetween: 10,
-	        centeredSlides: true,
+	        teredSlides: true,
 	        pagination: {
-	          el: ".swiper-pagination",
-	          clickable: false,
+				el: ".swiper-pagination",
+				clickable: false,
 	        },
 		});
+		console.log(swiper);
 		
-		$(".vhtoggle").click(function(){
+		$(".vhtoggle").on("touchstart",function(){
 			if(carouselbox01.hasClass("col")){
 				carouselbox01.removeClass("col");
-				console.log(swiper);
-				swiper.enabled = true;
-				
+				swiper.enabled = true;				
 			} else {
 				carouselbox01.addClass("col");
-				console.log(swiper);
 				swiper.enabled = false;
 			}
 		});	
@@ -360,11 +357,6 @@
     					</xf:group>
 
 
-    				</xf:group>
-    				<xf:group style="" id="" class="indibox hide">
-    					<xf:group style="" id="" class="circle on"></xf:group>
-    					<xf:group style="" id="" class="circle"></xf:group>
-    					<xf:group style="" id="" class="circle"></xf:group>
     				</xf:group>
     				<xf:group class="swiper-pagination" id="" style="">
     				</xf:group>

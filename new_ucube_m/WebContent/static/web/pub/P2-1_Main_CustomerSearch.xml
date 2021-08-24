@@ -17,8 +17,7 @@
          <script type="text/javascript" lazy="false"><![CDATA[
         
 	scwin.onpageload = function() {
-		/* default mobile */
-		/* ipxHome.addClass("hide"); */
+		
 	};
 	
 	scwin.onpageunload = function() {
@@ -43,7 +42,7 @@
 		}
 	};
 	
-	/* 모바일 > 상품번호 입력 */
+	/* 모바일 > 상품번호 입력 예시*/
 	scwin.ipxMoProductNo_onkeydown = function(e) {		
 		const cipxMoProductNo = ipxMoProductNo.getValue();
 		console.log(cipxMoProductNo.length);
@@ -54,7 +53,7 @@
 		}
 	};
 	
-	/* 홈 > 고객명 입력 */
+	/* 홈 > 고객명 입력 예시*/
 	scwin.ipxHoCustomerNm_onkeydown = function(e) {		
 		const cipxHoCustomerNm = ipxHoCustomerNm.getValue();		
 		if(cipxHoCustomerNm.length > 1) {
