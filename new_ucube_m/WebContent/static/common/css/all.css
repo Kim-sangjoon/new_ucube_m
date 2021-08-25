@@ -133,21 +133,34 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow: hid
 
 .bottomMenu{position: fixed; bottom: 0; width: 100%; min-width: 360px; height: 72px; background: #FFFFFF; border-top: 1px solid #DAE3ED; box-sizing: border-box;}
 .bottomMenu .navbox{display: flex; flex-direction: row; justify-content: space-around;}
-.bottomMenu .navbox .menu01,.bottomMenu .navbox .menu02,.bottomMenu .navbox .menu03,.bottomMenu .navbox .menu04,.bottomMenu .navbox .menu05{position: relative; width: 72px; height: 64px; background-position: center 14px; background-repeat: no-repeat;}
+.bottomMenu .navbox .menu01,
+.bottomMenu .navbox .menu02,
+.bottomMenu .navbox .menu02-01,
+.bottomMenu .navbox .menu03,
+.bottomMenu .navbox .menu04,
+.bottomMenu .navbox .menu05,
+.bottomMenu .navbox .menu06,
+.bottomMenu .navbox .menu07{position: relative; width: 72px; height: 64px; background-position: center 14px; background-repeat: no-repeat;}
 .navbox .title{position: absolute; top: 42px; width: 100%; text-align: center; color: #424952; font-weight: normal; font-size: 11px;}
 .navbox .on .title{color: #425FA3; font-weight: 500;}
 .navbox .numberbox{position: absolute; top: 22px; left: 39px; background: #F94B50; border: 1px solid #FFFFFF; border-radius: 5px; text-align: center; color: #FFFFFF; font-weight: 400; font-size: 10px; padding: 0px 3.5px 1px 3px;}
 .navbox .numberbox .num{line-height: 14px; letter-spacing: initial;}
 .menu01{background: url(./../images/ico_01_todo.svg);}
 .menu02{background: url(./../images/ico_02_search.svg);}
+.menu02-01{background: url(./../images/ico_02-01_search.svg);}
 .menu03{background: url(./../images/ico_03_filesearch.svg);}
 .menu04{background: url(./../images/ico_04_area.svg);}
 .menu05{background: url(./../images/ico_05_alarm.svg);}
+.menu06{background: url(./../images/ico_06_customer.svg);}
+.menu07{background: url(./../images/ico_07_allmenu.svg);}
 .menu01.on{background: url(./../images/ico_01_todo_on.svg);}
 .menu02.on{background: url(./../images/ico_02_search_on.svg);}
+.menu02-01.on{background: url(./../images/ico_02-01_search_on.svg);}
 .menu03.on{background: url(./../images/ico_03_filesearch_on.svg);}
 .menu04.on{background: url(./../images/ico_04_area_on.svg);}
 .menu05.on{background: url(./../images/ico_05_alarm_on.svg);}
+.menu06.on{background: url(./../images/ico_06_customer_on.svg);}
+.menu07.on{background: url(./../images/ico_07_allmenu_on.svg);}
 
 /* 가입정보조회 */
 .vcenter{display: flex; align-items: center;}
@@ -315,7 +328,6 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow: hid
 .infobox .grpbox .item .ly > .graphgroup .monthbox{position: relative; display: block; width: 100%; margin-top: 12px;}
 .infobox .grpbox .item .ly > .graphgroup .monthbox > .box{position: absolute; display: inline-block; border-radius: 3px; padding: 2px 4px; color: #FFFFFF; font-size: 11px; font-weight: 200; line-height: 18px; background: #6B7682;}
 .infobox .grpbox .item .ly > .graphgroup .monthbox > .box::before{content:''; position: absolute; display: block; width: 12px; height: 10px; top: -7px;}
-
 .infobox .grpbox .item .ly > .graphgroup .monthbox > .box.start{left: 0;}
 .infobox .grpbox .item .ly > .graphgroup .monthbox > .box.start::before{left:8px;}
 .infobox .grpbox .item .ly > .graphgroup .monthbox > .box.center{left: calc(50% - 32px);}
@@ -332,9 +344,9 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow: hid
 
 .infobox .grpbox .other{display:inline-block; width: 100%; text-align: right; margin-bottom: 16px; font-size: 12px; font-weight: 200; color: #6B7682;}
 .infobox .grptextbox{margin-top: 16px;}
-.infobox .grptextbox > div{margin-top: 10px;}
+.infobox .grptextbox > div{margin-top: 10px; display: flex; justify-content: space-between;}
 .infobox .grptextbox > div:first-child{margin-top: 0;}
-.infobox .grptextbox > div span{ font-size: 14px; color: #202020; font-weight: 300;}
+.infobox .grptextbox > div span{ font-size: 14px; color: #202020; font-weight: 300; line-height: 21px;}
 
 .msgbox01 > div{margin-top: 8px;}
 .msgbox01 > div:first-child{margin-top: 0;}
@@ -360,6 +372,26 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow: hid
 .tabcontrol_type1 .w2tabcontrol_contents {width: 100%; height: 100%; visibility: hidden;}
 .tabcontrol_type1 .w2tabcontrol_contents_wrapper {position: relative; overflow: auto; height: 100%;}
 .tabcontrol_type1 .w2tabcontrol_bridge {display: block;}
+
+/* tabcontrol_type2*/
+
+.tabcontrol_type2{display: inline-block; width: 100%; background: #F5F7FA;}
+.tabcontrol_type2 .w2tabcontrol{display: inline-block; width: 100%;}
+.tabcontrol_type2 .w2tabcontrol_tabhost {margin: 0; padding: 0 18px; float: left; list-style: none; height: 54px; width: calc(100% - 36px); font-size: 16px; background: #F5F7FA; color: #BEC9D4;}
+.tabcontrol_type2 .w2tabcontrol_tabhost li {float: left; margin: 0; padding: 0; height: 100%; margin-bottom: 0; background: transparent; overflow: hidden; position: relative;}
+.tabcontrol_type2 .w2tabcontrol_tabhost .w2tabcontrol_tab_left { position: absolute; top: 0; left: 0; height: 100%; width: 10px; background-image: none;}
+.tabcontrol_type2 .w2tabcontrol_tabhost .w2tabcontrol_active .w2tabcontrol_tab_left {background-image: none; background-repeat: no-repeat;}
+.tabcontrol_type2 .w2tabcontrol_tabhost .w2tabcontrol_active .w2tabcontrol_tab_center {background-image: none;}
+.tabcontrol_type2 .w2tabcontrol_tabhost .w2tabcontrol_tab_center{overflow: hidden; height: 100%; text-align: center; background-image: none; margin-right: 12px;}
+.tabcontrol_type2 .w2tabcontrol_tabhost .w2tabcontrol_active .w2tabcontrol_tab_center {background-image: none; border-top: 2px solid #202020; margin-right: 12px;}
+.tabcontrol_type2 .w2tabcontrol_tabhost .w2tabcontrol_active .w2tabcontrol_tab_center a{color: #202020; font-weight: 800; top: 16px;}
+.tabcontrol_type2 .w2tabcontrol_tabhost .w2tabcontrol_tab_right {position: absolute; top: 0; height: 100%; right: 0; width: 10px; background-image: none;}
+.tabcontrol_type2 .w2tabcontrol_tabhost .w2tabcontrol_active .w2tabcontrol_tab_right {background-image: none; background-repeat: no-repeat; background-position: right 0;}
+.tabcontrol_type2 .w2tabcontrol_tabhost li a {position: relative; top: 18px; line-height: 15px; margin-right: 0px; margin-left: 0px; text-decoration: none; color: #BEC9D4; display: block; text-align: center; font-weight: 500;}
+.tabcontrol_type2 .w2tabcontrol_container {height: auto !important; border: none; clear: both; float: left; width: calc(100% - 32px); background: transparent; margin-top: 0; padding: 0 16px 16px 16px;}
+.tabcontrol_type2 .w2tabcontrol_contents {width: 100%; height: 100%; visibility: hidden;}
+.tabcontrol_type2 .w2tabcontrol_contents_wrapper {position: relative; overflow: auto; height: 100%;}
+.tabcontrol_type2 .w2tabcontrol_bridge {display: block;}
 
 .contentbox{display:inline-block; width: 100%; background: #FFFFFF; border: 1px solid #DAE3ED; box-sizing: border-box; border-radius: 3px; padding: 10px 17px; margin-bottom: 6px;}
 .contentbox.type2{display:inline-block; width: 100%; background: #FFFFFF; border: 1px solid #DAE3ED; box-sizing: border-box; border-radius: 3px; padding: 12px; margin-bottom: 6px;}

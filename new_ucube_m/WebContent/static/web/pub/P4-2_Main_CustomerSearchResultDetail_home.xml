@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml"
     xmlns:ev="http://www.w3.org/2001/xml-events"
     xmlns:w2="http://www.inswave.com/websquare" xmlns:xf="http://www.w3.org/2002/xforms">
-    <head meta_programName="고객조회결과상세_모바일">
+    <head meta_programName="고객조회결과상세_홈">
     	<w2:type>DEFAULT</w2:type>
         <w2:buildDate/>
         <xf:model>
@@ -426,95 +426,37 @@
     					</xf:group>
     					<xf:group class="infobox" id="" style="" tagname="">
     						<xf:group class="dfbox" id="" style="" tagname="">
-    							<w2:textbox id="" label="휴대폰 할부 및 약정정보" ref="" style="" tagname="h3"></w2:textbox>
-    							<xf:group class="rta" id="" style="" tagname="">
-    								<xf:trigger class="btn_df" id="" style="" type="button">
-    									<xf:label><![CDATA[할부정보조회]]></xf:label>
-    								</xf:trigger>
-    							</xf:group>
-    						</xf:group>
-    						<xf:group class="grpbox" id="" style="" tagname="">
-    							<xf:group class="item" id="">
-    								<xf:group id="" class="ly">
-    									<xf:group tagname="" style="" id="" class="textgroup fn">
-    										<w2:textbox tagname="label" style="" id="" label="단말기 할부1" class="title"></w2:textbox>
-    										<w2:textbox tagname="" style="" id="" label="(월 43,313원)" class="price"></w2:textbox>
-    									</xf:group>
-    									<xf:group tagname="" style="" id="" class="graphgroup">
-    										<xf:group id="" class="progbox">
-    											<xf:group style="" id="" class="grpbg"></xf:group>
-    											<xf:group style="width: 45%;" id="" class="grpbar purple"></xf:group>
-    										</xf:group>
-    										<xf:group id="" class="monthbox">
-    											<w2:textbox class="box center blue" id="" label="납부 11개월" style="" tagname="span"></w2:textbox>
-    											<w2:textbox class="box end black" id="" label="잔여 13개월" style="" tagname="span"></w2:textbox>
-    										</xf:group>
-    									</xf:group>
-
-    								</xf:group>
-    							</xf:group>
-    							<xf:group class="item" id="" style="">
-    								<xf:group class="ly" id="">
-    									<xf:group class="textgroup fn" id="" style="" tagname="">
-    										<w2:textbox class="title" id="" label="단말기 할부1" style="" tagname="label"></w2:textbox>
-    										<w2:textbox class="price" id="" label="(월 43,313원)" style="" tagname=""></w2:textbox>
-    									</xf:group>
-    									<xf:group class="graphgroup" id="" style="" tagname="">
-    										<xf:group class="progbox" id="">
-    											<xf:group class="grpbg" id="" style=""></xf:group>
-    											<xf:group class="grpbar pink" id="" style="width: 80%;"></xf:group>
-    										</xf:group>
-    										<xf:group class="monthbox" id="">
-    											<w2:textbox class="box center pink" id="" label="납부 10개월" style="" tagname="span"></w2:textbox>
-    											<w2:textbox class="box end black" id="" label="잔여 2개월" style="" tagname="span"></w2:textbox>
-    										</xf:group>
-    									</xf:group>
-    								</xf:group>
-    							</xf:group>
-    							<xf:group class="item" id="" style="">
-    								<xf:group class="ly" id="">
-    									<xf:group class="textgroup fn" id="" style="" tagname="">
-    										<w2:textbox class="title" id="" label="단말기 할부1" style="" tagname="label"></w2:textbox>
-    										<w2:textbox class="price" id="" label="(월 43,313원)" style="" tagname=""></w2:textbox>
-    									</xf:group>
-    									<xf:group class="graphgroup" id="" style="" tagname="">
-    										<xf:group class="progbox" id="">
-    											<xf:group class="grpbg" id="" style=""></xf:group>
-    											<xf:group class="grpbar blue" id="" style="width: 20%;"></xf:group>
-    										</xf:group>
-    										<xf:group class="monthbox" id="">
-    											<w2:textbox class="box start sky" id="" label="납부 1개월" style="" tagname="span"></w2:textbox>
-    											<w2:textbox class="box end black" id="" label="잔여 11개월" style="" tagname="span"></w2:textbox>
-    										</xf:group>
-    									</xf:group>
-    								</xf:group>
-    								
-    							</xf:group><w2:textbox id="" label="이외 할부 3건" style="" tagname="span" class="other"></w2:textbox>
-
+    							<w2:textbox id="" label="단말기정보" ref="" style="" tagname="h3"></w2:textbox>
     						</xf:group>
     						<xf:group class="grptextbox" id="" style="">
     							<xf:group id="">
-    								<w2:textbox tagname="span" style="" id="" label="약정할인"></w2:textbox>
+    								<w2:textbox tagname="span" style="" id="" label="U+인터넷"></w2:textbox>
     								<xf:group tagname="" style="" id="" class="rta">
-    									<w2:textbox tagname="span" style="" id="" label="24개월"></w2:textbox>
+    									<w2:textbox tagname="span" style="" id="" label="케이블모뎀, (무료WiFi)기가"></w2:textbox>
     								</xf:group>
     							</xf:group>
     							<xf:group id="" style="">
-    								<w2:textbox id="" label="선택약정할인" style="" tagname="span"></w2:textbox>
+    								<w2:textbox id="" label="IPTV(주)" style="" tagname="span"></w2:textbox>
     								<xf:group class="rta" id="" style="" tagname="">
-    									<w2:textbox id="" label="12개월/25%" style="" tagname="span"></w2:textbox>
+    									<w2:textbox id="" label="구글셋탑, 유선홈GW" style="" tagname="span"></w2:textbox>
+    								</xf:group>
+    							</xf:group>
+    							<xf:group id="" style="">
+    								<w2:textbox id="" label="인터넷 전화" style="" tagname="span"></w2:textbox>
+    								<xf:group class="rta" id="" style="" tagname="">
+    									<w2:textbox id="" label="전화기(070)" style="" tagname="span"></w2:textbox>
+    								</xf:group>
+    							</xf:group>
+    							<xf:group id="" style="">
+    								<w2:textbox id="" label="홈IoT" style="" tagname="span"></w2:textbox>
+    								<xf:group class="rta" id="" style="" tagname="">
+    									<w2:textbox id="" label="(무료_Z허브)AI리모컨허브, &lt;br/&gt;(무료_Z허브)도어센서,&lt;br/&gt;(무료_WiFi)멀티탭(2), AI스피커" style="" tagname="span" escape="false"></w2:textbox>
     								</xf:group>
     							</xf:group>
     						</xf:group>
     					</xf:group>
     					<xf:group class="infobox" id="" style="" tagname="">
     						<xf:group id="" style="" class="msgbox01">
-    							<xf:group id="">
-    								<w2:textbox tagname="label" style="" id="" label="멤버십 등급"></w2:textbox>
-    								<xf:group tagname="" style="" id="" class="rta">
-    									<w2:textbox tagname="span" style="" id="" label="VVIP/나만의 콕(영화)"></w2:textbox>
-    								</xf:group>
-    							</xf:group>
     							<xf:group id="" style="">
     								<w2:textbox id="" label="할인정보" style="" tagname="label"></w2:textbox>
     								<xf:group class="rta" id="" style="" tagname="">
