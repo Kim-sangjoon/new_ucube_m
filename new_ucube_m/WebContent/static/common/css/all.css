@@ -355,9 +355,9 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow: hid
 
 /* tabcontrol_type1 */
 
-.tabcontrol_type1{display: inline-block; width: 100%; background: #F5F7FA;}
-.tabcontrol_type1 .w2tabcontrol{display: inline-block; width: 100%;}
-.tabcontrol_type1 .w2tabcontrol_tabhost {margin: 0; padding: 0 18px; float: left; list-style: none; height: 54px; width: calc(100% - 36px); font-size: 16px; background: #F5F7FA; color: #BEC9D4;}
+.tabcontrol_type1{display: inline-block; background: #F5F7FA; padding: 0 16px 16px 16px;}
+.tabcontrol_type1 .w2tabcontrol{display: inline-block;}
+.tabcontrol_type1 .w2tabcontrol_tabhost {margin: 0; float: left; list-style: none; height: 54px; /* width: calc(100% - 36px); */ font-size: 16px; background: #F5F7FA; color: #BEC9D4;}
 .tabcontrol_type1 .w2tabcontrol_tabhost li {float: left; margin: 0; padding: 0; height: 100%; margin-bottom: 0; background: transparent; overflow: hidden; position: relative;}
 .tabcontrol_type1 .w2tabcontrol_tabhost .w2tabcontrol_tab_left { position: absolute; top: 0; left: 0; height: 100%; width: 10px; background-image: none;}
 .tabcontrol_type1 .w2tabcontrol_tabhost .w2tabcontrol_active .w2tabcontrol_tab_left {background-image: none; background-repeat: no-repeat;}
@@ -368,30 +368,11 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow: hid
 .tabcontrol_type1 .w2tabcontrol_tabhost .w2tabcontrol_tab_right {position: absolute; top: 0; height: 100%; right: 0; width: 10px; background-image: none;}
 .tabcontrol_type1 .w2tabcontrol_tabhost .w2tabcontrol_active .w2tabcontrol_tab_right {background-image: none; background-repeat: no-repeat; background-position: right 0;}
 .tabcontrol_type1 .w2tabcontrol_tabhost li a {position: relative; top: 18px; line-height: 15px; margin-right: 0px; margin-left: 0px; text-decoration: none; color: #BEC9D4; display: block; text-align: center; font-weight: 500;}
-.tabcontrol_type1 .w2tabcontrol_container {height: auto !important; border: none; clear: both; float: left; width: calc(100% - 32px); background: transparent; margin-top: 0; padding: 0 16px 16px 16px;}
+.tabcontrol_type1 .w2tabcontrol_container {height: auto !important; border: none; clear: both; float: left; /* width: calc(100% - 32px); */ background: transparent; margin-top: 0;}
 .tabcontrol_type1 .w2tabcontrol_contents {width: 100%; height: 100%; visibility: hidden;}
 .tabcontrol_type1 .w2tabcontrol_contents_wrapper {position: relative; overflow: auto; height: 100%;}
 .tabcontrol_type1 .w2tabcontrol_bridge {display: block;}
 
-/* tabcontrol_type2*/
-
-.tabcontrol_type2{display: inline-block; width: 100%; background: #F5F7FA;}
-.tabcontrol_type2 .w2tabcontrol{display: inline-block; width: 100%;}
-.tabcontrol_type2 .w2tabcontrol_tabhost {margin: 0; padding: 0 18px; float: left; list-style: none; height: 54px; width: calc(100% - 36px); font-size: 16px; background: #F5F7FA; color: #BEC9D4;}
-.tabcontrol_type2 .w2tabcontrol_tabhost li {float: left; margin: 0; padding: 0; height: 100%; margin-bottom: 0; background: transparent; overflow: hidden; position: relative;}
-.tabcontrol_type2 .w2tabcontrol_tabhost .w2tabcontrol_tab_left { position: absolute; top: 0; left: 0; height: 100%; width: 10px; background-image: none;}
-.tabcontrol_type2 .w2tabcontrol_tabhost .w2tabcontrol_active .w2tabcontrol_tab_left {background-image: none; background-repeat: no-repeat;}
-.tabcontrol_type2 .w2tabcontrol_tabhost .w2tabcontrol_active .w2tabcontrol_tab_center {background-image: none;}
-.tabcontrol_type2 .w2tabcontrol_tabhost .w2tabcontrol_tab_center{overflow: hidden; height: 100%; text-align: center; background-image: none; margin-right: 12px;}
-.tabcontrol_type2 .w2tabcontrol_tabhost .w2tabcontrol_active .w2tabcontrol_tab_center {background-image: none; border-top: 2px solid #202020; margin-right: 12px;}
-.tabcontrol_type2 .w2tabcontrol_tabhost .w2tabcontrol_active .w2tabcontrol_tab_center a{color: #202020; font-weight: 800; top: 16px;}
-.tabcontrol_type2 .w2tabcontrol_tabhost .w2tabcontrol_tab_right {position: absolute; top: 0; height: 100%; right: 0; width: 10px; background-image: none;}
-.tabcontrol_type2 .w2tabcontrol_tabhost .w2tabcontrol_active .w2tabcontrol_tab_right {background-image: none; background-repeat: no-repeat; background-position: right 0;}
-.tabcontrol_type2 .w2tabcontrol_tabhost li a {position: relative; top: 18px; line-height: 15px; margin-right: 0px; margin-left: 0px; text-decoration: none; color: #BEC9D4; display: block; text-align: center; font-weight: 500;}
-.tabcontrol_type2 .w2tabcontrol_container {height: auto !important; border: none; clear: both; float: left; width: calc(100% - 32px); background: transparent; margin-top: 0; padding: 0 16px 16px 16px;}
-.tabcontrol_type2 .w2tabcontrol_contents {width: 100%; height: 100%; visibility: hidden;}
-.tabcontrol_type2 .w2tabcontrol_contents_wrapper {position: relative; overflow: auto; height: 100%;}
-.tabcontrol_type2 .w2tabcontrol_bridge {display: block;}
 
 .contentbox{display:inline-block; width: 100%; background: #FFFFFF; border: 1px solid #DAE3ED; box-sizing: border-box; border-radius: 3px; padding: 10px 17px; margin-bottom: 6px;}
 .contentbox.type2{display:inline-block; width: 100%; background: #FFFFFF; border: 1px solid #DAE3ED; box-sizing: border-box; border-radius: 3px; padding: 12px; margin-bottom: 6px;}

@@ -467,7 +467,7 @@
     					</xf:group>
     				</xf:group>
     			</xf:group><xf:group style="" id="" class="tabcontrol_type1">
-    				<w2:tabControl confirmTrueAction="exist" useTabKeyOnly="true" confirmFalseAction="new" useMoveNextTabFocus="false" useConfirmMessage="false" alwaysDraw="false" style="" id="">
+    				<w2:tabControl confirmTrueAction="exist" useTabKeyOnly="true" confirmFalseAction="new" useMoveNextTabFocus="false" useConfirmMessage="false" alwaysDraw="false" style="" id="" class="">
     					<w2:tabs disabled="false" style="" id="tabs1" label="응대메모"></w2:tabs>
     					<w2:tabs disabled="false" style="" id="tabs2" label="작업메모"></w2:tabs>
     					<w2:content alwaysDraw="false" style="" id="content1" class="">
