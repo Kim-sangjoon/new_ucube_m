@@ -667,6 +667,57 @@
     								</xf:group>
     							</xf:group>
     						</xf:group>
+    						<xf:group class="contentbox type2-1" id="" style="">
+    							<xf:group class="listbox title" id="" style="" tagname="ul">
+    								<xf:group class="" id="" style="" tagname="li">
+    									<xf:group class="item" id="">
+    										<w2:textbox id="" label="상담일시" style="" tagname="label"></w2:textbox>
+    										<w2:textbox class="" dataType="" id="" label="2019-04-23" ref="" style="" tagname="span"></w2:textbox>
+    									</xf:group>
+    								</xf:group>
+    								<xf:group class="" id="" style="" tagname="li">
+    									<xf:group class="item" id="">
+    										<w2:textbox id="" label="작업적용일" style="" tagname="label"></w2:textbox>
+    										<w2:textbox class="" dataType="" id="" label="일괄 수납" ref="" style="" tagname="span"></w2:textbox>
+    									</xf:group>
+    								</xf:group>
+    							</xf:group>
+    							<xf:group class="listbox" id="" style="" tagname="ul">
+    								<xf:group class="" id="" style="" tagname="li">
+    									<xf:group class="item" id="">
+    										<w2:textbox id="" label="유형" style="" tagname="label"></w2:textbox>
+    										<w2:textbox class="" dataType="" id="" label="2019-04-23" ref="" style="" tagname="span"></w2:textbox>
+    									</xf:group>
+    								</xf:group>
+    								<xf:group class="" id="" style="" tagname="li">
+    									<xf:group class="item" id="">
+    										<w2:textbox id="" label="범주" style="" tagname="label"></w2:textbox>
+    										<w2:textbox class="" dataType="" id="" label="일괄 수납" ref="" style="" tagname="span"></w2:textbox>
+    									</xf:group>
+    								</xf:group>
+    								<xf:group class="" id="" style="" tagname="li">
+    									<xf:group class="item" id="">
+    										<w2:textbox id="" label="상품구분/번호" style="" tagname="label"></w2:textbox>
+    										<w2:textbox class="sublabel" id="" label="이동통신" ref="" style="" tagname="span"></w2:textbox>
+    										<w2:textbox class="" dataType="" id="" label="0100****0000" ref="" style="" tagname="span"></w2:textbox>
+    									</xf:group>
+    								</xf:group>
+    								<xf:group class="" id="" style="" tagname="li">
+    									<xf:group class="item" id="">
+    										<w2:textbox id="" label="생성자" style="" tagname="label"></w2:textbox>
+    										<w2:textbox class="sublabel" id="" label="홍길동" ref="" style="" tagname="span"></w2:textbox>
+    										<w2:textbox class="" dataType="" id="" label="3302999300020" ref="" style="" tagname="span"></w2:textbox>
+    									</xf:group>
+    								</xf:group>
+    								<xf:group class="" id="" style="" tagname="li">
+    									<xf:group class="item" id="">
+    										<w2:textbox id="" label="소속점" style="" tagname="label"></w2:textbox>
+    										<w2:textbox class="sublabel" id="" label="(CVC직영점)모바일고객센터" ref="" style="" tagname="span"></w2:textbox>
+    										<w2:textbox class="" dataType="" id="" label="21100032" ref="" style="" tagname="span"></w2:textbox>
+    									</xf:group>
+    								</xf:group>
+    							</xf:group>
+    						</xf:group>
     						<xf:group class="contentbox" id="" style="">
     							<w2:textbox class="btnmore" id="" label="더보기" style=""></w2:textbox>
     						</xf:group>
