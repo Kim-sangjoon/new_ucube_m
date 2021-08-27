@@ -39,9 +39,21 @@
     			<xf:group style="" id="" class="searchbox">
     			<xf:group id="" class="searchboxwrap"><xf:group style="" id="" class="srchitem">
     					<w2:textbox tagname="label" style="" id="" label="조회기간" class="req"></w2:textbox>
-    				<xf:group id="" class="inputgroup"><xf:input ev:onchange="" dataType="date" ev:onkeydown="" editType="" adjustMaxLength="false" style="" applyFormat="" id="" placeholder="YYYY.MM.DD" allowChar="" type="date" class="req">
-    					</xf:input><w2:textbox tagname="span" style="" id="" label="~" class=""></w2:textbox><xf:input ev:onchange="" dataType="date" ev:onkeydown="" adjustMaxLength="false" style="" id="" placeholder="YYYY.MM.DD" type="" class="date req">
-    					</xf:input></xf:group></xf:group><xf:group style="" id="" class="srchitem">
+    					<xf:group id="" class="inputgroup">
+    						<xf:input ev:onchange="" dataType="date" ev:onkeydown="" editType="" adjustMaxLength="false" style=""
+    							applyFormat="" id="" placeholder="YYYY-MM-DD" allowChar="" type="date" class="req">
+    							<w2:attributes>
+    								<w2:required></w2:required>
+    							</w2:attributes>
+    						</xf:input>
+    						<w2:textbox tagname="span" style="" id="" label="~" class=""></w2:textbox>
+    						<xf:input adjustMaxLength="false" allowChar="" applyFormat="" class="req" dataType="date" editType=""
+    							ev:onchange="" ev:onkeydown="" id="" placeholder="YYYY-MM-DD" style="" type="date">
+    							<w2:attributes>
+    								<w2:required></w2:required>
+    							</w2:attributes>
+    						</xf:input>
+    					</xf:group></xf:group><xf:group style="" id="" class="srchitem">
     					<w2:textbox tagname="label" style="" id="" label="상품구분" class="req"></w2:textbox>
     				<xf:group id="" class="inputgroup">
     					<xf:select1 submenuSize="auto" chooseOption="" allOption="true" displayMode="" ref="" appearance="minimal" disabledClass="w2selectbox_disabled" style="" disabled="false" id="" renderType="native" class="req" direction="auto">

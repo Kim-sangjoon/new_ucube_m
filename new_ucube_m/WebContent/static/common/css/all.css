@@ -26,8 +26,7 @@ a{color: #424952; text-decoration:none;}
 .w2tb .w2tb_th, .w2tb .w2tb_td {border:1px solid #E8EFF5;}
  
 /* initForm */
-textarea {border:1px solid #BEC9D4;}
-select {height:40px; font-size:14px; color:#202020; border:1px solid #BEC9D4; background:#FFFFFF; border-radius: 0px;}
+select{height:40px !important; font-size:14px; color:#202020; border:1px solid #BEC9D4; background:#FFFFFF; border-radius: 0px;}
 input[type=tel],
 input[type=time],
 input[type=text],
@@ -41,37 +40,11 @@ input[type=date],
 input[type=datetime-local],
 input[type=month],
 input[type=week],
-textarea {width:100%; height:40px; font-size:14px; color:#202020; border:1px solid #BEC9D4; background:#FFFFFF; text-indent:0; border-radius: 0px; transition: all 0.5s; vertical-align:middle;}
+textarea {width:100%; height:40px; font-size:14px; color:#202020; border:1px solid #BEC9D4; padding:5px 0; background:#FFFFFF; text-indent:0; border-radius: 0px; transition: all 0.5s; vertical-align:middle;}
 input::-webkit-input-placeholder{color:#BEC9D4; font-size:14px; line-height:100%; font-weight: 200; letter-spacing: -0.02em;}
-textarea { padding:5px 0;}
 select:focus,
 textarea:focus,
 input:focus { border: 1px solid #727272;}
-
-/* input[type=date]::-webkit-datetime-edit-text{ -webkit-appearance: none; display: none;} 
-input[type=date]::-webkit-datetime-edit-month-field{ -webkit-appearance: none; display: none;} 
-input[type=date]::-webkit-datetime-edit-day-field{ -webkit-appearance: none; display: none;} 
-input[type=date]::-webkit-datetime-edit-year-field{ -webkit-appearance: none; display: none;} */
-.inputgroup input[type=date],
-.inputgroup input[type=datetime-local],
-.inputgroup input[type=month],
-.inputgroup input[type=week],
-.inputgroup input[type=time]{padding-left: 36px !important;}
-.inputgroup input::-webkit-datetime-edit-text,
-.inputgroup input::-webkit-datetime-edit-ampm-field,
-.inputgroup input::-webkit-datetime-edit-day-field,
-.inputgroup input::-webkit-datetime-edit-hour-field,
-.inputgroup input::-webkit-datetime-edit-millisecond-field,
-.inputgroup input::-webkit-datetime-edit-minute-field,
-.inputgroup input::-webkit-datetime-edit-month-field,
-.inputgroup input::-webkit-datetime-edit-second-field,
-.inputgroup input::-webkit-datetime-edit-week-field,
-.inputgroup input::-webkit-datetime-edit-year-field{color: #202020;}
-.inputgroup input::-webkit-calendar-picker-indicator {display: inline-block; position: absolute; left: 0; width: 22px; height: 22px; padding: 0; -webkit-user-modify: read-only !important; background:url(./../images/ico_cal22.svg);}
-
-.w2selectbox_native {width: 100%;}
-.w2selectbox_native_select {-webkit-appearance: none;  -moz-appearance: none; appearance: none; background: url(./../images/ico_select.svg) no-repeat calc(100% - 8px) center; padding-left: 8px; padding-right: 28px;}
-.w2selectbox_native_select::-ms-expand {display: none;}
 
 input[type=tel][readonly],
 input[type=text][readonly],
@@ -85,6 +58,30 @@ input[type=search][disabled],
 input[type=email][disabled]{background:#eaeaea; border-color:#c0c0c0; color:#666; -webkit-appearance:none; font-size:12px;}
 textarea[readonly],
 textarea[disabled]{padding:11px; font-size:16px; color:#666; font-weight:normal; line-height:140%; height:78px; background:#eaeaea; border:1px solid #c0c0c0;}
+
+.inputgroup input[type=date],
+.inputgroup input[type=datetime-local],
+.inputgroup input[type=month],
+.inputgroup input[type=week],
+.inputgroup input[type=time]{position: relative; padding-left: 36px !important;}
+.inputgroup input::-webkit-datetime-edit-text,
+.inputgroup input::-webkit-datetime-edit-ampm-field,
+.inputgroup input::-webkit-datetime-edit-day-field,
+.inputgroup input::-webkit-datetime-edit-hour-field,
+.inputgroup input::-webkit-datetime-edit-millisecond-field,
+.inputgroup input::-webkit-datetime-edit-minute-field,
+.inputgroup input::-webkit-datetime-edit-month-field,
+.inputgroup input::-webkit-datetime-edit-second-field,
+.inputgroup input::-webkit-datetime-edit-week-field,
+.inputgroup input::-webkit-datetime-edit-year-field{color: #202020;}
+.inputgroup input::-webkit-calendar-picker-indicator {display: inline-block; position: absolute; left: -16px; width: 22px; height: 22px; padding: 0; -webkit-user-modify: read-only !important; background:url(./../images/ico_cal22.svg);}
+.inputgroup input[type=date]::before {content:attr(placeholder); color: #BEC9D4; font-weight: 200; width: 100%; }
+.inputgroup input[type=date]:focus::before,
+.inputgroup input[type=date]:valid::before{display: none;}
+
+.w2selectbox_native {width: 100%;}
+.w2selectbox_native_select {-webkit-appearance: none;  -moz-appearance: none; appearance: none; background: url(./../images/ico_select.svg) no-repeat calc(100% - 8px) center; padding-left: 8px; padding-right: 28px;}
+.w2selectbox_native_select::-ms-expand {display: none;}
 
 .clear {clear:both;}
 .clear:after {content:""; display:block; clear:both;}
