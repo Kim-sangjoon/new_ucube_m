@@ -29,7 +29,7 @@
 		});
 		console.log(swiper);
 		
-		$(".vhtoggle").on("touchstart",function(){
+		$(".vhtoggle").on("click",function(){
 			if(carouselbox01.hasClass("col")){
 				carouselbox01.removeClass("col");
 				swiper.enabled = true;				
