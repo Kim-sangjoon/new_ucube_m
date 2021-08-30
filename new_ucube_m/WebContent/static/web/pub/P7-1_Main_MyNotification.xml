@@ -31,7 +31,7 @@
     		<xf:group style="" id="" class="header" tagname="section">
     			
     		<xf:group style="" id="" class="titlebar">
-    				<xf:group id="" class="cta"><w2:textbox tagname="h2" style="" label="To-Do List" id="" class="title"></w2:textbox><w2:textbox tagname="em" style="" id="" label="7" class=""></w2:textbox></xf:group></xf:group><xf:group tagname="button" style="" id="" class="btn_menu"></xf:group></xf:group>
+    				<xf:group id="" class="cta"><w2:textbox tagname="h2" style="" label="내 알림" id="" class="title"></w2:textbox><w2:textbox tagname="em" style="" id="" label="15" class=""></w2:textbox></xf:group></xf:group><xf:group tagname="button" style="" id="" class="btn_menu"></xf:group></xf:group>
     		<xf:group style="" id="" class="container" tagname="section">
     			<xf:group style="" id="" class="container_inner">
     				<xf:group style="" id="" tagname="" userData2="" class="todo_listbox">
