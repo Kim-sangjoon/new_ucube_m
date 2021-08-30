@@ -66,6 +66,15 @@ input[type="radio"], input[type="checkbox"] {display: none;}
 input[type="checkbox"]:checked + .w2checkbox_label:before, input[type="checkbox"]:checked + .w2table_ccb_col_label:before {background-image: url(./../images/ico_cbx2.svg);}
 .w2checkbox + span{font-size: 14px; color: #202020; line-height: 20px; vertical-align: middle; display: inline-block;}
 
+.w2checkbox.filterbtn{height: 27px;}
+.w2radio.filterbtn .w2radio_item, .w2checkbox.filterbtn .w2checkbox_item{height: 27px; display: inline-block; margin-right: 0; padding-top: 0; box-sizing: border-box;}
+.w2checkbox.filterbtn + .w2checkbox.filterbtn{margin-left: 6px;}
+.filterbtn .w2radio_label, .filterbtn .w2checkbox_label, .filterbtn .w2table_ccb_col_label {background-color: transparent; border: 1px solid #BEC9D4; box-sizing: border-box; border-radius: 5px; font-size: 13px; height: 27px; line-height: 2; font-weight: 500; color: #8996A3; padding: 0 8px;}
+.filterbtn .w2radio_label + .filterbtn .w2radio_label, .filterbtn .w2checkbox_label + .filterbtn .w2checkbox_label, .filterbtn .w2table_ccb_col_label + .filterbtn .w2table_ccb_col_label{margin-left: 8px;}
+.filterbtn .w2checkbox_label:before, .filterbtn .w2table_ccb_col_label:before {content: ''; position: absolute; left: 0; top: 0; width: 1px; height: 1px; margin-top: 0; background: none;}
+.filterbtn input[type="checkbox"]:checked + .w2checkbox_label:before, .filterbtn input[type="checkbox"]:checked + .w2table_ccb_col_label:before {background-image: none;}
+.filterbtn input[type="checkbox"]:checked + .w2checkbox_label, .filterbtn input[type="checkbox"]:checked + .w2table_ccb_col_label {background-color: #FFFFFF; border: 1px solid #8D669F;color: #7B558D;}
+
 .inputgroup input[type=date],
 .inputgroup input[type=datetime-local],
 .inputgroup input[type=month],
