@@ -17,52 +17,12 @@
          <script type="text/javascript" lazy="false"><![CDATA[
         
 	scwin.onpageload = function() {
-		/* default mobile */
-		ipxHome.addClass("hide");
+		
 	};
 	
 	scwin.onpageunload = function() {
 		
-	};
-	
-	/* 모바일-홈 토글버튼 */
-	scwin.serviceToggleBtn_onclick = function(e) {
-		const stb = serviceToggleBtn;		
-		if (stb.hasClass("mobile") || !stb.hasClass("home")){			
-			console.log("홈");
-			stb.removeClass("mobile");
-			stb.addClass("home");
-			ipxMobile.addClass("hide");
-			ipxHome.removeClass("hide");
-		} else if (stb.hasClass("home") || !stb.hasClass("mobile")){
-			console.log("모바일");
-			stb.removeClass("home");
-			stb.addClass("mobile");
-			ipxHome.addClass("hide");
-			ipxMobile.removeClass("hide");
-		}
-	};
-	
-	/* 모바일 > 상품번호 입력 */
-	scwin.ipxMoProductNo_onkeydown = function(e) {		
-		const cipxMoProductNo = ipxMoProductNo.getValue();		
-		if(cipxMoProductNo.length > 0) {
-			btnSearch.setDisabled(false);
-		} else {
-			btnSearch.setDisabled(true);
-		}
-	};
-	
-	/* 홈 > 고객명 입력 */
-	scwin.ipxHoCustomerNm_onkeydown = function(e) {		
-		const cipxHoCustomerNm = ipxHoCustomerNm.getValue();		
-		if(cipxHoCustomerNm.length > 0) {
-			btnSearch.setDisabled(false);
-		} else {
-			btnSearch.setDisabled(true);
-		}
-	};
-	]]></script>
+	};]]></script>
     </head>
     <body ev:onpageload="scwin.onpageload" ev:onpageunload="scwin.onpageunload">
     	<xf:group style="" id="" class="wrapper">
@@ -205,19 +165,19 @@
     		</xf:group>
     		<xf:group style="" id="" class="bottomMenu" tagname="section">
     			<xf:group style="" id="" class="navbox">
-    				<xf:group style="" id="" class="menu01">
+    				<xf:group style="" id="" class="menu01" tagname="button">
     					<xf:group id="" class="numberbox"><w2:textbox style="" label="13" id="" class="num"></w2:textbox></xf:group><w2:textbox class="title" id="" label="To-Do" style=""></w2:textbox>
     				</xf:group>
-    				<xf:group class="menu02 on" id="" style="">
+    				<xf:group class="menu02 on" id="" style="" tagname="button">
     					<w2:textbox class="title" id="" label="가입정보조회" style=""></w2:textbox>
     				</xf:group>
-    				<xf:group class="menu03" id="" style="">
+    				<xf:group class="menu03" id="" style="" tagname="button">
     					<w2:textbox class="title" id="" label="사전조회" style=""></w2:textbox>
     				</xf:group>
-    				<xf:group class="menu04" id="" style="">
+    				<xf:group class="menu04" id="" style="" tagname="button">
     					<w2:textbox class="title" id="" label="개통지역" style=""></w2:textbox>
     				</xf:group>
-    				<xf:group class="menu05" id="" style="">
+    				<xf:group class="menu05" id="" style="" tagname="button">
     					<xf:group class="numberbox" id="" style="">
     						<w2:textbox class="num" id="" label="3" style=""></w2:textbox>
     					</xf:group>

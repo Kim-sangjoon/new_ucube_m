@@ -68,6 +68,7 @@ input[type="checkbox"]:checked + .w2checkbox_label:before, input[type="checkbox"
 
 .w2checkbox.filterbtn{height: 27px;}
 .w2radio.filterbtn .w2radio_item, .w2checkbox.filterbtn .w2checkbox_item{height: 27px; display: inline-block; margin-right: 0; padding-top: 0; box-sizing: border-box;}
+.w2radio.filterbtn .w2radio_item + .w2radio_item, .w2checkbox.filterbtn .w2checkbox_item + .w2checkbox_item{margin-left: 6px;}
 .w2checkbox.filterbtn + .w2checkbox.filterbtn{margin-left: 6px;}
 .filterbtn .w2radio_label, .filterbtn .w2checkbox_label, .filterbtn .w2table_ccb_col_label {background-color: transparent; border: 1px solid #BEC9D4; box-sizing: border-box; border-radius: 5px; font-size: 13px; height: 27px; line-height: 2; font-weight: 500; color: #8996A3; padding: 0 8px;}
 .filterbtn .w2radio_label + .filterbtn .w2radio_label, .filterbtn .w2checkbox_label + .filterbtn .w2checkbox_label, .filterbtn .w2table_ccb_col_label + .filterbtn .w2table_ccb_col_label{margin-left: 8px;}
@@ -137,9 +138,9 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow: hid
 /* popup layout */
 .wrapper.popup{display: inline-block;}
 .wrapper.popup .header{background: #FFFFFF; margin-top: 0;}
-.wrapper.popup section{margin-top: 8px;}
 .wrapper.popup .searchbox{background: #FFFFFF;}
 .wrapper.popup .container{height: calc( 100vh - 55px);}
+.wrapper.popup .container section{margin-top: 8px;}
 
 .container{display: block; height: calc( 100vh - 127px); overflow-y: auto; -webkit-overflow-scrolling: touch;}
 .container .container_inner{padding: 0 16px 16px 16px;}
