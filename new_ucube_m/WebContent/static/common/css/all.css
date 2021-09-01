@@ -568,4 +568,5 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow: hid
 .rightmenu .menuwrap .bodygroup ul.depth3 li.rightmenu_05_04 label::before{background: url(./../images/ico_rightmenu_05_04.svg) no-repeat;}
 .rightmenu .menuwrap .bodygroup ul.depth3 li .btn_right{background: transparent; border: none; width: 24px; height: 24px; background-image: url(./../images/ico_arrow_right24.svg); color: transparent; font-size: 1px;}
 .rightmenu .menuwrap .bodygroup ul.depth3 li.disable{filter: opacity(30%);}
+.rightmenu .menuwrap .bodygroup ul.depth3 li[disabled=true]{filter: opacity(30%);}
 

@@ -636,6 +636,9 @@
     								<w2:textbox id="" label="요금조회" style="" tagname="h4"></w2:textbox>
     								<xf:group class="depth3" id="" style="" tagname="ul">
     									<xf:group class="rightmenu_02_01" id="" style="" tagname="li">
+    										<w2:attributes>
+    											<w2:disabled>true</w2:disabled>
+    										</w2:attributes>
     										<xf:group class="lta" id="" style="">
     											<w2:textbox id="" label="청수미관리" style="" tagname="label"></w2:textbox>
     										</xf:group>
