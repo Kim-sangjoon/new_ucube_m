@@ -97,14 +97,14 @@
     						</xf:group>
     					</xf:group>
     					<xf:group class="listbox2" id="" style="" tagname="">
-    						<w2:textbox id="" label="알림 타이틀" style="" tagname="label" class="alramtitle txt_red2"></w2:textbox>
+    						<w2:textbox id="" label="알림 타이틀" style="" tagname="label" class="alramtitle txt_red"></w2:textbox>
     						<w2:textbox id="" label="상품안내 미흡 관련 처리 필요, 상품안내 미흡 관련 처리 필요, 상품안내 미흡 관련 처리 필요" style="" tagname=""
     							class="content">
     						</w2:textbox>
     						<xf:group class="detailbox" id="" style="">
     							<xf:group id="" class="statusbar">
     								<xf:group id="" class="lta">
-    									<w2:textbox tagname="span" style="" id="" label="긴급" class="status txt_red2"></w2:textbox>
+    									<w2:textbox tagname="span" style="" id="" label="긴급" class="status txt_red"></w2:textbox>
     									<xf:group style="" id="" class="bar"></xf:group>
     									<w2:textbox tagname="span" style="" id="" label="16분 전" class="time"></w2:textbox>
 
@@ -119,14 +119,14 @@
     						</xf:group>
     					</xf:group>
     					<xf:group class="listbox2" id="" style="" tagname="">
-    						<w2:textbox class="alramtitle txt_red2" id="" label="알림 타이틀" style="" tagname="label"></w2:textbox>
+    						<w2:textbox class="alramtitle txt_red" id="" label="알림 타이틀" style="" tagname="label"></w2:textbox>
     						<w2:textbox class="content" id="" label="상품안내 미흡 관련 처리 필요, 상품안내 미흡 관련 처리 필요, 상품안내 미흡 관련 처리 필요" style=""
     							tagname="">
     						</w2:textbox>
     						<xf:group class="detailbox" id="" style="">
     							<xf:group class="statusbar" id="">
     								<xf:group class="lta" id="">
-    									<w2:textbox class="status txt_red2" id="" label="긴급" style="" tagname="span"></w2:textbox>
+    									<w2:textbox class="status txt_red" id="" label="긴급" style="" tagname="span"></w2:textbox>
     									<xf:group class="bar" id="" style=""></xf:group>
     									<w2:textbox class="time" id="" label="16분 전" style="" tagname="span"></w2:textbox>
     								</xf:group>
