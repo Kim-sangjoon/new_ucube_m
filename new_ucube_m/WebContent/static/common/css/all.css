@@ -524,6 +524,8 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow: hid
 
 /* 상단우측 햄버거메뉴 */
 .rightmenu{display: inline-block; position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 99;}
+.rightmenu.allmenu{z-index: 0;}
+.rightmenu.allmenu .menuwrap{display: inline-block; width: 100%; height: calc(100vh - 72px); background: #FFFFFF; overflow-y: auto;}
 .rightmenu .dim{display: block; position: absolute; top: 0; left: 0; width: 100%; height: 100vh; background:rgba(0, 0, 0, 0.2);}
 .rightmenu .menuwrap{display: inline-block; position: absolute; height: 100vh; width: calc(100vw - 40px); top: 0; right: 0; background: #FFFFFF; overflow-y: auto;}
 .rightmenu .menuwrap .headergroup{padding: 24px;}
