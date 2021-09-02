@@ -140,8 +140,9 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow: hid
 .wrapper.popup{display: inline-block;}
 .wrapper.popup .header{background: #FFFFFF; margin-top: 0;}
 .wrapper.popup .searchbox{background: #FFFFFF;}
-.wrapper.popup .container{height: calc( 100vh - 55px);}
+.wrapper.popup .container{height: calc(100vh - 55px);}
 .wrapper.popup .container section{margin-top: 8px;}
+.wrapper.popup .container section.h100{display: inline-block; width: 100%; height: calc(100% - 8px); background: #FFFFFF;}
 
 .container{display: block; height: calc( 100vh - 127px); overflow-y: auto; -webkit-overflow-scrolling: touch;}
 .container.nobottom{display: block; height: calc( 100vh - 55px);}
@@ -568,7 +569,24 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow: hid
 .rightmenu .menuwrap .bodygroup ul.depth3 li.rightmenu_05_02 label::before{background: url(./../images/ico_rightmenu_05_02.svg) no-repeat;}
 .rightmenu .menuwrap .bodygroup ul.depth3 li.rightmenu_05_03 label::before{background: url(./../images/ico_rightmenu_05_03.svg) no-repeat;}
 .rightmenu .menuwrap .bodygroup ul.depth3 li.rightmenu_05_04 label::before{background: url(./../images/ico_rightmenu_05_04.svg) no-repeat;}
-.rightmenu .menuwrap .bodygroup ul.depth3 li .btn_right{background: transparent; border: none; width: 24px; height: 24px; background-image: url(./../images/ico_arrow_right24.svg); color: transparent; font-size: 1px;}
+.btn_right{background: transparent; border: none; width: 24px; height: 24px; background-image: url(./../images/ico_arrow_right24.svg); color: transparent; font-size: 1px;}
 .rightmenu .menuwrap .bodygroup ul.depth3 li.disable{filter: opacity(30%);}
 .rightmenu .menuwrap .bodygroup ul.depth3 li[disabled=true]{filter: opacity(30%);}
+
+/* 설정 */
+.settingbox{display: inline-block; width: 100%;}
+.settingbox .settingboxwrap{padding: 16px;}
+.settingbox .settingboxwrap ul.listbox{width: 100%;}
+.settingbox .settingboxwrap ul.listbox li{display: inline-block; width: calc(100% - 24px); border-bottom: 1px solid #E8EFF5; height: 55px; line-height: 46px; padding: 0 16px 0 8px;}
+.settingbox .settingboxwrap ul.listbox li label{position: relative; color: #202020; font-size: 16px; font-weight: 300; padding-left: 30px;}
+.settingbox .settingboxwrap ul.listbox li label::before{content: ''; position: absolute; width: 22px; height: 22px; top: calc(50% - 11px); left: 0;}
+.settingbox .settingboxwrap ul.listbox li.item01 label::before{background: url(./../images/ico_setting_01_01.svg);}
+.settingbox .settingboxwrap ul.listbox li.item02 label::before{background: url(./../images/ico_setting_01_02.svg);}
+.settingbox .settingboxwrap ul.listbox li.item03 label::before{background: url(./../images/ico_setting_01_03.svg);}
+
+.settoggle{display: inline-block; position: relative; width: 42px; height: 26px; vertical-align: middle;}
+.settoggle .bg{position: absolute; display: block; width: 42px; height: 16px; top: calc(50% - 8px); left: 0; background: #BEC9D4; border-radius: 16px; transition: all .2s;}
+.settoggle .btn{position: absolute; display: block; width: 26px; height: 26px; top: 0; left: 0; background: #FFFFFF; border: 2px solid #A5B3C2; box-sizing: border-box; border-radius: 50%; transition: all .2s;}
+.settoggle.on .btn{left: 16px; border: 2px solid #7B558D; transition: all .2s;}
+.settoggle.on .bg{background: #A27FB1; transition: all .2s;}
 
