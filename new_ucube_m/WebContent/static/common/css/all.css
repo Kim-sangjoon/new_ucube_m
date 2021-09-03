@@ -599,3 +599,4 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow: hid
 .btn_al{flex: 1; box-sizing: border-box; border: none; border-top: 1px solid #DAE3ED; background: #FFFFFF; color: #56606B; font-weight: 800; font-size: 15px; padding: 13px 0;}
 .btn_al + .btn_al{border-left: 1px solid #DAE3ED;}
 .btn_al.cm{color: #603973;}
+
