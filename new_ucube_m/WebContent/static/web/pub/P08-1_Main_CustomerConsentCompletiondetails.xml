@@ -32,7 +32,7 @@
     			
     		<xf:group style="" id="" class="titlebar">
     				<xf:group id="" class="cta"><w2:textbox tagname="h2" style="" label="고객동의 완료내역" id="" class="title"></w2:textbox></xf:group></xf:group><xf:group tagname="button" style="" id="" class="btn_close"></xf:group></xf:group>
-    		<xf:group style="" id="" class="container nobottom" tagname="section">
+    		<xf:group style="" id="" class="container" tagname="section">
     			<xf:group style="" id="" class="container_inner">
     				<xf:group style="" id="" tagname="" userData2="" class="alram_listbox">
     					<xf:group style="" id="" class="listbox" tagname="ul">
@@ -116,6 +116,14 @@
     								<w2:textbox class="status" id="" label="2021-07-03 14:00:00" style=""></w2:textbox>
     							</xf:group>
     						</xf:group>
+    						<xf:group id="" style="" tagname="li" class="here">
+    							<xf:group class="lta" id="">
+    								<w2:textbox class="title" id="" label="홍OO님 부가서비스 변경" style=""></w2:textbox>
+    							</xf:group>
+    							<xf:group class="rta" id="" style="">
+    								<w2:textbox class="status" id="" label="2021-07-03 14:00:00" style=""></w2:textbox>
+    							</xf:group>
+    						</xf:group>
     						<xf:group id="" style="" tagname="li">
     							<xf:group class="lta" id="">
     								<w2:textbox class="title" id="" label="홍OO님 부가서비스 변경" style=""></w2:textbox>
@@ -124,20 +132,92 @@
     								<w2:textbox class="status" id="" label="2021-07-03 14:00:00" style=""></w2:textbox>
     							</xf:group>
     						</xf:group>
+    						<xf:group id="" style="" tagname="li">
+    							<xf:group class="lta" id="">
+    								<w2:textbox class="title" id="" label="홍OO님 부가서비스 변경" style=""></w2:textbox>
+    							</xf:group>
+    							<xf:group class="rta" id="" style="">
+    								<w2:textbox class="status" id="" label="2021-07-03 14:00:00" style=""></w2:textbox>
+    							</xf:group>
+    						</xf:group>
+    						<xf:group id="" style="" tagname="li">
+    							<xf:group class="lta" id="">
+    								<w2:textbox class="title" id="" label="홍OO님 부가서비스 변경" style=""></w2:textbox>
+    							</xf:group>
+    							<xf:group class="rta" id="" style="">
+    								<w2:textbox class="status" id="" label="2021-07-03 14:00:00" style=""></w2:textbox>
+    							</xf:group>
+    						</xf:group>
+    						<xf:group id="" style="" tagname="li">
+    							<xf:group class="lta" id="">
+    								<w2:textbox class="title" id="" label="홍OO님 요금제 변경" style=""></w2:textbox>
+    							</xf:group>
+    							<xf:group class="rta" id="" style="">
+    								<w2:textbox class="status" id="" label="2021-07-03 14:00:00" style=""></w2:textbox>
+    							</xf:group>
+    						</xf:group>
+    						<xf:group id="" style="" tagname="li">
+    							<xf:group class="lta" id="">
+    								<w2:textbox class="title" id="" label="홍OO님 요금제 변경" style=""></w2:textbox>
+    							</xf:group>
+    							<xf:group class="rta" id="" style="">
+    								<w2:textbox class="status" id="" label="2021-07-03 14:00:00" style=""></w2:textbox>
+    							</xf:group>
+    						</xf:group>
+    						<xf:group id="" style="" tagname="li">
+    							<xf:group class="lta" id="">
+    								<w2:textbox class="title" id="" label="홍OO님 부가서비스 변경" style=""></w2:textbox>
+    							</xf:group>
+    							<xf:group class="rta" id="" style="">
+    								<w2:textbox class="status" id="" label="2021-07-03 14:00:00" style=""></w2:textbox>
+    							</xf:group>
+    						</xf:group>
+    						<xf:group id="" style="" tagname="li">
+    							<xf:group class="lta" id="">
+    								<w2:textbox class="title" id="" label="홍OO님 부가서비스 변경" style=""></w2:textbox>
+    							</xf:group>
+    							<xf:group class="rta" id="" style="">
+    								<w2:textbox class="status" id="" label="2021-07-03 14:00:00" style=""></w2:textbox>
+    							</xf:group>
+    						</xf:group>
+    						<xf:group id="" style="" tagname="li">
+    							<xf:group class="lta" id="">
+    								<w2:textbox class="title" id="" label="홍OO님 요금제 변경" style=""></w2:textbox>
+    							</xf:group>
+    							<xf:group class="rta" id="" style="">
+    								<w2:textbox class="status" id="" label="2021-07-03 14:00:00" style=""></w2:textbox>
+    							</xf:group>
+    						</xf:group>
+    						<xf:group id="" style="" tagname="li">
+    							<xf:group class="lta" id="">
+    								<w2:textbox class="title" id="" label="홍OO님 부가서비스 변경" style=""></w2:textbox>
+    							</xf:group>
+    							<xf:group class="rta" id="" style="">
+    								<w2:textbox class="status" id="" label="2021-07-03 14:00:00" style=""></w2:textbox>
+    							</xf:group>
+    						</xf:group>
+    						<xf:group id="" style="" tagname="li">
+    							<xf:group class="lta" id="">
+    								<w2:textbox class="title" id="" label="홍OO님 요금제 변경" style=""></w2:textbox>
+    							</xf:group>
+    							<xf:group class="rta" id="" style="">
+    								<w2:textbox class="status" id="" label="2021-07-03 14:00:00" style=""></w2:textbox>
+    							</xf:group>
+    						</xf:group>
 
     					</xf:group>
     					<w2:textbox class="lastmsg" id="" label="읽은 알림은 7일간 저장됩니다." style=""></w2:textbox>
-    				</xf:group><xf:group class="bottomfix" id="" style="">
+    				</xf:group>
+    				
+
+    			</xf:group>
+    		</xf:group><xf:group class="bottomfix" id="" style="">
     					<xf:group class="btnbox" id="" style="">
     						<xf:trigger class="btn_df" disabled="true" id="" style="" type="button">
     							<xf:label><![CDATA[닫기]]></xf:label>
     						</xf:trigger>
     					</xf:group>
     				</xf:group>
-    				
-
-    			</xf:group>
-    		</xf:group>
     	</xf:group>
     </body>
 </html>
