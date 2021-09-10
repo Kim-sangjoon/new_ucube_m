@@ -508,9 +508,10 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow: hid
 .alram_listbox .listbox2 + .listbox2{margin-top: 10px;}
 .alram_listbox .listbox2 .alramtitle{font-weight: 400; font-size: 15px; line-height: 22px; color: #373D45;}
 .alram_listbox .listbox2 .content{font-weight: 200; font-size: 12px; line-height: 17px; color: #8996A3; margin-top: 8px;}
-.alram_listbox .listbox2 .detailbox{display: inline-block; width: 100%; margin-top: 8px; }
+.alram_listbox .listbox2 .detailbox{display: inline-block; width: 100%; margin-top: 8px; height: 23px; overflow: hidden; transition: all 0.2s;}
+.alram_listbox .listbox2 .detailbox.active{display: inline-block; width: 100%; margin-top: 8px; height: 83px; transition: all 0.2s;}
 .alram_listbox .listbox2 .detailbox .statusbar{display: inline-block; width: 100%;}
-.alram_listbox .listbox2 .detailbox .detailbtnbox{display: inline-block; width: 100%; border-top: 1px solid #DAE3ED; margin-top: 12px; padding-top: 12px;}
+.alram_listbox .listbox2 .detailbox .detailbtnbox{display: inline-block; width: 100%; border-top: 1px solid #DAE3ED; margin-top: 12px; padding-top: 12px; height: auto; overflow: hidden;}
 .alram_listbox .listbox2 .detailbox .btnbox{display: inline-block; width: 100%;}
 .alram_listbox .listbox2 .detailbox .lta{display: inline-block;}
 .alram_listbox .listbox2 .detailbox .lta span{color: #56606B; line-height: 18px;}
@@ -519,7 +520,10 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow: hid
 .alram_listbox .listbox2 .detailbox .lta .bar{display: inline-block; background: #BEC9D4; height: 11px; width: 1px; margin: 4px 8px 3px 8px; vertical-align: middle;}
 .alram_listbox .listbox2 .detailbox .rta{display: inline-block;}
 .btn_fc{border: none; background: transparent; color: transparent; font-size: 1px; width: 18px; height: 18px;}
-.btn_fc.spread{background-image: url(./../images/ico_arrow_down18.svg);} 
+.btn_fc.spread{background-image: url(./../images/ico_arrow_down18.svg); transition: all 0.2s;}
+.detailbox.active .btn_fc.spread{transform: rotate(180deg); transition: all 0.2s;}
+
+
 .btn_fc.fold{background-image: url(./../images/ico_arrow_up18.svg);} 
 .alram_listbox .lastmsg{font-weight: 300; font-size: 12px; color: #A5B3C2; text-align: center; height: 18px; margin-top: 10px;}
 

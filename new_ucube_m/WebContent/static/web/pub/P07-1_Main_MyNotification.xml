@@ -24,6 +24,18 @@
 		
 	};
 	
+
+	
+	scwin.btn_accordion_onclick = function(e) {
+		var obj = $('#'+ this.id).parent().parent().parent();
+		
+		if(!obj.hasClass('active')){
+			obj.siblings().removeClass('active');
+			obj.addClass('active');		
+		} else {
+			obj.removeClass('active');
+		}
+	};
 	]]></script>
     </head>
     <body ev:onpageload="scwin.onpageload" ev:onpageunload="scwin.onpageunload">
@@ -102,19 +114,34 @@
     							class="content">
     						</w2:textbox>
     						<xf:group class="detailbox" id="" style="">
-    							<xf:group id="" class="statusbar">
-    								<xf:group id="" class="lta">
-    									<w2:textbox tagname="span" style="" id="" label="긴급" class="status txt_red"></w2:textbox>
-    									<xf:group style="" id="" class="bar"></xf:group>
-    									<w2:textbox tagname="span" style="" id="" label="16분 전" class="time"></w2:textbox>
-
+    							<xf:group class="statusbar" id="" style="">
+    								<xf:group class="lta" id="">
+    									<w2:textbox class="status txt_red" id="" label="긴급" style="" tagname="span"></w2:textbox>
+    									<xf:group class="bar" id="" style=""></xf:group>
+    									<w2:textbox class="time" id="" label="16분 전" style="" tagname="span"></w2:textbox>
     								</xf:group>
-    								<xf:group style="" id="" class="rta">
-    									<xf:trigger nextTabID="" style="" id="" type="button" class="btn_fc spread">
+    								<xf:group class="rta" id="" style="">
+    									<xf:trigger class="btn_fc spread" ev:onclick="scwin.btn_accordion_onclick" id="trigger2"
+    										nextTabID="" style="" type="button">
     										<xf:label><![CDATA[펼치기]]></xf:label>
     									</xf:trigger>
     								</xf:group>
-
+    							</xf:group>
+    							<xf:group class="detailbtnbox" id="" style="">
+    								<xf:group class="rta" id="" style="">
+    									<xf:trigger class="btn_cf" id="" style="" type="button">
+    										<xf:label><![CDATA[상세보기]]></xf:label>
+    									</xf:trigger>
+    									<xf:trigger class="btn_cf" id="" style="" type="button">
+    										<xf:label><![CDATA[보류]]></xf:label>
+    									</xf:trigger>
+    									<xf:trigger class="btn_cf" id="" style="" type="button">
+    										<xf:label><![CDATA[이관]]></xf:label>
+    									</xf:trigger>
+    									<xf:trigger class="btn_cf" id="" style="" type="button">
+    										<xf:label><![CDATA[To-Do]]></xf:label>
+    									</xf:trigger>
+    								</xf:group>
     							</xf:group>
     						</xf:group>
     					</xf:group>
@@ -123,7 +150,7 @@
     						<w2:textbox class="content" id="" label="상품안내 미흡 관련 처리 필요, 상품안내 미흡 관련 처리 필요, 상품안내 미흡 관련 처리 필요" style=""
     							tagname="">
     						</w2:textbox>
-    						<xf:group class="detailbox" id="" style="">
+    						<xf:group class="detailbox active" id="" style="">
     							<xf:group class="statusbar" id="">
     								<xf:group class="lta" id="">
     									<w2:textbox class="status txt_red" id="" label="긴급" style="" tagname="span"></w2:textbox>
@@ -131,7 +158,7 @@
     									<w2:textbox class="time" id="" label="16분 전" style="" tagname="span"></w2:textbox>
     								</xf:group>
     								<xf:group class="rta" id="" style="">
-    									<xf:trigger class="btn_fc fold" id="" nextTabID="" style="" type="button">
+    									<xf:trigger class="btn_fc spread" id="btn_accordion" nextTabID="" style="" type="button" ev:onclick="scwin.btn_accordion_onclick">
     										<xf:label><![CDATA[펼치기]]></xf:label>
     									</xf:trigger>
     								</xf:group>
@@ -165,8 +192,25 @@
     									<w2:textbox class="time" id="" label="2시간 전" style="" tagname="span"></w2:textbox>
     								</xf:group>
     								<xf:group class="rta" id="" style="">
-    									<xf:trigger class="btn_fc spread" id="" nextTabID="" style="" type="button">
+    									<xf:trigger class="btn_fc spread" ev:onclick="scwin.btn_accordion_onclick" id="trigger3"
+    										nextTabID="" style="" type="button">
     										<xf:label><![CDATA[펼치기]]></xf:label>
+    									</xf:trigger>
+    								</xf:group>
+    							</xf:group>
+    							<xf:group class="detailbtnbox" id="" style="">
+    								<xf:group class="rta" id="" style="">
+    									<xf:trigger class="btn_cf" id="" style="" type="button">
+    										<xf:label><![CDATA[상세보기]]></xf:label>
+    									</xf:trigger>
+    									<xf:trigger class="btn_cf" id="" style="" type="button">
+    										<xf:label><![CDATA[보류]]></xf:label>
+    									</xf:trigger>
+    									<xf:trigger class="btn_cf" id="" style="" type="button">
+    										<xf:label><![CDATA[이관]]></xf:label>
+    									</xf:trigger>
+    									<xf:trigger class="btn_cf" id="" style="" type="button">
+    										<xf:label><![CDATA[To-Do]]></xf:label>
     									</xf:trigger>
     								</xf:group>
     							</xf:group>
@@ -185,8 +229,25 @@
     									<w2:textbox class="time" id="" label="어제" style="" tagname="span"></w2:textbox>
     								</xf:group>
     								<xf:group class="rta" id="" style="">
-    									<xf:trigger class="btn_fc spread" id="" nextTabID="" style="" type="button">
+    									<xf:trigger class="btn_fc spread" ev:onclick="scwin.btn_accordion_onclick" id="trigger4"
+    										nextTabID="" style="" type="button">
     										<xf:label><![CDATA[펼치기]]></xf:label>
+    									</xf:trigger>
+    								</xf:group>
+    							</xf:group>
+    							<xf:group class="detailbtnbox" id="" style="">
+    								<xf:group class="rta" id="" style="">
+    									<xf:trigger class="btn_cf" id="" style="" type="button">
+    										<xf:label><![CDATA[상세보기]]></xf:label>
+    									</xf:trigger>
+    									<xf:trigger class="btn_cf" id="" style="" type="button">
+    										<xf:label><![CDATA[보류]]></xf:label>
+    									</xf:trigger>
+    									<xf:trigger class="btn_cf" id="" style="" type="button">
+    										<xf:label><![CDATA[이관]]></xf:label>
+    									</xf:trigger>
+    									<xf:trigger class="btn_cf" id="" style="" type="button">
+    										<xf:label><![CDATA[To-Do]]></xf:label>
     									</xf:trigger>
     								</xf:group>
     							</xf:group>
@@ -205,8 +266,25 @@
     									<w2:textbox class="time" id="" label="16분 전" style="" tagname="span"></w2:textbox>
     								</xf:group>
     								<xf:group class="rta" id="" style="">
-    									<xf:trigger class="btn_fc spread" id="" nextTabID="" style="" type="button">
+    									<xf:trigger class="btn_fc spread" ev:onclick="scwin.btn_accordion_onclick" id="trigger5"
+    										nextTabID="" style="" type="button">
     										<xf:label><![CDATA[펼치기]]></xf:label>
+    									</xf:trigger>
+    								</xf:group>
+    							</xf:group>
+    							<xf:group class="detailbtnbox" id="" style="">
+    								<xf:group class="rta" id="" style="">
+    									<xf:trigger class="btn_cf" id="" style="" type="button">
+    										<xf:label><![CDATA[상세보기]]></xf:label>
+    									</xf:trigger>
+    									<xf:trigger class="btn_cf" id="" style="" type="button">
+    										<xf:label><![CDATA[보류]]></xf:label>
+    									</xf:trigger>
+    									<xf:trigger class="btn_cf" id="" style="" type="button">
+    										<xf:label><![CDATA[이관]]></xf:label>
+    									</xf:trigger>
+    									<xf:trigger class="btn_cf" id="" style="" type="button">
+    										<xf:label><![CDATA[To-Do]]></xf:label>
     									</xf:trigger>
     								</xf:group>
     							</xf:group>
