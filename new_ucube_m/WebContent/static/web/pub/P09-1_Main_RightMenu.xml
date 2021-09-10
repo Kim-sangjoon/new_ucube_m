@@ -24,6 +24,14 @@
 		
 	};
 	
+	
+	scwin.btn_menu_onclick = function(e) {
+		rightMenu.addClass('active');
+	};
+	
+	scwin.btn_dim_onclick = function(e) {
+		rightMenu.removeClass('active');
+	};
 	]]></script>
     </head>
     <body ev:onpageload="scwin.onpageload" ev:onpageunload="scwin.onpageunload">
@@ -36,7 +44,7 @@
     					<w2:textbox tagname="em" style="" id="" label="7" class=""></w2:textbox>
     				</xf:group>
     			</xf:group>
-    			<xf:group tagname="button" style="" id="" class="btn_menu"></xf:group>
+    			<xf:group tagname="button" style="" id="btn_menu" class="btn_menu" ev:onclick="scwin.btn_menu_onclick"></xf:group>
     		</xf:group>
     		<xf:group style="" id="" class="container" tagname="section">
     			<xf:group style="" id="" class="container_inner">
@@ -567,8 +575,8 @@
     			</xf:group>
     		</xf:group>
     	</xf:group>
-    	<xf:group id="" style="" class="rightmenu">
-    		<xf:group id="" style="" class="dim"></xf:group>
+    	<xf:group id="rightMenu" style="" class="rightmenu">
+    		<xf:group id="btn_dim" style="" class="dim" ev:onclick="scwin.btn_dim_onclick"></xf:group>
     		<xf:group id="" style="" class="menuwrap">
     			<xf:group id="" style="" class="headergroup">
     				<xf:group id="" style="" class="titlewrap">
