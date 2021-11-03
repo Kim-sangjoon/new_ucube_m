@@ -123,7 +123,7 @@ input[type="checkbox"]:checked + .w2checkbox_label:before, input[type="checkbox"
 /* 4분할 layout */
 .ly {display:-webkit-box; display:-ms-flexbox; display:flex; position:relative; width:100%}
 .ly > .fn{-webkit-box-flex:0; -ms-flex:none; flex:none}
-.ly > * {-webkit-box-flex:1; -ms-flex:1; flex:1; word-break:break-all}
+.ly > * {-webkit-box-flex:1; -ms-flex:1; flex:1; word-break:break-all; box-sizing:border-box; margin:0 8px}
 .ly > *:first-child {margin-left:0}
 .ly > *:last-child {margin-right:0}
 .ly > .col1 {-webkit-box-flex:1; -ms-flex:1; flex:1}
