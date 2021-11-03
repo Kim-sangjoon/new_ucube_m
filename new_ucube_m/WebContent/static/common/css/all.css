@@ -3,12 +3,14 @@
 @import url(./swiper.css);
 
 :root {
-    --main-bg-color:#FFF;
+    --main-bgcolor:#F5F7FA;
+    --popup-bgcolor-h100:#FFFFFF;
 }
 
 .dark:root,
 .dark {
-    --main-bg-color:#000;
+    --main-bgcolor:#131317;
+    --popup-bgcolor-h100:#4a4a50;
 }
 
 /* Reset */
@@ -131,7 +133,8 @@ input[type="checkbox"]:checked + .w2checkbox_label:before, input[type="checkbox"
 
 /* Main & To-Do layout */
 html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow:hidden}
-.wrapper{display:flex; flex-direction:column; width:100%; min-width:360px; background:#F5F7FA; height:100%}
+/* .wrapper{display:flex; flex-direction:column; width:100%; min-width:360px; background:#F5F7FA; height:100%} */
+.wrapper{display:flex; flex-direction:column; width:100%; min-width:360px; background:var(--main-bgcolor); height:100%; transition: all .2s;}
 .wrapper.white{background:#FFFFFF}
 .header{flex-grow:0; flex-shrink:0; padding:15px 16px; position:relative; height:25px}
 .header .titlebar{display:inline; height:56px}
@@ -149,7 +152,7 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow:hidd
 .wrapper.popup .header{background:#FFFFFF; margin-top:0}
 .wrapper.popup .searchbox{background:#FFFFFF}
 .wrapper.popup .container section{margin-top:8px}
-.wrapper.popup .container section.h100{display:inline-block; width:100%; height:calc(100% - 8px); background:#FFFFFF}
+.wrapper.popup .container section.h100{display:inline-block; width:100%; height:calc(100% - 8px); background:var(--popup-bgcolor-h100);}
 .container{flex-grow:1; display:block; overflow-y:auto; -webkit-overflow-scrolling:touch}
 .container.nobottom{display:block; height:calc( 100vh - 55px)}
 .container .container_inner{padding:0 16px 16px 16px}

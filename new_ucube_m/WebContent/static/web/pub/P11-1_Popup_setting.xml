@@ -28,9 +28,11 @@
 	scwin.setToggleBtn_onclick = function(e) {
 		if (setToggleBtn.hasClass("on")){
 			setToggleBtn.removeClass("on");
+			$('body').removeClass("dark");
 			
 		} else {
 			setToggleBtn.addClass("on");
+			$('body').addClass("dark");
 			
 		}
 	};
