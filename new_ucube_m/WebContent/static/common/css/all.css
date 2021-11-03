@@ -15,7 +15,7 @@
 
 /* Reset */
 *{outline:0 !important; -webkit-text-size-adjust:none}
-*::-webkit-scrollbar{width:0}
+/* *::-webkit-scrollbar{width:0} */
 html,body,h1,h2,h3,h4,h5,h6,div,p,blockquote,pre,code,address,ul,ol,li,menu,nav,section,article,aside,
 dl,dt,dd,table,thead,tbody,tfoot,label,caption,th,td,form,fieldset,legend,hr,input,button,textarea,object,figure,figcaption {margin:0; padding:0; letter-spacing:-0.02em}
 html, body{width:100%}
@@ -133,7 +133,6 @@ input[type="checkbox"]:checked + .w2checkbox_label:before, input[type="checkbox"
 
 /* Main & To-Do layout */
 html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow:hidden}
-/* .wrapper{display:flex; flex-direction:column; width:100%; min-width:360px; background:#F5F7FA; height:100%} */
 .wrapper{display:flex; flex-direction:column; width:100%; min-width:360px; background:var(--main-bgcolor); height:100%; transition: all .2s;}
 .wrapper.white{background:#FFFFFF}
 .header{flex-grow:0; flex-shrink:0; padding:15px 16px; position:relative; height:25px}

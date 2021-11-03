@@ -23,7 +23,23 @@
 	scwin.onpageunload = function() {
 		
 	};
+		
 	
+	scwin.statusChekAll_onviewchange = function(info) {
+		if(statusChekAll.getValue() == "all") {
+			statusChekGroup.checkAll(false);
+		} else {
+			return false;
+		}
+	};
+	
+	scwin.statusChekGroup_onviewchange = function(info) {
+		if(statusChekGroup.getValue() !== ""){			
+			statusChekAll.checkAll(false);
+		} else {
+			return false;
+		}
+	};
 	]]></script>
     </head>
     <body ev:onpageload="scwin.onpageload" ev:onpageunload="scwin.onpageunload">
@@ -41,7 +57,7 @@
     						</xf:group>
     						<xf:group id="" style="" class="rta">
     							<xf:select selectedindex="-1" id="" appearance="full" style="" cols="" rows="" ref=""
-    								renderType="checkboxgroup" class="filterbtn">
+    								renderType="checkboxgroup" class="filterbtn ">
     								<xf:choices>
     									<xf:item>
     										<xf:label><![CDATA[전체]]></xf:label>
@@ -65,48 +81,33 @@
     							<w2:textbox class="" id="" label="처리상태" style="" tagname="span"></w2:textbox>
     						</xf:group>
     						<xf:group class="rta" id="" style="">
-    							<xf:select appearance="full" class="filterbtn" cols="" id="" ref="" renderType="checkboxgroup" rows=""
-    								selectedindex="-1" style="">
+    							<xf:select appearance="full" class="filterbtn" cols="" id="statusChekAll" ref="" renderType="checkboxgroup"
+    								rows="" selectedindex="-1" style="" ev:onchange="" ev:oncheckboxclick="" ev:onviewchange="scwin.statusChekAll_onviewchange">
     								<xf:choices>
     									<xf:item>
     										<xf:label><![CDATA[전체]]></xf:label>
-    										<xf:value></xf:value>
+    										<xf:value><![CDATA[all]]></xf:value>
     									</xf:item>
     								</xf:choices>
     							</xf:select>
-    							<xf:select appearance="full" class="filterbtn" cols="" id="" ref="" renderType="checkboxgroup" rows=""
-    								selectedindex="-1" style="">
+    							<xf:select appearance="full" class="filterbtn" cols="" id="statusChekGroup" ref=""
+    								renderType="checkboxgroup" rows="" selectedindex="-1" style="" ev:onviewchange="scwin.statusChekGroup_onviewchange">
     								<xf:choices>
     									<xf:item>
     										<xf:label><![CDATA[접수대기]]></xf:label>
-    										<xf:value><![CDATA[]]></xf:value>
+    										<xf:value><![CDATA[0]]></xf:value>
     									</xf:item>
-    								</xf:choices>
-    							</xf:select>
-    							<xf:select appearance="full" class="filterbtn" cols="" id="" ref="" renderType="checkboxgroup" rows=""
-    								selectedindex="-1" style="">
-    								<xf:choices>
     									<xf:item>
     										<xf:label><![CDATA[접수]]></xf:label>
-    										<xf:value><![CDATA[]]></xf:value>
+    										<xf:value><![CDATA[1]]></xf:value>
     									</xf:item>
-    								</xf:choices>
-    							</xf:select>
-    							<xf:select appearance="full" class="filterbtn" cols="" id="" ref="" renderType="checkboxgroup" rows=""
-    								selectedindex="-1" style="">
-    								<xf:choices>
     									<xf:item>
     										<xf:label><![CDATA[진행중]]></xf:label>
-    										<xf:value><![CDATA[]]></xf:value>
+    										<xf:value><![CDATA[2]]></xf:value>
     									</xf:item>
-    								</xf:choices>
-    							</xf:select>
-    							<xf:select appearance="full" class="filterbtn" cols="" id="" ref="" renderType="checkboxgroup" rows=""
-    								selectedindex="-1" style="">
-    								<xf:choices>
     									<xf:item>
     										<xf:label><![CDATA[당일]]></xf:label>
-    										<xf:value><![CDATA[]]></xf:value>
+    										<xf:value><![CDATA[3]]></xf:value>
     									</xf:item>
     								</xf:choices>
     							</xf:select>
