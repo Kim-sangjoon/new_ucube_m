@@ -4,13 +4,15 @@
 
 :root {
     --main-bgcolor:#F5F7FA;
+    --main-txtcolor-title:#202020;
+    --main-txtcolor-title-em:#8996A3;
     --popup-bgcolor-h100:#FFFFFF;
+    
 }
 
 .dark:root,
 .dark {
     --main-bgcolor:#131317;
-    --popup-bgcolor-h100:#4a4a50;
 }
 
 /* Reset */
@@ -137,8 +139,8 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow:hidd
 .wrapper.white{background:#FFFFFF}
 .header{flex-grow:0; flex-shrink:0; padding:15px 16px; position:relative; height:25px}
 .header .titlebar{display:inline; height:56px}
-.header .titlebar h2.title{display:inline-block; font-weight:800; color:#202020; font-size:17px; vertical-align:middle}
-.header .titlebar em{font-weight:500; color:#8996A3; font-size:13px; padding-left:8px; vertical-align:middle}
+.header .titlebar h2.title{display:inline-block; font-weight:800; color:var(--main-txtcolor-title); font-size:17px; vertical-align:middle}
+.header .titlebar em{font-weight:500; color:var(--main-txtcolor-title-em); font-size:13px; padding-left:8px; vertical-align:middle}
 .header .cta{text-align:center}
 .header .btn_menu{display:block; height:24px; width:24px; background:url(./../images/ico_menu.svg); position:absolute; top:16px; right:16px}
 .header .btn_close{display:block; height:24px; width:24px; background:url(./../images/ico_close.svg); position:absolute; top:16px; right:16px}
@@ -598,3 +600,10 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow:hidd
 .btn_al + .btn_al{border-left:1px solid #DAE3ED}
 .btn_al.cm{color:#603973}
 
+/* bottom sheet */
+.bsbox{display:flex; position:absolute; top:0; left:0; width:100%; height:100%; background:transparent; justify-content:center; align-items:flex-end; z-index:12}
+.bsbox .bsboxwrap{position:relative; display:inline-block; width:100%; padding:29px 16px 16px; background:#FFFFFF; border-radius:16px 16px 0 0; box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.22), 0px -4px 10px rgba(0, 0, 0, 0.09);}
+.bsbox .bsboxwrap::after{content:""; position:absolute; display:block; width:50px; height:5px; top:5px; left:calc(50% - 25px); background:#BEC9D4; border-radius:10px}
+.bsbox .bsboxwrap h3{font-weight:800; font-size:15px; line-height:20px; color:#7B558D;}
+.bsbox .bsboxwrap h4{margin-top:9px; font-weight:800; font-size:14px; line-height:22px; color:#F92465;}
+.bsbox .bsboxwrap .content{margin-top:4px; font-size:14px; color:#202020;}
