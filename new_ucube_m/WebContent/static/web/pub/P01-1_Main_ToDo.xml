@@ -28,16 +28,12 @@
 	scwin.statusChekAll_onviewchange = function(info) {
 		if(statusChekAll.getValue() == "all") {
 			statusChekGroup.checkAll(false);
-		} else {
-			return false;
 		}
 	};
 	
 	scwin.statusChekGroup_onviewchange = function(info) {
 		if(statusChekGroup.getValue() !== ""){			
 			statusChekAll.checkAll(false);
-		} else {
-			return false;
 		}
 	};
 	]]></script>
