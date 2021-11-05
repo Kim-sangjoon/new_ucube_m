@@ -7,12 +7,54 @@
     --main-txtcolor-title:#202020;
     --main-txtcolor-title-em:#8996A3;
     --popup-bgcolor-h100:#FFFFFF;
-    
+    --text-color-navbox-title:#38393A;
+    --text-color-navbox-title-on:#425FA3;
+    --bgcolor-navibox-numberbox:#F94B50;
+    --text-color-navibox-numberbox-num:#FFFFFF;
+    --ico-menu01-todo:url(./../images/ico_01_todo.svg);
+    --ico-menu02-search:url(./../images/ico_02_search.svg);
+    --ico-menu02-01-search:url(./../images/ico_02-01_search.svg);
+    --ico-menu03-filesearch:url(./../images/ico_03_filesearch.svg);
+    --ico-menu04-area:url(./../images/ico_04_area.svg);
+    --ico-menu05-alarm:url(./../images/ico_05_alarm.svg);
+    --ico-menu06-customer:url(./../images/ico_06_customer.svg);
+    --ico-menu07-allmenu:url(./../images/ico_07_allmenu.svg);
+    --ico-menu01-todo-on:url(./../images/ico_01_todo_on.svg);
+    --ico-menu02-search-on:url(./../images/ico_02_search_on.svg);
+    --ico-menu02-search-01-on:url(./../images/ico_02-01_search_on.svg);
+    --ico-menu03-filesearch-on:url(./../images/ico_03_filesearch_on.svg);
+    --ico-menu04-area-on:url(./../images/ico_04_area_on.svg);
+    --ico-menu05-alarm-on:url(./../images/ico_05_alarm_on.svg);
+    --ico-menu06-customer-on:url(./../images/ico_06_customer_on.svg);
+    --ico-menu07-allmenu-on:url(./../images/ico_07_allmenu_on.svg);    
 }
 
 .dark:root,
 .dark {
     --main-bgcolor:#131317;
+    --main-txtcolor-title:#202020;
+    --main-txtcolor-title-em:#8996A3;
+    --popup-bgcolor-h100:#FFFFFF;
+    --text-color-navbox-title:#38393A;
+    --text-color-navbox-title-on:#425FA3;
+    --bgcolor-navibox-numberbox:#F94B50;
+    --text-color-navibox-numberbox-num:#FFFFFF;
+    --ico-menu01-todo:url(./../images/ico_01_todo.svg);
+    --ico-menu02-search:url(./../images/ico_02_search.svg);
+    --ico-menu02-01-search:url(./../images/ico_02-01_search.svg);
+    --ico-menu03-filesearch:url(./../images/ico_03_filesearch.svg);
+    --ico-menu04-area:url(./../images/ico_04_area.svg);
+    --ico-menu05-alarm:url(./../images/ico_05_alarm.svg);
+    --ico-menu06-customer:url(./../images/ico_06_customer.svg);
+    --ico-menu07-allmenu:url(./../images/ico_07_allmenu.svg);
+    --ico-menu01-todo-on:url(./../images/ico_01_todo_on.svg);
+    --ico-menu02-search-on:url(./../images/ico_02_search_on.svg);
+    --ico-menu02-search-01-on:url(./../images/ico_02-01_search_on.svg);
+    --ico-menu03-filesearch-on:url(./../images/ico_03_filesearch_on.svg);
+    --ico-menu04-area-on:url(./../images/ico_04_area_on.svg);
+    --ico-menu05-alarm-on:url(./../images/ico_05_alarm_on.svg);
+    --ico-menu06-customer-on:url(./../images/ico_06_customer_on.svg);
+    --ico-menu07-allmenu-on:url(./../images/ico_07_allmenu_on.svg);
 }
 
 /* Reset */
@@ -202,26 +244,27 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow:hidd
 .bottomMenu .navbox .menu05,
 .bottomMenu .navbox .menu06,
 .bottomMenu .navbox .menu07{position:relative; width:72px; height:64px; background-position:center 14px; background-repeat:no-repeat}
-.navbox .title{position:absolute; top:42px; width:100%; text-align:center; color:#424952; font-weight:normal; font-size:11px}
-.navbox .on .title{color:#425FA3; font-weight:500}
-.navbox .numberbox{position:absolute; top:22px; left:39px; background:#F94B50; border:1px solid #FFFFFF; border-radius:5px; text-align:center; color:#FFFFFF; font-weight:400; font-size:10px; padding:0px 3.5px 1px 3px}
-.navbox .numberbox .num{line-height:14px; letter-spacing:initial}
-.menu01{background:url(./../images/ico_01_todo.svg)}
-.menu02{background:url(./../images/ico_02_search.svg)}
-.menu02-01{background:url(./../images/ico_02-01_search.svg)}
-.menu03{background:url(./../images/ico_03_filesearch.svg)}
-.menu04{background:url(./../images/ico_04_area.svg)}
-.menu05{background:url(./../images/ico_05_alarm.svg)}
-.menu06{background:url(./../images/ico_06_customer.svg)}
-.menu07{background:url(./../images/ico_07_allmenu.svg)}
-.menu01.on{background:url(./../images/ico_01_todo_on.svg)}
-.menu02.on{background:url(./../images/ico_02_search_on.svg)}
-.menu02-01.on{background:url(./../images/ico_02-01_search_on.svg)}
-.menu03.on{background:url(./../images/ico_03_filesearch_on.svg)}
-.menu04.on{background:url(./../images/ico_04_area_on.svg)}
-.menu05.on{background:url(./../images/ico_05_alarm_on.svg)}
-.menu06.on{background:url(./../images/ico_06_customer_on.svg)}
-.menu07.on{background:url(./../images/ico_07_allmenu_on.svg)}
+.navbox .title{position:absolute; top:42px; width:100%; text-align:center; color:var(--text-color-navbox-title); font-weight:normal; font-size:11px}
+.navbox .on .title{color:var(--text-color-navbox-title-on); font-weight:500}
+.navbox .numberbox{position:absolute; top:22px; left:39px; background:var(--bgcolor-navibox-numberbox); border:1px solid #FFFFFF; border-radius:5px; text-align:center; color:#FFFFFF; font-weight:400; font-size:10px; padding:0px 3.5px 1px 3px}
+.navbox .numberbox .num{line-height:14px; color:var(--text-color-navibox-numberbox-num); letter-spacing:initial}
+
+.menu01{background:var(--ico-menu01-todo)}
+.menu02{background:var(--ico-menu02-search)}
+.menu02-01{background:var(--ico-menu02-01-search)}
+.menu03{background:var(--ico-menu03-filesearch)}
+.menu04{background:var(--ico-menu04-area)}
+.menu05{background:var(--ico-menu05-alarm)}
+.menu06{background:var(--ico-menu06-customer)}
+.menu07{background:var(--ico-menu07-allmenu)}
+.menu01.on{background:var(--ico-menu01-todo-on)}
+.menu02.on{background:var(--ico-menu02-search-on)}
+.menu02-01.on{background:var(--ico-menu02-search-01-on)}
+.menu03.on{background:var(--ico-menu03-filesearch-on)}
+.menu04.on{background:var(--ico-menu04-area-on)}
+.menu05.on{background:var(--ico-menu05-alarm-on)}
+.menu06.on{background:var(--ico-menu06-customer-on)}
+.menu07.on{background:var(--ico-menu07-allmenu-on)}    
 
 /* 가입정보조회 */
 .vcenter{display:flex; align-items:center}
