@@ -39,22 +39,22 @@
     --text-color-navbox-title-on:#425FA3;
     --bgcolor-navibox-numberbox:#F94B50;
     --text-color-navibox-numberbox-num:#FFFFFF;
-    --ico-menu01-todo:url(./../images/ico_01_todo.svg);
-    --ico-menu02-search:url(./../images/ico_02_search.svg);
-    --ico-menu02-01-search:url(./../images/ico_02-01_search.svg);
-    --ico-menu03-filesearch:url(./../images/ico_03_filesearch.svg);
-    --ico-menu04-area:url(./../images/ico_04_area.svg);
-    --ico-menu05-alarm:url(./../images/ico_05_alarm.svg);
-    --ico-menu06-customer:url(./../images/ico_06_customer.svg);
-    --ico-menu07-allmenu:url(./../images/ico_07_allmenu.svg);
-    --ico-menu01-todo-on:url(./../images/ico_01_todo_on.svg);
-    --ico-menu02-search-on:url(./../images/ico_02_search_on.svg);
-    --ico-menu02-search-01-on:url(./../images/ico_02-01_search_on.svg);
-    --ico-menu03-filesearch-on:url(./../images/ico_03_filesearch_on.svg);
-    --ico-menu04-area-on:url(./../images/ico_04_area_on.svg);
-    --ico-menu05-alarm-on:url(./../images/ico_05_alarm_on.svg);
-    --ico-menu06-customer-on:url(./../images/ico_06_customer_on.svg);
-    --ico-menu07-allmenu-on:url(./../images/ico_07_allmenu_on.svg);
+    --ico-menu01-todo:url(./../images/ico_01_todo_dark.svg);
+    --ico-menu02-search:url(./../images/ico_02_search_dark.svg);
+    --ico-menu02-01-search:url(./../images/ico_02-01_search_dark.svg);
+    --ico-menu03-filesearch:url(./../images/ico_03_filesearch_dark.svg);
+    --ico-menu04-area:url(./../images/ico_04_area_dark.svg);
+    --ico-menu05-alarm:url(./../images/ico_05_alarm_dark.svg);
+    --ico-menu06-customer:url(./../images/ico_06_customer_dark.svg);
+    --ico-menu07-allmenu:url(./../images/ico_07_allmenu_dark.svg);
+    --ico-menu01-todo-on:url(./../images/ico_01_todo_on_dark.svg);
+    --ico-menu02-search-on:url(./../images/ico_02_search_on_dark.svg);
+    --ico-menu02-search-01-on:url(./../images/ico_02-01_search_on_dark.svg);
+    --ico-menu03-filesearch-on:url(./../images/ico_03_filesearch_on_dark.svg);
+    --ico-menu04-area-on:url(./../images/ico_04_area_on_dark.svg);
+    --ico-menu05-alarm-on:url(./../images/ico_05_alarm_on_dark.svg);
+    --ico-menu06-customer-on:url(./../images/ico_06_customer_on_dark.svg);
+    --ico-menu07-allmenu-on:url(./../images/ico_07_allmenu_on_dark.svg);
 }
 
 /* Reset */
@@ -647,6 +647,14 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow:hidd
 .bsbox{display:flex; position:absolute; top:0; left:0; width:100%; height:100%; background:transparent; justify-content:center; align-items:flex-end; z-index:12}
 .bsbox .bsboxwrap{position:relative; display:inline-block; width:100%; padding:29px 16px 16px; background:#FFFFFF; border-radius:16px 16px 0 0; box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.22), 0px -4px 10px rgba(0, 0, 0, 0.09);}
 .bsbox .bsboxwrap::after{content:""; position:absolute; display:block; width:50px; height:5px; top:5px; left:calc(50% - 25px); background:#BEC9D4; border-radius:10px}
-.bsbox .bsboxwrap h3{font-weight:800; font-size:15px; line-height:20px; color:#7B558D;}
-.bsbox .bsboxwrap h4{margin-top:9px; font-weight:800; font-size:14px; line-height:22px; color:#F92465;}
-.bsbox .bsboxwrap .content{margin-top:4px; font-size:14px; color:#202020;}
+.bsbox .bsboxwrap h3{font-weight:800; font-size:15px; line-height:20px; color:#7B558D}
+.bsbox .bsboxwrap h4{margin-top:9px; font-weight:800; font-size:14px; line-height:22px; color:#F92465}
+.bsbox .bsboxwrap .content{margin-top:4px; font-size:14px; color:#202020}
+
+/* toast message */
+.tmbox{display:flex; position:absolute; bottom:16px; left:0; padding: 0 22px; width: calc(100% - 44px); background:transparent; justify-content:center; z-index:13}
+.tmbox .tmboxwrap{display:inline-block; width:100%; padding:12px 16px; background:#373D45; box-shadow:0px 0px 2px rgba(0, 0, 0, 0.22), 0px 7px 10px rgba(0, 0, 0, 0.12); border-radius:3px}
+.tmbox.alert .tmboxwrap{background:#F94B50}
+.tmbox .tmboxwrap .msg{font-size: 14px; color: #FFFFFF; font-weight: 100}
+.tmbox .tmboxwrap .confirm{font-weight: 200; font-size: 14px; color: #C2A5CF}
+.tmbox.alert .tmboxwrap .confirm{color: #FFFFFF}
