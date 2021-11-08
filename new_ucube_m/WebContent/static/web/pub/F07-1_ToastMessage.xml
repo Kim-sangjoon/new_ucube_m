@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:ev="http://www.w3.org/2001/xml-events"
+    xmlns:w2="http://www.inswave.com/websquare" xmlns:xf="http://www.w3.org/2002/xforms">
+    <head meta_programName="toast message">
+    	<w2:type>DEFAULT</w2:type>
+        <w2:buildDate/>
+        <xf:model>
+            <xf:instance>
+                <data xmlns=""/>
+            </xf:instance>
+            <w2:dataCollection baseNode="map">
+            </w2:dataCollection>
+            <w2:workflowCollection>
+            </w2:workflowCollection>
+        </xf:model>
+         <script type="text/javascript" lazy="false"><![CDATA[
+        
+	scwin.onpageload = function() {
+		var swiper = new Swiper(".mySwiper", {
+	        slidesPerView: 1,
+	        spaceBetween: 10,
+	        teredSlides: true,
+	        pagination: {
+				el: ".swiper-pagination",
+				clickable: false,
+	        },
+		});
+		console.log(swiper);
+		
+		$(".vhtoggle").on("click",function(){
+			if(carouselbox01.hasClass("col")){
+				carouselbox01.removeClass("col");
+				swiper.enabled = true;				
+			} else {
+				carouselbox01.addClass("col");
+				swiper.enabled = false;
+			}
+		});	
+	};
+	
+	scwin.onpageunload = function() {
+		
+	};
+	
+	]]></script>
+    </head>
+    <body ev:onpageload="scwin.onpageload" ev:onpageunload="scwin.onpageunload">
+    	<xf:group class="wrapper" id="" style="">
+    	</xf:group>
+    	<xf:group class="toastmessage" id="" style="">
+    		<xf:group class="tmbox alert" id="" style="">
+    			<xf:group class="tmboxwrap" id="">
+    				<xf:group id="" class="ly">
+    					<xf:group id="" class="col1">
+    						<w2:textbox style="" id="" label="컨텐츠 영역입니다. 액션이 실행 중이거나 완료되었다는 피드백 메시지를 제공" class="msg"></w2:textbox>
+    					</xf:group>
+    					<xf:group id="" style="display: flex;align-items: center;" class="fn">
+    						<w2:textbox class="confirm" id="" label="확인" style=""></w2:textbox>
+    					</xf:group>
+    				</xf:group>
+    			</xf:group>
+    		</xf:group>
+    	</xf:group>
+    </body>
+</html>
