@@ -13,9 +13,10 @@
 		</list>
 	</section>
 	<section name="NewWizardAction">
-		<item value="tern.eclipse.ide.tools.ui.wizards.NewTernDefWizard" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
+		<item value="com.inswave.websquare.ui.wizard.WqNewResourceWizard" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
 		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
 			<item value="tern.eclipse.ide.ui.wizard"/>
+			<item value="com.inswave.websquare.ui.wizard.category"/>
 		</list>
 	</section>
 	<section name="ImportExportAction">
