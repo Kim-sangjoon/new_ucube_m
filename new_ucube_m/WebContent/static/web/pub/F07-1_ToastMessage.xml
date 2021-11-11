@@ -40,7 +40,7 @@
     <body ev:onpageload="scwin.onpageload" ev:onpageunload="scwin.onpageunload">
     	<xf:group class="wrapper" id="" style="">
     	<xf:group id="" class="btnbox"><xf:trigger style="" id="trigger1" type="button" class="btn_df" ev:onclick="scwin.trigger1_onclick">
-    			<xf:label><![CDATA[버튼]]></xf:label>
+    			<xf:label><![CDATA[toastMessage]]></xf:label>
     		</xf:trigger></xf:group></xf:group>
     	<xf:group class="toastmessage" id="" style="">
     		<xf:group class="tmbox alert" id="" style="">
