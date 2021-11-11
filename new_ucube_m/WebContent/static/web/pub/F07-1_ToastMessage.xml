@@ -17,37 +17,31 @@
          <script type="text/javascript" lazy="false"><![CDATA[
         
 	scwin.onpageload = function() {
-		var swiper = new Swiper(".mySwiper", {
-	        slidesPerView: 1,
-	        spaceBetween: 10,
-	        teredSlides: true,
-	        pagination: {
-				el: ".swiper-pagination",
-				clickable: false,
-	        },
-		});
-		console.log(swiper);
 		
-		$(".vhtoggle").on("click",function(){
-			if(carouselbox01.hasClass("col")){
-				carouselbox01.removeClass("col");
-				swiper.enabled = true;				
-			} else {
-				carouselbox01.addClass("col");
-				swiper.enabled = false;
-			}
-		});	
 	};
 	
 	scwin.onpageunload = function() {
 		
 	};
 	
+	
+	scwin.trigger1_onclick = function(e) {
+		toastMessage();
+	};
+	
+	function toastMessage(){
+		$(".tmbox").addClass("enable");
+		setTimeout(function(){
+			$(".tmbox").removeClass("enable");
+		}, 4000)
+	};
 	]]></script>
     </head>
     <body ev:onpageload="scwin.onpageload" ev:onpageunload="scwin.onpageunload">
     	<xf:group class="wrapper" id="" style="">
-    	</xf:group>
+    	<xf:group id="" class="btnbox"><xf:trigger style="" id="trigger1" type="button" class="btn_df" ev:onclick="scwin.trigger1_onclick">
+    			<xf:label><![CDATA[버튼]]></xf:label>
+    		</xf:trigger></xf:group></xf:group>
     	<xf:group class="toastmessage" id="" style="">
     		<xf:group class="tmbox alert" id="" style="">
     			<xf:group class="tmboxwrap" id="">

@@ -657,7 +657,8 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow:hidd
 .bsbox .bsboxwrap .content{margin-top:4px; font-size:14px; color:#202020}
 
 /* toast message */
-.tmbox{display:flex; position:absolute; bottom:16px; left:0; padding: 0 22px; width: calc(100% - 44px); background:transparent; justify-content:center; z-index:13}
+.tmbox{display:flex; position:absolute; bottom:-5px; left:0; padding: 0 22px; width: calc(100% - 44px); background:transparent; justify-content:center; z-index:13; opacity: 0; transition: all 1s}
+.tmbox.enable{bottom:16px; opacity: 1; transition: all .2s}
 .tmbox .tmboxwrap{display:inline-block; width:100%; padding:12px 16px; background:#373D45; box-shadow:0px 0px 2px rgba(0, 0, 0, 0.22), 0px 7px 10px rgba(0, 0, 0, 0.12); border-radius:3px}
 .tmbox.alert .tmboxwrap{background:#F94B50}
 .tmbox .tmboxwrap .msg{font-size: 14px; color: #FFFFFF; font-weight: 100}
