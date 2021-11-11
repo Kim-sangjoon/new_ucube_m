@@ -650,6 +650,7 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow:hidd
 /* bottom sheet */
 .bsbox{display:flex; position:absolute; top:0; left:0; width:100%; height:100%; background:transparent; justify-content:center; align-items:flex-end; z-index:12}
 .bsbox .bsboxwrap{position:relative; display:inline-block; width:100%; padding:29px 16px 16px; background:#FFFFFF; border-radius:16px 16px 0 0; box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.22), 0px -4px 10px rgba(0, 0, 0, 0.09);}
+.bsbox .bsboxwrap .contwrap{overflow-y:auto}
 .bsbox .bsboxwrap::after{content:""; position:absolute; display:block; width:50px; height:5px; top:5px; left:calc(50% - 25px); background:#BEC9D4; border-radius:10px}
 .bsbox .bsboxwrap h3{font-weight:800; font-size:15px; line-height:20px; color:#7B558D}
 .bsbox .bsboxwrap h4{margin-top:9px; font-weight:800; font-size:14px; line-height:22px; color:#F92465}
