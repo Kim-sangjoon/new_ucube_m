@@ -179,7 +179,7 @@ input[type="checkbox"]:checked + .w2checkbox_label:before, input[type="checkbox"
 .ly > .col3 {-webkit-box-flex:3; -ms-flex:3; flex:3}
 .ly > .col4 {-webkit-box-flex:4; -ms-flex:4; flex:4}
 
-/* Main & To-Do layout */
+/* Main layout */
 html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow:hidden}
 .wrapper{display:flex; flex-direction:column; width:100%; min-width:360px; background:var(--main-bgcolor); height:100%; transition: all .2s;}
 .wrapper.white{background:#FFFFFF}
@@ -205,6 +205,8 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow:hidd
 .container .container_inner{padding:0 16px 16px 16px}
 .container.vcenter .container_inner{flex:1}
 .container .container_inner section{margin-top:0px}
+.container .container_inner .page_inner section + section{margin-top:24px}
+
 .filterbox{ border-top:1px solid #DAE3ED}
 .filterbox .fboxgroup{display:inline-block; width:100%; margin-top:16px; min-width:315px}
 .filterbox .fboxgroup:first-child{margin-bottom:-4px}
@@ -306,10 +308,14 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow:hidd
 .bottomfix .btnbox{margin-top:0; padding:16px; display:flex; flex-direction:row; justify-content:space-between}
 .btnbox input[type=button] + input[type=button] {margin-left:8px}
 .btn_df{flex:1; border:1px solid #BEC9D4; background:#FFFFFF; border-radius:4px; color:#56606B; font-weight:500; font-size:15px; line-height:48px; text-align:center; letter-spacing:-0.02em}
-.btnbox .btn_cm{flex:1; border:none; background:#7B558D; border-radius:4px; color:#FFFFFF; font-weight:500; font-size:15px; line-height:48px; text-align:center; letter-spacing:-0.02em}
-.btnbox .btn_cm.w2trigger_disabled{background:#E8EFF5; color:#BEC9D4}
-.btnbox .btn_sh{flex:1; border:none; background:#7B558D; border-radius:4px; color:#FFFFFF; font-weight:500; font-size:15px; line-height:48px; text-align:center; letter-spacing:-0.02em}
-.btnbox .btn_sh.w2trigger_disabled{background:#E8EFF5; color:#BEC9D4}
+.btn_df.imp{border: 1px solid #7B558D; color: #7B558D}
+.btn_df.cl{border: 1px solid #E8EFF5; background:#E8EFF5; color:#202020}
+.btn_cm{flex:1; border:none; background:#7B558D; border-radius:4px; color:#FFFFFF; font-weight:500; font-size:15px; line-height:48px; text-align:center; letter-spacing:-0.02em}
+.btn_cm.w2trigger_disabled{background:#E8EFF5; color:#BEC9D4}
+.btn_sh{flex:1; border:none; background:#7B558D; border-radius:4px; color:#FFFFFF; font-weight:500; font-size:15px; line-height:48px; text-align:center; letter-spacing:-0.02em}
+.btn_sh.w2trigger_disabled,
+.btn_df.w2trigger_disabled,
+.btn_cm.w2trigger_disabled{background:#E8EFF5; color:#BEC9D4}
 .result_listbox{margin-top:0px}
 .result_header{height:32px; padding:0 12px; line-height:32px}
 .result_header > label{display:inline-block; text-align:left; color:#6B7682; font-weight:500}
@@ -504,7 +510,7 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow:hidd
 .messagebox .messageboxwrap{padding:0 16px; height:calc(100vh - 145px)}
 .messagebox .messageboxwrap.main{padding:0 16px; height:calc(100vh - 135px); margin-top:8px}
 .messagebox .titlebox{height:48px}
-.messagebox .titlebox h3{color:#7B558D; line-height:48px; font-size:15px; font-weight:900}
+.messagebox .titlebox h3, .titlebox h3{color:#7B558D; line-height:48px; font-size:15px; font-weight:900}
 .messagebox .textbox{background:#F5F7FA; border:2px solid #DAE3ED; box-sizing:border-box; padding:14px}
 .messagebox .textbox ol.numberbox{padding-left:8px}
 .messagebox .textbox ol.numberbox li{position:relative; padding-left:16px}
@@ -556,7 +562,7 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow:hidd
 .alram_listbox .listbox2 .detailbox{display:inline-block; width:100%; margin-top:8px; height:23px; overflow:hidden; transition:all 0.2s}
 .alram_listbox .listbox2 .detailbox.active{display:inline-block; width:100%; margin-top:8px; height:83px; transition:all 0.2s}
 .alram_listbox .listbox2 .detailbox .statusbar{display:inline-block; width:100%}
-.alram_listbox .listbox2 .detailbox .detailbtnbox{display:inline-block; width:100%; border-top:1px solid #DAE3ED; margin-top:12px; padding-top:12px; height:auto; overflow:hidden}
+.alram_listbox .listbox2 .detailbox .detailbtnbox, .detailbtnbox{display:inline-block; width:100%; border-top:1px solid #DAE3ED; margin-top:12px; padding-top:12px; height:auto; overflow:hidden}
 .alram_listbox .listbox2 .detailbox .btnbox{display:inline-block; width:100%}
 .alram_listbox .listbox2 .detailbox .lta{display:inline-block}
 .alram_listbox .listbox2 .detailbox .lta span{color:#56606B; line-height:18px}

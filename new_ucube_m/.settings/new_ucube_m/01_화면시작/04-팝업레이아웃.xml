@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><html xmlns="http://www.w3.org/1999/xhtml" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:w2="http://www.inswave.com/websquare" xmlns:xf="http://www.w3.org/2002/xforms">
+    <head>
+        <w2:buildDate/>
+        <w2:userPalette defaultIcon="layout.png" desc=""/>
+        <xf:model>
+            <xf:instance>
+                <data xmlns=""/>
+            </xf:instance>
+        </xf:model>
+        <script type="text/javascript"><![CDATA[ ]]></script>
+    </head>
+    <body><xf:group style="" id="" class="wrapper popup">
+	<xf:group tagname="section" style="" id="" class="header">
+		<xf:group style="" id="" class="titlebar">
+			<xf:group id="" class="cta">
+				<w2:textbox tagname="h2" style="" id="" label="title" class="title">
+				</w2:textbox>
+</xf:group>
+</xf:group>
+		<xf:group tagname="button" style="" id="" class="btn_close">
+		</xf:group>
+</xf:group>
+	<xf:group id="" class="container" tagname="section">
+	</xf:group>
+</xf:group>
+</body>
+</html>

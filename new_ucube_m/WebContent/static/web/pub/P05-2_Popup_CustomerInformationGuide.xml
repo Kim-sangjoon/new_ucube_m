@@ -92,7 +92,7 @@
     			</xf:group></xf:group>
     		</xf:group></xf:group><xf:group id="" class="bottomfix whiteBg" style="">
     					<xf:group style="" id="" class="btnbox">
-    						<xf:trigger disabled="true" style="" id="" type="button" class="btn_df">
+    						<xf:trigger disabled="" style="" id="" type="button" class="btn_df">
     							<xf:label><![CDATA[취소]]></xf:label>
     						</xf:trigger>
     						<xf:trigger disabled="true" style="" id="" type="button" class="btn_cm">
