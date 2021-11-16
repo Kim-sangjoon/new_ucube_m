@@ -180,19 +180,19 @@
     										id="statusChekGroup" renderType="checkboxgroup" rows="" selectedindex="-1" class="filterbtn" cols="">
     										<xf:choices>
     											<xf:item>
-    												<xf:label><![CDATA[접수대기]]></xf:label>
+    												<xf:label><![CDATA[필터1]]></xf:label>
     												<xf:value><![CDATA[0]]></xf:value>
     											</xf:item>
     											<xf:item>
-    												<xf:label><![CDATA[접수]]></xf:label>
+    												<xf:label><![CDATA[필터2]]></xf:label>
     												<xf:value><![CDATA[1]]></xf:value>
     											</xf:item>
     											<xf:item>
-    												<xf:label><![CDATA[진행중]]></xf:label>
+    												<xf:label><![CDATA[필터3]]></xf:label>
     												<xf:value><![CDATA[2]]></xf:value>
     											</xf:item>
     											<xf:item>
-    												<xf:label><![CDATA[당일]]></xf:label>
+    												<xf:label><![CDATA[필터4]]></xf:label>
     												<xf:value><![CDATA[3]]></xf:value>
     											</xf:item>
     										</xf:choices>
