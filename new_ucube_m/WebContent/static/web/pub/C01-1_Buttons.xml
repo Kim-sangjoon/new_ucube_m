@@ -24,7 +24,17 @@
 		
 	};
 	
-	]]></script>
+	scwin.statusChekAll_onviewchange = function(info) {
+		if(statusChekAll.getValue() == "all") {
+			statusChekGroup.checkAll(false);
+		}
+	};
+	
+	scwin.statusChekGroup_onviewchange = function(info) {
+		if(statusChekGroup.getValue() !== ""){			
+			statusChekAll.checkAll(false);
+		}
+	};]]></script>
     </head>
     <body ev:onpageload="scwin.onpageload" ev:onpageunload="scwin.onpageunload">
     	<xf:group class="wrapper" id="" style="">
@@ -157,7 +167,7 @@
     								</xf:group>
     								<xf:group style="" id="" class="rta">
     									<xf:select ref="" appearance="full" ev:onchange="" ev:oncheckboxclick=""
-    										ev:onviewchange="scwin.statusChekAll_onviewchange" style="" id="checkbox1" renderType="checkboxgroup" rows=""
+    										ev:onviewchange="scwin.statusChekAll_onviewchange" style="" id="statusChekAll" renderType="checkboxgroup" rows=""
     										selectedindex="-1" class="filterbtn" cols="">
     										<xf:choices>
     											<xf:item>
@@ -167,7 +177,7 @@
     										</xf:choices>
     									</xf:select>
     									<xf:select ref="" appearance="full" ev:onviewchange="scwin.statusChekGroup_onviewchange" style=""
-    										id="checkbox2" renderType="checkboxgroup" rows="" selectedindex="-1" class="filterbtn" cols="">
+    										id="statusChekGroup" renderType="checkboxgroup" rows="" selectedindex="-1" class="filterbtn" cols="">
     										<xf:choices>
     											<xf:item>
     												<xf:label><![CDATA[접수대기]]></xf:label>
