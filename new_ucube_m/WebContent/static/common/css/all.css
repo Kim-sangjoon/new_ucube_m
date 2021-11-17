@@ -35,6 +35,8 @@
     --bgcolor-btn-cf:#FFFFFF;
     --textcolor-btn-cf:#56606B;
     --bordercolor-btn-cf:#DAE3ED;
+    --bordercolor-listbox-bottom:#E8EFF5;
+    --ico-arrow-right24:url(./../images/ico_arrow_right24.svg);
     /* --ico-menu06-customer-on:url(./../images/ico_06_customer_on.svg);
     --ico-menu07-allmenu-on:url(./../images/ico_07_allmenu_on.svg); */
 }
@@ -69,10 +71,12 @@
     --border-color-navibox-top:#3B3C41;
     --ico-menu:url(./../images/ico_menu_dark.svg);
     --ico-close:url(./../images/ico_close_dark.svg);
-    --text-color-listbox-label:#70747D;
+    --text-color-listbox-label:#F5F6FA;
     --bgcolor-btn-cf:#3B3C41;
     --textcolor-btn-cf:#DCDFE6;
     --bordercolor-btn-cf:#3B3C41;
+    --bordercolor-listbox-bottom:#45484F;
+    --ico-arrow-right24:url(./../images/ico_arrow_right24_dark.svg);
     /* --ico-menu06-customer-on:url(./../images/ico_06_customer_on_dark.svg);
     --ico-menu07-allmenu-on:url(./../images/ico_07_allmenu_on_dark.svg); */
 }
@@ -653,7 +657,7 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow:hidd
 .rightmenu .menuwrap .bodygroup ul.depth3 li.rightmenu_05_02 label::before{background:url(./../images/ico_rightmenu_05_02.svg) no-repeat}
 .rightmenu .menuwrap .bodygroup ul.depth3 li.rightmenu_05_03 label::before{background:url(./../images/ico_rightmenu_05_03.svg) no-repeat}
 .rightmenu .menuwrap .bodygroup ul.depth3 li.rightmenu_05_04 label::before{background:url(./../images/ico_rightmenu_05_04.svg) no-repeat}
-.btn_right{background:transparent; border:none; width:24px; height:24px; background-image:url(./../images/ico_arrow_right24.svg); color:transparent; font-size:1px}
+.btn_right{background:transparent; border:none; width:24px; height:24px; background-image:var(--ico-arrow-right24); color:transparent; font-size:1px}
 .rightmenu .menuwrap .bodygroup ul.depth3 li.disable{filter:opacity(30%)}
 .rightmenu .menuwrap .bodygroup ul.depth3 li[disabled=true]{filter:opacity(30%)}
 
@@ -661,7 +665,7 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow:hidd
 .settingbox{display:inline-block; width:100%}
 .settingbox .settingboxwrap{padding:16px}
 .settingbox .settingboxwrap ul.listbox{width:100%}
-.settingbox .settingboxwrap ul.listbox li{display:inline-block; width:calc(100% - 24px); border-bottom:1px solid #E8EFF5; height:55px; line-height:46px; padding:0 16px 0 8px}
+.settingbox .settingboxwrap ul.listbox li{display:inline-block; width:calc(100% - 24px); border-bottom:1px solid var(--bordercolor-listbox-bottom); height:55px; line-height:46px; padding:0 16px 0 8px}
 .settingbox .settingboxwrap ul.listbox li label{position:relative; color:var(--text-color-listbox-label); font-size:16px; font-weight:300; padding-left:30px}
 .settingbox .settingboxwrap ul.listbox li label::before{content:''; position:absolute; width:22px; height:22px; top:calc(50% - 11px); left:0}
 .settingbox .settingboxwrap ul.listbox li.item01 label::before{background:url(./../images/ico_setting_01_01.svg)}
