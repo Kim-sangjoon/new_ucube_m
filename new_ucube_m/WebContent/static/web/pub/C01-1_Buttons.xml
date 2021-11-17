@@ -140,15 +140,6 @@
     									<w2:textbox tagname="span" style="" id="" label="0" class="num"></w2:textbox>
     								</xf:group>
     								<xf:group style="" id="" class="rta">
-    									<xf:trigger style="" id="" type="button" class="btn_cf">
-    										<xf:label><![CDATA[버튼]]></xf:label>
-    									</xf:trigger>
-    									<xf:trigger class="btn_cf" id="" style="" type="button">
-    										<xf:label><![CDATA[버튼]]></xf:label>
-    									</xf:trigger>
-    									<xf:trigger class="btn_cf" id="" style="" type="button">
-    										<xf:label><![CDATA[버튼]]></xf:label>
-    									</xf:trigger>
     									<xf:trigger class="btn_cf" id="" style="" type="button">
     										<xf:label><![CDATA[버튼]]></xf:label>
     									</xf:trigger>

@@ -41,13 +41,9 @@
 	// 설정토글
 	scwin.setToggleBtn_onclick = function(e) {
 		if (setToggleBtn.hasClass("on")){
-			setToggleBtn.removeClass("on");
-			$('body').removeClass("dark");
-			
+			setToggleBtn.removeClass("on");			
 		} else {
-			setToggleBtn.addClass("on");
-			$('body').addClass("dark");
-			
+			setToggleBtn.addClass("on");			
 		}
 	};]]></script>
     </head>
@@ -65,7 +61,7 @@
     			<xf:group class="container_inner" id="" style="">
     				<xf:group id="" style="" tagname="section">
     					<xf:group class="titlebox" id="" style="">
-    						<w2:textbox id="" label="모바일-홈 토글버튼" style="" tagname="h3"></w2:textbox>
+    						<w2:textbox id="" label="모바일-홈 토글스위치" style="" tagname="h3"></w2:textbox>
     					</xf:group>
     					<xf:group class="searchbox" id="" style="">
     						<xf:group class="toggle_swich mobile" ev:onclick="scwin.serviceToggleBtn_onclick" id="serviceToggleBtn"
@@ -81,7 +77,7 @@
     				</xf:group>
     				<xf:group id="" style="" tagname="section">
     					<xf:group class="titlebox" id="" style="">
-    							<w2:textbox id="" label="설정 토글버튼(dark모드)" style="" tagname="h3"></w2:textbox>
+    							<w2:textbox id="" label="설정 토글스위치" style="" tagname="h3"></w2:textbox>
     						</xf:group>
     					<xf:group class="settoggle" ev:onclick="scwin.setToggleBtn_onclick" id="setToggleBtn" style="">
     						<xf:group class="bg" id="" style=""></xf:group>
