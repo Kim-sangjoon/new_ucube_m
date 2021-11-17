@@ -7,6 +7,7 @@
     --main-txtcolor-title:#202020;
     --main-txtcolor-title-em:#8996A3;
     --popup-bgcolor-h100:#FFFFFF;
+    --popup-header-bgcolor-h100:#FFFFFF;
     --text-color-navbox-title:#424952;
     --text-color-navbox-title-on:#763FD1;
     --bgcolor-navibox:#FFFFFF;
@@ -29,6 +30,11 @@
     --ico-menu05-alarm-on:url(./../images/ico_05_alarm_on.svg);
     --border-color-navibox-top:#DAE3ED;
     --ico-menu:url(./../images/ico_menu.svg);
+    --ico-close:url(./../images/ico_close.svg);
+    --text-color-listbox-label:#202020;
+    --bgcolor-btn-cf:#FFFFFF;
+    --textcolor-btn-cf:#56606B;
+    --bordercolor-btn-cf:#DAE3ED;
     /* --ico-menu06-customer-on:url(./../images/ico_06_customer_on.svg);
     --ico-menu07-allmenu-on:url(./../images/ico_07_allmenu_on.svg); */
 }
@@ -38,7 +44,8 @@
     --main-bgcolor:#131317;
     --main-txtcolor-title:#F5F6FA;
     --main-txtcolor-title-em:#8996A3;
-    --popup-bgcolor-h100:#FFFFFF;
+    --popup-bgcolor-h100:#202022;
+    --popup-header-bgcolor-h100:#202022;
     --text-color-navbox-title:#70747D;
     --text-color-navbox-title-on:#CFA6FF;
     --bgcolor-navibox:#131317;
@@ -61,6 +68,11 @@
     --ico-menu05-alarm-on:url(./../images/ico_05_alarm_on_dark.svg);
     --border-color-navibox-top:#3B3C41;
     --ico-menu:url(./../images/ico_menu_dark.svg);
+    --ico-close:url(./../images/ico_close_dark.svg);
+    --text-color-listbox-label:#70747D;
+    --bgcolor-btn-cf:#3B3C41;
+    --textcolor-btn-cf:#DCDFE6;
+    --bordercolor-btn-cf:#3B3C41;
     /* --ico-menu06-customer-on:url(./../images/ico_06_customer_on_dark.svg);
     --ico-menu07-allmenu-on:url(./../images/ico_07_allmenu_on_dark.svg); */
 }
@@ -207,17 +219,17 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow:hidd
 .header .titlebar em{font-weight:500; color:var(--main-txtcolor-title-em); font-size:13px; padding-left:8px; vertical-align:middle}
 .header .cta{text-align:center}
 .header .btn_menu{display:block; height:24px; width:24px; background:var(--ico-menu); position:absolute; top:16px; right:16px}
-.header .btn_close{display:block; height:24px; width:24px; background:url(./../images/ico_close.svg); position:absolute; top:16px; right:16px}
+.header .btn_close{display:block; height:24px; width:24px; background:var(--ico-close); position:absolute; top:16px; right:16px}
 .header .btn_pre{display:block; height:24px; width:24px; background:url(./../images/ico_pre.svg); position:absolute; top:16px; left:16px}
 .header .btn_top{display:block; height:32px; border:none; position:absolute; top:12px; left:16px; color:#6B7682; font-size:14px; font-weight:500; padding:0 10px 0 28px; border-radius:3px}
 .header .btn_top.preSearch{ background:url(./../images/ico_arrow_pre_text.svg) no-repeat #F5F7FA; background-position:5px center}
 
 /* popup layout */
 .wrapper.popup{display:flex}
-.wrapper.popup .header{background:#FFFFFF; margin-top:0}
+.wrapper.popup .header{background:var(--popup-header-bgcolor-h100); margin-top:0; transition:all .2s}
 .wrapper.popup .searchbox{background:#FFFFFF}
 .wrapper.popup .container section{margin-top:8px}
-.wrapper.popup .container section.h100{display:inline-block; width:100%; height:calc(100% - 8px); background:var(--popup-bgcolor-h100);}
+.wrapper.popup .container section.h100{display:inline-block; width:100%; height:calc(100% - 8px); background:var(--popup-bgcolor-h100); transition:all .2s}
 .container{flex-grow:1; display:block; overflow-y:auto; -webkit-overflow-scrolling:touch}
 .container.nobottom{display:block; height:calc( 100vh - 55px)}
 .container .container_inner{padding:0 16px 16px 16px}
@@ -562,7 +574,7 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow:hidd
 .alram_listbox .dfbox .rta{margin-top:2px}
 .alram_listbox .dfbox .text{font-weight:500; font-size:13px; line-height:20px; color:#8996A3; margin-right:6px}
 .alram_listbox .dfbox .num{font-weight:400; font-size:13px; line-height:20px;color:#F92465}
-.btn_cf{background:#FFFFFF; border:1px solid #DAE3ED; box-sizing:border-box; border-radius:2px; color:#56606B; font-size:14px; font-weight:500; padding:5px 7px}
+.btn_cf{background:var(--bgcolor-btn-cf); border:1px solid var(--bordercolor-btn-cf); box-sizing:border-box; border-radius:2px; color:var(--textcolor-btn-cf); font-size:14px; font-weight:500; padding:5px 7px}
 .btn_cf + .btn_cf{margin-left:4px}
 .alram_listbox ul.listbox{background:#FFFFFF; padding:0 16px; border-radius:8px; margin-top:6px}
 .alram_listbox ul.listbox li{display:inline-block; width:100%; height:44px; line-height:48px}
@@ -650,7 +662,7 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow:hidd
 .settingbox .settingboxwrap{padding:16px}
 .settingbox .settingboxwrap ul.listbox{width:100%}
 .settingbox .settingboxwrap ul.listbox li{display:inline-block; width:calc(100% - 24px); border-bottom:1px solid #E8EFF5; height:55px; line-height:46px; padding:0 16px 0 8px}
-.settingbox .settingboxwrap ul.listbox li label{position:relative; color:#202020; font-size:16px; font-weight:300; padding-left:30px}
+.settingbox .settingboxwrap ul.listbox li label{position:relative; color:var(--text-color-listbox-label); font-size:16px; font-weight:300; padding-left:30px}
 .settingbox .settingboxwrap ul.listbox li label::before{content:''; position:absolute; width:22px; height:22px; top:calc(50% - 11px); left:0}
 .settingbox .settingboxwrap ul.listbox li.item01 label::before{background:url(./../images/ico_setting_01_01.svg)}
 .settingbox .settingboxwrap ul.listbox li.item02 label::before{background:url(./../images/ico_setting_01_02.svg)}
