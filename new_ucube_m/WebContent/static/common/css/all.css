@@ -130,7 +130,12 @@ input[type=datetime-local],
 input[type=month],
 input[type=week],
 textarea,
-select {width:100%; height:40px; box-sizing:border-box; font-size:14px; color:#202020; border:1px solid #BEC9D4; background:#FFFFFF; text-indent:0; border-radius:0px; transition:all 0.5s; vertical-align:middle}
+select {width:100%; height:40px; padding-left:8px; box-sizing:border-box; font-size:14px; color:#202020; border:1px solid #BEC9D4; background:#FFFFFF; text-indent:0; border-radius:0px; transition:all 0.5s; vertical-align:middle}
+input[type=text],
+input[type=number],
+input[type=password]{padding-left:8px}
+
+
 input::-webkit-input-placeholder{color:#BEC9D4; font-size:14px; line-height:100%; font-weight:200; letter-spacing:-0.02em}
 select:focus,
 textarea:focus,
@@ -222,6 +227,17 @@ input[type="radio"]:checked + .w2radio_label:before, input[type="radio"]:checked
 .ly > .col2 {-webkit-box-flex:2; -ms-flex:2; flex:2}
 .ly > .col3 {-webkit-box-flex:3; -ms-flex:3; flex:3}
 .ly > .col4 {-webkit-box-flex:4; -ms-flex:4; flex:4}
+
+/* ly_form */
+.ly_form {display:-webkit-box; display:-ms-flexbox; display:flex; position:relative; width:100%}
+.ly_form > .fn{-webkit-box-flex:0; -ms-flex:none; flex:none}
+.ly_form > * {-webkit-box-flex:1; -ms-flex:1; flex:1; word-break:break-all; box-sizing:border-box; margin:0 4px}
+.ly_form > *:first-child {margin-left:0}
+.ly_form > *:last-child {margin-right:0}
+.ly_form > .col1 {-webkit-box-flex:1; -ms-flex:1; flex:1}
+.ly_form > .col2 {-webkit-box-flex:2; -ms-flex:2; flex:2}
+.ly_form > .col3 {-webkit-box-flex:3; -ms-flex:3; flex:3}
+.ly_form > .col4 {-webkit-box-flex:4; -ms-flex:4; flex:4}
 
 /* Main layout */
 html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow:hidden}
@@ -337,7 +353,7 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow:hidd
 .searchbox label{display:inline-block; position:relative; font-weight:500; color:#A5B3C2; font-size:14px; line-height:20px}
 .searchbox label.req::after{content:''; display:block; position:absolute; top:0; right:-7px; width:6px; height:21px; background:url(./../images/ico_req.svg)}
 .searchbox .inputbox .boxitem input[type=text]{background:#FFFFFF; border:none; border-bottom:1px solid #BEC9D4; padding:0px; height:32px}
-.searchbox .inputbox .boxitem input.ico_address{padding-left:36px; background:url(./../images/ico_address.svg) no-repeat; background-position:0 1px; width:calc(100% - 36px)}
+.searchbox .inputbox .boxitem input.ico_address{padding-left:36px; background:url(./../images/ico_address.svg) no-repeat; background-position:0 1px; /*width:calc(100% - 36px)*/}
 .searchbox .inputbox .boxitem input.req{border-bottom:1px solid #2FB8A8}
 .searchboxwrap{padding:16px 16px 24px 16px}
 .srchitem label{margin:16px 0 9px 0}

@@ -55,16 +55,14 @@
     								<xf:input adjustMaxLength="false" id="" placeholder="홍길동" style=""></xf:input>
     							</xf:group>
     							<xf:group class="boxitem" id="" style="">
-    								<w2:textbox id="" label="생년월일" style="" tagname="label"></w2:textbox>
-    								<xf:input adjustMaxLength="false" dataType="date" id="" placeholder="1900-00-00" style=""></xf:input>
-    							</xf:group>
-    						</xf:group>
-    						<xf:group adaptiveThreshold="" class="inputbox" id="ipxHome" style="">
-    							<xf:group class="boxitem" id="">
     								<w2:textbox class="req" id="" label="고객명" style="" tagname="label"></w2:textbox>
     								<xf:input adjustMaxLength="false" class="req" dataType="" ev:onkeydown="scwin.ipxHoCustomerNm_onkeydown"
-    									id="ipxHoCustomerNm" placeholder="홍길동" style="">
+    									id="input1" placeholder="홍길동" style="">
     								</xf:input>
+    							</xf:group>
+    							<xf:group class="boxitem" id="" style="">
+    								<w2:textbox id="" label="생년월일" style="" tagname="label"></w2:textbox>
+    								<xf:input adjustMaxLength="false" dataType="date" id="" placeholder="1900-00-00" style=""></xf:input>
     							</xf:group>
     							<xf:group class="boxitem" id="" style="">
     								<w2:textbox class="req" id="" label="생년월일" style="" tagname="label"></w2:textbox>
@@ -120,6 +118,55 @@
     									</xf:select1>
     								</xf:group>
     							</xf:group>
+    							<xf:group class="srchitem" id="" style="">
+    								<w2:textbox class="req" id="" label="이름" style="" tagname="label"></w2:textbox>
+    								<xf:group class="inputgroup" id="">
+    									<xf:input adjustMaxLength="false" allowChar="" applyFormat="" class="req" dataType="text"
+    										editType="" ev:onchange="" ev:onkeydown="" id="" placeholder="" style="" type="">
+    										<w2:attributes>
+    											<w2:required></w2:required>
+    										</w2:attributes>
+    									</xf:input>
+    								</xf:group>
+    							</xf:group>
+    							<xf:group class="srchitem" id="" style="">
+    								<w2:textbox class="req" id="" label="주민등록번호" style="" tagname="label"></w2:textbox>
+    								<xf:group class="inputgroup" id="">
+    									<xf:input adjustMaxLength="false" allowChar="" applyFormat="" class="req" dataType="number"
+    										editType="" ev:onchange="" ev:onkeydown="" id="" placeholder="" style="" type="number">
+    										<w2:attributes>
+    											<w2:required></w2:required>
+    										</w2:attributes>
+    									</xf:input>
+    									<w2:textbox class="" id="" label="-" style="" tagname="span"></w2:textbox>
+    									<xf:input adjustMaxLength="false" allowChar="" applyFormat="" class="req" dataType="number"
+    										editType="" ev:onchange="" ev:onkeydown="" id="" placeholder="" style="" type="number">
+    										<w2:attributes>
+    											<w2:required></w2:required>
+    										</w2:attributes>
+    									</xf:input>
+    								</xf:group>
+    							</xf:group>
+    							<xf:group class="srchitem" id="" style="">
+    								<w2:textbox class="req" id="" label="휴대폰번호" style="" tagname="label"></w2:textbox>
+    								<xf:group class="inputgroup" id="">
+    								<xf:group id="" class="ly_form"><xf:select1 submenuSize="auto" chooseOption="" allOption="" displayMode="" ref="" appearance="minimal" disabledClass="w2selectbox_disabled" disabled="false" style="" id="" renderType="native" class="req col1" direction="auto">
+		<xf:choices>
+			<xf:item>
+				<xf:label><![CDATA[010]]></xf:label>
+				<xf:value><![CDATA[]]></xf:value>
+			</xf:item>
+			<xf:item>
+				<xf:label><![CDATA[011]]></xf:label>
+				<xf:value><![CDATA[]]></xf:value>
+			</xf:item>
+		</xf:choices>
+	</xf:select1><xf:input ev:onchange="" dataType="number" ev:onkeydown="" editType="" adjustMaxLength="false" applyFormat="" style="" allowChar="" id="" placeholder="" type="number" class="req col3">
+    										<w2:attributes>
+    											<w2:required></w2:required>
+    										</w2:attributes>
+    									</xf:input></xf:group></xf:group>
+    							</xf:group>
     						</xf:group>
     					</xf:group>
     				</xf:group>
@@ -165,6 +212,18 @@
     						</xf:choices>
     					</xf:select1>
     				</xf:group>
+    				<xf:group id="" style="" tagname="section">
+    					<xf:group class="titlebox" id="" style="">
+    						<w2:textbox id="" label="주소입력" style="" tagname="h3"></w2:textbox>
+    					</xf:group><xf:group class="searchbox_type2" id="" style="">
+    					<xf:group adaptiveThreshold="" class="inputbox" id="" style="">
+    						<xf:group class="boxitem" id="" style="">
+    							<xf:input adjustMaxLength="false" class="adsearch" id="" placeholder="Placeholder" style=""></xf:input>
+    						</xf:group>
+    					</xf:group>
+    				</xf:group>
+    				</xf:group>
+    				
 
     			</xf:group>
     		</xf:group>
