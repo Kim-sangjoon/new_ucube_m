@@ -37,6 +37,11 @@
     --bordercolor-btn-cf:#DAE3ED;
     --bordercolor-listbox-bottom:#E8EFF5;
     --ico-arrow-right24:url(./../images/ico_arrow_right24.svg);
+    --ico-cbx1:url(./../images/ico_cbx1.svg);
+    --ico-cbx2:url(./../images/ico_cbx2.svg);
+    --ico-rdo1:url(./../images/ico_rdo1.svg);
+    --ico-rdo2:url(./../images/ico_rdo2.svg);
+    --textcolor-label:#202020;
     /* --ico-menu06-customer-on:url(./../images/ico_06_customer_on.svg);
     --ico-menu07-allmenu-on:url(./../images/ico_07_allmenu_on.svg); */
 }
@@ -77,6 +82,11 @@
     --bordercolor-btn-cf:#3B3C41;
     --bordercolor-listbox-bottom:#45484F;
     --ico-arrow-right24:url(./../images/ico_arrow_right24_dark.svg);
+    --ico-cbx1:url(./../images/ico_cbx1_dark.svg);
+    --ico-cbx2:url(./../images/ico_cbx2_dark.svg);
+    --ico-rdo1:url(./../images/ico_rdo1_dark.svg);
+    --ico-rdo2:url(./../images/ico_rdo2_dark.svg);
+    --textcolor-label:#F5F6FA;
     /* --ico-menu06-customer-on:url(./../images/ico_06_customer_on_dark.svg);
     --ico-menu07-allmenu-on:url(./../images/ico_07_allmenu_on_dark.svg); */
 }
@@ -139,9 +149,13 @@ textarea[readonly],
 textarea[disabled]{padding:11px; font-size:16px; color:#666; font-weight:normal; line-height:140%; height:78px; background:#eaeaea; border:1px solid #c0c0c0}
 .w2radio .w2radio_item, .w2checkbox .w2checkbox_item {display:inline-block; margin-right:8px; height:20px; padding-top:0; box-sizing:border-box}
 input[type="radio"], input[type="checkbox"] {display:none}
-.w2radio_label, .w2checkbox_label, .w2table_ccb_col_label {position:relative; display:block; min-height:20px; line-height:20px; padding-left:24px; color:#202020; font-size:14px}
-.w2checkbox_label:before, .w2table_ccb_col_label:before {content:''; position:absolute; left:0; top:50%; width:20px; height:20px; margin-top:-10px; background:url(./../images/ico_cbx1.svg) no-repeat 0 0}
-input[type="checkbox"]:checked + .w2checkbox_label:before, input[type="checkbox"]:checked + .w2table_ccb_col_label:before {background-image:url(./../images/ico_cbx2.svg)}
+.w2radio_label, .w2checkbox_label, .w2table_ccb_col_label {position:relative; display:block; min-height:20px; line-height:20px; padding-left:24px; color:var(--textcolor-label); font-size:14px}
+.w2checkbox_label:before, .w2table_ccb_col_label:before {content:''; position:absolute; left:0; top:50%; width:20px; height:20px; margin-top:-10px; background:var(--ico-cbx1) no-repeat 0 0}
+input[type="checkbox"]:checked + .w2checkbox_label:before, input[type="checkbox"]:checked + .w2table_ccb_col_label:before {background-image:var(--ico-cbx2)}
+
+.w2radio_label:before, .w2table_ccb_col_label:before {content:''; position:absolute; left:0; top:50%; width:20.5px; height:20px; margin-top:-10px; background:var(--ico-rdo1) no-repeat 0 0}
+input[type="radio"]:checked + .w2radio_label:before, input[type="radio"]:checked + .w2table_ccb_col_label:before {background-image:var(--ico-rdo2)}
+
 .w2checkbox + span{font-size:14px; color:#202020; line-height:20px; vertical-align:middle; display:inline-block}
 .w2checkbox.filterbtn{height:27px}
 .w2radio.filterbtn .w2radio_item, .w2checkbox.filterbtn .w2checkbox_item{height:27px; display:inline-block; margin-right:0; padding-top:0; box-sizing:border-box}
@@ -153,8 +167,6 @@ input[type="checkbox"]:checked + .w2checkbox_label:before, input[type="checkbox"
 .filterbtn input[type="checkbox"]:checked + .w2checkbox_label:before, .filterbtn input[type="checkbox"]:checked + .w2table_ccb_col_label:before {background-image:none}
 .filterbtn input[type="checkbox"]:checked + .w2checkbox_label, .filterbtn input[type="checkbox"]:checked + .w2table_ccb_col_label {background-color:#FFFFFF; border:1px solid #8D669F;color:#7B558D}
 
-
-
 .w2radio.selbtn{display:flex; width:100%; height:40px}
 .w2radio.selbtn + .w2radio.selbtn{margin-left:4px}
 .selbtn .w2radio_item{flex:1}
@@ -163,8 +175,6 @@ input[type="checkbox"]:checked + .w2checkbox_label:before, input[type="checkbox"
 .selbtn .w2radio_label:before, .selbtn .w2table_ccb_col_label:before {content:''; position:absolute; left:0; top:0; width:1px; height:1px; margin-top:0; background:none}
 .selbtn input[type="radio"]:checked + .w2radio_label:before, .selbtn input[type="radio"]:checked + .w2table_ccb_col_label:before {background-image:none}
 .selbtn input[type="radio"]:checked + .w2radio_label, .selbtn input[type="radio"]:checked + .w2table_ccb_col_label {background-color:#FFFFFF; border:1px solid #8D669F;color:#7B558D}
-
-
 
 .inputgroup input[type=date],
 .inputgroup input[type=datetime-local],
