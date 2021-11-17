@@ -27,6 +27,8 @@
     --ico-menu03-filesearch-on:url(./../images/ico_03_filesearch_on.svg);
     --ico-menu04-area-on:url(./../images/ico_04_area_on.svg);
     --ico-menu05-alarm-on:url(./../images/ico_05_alarm_on.svg);
+    --border-color-navibox-top:#DAE3ED;
+    --ico-menu:url(./../images/ico_menu.svg);
     /* --ico-menu06-customer-on:url(./../images/ico_06_customer_on.svg);
     --ico-menu07-allmenu-on:url(./../images/ico_07_allmenu_on.svg); */
 }
@@ -34,7 +36,7 @@
 .dark:root,
 .dark {
     --main-bgcolor:#131317;
-    --main-txtcolor-title:#202020;
+    --main-txtcolor-title:#F5F6FA;
     --main-txtcolor-title-em:#8996A3;
     --popup-bgcolor-h100:#FFFFFF;
     --text-color-navbox-title:#70747D;
@@ -57,6 +59,8 @@
     --ico-menu03-filesearch-on:url(./../images/ico_03_filesearch_on_dark.svg);
     --ico-menu04-area-on:url(./../images/ico_04_area_on_dark.svg);
     --ico-menu05-alarm-on:url(./../images/ico_05_alarm_on_dark.svg);
+    --border-color-navibox-top:#3B3C41;
+    --ico-menu:url(./../images/ico_menu_dark.svg);
     /* --ico-menu06-customer-on:url(./../images/ico_06_customer_on_dark.svg);
     --ico-menu07-allmenu-on:url(./../images/ico_07_allmenu_on_dark.svg); */
 }
@@ -202,7 +206,7 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow:hidd
 .header .titlebar h2.title{display:inline-block; font-weight:800; color:var(--main-txtcolor-title); font-size:17px; vertical-align:middle}
 .header .titlebar em{font-weight:500; color:var(--main-txtcolor-title-em); font-size:13px; padding-left:8px; vertical-align:middle}
 .header .cta{text-align:center}
-.header .btn_menu{display:block; height:24px; width:24px; background:url(./../images/ico_menu.svg); position:absolute; top:16px; right:16px}
+.header .btn_menu{display:block; height:24px; width:24px; background:var(--ico-menu); position:absolute; top:16px; right:16px}
 .header .btn_close{display:block; height:24px; width:24px; background:url(./../images/ico_close.svg); position:absolute; top:16px; right:16px}
 .header .btn_pre{display:block; height:24px; width:24px; background:url(./../images/ico_pre.svg); position:absolute; top:16px; left:16px}
 .header .btn_top{display:block; height:32px; border:none; position:absolute; top:12px; left:16px; color:#6B7682; font-size:14px; font-weight:500; padding:0 10px 0 28px; border-radius:3px}
@@ -254,7 +258,7 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow:hidd
 .ctbox .psbox .ct_text{display:inline-block; font-weight:500; color:#373D45; font-size:12px; line-height:32px; margin-left:8px; width:calc(100% - 80px); overflow:hidden; text-overflow:ellipsis; white-space:nowrap}
 .ctbox .psbox .process{display:inline-block; position:relative; font-weight:500; color:#8996A3; width:40px; line-height:32px; margin-right:8px}
 .ctbox .psbox .process::after{content:''; display:block; position:absolute; top:7px; right:0; height:18px; width:18px; background-image:url(./../images/ico_arrow_right.svg)}
-.bottomMenu{flex-grow:0; flex-shrink:0; width:100%; min-width:360px; height:72px; background:var(--bgcolor-navibox); border-top:1px solid #DAE3ED; box-sizing:border-box}
+.bottomMenu{flex-grow:0; flex-shrink:0; width:100%; min-width:360px; height:72px; background:var(--bgcolor-navibox); border-top:1px solid var(--border-color-navibox-top); box-sizing:border-box; transition: all .2s}
 .bottomMenu .navbox{display:flex; flex-direction:row; justify-content:space-around}
 .bottomMenu .navbox .menu01,
 .bottomMenu .navbox .menu02,

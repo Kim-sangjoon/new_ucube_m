@@ -49,8 +49,8 @@
     			<xf:group class="container_inner" id="" style="">
     				<xf:group id="" class="page_inner">
     					<xf:group tagname="section" id="">
-    						<xf:group style="" id="" class="dfbox">
-    							<w2:textbox tagname="h3" style="" id="" label="기본버튼"></w2:textbox>
+    						<xf:group class="titlebox" id="" style="">
+    							<w2:textbox id="" label="기본버튼" style="" tagname="h3"></w2:textbox>
     						</xf:group>
     						<xf:group style="" id="" class="btnbox">
     							<xf:trigger ev:onclick="" style="" id="" type="button" class="btn_df">
@@ -65,7 +65,7 @@
     						</xf:group>
     					</xf:group>
     					<xf:group id="" tagname="section" style="">
-    						<xf:group class="dfbox" id="" style="">
+    						<xf:group class="titlebox" id="" style="">
     							<w2:textbox id="" label="중요버튼" style="" tagname="h3"></w2:textbox>
     						</xf:group>
     						<xf:group class="btnbox" id="" style="">
@@ -78,7 +78,7 @@
     						</xf:group>
     					</xf:group>
     					<xf:group id="" style="" tagname="section">
-    						<xf:group class="dfbox" id="" style="">
+    						<xf:group class="titlebox" id="" style="">
     							<w2:textbox id="" label="단일선택버튼" style="" tagname="h3"></w2:textbox>
     						</xf:group>
     						<xf:group class="btnbox" id="" style="">
@@ -98,7 +98,7 @@
     						</xf:group>
     					</xf:group>
     					<xf:group id="" tagname="section" style="">
-    						<xf:group class="dfbox" id="" style="">
+    						<xf:group class="titlebox" id="" style="">
     							<w2:textbox id="" label="검색버튼" style="" tagname="h3"></w2:textbox>
     						</xf:group>
     						<xf:group class="btnbox" id="" style="">
@@ -109,7 +109,7 @@
     					</xf:group>
 
     					<xf:group tagname="section" id="">
-    						<xf:group style="" id="" class="dfbox">
+    						<xf:group style="" id="" class="titlebox">
     							<w2:textbox tagname="h3" style="" id="" label="알림박스 상세버튼"></w2:textbox>
     						</xf:group>
     						<xf:group style="" id="" class="detailbtnbox">
@@ -130,7 +130,7 @@
     						</xf:group>
     					</xf:group>
     					<xf:group tagname="section" id="">
-    						<xf:group style="" id="" class="dfbox">
+    						<xf:group style="" id="" class="titlebox">
     							<w2:textbox tagname="h3" style="" id="" label="타이틀바 버튼"></w2:textbox>
     						</xf:group>
     						<xf:group id="" class="alram_listbox">
@@ -157,7 +157,7 @@
     						</xf:group>
     					</xf:group>
     					<xf:group id="" tagname="section">
-    						<xf:group style="" id="" class="dfbox">
+    						<xf:group style="" id="" class="titlebox">
     							<w2:textbox tagname="h3" style="" id="" label="필터박스 버튼"></w2:textbox>
     						</xf:group>
     						<xf:group tagname="" style="" id="" class="filterbox">
