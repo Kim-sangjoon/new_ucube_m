@@ -455,7 +455,7 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow:hidd
 .infobox + .infobox{margin-top:8px}
 .infobox .dfbox{display:inline-block; position:relative; width:100%; box-sizing:border-box; vertical-align:middle}
 .infobox .dfbox h3{display:inline-block; font-size:17px; color:#202020; font-weight:800; line-height:32px; }
-.infobox .dfbox .btn_df{border:1px solid #DAE3ED; box-sizing:border-box; border-radius:2px; padding:5.5px 8px; color:#56606B; background:#FFFFFF; line-height:21px; font-weight:500; font-size:14px}
+.infobox .dfbox .btn_df{border:1px solid #DAE3ED; box-sizing:border-box; border-radius:2px; padding:5.5px 8px; color:#56606B; background:#FFFFFF; height:32px; line-height:19px; font-weight:500; font-size:14px}
 .infobox .dfbox .rta span{display:inline-block; color:#202020; font-size:15px; line-height:32px; margin-right:8px; font-weight:400; vertical-align:middle}
 .infobox .listbox{margin-top:16px}
 .infobox .listbox .item{position:relative; width:100%; box-sizing:border-box; vertical-align:middle}

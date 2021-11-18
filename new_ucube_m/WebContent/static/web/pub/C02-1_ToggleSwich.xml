@@ -26,8 +26,8 @@
 	
 	// 모바일홈 토글
 	scwin.serviceToggleBtn_onclick = function(e) {
-		const stb = serviceToggleBtn;		
-		if (stb.hasClass("mobile") || !stb.hasClass("home")){			
+		const stb = serviceToggleBtn;
+		if (stb.hasClass("mobile") || !stb.hasClass("home")){
 			console.log("홈");
 			stb.removeClass("mobile");
 			stb.addClass("home");
@@ -41,9 +41,11 @@
 	// 설정토글
 	scwin.setToggleBtn_onclick = function(e) {
 		if (setToggleBtn.hasClass("on")){
-			setToggleBtn.removeClass("on");			
+			setToggleBtn.removeClass("on");
+			console.log("off");
 		} else {
-			setToggleBtn.addClass("on");			
+			setToggleBtn.addClass("on");
+			console.log("on");
 		}
 	};]]></script>
     </head>

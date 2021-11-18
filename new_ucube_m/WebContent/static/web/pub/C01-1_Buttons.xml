@@ -82,8 +82,8 @@
     							<w2:textbox id="" label="단일선택버튼" style="" tagname="h3"></w2:textbox>
     						</xf:group>
     						<xf:group class="btnbox" id="" style="">
-    							<xf:select1 id="" selectedIndex="-1" appearance="full" style="" cols="" rows=""
-    								ref="" renderType="radiogroup" class="selbtn">
+    							<xf:select1 id="" selectedIndex="-1" appearance="full" style="" cols="" rows="" ref=""
+    								renderType="radiogroup" class="selbtn">
     								<xf:choices>
     									<xf:item>
     										<xf:label><![CDATA[남성]]></xf:label>
@@ -188,6 +188,24 @@
     											</xf:item>
     										</xf:choices>
     									</xf:select>
+    								</xf:group>
+    							</xf:group>
+    						</xf:group>
+    					</xf:group>
+    					<xf:group id="" style="" tagname="section">
+    						<xf:group class="titlebox" id="" style="">
+    							<w2:textbox id="" label="infobox 버튼" style="" tagname="h3"></w2:textbox>
+    						</xf:group>
+    						<xf:group class="infoboxwrap" id="" style="">
+    							<xf:group class="infobox" id="" style="" tagname="">
+    								<xf:group class="dfbox" id="" style="" tagname="">
+    									<w2:textbox id="" label="요금제" ref="" style="" tagname="h3"></w2:textbox>
+    									<xf:group class="rta" id="" style="" tagname="">
+    										<w2:textbox id="" label="5G 프리미엄" style="" tagname="span"></w2:textbox>
+    										<xf:trigger class="btn_df" id="" style="" type="button">
+    											<xf:label><![CDATA[변경]]></xf:label>
+    										</xf:trigger>
+    									</xf:group>
     								</xf:group>
     							</xf:group>
     						</xf:group>

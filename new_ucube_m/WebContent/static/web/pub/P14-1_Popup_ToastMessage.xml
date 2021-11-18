@@ -43,6 +43,16 @@
 		
 	};
 	
+	scwin.trigger1_onclick = function(e) {
+		toastMessage();
+	};
+	
+	function toastMessage(){
+		$(".tmbox").addClass("enable");
+		setTimeout(function(){
+			$(".tmbox").removeClass("enable");
+		}, 4000)
+	};
 	]]></script>
     </head>
     <body ev:onpageload="scwin.onpageload" ev:onpageunload="scwin.onpageunload">
@@ -54,6 +64,11 @@
     			</xf:trigger>
     		</xf:group>
     		<xf:group class="container" id="" style="" tagname="section">
+    			<xf:group class="btnbox" id="" style="">
+    				<xf:trigger class="btn_df" ev:onclick="scwin.trigger1_onclick" id="trigger1" style="" type="button">
+    					<xf:label><![CDATA[toastMessage]]></xf:label>
+    				</xf:trigger>
+    			</xf:group>
     			<xf:group class="container_inner" id="">
     				<xf:group class="csinfobox" id="" style="">
     					<xf:group class="title" id="" style="" tagname="">
