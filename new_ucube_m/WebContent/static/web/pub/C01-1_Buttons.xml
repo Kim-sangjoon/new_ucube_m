@@ -107,6 +107,17 @@
     							</xf:trigger>
     						</xf:group>
     					</xf:group>
+    					<xf:group id="" style="" tagname="section">
+    						<xf:group class="titlebox" id="" style="">
+    							<w2:textbox id="" label="아이콘버튼" style="" tagname="h3"></w2:textbox>
+    						</xf:group>
+    						<xf:group class="btnbox" id="" style="">
+    							<xf:group id="" style="" tagname="button" class="btn_df ico camera">
+    								<w2:textbox id="" label="icon" style="" tagname="em"></w2:textbox>
+    								<w2:textbox id="" label="사진첨부" style="" tagname="span"></w2:textbox>
+    							</xf:group>
+    						</xf:group>
+    					</xf:group>
 
     					<xf:group tagname="section" id="">
     						<xf:group style="" id="" class="titlebox">

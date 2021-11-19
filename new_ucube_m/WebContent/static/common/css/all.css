@@ -367,10 +367,15 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow:hidd
 .inputgroup input.date{padding:0 9px 0 40px; background-image:url(./../images/ico_cal22.svg); background-repeat:no-repeat; background-position:9px center}
 .btnbox{margin-top:24px; display:flex; flex-direction:row; justify-content:space-between}
 .bottomfix .btnbox{margin-top:0; padding:16px; display:flex; flex-direction:row; justify-content:space-between}
-.btnbox input[type=button] + input[type=button] {margin-left:8px}
+.btnbox input[type=button],button + input[type=button],button {margin-left:8px}
+
 .btn_df{flex:1; border:1px solid #BEC9D4; height:48px; background:#FFFFFF; border-radius:4px; color:#56606B; font-weight:500; font-size:15px; line-height:48px; text-align:center; letter-spacing:-0.02em}
 .btn_df.imp{border: 1px solid #7B558D; color: #7B558D}
 .btn_df.cl{border: 1px solid #E8EFF5; background:#E8EFF5; color:#202020}
+.btn_df.ico{line-height: inherit;}
+.btn_df.ico em{display:inline-block; margin-right: 4px; color:transparent; height:26px; width:26px; vertical-align: middle;}
+.btn_df.ico.camera em{background:url(./../images/ico_camera26.svg) no-repeat}
+.btn_df.ico span{vertical-align: middle; font-size: 15px; color: #56606B;font-weight: 500}
 .btn_cm{flex:1; border:none; background:#7B558D; border-radius:4px; color:#FFFFFF; font-weight:500; font-size:15px; line-height:48px; text-align:center; letter-spacing:-0.02em}
 .btn_cm.w2trigger_disabled{background:#E8EFF5; color:#BEC9D4}
 .btn_sh{flex:1; border:none; background:#7B558D; border-radius:4px; color:#FFFFFF; font-weight:500; font-size:15px; line-height:48px; text-align:center; letter-spacing:-0.02em}
