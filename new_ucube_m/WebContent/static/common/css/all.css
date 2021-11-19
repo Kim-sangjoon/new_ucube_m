@@ -42,8 +42,10 @@
     --ico-rdo1:url(./../images/ico_rdo1.svg);
     --ico-rdo2:url(./../images/ico_rdo2.svg);
     --textcolor-label:#202020;
-    /* --ico-menu06-customer-on:url(./../images/ico_06_customer_on.svg);
-    --ico-menu07-allmenu-on:url(./../images/ico_07_allmenu_on.svg); */
+
+    /* 사용안함 */
+    --ico-menu06-customer-on:url(./../images/ico_06_customer_on.svg);
+    --ico-menu07-allmenu-on:url(./../images/ico_07_allmenu_on.svg);
 }
 
 .dark:root,
@@ -87,8 +89,10 @@
     --ico-rdo1:url(./../images/ico_rdo1_dark.svg);
     --ico-rdo2:url(./../images/ico_rdo2_dark.svg);
     --textcolor-label:#F5F6FA;
-    /* --ico-menu06-customer-on:url(./../images/ico_06_customer_on_dark.svg);
-    --ico-menu07-allmenu-on:url(./../images/ico_07_allmenu_on_dark.svg); */
+
+    /* 사용안함 */
+    --ico-menu06-customer-on:url(./../images/ico_06_customer_on_dark.svg);
+    --ico-menu07-allmenu-on:url(./../images/ico_07_allmenu_on_dark.svg);
 }
 
 /* Reset */
@@ -336,6 +340,9 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow:hidd
 .menu05.on{background:var(--ico-menu05-alarm-on)}
 .menu06.on{background:var(--ico-menu06-customer-on)}
 .menu07.on{background:var(--ico-menu07-allmenu-on)}    
+
+.iconwrap{display:flex}
+.iconwrap button{width:24px; height:24px;}
 
 /* 가입정보조회 */
 .vcenter{display:flex; align-items:center}
@@ -640,7 +647,7 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow:hidd
 .alram_listbox .dfbox .rta{margin-top:2px}
 .alram_listbox .dfbox .text{font-weight:500; font-size:13px; line-height:20px; color:#8996A3; margin-right:6px}
 .alram_listbox .dfbox .num{font-weight:400; font-size:13px; line-height:20px;color:#F92465}
-.btn_cf{background:var(--bgcolor-btn-cf); border:1px solid var(--bordercolor-btn-cf); box-sizing:border-box; border-radius:2px; color:var(--textcolor-btn-cf); font-size:14px; font-weight:500; padding:5px 7px}
+.btn_cf{background:var(--bgcolor-btn-cf); border:1px solid var(--bordercolor-btn-cf); box-sizing:border-box; border-radius:2px; color:var(--textcolor-btn-cf); font-size:14px; font-weight:500; padding:5.5px 8px; line-height:19px}
 .btn_cf + .btn_cf{margin-left:4px}
 .btn_cf.ico{width:32px; text-indent: -9999999px; background-repeat: no-repeat; background-position: 50% 50%; background-color: #FFFFFF;}
 .btn_cf.ico.trash{background-image:url(./../images/ico_trash21.svg)}
@@ -724,6 +731,27 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow:hidd
 .btn_right{background:transparent; border:none; width:24px; height:24px; background-image:var(--ico-arrow-right24); color:transparent; font-size:1px}
 .rightmenu .menuwrap .bodygroup ul.depth3 li.disable{filter:opacity(30%)}
 .rightmenu .menuwrap .bodygroup ul.depth3 li[disabled=true]{filter:opacity(30%)}
+
+
+.allmenuwrap{display: flex; margin-bottom: 2px;}
+.allmenuwrap div{height: 24px; width: 24px;}
+.allmenuwrap div + div{margin-left:2px;}
+.allmenuwrap .rightmenu_01_01{background:url(./../images/ico_rightmenu_01_01.svg) no-repeat}
+.allmenuwrap .rightmenu_01_02{background:url(./../images/ico_rightmenu_01_02.svg) no-repeat}
+.allmenuwrap .rightmenu_02_01{background:url(./../images/ico_rightmenu_02_01.svg) no-repeat}
+.allmenuwrap .rightmenu_02_02{background:url(./../images/ico_rightmenu_02_02.svg) no-repeat}
+.allmenuwrap .rightmenu_02_03{background:url(./../images/ico_rightmenu_02_03.svg) no-repeat}
+.allmenuwrap .rightmenu_03_01{background:url(./../images/ico_rightmenu_03_01.svg) no-repeat}
+.allmenuwrap .rightmenu_03_02{background:url(./../images/ico_rightmenu_03_02.svg) no-repeat}
+.allmenuwrap .rightmenu_04_01{background:url(./../images/ico_rightmenu_04_01.svg) no-repeat}
+.allmenuwrap .rightmenu_04_02{background:url(./../images/ico_rightmenu_04_02.svg) no-repeat}
+.allmenuwrap .rightmenu_05_01{background:url(./../images/ico_rightmenu_05_01.svg) no-repeat}
+.allmenuwrap .rightmenu_05_02{background:url(./../images/ico_rightmenu_05_02.svg) no-repeat}
+.allmenuwrap .rightmenu_05_03{background:url(./../images/ico_rightmenu_05_03.svg) no-repeat}
+.allmenuwrap .rightmenu_05_04{background:url(./../images/ico_rightmenu_05_04.svg) no-repeat}
+.allmenuwrap .ico_01_todo{background:url(./../images/ico_01_todo.svg) no-repeat}
+.allmenuwrap .ico_05_alarm{background:url(./../images/ico_05_alarm.svg) no-repeat}
+.allmenuwrap .ico_settings24{background:url(./../images/ico_settings24.svg) no-repeat}
 
 /* 설정 */
 .settingbox{display:inline-block; width:100%}
