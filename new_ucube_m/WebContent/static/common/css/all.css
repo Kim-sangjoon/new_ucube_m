@@ -152,7 +152,10 @@ input[type=search][disabled],
 input[type=email][disabled]{background:#eaeaea; border-color:#c0c0c0; color:#666; -webkit-appearance:none; font-size:12px}
 textarea[readonly],
 textarea[disabled]{padding:11px; font-size:16px; color:#666; font-weight:normal; line-height:140%; height:78px; background:#eaeaea; border:1px solid #c0c0c0}
-.w2radio .w2radio_item, .w2checkbox .w2checkbox_item {display:inline-block; margin-right:8px; height:20px; padding-top:0; box-sizing:border-box}
+.w2radio .w2radio_item, .w2checkbox .w2checkbox_item{display:inline-block; height:20px; padding-top:0; box-sizing:border-box}
+.w2radio .w2radio_item + .w2radio_item,
+.w2checkbox .w2checkbox_item + .w2checkbox_item{margin-left:8px;}
+
 input[type="radio"], input[type="checkbox"] {display:none}
 .w2radio_label, .w2checkbox_label, .w2table_ccb_col_label {position:relative; display:block; min-height:20px; line-height:20px; padding-left:24px; color:var(--textcolor-label); font-size:14px}
 .w2checkbox_label:before, .w2table_ccb_col_label:before {content:''; position:absolute; left:0; top:50%; width:20px; height:20px; margin-top:-10px; background:var(--ico-cbx1) no-repeat 0 0}
@@ -172,14 +175,15 @@ input[type="radio"]:checked + .w2radio_label:before, input[type="radio"]:checked
 .filterbtn input[type="checkbox"]:checked + .w2checkbox_label:before, .filterbtn input[type="checkbox"]:checked + .w2table_ccb_col_label:before {background-image:none}
 .filterbtn input[type="checkbox"]:checked + .w2checkbox_label, .filterbtn input[type="checkbox"]:checked + .w2table_ccb_col_label {background-color:#FFFFFF; border:1px solid #8D669F;color:#7B558D}
 
-.w2radio.selbtn{display:flex; width:100%; height:40px}
-.w2radio.selbtn + .w2radio.selbtn{margin-left:4px}
-.selbtn .w2radio_item{flex:1}
-.selbtn .w2radio_label, .selbtn .w2table_ccb_col_label {background-color:#E8EFF5; border:1px solid #E8EFF5; box-sizing:border-box; border-radius:5px; font-size:14px; height:40px; line-height:2; font-weight:500; color:#202020; padding-top:4px; padding-left: initial; text-align:center}
-.selbtn .w2radio_label + .selbtn .w2radio_label, .selbtn .w2radio_label + .selbtn .w2radio_label, .selbtn .w2table_ccb_col_label + .selbtn .w2table_ccb_col_label{margin-left:8px}
-.selbtn .w2radio_label:before, .selbtn .w2table_ccb_col_label:before {content:''; position:absolute; left:0; top:0; width:1px; height:1px; margin-top:0; background:none}
-.selbtn input[type="radio"]:checked + .w2radio_label:before, .selbtn input[type="radio"]:checked + .w2table_ccb_col_label:before {background-image:none}
-.selbtn input[type="radio"]:checked + .w2radio_label, .selbtn input[type="radio"]:checked + .w2table_ccb_col_label {background-color:#FFFFFF; border:1px solid #8D669F;color:#7B558D}
+.selbtnwrap{flex:1}
+.selbtnwrap + .selbtnwrap{margin-top:8px;}
+.selbtnwrap .w2radio.selbtn{display:flex; width:100%; height:40px}
+.selbtnwrap .w2radio.selbtn .w2radio_item{flex:1}
+.selbtnwrap .w2radio.selbtn .w2radio_label, .selbtnwrap .selbtn .w2table_ccb_col_label {background-color:#E8EFF5; border:1px solid #E8EFF5; box-sizing:border-box; border-radius:5px; font-size:14px; height:40px; line-height:2; font-weight:500; color:#202020; padding-top:4px; padding-left: initial; text-align:center}
+.selbtnwrap .w2radio.selbtn .w2radio_label + .selbtnwrap .selbtn .w2radio_label, .selbtnwrap .selbtn .w2radio_label + .selbtn .w2radio_label, .selbtnwrap .selbtn .w2table_ccb_col_label + .selbtn .w2table_ccb_col_label{margin-left:8px}
+.selbtnwrap .w2radio.selbtn .w2radio_label:before, .selbtnwrap .selbtn .w2table_ccb_col_label:before {content:''; position:absolute; left:0; top:0; width:1px; height:1px; margin-top:0; background:none}
+.selbtnwrap .w2radio.selbtn input[type="radio"]:checked + .w2radio_label:before, .selbtn input[type="radio"]:checked + .w2table_ccb_col_label:before {background-image:none}
+.selbtnwrap .w2radio.selbtn input[type="radio"]:checked + .w2radio_label, .selbtn input[type="radio"]:checked + .w2table_ccb_col_label {background-color:#FFFFFF; border:1px solid #8D669F;color:#7B558D}
 
 .inputgroup input[type=date],
 .inputgroup input[type=datetime-local],
@@ -366,17 +370,21 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow:hidd
 .inputgroup input.req, .inputgroup .w2selectbox_native.req{background-color:#E0FCF9}
 .inputgroup input.date{padding:0 9px 0 40px; background-image:url(./../images/ico_cal22.svg); background-repeat:no-repeat; background-position:9px center}
 .btnbox{margin-top:24px; display:flex; flex-direction:row; justify-content:space-between}
+.btnbox .selbtn + .selbtn{margin-top:8px;}
 .bottomfix .btnbox{margin-top:0; padding:16px; display:flex; flex-direction:row; justify-content:space-between}
-.btnbox input[type=button],button + input[type=button],button {margin-left:8px}
+.btnbox input[type=button] + input[type=button],
+.btnbox input[type=button] + button,
+.btnbox button + button,
+.btnbox button + input[type=button]{margin-left:8px}
 
-.btn_df{flex:1; border:1px solid #BEC9D4; height:48px; background:#FFFFFF; border-radius:4px; color:#56606B; font-weight:500; font-size:15px; line-height:48px; text-align:center; letter-spacing:-0.02em}
+.btn_df{flex:1; border:1px solid #BEC9D4; height:48px; background:#FFFFFF; border-radius:4px; color:#56606B; font-weight:500; font-size:15px; text-align:center; letter-spacing:-0.02em}
 .btn_df.imp{border: 1px solid #7B558D; color: #7B558D}
 .btn_df.cl{border: 1px solid #E8EFF5; background:#E8EFF5; color:#202020}
 .btn_df.ico{line-height: inherit;}
 .btn_df.ico em{display:inline-block; margin-right: 4px; color:transparent; height:26px; width:26px; vertical-align: middle;}
 .btn_df.ico.camera em{background:url(./../images/ico_camera26.svg) no-repeat}
 .btn_df.ico span{vertical-align: middle; font-size: 15px; color: #56606B;font-weight: 500}
-.btn_cm{flex:1; border:none; background:#7B558D; border-radius:4px; color:#FFFFFF; font-weight:500; font-size:15px; line-height:48px; text-align:center; letter-spacing:-0.02em}
+.btn_cm{flex:1; border:none; background:#7B558D; border-radius:4px; color:#FFFFFF; font-weight:500; font-size:15px; text-align:center; letter-spacing:-0.02em}
 .btn_cm.w2trigger_disabled{background:#E8EFF5; color:#BEC9D4}
 .btn_sh{flex:1; border:none; background:#7B558D; border-radius:4px; color:#FFFFFF; font-weight:500; font-size:15px; line-height:48px; text-align:center; letter-spacing:-0.02em}
 .btn_sh.w2trigger_disabled,

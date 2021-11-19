@@ -81,9 +81,7 @@
     						<xf:group class="titlebox" id="" style="">
     							<w2:textbox id="" label="단일선택버튼" style="" tagname="h3"></w2:textbox>
     						</xf:group>
-    						<xf:group class="btnbox" id="" style="">
-    							<xf:select1 id="" selectedIndex="-1" appearance="full" style="" cols="" rows="" ref=""
-    								renderType="radiogroup" class="selbtn">
+    						<xf:group class="btnbox" id="" style=""><xf:group id="" class="selbtnwrap"><xf:select1 ref="" appearance="full" name="multiline" style="" id="" ignoreTabIndex="" rows="" renderType="radiogroup" cols="" class="selbtn" selectedIndex="0">
     								<xf:choices>
     									<xf:item>
     										<xf:label><![CDATA[남성]]></xf:label>
@@ -94,8 +92,22 @@
     										<xf:value><![CDATA[]]></xf:value>
     									</xf:item>
     								</xf:choices>
-    							</xf:select1>
-    						</xf:group>
+    							</xf:select1><xf:select1 ref="" appearance="full" name="multiline" style="" id="" ignoreTabIndex="" renderType="radiogroup" rows="" class="selbtn" cols="" selectedIndex="">
+    								<xf:choices>
+    									<xf:item>
+    										<xf:label><![CDATA[1]]></xf:label>
+    										<xf:value><![CDATA[]]></xf:value>
+    									</xf:item>
+    									<xf:item>
+    										<xf:label><![CDATA[2]]></xf:label>
+    										<xf:value><![CDATA[]]></xf:value>
+    									</xf:item>
+    									<xf:item>
+    										<xf:label><![CDATA[3]]></xf:label>
+    										<xf:value><![CDATA[]]></xf:value>
+    									</xf:item>
+    								</xf:choices>
+    							</xf:select1></xf:group></xf:group>
     					</xf:group>
     					<xf:group id="" tagname="section" style="">
     						<xf:group class="titlebox" id="" style="">
