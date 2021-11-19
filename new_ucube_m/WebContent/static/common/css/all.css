@@ -266,6 +266,7 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow:hidd
 .container.vcenter .container_inner{flex:1}
 .container .container_inner section{margin-top:0px}
 .container .container_inner .page_inner section + section{margin-top:24px}
+.container .container_inner > section + section{margin-top: 8px}
 
 .filterbox{ border-top:1px solid #DAE3ED}
 .filterbox .fboxgroup{display:inline-block; width:100%; margin-top:16px; min-width:315px}
@@ -542,6 +543,27 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow:hidd
 .tabcontrol_type2 .w2tabcontrol_bridge {display:block}
 .tabcontrol_type2 .w2tabcontrol_tabhost li .w2tabcontrol_tab_center{border-left:1px solid #DAE3ED}
 .tabcontrol_type2 .w2tabcontrol_tabhost li:first-child .w2tabcontrol_tab_center{border-left:none}
+
+/* tabcontrol_type3 */
+.tabcontrol_type3{display:inline-block; width:100%}
+.tabcontrol_type3 ul.processTabs{display:flex; width:100%; height:52px;}
+.tabcontrol_type3 ul.processTabs li{flex:1; text-align: center}
+.tabcontrol_type3 ul.processTabs li button{height:52px; width: 100%; border-top: 1px solid #DAE3ED; border-bottom: 1px solid #DAE3ED; background: #F5F7FA; box-sizing: border-box;}
+.tabcontrol_type3 ul.processTabs li + li button{border-left:1px solid #DAE3ED}
+.tabcontrol_type3 ul.processTabs li button em{font-weight: lighter; margin-right: 4px; vertical-align: middle; display: inline-block; text-align: center; border-radius: 50%; width: 20px; height: 20px; background: #BEC9D4; font-size: 13px; color:#FFFFFF}
+.tabcontrol_type3 ul.processTabs li button span{font-weight: 500; vertical-align: middle; font-size:15px; color:#BEC9D4}
+
+.tabcontrol_type3 ul.processTabs li.complete button{background: #E8EFF5; border-top-color:#BEC9D4}
+.tabcontrol_type3 ul.processTabs li.complete button em{text-indent: -99999999px; background: url(./../images/ico_complete.svg) no-repeat}
+.tabcontrol_type3 ul.processTabs li.complete button span{color:#8996A3}
+
+.tabcontrol_type3 ul.processTabs li.current button{background: #FFFFFF; border-bottom-color: #FFFFFF; border-top-color:#7B558D;}
+.tabcontrol_type3 ul.processTabs li.current button em{background:#8D669F}
+.tabcontrol_type3 ul.processTabs li.current button span{color:#8D669F}
+
+.tabcontrol_type3 .tabbody{width: 100%; background: #FFFFFF;}
+
+
 
 /* tabcontrol > contentbox */
 .contentbox{display:inline-block; width:100%; background:#FFFFFF; border:1px solid #DAE3ED; box-sizing:border-box; border-radius:3px; padding:10px 17px; margin-bottom:6px}
