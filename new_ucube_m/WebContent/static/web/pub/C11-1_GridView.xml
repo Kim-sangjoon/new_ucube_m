@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:ev="http://www.w3.org/2001/xml-events"
+    xmlns:w2="http://www.inswave.com/websquare" xmlns:xf="http://www.w3.org/2002/xforms">
+    <head meta_programName="grid view">
+    	<w2:type>DEFAULT</w2:type>
+        <w2:buildDate/>
+        <xf:model>
+            <xf:instance>
+                <data xmlns=""/>
+            </xf:instance>
+            <w2:dataCollection baseNode="map">
+            	<w2:dataList baseNode="list" repeatNode="map" id="dataList1" saveRemovedData="true">
+            		<w2:columnInfo>
+            			<w2:column id="col1" name="name1" dataType="text"></w2:column>
+            			<w2:column id="col2" name="name2" dataType="text"></w2:column>
+            			<w2:column id="col3" name="name3" dataType="text"></w2:column>
+            			<w2:column id="col4" name="name4" dataType="text"></w2:column>
+            			<w2:column id="col5" name="name5" dataType="text"></w2:column>
+            			<w2:column id="col6" name="name6" dataType="text"></w2:column>
+            		</w2:columnInfo>
+            		<w2:data use="true">
+            			<w2:row></w2:row>
+            			<w2:row></w2:row>
+            			<w2:row></w2:row>
+            			<w2:row></w2:row>
+            			<w2:row></w2:row>
+            			<w2:row></w2:row>
+            			<w2:row></w2:row>
+            			<w2:row></w2:row>
+            			<w2:row></w2:row>
+            			<w2:row></w2:row>
+            			<w2:row></w2:row>
+            			<w2:row></w2:row>
+            			<w2:row></w2:row>
+            			<w2:row></w2:row>
+            			<w2:row></w2:row>
+            			<w2:row></w2:row>
+            			<w2:row></w2:row>
+            			<w2:row></w2:row>
+            			<w2:row></w2:row>
+            			<w2:row></w2:row>
+            		</w2:data>
+            	</w2:dataList>
+            </w2:dataCollection>
+            <w2:workflowCollection>
+            </w2:workflowCollection>
+        </xf:model>
+         <script type="text/javascript" lazy="false"><![CDATA[
+        
+	scwin.onpageload = function() {
+		grdRightFixed.setFixedRightColumn(1);
+	};
+	
+	scwin.onpageunload = function() {
+		
+	};
+	
+	]]></script>
+    </head>
+    <body ev:onpageload="scwin.onpageload" ev:onpageunload="scwin.onpageunload">
+    	<xf:group class="wrapper white" id="" style="">
+    		<xf:group class="header" id="" style="" tagname="section">
+    			<xf:group class="btn_menu" id="" style="" tagname="button" text=""></xf:group>
+    			<xf:trigger class="btn_top preSearch" id="" style="" type="button">
+    				<xf:label><![CDATA[이전화면]]></xf:label>
+    			</xf:trigger>
+    		</xf:group>
+    		<xf:group class="container" id="" style="" tagname="section">
+    		<xf:group id="" class="container_inner">
+    			<xf:group tagname="section" style="" id="">
+    				<xf:group style="" id="" class="titlebox">
+    					<w2:textbox tagname="h3" style="" id="" label="Title-h3"></w2:textbox></xf:group>
+    				<w2:gridView autoFit="none" class="wq_gvw" dataList="data:dataList1" defaultCellHeight="" focusMode="row" id="grdRightFixed" scrollByColumn="false" scrollByColumnAdaptive="false" sortable="true" style="height:500px;" tooltipDisplay="true" visibleRowNum="all" fixedColumn="" fixedColumnNoMove="" keepDefaultColumnWidth="" adaptive="" adaptiveThreshold="">
+    						<w2:caption style="" id="caption1" value="this is a grid caption."></w2:caption>
+    						<w2:header style="" id="header1">
+    							<w2:row style="" id="row1">
+    								<w2:column removeBorderStyle="false" width="150" inputType="text" id="column6" value="name1" fixedRightColumn="6" blockSelect="false" displayMode="label">
+    								</w2:column>
+    								<w2:column removeBorderStyle="false" width="150" inputType="text" id="column5" value="name2" fixedRightColumn="6" blockSelect="false" displayMode="label">
+    								</w2:column>
+    								<w2:column removeBorderStyle="false" width="150" inputType="text" id="column4" value="name3" fixedRightColumn="6" blockSelect="false" displayMode="label">
+    								</w2:column>
+    								<w2:column removeBorderStyle="false" width="150" inputType="text" id="column3" value="name4" fixedRightColumn="6" blockSelect="false" displayMode="label">
+    								</w2:column>
+    								<w2:column removeBorderStyle="false" width="150" inputType="text" id="column2" value="name5" fixedRightColumn="6" blockSelect="false" displayMode="label">
+    								</w2:column>
+    								<w2:column removeBorderStyle="false" width="50" inputType="text" id="column1" value="name6" fixedRightColumn="6" blockSelect="false" displayMode="label" fixColumnWidth="true">
+    								</w2:column>
+    							</w2:row>
+    						</w2:header>
+    						<w2:gBody style="" id="gBody1">
+    							<w2:row style="" id="row2">
+    								<w2:column removeBorderStyle="false" width="70" inputType="text" id="col1" blockSelect="false" displayMode="label">
+    								</w2:column>
+    								<w2:column removeBorderStyle="false" width="70" inputType="text" id="col2" blockSelect="false" displayMode="label">
+    								</w2:column>
+    								<w2:column removeBorderStyle="false" width="70" inputType="text" id="col3" blockSelect="false" displayMode="label">
+    								</w2:column>
+    								<w2:column removeBorderStyle="false" width="70" inputType="text" id="col4" blockSelect="false" displayMode="label">
+    								</w2:column>
+    								<w2:column removeBorderStyle="false" width="70" inputType="text" id="col5" blockSelect="false" displayMode="label">
+    								</w2:column>
+    								<w2:column removeBorderStyle="false" width="70" inputType="text" id="col6" blockSelect="false" displayMode="label">
+    								</w2:column>
+    							</w2:row>
+    						</w2:gBody>
+    					</w2:gridView>
+    			</xf:group></xf:group></xf:group>
+    		<xf:group class="bottomMenu" id="" style="" tagname="section">
+    			<xf:group class="navbox" id="" style="">
+    				<xf:group class="menu01" id="" style="" tagname="button">
+    					<xf:group class="numberbox" id="">
+    						<w2:textbox class="num" id="" label="13" style=""></w2:textbox>
+    					</xf:group>
+    					<w2:textbox class="title" id="" label="To-Do" style=""></w2:textbox>
+    				</xf:group>
+    				<xf:group class="menu02-01 on" id="" style="" tagname="button">
+    					<w2:textbox class="title" id="" label="가입정보조회" style=""></w2:textbox>
+    				</xf:group>
+    				<xf:group class="menu03" id="" style="" tagname="button">
+    					<w2:textbox class="title" id="" label="사전조회" style=""></w2:textbox>
+    				</xf:group>
+    				<xf:group class="menu04" id="" style="" tagname="button">
+    					<w2:textbox class="title" id="" label="개통지역" style=""></w2:textbox>
+    				</xf:group>
+    				<xf:group class="menu05" id="" style="" tagname="button">
+    					<xf:group class="numberbox" id="" style="">
+    						<w2:textbox class="num" id="" label="3" style=""></w2:textbox>
+    					</xf:group>
+    					<w2:textbox class="title" id="" label="알림" style=""></w2:textbox>
+    				</xf:group>
+    			</xf:group>
+    		</xf:group>
+    	</xf:group>
+    </body>
+</html>
