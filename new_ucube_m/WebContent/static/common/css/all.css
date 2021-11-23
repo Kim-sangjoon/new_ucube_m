@@ -391,7 +391,7 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow:hidd
 .btn_df.ico em{display:inline-block; margin-right: 4px; color:transparent; height:26px; width:26px; vertical-align: middle;}
 .btn_df.ico.camera em{background:url(./../images/ico_camera26.svg) no-repeat}
 .btn_df.ico span{vertical-align: middle; font-size: 15px; color: #56606B;font-weight: 500}
-.btn_cm{flex:1; border:none; background:#7B558D; border-radius:4px; color:#FFFFFF; font-weight:500; font-size:15px; text-align:center; letter-spacing:-0.02em}
+.btn_cm{flex:1; border:none; background:#7B558D; height:48px; border-radius:4px; color:#FFFFFF; font-weight:500; font-size:15px; text-align:center; letter-spacing:-0.02em}
 .btn_cm.w2trigger_disabled{background:#E8EFF5; color:#BEC9D4}
 .btn_sh{flex:1; border:none; background:#7B558D; border-radius:4px; color:#FFFFFF; font-weight:500; font-size:15px; line-height:48px; text-align:center; letter-spacing:-0.02em}
 .btn_sh.w2trigger_disabled,
