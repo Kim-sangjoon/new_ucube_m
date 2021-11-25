@@ -833,8 +833,10 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow:hidd
 .wq_gvw .gridHeaderTableDefault {border-bottom:0}
 .wq_gvw thead.gridHeaderTableDefault {border:0}
 .wq_gvw th.gridHeaderTDDefault {border:0; background:#DDE2F5; font-size:14px; font-weight:300; color:#56606B; height:40px}
+.wq_gvw.bd1 th.gridHeaderTDDefault {border-left:1px solid #BEC9D4; border-right:1px solid #BEC9D4}
 .wq_gvw th.gridHeaderTDDefault nobr {padding:0}
 .wq_gvw .gridBodyDefault {border-color:#E8EFF5; border-width:1px; color:#202020; font-size:13px; background-color:#fff; height:44px; border-left:0; border-right:0}
+.wq_gvw.bd1 .gridBodyDefault {border-left:1px solid #E8EFF5; border-right:1px solid #E8EFF5}
 .wq_gvw .gridHeaderTableDefault,
 .wq_gvw th.gridHeaderTDDefault:first-child,
 .wq_gvw .gridBodyDefault:first-child {border-left:0}

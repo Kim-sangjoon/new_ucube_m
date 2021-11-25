@@ -87,126 +87,284 @@
     		</xf:group>
     		<xf:group class="container" id="" style="" tagname="section">
     			<xf:group class="white_bgbox" id="" style="">
-    					<xf:group class="white_bgboxwrap main titleinfo" id=""><xf:group tagname="section" id="" class=""><xf:group id="" class="side_inner"><xf:group style="" id="" class="titlebox">
-    						<xf:group id="" class="ly_form">
-    							<xf:group id="" class="lta"><w2:textbox tagname="h3" style="" id="" label="월별청구내역(원)"></w2:textbox></xf:group><xf:group class="rta" id="" style=""><xf:group id="" class="titlebargroup"><xf:select1 submenuSize="auto" chooseOption="" allOption="" displayMode="" ref="" appearance="minimal" disabledClass="w2selectbox_disabled" disabled="false" style="" id="" renderType="native" class="wd-100" direction="auto">
-    								<xf:choices>
-    									<xf:item>
-    										<xf:label><![CDATA[1개월]]></xf:label>
-    										<xf:value><![CDATA[]]></xf:value>
-    									</xf:item>
-    									<xf:item>
-    										<xf:label><![CDATA[2개월]]></xf:label>
-    										<xf:value><![CDATA[]]></xf:value>
-    									</xf:item>
-    									<xf:item>
-    										<xf:label><![CDATA[3개월]]></xf:label>
-    										<xf:value><![CDATA[]]></xf:value>
-    									</xf:item>
-    									<xf:item>
-    										<xf:label><![CDATA[4개월]]></xf:label>
-    										<xf:value><![CDATA[]]></xf:value>
-    									</xf:item>
-    									<xf:item>
-    										<xf:label><![CDATA[5개월]]></xf:label>
-    										<xf:value><![CDATA[]]></xf:value>
-    									</xf:item>
-    									<xf:item>
-    										<xf:label><![CDATA[6개월]]></xf:label>
-    										<xf:value><![CDATA[]]></xf:value>
-    									</xf:item>
-    									<xf:item>
-    										<xf:label><![CDATA[7개월]]></xf:label>
-    										<xf:value><![CDATA[]]></xf:value>
-    									</xf:item>
-    									<xf:item>
-    										<xf:label><![CDATA[8개월]]></xf:label>
-    										<xf:value><![CDATA[]]></xf:value>
-    									</xf:item>
-    									<xf:item>
-    										<xf:label><![CDATA[9개월]]></xf:label>
-    										<xf:value><![CDATA[]]></xf:value>
-    									</xf:item>
-    									<xf:item>
-    										<xf:label><![CDATA[10개월]]></xf:label>
-    										<xf:value><![CDATA[]]></xf:value>
-    									</xf:item>
-    									<xf:item>
-    										<xf:label><![CDATA[11개월]]></xf:label>
-    										<xf:value><![CDATA[]]></xf:value>
-    									</xf:item>
-    									<xf:item>
-    										<xf:label><![CDATA[12개월]]></xf:label>
-    										<xf:value><![CDATA[]]></xf:value>
-    									</xf:item>
-    								</xf:choices>
-    							</xf:select1></xf:group></xf:group>
-    						</xf:group></xf:group></xf:group><xf:group style="" id="" class="gvwbox">
-    							<w2:gridView adaptiveThreshold="" fixedColumnNoMove="" editModeEvent="" scrollByColumnAdaptive="false"
-    								keepDefaultColumnWidth="" scrollByColumn="false" sortable="true" defaultCellHeight="" adaptive="" focusMode="row"
-    								tooltipDisplay="true" fixedColumn="" dataList="data:dataList1" style="height:311px;" autoFit="allColumn" id="gridView1"
-    								visibleRowNum="all" class="wq_gvw">
-    								<w2:caption style="" id="caption1" value="this is a grid caption."></w2:caption>
-    								<w2:header style="" id="header1">
-    									<w2:row style="" id="row1">
-    										<w2:column removeBorderStyle="false" width="150" inputType="text" id="column6"
-    											fixedRightColumn="" value="청구작업일" blockSelect="false" displayMode="label">
-    										</w2:column>
-    										<w2:column removeBorderStyle="false" width="150" inputType="text" id="column5"
-    											fixedRightColumn="" value="납부방법" blockSelect="false" displayMode="label">
-    										</w2:column>
-    										<w2:column removeBorderStyle="false" width="150" inputType="text" id="column4"
-    											fixedRightColumn="" value="당월청구" blockSelect="false" displayMode="label">
-    										</w2:column>
-    										<w2:column removeBorderStyle="false" width="150" inputType="text" id="column3"
-    											fixedRightColumn="" value="전월청구" blockSelect="false" displayMode="label">
-    										</w2:column>
-    										<w2:column removeBorderStyle="false" width="150" inputType="text" id="column2"
-    											fixedRightColumn="" value="상세" blockSelect="false" displayMode="label">
-    										</w2:column>
-    									</w2:row>
-    								</w2:header>
-    								<w2:gBody style="" id="gBody1">
-    									<w2:row style="" id="row2">
-    										<w2:column removeBorderStyle="false" width="150" inputType="text" id="col1" blockSelect="false"
-    											displayMode="label">
-    										</w2:column>
-    										<w2:column removeBorderStyle="false" width="150" inputType="text" id="col2" blockSelect="false"
-    											displayMode="label">
-    										</w2:column>
-    										<w2:column removeBorderStyle="false" width="150" inputType="text" id="col3" blockSelect="false"
-    											displayMode="label" textAlign="right">
-    										</w2:column>
-    										<w2:column removeBorderStyle="false" width="150" inputType="text" id="col4" blockSelect="false"
-    											displayMode="label" textAlign="right">
-    										</w2:column>
-    										<w2:column removeBorderStyle="false" width="150" inputType="image" id="col5" blockSelect="false"
-    											displayMode="label" imageHeight="24" imageWidth="24" imageSrc="../../common/images/ico_detail.svg" viewType="icon" displayType="" type="">
-    										</w2:column>
-    									</w2:row>
-    								</w2:gBody>
-    								<w2:footer style="" id="footer1">
-    									<w2:row style="" id="row3">
-    										<w2:column removeBorderStyle="false" width="150" inputType="text" style=""
-    											id="column11" value="합계" blockSelect="false" displayMode="label">
-    										</w2:column>
-    										<w2:column removeBorderStyle="false" width="150" inputType="text" style=""
-    											id="column10" value="" blockSelect="false" displayMode="label">
-    										</w2:column>
-    										<w2:column removeBorderStyle="false" width="150" inputType="text" style=""
-    											id="column9" value="493,440" blockSelect="false" displayMode="label" textAlign="right">
-    										</w2:column>
-    										<w2:column removeBorderStyle="false" width="150" inputType="text" style=""
-    											id="column8" value="82,240" blockSelect="false" displayMode="label" textAlign="right">
-    										</w2:column>
-    										<w2:column removeBorderStyle="false" width="150" inputType="text" style=""
-    											id="column7" value="" blockSelect="false" displayMode="label">
-    										</w2:column>
-    									</w2:row>
-    								</w2:footer>
-    							</w2:gridView>
-</xf:group></xf:group></xf:group>
-    				</xf:group>
+    					<xf:group class="white_bgboxwrap main titleinfo" id="">
+    						<xf:group tagname="section" id="" class="">
+    							<xf:group id="" class="side_inner">
+    								<xf:group style="" id="" class="titlebox">
+    									<xf:group id="" class="ly_form">
+    										<xf:group id="" class="lta">
+    											<w2:textbox tagname="h3" style="" id="" label="월별청구내역(원)"></w2:textbox>
+    										</xf:group>
+    										<xf:group class="rta" id="" style="">
+    											<xf:group id="" class="titlebargroup">
+    												<xf:select1 submenuSize="auto" chooseOption="" allOption="" displayMode="" ref=""
+    													appearance="minimal" disabledClass="w2selectbox_disabled" disabled="false" style="" id="" renderType="native"
+    													class="wd-100" direction="auto">
+    													<xf:choices>
+    														<xf:item>
+    															<xf:label><![CDATA[1개월]]></xf:label>
+    															<xf:value><![CDATA[]]></xf:value>
+    														</xf:item>
+    														<xf:item>
+    															<xf:label><![CDATA[2개월]]></xf:label>
+    															<xf:value><![CDATA[]]></xf:value>
+    														</xf:item>
+    														<xf:item>
+    															<xf:label><![CDATA[3개월]]></xf:label>
+    															<xf:value><![CDATA[]]></xf:value>
+    														</xf:item>
+    														<xf:item>
+    															<xf:label><![CDATA[4개월]]></xf:label>
+    															<xf:value><![CDATA[]]></xf:value>
+    														</xf:item>
+    														<xf:item>
+    															<xf:label><![CDATA[5개월]]></xf:label>
+    															<xf:value><![CDATA[]]></xf:value>
+    														</xf:item>
+    														<xf:item>
+    															<xf:label><![CDATA[6개월]]></xf:label>
+    															<xf:value><![CDATA[]]></xf:value>
+    														</xf:item>
+    														<xf:item>
+    															<xf:label><![CDATA[7개월]]></xf:label>
+    															<xf:value><![CDATA[]]></xf:value>
+    														</xf:item>
+    														<xf:item>
+    															<xf:label><![CDATA[8개월]]></xf:label>
+    															<xf:value><![CDATA[]]></xf:value>
+    														</xf:item>
+    														<xf:item>
+    															<xf:label><![CDATA[9개월]]></xf:label>
+    															<xf:value><![CDATA[]]></xf:value>
+    														</xf:item>
+    														<xf:item>
+    															<xf:label><![CDATA[10개월]]></xf:label>
+    															<xf:value><![CDATA[]]></xf:value>
+    														</xf:item>
+    														<xf:item>
+    															<xf:label><![CDATA[11개월]]></xf:label>
+    															<xf:value><![CDATA[]]></xf:value>
+    														</xf:item>
+    														<xf:item>
+    															<xf:label><![CDATA[12개월]]></xf:label>
+    															<xf:value><![CDATA[]]></xf:value>
+    														</xf:item>
+    													</xf:choices>
+    												</xf:select1>
+    											</xf:group>
+    										</xf:group>
+    									</xf:group>
+    								</xf:group>
+    							</xf:group>
+    							<xf:group style="" id="" class="gvwbox">
+    								<w2:gridView adaptiveThreshold="" fixedColumnNoMove="" editModeEvent="" scrollByColumnAdaptive="false"
+    									keepDefaultColumnWidth="" scrollByColumn="false" sortable="true" defaultCellHeight="" adaptive="" focusMode="row"
+    									tooltipDisplay="true" fixedColumn="" dataList="data:dataList1" style="height:311px;" autoFit="allColumn" id="gridView1"
+    									visibleRowNum="all" class="wq_gvw">
+    									<w2:caption style="" id="caption1" value="this is a grid caption."></w2:caption>
+    									<w2:header style="" id="header1">
+    										<w2:row style="" id="row1">
+    											<w2:column removeBorderStyle="false" width="150" inputType="text" id="column6"
+    												fixedRightColumn="" value="청구작업일" blockSelect="false" displayMode="label">
+    											</w2:column>
+    											<w2:column removeBorderStyle="false" width="150" inputType="text" id="column5"
+    												fixedRightColumn="" value="납부방법" blockSelect="false" displayMode="label">
+    											</w2:column>
+    											<w2:column removeBorderStyle="false" width="150" inputType="text" id="column4"
+    												fixedRightColumn="" value="당월청구" blockSelect="false" displayMode="label">
+    											</w2:column>
+    											<w2:column removeBorderStyle="false" width="150" inputType="text" id="column3"
+    												fixedRightColumn="" value="전월청구" blockSelect="false" displayMode="label">
+    											</w2:column>
+    											<w2:column removeBorderStyle="false" width="150" inputType="text" id="column2"
+    												fixedRightColumn="" value="상세" blockSelect="false" displayMode="label">
+    											</w2:column>
+    										</w2:row>
+    									</w2:header>
+    									<w2:gBody style="" id="gBody1">
+    										<w2:row style="" id="row2">
+    											<w2:column removeBorderStyle="false" width="150" inputType="text" id="col1"
+    												blockSelect="false" displayMode="label">
+    											</w2:column>
+    											<w2:column removeBorderStyle="false" width="150" inputType="text" id="col2"
+    												blockSelect="false" displayMode="label">
+    											</w2:column>
+    											<w2:column removeBorderStyle="false" width="150" inputType="text" id="col3"
+    												blockSelect="false" displayMode="label" textAlign="right">
+    											</w2:column>
+    											<w2:column removeBorderStyle="false" width="150" inputType="text" id="col4"
+    												blockSelect="false" displayMode="label" textAlign="right">
+    											</w2:column>
+    											<w2:column removeBorderStyle="false" width="150" inputType="image" id="col5"
+    												blockSelect="false" displayMode="label" imageHeight="24" imageWidth="24" imageSrc="../../common/images/ico_detail.svg"
+    												viewType="icon" displayType="" type="">
+    											</w2:column>
+    										</w2:row>
+    									</w2:gBody>
+    									<w2:footer style="" id="footer1">
+    										<w2:row style="" id="row3">
+    											<w2:column removeBorderStyle="false" width="150" inputType="text" style="" id="column11"
+    												value="합계" blockSelect="false" displayMode="label">
+    											</w2:column>
+    											<w2:column removeBorderStyle="false" width="150" inputType="text" style="" id="column10"
+    												value="" blockSelect="false" displayMode="label">
+    											</w2:column>
+    											<w2:column removeBorderStyle="false" width="150" inputType="text" style="" id="column9"
+    												value="493,440" blockSelect="false" displayMode="label" textAlign="right">
+    											</w2:column>
+    											<w2:column removeBorderStyle="false" width="150" inputType="text" style="" id="column8"
+    												value="82,240" blockSelect="false" displayMode="label" textAlign="right">
+    											</w2:column>
+    											<w2:column removeBorderStyle="false" width="150" inputType="text" style="" id="column7"
+    												value="" blockSelect="false" displayMode="label">
+    											</w2:column>
+    										</w2:row>
+    									</w2:footer>
+    								</w2:gridView>
+    							</xf:group>
+    						</xf:group>
+    						<xf:group class="" id="" tagname="section" style="">
+    							<xf:group class="side_inner" id="">
+    								<xf:group class="titlebox" id="" style="">
+    									<xf:group class="ly_form" id="">
+    										<xf:group class="lta" id="">
+    											<w2:textbox id="" label="월별청구내역(원)" style="" tagname="h3"></w2:textbox>
+    										</xf:group>
+    										<xf:group class="rta" id="" style="">
+    											<xf:group class="titlebargroup" id="">
+    												<xf:select1 allOption="" appearance="minimal" chooseOption="" class="wd-100"
+    													direction="auto" disabled="false" disabledClass="w2selectbox_disabled" displayMode="" id="" ref="" renderType="native"
+    													style="" submenuSize="auto">
+    													<xf:choices>
+    														<xf:item>
+    															<xf:label><![CDATA[1개월]]></xf:label>
+    															<xf:value></xf:value>
+    														</xf:item>
+    														<xf:item>
+    															<xf:label><![CDATA[2개월]]></xf:label>
+    															<xf:value></xf:value>
+    														</xf:item>
+    														<xf:item>
+    															<xf:label><![CDATA[3개월]]></xf:label>
+    															<xf:value></xf:value>
+    														</xf:item>
+    														<xf:item>
+    															<xf:label><![CDATA[4개월]]></xf:label>
+    															<xf:value></xf:value>
+    														</xf:item>
+    														<xf:item>
+    															<xf:label><![CDATA[5개월]]></xf:label>
+    															<xf:value></xf:value>
+    														</xf:item>
+    														<xf:item>
+    															<xf:label><![CDATA[6개월]]></xf:label>
+    															<xf:value></xf:value>
+    														</xf:item>
+    														<xf:item>
+    															<xf:label><![CDATA[7개월]]></xf:label>
+    															<xf:value></xf:value>
+    														</xf:item>
+    														<xf:item>
+    															<xf:label><![CDATA[8개월]]></xf:label>
+    															<xf:value></xf:value>
+    														</xf:item>
+    														<xf:item>
+    															<xf:label><![CDATA[9개월]]></xf:label>
+    															<xf:value></xf:value>
+    														</xf:item>
+    														<xf:item>
+    															<xf:label><![CDATA[10개월]]></xf:label>
+    															<xf:value></xf:value>
+    														</xf:item>
+    														<xf:item>
+    															<xf:label><![CDATA[11개월]]></xf:label>
+    															<xf:value></xf:value>
+    														</xf:item>
+    														<xf:item>
+    															<xf:label><![CDATA[12개월]]></xf:label>
+    															<xf:value></xf:value>
+    														</xf:item>
+    													</xf:choices>
+    												</xf:select1>
+    											</xf:group>
+    										</xf:group>
+    									</xf:group>
+    								</xf:group>
+    							</xf:group>
+    							<xf:group class="gvwbox" id="" style="">
+    								<w2:gridView adaptive="" adaptiveThreshold="" autoFit="none" class="wq_gvw bd1"
+    									dataList="data:dataList1" defaultCellHeight="" editModeEvent="" fixedColumn="" fixedColumnNoMove="" focusMode="row"
+    									id="grdRightFixed" keepDefaultColumnWidth="" scrollByColumn="false" scrollByColumnAdaptive="false" sortable="true"
+    									style="height:265px;" tooltipDisplay="true" visibleRowNum="all">
+    									<w2:caption id="caption1" style="" value="this is a grid caption."></w2:caption>
+    									<w2:header id="header1" style="">
+    										<w2:row id="row1" style="">
+    											<w2:column blockSelect="false" displayMode="label" id="column6" inputType="text"
+    												removeBorderStyle="false" value="할부상태" width="70">
+    											</w2:column>
+    											<w2:column blockSelect="false" displayMode="label" id="column5" inputType="text"
+    												removeBorderStyle="false" value="단말기모델" width="80">
+    											</w2:column>
+    											<w2:column blockSelect="false" displayMode="label" id="column4" inputType="text"
+    												removeBorderStyle="false" value="할부&lt;br/&gt;개월수" width="50">
+    											</w2:column>
+    											<w2:column blockSelect="false" displayMode="label" id="column3" inputType="text"
+    												removeBorderStyle="false" value="할부원금" width="60">
+    											</w2:column>
+    											<w2:column removeBorderStyle="false" width="70" inputType="text" id="column21" value="할부총액"
+    												blockSelect="false" displayMode="label">
+    											</w2:column>
+    											<w2:column removeBorderStyle="false" width="70" inputType="text" id="column18" value="월청구금액"
+    												blockSelect="false" displayMode="label">
+    											</w2:column>
+    											<w2:column removeBorderStyle="false" width="70" inputType="text" id="column15"
+    												value="잔여&lt;br/&gt;할부개월" blockSelect="false" displayMode="label">
+    											</w2:column>
+    											<w2:column removeBorderStyle="false" width="70" inputType="text" id="column12"
+    												value="잔여&lt;br/&gt;할부총액" blockSelect="false" displayMode="label">
+    											</w2:column>
+    											<w2:column blockSelect="false" displayMode="label" id="column2" inputType="text"
+    												removeBorderStyle="false" width="37">
+    											</w2:column>
+    										</w2:row>
+    									</w2:header>
+    									<w2:gBody id="gBody1" style="">
+    										<w2:row id="row2" style="">
+    											<w2:column blockSelect="false" displayMode="label" id="col1" inputType="text"
+    												removeBorderStyle="false" width="150">
+    											</w2:column>
+    											<w2:column blockSelect="false" displayMode="label" id="col2" inputType="text"
+    												removeBorderStyle="false" width="150">
+    											</w2:column>
+    											<w2:column blockSelect="false" displayMode="label" id="col3" inputType="text"
+    												removeBorderStyle="false" textAlign="right" width="150">
+    											</w2:column>
+    											<w2:column blockSelect="false" displayMode="label" id="col4" inputType="text"
+    												removeBorderStyle="false" textAlign="right" width="150">
+    											</w2:column>
+    											<w2:column removeBorderStyle="false" width="70" inputType="text" id="column22"
+    												blockSelect="false" displayMode="label">
+    											</w2:column>
+    											<w2:column removeBorderStyle="false" width="70" inputType="text" id="column19"
+    												blockSelect="false" displayMode="label">
+    											</w2:column>
+    											<w2:column removeBorderStyle="false" width="70" inputType="text" id="column16"
+    												blockSelect="false" displayMode="label">
+    											</w2:column>
+    											<w2:column removeBorderStyle="false" width="70" inputType="text" id="column13"
+    												blockSelect="false" displayMode="label">
+    											</w2:column>
+    											<w2:column blockSelect="false" displayMode="label" id="col5" imageHeight="24"
+    												imageSrc="../../common/images/ico_arrow_right24.svg" imageWidth="24" inputType="image" removeBorderStyle="false"
+    												viewType="icon" width="37">
+    											</w2:column>
+    										</w2:row>
+    									</w2:gBody>
+    								</w2:gridView>
+    							</xf:group>
+    						</xf:group>
+    					</xf:group>
+    			</xf:group>
     		</xf:group>
     		<xf:group class="bottomMenu" id="" style="" tagname="section">
     			<xf:group class="navbox" id="" style="">
