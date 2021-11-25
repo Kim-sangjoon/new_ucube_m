@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:ev="http://www.w3.org/2001/xml-events"
+    xmlns:w2="http://www.inswave.com/websquare" xmlns:xf="http://www.w3.org/2002/xforms">
+    <head meta_programName="table layout">
+    	<w2:type>DEFAULT</w2:type>
+        <w2:buildDate/>
+        <xf:model>
+            <xf:instance>
+                <data xmlns=""/>
+            </xf:instance>
+            <w2:dataCollection baseNode="map">
+            </w2:dataCollection>
+            <w2:workflowCollection>
+            </w2:workflowCollection>
+        </xf:model>
+         <script type="text/javascript" lazy="false"><![CDATA[
+        
+	scwin.onpageload = function() {
+		
+	};
+	
+	scwin.onpageunload = function() {
+		
+	};
+	
+	]]></script>
+    </head>
+    <body ev:onpageload="scwin.onpageload" ev:onpageunload="scwin.onpageunload">
+    	<xf:group class="wrapper" id="" style="">
+    		<xf:group class="header" id="" style="" tagname="section">
+    			<xf:group class="titlebar" id="" style="">
+    				<xf:group class="cta" id="">
+    					<w2:textbox class="title" id="" label="Table Layout" style="" tagname="h2"></w2:textbox>
+    				</xf:group>
+    			</xf:group>
+    			<xf:group class="btn_menu" id="" style="" tagname="button"></xf:group>
+    		</xf:group>
+    		<xf:group class="container" id="" style="" tagname="section">
+    			<xf:group class="container_inner" id="" style="">
+    				<xf:group id="" style="" tagname="section">
+    					<xf:group class="titlebox" id="" style="">
+    						<w2:textbox id="" label="기본테이블" style="" tagname="h3"></w2:textbox>
+    					</xf:group>
+    					<xf:group class="tbbox" id="" style="">
+    						<xf:group class="w2tb tb" id="" style="" tagname="table">
+    							<w2:attributes>
+    								<w2:summary></w2:summary>
+    							</w2:attributes>
+    							<xf:group tagname="caption">디테일&amp;nbsp;테이블(2단)</xf:group>
+    							<xf:group tagname="colgroup">
+    								<xf:group style="width:75px" tagname="col"></xf:group>
+    								<xf:group style="" tagname="col"></xf:group>
+    								<xf:group style="" tagname="col"></xf:group>
+    							</xf:group>
+    							<xf:group class="" id="" style="" tagname="thead">
+    								<xf:group style="" tagname="tr">
+    									<xf:group class="w2tb_th" style="" tagname="th">
+    										<w2:attributes>
+    											<w2:scope>row</w2:scope>
+    										</w2:attributes>
+    									</xf:group>
+    									<xf:group class="w2tb_th" style="" tagname="td">
+    										<w2:attributes>
+    											<w2:colspan>1</w2:colspan>
+    											<w2:rowspan>1</w2:rowspan>
+    										</w2:attributes>
+    										<w2:textbox id="" label="1구간" style="" tagname="span"></w2:textbox>
+    									</xf:group>
+    									<xf:group class="w2tb_th" tagname="th">
+    										<w2:attributes>
+    											<w2:scope>row</w2:scope>
+    										</w2:attributes>
+    										<w2:textbox class="" id="" label="2구간" style="" tagname="label"></w2:textbox>
+    									</xf:group>
+    								</xf:group>
+    							</xf:group>
+    							<xf:group id="" class="" tagname="tbody">
+    								<xf:group tagname="tr" style="">
+    									<xf:group tagname="th" style="" class="w2tb_th">
+    										<w2:attributes>
+    											<w2:scope>row</w2:scope>
+    										</w2:attributes>
+    										<w2:textbox tagname="label" style="" id="" label="할부금" class=""></w2:textbox>
+    									</xf:group>
+    									<xf:group tagname="td" style="" class="w2tb_td">
+    										<w2:attributes>
+    											<w2:colspan>1</w2:colspan>
+    											<w2:rowspan>1</w2:rowspan>
+    										</w2:attributes>
+    										<w2:textbox tagname="span" style="" id="" label="Global Best &amp; First"></w2:textbox>
+    									</xf:group>
+    									<xf:group tagname="td" class="w2tb_td">
+    										<w2:attributes>
+    											<w2:scope>row</w2:scope>
+    										</w2:attributes>
+    										<w2:textbox tagname="label" style="" id="" label="maecenas" class=""></w2:textbox>
+    									</xf:group>
+    								</xf:group>
+    								<xf:group style="" tagname="tr">
+    									<xf:group class="w2tb_th" style="" tagname="th">
+    										<w2:attributes>
+    											<w2:scope>row</w2:scope>
+    										</w2:attributes>
+    										<w2:textbox class="" id="" label="개월수" style="" tagname="label"></w2:textbox>
+    									</xf:group>
+    									<xf:group class="w2tb_td" style="" tagname="td">
+    										<w2:attributes>
+    											<w2:colspan>1</w2:colspan>
+    											<w2:rowspan>1</w2:rowspan>
+    										</w2:attributes>
+    										<w2:textbox id="" label="Global Best &amp; First" style="" tagname="span"></w2:textbox>
+    									</xf:group>
+    									<xf:group class="w2tb_td" tagname="td">
+    										<w2:attributes>
+    											<w2:scope>row</w2:scope>
+    										</w2:attributes>
+    										<w2:textbox class="" id="" label="maecenas" style="" tagname="label"></w2:textbox>
+    									</xf:group>
+    								</xf:group>
+    								<xf:group style="" tagname="tr">
+    									<xf:group class="w2tb_th" style="" tagname="th">
+    										<w2:attributes>
+    											<w2:scope>row</w2:scope>
+    										</w2:attributes>
+    										<w2:textbox class="" id="" label="잔여할부" style="" tagname="label"></w2:textbox>
+    									</xf:group>
+    									<xf:group class="w2tb_td" style="" tagname="td">
+    										<w2:attributes>
+    											<w2:colspan>1</w2:colspan>
+    											<w2:rowspan>1</w2:rowspan>
+    										</w2:attributes>
+    										<w2:textbox id="" label="Global Best &amp; First" style="" tagname="span"></w2:textbox>
+    									</xf:group>
+    									<xf:group class="w2tb_td" tagname="td">
+    										<w2:attributes>
+    											<w2:scope>row</w2:scope>
+    										</w2:attributes>
+    										<w2:textbox class="" id="" label="maecenas" style="" tagname="label"></w2:textbox>
+    									</xf:group>
+    								</xf:group>
+    								<xf:group style="" tagname="tr">
+    									<xf:group class="w2tb_th" style="" tagname="th">
+    										<w2:attributes>
+    											<w2:scope>row</w2:scope>
+    										</w2:attributes>
+    										<w2:textbox class="" id="" label="월 청구금" style="" tagname="label"></w2:textbox>
+    									</xf:group>
+    									<xf:group class="w2tb_td" style="" tagname="td">
+    										<w2:attributes>
+    											<w2:colspan>1</w2:colspan>
+    											<w2:rowspan>1</w2:rowspan>
+    										</w2:attributes>
+    										<w2:textbox id="" label="Global Best &amp; First" style="" tagname="span"></w2:textbox>
+    									</xf:group>
+    									<xf:group class="w2tb_td" tagname="td">
+    										<w2:attributes>
+    											<w2:scope>row</w2:scope>
+    										</w2:attributes>
+    										<w2:textbox class="" id="" label="maecenas" style="" tagname="label"></w2:textbox>
+    									</xf:group>
+    								</xf:group>
+    							</xf:group>
+    						</xf:group>
+    					</xf:group>
+    				</xf:group>
+    			</xf:group>
+    		</xf:group>
+    		<xf:group class="bottomMenu" id="" style="" tagname="section">
+    			<xf:group class="navbox" id="" style="">
+    				<xf:group class="menu01 on" id="" style="" tagname="button">
+    					<xf:group class="numberbox" id="">
+    						<w2:textbox class="num" id="" label="13" style=""></w2:textbox>
+    					</xf:group>
+    					<w2:textbox class="title" id="" label="To-Do" style=""></w2:textbox>
+    				</xf:group>
+    				<xf:group class="menu02" id="" style="" tagname="button">
+    					<w2:textbox class="title" id="" label="가입정보조회" style=""></w2:textbox>
+    				</xf:group>
+    				<xf:group class="menu03" id="" style="" tagname="button">
+    					<w2:textbox class="title" id="" label="사전조회" style=""></w2:textbox>
+    				</xf:group>
+    				<xf:group class="menu04" id="" style="" tagname="button">
+    					<w2:textbox class="title" id="" label="개통지역" style=""></w2:textbox>
+    				</xf:group>
+    				<xf:group class="menu05" id="" style="" tagname="button">
+    					<xf:group class="numberbox" id="" style="">
+    						<w2:textbox class="num" id="" label="3" style=""></w2:textbox>
+    					</xf:group>
+    					<w2:textbox class="title" id="" label="알림" style=""></w2:textbox>
+    				</xf:group>
+    			</xf:group>
+    		</xf:group>
+    	</xf:group>
+    </body>
+</html>

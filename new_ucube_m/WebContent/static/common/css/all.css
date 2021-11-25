@@ -1114,3 +1114,37 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow:hidd
 .wd-650 {width:650px !important}
 .wd-700 {width:700px !important}
 .wd-full {width:100% !important; min-width:0}
+
+/* table */
+.tbbox {position:relative; margin:0; padding:0; border:1px solid #BEC9D4}
+.tbbox > .tb {width:100%; border-spacing:0}
+.tbbox > .tb > tbody > tr > .w2tb_th,
+.tbbox > .tb > tr > .w2tb_th,
+.tbbox > .tb > tbody > tr > .w2tb_td,
+.tbbox > .tb > tr > .w2tb_td {border:0; border-bottom:1px solid #e8eff5; line-height:16px; box-sizing:border-box}
+.tbbox > .tb thead .w2tb_th {background:#F3F5FC; font-weight:normal; text-align:center; height:auto}
+.tbbox > .tb > tbody > tr > .w2tb_th,
+.tbbox > .tb > tr > .w2tb_th {border-color:#BEC9D4}
+.tbbox > .tb .w2tb_th {padding:4px; background:#E6EAF8; color:#56606B; font-weight:normal; text-align:right}
+.tbbox > .tb .w2tb_td {padding:2px 4px; background:#fff; color:#202020}
+.tbbox > .tb thead .w2tb_th,
+.tbbox > .tb tbody .w2tb_td {font-size:12px}
+.tbbox span[disabled=disabled] {color:#999}
+.tbbox > .tb .w2tb_th.out_header {padding:8px 20px; background:#f1f1f1; text-align:left}
+.tbbox > .tb .w2tb_th.br1 {border-right:1px solid #cdcdcd}
+.tbbox > .tb .w2tb_th.bl1 {border-left:1px solid #cdcdcd}
+.tbbox > .tb > tbody > tr:last-child > .w2tb_th,
+.tbbox > .tb > tr:last-child > .w2tb_th,
+.tbbox > .tb > tbody > tr:last-child > .w2tb_td,
+.tbbox > .tb > tr:last-child > .w2tb_td {border-bottom:0}
+.tbbox > .tb span,
+.tbbox > .tb label {vertical-align:middle}
+.tbbox > .tb p {line-height:18px}
+.tbbox .div_bar {height:22px}
+.th_btnbox {display:block; margin-top:6px}
+
+.tbbox.list > .tb .w2tb_th {padding:3px 10px; vertical-align:middle; line-height:25px; text-align:center; height:auto}
+.tbbox.list > .tb .w2tb_td {padding:3px 10px; vertical-align:middle; line-height:25px; border-left:1px solid #cdcdcd; border-right:1px solid #cdcdcd; text-align:center; height:auto}
+.tbbox > .tb .w2tb_td.th-sub {text-align:center; background-color:#F3F5FC}
+.tbbox > .tb .w2tb_th + .w2tb_th,
+.tbbox > .tb .w2tb_td + .w2tb_td {border-left:1px solid #BEC9D4}
