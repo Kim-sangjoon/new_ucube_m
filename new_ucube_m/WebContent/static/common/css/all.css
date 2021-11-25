@@ -214,7 +214,7 @@ input[type="radio"]:checked + .w2radio_label:before, input[type="radio"]:checked
 .inputgroup .w2selectbox_native_select:focus{border:1px solid #727272}
 .inputgroup .w2selectbox_native_select::-ms-expand {display:none}
 
-.titlebargroup{margin-top:8px;}
+/* .titlebargroup{margin-top:8px;} */
 .titlebargroup .w2selectbox_native {width:100%; border:none}
 .titlebargroup .w2selectbox_native_select {-webkit-appearance:none;  -moz-appearance:none; appearance:none; height:32px; border:1px solid #BEC9D4; background:url(./../images/ico_select.svg) no-repeat calc(100% - 8px) center; padding-left:8px; padding-right:28px}
 .titlebargroup .w2selectbox_native_select:focus{border:1px solid #727272}
@@ -624,6 +624,8 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow:hidd
 
 /* 고객정보 사전조회 안내 */
 .white_bgbox{position:relative; background:#FFFFFF; height:calc(100% - 8px); width:100%}
+.white_bgbox .titlebox{height:40px; padding-top:8px;}
+.white_bgbox .titlebox h3, .titlebox h3{color:#7B558D; line-height:32px; font-size:15px; font-weight:900}
 .white_bgbox .white_bgboxwrap{height:calc(100vh - 145px)}
 .white_bgbox .white_bgboxwrap.main{height:calc(100vh - 135px); margin-top:8px}
 .white_bgbox .white_bgboxwrap.main.titleinfo{ height:calc(100vh - 171px);}
