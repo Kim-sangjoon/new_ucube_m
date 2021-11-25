@@ -38,22 +38,20 @@
     			</xf:group>
     			<xf:group class="btn_menu" id="" style="" tagname="button"></xf:group>
     		</xf:group>
-    		<xf:group class="container" id="" style="">
+    		<xf:group class="container" id="" style="" tagname="section">
     			<xf:group class="" id="" style="" tagname="section">
     				<xf:group class="messagebox" id="" style="">
-    					<xf:group class="messageboxwrap main" id="">
-    						<xf:group class="titlebox" id="" style="">
-    							<w2:textbox id="" label="주소입력" style="" tagname="h3"></w2:textbox>
-    						</xf:group>
-    						<xf:group class="searchbox_type2" id="" style="">
-    							<xf:group adaptiveThreshold="" class="inputbox" id="" style="">
-    								<xf:group class="boxitem" id="" style="">
-    									<xf:input adjustMaxLength="false" class="adsearch" id="" placeholder="Placeholder" style=""></xf:input>
+    					<xf:group class="messageboxwrap main" id="" tagname="">
+
+    					<xf:group id="" class="container_inner"><xf:group style="" id="" class="titlebox">
+    							<w2:textbox tagname="h3" style="" id="" label="주소입력"></w2:textbox>
+    						</xf:group><xf:group style="" id="" class="searchbox_type2">
+    							<xf:group adaptiveThreshold="" style="" id="" class="inputbox">
+    								<xf:group style="" id="" class="boxitem">
+    									<xf:input adjustMaxLength="false" style="" id="" placeholder="Placeholder" class="adsearch"></xf:input>
     								</xf:group>
     							</xf:group>
-    						</xf:group>
-
-    					</xf:group>
+    						</xf:group></xf:group></xf:group>
     					<xf:group class="bottomfix main" id="">
     							<xf:group class="btnbox" id="" style="">
     								<xf:trigger class="btn_sh" disabled="true" id="" style="" type="button">
