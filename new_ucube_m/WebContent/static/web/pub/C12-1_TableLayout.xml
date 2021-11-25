@@ -88,13 +88,13 @@
     											<w2:colspan>1</w2:colspan>
     											<w2:rowspan>1</w2:rowspan>
     										</w2:attributes>
-    										<w2:textbox tagname="span" style="" id="" label="Global Best &amp; First"></w2:textbox>
+    										<w2:textbox tagname="span" style="" id="" label="399,640원"></w2:textbox>
     									</xf:group>
     									<xf:group tagname="td" class="w2tb_td">
     										<w2:attributes>
     											<w2:scope>row</w2:scope>
     										</w2:attributes>
-    										<w2:textbox tagname="label" style="" id="" label="maecenas" class=""></w2:textbox>
+    										<w2:textbox tagname="label" style="" id="" label="419,760원" class=""></w2:textbox>
     									</xf:group>
     								</xf:group>
     								<xf:group style="" tagname="tr">
@@ -109,13 +109,13 @@
     											<w2:colspan>1</w2:colspan>
     											<w2:rowspan>1</w2:rowspan>
     										</w2:attributes>
-    										<w2:textbox id="" label="Global Best &amp; First" style="" tagname="span"></w2:textbox>
+    										<w2:textbox id="" label="24개월" style="" tagname="span"></w2:textbox>
     									</xf:group>
     									<xf:group class="w2tb_td" tagname="td">
     										<w2:attributes>
     											<w2:scope>row</w2:scope>
     										</w2:attributes>
-    										<w2:textbox class="" id="" label="maecenas" style="" tagname="label"></w2:textbox>
+    										<w2:textbox class="" id="" label="12개월" style="" tagname="label"></w2:textbox>
     									</xf:group>
     								</xf:group>
     								<xf:group style="" tagname="tr">
@@ -130,13 +130,13 @@
     											<w2:colspan>1</w2:colspan>
     											<w2:rowspan>1</w2:rowspan>
     										</w2:attributes>
-    										<w2:textbox id="" label="Global Best &amp; First" style="" tagname="span"></w2:textbox>
+    										<w2:textbox id="" label="2개월" style="" tagname="span"></w2:textbox>
     									</xf:group>
     									<xf:group class="w2tb_td" tagname="td">
     										<w2:attributes>
     											<w2:scope>row</w2:scope>
     										</w2:attributes>
-    										<w2:textbox class="" id="" label="maecenas" style="" tagname="label"></w2:textbox>
+    										<w2:textbox class="" id="" label="12개월" style="" tagname="label"></w2:textbox>
     									</xf:group>
     								</xf:group>
     								<xf:group style="" tagname="tr">
@@ -151,13 +151,13 @@
     											<w2:colspan>1</w2:colspan>
     											<w2:rowspan>1</w2:rowspan>
     										</w2:attributes>
-    										<w2:textbox id="" label="Global Best &amp; First" style="" tagname="span"></w2:textbox>
+    										<w2:textbox id="" label="17,690원" style="" tagname="span"></w2:textbox>
     									</xf:group>
     									<xf:group class="w2tb_td" tagname="td">
     										<w2:attributes>
     											<w2:scope>row</w2:scope>
     										</w2:attributes>
-    										<w2:textbox class="" id="" label="maecenas" style="" tagname="label"></w2:textbox>
+    										<w2:textbox class="" id="" label="46,930원" style="" tagname="label"></w2:textbox>
     									</xf:group>
     								</xf:group>
     							</xf:group>
