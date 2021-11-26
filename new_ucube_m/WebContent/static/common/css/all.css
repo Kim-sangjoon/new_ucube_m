@@ -1128,7 +1128,7 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow:hidd
 .tbbox > .tb > tr > .w2tb_th,
 .tbbox > .tb > tr > .w2tb_td {height: 35px;}
 .tbbox > .tb .w2tb_th {padding:3px; background:#DDE2F5; color:#56606B; font-weight:300; text-align:center}
-.tbbox > .tb .w2tb_td {padding:2px 3px; background:#fff; color:#202020}
+.tbbox > .tb .w2tb_td {padding:2px 3px; background:#fff; color:#202020; height:35px}
 .tbbox > .tb thead .w2tb_th *, .tbbox > .tb .w2tb_th * {font-size:14px; color:#56606B}
 .tbbox > .tb tbody .w2tb_td *, .tbbox > .tb .w2tb_td * {font-size:13px}
 .tbbox > .tb .w2tb_td.tar,
@@ -1147,5 +1147,8 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow:hidd
 .tbbox.list > .tb .w2tb_td {padding:3px 10px; vertical-align:middle; line-height:25px; border-left:1px solid #cdcdcd; border-right:1px solid #cdcdcd; text-align:center; height:34px}
 
 .tbbox > .tb .w2tb_th + .w2tb_th:last-child{border-right:1px solid #DDE2F5}
-.tbbox > .tb .w2tb_td + .w2tb_td:last-child{border-right:1px solid #E8EFF5}
+.tbbox > .tb .w2tb_td + .w2tb_td:last-child,
+.tbbox > .tb tbody tr > .w2tb_td:last-child{border-right:1px solid #E8EFF5}
+.tbbox > .tb tbody tr > .w2tb_td:first-child{border-left:1px solid #E8EFF5}
+.tbbox > .tb tbody tr:first-child > .w2tb_td{border-top:1px solid #E8EFF5}
 .tbbox > .tb .w2tb_td + .w2tb_td {border-left:1px solid #E8EFF5}
