@@ -38,46 +38,41 @@
     		</xf:group><xf:group id="" class="container" tagname="section"><xf:group tagname="section" style="" id="" class="">
     			<xf:group style="" id="" class="messagebox">
     			<xf:group id="" class="messageboxwrap">
-    				<xf:group style="" id="" class="titlebox">
-    					<w2:textbox label="안내" style="" id="" tagname="h3"></w2:textbox>
-    				</xf:group>
-    				<xf:group style="" id="" class="textbox">
-    					<xf:group id="" style="" tagname="ol" class="numberbox">
-    						<xf:group id="" style="" tagname="li">
-    							<w2:textbox id="" label="LG U+ 미납고객여부를 확인합니다." style="" tagname="span"></w2:textbox>
+
+    				
+    			<xf:group id="" class="side_inner"><xf:group style="" id="" class="titlebox">
+    					<w2:textbox tagname="h3" style="" label="안내" id=""></w2:textbox>
+    				</xf:group><xf:group style="" id="" class="textbox">
+    					<xf:group tagname="ol" style="" id="" class="numberbox">
+    						<xf:group tagname="li" style="" id="">
+    							<w2:textbox tagname="span" style="" id="" label="LG U+ 미납고객여부를 확인합니다."></w2:textbox>
     						</xf:group>
-    						<xf:group id="" style="" tagname="li">
-    							<w2:textbox id="" label="한국정보통신진흥협회를 통해 “통신요금 &lt;br/&gt;(무선+유선) 미납여부” 를 확인합니다." style="" tagname="span"></w2:textbox>
+    						<xf:group tagname="li" style="" id="">
+    							<w2:textbox tagname="span" style="" id="" label="한국정보통신진흥협회를 통해 “통신요금 &lt;br/&gt;(무선+유선) 미납여부” 를 확인합니다."></w2:textbox>
     						</xf:group>
-    						<xf:group id="" style="" tagname="li">
-    							<w2:textbox id="" label="한국신용평가정보를 통해 “실명정보”를 &lt;br/&gt;확인합니다." style="" tagname="span"></w2:textbox>
+    						<xf:group tagname="li" style="" id="">
+    							<w2:textbox tagname="span" style="" id="" label="한국신용평가정보를 통해 “실명정보”를 &lt;br/&gt;확인합니다."></w2:textbox>
     						</xf:group>
-    						<xf:group id="" style="" tagname="li">
-    							<w2:textbox id=""
-    								label="외국인의 경우에는 한국정보통신진흥협회 및&lt;br/&gt;출입국 관리사무소를 통해 “실명정보, 유효기간, &lt;br/&gt;체류코드”, “여권정보 진위여부”를 확인합니다." style=""
-    								tagname="span">
+    						<xf:group tagname="li" style="" id="">
+    							<w2:textbox tagname="span" style="" id="" label="외국인의 경우에는 한국정보통신진흥협회 및&lt;br/&gt;출입국 관리사무소를 통해 “실명정보, 유효기간, &lt;br/&gt;체류코드”, “여권정보 진위여부”를 확인합니다.">
     							</w2:textbox>
     						</xf:group>
-    						<xf:group id="" style="" tagname="li">
-    							<w2:textbox id="" label='한국정보통신진흥협회를 통해 “해지&lt;br/&gt;미환급금(무선+유선) 여부" 를 확인합니다.' style="" tagname="span"></w2:textbox>
+    						<xf:group tagname="li" style="" id="">
+    							<w2:textbox tagname="span" style="" id="" label='한국정보통신진흥협회를 통해 “해지&lt;br/&gt;미환급금(무선+유선) 여부" 를 확인합니다.'></w2:textbox>
     						</xf:group>
-    						<xf:group id="" style="" tagname="li">
-    							<w2:textbox id=""
-    								label="외국인의 경우에는 한국정보통신진흥협회 및&lt;br/&gt;출입국 관리사무소를 통해 “실명정보, 유효기간, &lt;br/&gt;체류코드”, “여권정보 진위여부”를 확인합니다." style=""
-    								tagname="span">
+    						<xf:group tagname="li" style="" id="">
+    							<w2:textbox tagname="span" style="" id="" label="외국인의 경우에는 한국정보통신진흥협회 및&lt;br/&gt;출입국 관리사무소를 통해 “실명정보, 유효기간, &lt;br/&gt;체류코드”, “여권정보 진위여부”를 확인합니다.">
     							</w2:textbox>
     						</xf:group>
     					</xf:group>
-    					<xf:group id="" style="" class="msgbox" tagname="ul">
-    						<xf:group id="" tagname="li">
-    							<w2:textbox tagname="span" style="" id=""
-    								label="당사의 조회이력이 고객의 신용상태에 영향을&lt;br/&gt;미치지 않습니다만, 이에 대해 고객에게 고지하고&lt;br/&gt;동의를 구하셨습니까?">
+    					<xf:group tagname="ul" style="" id="" class="msgbox">
+    						<xf:group tagname="li" id="">
+    							<w2:textbox tagname="span" style="" id="" label="당사의 조회이력이 고객의 신용상태에 영향을&lt;br/&gt;미치지 않습니다만, 이에 대해 고객에게 고지하고&lt;br/&gt;동의를 구하셨습니까?">
     							</w2:textbox>
     						</xf:group>
     					</xf:group>
-    				</xf:group>
-    				<xf:group id="" style="" class="confirmbox">
-    					<xf:select selectedindex="-1" id="" appearance="full" style="" cols="" rows="" ref="" renderType="checkboxgroup">
+    				</xf:group><xf:group style="" id="" class="confirmbox">
+    					<xf:select ref="" appearance="full" style="" id="" selectedindex="-1" rows="" renderType="checkboxgroup" cols="">
     						<xf:choices>
     							<xf:item>
     								<xf:label><![CDATA[고객에게 고지 후, 고객이 동의하였습니다.]]></xf:label>
@@ -85,11 +80,8 @@
     							</xf:item>
     						</xf:choices>
     					</xf:select>
-    					<w2:textbox id="" label="(필수)" style="" dataType="" tagname="span" class="txt_red"></w2:textbox>
-    				</xf:group>
-
-    				
-    			</xf:group></xf:group>
+    					<w2:textbox tagname="span" dataType="" style="" id="" label="(필수)" class="txt_red"></w2:textbox>
+    				</xf:group></xf:group></xf:group></xf:group>
     		</xf:group></xf:group><xf:group id="" class="bottomfix whiteBg" style="">
     					<xf:group style="" id="" class="btnbox">
     						<xf:trigger disabled="" style="" id="" type="button" class="btn_df">

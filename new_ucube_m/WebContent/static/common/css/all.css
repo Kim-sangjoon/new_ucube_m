@@ -624,7 +624,8 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow:hidd
 
 /* 고객정보 사전조회 안내 */
 .white_bgbox{position:relative; background:#FFFFFF; height:calc(100% - 8px); width:100%}
-.white_bgbox .titlebox{height:40px; padding-top:8px;}
+.titlebox{height:32px; padding:8px 0;}
+.titlebox h3{color:#7B558D; line-height:32px; font-size:15px; font-weight:900}
 .white_bgbox .titlebox h3, .titlebox h3{color:#7B558D; line-height:32px; font-size:15px; font-weight:900}
 .white_bgbox .white_bgboxwrap{height:calc(100vh - 145px)}
 .white_bgbox .white_bgboxwrap.main{height:calc(100vh - 135px); margin-top:8px}
@@ -634,8 +635,8 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow:hidd
 .messagebox .messageboxwrap{height:calc(100vh - 145px)}
 .messagebox .messageboxwrap.main{height:calc(100vh - 135px); margin-top:8px}
 .messagebox .messageboxwrap.main.titleinfo{ height:calc(100vh - 171px);}
-.messagebox .titlebox{height:48px}
-.messagebox .titlebox h3, .titlebox h3{color:#7B558D; line-height:48px; font-size:15px; font-weight:900}
+/* .messagebox .titlebox{height:48px} */
+/* .messagebox .titlebox h3{color:#7B558D; line-height:48px; font-size:15px; font-weight:900} */
 .messagebox .textbox{background:#F5F7FA; border:2px solid #DAE3ED; box-sizing:border-box; padding:14px}
 .messagebox .textbox ol.numberbox{padding-left:8px}
 .messagebox .textbox ol.numberbox li{position:relative; padding-left:16px}
@@ -677,7 +678,7 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow:hidd
 .alram_listbox ul.listbox li{display:inline-block; width:100%; height:44px; line-height:48px}
 .alram_listbox ul.listbox li + li{border-top:1px solid #E8EFF5}
 .alram_listbox ul.listbox li .title{font-weight:400; font-size:13px; color:#56606B}
-.alram_listbox ul.listbox li .status{font-weight:300; font-size:11px; color:#A5B3C2; letter-spacing:1 !important}
+.alram_listbox ul.listbox li .status{font-weight:lighter; font-size:11px; color:#A5B3C2; letter-spacing:0.02em !important}
 .alram_listbox ul.listbox li .status.consent{position:relative; color:#2FB8A8}
 .alram_listbox ul.listbox li .status.consent::before{content:''; display:block; position:absolute; width:4px; height:4px; top:15px; left:-4px; background:#2FB8A8; border-radius:50%}
 .alram_listbox ul.listbox li .status.unconsent{position:relative; color:#F94B50}
