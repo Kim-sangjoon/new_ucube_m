@@ -1131,7 +1131,8 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow:hidd
 .tbbox > .tb .w2tb_td {padding:2px 3px; background:#fff; color:#202020}
 .tbbox > .tb thead .w2tb_th *, .tbbox > .tb .w2tb_th * {font-size:14px; color:#56606B}
 .tbbox > .tb tbody .w2tb_td *, .tbbox > .tb .w2tb_td * {font-size:13px}
-.tbbox > .tb .w2tb_td.tar{text-align: right;}
+.tbbox > .tb .w2tb_td.tar,
+.tbbox > .tb .w2tb_th.tar{text-align: right;}
 .tbbox span[disabled=disabled] {color:#999}
 .tbbox > .tb > tbody > tr:last-child > .w2tb_th,
 .tbbox > .tb > tr:last-child > .w2tb_th,
