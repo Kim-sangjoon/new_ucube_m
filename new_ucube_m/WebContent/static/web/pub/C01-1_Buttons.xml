@@ -154,7 +154,17 @@
     					</xf:group>
     					<xf:group tagname="section" id="">
     						<xf:group style="" id="" class="titlebox">
-    							<w2:textbox tagname="h3" style="" id="" label="타이틀바 버튼"></w2:textbox>
+    							<xf:group id="" class="lta">
+    								<w2:textbox tagname="h3" style="" id="" label="타이틀바 버튼"></w2:textbox>
+    							</xf:group>
+    							<xf:group class="rta" id="" style="">
+    								<xf:trigger class="btn_cf gridview" id="" style="" type="button">
+    									<xf:label><![CDATA[그리드뷰]]></xf:label>
+    								</xf:trigger>
+    								<xf:trigger class="btn_cf cardview" id="" style="" type="button">
+    									<xf:label><![CDATA[카드뷰]]></xf:label>
+    								</xf:trigger>
+    							</xf:group>
     						</xf:group>
     						<xf:group id="" class="alram_listbox">
     							<xf:group style="" id="" class="dfbox">

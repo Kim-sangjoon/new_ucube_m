@@ -672,6 +672,11 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow:hidd
 .alram_listbox .dfbox .num{font-weight:400; font-size:13px; line-height:20px;color:#F92465}
 .btn_cf{background:var(--bgcolor-btn-cf); border:1px solid var(--bordercolor-btn-cf); box-sizing:border-box; border-radius:2px; color:var(--textcolor-btn-cf); font-size:14px; font-weight:500; padding:5.5px 8px; line-height:19px}
 .btn_cf + .btn_cf{margin-left:4px}
+.btn_cf.gridview,
+.btn_cf.cardview{position:relative; padding-left: 30px; background-position: 8px 50%; background-repeat: no-repeat; background-color: #FFFFFF;}
+.btn_cf.gridview{background-image: url(./../images/ico_gridview.svg)}
+.btn_cf.cardview{background-image: url(./../images/ico_cardview.svg)}
+
 .btn_cf.ico{width:32px; text-indent: -9999999px; background-repeat: no-repeat; background-position: 50% 50%; background-color: #FFFFFF;}
 .btn_cf.ico.trash{background-image:url(./../images/ico_trash21.svg)}
 .alram_listbox ul.listbox{background:#FFFFFF; padding:0 16px; border-radius:8px; margin-top:6px}
