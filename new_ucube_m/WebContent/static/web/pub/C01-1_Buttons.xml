@@ -179,6 +179,9 @@
     									<xf:trigger class="btn_cf ico trash" id="" style="" type="button">
     										<xf:label><![CDATA[]]></xf:label>
     									</xf:trigger>
+    									<xf:trigger class="btn_cf ico info" id="" style="" type="button">
+    										<xf:label></xf:label>
+    									</xf:trigger>
     								</xf:group>
     							</xf:group>
     						</xf:group>

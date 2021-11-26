@@ -679,6 +679,7 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow:hidd
 
 .btn_cf.ico{width:32px; text-indent: -9999999px; background-repeat: no-repeat; background-position: 50% 50%; background-color: #FFFFFF;}
 .btn_cf.ico.trash{background-image:url(./../images/ico_trash21.svg)}
+.btn_cf.ico.info{background-image:url(./../images/ico_info.svg)}
 .alram_listbox ul.listbox{background:#FFFFFF; padding:0 16px; border-radius:8px; margin-top:6px}
 .alram_listbox ul.listbox li{display:inline-block; width:100%; height:44px; line-height:48px}
 .alram_listbox ul.listbox li + li{border-top:1px solid #E8EFF5}
