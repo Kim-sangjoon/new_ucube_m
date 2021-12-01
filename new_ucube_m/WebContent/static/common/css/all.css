@@ -1015,7 +1015,7 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow:hidd
 .resize,
 .resize section.col1,
 .resize section.col1 > .gvwbox{display:flex; flex-direction: column; flex:1}
-.resize section.col1 > :not(.gvwbox){flex:none}
+.resize section.col1 > *:not(.gvwbox){flex:none}
 
 /* gridView scroll */
 .w2grid_iScrollY,
