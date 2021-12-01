@@ -837,6 +837,7 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow:hidd
 
 /* gridview */
 .gvwbox {position:relative; margin:0}
+.gvwbox .wq_gvw{flex:1}
 .wq_gvw:focus,
 .wq_gvw :focus {outline:none}
 .wq_gvw {background:#fff}
@@ -1009,6 +1010,20 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow:hidd
 .wq_gvw input[type="checkbox"]:checked + .w2grid_customFilter_list_listColumn_text:before {background-image:url(./../images/ico_cbx2.svg)}
 .wq_gvw input[type="checkbox"]:disabled + .w2grid_customFilter_list_listColumn_text:before {background-image:url(./../images/ico_cbx3.svg)}
 .wq_gvw input[type="checkbox"]:checked:disabled + .w2grid_customFilter_list_listColumn_text:before {background-image:url(./../images/ico_cbx4.svg)}
+
+/* gridView resize */
+.resize,
+.resize section.col1,
+.resize section.col1 > .gvwbox{display:flex; flex-direction: column; flex:1}
+.resize section.col1 > :not(.gvwbox){flex:none}
+
+/* gridView scroll */
+.w2grid_iScrollY,
+.w2grid_iScrollX{position: absolute; z-index: 20; background-color: gray; opacity: 0; border-radius: 3px; transition: opacity .5s;}
+.w2grid_iScrollY {right: 1px; height: 30px; width: 3px}
+.w2grid_iScrollX {bottom: 1px; height: 3px; width: 30px}
+.w2grid_iScrollY_move,
+.w2grid_iScrollX_move{opacity: .5; transition:none}
 
 /* padding */
 .p0{padding:0 !important}
