@@ -51,6 +51,171 @@
             			</w2:row>
             		</w2:data>
             	</w2:dataList>
+            	<w2:dataList baseNode="list" repeatNode="map" id="dataList2" saveRemovedData="true">
+            		<w2:columnInfo>
+            			<w2:column id="col1" name="할부상태" dataType="text"></w2:column>
+            			<w2:column id="col2" name="단말기모델" dataType="text"></w2:column>
+            			<w2:column id="col3" name="할부&lt;br/&gt;개월수" dataType="text"></w2:column>
+            			<w2:column id="col4" name="할부원금" dataType="text"></w2:column>
+            			<w2:column id="col5" name="할부총액" dataType="text"></w2:column>
+            			<w2:column id="col6" name="월청구금액" dataType="text"></w2:column>
+            			<w2:column id="col7" name="잔여&lt;br/&gt;할부개월" dataType="text"></w2:column>
+            			<w2:column id="col8" name="잔여&lt;br/&gt;할부총액" dataType="text"></w2:column>
+            			<w2:column id="col9" name="" dataType="text"></w2:column>
+            		</w2:columnInfo>
+            		<w2:data use="true">
+            			<w2:row>
+            				<col1><![CDATA[할부중]]></col1>
+            				<col2><![CDATA[A2097-64]]></col2>
+            				<col3><![CDATA[36]]></col3>
+            				<col4><![CDATA[819,400]]></col4>
+            				<col5><![CDATA[907,484]]></col5>
+            				<col6><![CDATA[17,690]]></col6>
+            				<col7><![CDATA[14]]></col7>
+            				<col8><![CDATA[472,918]]></col8>
+            			</w2:row>
+            			<w2:row>
+            				<col1><![CDATA[할부중]]></col1>
+            				<col2><![CDATA[A2097-64]]></col2>
+            				<col3><![CDATA[36]]></col3>
+            				<col4><![CDATA[819,400]]></col4>
+            				<col5><![CDATA[907,484]]></col5>
+            				<col6><![CDATA[17,690]]></col6>
+            				<col7><![CDATA[14]]></col7>
+            				<col8><![CDATA[472,918]]></col8>
+            			</w2:row>
+            			<w2:row>
+            				<col1><![CDATA[할부중]]></col1>
+            				<col2><![CDATA[A2097-64]]></col2>
+            				<col3><![CDATA[36]]></col3>
+            				<col4><![CDATA[819,400]]></col4>
+            				<col5><![CDATA[907,484]]></col5>
+            				<col6><![CDATA[17,690]]></col6>
+            				<col7><![CDATA[14]]></col7>
+            				<col8><![CDATA[472,918]]></col8>
+            			</w2:row>
+            			<w2:row>
+            				<col1><![CDATA[할부중]]></col1>
+            				<col2><![CDATA[A2097-64]]></col2>
+            				<col3><![CDATA[36]]></col3>
+            				<col4><![CDATA[819,400]]></col4>
+            				<col5><![CDATA[907,484]]></col5>
+            				<col6><![CDATA[17,690]]></col6>
+            				<col7><![CDATA[14]]></col7>
+            				<col8><![CDATA[472,918]]></col8>
+            			</w2:row>
+            			<w2:row>
+            				<col1><![CDATA[할부중]]></col1>
+            				<col2><![CDATA[A2097-64]]></col2>
+            				<col3><![CDATA[36]]></col3>
+            				<col4><![CDATA[819,400]]></col4>
+            				<col5><![CDATA[907,484]]></col5>
+            				<col6><![CDATA[17,690]]></col6>
+            				<col7><![CDATA[14]]></col7>
+            				<col8><![CDATA[472,918]]></col8>
+            			</w2:row>
+            			<w2:row>
+            				<col1><![CDATA[할부중]]></col1>
+            				<col2><![CDATA[A2097-64]]></col2>
+            				<col3><![CDATA[36]]></col3>
+            				<col4><![CDATA[819,400]]></col4>
+            				<col5><![CDATA[907,484]]></col5>
+            				<col6><![CDATA[17,690]]></col6>
+            				<col7><![CDATA[14]]></col7>
+            				<col8><![CDATA[472,918]]></col8>
+            			</w2:row>
+            			<w2:row>
+            				<col1><![CDATA[할부완료]]></col1>
+            				<col2><![CDATA[A2097-64]]></col2>
+            				<col3><![CDATA[36]]></col3>
+            				<col4><![CDATA[819,400]]></col4>
+            				<col5><![CDATA[907,484]]></col5>
+            				<col6><![CDATA[17,690]]></col6>
+            				<col7><![CDATA[0]]></col7>
+            				<col8><![CDATA[0]]></col8>
+            			</w2:row>
+            			<w2:row>
+            				<col1><![CDATA[할부완료]]></col1>
+            				<col2><![CDATA[A2097-64]]></col2>
+            				<col3><![CDATA[36]]></col3>
+            				<col4><![CDATA[819,400]]></col4>
+            				<col5><![CDATA[907,484]]></col5>
+            				<col6><![CDATA[17,690]]></col6>
+            				<col7><![CDATA[0]]></col7>
+            				<col8><![CDATA[0]]></col8>
+            			</w2:row>
+            			<w2:row>
+            				<col1><![CDATA[할부완료]]></col1>
+            				<col2><![CDATA[A2097-64]]></col2>
+            				<col3><![CDATA[36]]></col3>
+            				<col4><![CDATA[819,400]]></col4>
+            				<col5><![CDATA[907,484]]></col5>
+            				<col6><![CDATA[17,690]]></col6>
+            				<col7><![CDATA[0]]></col7>
+            				<col8><![CDATA[0]]></col8>
+            			</w2:row>
+            			<w2:row>
+            				<col1><![CDATA[할부완료]]></col1>
+            				<col2><![CDATA[A2097-64]]></col2>
+            				<col3><![CDATA[36]]></col3>
+            				<col4><![CDATA[819,400]]></col4>
+            				<col5><![CDATA[907,484]]></col5>
+            				<col6><![CDATA[17,690]]></col6>
+            				<col7><![CDATA[0]]></col7>
+            				<col8><![CDATA[0]]></col8>
+            			</w2:row>
+            			<w2:row>
+            				<col1><![CDATA[할부완료]]></col1>
+            				<col2><![CDATA[A2097-64]]></col2>
+            				<col3><![CDATA[36]]></col3>
+            				<col4><![CDATA[819,400]]></col4>
+            				<col5><![CDATA[907,484]]></col5>
+            				<col6><![CDATA[17,690]]></col6>
+            				<col7><![CDATA[0]]></col7>
+            				<col8><![CDATA[0]]></col8>
+            			</w2:row>
+            			<w2:row>
+            				<col1><![CDATA[할부완료]]></col1>
+            				<col2><![CDATA[A2097-64]]></col2>
+            				<col3><![CDATA[36]]></col3>
+            				<col4><![CDATA[819,400]]></col4>
+            				<col5><![CDATA[907,484]]></col5>
+            				<col6><![CDATA[17,690]]></col6>
+            				<col7><![CDATA[0]]></col7>
+            				<col8><![CDATA[0]]></col8>
+            			</w2:row>
+            			<w2:row>
+            				<col1><![CDATA[할부완료]]></col1>
+            				<col2><![CDATA[A2097-64]]></col2>
+            				<col3><![CDATA[36]]></col3>
+            				<col4><![CDATA[819,400]]></col4>
+            				<col5><![CDATA[907,484]]></col5>
+            				<col6><![CDATA[17,690]]></col6>
+            				<col7><![CDATA[0]]></col7>
+            				<col8><![CDATA[0]]></col8>
+            			</w2:row>
+            			<w2:row>
+            				<col1><![CDATA[할부완료]]></col1>
+            				<col2><![CDATA[A2097-64]]></col2>
+            				<col3><![CDATA[36]]></col3>
+            				<col4><![CDATA[819,400]]></col4>
+            				<col5><![CDATA[907,484]]></col5>
+            				<col6><![CDATA[17,690]]></col6>
+            				<col7><![CDATA[0]]></col7>
+            				<col8><![CDATA[0]]></col8>
+            			</w2:row>
+            			<w2:row>
+            				<col1><![CDATA[할부완료]]></col1>
+            				<col2><![CDATA[A2097-64]]></col2>
+            				<col3><![CDATA[36]]></col3>
+            				<col4><![CDATA[819,400]]></col4>
+            				<col5><![CDATA[907,484]]></col5>
+            				<col6><![CDATA[17,690]]></col6>
+            				<col7><![CDATA[0]]></col7>
+            				<col8><![CDATA[0]]></col8>
+            			</w2:row>
+            		</w2:data>
+            	</w2:dataList>
             </w2:dataCollection>
             <w2:workflowCollection>
             </w2:workflowCollection>
@@ -65,7 +230,19 @@
 		
 	};
 	
-	]]></script>
+	scwin.grdCellClass = function(data, rowIndex, colIndex) {
+		const rowLength = grdRightFixed.drawedRowLength;
+		if (data == "할부중") {
+			for (var i = 0; i < rowLength; i++) {
+				grdRightFixed.setCellClass( rowIndex, 0, "txt_grd_red" );
+			}
+		} else if (data == "할부완료") {
+			for (var i = 0; i < rowLength; i++) {
+				grdRightFixed.setCellClass( rowIndex, 0, "txt_grd_green" );
+			}
+		}
+		return data;
+	};]]></script>
     </head>
     <body ev:onpageload="scwin.onpageload" ev:onpageunload="scwin.onpageunload">
     	<xf:group class="wrapper" id="" style="">
@@ -293,7 +470,7 @@
     							</xf:group>
     							<xf:group class="gvwbox" id="" style="">
     								<w2:gridView adaptive="" adaptiveThreshold="" autoFit="none" class="wq_gvw bd1"
-    									dataList="data:dataList1" defaultCellHeight="" editModeEvent="" fixedColumn="" fixedColumnNoMove="" focusMode="row"
+    									dataList="data:dataList2" defaultCellHeight="" editModeEvent="" fixedColumn="" fixedColumnNoMove="" focusMode="row"
     									id="grdRightFixed" keepDefaultColumnWidth="" scrollByColumn="false" scrollByColumnAdaptive="false" sortable="true"
     									style="height:265px;" tooltipDisplay="true" visibleRowNum="all">
     									<w2:caption id="caption1" style="" value="this is a grid caption."></w2:caption>
@@ -331,7 +508,7 @@
     									<w2:gBody id="gBody1" style="">
     										<w2:row id="row2" style="">
     											<w2:column blockSelect="false" displayMode="label" id="col1" inputType="text"
-    												removeBorderStyle="false" width="150">
+    												removeBorderStyle="false" width="150" customModelUnformatter="scwin.grdCellClass">
     											</w2:column>
     											<w2:column blockSelect="false" displayMode="label" id="col2" inputType="text"
     												removeBorderStyle="false" width="150">
@@ -342,19 +519,19 @@
     											<w2:column blockSelect="false" displayMode="label" id="col4" inputType="text"
     												removeBorderStyle="false" textAlign="right" width="150">
     											</w2:column>
-    											<w2:column removeBorderStyle="false" width="70" inputType="text" id="column22"
+    											<w2:column removeBorderStyle="false" width="70" inputType="text" id="col5"
     												blockSelect="false" displayMode="label">
     											</w2:column>
-    											<w2:column removeBorderStyle="false" width="70" inputType="text" id="column19"
+    											<w2:column removeBorderStyle="false" width="70" inputType="text" id="col6"
     												blockSelect="false" displayMode="label">
     											</w2:column>
-    											<w2:column removeBorderStyle="false" width="70" inputType="text" id="column16"
+    											<w2:column removeBorderStyle="false" width="70" inputType="text" id="col7"
     												blockSelect="false" displayMode="label">
     											</w2:column>
-    											<w2:column removeBorderStyle="false" width="70" inputType="text" id="column13"
+    											<w2:column removeBorderStyle="false" width="70" inputType="text" id="col8"
     												blockSelect="false" displayMode="label">
     											</w2:column>
-    											<w2:column blockSelect="false" displayMode="label" id="col5" imageHeight="24"
+    											<w2:column blockSelect="false" displayMode="label" id="col9" imageHeight="24"
     												imageSrc="../../common/images/ico_arrow_right24.svg" imageWidth="24" inputType="image" removeBorderStyle="false"
     												viewType="icon" width="37">
     											</w2:column>
