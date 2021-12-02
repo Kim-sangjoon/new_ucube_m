@@ -76,12 +76,19 @@
     								</xf:group>
     								<xf:group tagname="li" style="" id="" class="rightmenu_02_02">
     									<w2:textbox tagname="label" style="" id="" label="부가서비스&lt;br/&gt;변경"></w2:textbox>
-    								</xf:group><xf:group class="rightmenu_02_03" id="" style="" tagname="li">
-    									<w2:textbox id="" label="청구정보&lt;br/&gt;조회" style="" tagname="label"></w2:textbox>
-    								</xf:group><xf:group class="rightmenu_03_01" id="" style="" tagname="li">
-    									<w2:textbox id="" label="청수미&lt;br/&gt;관리" style="" tagname="label"></w2:textbox>
-    								</xf:group><xf:group class="rightmenu_03_02" id="" style="" tagname="li">
-    									<w2:textbox id="" label="단말기&lt;br/&gt;할부정보" style="" tagname="label"></w2:textbox>
+    								</xf:group>
+    							</xf:group>
+    							<xf:group id="" class="depth3" tagname="ul">
+    								<xf:group tagname="li" style="" id="" class="rightmenu_02_03">
+    									<w2:textbox tagname="label" style="" id="" label="청구정보&lt;br/&gt;조회"></w2:textbox>
+    								</xf:group>
+    								<xf:group tagname="li" style="" id="" class="rightmenu_03_01">
+    									<w2:textbox tagname="label" style="" id="" label="청수미&lt;br/&gt;관리"></w2:textbox>
+    								</xf:group>
+    								<xf:group tagname="li" style="" id="" class="rightmenu_03_02">
+    									<w2:textbox tagname="label" style="" id="" label="단말기&lt;br/&gt;할부정보"></w2:textbox>
+    								</xf:group>
+    								<xf:group class="" id="" style="" tagname="li">
     								</xf:group>
     							</xf:group>
     						</xf:group>
@@ -100,6 +107,8 @@
     								<xf:group tagname="li" style="" id="" class="rightmenu_04_02">
     									<w2:textbox tagname="label" style="" id="" label="개통가능&lt;br/&gt;지역확인"></w2:textbox>
     								</xf:group>
+    								<xf:group class="" id="" style="" tagname="li"></xf:group>
+    								<xf:group class="" id="" style="" tagname="li"></xf:group>
     							</xf:group>
     						</xf:group>
     					</xf:group>

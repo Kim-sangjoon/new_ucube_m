@@ -720,75 +720,75 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow:hidd
 .rightmenu.active .dim{display:block; position:absolute; top:0; left:-100%; width:100%; height:100vh; background:rgba(0, 0, 0, 0.4); z-index:10}
 .rightmenu .menuwrap{display:inline-block; position:absolute; height:100vh; width:calc(100vw - 40px); top:0; right:-100%; background:#FFFFFF; overflow-y:auto; z-index:11; transition:all 0.2s}
 .rightmenu.active .menuwrap{display:inline-block; position:absolute; height:100vh; width:calc(100vw - 40px); top:0; right:100%; background:#FFFFFF; overflow-y:auto; z-index:11; transition:all 0.2s}
-.rightmenu .menuwrap .headergroup{padding:20px 24px 15px}
-.rightmenu .menuwrap .headergroup .titlewrap{display:inline-block}
-.rightmenu .menuwrap .headergroup .titlewrap .name{display:inline-block; vertical-align:middle; color:#2C3238; font-weight:800; font-size:18px; margin-right:4px}
-.rightmenu .menuwrap .headergroup .titlewrap .id{font-weight:200; font-size:14px; color:#2C3238}
-.rightmenu .menuwrap .headergroup .titlewrap .team{display:block; font-weight:200; font-size:10px; color:#8996A3}
-.rightmenu .menuwrap .headergroup .contwrap{display:inline-block; margin-top:12px; width:100%}
-.rightmenu .menuwrap .headergroup .contwrap .lta div{display:inline-block}
-.rightmenu .menuwrap .headergroup .contwrap .lta div + div{margin-left:20px}
-.rightmenu .menuwrap .headergroup .contwrap .lta label{position:relative; color:#2C3238; font-weight:300; font-size:14px; margin-right:4px; padding-left:34px}
-.rightmenu .menuwrap .headergroup .contwrap .lta label::before{content:''; display:block; position:absolute; height:24px; width:24px; top:-2px; left:0}
-.rightmenu .menuwrap .headergroup .contwrap .lta span{color:#F92465; font-weight:500; font-size:14px}
-.rightmenu .menuwrap .headergroup .contwrap .todo label::before{background:url(./../images/ico_01_todo.svg) no-repeat}
-.rightmenu .menuwrap .headergroup .contwrap .alram label::before{background:url(./../images/ico_05_alarm.svg) no-repeat}
-.rightmenu .menuwrap .headergroup .contwrap .btn_setting{background:transparent; border:none; width:24px; height:24px; background-image:url(./../images/ico_settings24.svg); color:transparent; font-size:1px}
-.rightmenu .menuwrap .bodygroup ul.depth1 li .titlewrap {background:#F5F7FA; border-top:1px solid #DAE3ED; padding:13px 24px}
-.rightmenu .menuwrap .bodygroup ul.depth1 li .titlewrap h3 span{color:#2C3238; font-weight:500; font-size:14px}
-.rightmenu .menuwrap .bodygroup ul.depth1 li .titlewrap h3 span.name{color:#7B558D; margin-right:5px}
-.rightmenu .menuwrap .bodygroup ul.depth2{border-top:1px solid #E8EFF5; padding:0 24px 18px}
-.rightmenu .menuwrap .bodygroup ul.depth2 li{width:100%}
-.rightmenu .menuwrap .bodygroup ul.depth2 li h4{margin-top:18px; margin-bottom:20px; color:#A27FB1; font-weight:400; font-size:12px}
-.rightmenu .menuwrap .bodygroup .depth3wrap{padding:20px 24px}
-.rightmenu .menuwrap .bodygroup ul.depth3{display:inline-block; width:100%}
-.rightmenu .menuwrap .bodygroup ul.depth3 li{display:inline-block; width:100%}
-.rightmenu .menuwrap .bodygroup ul.depth3 li + li{margin-top:20px}
-.rightmenu .menuwrap .bodygroup ul.depth3 li label{position:relative; color:#2C3238; font-weight:300; font-size:14px; padding-left:34px; height:24px; line-height:24px}
-.rightmenu .menuwrap .bodygroup ul.depth3 li label::before{content:''; display:block; position:absolute; height:24px; width:24px; top:-2px; left:0}
-.rightmenu .menuwrap .bodygroup ul.depth3 li.rightmenu_01_01 label::before{background:url(./../images/ico_rightmenu_01_01.svg) no-repeat}
-.rightmenu .menuwrap .bodygroup ul.depth3 li.rightmenu_01_02 label::before{background:url(./../images/ico_rightmenu_01_02.svg) no-repeat}
-.rightmenu .menuwrap .bodygroup ul.depth3 li.rightmenu_02_01 label::before{background:url(./../images/ico_rightmenu_02_01.svg) no-repeat}
-.rightmenu .menuwrap .bodygroup ul.depth3 li.rightmenu_02_02 label::before{background:url(./../images/ico_rightmenu_02_02.svg) no-repeat}
-.rightmenu .menuwrap .bodygroup ul.depth3 li.rightmenu_02_03 label::before{background:url(./../images/ico_rightmenu_02_03.svg) no-repeat}
-.rightmenu .menuwrap .bodygroup ul.depth3 li.rightmenu_03_01 label::before{background:url(./../images/ico_rightmenu_03_01.svg) no-repeat}
-.rightmenu .menuwrap .bodygroup ul.depth3 li.rightmenu_03_02 label::before{background:url(./../images/ico_rightmenu_03_02.svg) no-repeat}
-.rightmenu .menuwrap .bodygroup ul.depth3 li.rightmenu_04_01 label::before{background:url(./../images/ico_rightmenu_04_01.svg) no-repeat}
-.rightmenu .menuwrap .bodygroup ul.depth3 li.rightmenu_04_02 label::before{background:url(./../images/ico_rightmenu_04_02.svg) no-repeat}
-.rightmenu .menuwrap .bodygroup ul.depth3 li.rightmenu_05_01 label::before{background:url(./../images/ico_rightmenu_05_01.svg) no-repeat}
-.rightmenu .menuwrap .bodygroup ul.depth3 li.rightmenu_05_02 label::before{background:url(./../images/ico_rightmenu_05_02.svg) no-repeat}
-.rightmenu .menuwrap .bodygroup ul.depth3 li.rightmenu_05_03 label::before{background:url(./../images/ico_rightmenu_05_03.svg) no-repeat}
-.rightmenu .menuwrap .bodygroup ul.depth3 li.rightmenu_05_04 label::before{background:url(./../images/ico_rightmenu_05_04.svg) no-repeat}
+.rightmenu .headergroup{padding:20px 24px 15px}
+.rightmenu .headergroup .titlewrap{display:inline-block}
+.rightmenu .headergroup .titlewrap .name{display:inline-block; vertical-align:middle; color:#2C3238; font-weight:800; font-size:18px; margin-right:4px}
+.rightmenu .headergroup .titlewrap .id{font-weight:200; font-size:14px; color:#2C3238}
+.rightmenu .headergroup .titlewrap .team{display:block; font-weight:200; font-size:10px; color:#8996A3}
+.rightmenu .headergroup .contwrap{display:inline-block; margin-top:12px; width:100%}
+.rightmenu .headergroup .contwrap .lta div{display:inline-block}
+.rightmenu .headergroup .contwrap .lta div + div{margin-left:20px}
+.rightmenu .headergroup .contwrap .lta label{position:relative; color:#2C3238; font-weight:300; font-size:14px; margin-right:4px; padding-left:34px}
+.rightmenu .headergroup .contwrap .lta label::before{content:''; display:block; position:absolute; height:24px; width:24px; top:-2px; left:0}
+.rightmenu .headergroup .contwrap .lta span{color:#F92465; font-weight:500; font-size:14px}
+.rightmenu .headergroup .contwrap .todo label::before{background:url(./../images/ico_01_todo.svg) no-repeat}
+.rightmenu .headergroup .contwrap .alram label::before{background:url(./../images/ico_05_alarm.svg) no-repeat}
+.rightmenu .headergroup .contwrap .btn_setting{background:transparent; border:none; width:24px; height:24px; background-image:url(./../images/ico_settings24.svg); color:transparent; font-size:1px}
+.rightmenu ul.depth1 li .titlewrap {background:#F5F7FA; border-top:1px solid #DAE3ED; padding:13px 24px}
+.rightmenu ul.depth1 li .titlewrap h3 span{color:#2C3238; font-weight:500; font-size:14px}
+.rightmenu ul.depth1 li .titlewrap h3 span.name{color:#7B558D; margin-right:5px}
+.rightmenu ul.depth2{border-top:1px solid #E8EFF5; padding:0 24px 18px}
+.rightmenu ul.depth2 li{width:100%}
+.rightmenu ul.depth2 li h4{margin-top:18px; margin-bottom:20px; color:#A27FB1; font-weight:400; font-size:12px}
+.rightmenu .depth3wrap{padding:20px 24px}
+.rightmenu ul.depth3{display:inline-block; width:100%}
+.rightmenu ul.depth3 li{display:inline-block; width:100%}
+.rightmenu ul.depth3 li + li{margin-top:20px}
+.rightmenu ul.depth3 li label{position:relative; color:#2C3238; font-weight:300; font-size:14px; padding-left:34px; height:24px; line-height:24px}
+.rightmenu ul.depth3 li label::before{content:''; display:block; position:absolute; height:24px; width:24px; top:-2px; left:0}
+.rightmenu ul.depth3 li.rightmenu_01_01 label::before{background:url(./../images/ico_rightmenu_01_01.svg) no-repeat}
+.rightmenu ul.depth3 li.rightmenu_01_02 label::before{background:url(./../images/ico_rightmenu_01_02.svg) no-repeat}
+.rightmenu ul.depth3 li.rightmenu_02_01 label::before{background:url(./../images/ico_rightmenu_02_01.svg) no-repeat}
+.rightmenu ul.depth3 li.rightmenu_02_02 label::before{background:url(./../images/ico_rightmenu_02_02.svg) no-repeat}
+.rightmenu ul.depth3 li.rightmenu_02_03 label::before{background:url(./../images/ico_rightmenu_02_03.svg) no-repeat}
+.rightmenu ul.depth3 li.rightmenu_03_01 label::before{background:url(./../images/ico_rightmenu_03_01.svg) no-repeat}
+.rightmenu ul.depth3 li.rightmenu_03_02 label::before{background:url(./../images/ico_rightmenu_03_02.svg) no-repeat}
+.rightmenu ul.depth3 li.rightmenu_04_01 label::before{background:url(./../images/ico_rightmenu_04_01.svg) no-repeat}
+.rightmenu ul.depth3 li.rightmenu_04_02 label::before{background:url(./../images/ico_rightmenu_04_02.svg) no-repeat}
+.rightmenu ul.depth3 li.rightmenu_05_01 label::before{background:url(./../images/ico_rightmenu_05_01.svg) no-repeat}
+.rightmenu ul.depth3 li.rightmenu_05_02 label::before{background:url(./../images/ico_rightmenu_05_02.svg) no-repeat}
+.rightmenu ul.depth3 li.rightmenu_05_03 label::before{background:url(./../images/ico_rightmenu_05_03.svg) no-repeat}
+.rightmenu ul.depth3 li.rightmenu_05_04 label::before{background:url(./../images/ico_rightmenu_05_04.svg) no-repeat}
+.rightmenu ul.depth3 li.disable{filter:opacity(30%)}
+.rightmenu ul.depth3 li[disabled=true]{filter:opacity(30%)}
 .btn_right{background:transparent; border:none; width:24px; height:24px; background-image:var(--ico-arrow-right24); color:transparent; font-size:1px}
-.rightmenu .menuwrap .bodygroup ul.depth3 li.disable{filter:opacity(30%)}
-.rightmenu .menuwrap .bodygroup ul.depth3 li[disabled=true]{filter:opacity(30%)}
 
 /* .rightmenu.allmenu.type1{} */
-.rightmenu.allmenu.type1 .menuwrap .bodygroup ul.depth1 li .titlewrap {padding:7px 24px 10px}
-.rightmenu.allmenu.type1 .menuwrap .bodygroup .depth3wrap{padding: 24px 16px;}
-.rightmenu.allmenu.type1 .menuwrap .bodygroup ul.depth3{display:flex; flex-wrap:wrap; row-gap:24px}
-.rightmenu.allmenu.type1 .menuwrap .bodygroup ul.depth3 + ul.depth3{margin-top:24px;}
-.rightmenu.allmenu.type1 .menuwrap .bodygroup ul.depth3 li{position:relative; text-align: center; width: 82px; height:72px}
-.rightmenu.allmenu.type1 .menuwrap .bodygroup ul.depth3 li.w40{height:64px}
-.rightmenu.allmenu.type1 .menuwrap .bodygroup ul.depth3 li + li{margin-top:0}
-.rightmenu.allmenu.type1 .menuwrap .bodygroup ul.depth3 li label{position:absolute; font-size:12px; padding:0; width: 82px; line-height:130%; left:0; top:40px}
-.rightmenu.allmenu.type1 .menuwrap .bodygroup ul.depth3 li label::before{content:''; display:block; position:absolute; height:32px; width:32px; top:-40px; left:calc(50% - 16px)}
-.rightmenu.allmenu.type1 .menuwrap .bodygroup ul.depth3 li.w40 label{top:48px}
-.rightmenu.allmenu.type1 .menuwrap .bodygroup ul.depth3 li.w40 label::before{height:40px; width:40px; top:-48px; left:calc(50% - 20px)}
+.rightmenu.allmenu.type1 ul.depth1 li .titlewrap {padding:7px 24px 10px}
+.rightmenu.allmenu.type1 .depth3wrap{padding: 24px 16px;}
+.rightmenu.allmenu.type1 ul.depth3{display:flex; flex-wrap:nowrap; justify-content:space-between; row-gap:24px}
+.rightmenu.allmenu.type1 ul.depth3 + ul.depth3{margin-top:24px;}
+.rightmenu.allmenu.type1 ul.depth3 li{position:relative; text-align: center; width: 82px; height:72px}
+.rightmenu.allmenu.type1 ul.depth3 li.w40{height:64px}
+.rightmenu.allmenu.type1 ul.depth3 li + li{margin-top:0}
+.rightmenu.allmenu.type1 ul.depth3 li label{position:absolute; font-size:12px; padding:0; width: 82px; line-height:130%; left:0; top:40px}
+.rightmenu.allmenu.type1 ul.depth3 li label::before{content:''; display:block; position:absolute; height:32px; width:32px; top:-40px; left:calc(50% - 16px)}
+.rightmenu.allmenu.type1 ul.depth3 li.w40 label{top:48px}
+.rightmenu.allmenu.type1 ul.depth3 li.w40 label::before{height:40px; width:40px; top:-48px; left:calc(50% - 20px)}
 
-.rightmenu.allmenu.type1 .menuwrap .bodygroup ul.depth3 li.rightmenu_01_01 label::before{background:url(./../images/ico_allmenu_01_01.svg) no-repeat}
-.rightmenu.allmenu.type1 .menuwrap .bodygroup ul.depth3 li.rightmenu_01_02 label::before{background:url(./../images/ico_allmenu_01_02.svg) no-repeat}
-.rightmenu.allmenu.type1 .menuwrap .bodygroup ul.depth3 li.rightmenu_02_01 label::before{background:url(./../images/ico_allmenu_01_03.svg) no-repeat}
-.rightmenu.allmenu.type1 .menuwrap .bodygroup ul.depth3 li.rightmenu_02_02 label::before{background:url(./../images/ico_allmenu_01_04.svg) no-repeat}
-.rightmenu.allmenu.type1 .menuwrap .bodygroup ul.depth3 li.rightmenu_02_03 label::before{background:url(./../images/ico_allmenu_01_05.svg) no-repeat}
-.rightmenu.allmenu.type1 .menuwrap .bodygroup ul.depth3 li.rightmenu_03_01 label::before{background:url(./../images/ico_allmenu_01_06.svg) no-repeat}
-.rightmenu.allmenu.type1 .menuwrap .bodygroup ul.depth3 li.rightmenu_03_02 label::before{background:url(./../images/ico_allmenu_01_07.svg) no-repeat}
-.rightmenu.allmenu.type1 .menuwrap .bodygroup ul.depth3 li.rightmenu_04_01 label::before{background:url(./../images/ico_allmenu_02_01.svg) no-repeat}
-.rightmenu.allmenu.type1 .menuwrap .bodygroup ul.depth3 li.rightmenu_04_02 label::before{background:url(./../images/ico_allmenu_02_02.svg) no-repeat}
-.rightmenu.allmenu.type1 .menuwrap .bodygroup ul.depth3 li.rightmenu_05_01 label::before{background:url(./../images/ico_allmenu_03_01.svg) no-repeat}
-.rightmenu.allmenu.type1 .menuwrap .bodygroup ul.depth3 li.rightmenu_05_02 label::before{background:url(./../images/ico_allmenu_03_02.svg) no-repeat}
-.rightmenu.allmenu.type1 .menuwrap .bodygroup ul.depth3 li.rightmenu_05_03 label::before{background:url(./../images/ico_allmenu_03_03.svg) no-repeat}
-.rightmenu.allmenu.type1 .menuwrap .bodygroup ul.depth3 li.rightmenu_05_04 label::before{background:url(./../images/ico_allmenu_03_04.svg) no-repeat}
+.rightmenu.allmenu.type1 ul.depth3 li.rightmenu_01_01 label::before{background:url(./../images/ico_allmenu_01_01.svg) no-repeat}
+.rightmenu.allmenu.type1 ul.depth3 li.rightmenu_01_02 label::before{background:url(./../images/ico_allmenu_01_02.svg) no-repeat}
+.rightmenu.allmenu.type1 ul.depth3 li.rightmenu_02_01 label::before{background:url(./../images/ico_allmenu_01_03.svg) no-repeat}
+.rightmenu.allmenu.type1 ul.depth3 li.rightmenu_02_02 label::before{background:url(./../images/ico_allmenu_01_04.svg) no-repeat}
+.rightmenu.allmenu.type1 ul.depth3 li.rightmenu_02_03 label::before{background:url(./../images/ico_allmenu_01_05.svg) no-repeat}
+.rightmenu.allmenu.type1 ul.depth3 li.rightmenu_03_01 label::before{background:url(./../images/ico_allmenu_01_06.svg) no-repeat}
+.rightmenu.allmenu.type1 ul.depth3 li.rightmenu_03_02 label::before{background:url(./../images/ico_allmenu_01_07.svg) no-repeat}
+.rightmenu.allmenu.type1 ul.depth3 li.rightmenu_04_01 label::before{background:url(./../images/ico_allmenu_02_01.svg) no-repeat}
+.rightmenu.allmenu.type1 ul.depth3 li.rightmenu_04_02 label::before{background:url(./../images/ico_allmenu_02_02.svg) no-repeat}
+.rightmenu.allmenu.type1 ul.depth3 li.rightmenu_05_01 label::before{background:url(./../images/ico_allmenu_03_01.svg) no-repeat}
+.rightmenu.allmenu.type1 ul.depth3 li.rightmenu_05_02 label::before{background:url(./../images/ico_allmenu_03_02.svg) no-repeat}
+.rightmenu.allmenu.type1 ul.depth3 li.rightmenu_05_03 label::before{background:url(./../images/ico_allmenu_03_03.svg) no-repeat}
+.rightmenu.allmenu.type1 ul.depth3 li.rightmenu_05_04 label::before{background:url(./../images/ico_allmenu_03_04.svg) no-repeat}
 
 .allmenuwrap{display: flex; margin-bottom: 2px;}
 .allmenuwrap div{height: 24px; width: 24px;}
