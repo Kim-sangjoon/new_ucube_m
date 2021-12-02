@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml"
     xmlns:ev="http://www.w3.org/2001/xml-events"
     xmlns:w2="http://www.inswave.com/websquare" xmlns:xf="http://www.w3.org/2002/xforms">
-    <head meta_programName="바닥화면 - 전체메뉴">
+    <head meta_programName="바닥화면 - 전체메뉴 - type2">
     	<w2:type>DEFAULT</w2:type>
         <w2:buildDate/>
         <xf:model>
@@ -74,7 +74,7 @@
     											</xf:trigger>
     										</xf:group>
     									</xf:group>
-    									<xf:group tagname="li" style="" id="" class="rightmenu_01_02 disable">
+    									<xf:group tagname="li" style="" id="" class="rightmenu_01_02">
     										<xf:group style="" id="" class="lta">
     											<w2:textbox tagname="label" style="" id="" label="홈 개통진행현황"></w2:textbox>
     										</xf:group>
@@ -93,7 +93,7 @@
     								<xf:group tagname="ul" style="" id="" class="depth3">
     									<xf:group tagname="li" style="" id="" class="rightmenu_02_01">
     										<w2:attributes>
-    											<w2:disabled>true</w2:disabled>
+    											<w2:disabled>false</w2:disabled>
     										</w2:attributes>
     										<xf:group style="" id="" class="lta">
     											<w2:textbox tagname="label" style="" id="" label="청수미관리"></w2:textbox>
