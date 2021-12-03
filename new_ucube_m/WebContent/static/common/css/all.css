@@ -206,7 +206,7 @@ input[type="radio"]:checked + .w2radio_label:before, input[type="radio"]:checked
 .inputgroup input::-webkit-datetime-edit-week-field,
 .inputgroup input::-webkit-datetime-edit-year-field{color:#202020}
 .inputgroup input::-webkit-calendar-picker-indicator{display:inline-block; position:absolute; left:-16px; width:22px; height:22px; padding:0; -webkit-user-modify:read-only !important; background:url(./../images/ico_cal22.svg)}
-.inputgroup input[type=date]::before{content:attr(placeholder); color:#BEC9D4; font-weight:200; width:100%; }
+.inputgroup input[type=date]::before{content:attr(placeholder); color:#BEC9D4; font-weight:200; width:100%}
 .inputgroup input[type=date]:focus::before,
 .inputgroup input[type=date]:valid::before{display:none}
 .inputgroup .w2selectbox_native{width:100%; border:none}
@@ -275,7 +275,7 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow:hidd
 .header .user_info{display:inline-block; width:100%; text-align:center; margin-top:16px}
 .header .user_info .text{font-weight:300; font-size:13px; color:#8996A3; vertical-align:middle}
 .header .user_info .dot{position:relative; display:inline-block; text-indent:-9999999px; width:3px; height:3px; color:transparent; vertical-align:middle; margin-left:4px; margin-right:4px}
-.header .user_info .dot::before{content:""; display:block; position:absolute; width:3px; height:3px; top:0; left:0; background:#8996A3; border-radius:99px; }
+.header .user_info .dot::before{content:""; display:block; position:absolute; width:3px; height:3px; top:0; left:0; background:#8996A3; border-radius:99px}
 
 /* popup layout */
 .wrapper.popup{display:flex}
@@ -423,13 +423,13 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow:hidd
 .result_body .item.home{height:45px}
 .result_body .item .lta{white-space:nowrap}
 .result_body .item .lta > span{display:inline-block; height:21px; line-height:21px; color:#56606B; font-weight:400; text-align:left; font-size:13px; overflow:hidden; white-space:nowrap; text-overflow:ellipsis}
-.result_body .item .lta > span:nth-child(1){width:118px; color:#202020; font-size:14px; }
+.result_body .item .lta > span:nth-child(1){width:118px; color:#202020; font-size:14px}
 .result_body .item .lta > span:nth-child(2){width:68px}
 .result_body .item .lta > span:nth-child(3){width:calc(100vw - 260px)}
 .result_body .item .lta > .address{margin-top:2px}
 .result_body .item .lta > .address > span{display:inline-block; height:18px; color:#A27FB1; font-weight:300; overflow:hidden; text-overflow:ellipsis; width:calc(100vw - 90px)}
 .result_body .item{position:relative}
-.result_body .item .rta > .ico_next{position:absolute; right:8px; top:calc( 50% - 10px ); display:block; height:20px; width:20px; background:url(./../images/ico_arrow_right20.svg); text-indent:-9999px; font-size:1px; color:transparent; }
+.result_body .item .rta > .ico_next{position:absolute; right:8px; top:calc( 50% - 10px ); display:block; height:20px; width:20px; background:url(./../images/ico_arrow_right20.svg); text-indent:-9999px; font-size:1px; color:transparent}
 
 /* 가입정보조회상세 */
 .csinfobox{margin-top:16px}
@@ -450,7 +450,7 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow:hidd
 .carouselbox.col .itembox{display:flex; flex-direction:column; transform:translate3d(0px, 0px, 0px) !important}
 .carouselbox .itembox > .item{flex:none; background:#9A69ED; border-radius:8px; height:216px; overflow-x:hidden; /*overflow-y:auto*/}
 .carouselbox .itembox > .item.black,.carouselbox.col .itembox > .item.black{background:#424952; margin-right:0; margin-bottom:0}
-.carouselbox.col .itembox > .item{flex:none; width:calc(100vw - 32px); background:#9A69ED; border-radius:8px; height:auto;  margin-bottom:10px; margin-right:0px; }
+.carouselbox.col .itembox > .item{flex:none; width:calc(100vw - 32px); background:#9A69ED; border-radius:8px; height:auto;  margin-bottom:10px; margin-right:0px}
 .carouselbox.col .itembox > .item .itemwrap ul.listbox{height:fit-content}
 .swiper-container{width:calc(100% - 32px); padding:0 16px; height:100%}
 .swiper-slide{text-align:left; font-size:18px; background:#fff; display:-webkit-box; display:-ms-flexbox; display:-webkit-flex; display:flex; -webkit-box-pack:center; -ms-flex-pack:center; -webkit-justify-content:center; justify-content:center; -webkit-box-align:center; -ms-flex-align:center; -webkit-align-items:center; align-items:center}
@@ -492,7 +492,7 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow:hidd
 .infobox{background:#F5F7FA; border-radius:8px; padding:12px 12px 12px 16px}
 .infobox + .infobox{margin-top:8px}
 .infobox .dfbox{display:inline-block; position:relative; width:100%; box-sizing:border-box; vertical-align:middle}
-.infobox .dfbox h3{display:inline-block; font-size:17px; color:#202020; font-weight:800; line-height:32px; }
+.infobox .dfbox h3{display:inline-block; font-size:17px; color:#202020; font-weight:800; line-height:32px}
 .infobox .dfbox .btn_df{border:1px solid #DAE3ED; box-sizing:border-box; border-radius:2px; padding:5.5px 8px; color:#56606B; background:#FFFFFF; height:32px; line-height:19px; font-weight:500; font-size:14px}
 .infobox .dfbox .rta span{display:inline-block; color:#202020; font-size:15px; line-height:32px; margin-right:8px; font-weight:400; vertical-align:middle}
 .infobox .listbox{margin-top:16px}
@@ -507,7 +507,7 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow:hidd
 .infobox .grpbox .item .ly > .textgroup .title::before{content:''; display:block; position:absolute; width:22px; height:22px; top:0; left:0; background:url(./../images/ico_smartphone_black.svg) no-repeat}
 .infobox .grpbox .item .ly > .textgroup .price{display:inline-block; color:#6B7682; font-weight:200; font-size:12px; padding-left:28px; margin-top:7px}
 .infobox .grpbox .item .ly > .graphgroup{margin-top:8px}
-.infobox .grpbox .item .ly > .graphgroup .progbox{position:relative; width:100%; height:8px; }
+.infobox .grpbox .item .ly > .graphgroup .progbox{position:relative; width:100%; height:8px}
 .infobox .grpbox .item .ly > .graphgroup .progbox .grpbg{position:absolute; display:block; top:0; left:0; background:#DAE3ED; border-radius:99px; height:6px; width:100%}
 .infobox .grpbox .item .ly > .graphgroup .progbox .grpbar{position:absolute; top:-1px; left:0; height:8px; border-radius:99px; height:8px; width:0}
 .infobox .grpbox .item .ly > .graphgroup .progbox .grpbar.purple{background:linear-gradient(90deg, #B756DE 0%, #6885E7 100%)}
@@ -828,7 +828,7 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow:hidd
 
 /* alert confirm 메시지 */
 .alertbox{display:flex; position:absolute; top:0; left:0; width:100%; height:100%; background:transparent; justify-content:center; align-items:center; z-index:11} 
-.alertbox .boxwrap{display:inline-block; width:calc(100% - 60px); background:#FFFFFF; }
+.alertbox .boxwrap{display:inline-block; width:calc(100% - 60px); background:#FFFFFF}
 .alertbox .boxwrap h3{text-align:center; color:#7B558D; font-size:15px; line-height:22px; font-weight:800; margin-top:25px}
 .alertbox .boxwrap .content{padding:0 16px; text-align:center; color:#424952; font-size:14px; line-height:20px; font-weight:300; margin-top:17px}
 .alertbox .boxwrap .alertbtnbox{display:flex; margin-top:25px}
