@@ -47,8 +47,7 @@
     			<xf:group class="btn_menu" id="" style="" tagname="button"></xf:group>
     		</xf:group>
     		<xf:group class="container" id="" style="" tagname="section">
-    			<xf:group class="container_inner" id="" style="">
-    				<xf:group class="settingbox" id="" style="">
+    			<xf:group class="settingbox" id="" style="">
     					<xf:group class="settingboxwrap" id="">
     						<xf:group class="listbox" id="" style="" tagname="ul">
     							<xf:group class="item01" id="" style="" tagname="li">
@@ -85,7 +84,6 @@
     						</xf:group>
     					</xf:group>
     				</xf:group>
-    			</xf:group>
     		</xf:group>
     		<xf:group class="bottomMenu" id="" style="" tagname="section">
     			<xf:group class="navbox" id="" style="">

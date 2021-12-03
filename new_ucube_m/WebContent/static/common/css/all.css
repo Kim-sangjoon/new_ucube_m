@@ -464,7 +464,7 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow:hidd
 .carouselbox .itembox > .item .itemwrap .titlebox .title{font-size:15px; font-weight:400; margin-right:6px}
 .carouselbox .itembox > .item .itemwrap .titlebox .num{font-size:13px; font-weight:400; color:#CDAFFF}
 .carouselbox .itembox > .item.black .itemwrap .titlebox .num{color:#8996A3}
-.carouselbox .itembox > .item .itemwrap ul.listbox{display:flex; flex-direction:column; padding:8px; height:140px; overflow:hidden; overflow-y:auto}
+.carouselbox .itembox > .item .itemwrap ul.listbox{display:flex; flex-direction:column; padding:8px; padding-bottom:0; height:140px; overflow:hidden; overflow-y:auto}
 .carouselbox .itembox > .item .itemwrap ul.listbox li{background:transparent; border-radius:4px; padding:6px 8px; height:32px}
 .carouselbox .itembox > .item .itemwrap ul.listbox li.selected{background:#B386FF; border-radius:4px; padding:6px 8px}
 .carouselbox .itembox > .item .itemwrap ul.listbox li .pdtitle{position:relative; font-size:14px; font-weight:400; padding-left:26px; line-height:30px}

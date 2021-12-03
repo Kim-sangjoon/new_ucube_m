@@ -213,7 +213,7 @@
     			</xf:group>
     		</xf:group><xf:group class="bottomfix" id="" style="">
     					<xf:group class="btnbox" id="" style="">
-    						<xf:trigger class="btn_df" disabled="true" id="" style="" type="button">
+    						<xf:trigger class="btn_df" disabled="false" id="" style="" type="button">
     							<xf:label><![CDATA[닫기]]></xf:label>
     						</xf:trigger>
     					</xf:group>
