@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml"
     xmlns:ev="http://www.w3.org/2001/xml-events"
     xmlns:w2="http://www.inswave.com/websquare" xmlns:xf="http://www.w3.org/2002/xforms">
-    <head meta_programName="grid view - type2">
+    <head meta_programName="grid view - type2 - fullsize">
     	<w2:type>DEFAULT</w2:type>
         <w2:buildDate/>
         <xf:model>
@@ -349,16 +349,16 @@
     												id="col4" blockSelect="false" displayMode="label">
     											</w2:column>
     											<w2:column removeBorderStyle="false" width="70" inputType="text" id="col5"
-    												blockSelect="false" displayMode="label">
+    												blockSelect="false" displayMode="label" textAlign="right">
     											</w2:column>
     											<w2:column removeBorderStyle="false" width="70" inputType="text" id="col6"
-    												blockSelect="false" displayMode="label">
+    												blockSelect="false" displayMode="label" textAlign="right">
     											</w2:column>
     											<w2:column removeBorderStyle="false" width="70" inputType="text" id="col7"
-    												blockSelect="false" displayMode="label">
+    												blockSelect="false" displayMode="label" textAlign="right">
     											</w2:column>
     											<w2:column removeBorderStyle="false" width="70" inputType="text" id="col8"
-    												blockSelect="false" displayMode="label">
+    												blockSelect="false" displayMode="label" textAlign="right">
     											</w2:column>
     											<w2:column imageWidth="24" removeBorderStyle="false" viewType="icon" width="37"
     												imageSrc="../../common/images/ico_arrow_right24.svg" inputType="image" id="col9" blockSelect="false" displayMode="label"
