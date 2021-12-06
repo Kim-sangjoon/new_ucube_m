@@ -173,11 +173,6 @@
             				<col7><![CDATA[0]]></col7>
             				<col8><![CDATA[0]]></col8>
             			</w2:row>
-            			<w2:row></w2:row>
-            			<w2:row></w2:row>
-            			<w2:row></w2:row>
-            			<w2:row></w2:row>
-            			<w2:row></w2:row>
             		</w2:data>
             	</w2:dataList>
             </w2:dataCollection>
@@ -348,17 +343,17 @@
     											<w2:column textAlign="right" removeBorderStyle="false" width="150" inputType="text"
     												id="col4" blockSelect="false" displayMode="label">
     											</w2:column>
-    											<w2:column removeBorderStyle="false" width="70" inputType="text" id="col5"
-    												blockSelect="false" displayMode="label" textAlign="right">
+    											<w2:column textAlign="right" removeBorderStyle="false" width="70" inputType="text" id="col5"
+    												blockSelect="false" displayMode="label">
     											</w2:column>
-    											<w2:column removeBorderStyle="false" width="70" inputType="text" id="col6"
-    												blockSelect="false" displayMode="label" textAlign="right">
+    											<w2:column textAlign="right" removeBorderStyle="false" width="70" inputType="text" id="col6"
+    												blockSelect="false" displayMode="label">
     											</w2:column>
-    											<w2:column removeBorderStyle="false" width="70" inputType="text" id="col7"
-    												blockSelect="false" displayMode="label" textAlign="right">
+    											<w2:column textAlign="right" removeBorderStyle="false" width="70" inputType="text" id="col7"
+    												blockSelect="false" displayMode="label">
     											</w2:column>
-    											<w2:column removeBorderStyle="false" width="70" inputType="text" id="col8"
-    												blockSelect="false" displayMode="label" textAlign="right">
+    											<w2:column textAlign="right" removeBorderStyle="false" width="70" inputType="text" id="col8"
+    												blockSelect="false" displayMode="label">
     											</w2:column>
     											<w2:column imageWidth="24" removeBorderStyle="false" viewType="icon" width="37"
     												imageSrc="../../common/images/ico_arrow_right24.svg" inputType="image" id="col9" blockSelect="false" displayMode="label"
