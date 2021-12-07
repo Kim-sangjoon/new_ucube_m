@@ -64,7 +64,7 @@
     							</xf:trigger>
     						</xf:group>
     					</xf:group>
-    					<xf:group id="" tagname="section" style="">
+    					<xf:group id="" tagname="section" style="" class="hide">
     						<xf:group class="titlebox" id="" style="">
     							<w2:textbox id="" label="중요버튼" style="" tagname="h3"></w2:textbox>
     						</xf:group>

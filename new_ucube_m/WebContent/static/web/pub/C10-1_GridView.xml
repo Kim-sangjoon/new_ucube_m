@@ -176,7 +176,7 @@
     									<w2:caption style="" id="caption1" value="this is a grid caption."></w2:caption>
     									<w2:header style="" id="header1">
     										<w2:row style="" id="row1">
-    											<w2:column removeBorderStyle="false" width="150" inputType="text" id="column6"
+    											<w2:column removeBorderStyle="false" width="160" inputType="text" id="column6"
     												fixedRightColumn="" value="청구작업일" blockSelect="false" displayMode="label">
     											</w2:column>
     											<w2:column removeBorderStyle="false" width="150" inputType="text" id="column5"
