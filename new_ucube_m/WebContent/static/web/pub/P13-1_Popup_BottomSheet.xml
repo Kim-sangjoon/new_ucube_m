@@ -43,6 +43,18 @@
 		
 	};
 	
+	
+	scwin.btn_dim_onclick = function(e) {
+		bottomSheet.removeClass('active');
+	};
+	
+	scwin.btnClose_onclick = function(e) {
+		bottomSheet.removeClass('active');
+	};
+	
+	scwin.trigger1_onclick = function(e) {
+		bottomSheet.addClass('active');
+	};
 	]]></script>
     </head>
     <body ev:onpageload="scwin.onpageload" ev:onpageunload="scwin.onpageunload">
@@ -60,6 +72,11 @@
     		</xf:group>
     		<xf:group class="container" id="" style="" tagname="section">
     			<xf:group class="container_inner" id="">
+    				<xf:group class="btnbox" id="" style="">
+    					<xf:trigger class="btn_df" ev:onclick="scwin.trigger1_onclick" id="trigger1" style="" type="button">
+    						<xf:label><![CDATA[BottomSheet]]></xf:label>
+    					</xf:trigger>
+    				</xf:group>
     				<xf:group class="csinfobox" id="" style="">
     					<xf:group class="title" id="" style="" tagname="">
     						<w2:textbox class="name" id="" label="신*혜" style="" tagname="span"></w2:textbox>
@@ -750,8 +767,8 @@
     			</xf:group>
     		</xf:group>
     	</xf:group>
-    	<xf:group class="bottomsheet" id="" style="">
-    		<xf:group class="dim" id="" style=""></xf:group>
+    	<xf:group class="bottomsheet" id="bottomSheet" style="">
+    		<xf:group class="dim" id="btn_dim" style=""></xf:group>
     		<xf:group class="bsbox" id="" style="">
     			<xf:group class="bsboxwrap" id="" style="height: 210px;">
     				<xf:group class="contwrap" id="" style="">
@@ -763,7 +780,7 @@
     					</w2:textbox>
     				</xf:group>
     				<xf:group class="btnbox" id="" style="">
-    					<xf:trigger class="btn_df" ev:onclick="" id="" style="" type="button">
+    					<xf:trigger class="btn_df" ev:onclick="scwin.btnClose_onclick" id="btnClose" style="" type="button">
     						<xf:label><![CDATA[닫기]]></xf:label>
     					</xf:trigger>
     				</xf:group>

@@ -44,14 +44,27 @@
 	};
 	
 	scwin.trigger1_onclick = function(e) {
-		alertMsg.addClass("hide");
+		alertMsg.removeClass("active");
+	};
+	
+	scwin.trigger2_onclick = function(e) {
+		alertMsg.addClass("active");
 	};
 	]]></script>
     </head>
     <body ev:onpageload="scwin.onpageload" ev:onpageunload="scwin.onpageunload">
     	<xf:group class="wrapper white" id="" style="">
+    		<xf:group class="container" id="" style="" tagname="section">
+    			<xf:group class="container_inner" id="" tagname="">
+    				<xf:group class="btnbox" id="" style="">
+    					<xf:trigger class="btn_df" ev:onclick="scwin.trigger2_onclick" id="trigger2" style="" type="button">
+    						<xf:label><![CDATA[PopupAlert]]></xf:label>
+    					</xf:trigger>
+    				</xf:group>
+    			</xf:group>
+    		</xf:group>
     	</xf:group>
-    	<xf:group id="alertMsg" style="" class="alert">
+    	<xf:group id="alertMsg" style="" class="alert active">
     		<xf:group id="" style="" class="dim">
 
     		</xf:group>
