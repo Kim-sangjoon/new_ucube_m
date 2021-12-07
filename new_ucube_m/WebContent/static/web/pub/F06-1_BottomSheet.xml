@@ -17,38 +17,42 @@
          <script type="text/javascript" lazy="false"><![CDATA[
         
 	scwin.onpageload = function() {
-		var swiper = new Swiper(".mySwiper", {
-	        slidesPerView: 1,
-	        spaceBetween: 10,
-	        teredSlides: true,
-	        pagination: {
-				el: ".swiper-pagination",
-				clickable: false,
-	        },
-		});
-		console.log(swiper);
 		
-		$(".vhtoggle").on("click",function(){
-			if(carouselbox01.hasClass("col")){
-				carouselbox01.removeClass("col");
-				swiper.enabled = true;				
-			} else {
-				carouselbox01.addClass("col");
-				swiper.enabled = false;
-			}
-		});	
 	};
 	
 	scwin.onpageunload = function() {
 		
 	};
 	
+	
+	scwin.btn_dim_onclick = function(e) {
+		bottomSheet.removeClass('active');
+	};
+	
+	scwin.btnClose_onclick = function(e) {
+		bottomSheet.removeClass('active');
+	};
+	
+	scwin.trigger1_onclick = function(e) {
+		bottomSheet.addClass('active');
+	};
 	]]></script>
     </head>
     <body ev:onpageload="scwin.onpageload" ev:onpageunload="scwin.onpageunload">
-    	<xf:group class="wrapper" id="" style=""></xf:group>
-    	<xf:group class="bottomsheet" id="" style="">
-    		<xf:group class="dim" id="" style=""></xf:group>
+    	<xf:group class="wrapper" id="" style="">
+    		<xf:group class="container" id="" tagname="section" style="">
+    			<xf:group class="container_inner" id="" tagname="">
+    				<xf:group class="btnbox" id="" style="">
+    					<xf:trigger class="btn_df" ev:onclick="scwin.trigger1_onclick" id="trigger1" style="" type="button">
+    						<xf:label><![CDATA[BottomSheet]]></xf:label>
+    					</xf:trigger>
+    				</xf:group>
+    			</xf:group>
+    		</xf:group>
+    	</xf:group>
+    	<xf:group class="bottomsheet" id="bottomSheet" style="">
+    		
+    		<xf:group class="dim" id="btn_dim" style="" ev:onclick="scwin.btn_dim_onclick"></xf:group>
     		<xf:group class="bsbox" id="" style="">
     			<xf:group class="bsboxwrap" id="" style="height: 210px;">
     				<xf:group class="contwrap" id="" style="">
@@ -60,7 +64,7 @@
     					</w2:textbox>
     				</xf:group>
     				<xf:group class="btnbox" id="" style="">
-    					<xf:trigger class="btn_df" ev:onclick="" id="" style="" type="button">
+    					<xf:trigger class="btn_df" ev:onclick="scwin.btnClose_onclick" id="btnClose" style="" type="button">
     						<xf:label><![CDATA[닫기]]></xf:label>
     					</xf:trigger>
     				</xf:group>
