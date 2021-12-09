@@ -300,6 +300,8 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow:hidd
 .filterbox .fboxgroup .btn_df.on{background-color:#FFFFFF; color:#7B558D; border:1px solid #8D669F}
 .filterbox .fboxgroup .btn_df:first-child{margin-left:0px}
 .todo_listbox{margin-top:12px}
+.no_resultsbox{display:flex; justify-content:center; align-items:center; background:transparent; border: 1px solid #DAE3ED; box-sizing: border-box; border-radius: 4px; height:48px}
+.no_resultsbox > .ct_text{text-align:center; font-weight: 200; font-size: 13px; color:#BEC9D4}
 .ctbox{background:#FFFFFF; border-radius:3px; margin-top:8px; padding:12px}
 .ctbox:first-child{margin-top:0px}
 .ctbox .stbox{width:100%; height:20px}

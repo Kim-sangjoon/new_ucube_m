@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:ev="http://www.w3.org/2001/xml-events"
+    xmlns:w2="http://www.inswave.com/websquare" xmlns:xf="http://www.w3.org/2002/xforms">
+    <head meta_programName="To-Do - 조회결과없음">
+    	<w2:type>DEFAULT</w2:type>
+        <w2:buildDate/>
+        <xf:model>
+            <xf:instance>
+                <data xmlns=""/>
+            </xf:instance>
+            <w2:dataCollection baseNode="map">
+            </w2:dataCollection>
+            <w2:workflowCollection>
+            </w2:workflowCollection>
+        </xf:model>
+         <script type="text/javascript" lazy="false"><![CDATA[
+        
+	scwin.onpageload = function() {
+		
+	};
+	
+	scwin.onpageunload = function() {
+		
+	};
+		
+	
+	scwin.statusChekAll_onviewchange = function(info) {
+		if(statusChekAll.getValue() == "all") {
+			statusChekGroup.checkAll(false);
+		}
+	};
+	
+	scwin.statusChekGroup_onviewchange = function(info) {
+		if(statusChekGroup.getValue() !== ""){			
+			statusChekAll.checkAll(false);
+		}
+	};
+	]]></script>
+    </head>
+    <body ev:onpageload="scwin.onpageload" ev:onpageunload="scwin.onpageunload">
+    	<xf:group style="" id="" class="wrapper">
+    		<xf:group style="" id="" class="header" tagname="section">
+    			
+    		<xf:group style="" id="" class="titlebar">
+    				<xf:group id="" class="cta"><w2:textbox tagname="h2" style="" label="To-Do List" id="" class="title"></w2:textbox><w2:textbox tagname="em" style="" id="" label="7" class=""></w2:textbox></xf:group></xf:group><xf:group tagname="button" style="" id="" class="btn_menu"></xf:group></xf:group>
+    		<xf:group style="" id="" class="container" tagname="section">
+    			<xf:group style="" id="" class="container_inner">
+    				<xf:group style="" id="" class="filterbox" tagname="">
+    					<xf:group class="fboxgroup" id="" style="" tagname="">
+    						<xf:group style="" id="" class="lta">
+    							<w2:textbox label="구분" style="" id="" class="" tagname="span"></w2:textbox>
+    						</xf:group>
+    						<xf:group id="" style="" class="rta">
+    							<xf:select selectedindex="-1" id="" appearance="full" style="" cols="" rows="" ref=""
+    								renderType="checkboxgroup" class="filterbtn ">
+    								<xf:choices>
+    									<xf:item>
+    										<xf:label><![CDATA[전체]]></xf:label>
+    										<xf:value><![CDATA[]]></xf:value>
+    									</xf:item>
+    								</xf:choices>
+    							</xf:select>
+    							<xf:select appearance="full" class="filterbtn" cols="" id="" ref="" renderType="checkboxgroup" rows=""
+    								selectedindex="-1" style="">
+    								<xf:choices>
+    									<xf:item>
+    										<xf:label><![CDATA[꼬리표처리 필요건]]></xf:label>
+    										<xf:value><![CDATA[]]></xf:value>
+    									</xf:item>
+    								</xf:choices>
+    							</xf:select>
+    						</xf:group>
+    					</xf:group>
+    					<xf:group class="fboxgroup" id="" style="" tagname="">
+    						<xf:group class="lta" id="" style="">
+    							<w2:textbox class="" id="" label="처리상태" style="" tagname="span"></w2:textbox>
+    						</xf:group>
+    						<xf:group class="rta" id="" style="">
+    							<xf:select appearance="full" class="filterbtn" cols="" id="statusChekAll" ref="" renderType="checkboxgroup"
+    								rows="" selectedindex="-1" style="" ev:onchange="" ev:oncheckboxclick="" ev:onviewchange="scwin.statusChekAll_onviewchange">
+    								<xf:choices>
+    									<xf:item>
+    										<xf:label><![CDATA[전체]]></xf:label>
+    										<xf:value><![CDATA[all]]></xf:value>
+    									</xf:item>
+    								</xf:choices>
+    							</xf:select>
+    							<xf:select appearance="full" class="filterbtn" cols="" id="statusChekGroup" ref=""
+    								renderType="checkboxgroup" rows="" selectedindex="-1" style="" ev:onviewchange="scwin.statusChekGroup_onviewchange">
+    								<xf:choices>
+    									<xf:item>
+    										<xf:label><![CDATA[접수대기]]></xf:label>
+    										<xf:value><![CDATA[0]]></xf:value>
+    									</xf:item>
+    									<xf:item>
+    										<xf:label><![CDATA[접수]]></xf:label>
+    										<xf:value><![CDATA[1]]></xf:value>
+    									</xf:item>
+    									<xf:item>
+    										<xf:label><![CDATA[진행중]]></xf:label>
+    										<xf:value><![CDATA[2]]></xf:value>
+    									</xf:item>
+    									<xf:item>
+    										<xf:label><![CDATA[당일]]></xf:label>
+    										<xf:value><![CDATA[3]]></xf:value>
+    									</xf:item>
+    								</xf:choices>
+    							</xf:select>
+    						</xf:group>
+    					</xf:group>
+    				</xf:group>
+    				<xf:group style="" id="" tagname="" userData2="" class="todo_listbox">
+    					<xf:group style="" id="" class="no_resultsbox">
+    						<w2:textbox style="" label="To-Do 항목이 없습니다." id="" class="ct_text"></w2:textbox>
+    					</xf:group>
+    				</xf:group>
+
+    			</xf:group>
+    		</xf:group>
+    		<xf:group style="" id="" class="bottomMenu" tagname="section">
+    			<xf:group style="" id="" class="navbox">
+    				<xf:group style="" id="" class="menu01 on" tagname="button">
+    					<xf:group id="" class="numberbox"><w2:textbox style="" label="13" id="" class="num"></w2:textbox></xf:group><w2:textbox class="title" id="" label="To-Do" style=""></w2:textbox>
+    				</xf:group>
+    				<xf:group class="menu02" id="" style="" tagname="button">
+    					<w2:textbox class="title" id="" label="가입정보조회" style=""></w2:textbox>
+    				</xf:group>
+    				<xf:group class="menu03" id="" style="" tagname="button">
+    					<w2:textbox class="title" id="" label="사전조회" style=""></w2:textbox>
+    				</xf:group>
+    				<xf:group class="menu04" id="" style="" tagname="button">
+    					<w2:textbox class="title" id="" label="개통지역" style=""></w2:textbox>
+    				</xf:group>
+    				<xf:group class="menu05" id="" style="" tagname="button">
+    					<xf:group class="numberbox" id="" style="">
+    						<w2:textbox class="num" id="" label="3" style=""></w2:textbox>
+    					</xf:group>
+    					<w2:textbox class="title" id="" label="알림" style=""></w2:textbox>
+    				</xf:group>
+    			</xf:group>
+    		</xf:group>
+    	</xf:group>
+    </body>
+</html>
