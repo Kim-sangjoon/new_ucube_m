@@ -763,7 +763,7 @@
     		</xf:group>
     	</xf:group>
     	<xf:group id="alertMsg" style="" class="alert">
-    		<xf:group id="" style="" class="dim">
+    		<xf:group id="btn_dim" style="" class="dim">
 
     		</xf:group>
     		<xf:group id="" style="" class="alertbox">

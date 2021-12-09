@@ -829,11 +829,11 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow:hidd
 /* alert confirm 메시지 */
 .alert{display:none}
 .alert.active{display:block}
-.alertbox{display:flex; position:absolute; top:0; left:0; width:100%; height:100%; background:transparent; justify-content:center; align-items:center; z-index:11} 
-.alertbox .boxwrap{display:inline-block; width:calc(100% - 60px); background:#FFFFFF}
+.alertbox{display:flex; position:absolute; top:0; left:0; width:100%; height:100%; background:transparent; justify-content:center; align-items:center; z-index:11; pointer-events:none} 
+.alertbox .boxwrap{display:flex; flex-direction:column; width:calc(100% - 60px); min-height:138px; background:#FFFFFF; pointer-events:auto}
 .alertbox .boxwrap h3{text-align:center; color:#7B558D; font-size:15px; line-height:22px; font-weight:800; margin-top:25px}
-.alertbox .boxwrap .content{padding:0 16px; text-align:center; color:#424952; font-size:14px; line-height:20px; font-weight:300; margin-top:17px}
-.alertbox .boxwrap .alertbtnbox{display:flex; margin-top:25px}
+.alertbox .boxwrap .content{padding:0 16px; text-align:center; color:#424952; font-size:14px; line-height:20px; font-weight:300; margin-top:17px; margin-bottom:25px; overflow-y:auto;}
+.alertbox .boxwrap .alertbtnbox{display:flex; margin-top:auto}
 .btn_al{flex:1; box-sizing:border-box; border:none; border-top:1px solid #DAE3ED; background:#FFFFFF; color:#56606B; font-weight:800; font-size:15px; padding:13px 0}
 .btn_al + .btn_al{border-left:1px solid #DAE3ED}
 .btn_al.cm{color:#603973}
@@ -842,8 +842,8 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow:hidd
 .bottomsheet .dim{display:none}
 .bottomsheet.active .dim{display:block; position:absolute; top:0; left:0; width:100%; height:100vh; background:rgba(0, 0, 0, 0.4); z-index:10}
 .bottomsheet .bsbox{display:flex; position:absolute; bottom:-100%; left:0; width:100%; height:100%; background:transparent; justify-content:center; align-items:flex-end; z-index:12; transition:all 0.5s}
-.bottomsheet.active .bsbox{bottom:0}
-.bottomsheet .bsbox .bsboxwrap{position:relative; display:inline-block; width:100%; padding:29px 16px 16px; background:#FFFFFF; border-radius:16px 16px 0 0; box-shadow:0px 0px 2px rgba(0, 0, 0, 0.22), 0px -4px 10px rgba(0, 0, 0, 0.09); transition:all 0.5s}
+.bottomsheet.active .bsbox{bottom:0; pointer-events:none}
+.bottomsheet .bsbox .bsboxwrap{position:relative; display:inline-block; width:100%; padding:29px 16px 16px; background:#FFFFFF; border-radius:16px 16px 0 0; box-shadow:0px 0px 2px rgba(0, 0, 0, 0.22), 0px -4px 10px rgba(0, 0, 0, 0.09); transition:all 0.5s; pointer-events: auto;}
 .bottomsheet .bsbox .bsboxwrap .contwrap{height:calc(100% - 74px); overflow-y:auto}
 .bottomsheet .bsbox .bsboxwrap::after{content:""; position:absolute; display:block; width:50px; height:5px; top:5px; left:calc(50% - 25px); background:#BEC9D4; border-radius:10px}
 .bottomsheet .bsbox .bsboxwrap h3{font-weight:800; font-size:15px; line-height:20px; color:#7B558D}
@@ -1169,6 +1169,9 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow:hidd
 .wd-650{width:650px !important}
 .wd-700{width:700px !important}
 .wd-full{width:100% !important; min-width:0}
+
+.h50p{height: calc(50% - 45px)}
+.h100p{height: calc(100% - 100px)}
 
 /* table */
 .tbbox{position:relative; margin:0; padding:0; border-bottom:1px solid #E8EFF5}

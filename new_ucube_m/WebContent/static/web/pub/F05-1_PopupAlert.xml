@@ -50,6 +50,10 @@
 	scwin.trigger2_onclick = function(e) {
 		alertMsg.addClass("active");
 	};
+	
+	scwin.btn_dim_onclick = function(e) {
+		alertMsg.removeClass("active");
+	};
 	]]></script>
     </head>
     <body ev:onpageload="scwin.onpageload" ev:onpageunload="scwin.onpageunload">
@@ -65,7 +69,7 @@
     		</xf:group>
     	</xf:group>
     	<xf:group id="alertMsg" style="" class="alert active">
-    		<xf:group id="" style="" class="dim">
+    		<xf:group id="btn_dim" style="" class="dim" ev:onclick="scwin.btn_dim_onclick">
 
     		</xf:group>
     		<xf:group id="" style="" class="alertbox">

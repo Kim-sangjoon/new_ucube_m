@@ -34,6 +34,16 @@
 	};
 	
 	scwin.trigger1_onclick = function(e) {
+		bottomSheetWrap.removeClass('h50p');
+		bottomSheetWrap.removeClass('h100p');
+		bottomSheetWrap.addClass('h50p');
+		bottomSheet.addClass('active');
+	};
+	
+	scwin.trigger2_onclick = function(e) {
+		bottomSheetWrap.removeClass('h50p');
+		bottomSheetWrap.removeClass('h100p');
+		bottomSheetWrap.addClass('h100p');
 		bottomSheet.addClass('active');
 	};
 	]]></script>
@@ -44,7 +54,10 @@
     			<xf:group class="container_inner" id="" tagname="">
     				<xf:group class="btnbox" id="" style="">
     					<xf:trigger class="btn_df" ev:onclick="scwin.trigger1_onclick" id="trigger1" style="" type="button">
-    						<xf:label><![CDATA[BottomSheet]]></xf:label>
+    						<xf:label><![CDATA[BottomSheet(50%)]]></xf:label>
+    					</xf:trigger>
+    					<xf:trigger class="btn_df" ev:onclick="scwin.trigger2_onclick" id="trigger2" style="" type="button">
+    						<xf:label><![CDATA[BottomSheet(100%)]]></xf:label>
     					</xf:trigger>
     				</xf:group>
     			</xf:group>
@@ -54,7 +67,7 @@
     		
     		<xf:group class="dim" id="btn_dim" style="" ev:onclick="scwin.btn_dim_onclick"></xf:group>
     		<xf:group class="bsbox" id="" style="">
-    			<xf:group class="bsboxwrap" id="" style="height: 210px;">
+    			<xf:group class="bsboxwrap" id="bottomSheetWrap" style="">
     				<xf:group class="contwrap" id="" style="">
     					<w2:textbox id="" label="결과상세메세지" style="" tagname="h3"></w2:textbox>
     					<w2:textbox id="" label="회선제한여부" style="" tagname="h4"></w2:textbox>
