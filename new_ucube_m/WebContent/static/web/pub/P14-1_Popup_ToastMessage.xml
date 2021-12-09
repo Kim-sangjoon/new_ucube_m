@@ -44,25 +44,20 @@
 	};
 	
 	scwin.trigger1_onclick = function(e) {
-		toastMessage();
-	};
-	
+		tmboxDefault.addClass("enable");
+		setTimeout(function(){
+			tmboxDefault.removeClass("enable");
+		}, 4000)
+	};	
 	scwin.trigger2_onclick = function(e) {
-		toastMessageAlert();
+		tmboxAlert.addClass("enable");
 	};
 	
-	function toastMessage(){
-		$(".tmbox.default").addClass("enable");
-		setTimeout(function(){
-			$(".tmbox.default").removeClass("enable");
-		}, 4000)
+	scwin.group2_onclick = function(e) {		
+		tmboxAlert.removeClass("enable");
 	};
-	
-	function toastMessageAlert(){
-		$(".tmbox.alert").addClass("enable");
-		setTimeout(function(){
-			$(".tmbox.alert").removeClass("enable");
-		}, 4000)
+	scwin.group1_onclick = function(e) {
+		tmboxDefault.removeClass("enable");
 	};
 	
 	
@@ -782,26 +777,26 @@
     		</xf:group>
     	</xf:group>
     	<xf:group class="toastmessage" id="" style="">
-    		<xf:group class="tmbox alert" id="" style="">
-    			<xf:group class="tmboxwrap" id="">
-    				<xf:group id="" class="ly">
-    					<xf:group id="" class="col1">
-    						<w2:textbox style="" id="" label="컨텐츠 영역입니다. 액션이 실행 중이거나 완료되었다는 피드백 메시지를 제공" class="msg"></w2:textbox>
-    					</xf:group>
-    					<xf:group id="" style="display: flex;align-items: center;" class="fn">
-    						<w2:textbox class="confirm" id="" label="확인" style=""></w2:textbox>
-    					</xf:group>
-    				</xf:group>
-    			</xf:group>
-    		</xf:group>
-    		<xf:group class="tmbox default" id="" style="">
+    		<xf:group class="tmbox alert" id="tmboxAlert" style="">
     			<xf:group class="tmboxwrap" id="">
     				<xf:group class="ly" id="">
     					<xf:group class="col1" id="">
     						<w2:textbox class="msg" id="" label="컨텐츠 영역입니다. 액션이 실행 중이거나 완료되었다는 피드백 메시지를 제공" style=""></w2:textbox>
     					</xf:group>
-    					<xf:group class="fn" id="" style="display: flex;align-items: center;">
+    					<xf:group class="btn_next fn" ev:onclick="scwin.group2_onclick" id="group2" style="">
     						<w2:textbox class="confirm" id="" label="확인" style=""></w2:textbox>
+    					</xf:group>
+    				</xf:group>
+    			</xf:group>
+    		</xf:group>
+    		<xf:group class="tmbox default" id="tmboxDefault" style="">
+    			<xf:group class="tmboxwrap" id="">
+    				<xf:group class="ly" id="">
+    					<xf:group class="col1" id="">
+    						<w2:textbox class="msg" id="" label="컨텐츠 영역입니다. 액션이 실행 중이거나 완료되었다는 피드백 메시지를 제공(4초후사라짐)" style=""></w2:textbox>
+    					</xf:group>
+    					<xf:group class="btn_next fn" ev:onclick="scwin.group1_onclick" id="group1" style="">
+    						<w2:textbox class="confirm" ev:onclick="" id="" label="확인" style=""></w2:textbox>
     					</xf:group>
     				</xf:group>
     			</xf:group>

@@ -81,6 +81,7 @@
     						<xf:label><![CDATA[닫기]]></xf:label>
     					</xf:trigger>
     				</xf:group>
+    				<xf:group id="" style="" class="touchbox"></xf:group>
     			</xf:group>
     		</xf:group>
     	</xf:group>
