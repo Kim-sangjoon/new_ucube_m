@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:ev="http://www.w3.org/2001/xml-events"
+    xmlns:w2="http://www.inswave.com/websquare" xmlns:xf="http://www.w3.org/2002/xforms">
+    <head meta_programName="고객조회 - Dark Mode">
+    	<w2:type>DEFAULT</w2:type>
+        <w2:buildDate/>
+        <xf:model>
+            <xf:instance>
+                <data xmlns=""/>
+            </xf:instance>
+            <w2:dataCollection baseNode="map">
+            </w2:dataCollection>
+            <w2:workflowCollection>
+            </w2:workflowCollection>
+        </xf:model>
+         <script type="text/javascript" lazy="false"><![CDATA[
+        
+	scwin.onpageload = function() {
+		
+	};
+	
+	scwin.onpageunload = function() {
+		
+	};
+	
+	/* 모바일-홈 토글버튼 */
+	scwin.serviceToggleBtn_onclick = function(e) {
+		const stb = serviceToggleBtn;		
+		if (stb.hasClass("mobile") || !stb.hasClass("home")){			
+			console.log("홈");
+			stb.removeClass("mobile");
+			stb.addClass("home");
+			ipxMobile.addClass("hide");
+			ipxHome.removeClass("hide");
+		} else if (stb.hasClass("home") || !stb.hasClass("mobile")){
+			console.log("모바일");
+			stb.removeClass("home");
+			stb.addClass("mobile");
+			ipxHome.addClass("hide");
+			ipxMobile.removeClass("hide");
+		}
+	};
+	
+	/* 모바일 > 상품번호 입력 예시*/
+	scwin.ipxMoProductNo_onkeydown = function(e) {		
+		const cipxMoProductNo = ipxMoProductNo.getValue();
+		console.log(cipxMoProductNo.length);
+		if(cipxMoProductNo.length > 1) {
+			btnSearch.setDisabled(false);
+		} else {
+			btnSearch.setDisabled(true);
+		}
+	};
+	
+	/* 홈 > 고객명 입력 예시*/
+	scwin.ipxHoCustomerNm_onkeydown = function(e) {		
+		const cipxHoCustomerNm = ipxHoCustomerNm.getValue();		
+		if(cipxHoCustomerNm.length > 1) {
+			btnSearch.setDisabled(false);
+		} else {
+			btnSearch.setDisabled(true);
+		}
+	};
+	]]></script>
+    </head>
+    <body ev:onpageload="scwin.onpageload" ev:onpageunload="scwin.onpageunload" class="dark">
+    	<xf:group style="" id="" class="wrapper">
+    		<xf:group style="" id="" class="header" tagname="section">
+    			
+    		<xf:group style="" id="" class="titlebar">
+    				<xf:group id="" class="cta"><w2:textbox tagname="h2" style="" label="가입정보조회" id="" class="title"></w2:textbox></xf:group></xf:group><xf:group tagname="button" style="" id="" class="btn_menu"></xf:group></xf:group>
+    		<xf:group style="" id="" class="container vcenter" tagname="section">
+    			<xf:group style="" id="" class="container_inner"><xf:group style="" id="" class="searchbox">
+    					
+    					<xf:group ev:onclick="scwin.serviceToggleBtn_onclick" style="" id="serviceToggleBtn" class="toggle_swich mobile">
+    						<xf:group style="" id="" class="bg"></xf:group>
+    						<xf:group style="" id="" class="btn"></xf:group>
+    						<xf:group style="" id="" class="label">
+    							<w2:textbox tagname="span" style="" id="" label="모바일" class="mobile"></w2:textbox>
+    							<w2:textbox tagname="span" style="" id="" label="홈" class="home"></w2:textbox>
+    						</xf:group>
+    					</xf:group><xf:group id="ipxMobile" style="" class="inputbox">
+    						<xf:group id="" class="boxitem">
+    							<w2:textbox tagname="label" style="" label="상품번호" id="" class=""></w2:textbox>
+    							<xf:input adjustMaxLength="false" style="" id="ipxMoProductNo" placeholder="01000000000" class="" dataType="number" ev:onchange="" ev:onkeydown="scwin.ipxMoProductNo_onkeydown"></xf:input>
+    						</xf:group>
+    						<xf:group class="boxitem" id="" style="">
+    							<w2:textbox id="" label="고객명" style="" tagname="label"></w2:textbox>
+    							<xf:input adjustMaxLength="false" id="" style="" placeholder="홍길동"></xf:input>
+    						</xf:group>
+    						<xf:group class="boxitem" id="" style="">
+    							<w2:textbox id="" label="생년월일" style="" tagname="label"></w2:textbox>
+    							<xf:input adjustMaxLength="false" id="" style="" placeholder="1900-00-00" dataType="date"></xf:input>
+    						</xf:group>
+    					</xf:group>
+    					<xf:group class="inputbox hide" id="ipxHome" style="" adaptiveThreshold="">
+    						<xf:group class="boxitem" id="">
+    							<w2:textbox class="req" id="" label="고객명" style="" tagname="label"></w2:textbox>
+    							<xf:input adjustMaxLength="false" class="req" dataType="" id="ipxHoCustomerNm" placeholder="홍길동" style="" ev:onkeydown="scwin.ipxHoCustomerNm_onkeydown"></xf:input>
+    						</xf:group>
+    						<xf:group class="boxitem" id="" style="">
+    							<w2:textbox id="" label="생년월일" style="" tagname="label" class="req"></w2:textbox>
+    							<xf:input adjustMaxLength="false" id="" placeholder="1900-00-00" style="" class="req" dataType="date"></xf:input>
+    						</xf:group>
+    						<xf:group class="boxitem" id="" style="">
+    							<w2:textbox id="" label="설치주소(시군구)" style="" tagname="label"></w2:textbox>
+    							<xf:input adjustMaxLength="false" id="" placeholder="설치주소 검색입력" style="" class="ico_address"></xf:input>
+    						</xf:group>
+    					</xf:group>
+    					
+    				</xf:group><xf:group id="" style="" class="btnbox">
+    						<xf:trigger type="button" style="" id="btnSearch" class="btn_sh" disabled="true">
+    							<xf:label><![CDATA[조회]]></xf:label>
+    						</xf:trigger>
+    					</xf:group>
+
+    			</xf:group>
+    		</xf:group>
+    		<xf:group style="" id="" class="bottomMenu" tagname="section">
+    			<xf:group style="" id="" class="navbox">
+    				<xf:group style="" id="" class="menu01" tagname="button">
+    					<xf:group id="" class="numberbox"><w2:textbox style="" label="13" id="" class="num"></w2:textbox></xf:group><w2:textbox class="title" id="" label="To-Do" style=""></w2:textbox>
+    				</xf:group>
+    				<xf:group class="menu02 on" id="" style="" tagname="button">
+    					<w2:textbox class="title" id="" label="가입정보조회" style=""></w2:textbox>
+    				</xf:group>
+    				<xf:group class="menu03" id="" style="" tagname="button">
+    					<w2:textbox class="title" id="" label="사전조회" style=""></w2:textbox>
+    				</xf:group>
+    				<xf:group class="menu04" id="" style="" tagname="button">
+    					<w2:textbox class="title" id="" label="개통지역" style=""></w2:textbox>
+    				</xf:group>
+    				<xf:group class="menu05" id="" style="" tagname="button">
+    					<xf:group class="numberbox" id="" style="">
+    						<w2:textbox class="num" id="" label="3" style=""></w2:textbox>
+    					</xf:group>
+    					<w2:textbox class="title" id="" label="알림" style=""></w2:textbox>
+    				</xf:group>
+    			</xf:group>
+    		</xf:group>
+    	</xf:group>
+    </body>
+</html>
