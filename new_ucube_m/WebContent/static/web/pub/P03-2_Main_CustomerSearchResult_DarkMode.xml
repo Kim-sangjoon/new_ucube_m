@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml"
     xmlns:ev="http://www.w3.org/2001/xml-events"
     xmlns:w2="http://www.inswave.com/websquare" xmlns:xf="http://www.w3.org/2002/xforms">
-    <head meta_programName="고객조회결과">
+    <head meta_programName="고객조회결과 - Dark Mode">
     	<w2:type>DEFAULT</w2:type>
         <w2:buildDate/>
         <xf:model>
@@ -24,7 +24,7 @@
 		
 	};]]></script>
     </head>
-    <body ev:onpageload="scwin.onpageload" ev:onpageunload="scwin.onpageunload">
+    <body ev:onpageload="scwin.onpageload" ev:onpageunload="scwin.onpageunload" class="dark">
     	<xf:group style="" id="" class="wrapper">
     		<xf:group style="" id="" class="header" tagname="section">
 

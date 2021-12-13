@@ -91,7 +91,7 @@
     						</xf:group>
     						<xf:group class="boxitem" id="" style="">
     							<w2:textbox id="" label="생년월일" style="" tagname="label"></w2:textbox>
-    							<xf:input adjustMaxLength="false" id="" style="" placeholder="1900-00-00" dataType="date"></xf:input>
+    							<xf:input adjustMaxLength="false" id="" style="" placeholder="1900-00-00" dataType="date" editType="" type=""></xf:input>
     						</xf:group>
     					</xf:group>
     					<xf:group class="inputbox hide" id="ipxHome" style="" adaptiveThreshold="">
