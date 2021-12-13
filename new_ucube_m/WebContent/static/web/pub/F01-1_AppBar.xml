@@ -31,7 +31,7 @@
 
     			<xf:group style="" id="" class="titlebar">
     				<xf:group id="" class="cta">
-    					<w2:textbox tagname="h2" style="" label="타이틀 영역" id="" class="title"></w2:textbox>
+    					<w2:textbox tagname="h2" style="" label="타이틀 영역(17px)" id="" class="title fs17"></w2:textbox>
     					<w2:textbox tagname="em" style="" id="" label="7" class=""></w2:textbox>
     				</xf:group>
     			</xf:group>

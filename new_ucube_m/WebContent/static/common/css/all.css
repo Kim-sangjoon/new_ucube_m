@@ -344,7 +344,8 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow:hidd
 .header{flex-grow:0; flex-shrink:0; padding:15px 16px; position:relative;/* height:25px */}
 /* .header + .header{display:table} */
 .header .titlebar{display:inline; height:56px}
-.header .titlebar h2.title{display:inline-block; font-weight:700; color:var(--main-txtcolor-title); font-size:17px; vertical-align:middle; height:25px}
+.header .titlebar h2.title{display:inline-block; font-weight:700; color:var(--main-txtcolor-title); font-size:16px; vertical-align:middle; height:25px}
+.header .titlebar h2.title.fs17{font-size:17px}
 .header .titlebar em{font-weight:700; color:var(--main-txtcolor-title-em); font-size:13px; padding-left:8px; vertical-align:middle}
 .header .cta{text-align:center}
 .header .btn_menu{display:block; height:24px; width:24px; background:var(--ico-menu); position:absolute; top:16px; right:16px}
@@ -353,7 +354,7 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow:hidd
 .header .btn_top{display:block; height:32px; border:none; position:absolute; top:12px; left:16px; color:#6B7682; font-size:14px; font-weight:700; padding:0 10px 0 28px; border-radius:3px}
 .header .btn_top.preSearch{background:url(./../images/ico_arrow_pre_text.svg) no-repeat #F5F7FA; background-position:5px center}
 .header .user_info{display:inline-block; width:100%; text-align:center; margin-top:16px}
-.header .user_info .text{font-weight:300; font-size:13px; color:#8996A3; vertical-align:middle}
+.header .user_info .text{font-weight:500; font-size:13px; color:#8996A3; vertical-align:middle}
 .header .user_info .dot{position:relative; display:inline-block; text-indent:-9999999px; width:3px; height:3px; color:transparent; vertical-align:middle; margin-left:4px; margin-right:4px}
 .header .user_info .dot::before{content:""; display:block; position:absolute; width:3px; height:3px; top:0; left:0; background:#8996A3; border-radius:99px}
 
