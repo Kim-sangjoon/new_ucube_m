@@ -991,12 +991,12 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow:hidd
 .rightmenu .headergroup{padding:20px 24px 15px}
 .rightmenu .headergroup .titlewrap{display:inline-block}
 .rightmenu .headergroup .titlewrap .name{display:inline-block; vertical-align:middle; color:#2C3238; font-weight:700; font-size:18px; margin-right:4px}
-.rightmenu .headergroup .titlewrap .id{font-weight:200; font-size:14px; color:#2C3238}
-.rightmenu .headergroup .titlewrap .team{display:block; font-weight:200; font-size:10px; color:#8996A3}
+.rightmenu .headergroup .titlewrap .id{font-weight:400; font-size:14px; color:#2C3238}
+.rightmenu .headergroup .titlewrap .team{display:block; font-weight:400; font-size:10px; color:#8996A3}
 .rightmenu .headergroup .contwrap{display:inline-block; margin-top:12px; width:100%}
 .rightmenu .headergroup .contwrap .lta div{display:inline-block}
 .rightmenu .headergroup .contwrap .lta div + div{margin-left:20px}
-.rightmenu .headergroup .contwrap .lta label{position:relative; color:#2C3238; font-weight:300; font-size:14px; margin-right:4px; padding-left:34px}
+.rightmenu .headergroup .contwrap .lta label{position:relative; color:#2C3238; font-weight:400; font-size:14px; margin-right:4px; padding-left:34px}
 .rightmenu .headergroup .contwrap .lta label::before{content:''; display:block; position:absolute; height:24px; width:24px; top:-2px; left:0}
 .rightmenu .headergroup .contwrap .lta span{color:#F92465; font-weight:700; font-size:14px}
 .rightmenu .headergroup .contwrap .todo label::before{background:url(./../images/ico_todo.svg) no-repeat}
@@ -1007,12 +1007,12 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow:hidd
 .rightmenu ul.depth1 li .titlewrap h3 span.name{color:#7B558D; margin-right:5px}
 .rightmenu ul.depth2{border-top:1px solid #E8EFF5; padding:0 24px 18px}
 .rightmenu ul.depth2 li{width:100%}
-.rightmenu ul.depth2 li h4{margin-top:18px; margin-bottom:20px; color:#A27FB1; font-weight:400; font-size:12px}
+.rightmenu ul.depth2 li h4{margin-top:18px; margin-bottom:20px; color:#A27FB1; font-weight:700; font-size:12px}
 .rightmenu .depth3wrap{padding:20px 24px}
 .rightmenu ul.depth3{display:inline-block; width:100%}
 .rightmenu ul.depth3 li{display:inline-block; width:100%}
 .rightmenu ul.depth3 li + li{margin-top:20px}
-.rightmenu ul.depth3 li label{position:relative; color:#2C3238; font-weight:300; font-size:14px; padding-left:34px; height:24px; line-height:24px}
+.rightmenu ul.depth3 li label{position:relative; color:#2C3238; font-weight:400; font-size:14px; padding-left:34px; height:24px; line-height:24px}
 .rightmenu ul.depth3 li label::before{content:''; display:block; position:absolute; height:24px; width:24px; top:-2px; left:0}
 .rightmenu ul.depth3 li.rightmenu_01_01 label::before{background:url(./../images/ico_rightmenu_01_01.svg) no-repeat}
 .rightmenu ul.depth3 li.rightmenu_01_02 label::before{background:url(./../images/ico_rightmenu_01_02.svg) no-repeat}
