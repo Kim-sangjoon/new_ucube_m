@@ -999,8 +999,8 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow:hidd
 .rightmenu .headergroup .contwrap .lta label{position:relative; color:#2C3238; font-weight:300; font-size:14px; margin-right:4px; padding-left:34px}
 .rightmenu .headergroup .contwrap .lta label::before{content:''; display:block; position:absolute; height:24px; width:24px; top:-2px; left:0}
 .rightmenu .headergroup .contwrap .lta span{color:#F92465; font-weight:700; font-size:14px}
-.rightmenu .headergroup .contwrap .todo label::before{background:url(./../images/ico_01_todo.svg) no-repeat}
-.rightmenu .headergroup .contwrap .alram label::before{background:url(./../images/ico_05_alarm.svg) no-repeat}
+.rightmenu .headergroup .contwrap .todo label::before{background:url(./../images/ico_todo.svg) no-repeat}
+.rightmenu .headergroup .contwrap .alram label::before{background:url(./../images/ico_alarm.svg) no-repeat}
 .rightmenu .headergroup .contwrap .btn_setting{background:transparent; border:none; width:24px; height:24px; background-image:url(./../images/ico_settings24.svg); color:transparent; font-size:1px}
 .rightmenu ul.depth1 li .titlewrap{background:#F5F7FA; border-top:1px solid #DAE3ED; padding:13px 24px}
 .rightmenu ul.depth1 li .titlewrap h3 span{color:#2C3238; font-weight:700; font-size:14px}
