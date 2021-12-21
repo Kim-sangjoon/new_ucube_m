@@ -106,7 +106,7 @@
     --textcolor-carouselbox-itembox-item-black-itemwrap-titlebox-num:#8996A3;
     --bgcolor-carouselbox-itembox-item-black-carouselbox-col-itembox-item-black:#424952;
     --bgcolor-carouselbox-liwrap-btn-search:#763FD1;
-    --bgcolor-carouselbox-liwrap-btn-search-black:#2C3238;
+    --bgcolor-carouselbox-liwrap-btn-search-black:#202020;
     --swiper-theme-color: #9A69ED;
     --swiper-theme-color-last: #424952;
     --bgcolor-carouselbox-itembox-item-itemwrap-titlebox-badge:#763FD1;
@@ -170,9 +170,32 @@
     --ico-arrow-down18:url(./../images/ico_arrow_down18.svg);
     --ico-arrow-up18:url(./../images/ico_arrow_up18.svg);
     --bgcolor-rightmenu-menuwrap:#FFFFFF;
-    --textcolor-rightmenu-headergroup-titlewrap-name:#2C3238;
+    --textcolor-rightmenu-headergroup-titlewrap-name:#202020;
     --textcolor-rightmenu-headergroup-titlewrap-team:#8996A3;
-    
+    --textcolor-rightmenu-headergroup-contwrap-lta-label:#202020;
+    --ico-ico-todo:url(./../images/ico_todo.svg);
+    --ico-ico-alarm:url(./../images/ico_alarm.svg);
+    --ico-ico-settings24:url(./../images/ico_settings24.svg);
+    --bgcolor-rightmenu-ul-depth1-li-titlewrap:#F5F7FA;
+    --bordercolor-top-rightmenu-ul-depth1-li-titlewrap:#DAE3ED;
+    --textcolor-rightmenu-ul-depth1-li-titlewrap-h3-span-name:#7B558D;
+    --bordercolor-top-rightmenu-ul-depth2:#E8EFF5;
+    --textcolor-rightmenu-ul-depth1-li-titlewrap-h3-span:#202020;
+    --textcolor-rightmenu-ul-depth3-li-label:#202020;
+    --textcolor-rightmenu-ul-depth2-li-h4:#A27FB1;
+    --ico-rightmenu-01-01:url(./../images/ico_rightmenu_01_01.svg);
+    --ico-rightmenu-01-02:url(./../images/ico_rightmenu_01_02.svg);
+    --ico-rightmenu-02-01:url(./../images/ico_rightmenu_02_01.svg);
+    --ico-rightmenu-02-02:url(./../images/ico_rightmenu_02_02.svg);
+    --ico-rightmenu-02-03:url(./../images/ico_rightmenu_02_03.svg);
+    --ico-rightmenu-03-01:url(./../images/ico_rightmenu_03_01.svg);
+    --ico-rightmenu-03-02:url(./../images/ico_rightmenu_03_02.svg);
+    --ico-rightmenu-04-01:url(./../images/ico_rightmenu_04_01.svg);
+    --ico-rightmenu-04-02:url(./../images/ico_rightmenu_04_02.svg);
+    --ico-rightmenu-05-01:url(./../images/ico_rightmenu_05_01.svg);
+    --ico-rightmenu-05-02:url(./../images/ico_rightmenu_05_02.svg);
+    --ico-rightmenu-05-03:url(./../images/ico_rightmenu_05_03.svg);
+    --ico-rightmenu-05-04:url(./../images/ico_rightmenu_05_04.svg);    
 
 
 
@@ -355,6 +378,30 @@
     --bgcolor-rightmenu-menuwrap:#29292B;
     --textcolor-rightmenu-headergroup-titlewrap-name:#F5F6FA;
     --textcolor-rightmenu-headergroup-titlewrap-team:#8E929E;
+    --textcolor-rightmenu-headergroup-contwrap-lta-label:#F5F6FA;
+    --ico-ico-todo:url(./../images/ico_todo_dark.svg);
+    --ico-ico-alarm:url(./../images/ico_alarm_dark.svg);
+    --ico-ico-settings24:url(./../images/ico_settings24_dark.svg);
+    --bgcolor-rightmenu-ul-depth1-li-titlewrap:#303135;
+    --bordercolor-top-rightmenu-ul-depth1-li-titlewrap:#595D66;
+    --textcolor-rightmenu-ul-depth1-li-titlewrap-h3-span-name:#C2A5CF;
+    --bordercolor-top-rightmenu-ul-depth2:#3B3C41;
+    --textcolor-rightmenu-ul-depth1-li-titlewrap-h3-span:#F5F6FA;
+    --textcolor-rightmenu-ul-depth3-li-label:#F5F6FA;
+    --textcolor-rightmenu-ul-depth2-li-h4:#C2A5CF;    
+    --ico-rightmenu-01-01:url(./../images/ico_rightmenu_01_01_dark.svg);
+    --ico-rightmenu-01-02:url(./../images/ico_rightmenu_01_02_dark.svg);
+    --ico-rightmenu-02-01:url(./../images/ico_rightmenu_02_01_dark.svg);
+    --ico-rightmenu-02-02:url(./../images/ico_rightmenu_02_02_dark.svg);
+    --ico-rightmenu-02-03:url(./../images/ico_rightmenu_02_03_dark.svg);
+    --ico-rightmenu-03-01:url(./../images/ico_rightmenu_03_01_dark.svg);
+    --ico-rightmenu-03-02:url(./../images/ico_rightmenu_03_02_dark.svg);
+    --ico-rightmenu-04-01:url(./../images/ico_rightmenu_04_01_dark.svg);
+    --ico-rightmenu-04-02:url(./../images/ico_rightmenu_04_02_dark.svg);
+    --ico-rightmenu-05-01:url(./../images/ico_rightmenu_05_01.svg);
+    --ico-rightmenu-05-02:url(./../images/ico_rightmenu_05_02.svg);
+    --ico-rightmenu-05-03:url(./../images/ico_rightmenu_05_03.svg);
+    --ico-rightmenu-05-04:url(./../images/ico_rightmenu_05_04.svg);
 
 
 
@@ -1002,37 +1049,37 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow:hidd
 .rightmenu .headergroup .contwrap{display:inline-block; margin-top:12px; width:100%}
 .rightmenu .headergroup .contwrap .lta div{display:inline-block}
 .rightmenu .headergroup .contwrap .lta div + div{margin-left:20px}
-.rightmenu .headergroup .contwrap .lta label{position:relative; color:#2C3238; font-weight:400; font-size:14px; margin-right:4px; padding-left:34px}
+.rightmenu .headergroup .contwrap .lta label{position:relative; color:var(--textcolor-rightmenu-headergroup-contwrap-lta-label); font-weight:400; font-size:14px; margin-right:4px; padding-left:34px}
 .rightmenu .headergroup .contwrap .lta label::before{content:''; display:block; position:absolute; height:24px; width:24px; top:-2px; left:0}
 .rightmenu .headergroup .contwrap .lta span{color:#F92465; font-weight:700; font-size:14px}
-.rightmenu .headergroup .contwrap .todo label::before{background:url(./../images/ico_todo.svg) no-repeat}
-.rightmenu .headergroup .contwrap .alram label::before{background:url(./../images/ico_alarm.svg) no-repeat}
-.rightmenu .headergroup .contwrap .btn_setting{background:transparent; border:none; width:24px; height:24px; background-image:url(./../images/ico_settings24.svg); color:transparent; font-size:1px}
-.rightmenu ul.depth1 li .titlewrap{background:#F5F7FA; border-top:1px solid #DAE3ED; padding:13px 24px}
-.rightmenu ul.depth1 li .titlewrap h3 span{color:#2C3238; font-weight:700; font-size:14px}
-.rightmenu ul.depth1 li .titlewrap h3 span.name{color:#7B558D; margin-right:5px}
-.rightmenu ul.depth2{border-top:1px solid #E8EFF5; padding:0 24px 18px}
+.rightmenu .headergroup .contwrap .todo label::before{background:var(--ico-ico-todo) no-repeat}
+.rightmenu .headergroup .contwrap .alram label::before{background:var(--ico-ico-alarm) no-repeat}
+.rightmenu .headergroup .contwrap .btn_setting{background:transparent; border:none; width:24px; height:24px; background-image:var(--ico-ico-settings24); color:transparent; font-size:1px}
+.rightmenu ul.depth1 li .titlewrap{background:var(--bgcolor-rightmenu-ul-depth1-li-titlewrap); border-top:1px solid var(--bordercolor-top-rightmenu-ul-depth1-li-titlewrap); padding:13px 24px}
+.rightmenu ul.depth1 li .titlewrap h3 span{color:var(--textcolor-rightmenu-ul-depth1-li-titlewrap-h3-span); font-weight:700; font-size:14px}
+.rightmenu ul.depth1 li .titlewrap h3 span.name{color:var(--textcolor-rightmenu-ul-depth1-li-titlewrap-h3-span-name); margin-right:5px}
+.rightmenu ul.depth2{border-top:1px solid var(--bordercolor-top-rightmenu-ul-depth2); padding:0 24px 18px}
 .rightmenu ul.depth2 li{width:100%}
-.rightmenu ul.depth2 li h4{margin-top:18px; margin-bottom:20px; color:#A27FB1; font-weight:700; font-size:12px}
+.rightmenu ul.depth2 li h4{margin-top:18px; margin-bottom:20px; color:var(--textcolor-rightmenu-ul-depth2-li-h4); font-weight:700; font-size:12px}
 .rightmenu .depth3wrap{padding:20px 24px}
 .rightmenu ul.depth3{display:inline-block; width:100%}
 .rightmenu ul.depth3 li{display:inline-block; width:100%}
 .rightmenu ul.depth3 li + li{margin-top:20px}
-.rightmenu ul.depth3 li label{position:relative; color:#2C3238; font-weight:400; font-size:14px; padding-left:34px; height:24px; line-height:24px}
+.rightmenu ul.depth3 li label{position:relative; color:var(--textcolor-rightmenu-ul-depth3-li-label); font-weight:400; font-size:14px; padding-left:34px; height:24px; line-height:24px}
 .rightmenu ul.depth3 li label::before{content:''; display:block; position:absolute; height:24px; width:24px; top:-2px; left:0}
-.rightmenu ul.depth3 li.rightmenu_01_01 label::before{background:url(./../images/ico_rightmenu_01_01.svg) no-repeat}
-.rightmenu ul.depth3 li.rightmenu_01_02 label::before{background:url(./../images/ico_rightmenu_01_02.svg) no-repeat}
-.rightmenu ul.depth3 li.rightmenu_02_01 label::before{background:url(./../images/ico_rightmenu_02_01.svg) no-repeat}
-.rightmenu ul.depth3 li.rightmenu_02_02 label::before{background:url(./../images/ico_rightmenu_02_02.svg) no-repeat}
-.rightmenu ul.depth3 li.rightmenu_02_03 label::before{background:url(./../images/ico_rightmenu_02_03.svg) no-repeat}
-.rightmenu ul.depth3 li.rightmenu_03_01 label::before{background:url(./../images/ico_rightmenu_03_01.svg) no-repeat}
-.rightmenu ul.depth3 li.rightmenu_03_02 label::before{background:url(./../images/ico_rightmenu_03_02.svg) no-repeat}
-.rightmenu ul.depth3 li.rightmenu_04_01 label::before{background:url(./../images/ico_rightmenu_04_01.svg) no-repeat}
-.rightmenu ul.depth3 li.rightmenu_04_02 label::before{background:url(./../images/ico_rightmenu_04_02.svg) no-repeat}
-.rightmenu ul.depth3 li.rightmenu_05_01 label::before{background:url(./../images/ico_rightmenu_05_01.svg) no-repeat}
-.rightmenu ul.depth3 li.rightmenu_05_02 label::before{background:url(./../images/ico_rightmenu_05_02.svg) no-repeat}
-.rightmenu ul.depth3 li.rightmenu_05_03 label::before{background:url(./../images/ico_rightmenu_05_03.svg) no-repeat}
-.rightmenu ul.depth3 li.rightmenu_05_04 label::before{background:url(./../images/ico_rightmenu_05_04.svg) no-repeat}
+.rightmenu ul.depth3 li.rightmenu_01_01 label::before{background:var(--ico-rightmenu-01-01) no-repeat}
+.rightmenu ul.depth3 li.rightmenu_01_02 label::before{background:var(--ico-rightmenu-01-02) no-repeat}
+.rightmenu ul.depth3 li.rightmenu_02_01 label::before{background:var(--ico-rightmenu-02-01) no-repeat}
+.rightmenu ul.depth3 li.rightmenu_02_02 label::before{background:var(--ico-rightmenu-02-02) no-repeat}
+.rightmenu ul.depth3 li.rightmenu_02_03 label::before{background:var(--ico-rightmenu-02-03) no-repeat}
+.rightmenu ul.depth3 li.rightmenu_03_01 label::before{background:var(--ico-rightmenu-03-01) no-repeat}
+.rightmenu ul.depth3 li.rightmenu_03_02 label::before{background:var(--ico-rightmenu-03-02) no-repeat}
+.rightmenu ul.depth3 li.rightmenu_04_01 label::before{background:var(--ico-rightmenu-04-01) no-repeat}
+.rightmenu ul.depth3 li.rightmenu_04_02 label::before{background:var(--ico-rightmenu-04-02) no-repeat}
+.rightmenu ul.depth3 li.rightmenu_05_01 label::before{background:var(--ico-rightmenu-05-01) no-repeat}
+.rightmenu ul.depth3 li.rightmenu_05_02 label::before{background:var(--ico-rightmenu-05-02) no-repeat}
+.rightmenu ul.depth3 li.rightmenu_05_03 label::before{background:var(--ico-rightmenu-05-03) no-repeat}
+.rightmenu ul.depth3 li.rightmenu_05_04 label::before{background:var(--ico-rightmenu-05-04) no-repeat}
 .rightmenu ul.depth3 li.disable{filter:opacity(30%)}
 .rightmenu ul.depth3 li[disabled=true]{filter:opacity(30%)}
 .btn_right{background:transparent; border:none; width:24px; height:24px; background-image:var(--ico-arrow-right24); color:transparent; font-size:1px}
@@ -1231,7 +1278,7 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow:hidd
 .wq_gvw .w2grid_disabled .gridBodyDefault{background:#f8f8f8 !important; color:#888}
 /* 사용자 지정 필터 */
 .w2grid_customFilter{border:0; background:#fff}
-.w2grid_customFilter_HC{background:#2C3238}
+.w2grid_customFilter_HC{background:#202020}
 .w2grid_customFilter_title{font-size:14px; color:#FFF; font-family:'LGSmHaR'; padding-left:15px; line-height:35px}
 .w2grid_customFilter_btnClose{margin:8px 15px 0 0; width:20px; height:20px; background:url(./../images/ico_close3.svg) no-repeat 50% 50%}
 .w2grid_customFilter_buttonGroup{top:128px !important; height:28px; margin-bottom:16px}
