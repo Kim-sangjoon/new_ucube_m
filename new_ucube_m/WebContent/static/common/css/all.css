@@ -70,8 +70,15 @@
     --ico-arrow-right24:url(./../images/ico_arrow_right24.svg);
     --ico-cbx1:url(./../images/ico_cbx1.svg);
     --ico-cbx2:url(./../images/ico_cbx2.svg);
+    --ico-cbx-indeterminate:url(./../images/ico_cbx_indeterminate.svg);
+    --textcolor-label-disable:#8996A3;
+    --ico-cbx1-disable:url(./../images/ico_cbx1_disable.svg);
+    --ico-cbx2-disable:url(./../images/ico_cbx2_disable.svg);
+    --ico-cbx-indeterminate-disable:url(./../images/ico_cbx_indeterminate_disable.svg);
     --ico-rdo1:url(./../images/ico_rdo1.svg);
     --ico-rdo2:url(./../images/ico_rdo2.svg);
+    --ico-rdo1-disable:url(./../images/ico_rdo1_disable.svg);
+    --ico-rdo2-disable:url(./../images/ico_rdo2_disable.svg);
     --textcolor-label:#202020;
     --bgbolor-searchbox-inputbox:#FFFFFF;
     --textcolor-searchbox-label:#8996A3;
@@ -196,6 +203,16 @@
     --ico-rightmenu-05-02:url(./../images/ico_rightmenu_05_02.svg);
     --ico-rightmenu-05-03:url(./../images/ico_rightmenu_05_03.svg);
     --ico-rightmenu-05-04:url(./../images/ico_rightmenu_05_04.svg);
+    --bgcolor-settoggle-on-bg:#ED3A72;
+    --bordercolor-settoggle-on-btn:#E0205C;
+    --bgcolor-settoggle-btn:#FFFFFF;
+    --bordercolor-settoggle-btn:#A5B3C2;
+    --bgcolor-settoggle-bg:#BEC9D4;
+    --bgcolor-settoggle-on-bg-disable:#FFC9D9;
+    --bordercolor-settoggle-on-btn-disable:#FFC9D9;
+    --bgcolor-settoggle-btn-disable:#FFFFFF;
+    --bordercolor-settoggle-btn-disable:#DAE3ED;
+    --bgcolor-settoggle-bg-disable:#DAE3ED;
 
 
 
@@ -276,8 +293,15 @@
     --ico-arrow-right24:url(./../images/ico_arrow_right24_dark.svg);
     --ico-cbx1:url(./../images/ico_cbx1_dark.svg);
     --ico-cbx2:url(./../images/ico_cbx2_dark.svg);
+    --ico-cbx-indeterminate:url(./../images/ico_cbx_indeterminate_dark.svg);
+    --textcolor-label-disable:#8E929E;
+    --ico-cbx1-disable:url(./../images/ico_cbx1_disable_dark.svg);
+    --ico-cbx2-disable:url(./../images/ico_cbx2_disable_dark.svg);
+    --ico-cbx-indeterminate-disable:url(./../images/ico_cbx_indeterminate_disable_dark.svg);
     --ico-rdo1:url(./../images/ico_rdo1_dark.svg);
     --ico-rdo2:url(./../images/ico_rdo2_dark.svg);
+    --ico-rdo1-disable:url(./../images/ico_rdo1_disable_dark.svg);
+    --ico-rdo2-disable:url(./../images/ico_rdo2_disable_dark.svg);
     --textcolor-label:#F5F6FA;
     --bgbolor-searchbox-inputbox:#29292B;
     --textcolor-searchbox-label:#A7ABB5;
@@ -402,6 +426,16 @@
     --ico-rightmenu-05-02:url(./../images/ico_rightmenu_05_02.svg);
     --ico-rightmenu-05-03:url(./../images/ico_rightmenu_05_03.svg);
     --ico-rightmenu-05-04:url(./../images/ico_rightmenu_05_04.svg);
+    --bgcolor-settoggle-on-bg:#F92465;
+    --bordercolor-settoggle-on-btn:#F92465;
+    --bgcolor-settoggle-btn:#EDF0F5;
+    --bordercolor-settoggle-btn:#A7ABB5;
+    --bgcolor-settoggle-bg:#45484F;
+    --bgcolor-settoggle-on-bg-disable:#87002B;
+    --bordercolor-settoggle-on-btn-disable:#87002B;
+    --bgcolor-settoggle-btn-disable:#70747D;
+    --bordercolor-settoggle-btn-disable:#45484F;
+    --bgcolor-settoggle-bg-disable:#424952;
 
 
 
@@ -477,15 +511,24 @@ textarea[readonly],
 textarea[disabled]{padding:11px; font-size:16px; color:#666; font-weight:normal; line-height:140%; height:78px; background:#eaeaea; border:1px solid #c0c0c0}
 .w2radio .w2radio_item, .w2checkbox .w2checkbox_item{display:inline-block; height:20px; padding-top:0; box-sizing:border-box}
 .w2radio .w2radio_item + .w2radio_item,
-.w2checkbox .w2checkbox_item + .w2checkbox_item{margin-left:8px}
+.w2checkbox .w2checkbox_item + .w2checkbox_item,
+.w2checkbox + .w2checkbox,
+.w2radio + .w2radio{margin-left:8px}
 
 input[type="radio"], input[type="checkbox"]{display:none}
 .w2radio_label, .w2checkbox_label, .w2table_ccb_col_label{position:relative; display:block; min-height:20px; line-height:20px; padding-left:24px; color:var(--textcolor-label); font-size:14px}
+.w2radio_label.w2radio_disabled, .w2checkbox_label.w2checkbox_disabled, .w2table_ccb_col_label.w2radio_disabled, .w2table_ccb_col_label.w2checkbox_disabled{color:var(--textcolor-label-disable)}
 .w2checkbox_label:before, .w2table_ccb_col_label:before{content:''; position:absolute; left:0; top:50%; width:20px; height:20px; margin-top:-10px; background:var(--ico-cbx1) no-repeat 0 0}
+.w2checkbox_label.w2checkbox_disabled:before, .w2table_ccb_col_label.w2checkbox_disabled:before{background:var(--ico-cbx1-disable)}
+.indeterminate .w2checkbox_label:before,.indeterminate .w2table_ccb_col_label:before{background:var(--ico-cbx-indeterminate)}
+.indeterminate .w2checkbox_label.w2checkbox_disabled:before,.indeterminate .w2table_ccb_col_label.w2checkbox_disabled:before{background:var(--ico-cbx-indeterminate-disable)}
 input[type="checkbox"]:checked + .w2checkbox_label:before, input[type="checkbox"]:checked + .w2table_ccb_col_label:before{background-image:var(--ico-cbx2)}
+input[type="checkbox"]:checked + .w2checkbox_label.w2checkbox_disabled:before, input[type="checkbox"]:checked + .w2table_ccb_col_label.w2checkbox_disabled:before{background-image:var(--ico-cbx2-disable)}
 
 .w2radio_label:before, .w2table_ccb_col_label:before{content:''; position:absolute; left:0; top:50%; width:20.5px; height:20px; margin-top:-10px; background:var(--ico-rdo1) no-repeat 0 0}
+.w2radio_label.w2radio_disabled:before, .w2table_ccb_col_label.w2radio_disabled:before{background:var(--ico-rdo1-disable) no-repeat 0 0}
 input[type="radio"]:checked + .w2radio_label:before, input[type="radio"]:checked + .w2table_ccb_col_label:before{background-image:var(--ico-rdo2)}
+input[type="radio"]:checked + .w2radio_label.w2radio_disabled:before, input[type="radio"]:checked + .w2table_ccb_col_label.w2radio_disabled:before{background-image:var(--ico-rdo2-disable)}
 
 .w2checkbox + span{font-size:14px; color:#202020; line-height:20px; vertical-align:middle; display:inline-block}
 .w2checkbox.filterbtn{height:27px}
@@ -1142,10 +1185,15 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow:hidd
 .settingbox .settingboxwrap ul.listbox li.item02 label::before{background:url(./../images/ico_setting_01_02.svg)}
 .settingbox .settingboxwrap ul.listbox li.item03 label::before{background:url(./../images/ico_setting_01_03.svg)}
 .settoggle{display:inline-block; position:relative; width:42px; height:26px; vertical-align:middle}
-.settoggle .bg{position:absolute; display:block; width:42px; height:16px; top:calc(50% - 8px); left:0; background:#BEC9D4; border-radius:16px; transition:all .2s}
-.settoggle .btn{position:absolute; display:block; width:26px; height:26px; top:0; left:0; background:#FFFFFF; border:2px solid #A5B3C2; box-sizing:border-box; border-radius:50%; transition:all .2s}
-.settoggle.on .btn{left:16px; border:2px solid #7B558D; transition:all .2s}
-.settoggle.on .bg{background:#A27FB1; transition:all .2s}
+.settoggle .bg{position:absolute; display:block; width:42px; height:16px; top:calc(50% - 8px); left:0; background:var(--bgcolor-settoggle-bg); border-radius:16px; transition:all .2s}
+.settoggle .btn{position:absolute; display:block; width:26px; height:26px; top:0; left:0; background:var(--bgcolor-settoggle-btn); border:2px solid var(--bordercolor-settoggle-btn); box-sizing:border-box; border-radius:50%; transition:all .2s}
+.settoggle.on .btn{left:16px; border:2px solid var(--bordercolor-settoggle-on-btn); transition:all .2s}
+.settoggle.on .bg{background:var(--bgcolor-settoggle-on-bg); transition:all .2s}
+
+.settoggle[disabled="true"] .bg{background:var(--bgcolor-settoggle-bg-disable)}
+.settoggle[disabled="true"] .btn{background:var(--bgcolor-settoggle-btn-disable); border:2px solid var(--bordercolor-settoggle-btn-disable)}
+.settoggle[disabled="true"].on .btn{border:2px solid var(--bordercolor-settoggle-on-btn-disable)}
+.settoggle[disabled="true"].on .bg{background:var(--bgcolor-settoggle-on-bg-disable)}
 
 /* alert confirm 메시지 */
 .alert{display:none}

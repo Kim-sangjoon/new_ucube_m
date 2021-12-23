@@ -78,142 +78,248 @@
     				<xf:group id="" style="" tagname="section">
     					<xf:group class="titlebox" id="" style="">
     						<w2:textbox id="" label="Searchbox - 상담이력" style="" tagname="h3"></w2:textbox>
-    					</xf:group><xf:group class="searchbox" id="" style="">
-    						
-    					<xf:group class="srchitem" id="" style="">
-    								<w2:textbox class="req" id="" label="조회기간" style="" tagname="label"></w2:textbox>
-    								<xf:group class="inputgroup" id="">
-    									<xf:input adjustMaxLength="false" allowChar="" applyFormat="" class="req" dataType="date" editType="" ev:onchange="" ev:onkeydown="" id="" placeholder="YYYY-MM-DD" style="" type="date">
-    										<w2:attributes>
-    											<w2:required></w2:required>
-    										</w2:attributes>
-    									</xf:input>
-    									<w2:textbox class="" id="" label="~" style="" tagname="span"></w2:textbox>
-    									<xf:input adjustMaxLength="false" allowChar="" applyFormat="" class="req" dataType="date" editType="" ev:onchange="" ev:onkeydown="" id="" placeholder="YYYY-MM-DD" style="" type="date">
-    										<w2:attributes>
-    											<w2:required></w2:required>
-    										</w2:attributes>
-    									</xf:input>
-    								</xf:group>
-    							</xf:group><xf:group class="srchitem" id="" style="">
-    								<w2:textbox class="req" id="" label="상품구분" style="" tagname="label"></w2:textbox>
-    								<xf:group class="inputgroup" id="">
-    									<xf:select1 allOption="true" appearance="minimal" chooseOption="" class="req" direction="auto" disabled="false" disabledClass="w2selectbox_disabled" displayMode="" id="" ref="" renderType="native" style="" submenuSize="auto">
+    					</xf:group>
+    					<xf:group class="searchbox" id="" style="">
+
+    						<xf:group class="srchitem" id="" style="">
+    							<w2:textbox class="req" id="" label="조회기간" style="" tagname="label"></w2:textbox>
+    							<xf:group class="inputgroup" id="">
+    								<xf:input adjustMaxLength="false" allowChar="" applyFormat="" class="req" dataType="date" editType=""
+    									ev:onchange="" ev:onkeydown="" id="" placeholder="YYYY-MM-DD" style="" type="date">
+    									<w2:attributes>
+    										<w2:required></w2:required>
+    									</w2:attributes>
+    								</xf:input>
+    								<w2:textbox class="" id="" label="~" style="" tagname="span"></w2:textbox>
+    								<xf:input adjustMaxLength="false" allowChar="" applyFormat="" class="req" dataType="date" editType=""
+    									ev:onchange="" ev:onkeydown="" id="" placeholder="YYYY-MM-DD" style="" type="date">
+    									<w2:attributes>
+    										<w2:required></w2:required>
+    									</w2:attributes>
+    								</xf:input>
+    							</xf:group>
+    						</xf:group>
+    						<xf:group class="srchitem" id="" style="">
+    							<w2:textbox class="req" id="" label="상품구분" style="" tagname="label"></w2:textbox>
+    							<xf:group class="inputgroup" id="">
+    								<xf:select1 allOption="true" appearance="minimal" chooseOption="" class="req" direction="auto"
+    									disabled="false" disabledClass="w2selectbox_disabled" displayMode="" id="" ref="" renderType="native" style=""
+    									submenuSize="auto">
+    									<xf:choices>
+    										<xf:item>
+    											<xf:label><![CDATA[상품1]]></xf:label>
+    											<xf:value></xf:value>
+    										</xf:item>
+    										<xf:item>
+    											<xf:label><![CDATA[상품2]]></xf:label>
+    											<xf:value></xf:value>
+    										</xf:item>
+    									</xf:choices>
+    								</xf:select1>
+    							</xf:group>
+    						</xf:group>
+    						<xf:group class="srchitem" id="" style="">
+    							<w2:textbox class="req" id="" label="이름" style="" tagname="label"></w2:textbox>
+    							<xf:group class="inputgroup" id="">
+    								<xf:input adjustMaxLength="false" allowChar="" applyFormat="" class="req" dataType="text" editType=""
+    									ev:onchange="" ev:onkeydown="" id="" placeholder="" style="" type="">
+    									<w2:attributes>
+    										<w2:required></w2:required>
+    									</w2:attributes>
+    								</xf:input>
+    							</xf:group>
+    						</xf:group>
+    						<xf:group class="srchitem" id="" style="">
+    							<w2:textbox class="req" id="" label="주민등록번호" style="" tagname="label"></w2:textbox>
+    							<xf:group class="inputgroup" id="">
+    								<xf:input adjustMaxLength="false" allowChar="" applyFormat="" class="req" dataType="number" editType=""
+    									ev:onchange="" ev:onkeydown="" id="" placeholder="" style="" type="number">
+    									<w2:attributes>
+    										<w2:required></w2:required>
+    									</w2:attributes>
+    								</xf:input>
+    								<w2:textbox class="" id="" label="-" style="" tagname="span"></w2:textbox>
+    								<xf:input adjustMaxLength="false" allowChar="" applyFormat="" class="req" dataType="number" editType=""
+    									ev:onchange="" ev:onkeydown="" id="" placeholder="" style="" type="number">
+    									<w2:attributes>
+    										<w2:required></w2:required>
+    									</w2:attributes>
+    								</xf:input>
+    							</xf:group>
+    						</xf:group>
+    						<xf:group class="srchitem" id="" style="">
+    							<w2:textbox class="req" id="" label="휴대폰번호" style="" tagname="label"></w2:textbox>
+    							<xf:group class="inputgroup" id="">
+    								<xf:group class="ly_form" id="">
+    									<xf:select1 allOption="" appearance="minimal" chooseOption="" class="req col1" direction="auto"
+    										disabled="false" disabledClass="w2selectbox_disabled" displayMode="" id="" ref="" renderType="native" style=""
+    										submenuSize="auto">
     										<xf:choices>
     											<xf:item>
-    												<xf:label><![CDATA[상품1]]></xf:label>
+    												<xf:label><![CDATA[010]]></xf:label>
     												<xf:value></xf:value>
     											</xf:item>
     											<xf:item>
-    												<xf:label><![CDATA[상품2]]></xf:label>
+    												<xf:label><![CDATA[011]]></xf:label>
     												<xf:value></xf:value>
     											</xf:item>
     										</xf:choices>
     									</xf:select1>
-    								</xf:group>
-    							</xf:group><xf:group class="srchitem" id="" style="">
-    								<w2:textbox class="req" id="" label="이름" style="" tagname="label"></w2:textbox>
-    								<xf:group class="inputgroup" id="">
-    									<xf:input adjustMaxLength="false" allowChar="" applyFormat="" class="req" dataType="text" editType="" ev:onchange="" ev:onkeydown="" id="" placeholder="" style="" type="">
+    									<xf:input adjustMaxLength="false" allowChar="" applyFormat="" class="req col3" dataType="number"
+    										editType="" ev:onchange="" ev:onkeydown="" id="" placeholder="" style="" type="number">
     										<w2:attributes>
     											<w2:required></w2:required>
     										</w2:attributes>
     									</xf:input>
     								</xf:group>
-    							</xf:group><xf:group class="srchitem" id="" style="">
-    								<w2:textbox class="req" id="" label="주민등록번호" style="" tagname="label"></w2:textbox>
-    								<xf:group class="inputgroup" id="">
-    									<xf:input adjustMaxLength="false" allowChar="" applyFormat="" class="req" dataType="number" editType="" ev:onchange="" ev:onkeydown="" id="" placeholder="" style="" type="number">
-    										<w2:attributes>
-    											<w2:required></w2:required>
-    										</w2:attributes>
-    									</xf:input>
-    									<w2:textbox class="" id="" label="-" style="" tagname="span"></w2:textbox>
-    									<xf:input adjustMaxLength="false" allowChar="" applyFormat="" class="req" dataType="number" editType="" ev:onchange="" ev:onkeydown="" id="" placeholder="" style="" type="number">
-    										<w2:attributes>
-    											<w2:required></w2:required>
-    										</w2:attributes>
-    									</xf:input>
-    								</xf:group>
-    							</xf:group><xf:group class="srchitem" id="" style="">
-    								<w2:textbox class="req" id="" label="휴대폰번호" style="" tagname="label"></w2:textbox>
-    								<xf:group class="inputgroup" id="">
-    									<xf:group class="ly_form" id="">
-    										<xf:select1 allOption="" appearance="minimal" chooseOption="" class="req col1" direction="auto" disabled="false" disabledClass="w2selectbox_disabled" displayMode="" id="" ref="" renderType="native" style="" submenuSize="auto">
-    											<xf:choices>
-    												<xf:item>
-    													<xf:label><![CDATA[010]]></xf:label>
-    													<xf:value></xf:value>
-    												</xf:item>
-    												<xf:item>
-    													<xf:label><![CDATA[011]]></xf:label>
-    													<xf:value></xf:value>
-    												</xf:item>
-    											</xf:choices>
-    										</xf:select1>
-    										<xf:input adjustMaxLength="false" allowChar="" applyFormat="" class="req col3" dataType="number" editType="" ev:onchange="" ev:onkeydown="" id="" placeholder="" style="" type="number">
-    											<w2:attributes>
-    												<w2:required></w2:required>
-    											</w2:attributes>
-    										</xf:input>
-    									</xf:group>
-    								</xf:group>
-    							</xf:group></xf:group>
+    							</xf:group>
+    						</xf:group>
+    					</xf:group>
     				</xf:group>
     				<xf:group id="" style="" tagname="section">
     					<xf:group class="titlebox" id="" style="">
     						<w2:textbox id="" label="Checkbox" style="" tagname="h3"></w2:textbox>
     					</xf:group>
-    					<xf:select appearance="full" cols="2" id="" ref="" renderType="checkboxgroup" rows="" selectedindex="-1" style="">
+    					<xf:group id="">
+    						<xf:select ref="" appearance="full" style="" id="" renderType="checkboxgroup" rows="" selectedindex="0"
+    							cols="">
+    							<xf:choices>
+    								<xf:item>
+    									<xf:label><![CDATA[Checked]]></xf:label>
+    									<xf:value><![CDATA[]]></xf:value>
+    								</xf:item>
+    							</xf:choices>
+    						</xf:select>
+    						<xf:select appearance="full" cols="" id="" ref="" renderType="checkboxgroup" rows="" selectedindex="-1"
+    							style="">
+    							<xf:choices>
+    								<xf:item>
+    									<xf:label><![CDATA[Unchecked]]></xf:label>
+    									<xf:value><![CDATA[]]></xf:value>
+    								</xf:item>
+    							</xf:choices>
+    						</xf:select>
+    						<xf:select appearance="full" cols="" id="" ref="" renderType="checkboxgroup" rows="" selectedindex="-1"
+    							style="" class="indeterminate">
+    							<xf:choices>
+    								<xf:item>
+    									<xf:label><![CDATA[Indeterminate]]></xf:label>
+    									<xf:value><![CDATA[]]></xf:value>
+    								</xf:item>
+    							</xf:choices>
+    						</xf:select>
+    					</xf:group>
+    					<xf:group id="" class="mt5">
+    						<xf:select appearance="full" cols="" id="" ref="" renderType="checkboxgroup" rows="" selectedindex="0"
+    							style="" separator="" disabled="true">
+    							<xf:choices>
+    								<xf:item>
+    									<xf:label><![CDATA[Checked]]></xf:label>
+    									<xf:value></xf:value>
+    								</xf:item>
+    							</xf:choices>
+    						</xf:select>
+    						<xf:select appearance="full" cols="" id="" ref="" renderType="checkboxgroup" rows="" selectedindex="-1"
+    							style="" separator="" disabled="true">
+    							<xf:choices>
+    								<xf:item>
+    									<xf:label><![CDATA[Unchecked]]></xf:label>
+    									<xf:value></xf:value>
+    								</xf:item>
+    							</xf:choices>
+    						</xf:select>
+    						<xf:select appearance="full" cols="" id="" ref="" renderType="checkboxgroup" rows="" selectedindex="-1"
+    							style="" separator="" disabled="true" class="indeterminate">
+    							<xf:choices>
+    								<xf:item>
+    									<xf:label><![CDATA[Indeterminate]]></xf:label>
+    									<xf:value></xf:value>
+    								</xf:item>
+    							</xf:choices>
+    						</xf:select>
+    					</xf:group></xf:group>
+    				<xf:group id="" style="" tagname="section">
+    					<xf:group class="titlebox" id="" style="">
+    						<w2:textbox id="" label="Radio" style="" tagname="h3"></w2:textbox>
+    					</xf:group>
+    					<xf:group id="">
+    						<xf:select1 ref="" appearance="full" style="" id="" renderType="radiogroup" rows="" cols=""
+    							selectedIndex="0">
+    							<xf:choices>
+    								<xf:item>
+    									<xf:label><![CDATA[item1]]></xf:label>
+    									<xf:value><![CDATA[]]></xf:value>
+    								</xf:item>
+    								<xf:item>
+    									<xf:label><![CDATA[item2]]></xf:label>
+    									<xf:value><![CDATA[]]></xf:value>
+    								</xf:item>
+    								<xf:item>
+    									<xf:label><![CDATA[item3]]></xf:label>
+    									<xf:value><![CDATA[]]></xf:value>
+    								</xf:item>
+    							</xf:choices>
+    						</xf:select1>
+    					</xf:group>
+    					<xf:group id="" style="" class="mt5">
+    						<xf:select1 appearance="full" cols="" id="" ref="" renderType="radiogroup" rows="" selectedIndex="0"
+    							style="" disabled="true">
+    							<xf:choices>
+    								<xf:item>
+    									<xf:label><![CDATA[item1]]></xf:label>
+    									<xf:value></xf:value>
+    								</xf:item>
+    								<xf:item>
+    									<xf:label><![CDATA[item2]]></xf:label>
+    									<xf:value></xf:value>
+    								</xf:item>
+    								<xf:item>
+    									<xf:label><![CDATA[item3]]></xf:label>
+    									<xf:value></xf:value>
+    								</xf:item>
+    							</xf:choices>
+    						</xf:select1>
+    					</xf:group>
+    				</xf:group>
+    				<xf:group id="" style="" tagname="section">
+    					<xf:group class="titlebox" id="" style="">
+    						<w2:textbox id="" label="Filter" style="" tagname="h3"></w2:textbox>
+    					</xf:group>
+    					<xf:select appearance="full" class="filterbtn" cols="" ev:onviewchange="scwin.statusChekGroup_onviewchange"
+    						id="" ref="" renderType="checkboxgroup" rows="" selectedindex="-1" style="">
     						<xf:choices>
     							<xf:item>
-    								<xf:label><![CDATA[item1]]></xf:label>
-    								<xf:value><![CDATA[]]></xf:value>
+    								<xf:label><![CDATA[필터1]]></xf:label>
+    								<xf:value><![CDATA[0]]></xf:value>
     							</xf:item>
     							<xf:item>
-    								<xf:label><![CDATA[item2]]></xf:label>
-    								<xf:value><![CDATA[]]></xf:value>
+    								<xf:label><![CDATA[필터2]]></xf:label>
+    								<xf:value><![CDATA[1]]></xf:value>
     							</xf:item>
     							<xf:item>
-    								<xf:label><![CDATA[item3]]></xf:label>
-    								<xf:value><![CDATA[]]></xf:value>
+    								<xf:label><![CDATA[필터3]]></xf:label>
+    								<xf:value><![CDATA[2]]></xf:value>
+    							</xf:item>
+    							<xf:item>
+    								<xf:label><![CDATA[필터4]]></xf:label>
+    								<xf:value><![CDATA[3]]></xf:value>
     							</xf:item>
     						</xf:choices>
     					</xf:select>
     				</xf:group>
     				<xf:group id="" style="" tagname="section">
     					<xf:group class="titlebox" id="" style="">
-    						<w2:textbox id="" label="Radio" style="" tagname="h3"></w2:textbox>
-    					</xf:group>
-    					<xf:select1 id="" selectedIndex="-1" appearance="full" style="" renderType="radiogroup" cols="" rows="" ref="">
-    						<xf:choices>
-    							<xf:item>
-    								<xf:label><![CDATA[item1]]></xf:label>
-    								<xf:value><![CDATA[]]></xf:value>
-    							</xf:item>
-    							<xf:item>
-    								<xf:label><![CDATA[item2]]></xf:label>
-    								<xf:value><![CDATA[]]></xf:value>
-    							</xf:item>
-    							<xf:item>
-    								<xf:label><![CDATA[item3]]></xf:label>
-    								<xf:value><![CDATA[]]></xf:value>
-    							</xf:item>
-    						</xf:choices>
-    					</xf:select1>
-    				</xf:group>
-    				<xf:group id="" style="" tagname="section">
-    					<xf:group class="titlebox" id="" style="">
     						<w2:textbox id="" label="주소입력" style="" tagname="h3"></w2:textbox>
-    					</xf:group><xf:group class="searchbox_type2" id="" style="">
-    					<xf:group adaptiveThreshold="" class="inputbox" id="" style="">
-    						<xf:group class="boxitem" id="" style="">
-    							<xf:input adjustMaxLength="false" class="adsearch" id="" placeholder="Placeholder" style=""></xf:input>
+    					</xf:group>
+    					<xf:group class="searchbox_type2" id="" style="">
+    						<xf:group adaptiveThreshold="" class="inputbox" id="" style="">
+    							<xf:group class="boxitem" id="" style="">
+    								<xf:input adjustMaxLength="false" class="adsearch" id="" placeholder="Placeholder" style=""></xf:input>
+    							</xf:group>
     						</xf:group>
     					</xf:group>
     				</xf:group>
-    				</xf:group>
-    				
+
 
     			</xf:group>
     		</xf:group>
