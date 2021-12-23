@@ -213,6 +213,16 @@
     --bgcolor-settoggle-btn-disable:#FFFFFF;
     --bordercolor-settoggle-btn-disable:#DAE3ED;
     --bgcolor-settoggle-bg-disable:#DAE3ED;
+    --bordercolor-focus:#7B558D;
+    --bordercolor-searchbox-inputbox-boxitem-bottom-focus:#7B558D;
+    --bgcolor-input-disabled:#E8EFF5;
+    --bordercolor-input-disabled:#E8EFF5;
+    --textcolor-input-disabled:#8996A3;
+    --bgcolor-input-req:#E0FCF9;
+    --bordercolor-input-req:#BEC9D4;
+    --bgcolor-input-req-focus:#E0FCF9;
+    --bordercolor-input-req-focus:#7B558D;
+    --bordercolor-select:#BEC9D4;
 
 
 
@@ -436,6 +446,16 @@
     --bgcolor-settoggle-btn-disable:#70747D;
     --bordercolor-settoggle-btn-disable:#45484F;
     --bgcolor-settoggle-bg-disable:#424952;
+    --bordercolor-focus:#F5F6FA;
+    --bordercolor-searchbox-inputbox-boxitem-bottom-focus:#F5F6FA;
+    --bgcolor-input-disabled:#3B3C41;
+    --bordercolor-input-disabled:#3B3C41;
+    --textcolor-input-disabled:#8E929E;
+    --bgcolor-input-req:#29292B;
+    --bordercolor-input-req:#2FB8A8;
+    --bgcolor-input-req-focus:#29292B;
+    --bordercolor-input-req-focus:#F5F6FA;
+    --bordercolor-select:#70747D;
 
 
 
@@ -487,16 +507,19 @@ input[type=datetime-local],
 input[type=month],
 input[type=week],
 textarea,
-select{width:100%; height:40px; padding-left:8px; box-sizing:border-box; font-size:14px; color:var(--textcolor-input); border:1px solid var(--bordercolor-input); background:var(--bgcolor-input); text-indent:0; border-radius:0px; transition:all 0.5s; vertical-align:middle}
+.w2textarea,
+select{width:100%; height:40px; padding-left:8px; box-sizing:border-box; font-size:14px; color:var(--textcolor-input); border:1px solid var(--bordercolor-input); background:var(--bgcolor-input); text-indent:0; border-radius:0px; vertical-align:middle}
 input[type=text],
 input[type=number],
 input[type=password]{padding-left:8px}
 
+.w2textarea{padding: 8px; font-family: inherit; height: 100px; line-height: 21px; resize: none}
+textarea::-webkit-input-placeholder{color:var(--textcolor-input-placeholder)}
 
 input::-webkit-input-placeholder{color:var(--textcolor-input-placeholder); font-size:14px; line-height:100%; font-weight:300; letter-spacing:-0.02em}
 select:focus,
 textarea:focus,
-input:not([type=button]):focus{border:1px solid #727272}
+input:not([type=button]):focus{border:1px solid var(--bordercolor-focus)}
 input[type=tel][readonly],
 input[type=text][readonly],
 input[type=password][readonly],
@@ -506,9 +529,10 @@ input[type=tel][disabled],
 input[type=text][disabled],
 input[type=password][disabled],
 input[type=search][disabled],
-input[type=email][disabled]{background:#eaeaea; border-color:#c0c0c0; color:#666; -webkit-appearance:none; font-size:12px}
+input[type=email][disabled],
 textarea[readonly],
-textarea[disabled]{padding:11px; font-size:16px; color:#666; font-weight:normal; line-height:140%; height:78px; background:#eaeaea; border:1px solid #c0c0c0}
+textarea[disabled]{background:var(--bgcolor-input-disabled); border-color:var(--bordercolor-input-disabled); color:var(--textcolor-input-disabled); -webkit-appearance:none}
+
 .w2radio .w2radio_item, .w2checkbox .w2checkbox_item{display:inline-block; height:20px; padding-top:0; box-sizing:border-box}
 .w2radio .w2radio_item + .w2radio_item,
 .w2checkbox .w2checkbox_item + .w2checkbox_item,
@@ -571,7 +595,7 @@ input[type="radio"]:checked + .w2radio_label.w2radio_disabled:before, input[type
 .inputgroup input[type=date]:focus::before,
 .inputgroup input[type=date]:valid::before{display:none}
 .inputgroup .w2selectbox_native{width:100%; border:none}
-.inputgroup .w2selectbox_native_select{-webkit-appearance:none;  -moz-appearance:none; appearance:none; height:40px; border:1px solid #BEC9D4; background:url(./../images/ico_select.svg) no-repeat calc(100% - 8px) center; padding-left:8px; padding-right:28px}
+.inputgroup .w2selectbox_native_select{-webkit-appearance:none;  -moz-appearance:none; appearance:none; height:40px; border:1px solid var(--bordercolor-select); background:url(./../images/ico_select.svg) no-repeat calc(100% - 8px) center; padding-left:8px; padding-right:28px}
 .inputgroup .w2selectbox_native_select:focus{border:1px solid #727272}
 .inputgroup .w2selectbox_native_select::-ms-expand{display:none}
 
@@ -748,6 +772,7 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow:hidd
 .searchbox label{display:inline-block; position:relative; font-weight:700; color:var(--textcolor-searchbox-label); font-size:14px; line-height:20px}
 .searchbox label.req::after{content:''; display:block; position:absolute; top:0; right:-7px; width:6px; height:21px; background:url(./../images/ico_req.svg)}
 .searchbox .inputbox .boxitem input[type=text]{background:transparent; border:none; border-bottom:1px solid var(--bordercolor-searchbox-inputbox-boxitem-bottom); padding:0px; height:32px}
+.searchbox .inputbox .boxitem input[type=text]:focus{border-bottom:2px solid var(--bordercolor-searchbox-inputbox-boxitem-bottom-focus);}
 .searchbox .inputbox .boxitem input.ico_address{padding-left:36px; background:url(./../images/ico_address.svg) no-repeat; background-position:0 1px; /*width:calc(100% - 36px)*/}
 .searchbox .inputbox .boxitem input.req{border-bottom:1px solid #2FB8A8}
 .searchboxwrap{padding:16px 16px 24px 16px}
@@ -757,7 +782,9 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow:hidd
 .inputgroup > *{margin-left:4px}
 .inputgroup > *:first-child{margin-left:0}
 .inputgroup span{line-height:40px}
-.inputgroup input.req, .inputgroup .w2selectbox_native.req{background-color:#E0FCF9}
+.inputgroup input, .inputgroup .w2selectbox_native{background-color:var(--bgcolor-input); border-color:var(--bordercolor-input)}
+.inputgroup input.req, .inputgroup .w2selectbox_native.req{background-color:var(--bgcolor-input-req); border-color:var(--bordercolor-input-req)}
+.inputgroup input.req:focus, .inputgroup .w2selectbox_native.req:focus{background-color:var(--bgcolor-input-req-focus); border-color:var(--bordercolor-input-req-focus)}
 .inputgroup input.date{padding:0 9px 0 40px; background-image:url(./../images/ico_cal22.svg); background-repeat:no-repeat; background-position:9px center}
 .btnbox{margin-top:24px; display:flex; flex-direction:row; justify-content:space-between}
 .btnbox .selbtn + .selbtn{margin-top:8px}
