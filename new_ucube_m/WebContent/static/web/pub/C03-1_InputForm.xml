@@ -17,7 +17,7 @@
          <script type="text/javascript" lazy="false"><![CDATA[
         
 	scwin.onpageload = function() {
-		
+		msg01.setValue("Disabled");
 	};
 	
 	scwin.onpageunload = function() {
@@ -360,7 +360,7 @@
     						<w2:textbox id="" label="Textarea" style="" tagname="h3"></w2:textbox>
     					</xf:group>
     					<xf:textarea id="" style="" placeholder="Placeholder"></xf:textarea>
-    					<xf:textarea id="" placeholder="Placeholder" style="" class="mt5" disabled="true"></xf:textarea>
+    					<xf:textarea id="msg01" placeholder="Placeholder" style="" class="mt5" disabled="" readOnly="true"></xf:textarea>
     				</xf:group>
 
 

@@ -223,6 +223,7 @@
     --bgcolor-input-req-focus:#E0FCF9;
     --bordercolor-input-req-focus:#7B558D;
     --bordercolor-select:#BEC9D4;
+    --ico-select:url(./../images/ico_select.svg);
 
 
 
@@ -456,6 +457,7 @@
     --bgcolor-input-req-focus:#29292B;
     --bordercolor-input-req-focus:#F5F6FA;
     --bordercolor-select:#70747D;
+    --ico-select:url(./../images/ico_select_dark.svg);
 
 
 
@@ -539,6 +541,8 @@ textarea[disabled]{background:var(--bgcolor-input-disabled); border-color:var(--
 .w2checkbox + .w2checkbox,
 .w2radio + .w2radio{margin-left:8px}
 
+option {font-weight: 400; display: block; white-space: nowrap; min-height: 1.2em; padding: 0px 2px 1px}
+
 input[type="radio"], input[type="checkbox"]{display:none}
 .w2radio_label, .w2checkbox_label, .w2table_ccb_col_label{position:relative; display:block; min-height:20px; line-height:20px; padding-left:24px; color:var(--textcolor-label); font-size:14px}
 .w2radio_label.w2radio_disabled, .w2checkbox_label.w2checkbox_disabled, .w2table_ccb_col_label.w2radio_disabled, .w2table_ccb_col_label.w2checkbox_disabled{color:var(--textcolor-label-disable)}
@@ -595,14 +599,16 @@ input[type="radio"]:checked + .w2radio_label.w2radio_disabled:before, input[type
 .inputgroup input[type=date]:focus::before,
 .inputgroup input[type=date]:valid::before{display:none}
 .inputgroup .w2selectbox_native{width:100%; border:none}
-.inputgroup .w2selectbox_native_select{-webkit-appearance:none;  -moz-appearance:none; appearance:none; height:40px; border:1px solid var(--bordercolor-select); background:url(./../images/ico_select.svg) no-repeat calc(100% - 8px) center; padding-left:8px; padding-right:28px}
-.inputgroup .w2selectbox_native_select:focus{border:1px solid #727272}
+.inputgroup .w2selectbox_native_select{-webkit-appearance:none;  -moz-appearance:none; appearance:none; height:40px; border:1px solid var(--bordercolor-select); background:var(--ico-select) no-repeat calc(100% - 8px) center; padding-left:8px; padding-right:28px}
+.inputgroup .req .w2selectbox_native_select{border:1px solid var(--bordercolor-input-req)}
+.inputgroup .w2selectbox_native_select:focus{border:1px solid var(--bordercolor-focus)}
 .inputgroup .w2selectbox_native_select::-ms-expand{display:none}
 
 /* .titlebargroup{margin-top:8px} */
 .titlebargroup .w2selectbox_native{width:100%; border:none}
-.titlebargroup .w2selectbox_native_select{-webkit-appearance:none;  -moz-appearance:none; appearance:none; height:32px; border:1px solid #BEC9D4; background:url(./../images/ico_select.svg) no-repeat calc(100% - 8px) center; padding-left:8px; padding-right:28px}
-.titlebargroup .w2selectbox_native_select:focus{border:1px solid #727272}
+.titlebargroup .w2selectbox_native_select{-webkit-appearance:none;  -moz-appearance:none; appearance:none; height:32px; border:1px solid var(--bordercolor-select); background:var(--ico-select) no-repeat calc(100% - 8px) center; padding-left:8px; padding-right:28px}
+.titlebargroup .req .w2selectbox_native_select{border:1px solid var(--bordercolor-input-req)}
+.titlebargroup .w2selectbox_native_select:focus{border:1px solid var(--bordercolor-focus)}
 .titlebargroup .w2selectbox_native_select::-ms-expand{display:none}
 
 .clear{clear:both}
