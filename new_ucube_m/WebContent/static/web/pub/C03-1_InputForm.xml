@@ -90,7 +90,7 @@
     					<xf:group class="searchbox" id="" style="">
 
     						<xf:group class="srchitem" id="" style="">
-    							<w2:textbox class="req" id="" label="조회기간" style="" tagname="label"></w2:textbox>
+    							<w2:textbox class="req" id="" label="조회기간(native)" style="" tagname="label"></w2:textbox>
     							<xf:group class="inputgroup" id="">
     								<xf:input adjustMaxLength="false" allowChar="" applyFormat="" class="req" dataType="date" editType=""
     									ev:onchange="" ev:onkeydown="" id="" placeholder="YYYY-MM-DD" style="" type="date">
@@ -105,6 +105,20 @@
     										<w2:required></w2:required>
     									</w2:attributes>
     								</xf:input>
+    							</xf:group>
+    						</xf:group>
+    						<xf:group class="srchitem" id="" style="">
+    							<w2:textbox class="req" id="" label="조회기간(websquare component)" style="" tagname="label"></w2:textbox>
+    							<xf:group class="inputgroup" id="">
+    								<w2:inputCalendar calendarValueType="yearMonthDate" class="req" displayFormat=""
+    									focusOnDateSelect="false" footerDiv="false" id="" readOnly="" renderDiv="true" renderType="component" rightAlign="false"
+    									style="" placeholder="YYYY-MM-DD">
+    								</w2:inputCalendar>
+    								<w2:textbox class="" id="" label="~" style="" tagname="span"></w2:textbox>
+    								<w2:inputCalendar calendarValueType="yearMonthDate" class="" displayFormat=""
+    									focusOnDateSelect="false" footerDiv="false" id="" readOnly="" renderDiv="true" renderType="component" rightAlign="false"
+    									style="" placeholder="YYYY-MM-DD">
+    								</w2:inputCalendar>
     							</xf:group>
     						</xf:group>
     						<xf:group class="srchitem" id="" style="">
