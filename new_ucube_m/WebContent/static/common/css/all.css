@@ -224,6 +224,8 @@
     --bordercolor-input-req-focus:#7B558D;
     --bordercolor-select:#BEC9D4;
     --ico-select:url(./../images/ico_select.svg);
+    --bordercolor-searchbox-inputbox-boxitem-bottom-disable:#BEC9D4;
+    --bgcolor-selectbox:#FFFFFF;
 
 
 
@@ -458,6 +460,8 @@
     --bordercolor-input-req-focus:#F5F6FA;
     --bordercolor-select:#70747D;
     --ico-select:url(./../images/ico_select_dark.svg);
+    --bordercolor-searchbox-inputbox-boxitem-bottom-disable:#595D66;
+    --bgcolor-selectbox:#29292B;
 
 
 
@@ -513,12 +517,12 @@ textarea,
 select{width:100%; height:40px; padding-left:8px; box-sizing:border-box; font-size:14px; color:var(--textcolor-input); border:1px solid var(--bordercolor-input); background:var(--bgcolor-input); text-indent:0; border-radius:0px; vertical-align:middle}
 input[type=text],
 input[type=number],
-input[type=password]{padding-left:8px}
+input[type=password]{padding-left:8px; padding-right:8px}
 
 .w2textarea{padding: 8px; font-family: inherit; height: 100px; line-height: 21px; resize: none}
 textarea::-webkit-input-placeholder{color:var(--textcolor-input-placeholder)}
 
-input::-webkit-input-placeholder{color:var(--textcolor-input-placeholder); font-size:14px; line-height:100%; font-weight:300; letter-spacing:-0.02em}
+input::-webkit-input-placeholder{color:var(--textcolor-input-placeholder); font-size:14px; line-height:21px; font-weight:400; letter-spacing:-0.02em}
 select:focus,
 textarea:focus,
 input:not([type=button]):focus{border:1px solid var(--bordercolor-focus)}
@@ -534,6 +538,8 @@ input[type=search][disabled],
 input[type=email][disabled],
 textarea[readonly],
 textarea[disabled]{background:var(--bgcolor-input-disabled); border-color:var(--bordercolor-input-disabled); color:var(--textcolor-input-disabled); -webkit-appearance:none}
+
+input[type="search"]::-webkit-search-cancel-button{-webkit-appearance: none; display:block; height:24px; width:24px; background:url(./../images/ico_search_delete.svg) no-repeat}
 
 .w2radio .w2radio_item, .w2checkbox .w2checkbox_item{display:inline-block; height:20px; padding-top:0; box-sizing:border-box}
 .w2radio .w2radio_item + .w2radio_item,
@@ -599,8 +605,8 @@ input[type="radio"]:checked + .w2radio_label.w2radio_disabled:before, input[type
 .inputgroup input[type=date]:focus::before,
 .inputgroup input[type=date]:valid::before{display:none}
 .inputgroup .w2selectbox_native{width:100%; border:none}
-.inputgroup .w2selectbox_native_select{-webkit-appearance:none;  -moz-appearance:none; appearance:none; height:40px; border:1px solid var(--bordercolor-select); background:var(--ico-select) no-repeat calc(100% - 8px) center; padding-left:8px; padding-right:28px}
-.inputgroup .req .w2selectbox_native_select{border:1px solid var(--bordercolor-input-req)}
+.inputgroup .w2selectbox_native_select{-webkit-appearance:none;  -moz-appearance:none; appearance:none; height:40px; border:1px solid var(--bordercolor-select); background-image:var(--ico-select); background-repeat: no-repeat; background-position: calc(100% - 8px) center; background-color:var(--bgcolor-selectbox); padding-left:8px; padding-right:28px}
+.inputgroup .req .w2selectbox_native_select{border:1px solid var(--bordercolor-input-req); background-color: var(--bgcolor-input-req);}
 .inputgroup .w2selectbox_native_select:focus{border:1px solid var(--bordercolor-focus)}
 .inputgroup .w2selectbox_native_select::-ms-expand{display:none}
 
@@ -777,10 +783,19 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow:hidd
 .searchbox .inputbox .boxitem:first-child{margin-top:0px}
 .searchbox label{display:inline-block; position:relative; font-weight:700; color:var(--textcolor-searchbox-label); font-size:14px; line-height:20px}
 .searchbox label.req::after{content:''; display:block; position:absolute; top:0; right:-7px; width:6px; height:21px; background:url(./../images/ico_req.svg)}
-.searchbox .inputbox .boxitem input[type=text]{background:transparent; border:none; border-bottom:1px solid var(--bordercolor-searchbox-inputbox-boxitem-bottom); padding:0px; height:32px}
-.searchbox .inputbox .boxitem input[type=text]:focus{border-bottom:2px solid var(--bordercolor-searchbox-inputbox-boxitem-bottom-focus);}
+.searchbox .inputbox .boxitem input[type=text],
+.searchbox .inputbox .boxitem input[type=search]{background:transparent; border:none; border-bottom:1px solid var(--bordercolor-searchbox-inputbox-boxitem-bottom); padding:0px; height:32px}
+.searchbox .inputbox .boxitem input[type=text]:focus,
+.searchbox .inputbox .boxitem input[type=search]:focus{border-bottom:2px solid var(--bordercolor-searchbox-inputbox-boxitem-bottom-focus);}
 .searchbox .inputbox .boxitem input.ico_address{padding-left:36px; background:url(./../images/ico_address.svg) no-repeat; background-position:0 1px; /*width:calc(100% - 36px)*/}
 .searchbox .inputbox .boxitem input.req{border-bottom:1px solid #2FB8A8}
+
+.searchbox .inputbox .boxitem input[type=text][readonly],
+.searchbox .inputbox .boxitem input[type=text][disabled],
+.searchbox .inputbox .boxitem input[type=search][readonly],
+.searchbox .inputbox .boxitem input[type=search][disabled]{border-bottom:1px dashed var(--bordercolor-searchbox-inputbox-boxitem-bottom-disable);}
+
+
 .searchboxwrap{padding:16px 16px 24px 16px}
 .srchitem label{margin:16px 0 9px 0}
 .srchitem:first-child label{margin-top:0}
@@ -1060,7 +1075,9 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow:hidd
 .messagebox .bottomfix.main{position:fixed; background:var(--bgcolor-messagebox-bottomfix-main); padding:16px; bottom:72px; width:calc(100% - 32px); box-shadow:var(--shadow-messagebox-bottomfix-main)}
 .messagebox .bottomfix.main .btnbox{margin-top:0; padding:0}
 .confirmbox{margin-top:30px}
-.searchbox_type2 input.adsearch{padding-left:40px; background:url(./../images/ico_search32.svg) no-repeat 4px 4px var(--bgcolor-input)}
+.searchbox_type2 input.adsearch{padding-left:40px; background-image:url(./../images/ico_search32.svg); background-position-x:4px; background-position-y:4px; background-repeat: no-repeat}
+/* .searchbox_type2 input.adsearch[disabled],
+.searchbox_type2 input.adsearch[readonly]{background-color:#E8EFF5} */
 
 /* 내알림 */
 .alram_listbox + .alram_listbox{margin-top:10px}
@@ -1574,6 +1591,10 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow:hidd
 .wd-650{width:650px !important}
 .wd-700{width:700px !important}
 .wd-full{width:100% !important; min-width:0}
+
+.tar{text-align:right}
+.tal{text-align:left}
+.tac{text-align:center}
 
 .h50p{height: calc(50% - 45px)}
 .h100p{height: calc(100% - 100px)}

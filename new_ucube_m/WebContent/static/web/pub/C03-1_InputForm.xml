@@ -49,10 +49,13 @@
     								<xf:input adjustMaxLength="false" class="" dataType="number" ev:onchange=""
     									ev:onkeydown="scwin.ipxMoProductNo_onkeydown" id="ipxMoProductNo" placeholder="01000000000" style="">
     								</xf:input>
+    								<xf:input adjustMaxLength="false" class="tar" dataType="number" ev:onchange=""
+    									ev:onkeydown="scwin.ipxMoProductNo_onkeydown" id="input2" placeholder="01000000000" style="">
+    								</xf:input>
     							</xf:group>
     							<xf:group class="boxitem" id="" style="">
-    								<w2:textbox id="" label="고객명" style="" tagname="label"></w2:textbox>
-    								<xf:input adjustMaxLength="false" id="" placeholder="홍길동" style=""></xf:input>
+    								<w2:textbox id="" label="고객명(disable)" style="" tagname="label"></w2:textbox>
+    								<xf:input adjustMaxLength="false" id="" placeholder="홍길동" style="" disabled="true"></xf:input>
     							</xf:group>
     							<xf:group class="boxitem" id="" style="">
     								<w2:textbox class="req" id="" label="고객명" style="" tagname="label"></w2:textbox>
@@ -70,7 +73,12 @@
     							</xf:group>
     							<xf:group class="boxitem" id="" style="">
     								<w2:textbox id="" label="설치주소(시군구)" style="" tagname="label"></w2:textbox>
-    								<xf:input adjustMaxLength="false" class="ico_address" id="" placeholder="설치주소 검색입력" style=""></xf:input>
+    								<xf:input adjustMaxLength="false" class="ico_address" id="" placeholder="설치주소 검색입력" style="" dataType=""
+    									type="search">
+    								</xf:input>
+    								<xf:input adjustMaxLength="false" class="ico_address" dataType="" id="" placeholder="설치주소 검색입력" style=""
+    									type="search" disabled="true">
+    								</xf:input>
     							</xf:group>
     						</xf:group>
     					</xf:group>
@@ -100,9 +108,39 @@
     							</xf:group>
     						</xf:group>
     						<xf:group class="srchitem" id="" style="">
-    							<w2:textbox class="req" id="" label="상품구분" style="" tagname="label"></w2:textbox>
+    							<w2:textbox class="req" id="" label="selectBox native" style="" tagname="label"></w2:textbox>
     							<xf:group class="inputgroup" id="">
     								<xf:select1 allOption="true" appearance="minimal" chooseOption="" class="req" direction="auto"
+    									disabled="false" disabledClass="w2selectbox_disabled" displayMode="" id="" ref="" renderType="native" style=""
+    									submenuSize="auto">
+    									<xf:choices>
+    										<xf:item>
+    											<xf:label><![CDATA[상품1]]></xf:label>
+    											<xf:value></xf:value>
+    										</xf:item>
+    										<xf:item>
+    											<xf:label><![CDATA[상품2]]></xf:label>
+    											<xf:value></xf:value>
+    										</xf:item>
+    									</xf:choices>
+    								</xf:select1>
+    								<xf:select1 allOption="true" appearance="minimal" chooseOption="" class="" direction="auto"
+    									disabled="false" disabledClass="w2selectbox_disabled" displayMode="" id="" ref="" renderType="native" style=""
+    									submenuSize="auto">
+    									<xf:choices>
+    										<xf:item>
+    											<xf:label><![CDATA[상품1]]></xf:label>
+    											<xf:value></xf:value>
+    										</xf:item>
+    										<xf:item>
+    											<xf:label><![CDATA[상품2]]></xf:label>
+    											<xf:value></xf:value>
+    										</xf:item>
+    									</xf:choices>
+    								</xf:select1>
+    							</xf:group>
+    							<xf:group class="inputgroup" id="" style="">
+    								<xf:select1 allOption="true" appearance="minimal" chooseOption="" class="" direction="auto"
     									disabled="false" disabledClass="w2selectbox_disabled" displayMode="" id="" ref="" renderType="native" style=""
     									submenuSize="auto">
     									<xf:choices>
@@ -129,12 +167,19 @@
     								</xf:input>
     								<xf:input adjustMaxLength="false" allowChar="" applyFormat="" class="" dataType="text" editType=""
     									ev:onchange="" ev:onkeydown="" id="" placeholder="" style="" type="">
-    									<w2:attributes>
-    										<w2:required></w2:required>
-    									</w2:attributes>
     								</xf:input>
     								<xf:input adjustMaxLength="false" allowChar="" applyFormat="" class="" dataType="text" editType=""
     									ev:onchange="" ev:onkeydown="" id="" placeholder="" style="" type="" disabled="true">
+    								</xf:input>
+    							</xf:group>
+    							<xf:group class="inputgroup" id="" style="">
+    								<xf:input adjustMaxLength="false" allowChar="" applyFormat="" class="tar" dataType="text" disabled=""
+    									editType="" ev:onchange="" ev:onkeydown="" id="" placeholder="text-align : right" style="" type="">
+    								</xf:input>
+    							</xf:group>
+    							<xf:group class="inputgroup" id="" style="">
+    								<xf:input adjustMaxLength="false" allowChar="" applyFormat="" class="col3" dataType="" editType=""
+    									ev:onchange="" ev:onkeydown="" id="" placeholder="" style="" type="text">
     									<w2:attributes>
     										<w2:required></w2:required>
     									</w2:attributes>
@@ -350,7 +395,18 @@
     					<xf:group class="searchbox_type2" id="" style="">
     						<xf:group adaptiveThreshold="" class="inputbox" id="" style="">
     							<xf:group class="boxitem" id="" style="">
-    								<xf:input adjustMaxLength="false" class="adsearch" id="" placeholder="Placeholder" style=""></xf:input>
+    								<xf:input adjustMaxLength="false" class="adsearch" id="" placeholder="Placeholder" style=""
+    									type="search">
+    								</xf:input>
+    							</xf:group>
+    						</xf:group>
+    					</xf:group>
+    					<xf:group class="searchbox_type2" id="" style="">
+    						<xf:group adaptiveThreshold="" class="inputbox" id="" style="">
+    							<xf:group class="boxitem" id="" style="">
+    								<xf:input adjustMaxLength="false" class="adsearch" id="" placeholder="Placeholder" style=""
+    									type="search" disabled="true">
+    								</xf:input>
     							</xf:group>
     						</xf:group>
     					</xf:group>
