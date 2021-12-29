@@ -25,8 +25,6 @@
 		<w2:require src="../../../common/udc/udc_rangeCalendar.xml"></w2:require>
 		<w2:require src="../../../common/udc/udc_timePicker.xml"></w2:require>
 		<w2:require src="../../../static"></w2:require>
-		<w2:require src="/common/udc/udc_rangeCalendar.xml"></w2:require>
-		<w2:require src="/common/udc/udc_timePicker.xml"></w2:require>
 	</head>
 	<body ev:onpageload="scwin.onpageload" ev:onpageunload="scwin.onpageunload">
 		<xf:group class="sub_wrapper" id="">
@@ -100,7 +98,7 @@
 											<w2:rowspan>1</w2:rowspan>
 										</w2:attributes>
 										<w2:inputCalendar footerDiv="false" rightAlign="false" focusOnDateSelect="false" displayFormat="" style=""
-											readOnly="" id="" renderType="component" renderDiv="true" class="wd-110 req" calendarValueType="yearMonthDate">
+											readOnly="" id="" renderType="component" renderDiv="true" class="wd-110" calendarValueType="yearMonthDate">
 										</w2:inputCalendar>
 									</xf:group>
 								</xf:group>
