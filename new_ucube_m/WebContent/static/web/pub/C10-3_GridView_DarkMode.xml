@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:ev="http://www.w3.org/2001/xml-events"
+    xmlns:w2="http://www.inswave.com/websquare" xmlns:xf="http://www.w3.org/2002/xforms">
+    <head meta_programName="grid view - type1 - Dark Mode">
+    	<w2:type>DEFAULT</w2:type>
+        <w2:buildDate/>
+        <xf:model>
+            <xf:instance>
+                <data xmlns=""/>
+            </xf:instance>
+            <w2:dataCollection baseNode="map">
+            	<w2:dataList baseNode="list" repeatNode="map" id="dataList1" saveRemovedData="true">
+            		<w2:columnInfo>
+            			<w2:column id="col1" name="name1" dataType="text"></w2:column>
+            			<w2:column id="col2" name="name2" dataType="text"></w2:column>
+            			<w2:column id="col3" name="name3" dataType="text"></w2:column>
+            			<w2:column id="col4" name="name4" dataType="text"></w2:column>
+            			<w2:column id="col5" name="name5" dataType="text"></w2:column>
+            		</w2:columnInfo>
+            		<w2:data use="true">
+            			<w2:row>
+            				<col1><![CDATA[2021-11]]></col1>
+            				<col2><![CDATA[신용카드]]></col2>
+            				<col3><![CDATA[82,240]]></col3>
+            				<col4><![CDATA[82,240]]></col4>
+            			</w2:row>
+            			<w2:row>
+            				<col1><![CDATA[2021-11]]></col1>
+            				<col2><![CDATA[신용카드]]></col2>
+            				<col3><![CDATA[82,240]]></col3>
+            				<col4><![CDATA[82,240]]></col4>
+            			</w2:row>
+            			<w2:row>
+            				<col1><![CDATA[2021-11]]></col1>
+            				<col2><![CDATA[신용카드]]></col2>
+            				<col3><![CDATA[82,240]]></col3>
+            				<col4><![CDATA[82,240]]></col4>
+            			</w2:row>
+            			<w2:row>
+            				<col1><![CDATA[2021-11]]></col1>
+            				<col2><![CDATA[신용카드]]></col2>
+            				<col3><![CDATA[82,240]]></col3>
+            				<col4><![CDATA[82,240]]></col4>
+            			</w2:row>
+            			<w2:row>
+            				<col1><![CDATA[2021-11]]></col1>
+            				<col2><![CDATA[신용카드]]></col2>
+            				<col3><![CDATA[82,240]]></col3>
+            				<col4><![CDATA[82,240]]></col4>
+            			</w2:row>
+            		</w2:data>
+            	</w2:dataList>
+            </w2:dataCollection>
+            <w2:workflowCollection>
+            </w2:workflowCollection>
+        </xf:model>
+         <script type="text/javascript" lazy="false"><![CDATA[
+        
+	scwin.onpageload = function() {
+		grdRightFixed.setFixedRightColumn(1);
+	};
+	
+	scwin.onpageunload = function() {
+		
+	};
+	
+	scwin.grdCellClass = function(data, rowIndex, colIndex) {
+		const rowLength = grdRightFixed.drawedRowLength;
+		if (data == "할부중") {
+			for (var i = 0; i < rowLength; i++) {
+				grdRightFixed.setCellClass( rowIndex, 0, "txt_grd_red" );
+			}
+		} else if (data == "할부완료") {
+			for (var i = 0; i < rowLength; i++) {
+				grdRightFixed.setCellClass( rowIndex, 0, "txt_grd_green" );
+			}
+		}
+		return data;
+	};]]></script>
+    </head>
+    <body ev:onpageload="scwin.onpageload" ev:onpageunload="scwin.onpageunload" class="dark">
+    	<xf:group class="wrapper" id="" style="">
+    		<xf:group class="header white_bg" id="" style="" tagname="section">
+    			<xf:group class="titlebar" id="" style="">
+    				<xf:group class="cta" id="">
+    					<w2:textbox class="title" id="" label="GridView" style="" tagname="h2"></w2:textbox>
+    				</xf:group>
+    			</xf:group>
+    			<xf:group class="user_info" id="" style="">
+    				<w2:textbox class="text" id="" label="신*혜 님" style="" tagname="span"></w2:textbox>
+    				<w2:textbox class="dot" id="" label="dot" style="" tagname="i"></w2:textbox>
+    				<w2:textbox class="text" id="" label="500000000000" style="" tagname="span"></w2:textbox>
+    				<w2:textbox class="dot" id="" label="dot" style="" tagname="i"></w2:textbox>
+    				<w2:textbox class="text" id="" label="5G 프리미엄" style="" tagname="span"></w2:textbox>
+    			</xf:group>
+    			<xf:group class="btn_menu" id="" style="" tagname="button" text=""></xf:group>
+    			<xf:group class="btn_pre" id="" style="" tagname="button"></xf:group>
+    		</xf:group>
+    		<xf:group class="container" id="" style="" tagname="section">
+    			<xf:group class="white_bgbox" id="" style="">
+    					<xf:group class="white_bgboxwrap main titleinfo" id="">
+    						<xf:group tagname="section" id="" class="col1">
+    							<xf:group id="" class="side_inner">
+    								<xf:group style="" id="" class="titlebox">
+    									<xf:group id="" class="ly_form">
+    										<xf:group id="" class="lta">
+    											<w2:textbox tagname="h3" style="" id="" label="월별청구내역(원)"></w2:textbox>
+    										</xf:group>
+    										<xf:group class="rta" id="" style="">
+    											<xf:group id="" class="titlebargroup">
+    												<xf:select1 submenuSize="auto" chooseOption="" allOption="" displayMode="" ref=""
+    													appearance="minimal" disabledClass="w2selectbox_disabled" disabled="false" style="" id="" renderType="native"
+    													class="wd-100" direction="auto">
+    													<xf:choices>
+    														<xf:item>
+    															<xf:label><![CDATA[1개월]]></xf:label>
+    															<xf:value><![CDATA[]]></xf:value>
+    														</xf:item>
+    														<xf:item>
+    															<xf:label><![CDATA[2개월]]></xf:label>
+    															<xf:value><![CDATA[]]></xf:value>
+    														</xf:item>
+    														<xf:item>
+    															<xf:label><![CDATA[3개월]]></xf:label>
+    															<xf:value><![CDATA[]]></xf:value>
+    														</xf:item>
+    														<xf:item>
+    															<xf:label><![CDATA[4개월]]></xf:label>
+    															<xf:value><![CDATA[]]></xf:value>
+    														</xf:item>
+    														<xf:item>
+    															<xf:label><![CDATA[5개월]]></xf:label>
+    															<xf:value><![CDATA[]]></xf:value>
+    														</xf:item>
+    														<xf:item>
+    															<xf:label><![CDATA[6개월]]></xf:label>
+    															<xf:value><![CDATA[]]></xf:value>
+    														</xf:item>
+    														<xf:item>
+    															<xf:label><![CDATA[7개월]]></xf:label>
+    															<xf:value><![CDATA[]]></xf:value>
+    														</xf:item>
+    														<xf:item>
+    															<xf:label><![CDATA[8개월]]></xf:label>
+    															<xf:value><![CDATA[]]></xf:value>
+    														</xf:item>
+    														<xf:item>
+    															<xf:label><![CDATA[9개월]]></xf:label>
+    															<xf:value><![CDATA[]]></xf:value>
+    														</xf:item>
+    														<xf:item>
+    															<xf:label><![CDATA[10개월]]></xf:label>
+    															<xf:value><![CDATA[]]></xf:value>
+    														</xf:item>
+    														<xf:item>
+    															<xf:label><![CDATA[11개월]]></xf:label>
+    															<xf:value><![CDATA[]]></xf:value>
+    														</xf:item>
+    														<xf:item>
+    															<xf:label><![CDATA[12개월]]></xf:label>
+    															<xf:value><![CDATA[]]></xf:value>
+    														</xf:item>
+    													</xf:choices>
+    												</xf:select1>
+    											</xf:group>
+    										</xf:group>
+    									</xf:group>
+    								</xf:group>
+    							</xf:group>
+    							<xf:group style="" id="" class="gvwbox">
+    								<w2:gridView adaptiveThreshold="" fixedColumnNoMove="" editModeEvent="" scrollByColumnAdaptive="false"
+    									keepDefaultColumnWidth="" scrollByColumn="false" sortable="" defaultCellHeight="" adaptive="" focusMode="row"
+    									tooltipDisplay="true" fixedColumn="" dataList="data:dataList1" style="height:311px;" autoFit="allColumn" id="gridView1"
+    									visibleRowNum="" class="wq_gvw">
+    									<w2:caption style="" id="caption1" value="this is a grid caption."></w2:caption>
+    									<w2:header style="" id="header1">
+    										<w2:row style="" id="row1">
+    											<w2:column removeBorderStyle="false" width="160" inputType="text" id="column6"
+    												fixedRightColumn="" value="청구작업일" blockSelect="false" displayMode="label">
+    											</w2:column>
+    											<w2:column removeBorderStyle="false" width="150" inputType="text" id="column5"
+    												fixedRightColumn="" value="납부방법" blockSelect="false" displayMode="label">
+    											</w2:column>
+    											<w2:column removeBorderStyle="false" width="150" inputType="text" id="column4"
+    												fixedRightColumn="" value="당월청구" blockSelect="false" displayMode="label">
+    											</w2:column>
+    											<w2:column removeBorderStyle="false" width="150" inputType="text" id="column3"
+    												fixedRightColumn="" value="전월청구" blockSelect="false" displayMode="label">
+    											</w2:column>
+    											<w2:column removeBorderStyle="false" width="150" inputType="text" id="column2"
+    												fixedRightColumn="" value="상세" blockSelect="false" displayMode="label">
+    											</w2:column>
+    										</w2:row>
+    									</w2:header>
+    									<w2:gBody style="" id="gBody1">
+    										<w2:row style="" id="row2">
+    											<w2:column removeBorderStyle="false" width="150" inputType="text" id="col1"
+    												blockSelect="false" displayMode="label">
+    											</w2:column>
+    											<w2:column removeBorderStyle="false" width="150" inputType="text" id="col2"
+    												blockSelect="false" displayMode="label">
+    											</w2:column>
+    											<w2:column removeBorderStyle="false" width="150" inputType="text" id="col3"
+    												blockSelect="false" displayMode="label" textAlign="right">
+    											</w2:column>
+    											<w2:column removeBorderStyle="false" width="150" inputType="text" id="col4"
+    												blockSelect="false" displayMode="label" textAlign="right">
+    											</w2:column>
+    											<w2:column removeBorderStyle="false" width="150" inputType="image" id="col5"
+    												blockSelect="false" displayMode="label" imageHeight="24" imageWidth="24" imageSrc="../../common/images/ico_detail.svg"
+    												viewType="icon" displayType="" type="">
+    											</w2:column>
+    										</w2:row>
+    									</w2:gBody>
+    									<w2:footer style="" id="footer1">
+    										<w2:row style="" id="row3">
+    											<w2:column removeBorderStyle="false" width="150" inputType="text" style="" id="column11"
+    												value="합계" blockSelect="false" displayMode="label">
+    											</w2:column>
+    											<w2:column removeBorderStyle="false" width="150" inputType="text" style="" id="column10"
+    												value="" blockSelect="false" displayMode="label">
+    											</w2:column>
+    											<w2:column removeBorderStyle="false" width="150" inputType="text" style="" id="column9"
+    												value="493,440" blockSelect="false" displayMode="label" textAlign="right">
+    											</w2:column>
+    											<w2:column removeBorderStyle="false" width="150" inputType="text" style="" id="column8"
+    												value="82,240" blockSelect="false" displayMode="label" textAlign="right">
+    											</w2:column>
+    											<w2:column removeBorderStyle="false" width="150" inputType="text" style="" id="column7"
+    												value="" blockSelect="false" displayMode="label">
+    											</w2:column>
+    										</w2:row>
+    									</w2:footer>
+    								</w2:gridView>
+    							</xf:group>
+    						</xf:group>
+    					</xf:group>
+    			</xf:group>
+    		</xf:group>
+    		<xf:group class="bottomMenu" id="" style="" tagname="section">
+    			<xf:group class="navbox" id="" style="">
+    				<xf:group class="menu01" id="" style="" tagname="button">
+    					<xf:group class="numberbox" id="">
+    						<w2:textbox class="num" id="" label="13" style=""></w2:textbox>
+    					</xf:group>
+    					<w2:textbox class="title" id="" label="To-Do" style=""></w2:textbox>
+    				</xf:group>
+    				<xf:group class="menu02-01 on" id="" style="" tagname="button">
+    					<w2:textbox class="title" id="" label="가입정보조회" style=""></w2:textbox>
+    				</xf:group>
+    				<xf:group class="menu03" id="" style="" tagname="button">
+    					<w2:textbox class="title" id="" label="사전조회" style=""></w2:textbox>
+    				</xf:group>
+    				<xf:group class="menu04" id="" style="" tagname="button">
+    					<w2:textbox class="title" id="" label="개통지역" style=""></w2:textbox>
+    				</xf:group>
+    				<xf:group class="menu05" id="" style="" tagname="button">
+    					<xf:group class="numberbox" id="" style="">
+    						<w2:textbox class="num" id="" label="3" style=""></w2:textbox>
+    					</xf:group>
+    					<w2:textbox class="title" id="" label="알림" style=""></w2:textbox>
+    				</xf:group>
+    			</xf:group>
+    		</xf:group>
+    	</xf:group>
+    </body>
+</html>

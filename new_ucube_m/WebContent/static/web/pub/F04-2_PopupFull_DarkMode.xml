@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:ev="http://www.w3.org/2001/xml-events"
+    xmlns:w2="http://www.inswave.com/websquare" xmlns:xf="http://www.w3.org/2002/xforms">
+    <head meta_programName="popup(full) - Dark Mode">
+    	<w2:type>DEFAULT</w2:type>
+        <w2:buildDate/>
+        <xf:model>
+            <xf:instance>
+                <data xmlns=""/>
+            </xf:instance>
+            <w2:dataCollection baseNode="map">
+            </w2:dataCollection>
+            <w2:workflowCollection>
+            </w2:workflowCollection>
+        </xf:model>
+         <script type="text/javascript" lazy="false"><![CDATA[
+        
+	scwin.onpageload = function() {
+		
+	};
+	
+	scwin.onpageunload = function() {
+		
+	};
+	
+	]]></script>
+    </head>
+    <body ev:onpageload="scwin.onpageload" ev:onpageunload="scwin.onpageunload" class="dark">
+    	<xf:group style="" id="" class="wrapper popup">
+    		<xf:group tagname="section" style="" id="" class="header">
+    			<xf:group style="" id="" class="titlebar">
+    				<xf:group id="" class="cta">
+    					<w2:textbox tagname="h2" style="" id="" label="타이틀 영역" class="title"></w2:textbox>
+    				</xf:group>
+    			</xf:group>
+    			<xf:group tagname="button" style="" id="" class="btn_close"></xf:group>
+    		</xf:group>
+    		<xf:group id="" class="container" tagname="section">
+    			<xf:group id="" style="background: #fff;height: calc(100% - 8px);" tagname="section" class=""></xf:group>
+    		</xf:group>
+    		<xf:group class="bottomfix whiteBg" id="" style="">
+    			<xf:group class="btnbox" id="" style="">
+    				<xf:trigger class="btn_cm" disabled="" id="" style="" type="button">
+    					<xf:label><![CDATA[확인]]></xf:label>
+    				</xf:trigger>
+    			</xf:group>
+    		</xf:group>
+    	</xf:group>
+    </body>
+</html>

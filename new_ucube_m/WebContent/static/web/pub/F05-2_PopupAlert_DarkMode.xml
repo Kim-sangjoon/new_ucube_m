@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:ev="http://www.w3.org/2001/xml-events"
+    xmlns:w2="http://www.inswave.com/websquare" xmlns:xf="http://www.w3.org/2002/xforms">
+    <head meta_programName="popup(alert) - Dark Mode">
+    	<w2:type>DEFAULT</w2:type>
+        <w2:buildDate/>
+        <xf:model>
+            <xf:instance>
+                <data xmlns=""/>
+            </xf:instance>
+            <w2:dataCollection baseNode="map">
+            </w2:dataCollection>
+            <w2:workflowCollection>
+            </w2:workflowCollection>
+        </xf:model>
+         <script type="text/javascript" lazy="false"><![CDATA[
+        
+	scwin.onpageload = function() {
+		var swiper = new Swiper(".mySwiper", {
+	        slidesPerView: 1,
+	        spaceBetween: 10,
+	        teredSlides: true,
+	        pagination: {
+				el: ".swiper-pagination",
+				clickable: false,
+	        },
+		});
+		console.log(swiper);
+		
+		$(".vhtoggle").on("click",function(){
+			if(carouselbox01.hasClass("col")){
+				carouselbox01.removeClass("col");
+				swiper.enabled = true;				
+			} else {
+				carouselbox01.addClass("col");
+				swiper.enabled = false;
+			}
+		});	
+	};
+	
+	scwin.onpageunload = function() {
+		
+	};
+	
+	scwin.trigger1_onclick = function(e) {
+		alertMsg.removeClass("active");
+	};
+	
+	scwin.trigger2_onclick = function(e) {
+		alertMsg.addClass("active");
+	};
+	
+	scwin.btn_dim_onclick = function(e) {
+		alertMsg.removeClass("active");
+	};
+	]]></script>
+    </head>
+    <body ev:onpageload="scwin.onpageload" ev:onpageunload="scwin.onpageunload" class="dark">
+    	<xf:group class="wrapper white" id="" style="">
+    		<xf:group class="container" id="" style="" tagname="section">
+    			<xf:group class="container_inner" id="" tagname="">
+    				<xf:group class="btnbox" id="" style="">
+    					<xf:trigger class="btn_df" ev:onclick="scwin.trigger2_onclick" id="trigger2" style="" type="button">
+    						<xf:label><![CDATA[PopupAlert]]></xf:label>
+    					</xf:trigger>
+    				</xf:group>
+    			</xf:group>
+    		</xf:group>
+    	</xf:group>
+    	<xf:group id="alertMsg" style="" class="alert active">
+    		<xf:group id="btn_dim" style="" class="dim" ev:onclick="scwin.btn_dim_onclick">
+
+    		</xf:group>
+    		<xf:group id="" style="" class="alertbox">
+    			<xf:group id="" class="boxwrap">
+    				<w2:textbox tagname="h3" style="" id="" label="가입정보조회 초기화 안내"></w2:textbox>
+    				<w2:textbox style="" id=""
+    					label="다른 고객을 조회할 경우,&lt;br/&gt;기존에 조회중이던 고객 가입정보조회 화면 및 진행중인 업무가 초기화됩니다.&lt;br/&gt;다른 고객을 조회하시겠습니까?" class="content">
+    				</w2:textbox>
+    				<xf:group style="" id="" class="alertbtnbox">
+    					<xf:trigger style="" id="trigger1" type="button" class="btn_al" ev:onclick="scwin.trigger1_onclick">
+    						<xf:label><![CDATA[취소]]></xf:label>
+    					</xf:trigger>
+    					<xf:trigger style="" id="" type="button" class="btn_al cm">
+    						<xf:label><![CDATA[다른고객조회]]></xf:label>
+    					</xf:trigger>
+    				</xf:group>
+    			</xf:group>
+    		</xf:group>
+    	</xf:group>
+    </body>
+</html>

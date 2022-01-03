@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:ev="http://www.w3.org/2001/xml-events"
+    xmlns:w2="http://www.inswave.com/websquare" xmlns:xf="http://www.w3.org/2002/xforms">
+    <head meta_programName="toggle swich - Dark Mode">
+    	<w2:type>DEFAULT</w2:type>
+        <w2:buildDate/>
+        <xf:model>
+            <xf:instance>
+                <data xmlns=""/>
+            </xf:instance>
+            <w2:dataCollection baseNode="map">
+            </w2:dataCollection>
+            <w2:workflowCollection>
+            </w2:workflowCollection>
+        </xf:model>
+         <script type="text/javascript" lazy="false"><![CDATA[
+        
+	scwin.onpageload = function() {
+		
+	};
+	
+	scwin.onpageunload = function() {
+		
+	};
+	
+	// 모바일홈 토글
+	scwin.serviceToggleBtn_onclick = function(e) {
+		const stb = serviceToggleBtn;
+		if (stb.hasClass("mobile") || !stb.hasClass("home")){
+			console.log("홈");
+			stb.removeClass("mobile");
+			stb.addClass("home");
+		} else if (stb.hasClass("home") || !stb.hasClass("mobile")){
+			console.log("모바일");
+			stb.removeClass("home");
+			stb.addClass("mobile");
+		}
+	};
+	
+	// 설정토글
+	scwin.setToggleBtn_onclick = function(e) {
+		if (setToggleBtn.hasClass("on")){
+			setToggleBtn.removeClass("on");
+			console.log("off");
+		} else {
+			setToggleBtn.addClass("on");
+			console.log("on");
+		}
+	};]]></script>
+    </head>
+    <body ev:onpageload="scwin.onpageload" ev:onpageunload="scwin.onpageunload" class="dark">
+    	<xf:group class="wrapper" id="" style="">
+    		<xf:group class="header" id="" style="" tagname="section">
+    			<xf:group class="titlebar" id="" style="">
+    				<xf:group class="cta" id="">
+    					<w2:textbox class="title" id="" label="Toggle Swich" style="" tagname="h2"></w2:textbox>
+    				</xf:group>
+    			</xf:group>
+    			<xf:group class="btn_menu" id="" style="" tagname="button"></xf:group>
+    		</xf:group>
+    		<xf:group class="container" id="" style="" tagname="section">
+    			<xf:group class="container_inner" id="" style="">
+    				<xf:group id="" style="" tagname="section">
+    					<xf:group class="titlebox" id="" style="">
+    						<w2:textbox id="" label="모바일-홈 토글스위치" style="" tagname="h3"></w2:textbox>
+    					</xf:group>
+    					<xf:group class="searchbox" id="" style="">
+    						<xf:group class="toggle_swich mobile" ev:onclick="scwin.serviceToggleBtn_onclick" id="serviceToggleBtn"
+    							style="">
+    							<xf:group class="bg" id="" style=""></xf:group>
+    							<xf:group class="btn" id="" style=""></xf:group>
+    							<xf:group class="label" id="" style="">
+    								<w2:textbox class="mobile" id="" label="모바일" style="" tagname="span"></w2:textbox>
+    								<w2:textbox class="home" id="" label="홈" style="" tagname="span"></w2:textbox>
+    							</xf:group>
+    						</xf:group>
+    					</xf:group>
+    				</xf:group>
+    				<xf:group id="" style="" tagname="section">
+    					<xf:group class="titlebox" id="" style="">
+    							<w2:textbox id="" label="설정 토글스위치" style="" tagname="h3"></w2:textbox>
+    						</xf:group>
+    					<xf:group class="settoggle" ev:onclick="scwin.setToggleBtn_onclick" id="setToggleBtn" style="">
+    						<xf:group class="bg" id="" style=""></xf:group>
+    						<xf:group class="btn" id="" style=""></xf:group>
+    					</xf:group>
+    				</xf:group>
+    			</xf:group>
+    		</xf:group>
+    		<xf:group class="bottomMenu" id="" style="" tagname="section">
+    			<xf:group class="navbox" id="" style="">
+    				<xf:group class="menu01 on" id="" style="" tagname="button">
+    					<xf:group class="numberbox" id="">
+    						<w2:textbox class="num" id="" label="13" style=""></w2:textbox>
+    					</xf:group>
+    					<w2:textbox class="title" id="" label="To-Do" style=""></w2:textbox>
+    				</xf:group>
+    				<xf:group class="menu02" id="" style="" tagname="button">
+    					<w2:textbox class="title" id="" label="가입정보조회" style=""></w2:textbox>
+    				</xf:group>
+    				<xf:group class="menu03" id="" style="" tagname="button">
+    					<w2:textbox class="title" id="" label="사전조회" style=""></w2:textbox>
+    				</xf:group>
+    				<xf:group class="menu04" id="" style="" tagname="button">
+    					<w2:textbox class="title" id="" label="개통지역" style=""></w2:textbox>
+    				</xf:group>
+    				<xf:group class="menu05" id="" style="" tagname="button">
+    					<xf:group class="numberbox" id="" style="">
+    						<w2:textbox class="num" id="" label="3" style=""></w2:textbox>
+    					</xf:group>
+    					<w2:textbox class="title" id="" label="알림" style=""></w2:textbox>
+    				</xf:group>
+    			</xf:group>
+    		</xf:group>
+    	</xf:group>
+    </body>
+</html>

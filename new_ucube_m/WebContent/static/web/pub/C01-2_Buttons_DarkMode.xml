@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:ev="http://www.w3.org/2001/xml-events"
+    xmlns:w2="http://www.inswave.com/websquare" xmlns:xf="http://www.w3.org/2002/xforms">
+    <head meta_programName="buttons - Dark Mode">
+    	<w2:type>DEFAULT</w2:type>
+        <w2:buildDate/>
+        <xf:model>
+            <xf:instance>
+                <data xmlns=""/>
+            </xf:instance>
+            <w2:dataCollection baseNode="map">
+            </w2:dataCollection>
+            <w2:workflowCollection>
+            </w2:workflowCollection>
+        </xf:model>
+         <script type="text/javascript" lazy="false"><![CDATA[
+        
+	scwin.onpageload = function() {
+		
+	};
+	
+	scwin.onpageunload = function() {
+		
+	};
+	
+	scwin.statusChekAll_onviewchange = function(info) {
+		if(statusChekAll.getValue() == "all") {
+			statusChekGroup.checkAll(false);
+		}
+	};
+	
+	scwin.statusChekGroup_onviewchange = function(info) {
+		if(statusChekGroup.getValue() !== ""){			
+			statusChekAll.checkAll(false);
+		}
+	};]]></script>
+    </head>
+    <body ev:onpageload="scwin.onpageload" ev:onpageunload="scwin.onpageunload" class="dark">
+    	<xf:group class="wrapper" id="" style="">
+    		<xf:group class="header" id="" style="" tagname="section">
+    			<xf:group class="titlebar" id="" style="">
+    				<xf:group class="cta" id="">
+    					<w2:textbox class="title" id="" label="buttons" style="" tagname="h2"></w2:textbox>
+    				</xf:group>
+    			</xf:group>
+    		</xf:group>
+    		<xf:group class="container" id="" style="" tagname="section">
+    			<xf:group class="container_inner" id="" style="">
+    				<xf:group id="" class="page_inner">
+    					<xf:group tagname="section" id="">
+    						<xf:group class="titlebox" id="" style="">
+    							<w2:textbox id="" label="기본버튼" style="" tagname="h3"></w2:textbox>
+    						</xf:group>
+    						<xf:group style="" id="" class="btnbox">
+    							<xf:trigger ev:onclick="" style="" id="" type="button" class="btn_df">
+    								<xf:label><![CDATA[default]]></xf:label>
+    							</xf:trigger>
+    							<xf:trigger ev:onclick="" style="" id="" type="button" class="btn_cm">
+    								<xf:label><![CDATA[confirm]]></xf:label>
+    							</xf:trigger>
+    							<xf:trigger ev:onclick="" style="" disabled="true" id="" type="button" class="btn_df">
+    								<xf:label><![CDATA[disable]]></xf:label>
+    							</xf:trigger>
+    						</xf:group>
+    					</xf:group>
+    					<xf:group id="" tagname="section" style="" class="hide">
+    						<xf:group class="titlebox" id="" style="">
+    							<w2:textbox id="" label="중요버튼" style="" tagname="h3"></w2:textbox>
+    						</xf:group>
+    						<xf:group class="btnbox" id="" style="">
+    							<xf:trigger class="btn_df imp" ev:onclick="" id="" style="" type="button">
+    								<xf:label><![CDATA[important]]></xf:label>
+    							</xf:trigger>
+    							<xf:trigger class="btn_df cl" ev:onclick="" id="" style="" type="button">
+    								<xf:label><![CDATA[cancel]]></xf:label>
+    							</xf:trigger>
+    						</xf:group>
+    					</xf:group>
+    					<xf:group id="" style="" tagname="section">
+    						<xf:group class="titlebox" id="" style="">
+    							<w2:textbox id="" label="단일선택버튼" style="" tagname="h3"></w2:textbox>
+    						</xf:group>
+    						<xf:group class="btnbox" id="" style=""><xf:group id="" class="selbtnwrap"><xf:select1 ref="" appearance="full" name="multiline" style="" id="" ignoreTabIndex="" rows="" renderType="radiogroup" cols="" class="selbtn" selectedIndex="0">
+    								<xf:choices>
+    									<xf:item>
+    										<xf:label><![CDATA[남성]]></xf:label>
+    										<xf:value><![CDATA[]]></xf:value>
+    									</xf:item>
+    									<xf:item>
+    										<xf:label><![CDATA[여성]]></xf:label>
+    										<xf:value><![CDATA[]]></xf:value>
+    									</xf:item>
+    								</xf:choices>
+    							</xf:select1><xf:select1 ref="" appearance="full" name="multiline" style="" id="" ignoreTabIndex="" renderType="radiogroup" rows="" class="selbtn" cols="" selectedIndex="">
+    								<xf:choices>
+    									<xf:item>
+    										<xf:label><![CDATA[1]]></xf:label>
+    										<xf:value><![CDATA[]]></xf:value>
+    									</xf:item>
+    									<xf:item>
+    										<xf:label><![CDATA[2]]></xf:label>
+    										<xf:value><![CDATA[]]></xf:value>
+    									</xf:item>
+    									<xf:item>
+    										<xf:label><![CDATA[3]]></xf:label>
+    										<xf:value><![CDATA[]]></xf:value>
+    									</xf:item>
+    								</xf:choices>
+    							</xf:select1></xf:group></xf:group>
+    					</xf:group>
+    					<xf:group id="" tagname="section" style="">
+    						<xf:group class="titlebox" id="" style="">
+    							<w2:textbox id="" label="검색버튼" style="" tagname="h3"></w2:textbox>
+    						</xf:group>
+    						<xf:group class="btnbox" id="" style="">
+    							<xf:trigger class="btn_sh" disabled="" id="btnSearch" style="" type="button">
+    								<xf:label><![CDATA[조회]]></xf:label>
+    							</xf:trigger>
+    						</xf:group>
+    					</xf:group>
+    					<xf:group id="" style="" tagname="section">
+    						<xf:group class="titlebox" id="" style="">
+    							<w2:textbox id="" label="아이콘버튼" style="" tagname="h3"></w2:textbox>
+    						</xf:group>
+    						<xf:group class="btnbox" id="" style="">
+    							<xf:group id="" style="" tagname="button" class="btn_df ico camera">
+    								<w2:textbox id="" label="icon" style="" tagname="em"></w2:textbox>
+    								<w2:textbox id="" label="사진첨부" style="" tagname="span"></w2:textbox>
+    							</xf:group>
+    						</xf:group>
+    					</xf:group>
+
+    					<xf:group tagname="section" id="">
+    						<xf:group style="" id="" class="titlebox">
+    							<w2:textbox tagname="h3" style="" id="" label="알림박스 상세버튼"></w2:textbox>
+    						</xf:group>
+    						<xf:group style="" id="" class="detailbtnbox">
+    							<xf:group style="" id="" class="rta">
+    								<xf:trigger style="" id="" type="button" class="btn_cf">
+    									<xf:label><![CDATA[버튼]]></xf:label>
+    								</xf:trigger>
+    								<xf:trigger style="" id="" type="button" class="btn_cf">
+    									<xf:label><![CDATA[버튼]]></xf:label>
+    								</xf:trigger>
+    								<xf:trigger style="" id="" type="button" class="btn_cf">
+    									<xf:label><![CDATA[버튼]]></xf:label>
+    								</xf:trigger>
+    								<xf:trigger style="" id="" type="button" class="btn_cf">
+    									<xf:label><![CDATA[버튼]]></xf:label>
+    								</xf:trigger>
+    							</xf:group>
+    						</xf:group>
+    					</xf:group>
+    					<xf:group tagname="section" id="">
+    						<xf:group style="" id="" class="titlebox">
+    							<xf:group id="" class="lta">
+    								<w2:textbox tagname="h3" style="" id="" label="타이틀바 버튼"></w2:textbox>
+    							</xf:group>
+    							<xf:group class="rta" id="" style="">
+    								<xf:trigger class="btn_cf gridview" id="" style="" type="button">
+    									<xf:label><![CDATA[그리드뷰]]></xf:label>
+    								</xf:trigger>
+    								<xf:trigger class="btn_cf cardview" id="" style="" type="button">
+    									<xf:label><![CDATA[카드뷰]]></xf:label>
+    								</xf:trigger>
+    							</xf:group>
+    						</xf:group>
+    						<xf:group id="" class="alram_listbox">
+    							<xf:group style="" id="" class="dfbox">
+    								<xf:group style="" id="" class="lta">
+    									<w2:textbox tagname="span" style="" id="" label="타이틀" class="text"></w2:textbox>
+    									<w2:textbox tagname="span" style="" id="" label="0" class="num"></w2:textbox>
+    								</xf:group>
+    								<xf:group style="" id="" class="rta">
+    									<xf:trigger class="btn_cf" id="" style="" type="button">
+    										<xf:label><![CDATA[버튼]]></xf:label>
+    									</xf:trigger>
+    									<xf:trigger class="btn_cf ico trash" id="" style="" type="button">
+    										<xf:label><![CDATA[]]></xf:label>
+    									</xf:trigger>
+    									<xf:trigger class="btn_cf ico info" id="" style="" type="button">
+    										<xf:label></xf:label>
+    									</xf:trigger>
+    								</xf:group>
+    							</xf:group>
+    						</xf:group>
+    					</xf:group>
+    					<xf:group id="" tagname="section">
+    						<xf:group style="" id="" class="titlebox">
+    							<w2:textbox tagname="h3" style="" id="" label="필터박스 버튼"></w2:textbox>
+    						</xf:group>
+    						<xf:group tagname="" style="" id="" class="filterbox">
+    							<xf:group tagname="" style="" id="" class="fboxgroup">
+    								<xf:group style="" id="" class="lta">
+    									<w2:textbox tagname="span" style="" id="" label="필터명" class=""></w2:textbox>
+    								</xf:group>
+    								<xf:group style="" id="" class="rta">
+    									<xf:select ref="" appearance="full" ev:onchange="" ev:oncheckboxclick=""
+    										ev:onviewchange="scwin.statusChekAll_onviewchange" style="" id="statusChekAll" renderType="checkboxgroup" rows=""
+    										selectedindex="-1" class="filterbtn" cols="">
+    										<xf:choices>
+    											<xf:item>
+    												<xf:label><![CDATA[전체]]></xf:label>
+    												<xf:value><![CDATA[all]]></xf:value>
+    											</xf:item>
+    										</xf:choices>
+    									</xf:select>
+    									<xf:select ref="" appearance="full" ev:onviewchange="scwin.statusChekGroup_onviewchange" style=""
+    										id="statusChekGroup" renderType="checkboxgroup" rows="" selectedindex="-1" class="filterbtn" cols="">
+    										<xf:choices>
+    											<xf:item>
+    												<xf:label><![CDATA[필터1]]></xf:label>
+    												<xf:value><![CDATA[0]]></xf:value>
+    											</xf:item>
+    											<xf:item>
+    												<xf:label><![CDATA[필터2]]></xf:label>
+    												<xf:value><![CDATA[1]]></xf:value>
+    											</xf:item>
+    											<xf:item>
+    												<xf:label><![CDATA[필터3]]></xf:label>
+    												<xf:value><![CDATA[2]]></xf:value>
+    											</xf:item>
+    											<xf:item>
+    												<xf:label><![CDATA[필터4]]></xf:label>
+    												<xf:value><![CDATA[3]]></xf:value>
+    											</xf:item>
+    										</xf:choices>
+    									</xf:select>
+    								</xf:group>
+    							</xf:group>
+    						</xf:group>
+    					</xf:group>
+    					<xf:group id="" style="" tagname="section">
+    						<xf:group class="titlebox" id="" style="">
+    							<w2:textbox id="" label="infobox 버튼" style="" tagname="h3"></w2:textbox>
+    						</xf:group>
+    						<xf:group class="infoboxwrap" id="" style="">
+    							<xf:group class="infobox" id="" style="" tagname="">
+    								<xf:group class="dfbox" id="" style="" tagname="">
+    									<w2:textbox id="" label="요금제" ref="" style="" tagname="h3"></w2:textbox>
+    									<xf:group class="rta" id="" style="" tagname="">
+    										<w2:textbox id="" label="5G 프리미엄" style="" tagname="span"></w2:textbox>
+    										<xf:trigger class="btn_df" id="" style="" type="button">
+    											<xf:label><![CDATA[변경]]></xf:label>
+    										</xf:trigger>
+    									</xf:group>
+    								</xf:group>
+    							</xf:group>
+    						</xf:group>
+    					</xf:group>
+    				</xf:group></xf:group>
+    		</xf:group>
+    		<xf:group class="bottomMenu" id="" style="" tagname="section">
+    			<xf:group class="navbox" id="" style="">
+    				<xf:group class="menu01 on" id="" style="" tagname="button">
+    					<xf:group class="numberbox" id="">
+    						<w2:textbox class="num" id="" label="13" style=""></w2:textbox>
+    					</xf:group>
+    					<w2:textbox class="title" id="" label="To-Do" style=""></w2:textbox>
+    				</xf:group>
+    				<xf:group class="menu02" id="" style="" tagname="button">
+    					<w2:textbox class="title" id="" label="가입정보조회" style=""></w2:textbox>
+    				</xf:group>
+    				<xf:group class="menu03" id="" style="" tagname="button">
+    					<w2:textbox class="title" id="" label="사전조회" style=""></w2:textbox>
+    				</xf:group>
+    				<xf:group class="menu04" id="" style="" tagname="button">
+    					<w2:textbox class="title" id="" label="개통지역" style=""></w2:textbox>
+    				</xf:group>
+    				<xf:group class="menu05" id="" style="" tagname="button">
+    					<xf:group class="numberbox" id="" style="">
+    						<w2:textbox class="num" id="" label="3" style=""></w2:textbox>
+    					</xf:group>
+    					<w2:textbox class="title" id="" label="알림" style=""></w2:textbox>
+    				</xf:group>
+    			</xf:group>
+    		</xf:group>
+    	</xf:group>
+    </body>
+</html>

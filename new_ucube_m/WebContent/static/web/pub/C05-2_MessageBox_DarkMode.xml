@@ -1,0 +1,677 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:ev="http://www.w3.org/2001/xml-events"
+    xmlns:w2="http://www.inswave.com/websquare" xmlns:xf="http://www.w3.org/2002/xforms">
+    <head meta_programName="messagebox - Dark Mode">
+    	<w2:type>DEFAULT</w2:type>
+        <w2:buildDate/>
+        <xf:model>
+            <xf:instance>
+                <data xmlns=""/>
+            </xf:instance>
+            <w2:dataCollection baseNode="map">
+            </w2:dataCollection>
+            <w2:workflowCollection>
+            </w2:workflowCollection>
+        </xf:model>
+         <script type="text/javascript" lazy="false"><![CDATA[
+        
+	scwin.onpageload = function() {
+		
+	};
+	
+	scwin.onpageunload = function() {
+		
+	};
+	
+	scwin.btn_accordion_onclick = function(e) {
+		var obj = $('#'+ this.id).parent().parent().parent();
+		
+		if(!obj.hasClass('active')){
+			obj.siblings().removeClass('active');
+			obj.addClass('active');		
+		} else {
+			obj.removeClass('active');
+		}
+	};]]></script>
+    </head>
+    <body ev:onpageload="scwin.onpageload" ev:onpageunload="scwin.onpageunload" class="dark">
+    	<xf:group class="wrapper" id="" style="">
+    		<xf:group class="header" id="" style="" tagname="section">
+    			<xf:group class="titlebar" id="" style="">
+    				<xf:group class="cta" id="">
+    					<w2:textbox class="title" id="" label="Messagebox" style="" tagname="h2"></w2:textbox>
+    				</xf:group>
+    			</xf:group>
+    			<xf:group class="btn_menu" id="" style="" tagname="button"></xf:group>
+    		</xf:group>
+    		<xf:group class="container" id="" style="" tagname="section">
+    			<xf:group id="" style="" tagname="section">
+    				<xf:group class="messagebox" id="" style="">
+    				<xf:group class="messageboxwrap" id="">
+    				<xf:group id="" class="side_inner"><xf:group style="" id="" class="titlebox">
+    						<w2:textbox tagname="h3" style="" id="" label="안내 메시지"></w2:textbox>
+    					</xf:group><xf:group style="" id="" class="textbox">
+    						<xf:group tagname="ol" style="" id="" class="numberbox">
+    							<xf:group tagname="li" style="" id="">
+    								<w2:textbox tagname="span" style="" id="" label="LG U+ 미납고객여부를 확인합니다."></w2:textbox>
+    							</xf:group>
+    							<xf:group tagname="li" style="" id="">
+    								<w2:textbox tagname="span" style="" id="" label="한국정보통신진흥협회를 통해 “통신요금 &lt;br/&gt;(무선+유선) 미납여부” 를 확인합니다.">
+    								</w2:textbox>
+    							</xf:group>
+    							<xf:group tagname="li" style="" id="">
+    								<w2:textbox tagname="span" style="" id="" label="한국신용평가정보를 통해 “실명정보”를 &lt;br/&gt;확인합니다."></w2:textbox>
+    							</xf:group>
+    							<xf:group tagname="li" style="" id="">
+    								<w2:textbox tagname="span" style="" id="" label="외국인의 경우에는 한국정보통신진흥협회 및&lt;br/&gt;출입국 관리사무소를 통해 “실명정보, 유효기간, &lt;br/&gt;체류코드”, “여권정보 진위여부”를 확인합니다.">
+    								</w2:textbox>
+    							</xf:group>
+    							<xf:group tagname="li" style="" id="">
+    								<w2:textbox tagname="span" style="" id="" label='한국정보통신진흥협회를 통해 “해지&lt;br/&gt;미환급금(무선+유선) 여부" 를 확인합니다.'>
+    								</w2:textbox>
+    							</xf:group>
+    							<xf:group tagname="li" style="" id="">
+    								<w2:textbox tagname="span" style="" id="" label="외국인의 경우에는 한국정보통신진흥협회 및&lt;br/&gt;출입국 관리사무소를 통해 “실명정보, 유효기간, &lt;br/&gt;체류코드”, “여권정보 진위여부”를 확인합니다.">
+    								</w2:textbox>
+    							</xf:group>
+    						</xf:group>
+    						<xf:group tagname="ul" style="" id="" class="msgbox">
+    							<xf:group tagname="li" id="">
+    								<w2:textbox tagname="span" style="" id="" label="당사의 조회이력이 고객의 신용상태에 영향을&lt;br/&gt;미치지 않습니다만, 이에 대해 고객에게 고지하고&lt;br/&gt;동의를 구하셨습니까?">
+    								</w2:textbox>
+    							</xf:group>
+    						</xf:group>
+    					</xf:group><xf:group style="" id="" class="confirmbox">
+    						<xf:select ref="" appearance="full" style="" id="" renderType="checkboxgroup" rows="" selectedindex="-1" cols="">
+    							<xf:choices>
+    								<xf:item>
+    									<xf:label><![CDATA[고객에게 고지 후, 고객이 동의하였습니다.]]></xf:label>
+    									<xf:value></xf:value>
+    								</xf:item>
+    							</xf:choices>
+    						</xf:select>
+    						<w2:textbox tagname="span" dataType="" style="" id="" label="(필수)" class="txt_red"></w2:textbox>
+    					</xf:group></xf:group></xf:group>
+    			</xf:group></xf:group><xf:group class="container_inner" id="" style="">
+    				<xf:group id="" tagname="section">
+    					<xf:group style="" id="" class="titlebox">
+    						<w2:textbox tagname="h3" style="" id="" label="Todo 리스트"></w2:textbox>
+    					</xf:group>
+    					<xf:group tagname="" style="" userData2="" id="" class="todo_listbox">
+    						<xf:group style="" id="" class="ctbox">
+    							<xf:group style="" id="" class="stbox">
+    								<xf:group style="" id="" class="lta">
+    									<w2:textbox tagname="span" style="" id="" label="진행중" class="badge_gray"></w2:textbox>
+    									<w2:textbox tagname="span" style="" id="" label="접점1차처리" class="badge_red"></w2:textbox>
+    									<w2:textbox tagname="span" style="" id="" label="이동통신" class="badge_blue"></w2:textbox>
+    								</xf:group>
+    								<xf:group style="" id="" class="rta">
+    									<w2:textbox tagname="span" style="" id="" label="57분 남음" class="period red"></w2:textbox>
+    								</xf:group>
+    							</xf:group>
+    							<xf:group style="" id="" class="ifbox">
+    								<w2:textbox tagname="label" style="" id="" label="상품번호"></w2:textbox>
+    								<w2:textbox tagname="span" style="" id="" label="0100****0000"></w2:textbox>
+    								<xf:group style="" id="" class="bar"></xf:group>
+    								<w2:textbox tagname="label" style="" id="" label="가입번호"></w2:textbox>
+    								<w2:textbox tagname="span" style="" id="" label="50000000000"></w2:textbox>
+    							</xf:group>
+    							<xf:group style="" id="" class="psbox">
+    								<w2:textbox style="" id="" label="모바일_단순문의_자사 상품(요금제, 부가서비스, 부가서비스" class="ct_text"></w2:textbox>
+    								<xf:group id="" class="rta">
+    									<w2:anchor outerDiv="false" style="" id="" class="process">
+    										<xf:label><![CDATA[처리]]></xf:label>
+    									</w2:anchor>
+    								</xf:group>
+    							</xf:group>
+    						</xf:group>
+    						<xf:group style="" id="" class="ctbox">
+    							<xf:group style="" id="" class="stbox">
+    								<xf:group style="" id="" class="lta">
+    									<w2:textbox tagname="span" style="" id="" label="접수" class="badge_gray"></w2:textbox>
+    									<w2:textbox tagname="span" style="" id="" label="접점1차처리" class="badge_red"></w2:textbox>
+    									<w2:textbox tagname="span" style="" id="" label="이동통신" class="badge_blue"></w2:textbox>
+    								</xf:group>
+    								<xf:group style="" id="" class="rta">
+    									<w2:textbox tagname="span" style="" id="" label="4시간 남음" class="period"></w2:textbox>
+    								</xf:group>
+    							</xf:group>
+    							<xf:group style="" id="" class="ifbox">
+    								<w2:textbox tagname="label" style="" id="" label="상품번호"></w2:textbox>
+    								<w2:textbox tagname="span" style="" id="" label="0100****0000"></w2:textbox>
+    								<xf:group style="" id="" class="bar"></xf:group>
+    								<w2:textbox tagname="label" style="" id="" label="가입번호"></w2:textbox>
+    								<w2:textbox tagname="span" style="" id="" label="50000000000"></w2:textbox>
+    							</xf:group>
+    						</xf:group>
+    					</xf:group>
+    				</xf:group>
+    				<xf:group id="" tabIndex="" tagname="section">
+    					<xf:group class="titlebox" id="" style="">
+    						<w2:textbox id="" label="조회결과 리스트" style="" tagname="h3"></w2:textbox>
+    					</xf:group>
+    					<xf:group tagname="" style="" id="" class="result_listbox">
+    						<xf:group style="" id="" class="result_header">
+    							<w2:textbox tagname="label" style="" id="" label="가입번호/설치주소"></w2:textbox>
+    							<w2:textbox tagname="label" style="" id="" label="상품"></w2:textbox>
+    							<w2:textbox tagname="label" style="" id="" label="서비스"></w2:textbox>
+    						</xf:group>
+    						<xf:group style="" id="" class="result_body">
+    							<xf:group style="" id="" class="item mobile">
+    								<xf:group style="" id="" class="lta">
+    									<w2:textbox tagname="span" style="" id="" label="50001234****"></w2:textbox>
+    									<w2:textbox tagname="span" style="" id="" label="이동통신"></w2:textbox>
+    									<w2:textbox tagname="span" style="" id="" label="5G 프리미엄"></w2:textbox>
+    								</xf:group>
+    								<xf:group style="" id="" class="rta">
+    									<w2:anchor outerDiv="false" style="" id="" class="ico_next">
+    										<xf:label><![CDATA[다음]]></xf:label>
+    									</w2:anchor>
+    								</xf:group>
+    							</xf:group>
+    							<xf:group id="" class="item home">
+    								<xf:group style="" id="" class="lta">
+    									<w2:textbox tagname="span" style="" id="" label="50001234****"></w2:textbox>
+    									<w2:textbox tagname="span" style="" id="" label="U+인터넷"></w2:textbox>
+    									<w2:textbox tagname="span" style="" id="" label="광랜_19"></w2:textbox>
+    									<xf:group id="" class="address">
+    										<w2:textbox tagname="span" style="" id="" label="인천 남구 염창로 ***-**"></w2:textbox>
+    									</xf:group>
+    								</xf:group>
+    								<xf:group style="" id="" class="rta">
+    									<w2:anchor outerDiv="false" style="" id="" class="ico_next">
+    										<xf:label><![CDATA[다음]]></xf:label>
+    									</w2:anchor>
+    								</xf:group>
+    							</xf:group>
+    							<xf:group style="" id="" class="item mobile">
+    								<xf:group style="" id="" class="lta">
+    									<w2:textbox tagname="span" style="" id="" label="50004494****"></w2:textbox>
+    									<w2:textbox tagname="span" style="" id="" label="이동통신"></w2:textbox>
+    									<w2:textbox tagname="span" style="" id="" label="5G 청소년"></w2:textbox>
+    								</xf:group>
+    								<xf:group style="" id="" class="rta">
+    									<w2:anchor outerDiv="false" style="" id="" class="ico_next">
+    										<xf:label><![CDATA[다음]]></xf:label>
+    									</w2:anchor>
+    								</xf:group>
+    							</xf:group>
+    							<xf:group style="" id="" class="item home here">
+    								<xf:group style="" id="" class="lta">
+    									<w2:textbox tagname="span" style="" id="" label="50001234****"></w2:textbox>
+    									<w2:textbox tagname="span" style="" id="" label="U+인터넷"></w2:textbox>
+    									<w2:textbox tagname="span" style="" id="" label="내맘대로 패키지"></w2:textbox>
+    									<xf:group id="" class="address">
+    										<w2:textbox tagname="span" style="" id="" label="경기 동두천시 지행로 50 **리 ****"></w2:textbox>
+    									</xf:group>
+    								</xf:group>
+    								<xf:group style="" id="" class="rta">
+    									<w2:anchor outerDiv="false" style="" id="" class="ico_next">
+    										<xf:label><![CDATA[다음]]></xf:label>
+    									</w2:anchor>
+    								</xf:group>
+    							</xf:group>
+    							<xf:group style="" id="" class="item mobile">
+    								<xf:group style="" id="" class="lta">
+    									<w2:textbox tagname="span" style="" id="" label="50001234****"></w2:textbox>
+    									<w2:textbox tagname="span" style="" id="" label="이동통신"></w2:textbox>
+    									<w2:textbox tagname="span" style="" id="" label="5G 프리미엄"></w2:textbox>
+    								</xf:group>
+    								<xf:group style="" id="" class="rta">
+    									<w2:anchor outerDiv="false" style="" id="" class="ico_next">
+    										<xf:label><![CDATA[다음]]></xf:label>
+    									</w2:anchor>
+    								</xf:group>
+    							</xf:group>
+    						</xf:group>
+    					</xf:group>
+    				</xf:group>
+    				<xf:group id="" style="" tagname="section">
+    					<xf:group class="titlebox" id="" style="">
+    						<w2:textbox id="" label="응대메모 리스트" style="" tagname="h3"></w2:textbox>
+    					</xf:group>
+    					<xf:group class="contentbox" id="" style="">
+    						<xf:group class="dfbox" id="" style="" tagname="">
+    							<xf:group class="lta" id="" style="">
+    								<w2:textbox class="lable_purple" id="" label="이동통신" style="" tagname="span"></w2:textbox>
+    								<w2:textbox class="lable_blue" id="" label="5G요금" style="" tagname="span"></w2:textbox>
+    								<w2:textbox class="lable_green" id="" label="일반상담" style="" tagname="span"></w2:textbox>
+    							</xf:group>
+    							<xf:group class="rta" id="" style="">
+    								<w2:textbox class="datetime" id="" label="2019-04-23 10:38:39" style="" tagname="span"></w2:textbox>
+    							</xf:group>
+    						</xf:group>
+    						<xf:group class="psbox_type2" id="" style="">
+    							<w2:textbox class="ct_text" id="" label="[처리중] 요금조정처리" style=""></w2:textbox>
+    						</xf:group>
+    					</xf:group>
+    					<xf:group class="contentbox" id="" style="">
+    						<xf:group class="dfbox" id="" style="" tagname="">
+    							<xf:group class="lta" id="" style="">
+    								<w2:textbox class="lable_purple" id="" label="이동통신" style="" tagname="span"></w2:textbox>
+    								<w2:textbox class="lable_blue" id="" label="5G요금" style="" tagname="span"></w2:textbox>
+    								<w2:textbox class="lable_green" id="" label="일반상담" style="" tagname="span"></w2:textbox>
+    							</xf:group>
+    							<xf:group class="rta" id="" style="">
+    								<w2:textbox class="datetime" id="" label="2019-04-23 10:38:39" style="" tagname="span"></w2:textbox>
+    							</xf:group>
+    						</xf:group>
+    					</xf:group>
+    					<xf:group class="contentbox" id="" style="">
+    						<w2:textbox class="btnmore" id="" label="더보기" style=""></w2:textbox>
+    					</xf:group>
+    				</xf:group>
+    				<xf:group id="" style="" tagname="section">
+    					<xf:group class="titlebox" id="" style="">
+    						<w2:textbox id="" label="작업메모 리스트" style="" tagname="h3"></w2:textbox>
+    					</xf:group>
+    					<xf:group class="contentbox type2" id="" style="">
+    						<xf:group class="dfbox" id="" style="" tagname="">
+    							<xf:group class="lta" id="" style="">
+    								<w2:textbox class="badge_red" id="" label="이동통신" style="" tagname="span"></w2:textbox>
+    								<w2:textbox class="badge_blue" id="" label="ENTR" style="" tagname="span"></w2:textbox>
+    							</xf:group>
+    							<xf:group class="rta" id="" style="">
+    								<w2:textbox class="datetime mr5" id="" label="상담일시" style="" tagname="span"></w2:textbox>
+    								<w2:textbox class="datetime" id="" label="2020-11-18 14:26:00" style="" tagname="span"></w2:textbox>
+    							</xf:group>
+    						</xf:group>
+    						<xf:group class="listbox" id="" style="" tagname="ul">
+    							<xf:group class="" id="" style="" tagname="li">
+    								<xf:group class="item" id="">
+    									<w2:textbox id="" label="작업적용일" style="" tagname="label"></w2:textbox>
+    									<w2:textbox class="" dataType="" id="" label="2019-04-23" ref="" style="" tagname="span"></w2:textbox>
+    								</xf:group>
+    							</xf:group>
+    							<xf:group class="" id="" style="" tagname="li">
+    								<xf:group class="item" id="">
+    									<w2:textbox id="" label="유형" style="" tagname="label"></w2:textbox>
+    									<w2:textbox class="" dataType="" id="" label="청구서 재발행" ref="" style="" tagname="span"></w2:textbox>
+    								</xf:group>
+    							</xf:group>
+    							<xf:group class="" id="" style="" tagname="li">
+    								<xf:group class="item" id="">
+    									<w2:textbox id="" label="상품번호" style="" tagname="label"></w2:textbox>
+    									<w2:textbox class="" dataType="" id="" label="0100****0000" ref="" style="" tagname="span"></w2:textbox>
+    								</xf:group>
+    							</xf:group>
+    							<xf:group class="" id="" style="" tagname="li">
+    								<xf:group class="item" id="">
+    									<w2:textbox id="" label="생성자" style="" tagname="label"></w2:textbox>
+    									<w2:textbox class="sublabel" id="" label="정슬기" ref="" style="" tagname="span"></w2:textbox>
+    									<w2:textbox class="" dataType="" id="" label="141212341234" ref="" style="" tagname="span"></w2:textbox>
+    								</xf:group>
+    							</xf:group>
+    							<xf:group class="" id="" style="" tagname="li">
+    								<xf:group class="item" id="">
+    									<w2:textbox id="" label="소속점" style="" tagname="label"></w2:textbox>
+    									<w2:textbox class="sublabel" id="" label="혁신센터" ref="" style="" tagname="span"></w2:textbox>
+    									<w2:textbox class="" dataType="" id="" label="21100032" ref="" style="" tagname="span"></w2:textbox>
+    								</xf:group>
+    							</xf:group>
+    						</xf:group>
+    					</xf:group>
+    					<xf:group class="contentbox type2-1" id="" style="">
+    						<xf:group class="listbox title" id="" style="" tagname="ul">
+    							<xf:group class="" id="" style="" tagname="li">
+    								<xf:group class="item" id="">
+    									<w2:textbox id="" label="상담일시" style="" tagname="label"></w2:textbox>
+    									<w2:textbox class="" dataType="" id="" label="2019-04-23" ref="" style="" tagname="span"></w2:textbox>
+    								</xf:group>
+    							</xf:group>
+    							<xf:group class="" id="" style="" tagname="li">
+    								<xf:group class="item" id="">
+    									<w2:textbox id="" label="작업적용일" style="" tagname="label"></w2:textbox>
+    									<w2:textbox class="" dataType="" id="" label="일괄 수납" ref="" style="" tagname="span"></w2:textbox>
+    								</xf:group>
+    							</xf:group>
+    						</xf:group>
+    						<xf:group class="listbox" id="" style="" tagname="ul">
+    							<xf:group class="" id="" style="" tagname="li">
+    								<xf:group class="item" id="">
+    									<w2:textbox id="" label="유형" style="" tagname="label"></w2:textbox>
+    									<w2:textbox class="" dataType="" id="" label="2019-04-23" ref="" style="" tagname="span"></w2:textbox>
+    								</xf:group>
+    							</xf:group>
+    							<xf:group class="" id="" style="" tagname="li">
+    								<xf:group class="item" id="">
+    									<w2:textbox id="" label="범주" style="" tagname="label"></w2:textbox>
+    									<w2:textbox class="" dataType="" id="" label="일괄 수납" ref="" style="" tagname="span"></w2:textbox>
+    								</xf:group>
+    							</xf:group>
+    							<xf:group class="" id="" style="" tagname="li">
+    								<xf:group class="item" id="">
+    									<w2:textbox id="" label="상품구분/번호" style="" tagname="label"></w2:textbox>
+    									<w2:textbox class="sublabel" id="" label="이동통신" ref="" style="" tagname="span"></w2:textbox>
+    									<w2:textbox class="" dataType="" id="" label="0100****0000" ref="" style="" tagname="span"></w2:textbox>
+    								</xf:group>
+    							</xf:group>
+    							<xf:group class="" id="" style="" tagname="li">
+    								<xf:group class="item" id="">
+    									<w2:textbox id="" label="생성자" style="" tagname="label"></w2:textbox>
+    									<w2:textbox class="sublabel" id="" label="홍길동" ref="" style="" tagname="span"></w2:textbox>
+    									<w2:textbox class="" dataType="" id="" label="3302999300020" ref="" style="" tagname="span"></w2:textbox>
+    								</xf:group>
+    							</xf:group>
+    							<xf:group class="" id="" style="" tagname="li">
+    								<xf:group class="item" id="">
+    									<w2:textbox id="" label="소속점" style="" tagname="label"></w2:textbox>
+    									<w2:textbox class="sublabel" id="" label="(CVC직영점)모바일고객센터" ref="" style="" tagname="span"></w2:textbox>
+    									<w2:textbox class="" dataType="" id="" label="21100032" ref="" style="" tagname="span"></w2:textbox>
+    								</xf:group>
+    							</xf:group>
+    						</xf:group>
+    					</xf:group>
+    					<xf:group class="contentbox" id="" style="">
+    						<w2:textbox class="btnmore" id="" label="더보기" style=""></w2:textbox>
+    					</xf:group>
+    				</xf:group><xf:group id="" style="" tagname="section">
+    					<xf:group class="titlebox" id="" style="">
+    						<w2:textbox id="" label="알림 메시지" style="" tagname="h3"></w2:textbox>
+    					</xf:group>
+    					<xf:group class="alram_listbox" id="" style="" tagname="" userData2="">
+    						<xf:group class="dfbox" id="" style="">
+    							<xf:group class="lta" id="" style="">
+    								<w2:textbox class="text" id="" label="고객동의 진행중인 업무" style="" tagname="span"></w2:textbox>
+    								<w2:textbox class="num" id="" label="5" style="" tagname="span"></w2:textbox>
+    							</xf:group>
+    							<xf:group class="rta" id="" style="">
+    								<xf:trigger class="btn_cf" id="" style="" type="button">
+    									<xf:label><![CDATA[완료내역]]></xf:label>
+    								</xf:trigger>
+    							</xf:group>
+    						</xf:group>
+    						<xf:group class="listbox" id="" style="" tagname="ul">
+    							<xf:group id="" style="" tagname="li">
+    								<xf:group class="lta" id="">
+    									<w2:textbox class="title" id="" label="홍OO님 요금제 변경" style=""></w2:textbox>
+    								</xf:group>
+    								<xf:group class="rta" id="" style="">
+    									<w2:textbox class="status" id="" label="16시간 남음" style=""></w2:textbox>
+    								</xf:group>
+    							</xf:group>
+    							<xf:group id="" style="" tagname="li">
+    								<xf:group class="lta" id="">
+    									<w2:textbox class="title" id="" label="홍OO님 부가서비스 변경" style=""></w2:textbox>
+    								</xf:group>
+    								<xf:group class="rta" id="" style="">
+    									<w2:textbox class="status consent" id="" label="완료" style=""></w2:textbox>
+    								</xf:group>
+    							</xf:group>
+    							<xf:group id="" style="" tagname="li">
+    								<xf:group class="lta" id="">
+    									<w2:textbox class="title" id="" label="홍OO님 요금제 변경" style=""></w2:textbox>
+    								</xf:group>
+    								<xf:group class="rta" id="" style="">
+    									<w2:textbox class="status unconsent" id="" label="미동의" style=""></w2:textbox>
+    								</xf:group>
+    							</xf:group>
+    							<xf:group id="" style="" tagname="li">
+    								<xf:group class="lta" id="">
+    									<w2:textbox class="title" id="" label="홍OO님 부가서비스 변경" style=""></w2:textbox>
+    								</xf:group>
+    								<xf:group class="rta" id="" style="">
+    									<w2:textbox class="status unconsent" id="" label="미동의" style=""></w2:textbox>
+    								</xf:group>
+    							</xf:group>
+    							<xf:group id="" style="" tagname="li">
+    								<xf:group class="lta" id="">
+    									<w2:textbox class="title" id="" label="홍OO님 부가서비스 변경" style=""></w2:textbox>
+    								</xf:group>
+    								<xf:group class="rta" id="" style="">
+    									<w2:textbox class="status consent" id="" label="완료" style=""></w2:textbox>
+    								</xf:group>
+    							</xf:group>
+    						</xf:group>
+    					</xf:group>
+    					<xf:group class="alram_listbox" id="" style="" tagname="" userData2="">
+    						<xf:group class="dfbox" id="" style="">
+    							<xf:group class="lta" id="" style="">
+    								<w2:textbox class="text" id="" label="알림" style="" tagname="span"></w2:textbox>
+    								<w2:textbox class="num" id="" label="3" style="" tagname="span"></w2:textbox>
+    							</xf:group>
+    						</xf:group>
+    						<xf:group class="listbox2" id="" style="" tagname="">
+    							<w2:textbox class="alramtitle txt_red" id="" label="알림 타이틀" style="" tagname="label"></w2:textbox>
+    							<w2:textbox class="content" id="" label="상품안내 미흡 관련 처리 필요, 상품안내 미흡 관련 처리 필요, 상품안내 미흡 관련 처리 필요" style="" tagname="">
+    							</w2:textbox>
+    							<xf:group class="detailbox" id="" style="">
+    								<xf:group class="statusbar" id="" style="">
+    									<xf:group class="lta" id="">
+    										<w2:textbox class="status txt_red" id="" label="긴급" style="" tagname="span"></w2:textbox>
+    										<xf:group class="bar" id="" style=""></xf:group>
+    										<w2:textbox class="time" id="" label="16분 전" style="" tagname="span"></w2:textbox>
+    									</xf:group>
+    									<xf:group class="rta" id="" style="">
+    										<xf:trigger class="btn_fc spread" ev:onclick="scwin.btn_accordion_onclick" id="trigger2" nextTabID="" style="" type="button">
+    											<xf:label><![CDATA[펼치기]]></xf:label>
+    										</xf:trigger>
+    									</xf:group>
+    								</xf:group>
+    								<xf:group class="detailbtnbox" id="" style="">
+    									<xf:group class="rta" id="" style="">
+    										<xf:trigger class="btn_cf" id="" style="" type="button">
+    											<xf:label><![CDATA[상세보기]]></xf:label>
+    										</xf:trigger>
+    										<xf:trigger class="btn_cf" id="" style="" type="button">
+    											<xf:label><![CDATA[보류]]></xf:label>
+    										</xf:trigger>
+    										<xf:trigger class="btn_cf" id="" style="" type="button">
+    											<xf:label><![CDATA[이관]]></xf:label>
+    										</xf:trigger>
+    										<xf:trigger class="btn_cf" id="" style="" type="button">
+    											<xf:label><![CDATA[To-Do]]></xf:label>
+    										</xf:trigger>
+    									</xf:group>
+    								</xf:group>
+    							</xf:group>
+    						</xf:group>
+    						<xf:group class="listbox2" id="" style="" tagname="">
+    							<w2:textbox class="alramtitle txt_red" id="" label="알림 타이틀" style="" tagname="label"></w2:textbox>
+    							<w2:textbox class="content" id="" label="상품안내 미흡 관련 처리 필요, 상품안내 미흡 관련 처리 필요, 상품안내 미흡 관련 처리 필요" style="" tagname="">
+    							</w2:textbox>
+    							<xf:group class="detailbox active" id="" style="">
+    								<xf:group class="statusbar" id="">
+    									<xf:group class="lta" id="">
+    										<w2:textbox class="status txt_red" id="" label="긴급" style="" tagname="span"></w2:textbox>
+    										<xf:group class="bar" id="" style=""></xf:group>
+    										<w2:textbox class="time" id="" label="16분 전" style="" tagname="span"></w2:textbox>
+    									</xf:group>
+    									<xf:group class="rta" id="" style="">
+    										<xf:trigger class="btn_fc spread" ev:onclick="scwin.btn_accordion_onclick" id="btn_accordion" nextTabID="" style="" type="button">
+    											<xf:label><![CDATA[펼치기]]></xf:label>
+    										</xf:trigger>
+    									</xf:group>
+    								</xf:group>
+    								<xf:group class="detailbtnbox" id="" style="">
+    									<xf:group class="rta" id="" style="">
+    										<xf:trigger class="btn_cf" id="" style="" type="button">
+    											<xf:label><![CDATA[상세보기]]></xf:label>
+    										</xf:trigger>
+    										<xf:trigger class="btn_cf" id="" style="" type="button">
+    											<xf:label><![CDATA[보류]]></xf:label>
+    										</xf:trigger>
+    										<xf:trigger class="btn_cf" id="" style="" type="button">
+    											<xf:label><![CDATA[이관]]></xf:label>
+    										</xf:trigger>
+    										<xf:trigger class="btn_cf" id="" style="" type="button">
+    											<xf:label><![CDATA[To-Do]]></xf:label>
+    										</xf:trigger>
+    									</xf:group>
+    								</xf:group>
+    							</xf:group>
+    						</xf:group>
+    						<xf:group class="listbox2" id="" style="" tagname="">
+    							<w2:textbox class="alramtitle" id="" label="알림 타이틀" style="" tagname="label"></w2:textbox>
+    							<w2:textbox class="content" id="" label="상품안내 미흡 관련 처리 필요, 상품안내 미흡 관련." style="" tagname=""></w2:textbox>
+    							<xf:group class="detailbox" id="" style="">
+    								<xf:group class="statusbar" id="">
+    									<xf:group class="lta" id="">
+    										<w2:textbox class="status txt_blue" id="" label="일반" style="" tagname="span"></w2:textbox>
+    										<xf:group class="bar" id="" style=""></xf:group>
+    										<w2:textbox class="time" id="" label="2시간 전" style="" tagname="span"></w2:textbox>
+    									</xf:group>
+    									<xf:group class="rta" id="" style="">
+    										<xf:trigger class="btn_fc spread" ev:onclick="scwin.btn_accordion_onclick" id="trigger3" nextTabID="" style="" type="button">
+    											<xf:label><![CDATA[펼치기]]></xf:label>
+    										</xf:trigger>
+    									</xf:group>
+    								</xf:group>
+    								<xf:group class="detailbtnbox" id="" style="">
+    									<xf:group class="rta" id="" style="">
+    										<xf:trigger class="btn_cf" id="" style="" type="button">
+    											<xf:label><![CDATA[상세보기]]></xf:label>
+    										</xf:trigger>
+    										<xf:trigger class="btn_cf" id="" style="" type="button">
+    											<xf:label><![CDATA[보류]]></xf:label>
+    										</xf:trigger>
+    										<xf:trigger class="btn_cf" id="" style="" type="button">
+    											<xf:label><![CDATA[이관]]></xf:label>
+    										</xf:trigger>
+    										<xf:trigger class="btn_cf" id="" style="" type="button">
+    											<xf:label><![CDATA[To-Do]]></xf:label>
+    										</xf:trigger>
+    									</xf:group>
+    								</xf:group>
+    							</xf:group>
+    						</xf:group>
+    						<xf:group class="listbox2" id="" style="" tagname="">
+    							<w2:textbox class="alramtitle" id="" label="알림 타이틀" style="" tagname="label"></w2:textbox>
+    							<w2:textbox class="content" id="" label="상품안내 미흡 관련 처리 필요, 상품안내 미흡 관련 처리 필요, 상품안내 미흡 관련 처리 필요" style="" tagname="">
+    							</w2:textbox>
+    							<xf:group class="detailbox" id="" style="">
+    								<xf:group class="statusbar" id="">
+    									<xf:group class="lta" id="">
+    										<w2:textbox class="status txt_blue" id="" label="일반" style="" tagname="span"></w2:textbox>
+    										<xf:group class="bar" id="" style=""></xf:group>
+    										<w2:textbox class="time" id="" label="어제" style="" tagname="span"></w2:textbox>
+    									</xf:group>
+    									<xf:group class="rta" id="" style="">
+    										<xf:trigger class="btn_fc spread" ev:onclick="scwin.btn_accordion_onclick" id="trigger4" nextTabID="" style="" type="button">
+    											<xf:label><![CDATA[펼치기]]></xf:label>
+    										</xf:trigger>
+    									</xf:group>
+    								</xf:group>
+    								<xf:group class="detailbtnbox" id="" style="">
+    									<xf:group class="rta" id="" style="">
+    										<xf:trigger class="btn_cf" id="" style="" type="button">
+    											<xf:label><![CDATA[상세보기]]></xf:label>
+    										</xf:trigger>
+    										<xf:trigger class="btn_cf" id="" style="" type="button">
+    											<xf:label><![CDATA[보류]]></xf:label>
+    										</xf:trigger>
+    										<xf:trigger class="btn_cf" id="" style="" type="button">
+    											<xf:label><![CDATA[이관]]></xf:label>
+    										</xf:trigger>
+    										<xf:trigger class="btn_cf" id="" style="" type="button">
+    											<xf:label><![CDATA[To-Do]]></xf:label>
+    										</xf:trigger>
+    									</xf:group>
+    								</xf:group>
+    							</xf:group>
+    						</xf:group>
+    						<xf:group class="listbox2" id="" style="" tagname="">
+    							<w2:textbox class="alramtitle" id="" label="알림 타이틀" style="" tagname="label"></w2:textbox>
+    							<w2:textbox class="content" id="" label="상품안내 미흡 관련 처리 필요, 상품안내 미흡 관련 처리 필요, 상품안내 미흡 관련 처리 필요" style="" tagname="">
+    							</w2:textbox>
+    							<xf:group class="detailbox" id="" style="">
+    								<xf:group class="statusbar" id="">
+    									<xf:group class="lta" id="">
+    										<w2:textbox class="status txt_blue" id="" label="일반" style="" tagname="span"></w2:textbox>
+    										<xf:group class="bar" id="" style=""></xf:group>
+    										<w2:textbox class="time" id="" label="16분 전" style="" tagname="span"></w2:textbox>
+    									</xf:group>
+    									<xf:group class="rta" id="" style="">
+    										<xf:trigger class="btn_fc spread" ev:onclick="scwin.btn_accordion_onclick" id="trigger5" nextTabID="" style="" type="button">
+    											<xf:label><![CDATA[펼치기]]></xf:label>
+    										</xf:trigger>
+    									</xf:group>
+    								</xf:group>
+    								<xf:group class="detailbtnbox" id="" style="">
+    									<xf:group class="rta" id="" style="">
+    										<xf:trigger class="btn_cf" id="" style="" type="button">
+    											<xf:label><![CDATA[상세보기]]></xf:label>
+    										</xf:trigger>
+    										<xf:trigger class="btn_cf" id="" style="" type="button">
+    											<xf:label><![CDATA[보류]]></xf:label>
+    										</xf:trigger>
+    										<xf:trigger class="btn_cf" id="" style="" type="button">
+    											<xf:label><![CDATA[이관]]></xf:label>
+    										</xf:trigger>
+    										<xf:trigger class="btn_cf" id="" style="" type="button">
+    											<xf:label><![CDATA[To-Do]]></xf:label>
+    										</xf:trigger>
+    									</xf:group>
+    								</xf:group>
+    							</xf:group>
+    						</xf:group>
+    						<w2:textbox class="lastmsg" id="" label="읽은 알림은 7일간 저장됩니다." style=""></w2:textbox>
+    					</xf:group>
+    				</xf:group><xf:group id="" style="" tagname="section">
+    					<xf:group class="titlebox" id="" style="">
+    						<w2:textbox id="" label="고객동의 내역 리스트" style="" tagname="h3"></w2:textbox>
+    					</xf:group>
+    					<xf:group class="alram_listbox" id="" style="" tagname="" userData2="">
+    						<xf:group class="listbox" id="" style="" tagname="ul">
+    							<xf:group id="" style="" tagname="li">
+    								<xf:group class="lta" id="">
+    									<w2:textbox class="title" id="" label="홍OO님 부가서비스 변경" style=""></w2:textbox>
+    								</xf:group>
+    								<xf:group class="rta" id="" style="">
+    									<w2:textbox class="status" id="" label="2021-07-03 14:00:00" style=""></w2:textbox>
+    								</xf:group>
+    							</xf:group>
+    							<xf:group id="" style="" tagname="li">
+    								<xf:group class="lta" id="">
+    									<w2:textbox class="title" id="" label="홍OO님 부가서비스 변경" style=""></w2:textbox>
+    								</xf:group>
+    								<xf:group class="rta" id="" style="">
+    									<w2:textbox class="status" id="" label="2021-07-03 14:00:00" style=""></w2:textbox>
+    								</xf:group>
+    							</xf:group>
+    							<xf:group id="" style="" tagname="li">
+    								<xf:group class="lta" id="">
+    									<w2:textbox class="title" id="" label="홍OO님 부가서비스 변경" style=""></w2:textbox>
+    								</xf:group>
+    								<xf:group class="rta" id="" style="">
+    									<w2:textbox class="status" id="" label="2021-07-03 14:00:00" style=""></w2:textbox>
+    								</xf:group>
+    							</xf:group>
+    						</xf:group>
+    						<w2:textbox class="lastmsg" id="" label="읽은 알림은 7일간 저장됩니다." style=""></w2:textbox>
+    					</xf:group>
+    				</xf:group>
+    				
+    				
+
+    			</xf:group>
+    		</xf:group>
+    		<xf:group class="bottomMenu" id="" style="" tagname="section">
+    			<xf:group class="navbox" id="" style="">
+    				<xf:group class="menu01 on" id="" style="" tagname="button">
+    					<xf:group class="numberbox" id="">
+    						<w2:textbox class="num" id="" label="13" style=""></w2:textbox>
+    					</xf:group>
+    					<w2:textbox class="title" id="" label="To-Do" style=""></w2:textbox>
+    				</xf:group>
+    				<xf:group class="menu02" id="" style="" tagname="button">
+    					<w2:textbox class="title" id="" label="가입정보조회" style=""></w2:textbox>
+    				</xf:group>
+    				<xf:group class="menu03" id="" style="" tagname="button">
+    					<w2:textbox class="title" id="" label="사전조회" style=""></w2:textbox>
+    				</xf:group>
+    				<xf:group class="menu04" id="" style="" tagname="button">
+    					<w2:textbox class="title" id="" label="개통지역" style=""></w2:textbox>
+    				</xf:group>
+    				<xf:group class="menu05" id="" style="" tagname="button">
+    					<xf:group class="numberbox" id="" style="">
+    						<w2:textbox class="num" id="" label="3" style=""></w2:textbox>
+    					</xf:group>
+    					<w2:textbox class="title" id="" label="알림" style=""></w2:textbox>
+    				</xf:group>
+    			</xf:group>
+    		</xf:group>
+    	</xf:group>
+    </body>
+</html>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:ev="http://www.w3.org/2001/xml-events"
+    xmlns:w2="http://www.inswave.com/websquare" xmlns:xf="http://www.w3.org/2002/xforms">
+    <head meta_programName="bottom sheet - Dark Mode">
+    	<w2:type>DEFAULT</w2:type>
+        <w2:buildDate/>
+        <xf:model>
+            <xf:instance>
+                <data xmlns=""/>
+            </xf:instance>
+            <w2:dataCollection baseNode="map">
+            </w2:dataCollection>
+            <w2:workflowCollection>
+            </w2:workflowCollection>
+        </xf:model>
+         <script type="text/javascript" lazy="false"><![CDATA[
+        
+	scwin.onpageload = function() {
+		
+	};
+	
+	scwin.onpageunload = function() {
+		
+	};
+	
+	
+	scwin.btn_dim_onclick = function(e) {
+		bottomSheet.removeClass('active');
+	};
+	
+	scwin.btnClose_onclick = function(e) {
+		bottomSheet.removeClass('active');
+	};
+	
+	scwin.trigger1_onclick = function(e) {
+		bottomSheetWrap.removeClass('h50p');
+		bottomSheetWrap.removeClass('h100p');
+		bottomSheetWrap.addClass('h50p');
+		bottomSheet.addClass('active');
+	};
+	
+	scwin.trigger2_onclick = function(e) {
+		bottomSheetWrap.removeClass('h50p');
+		bottomSheetWrap.removeClass('h100p');
+		bottomSheetWrap.addClass('h100p');
+		bottomSheet.addClass('active');
+	};
+	]]></script>
+    </head>
+    <body ev:onpageload="scwin.onpageload" ev:onpageunload="scwin.onpageunload" class="dark">
+    	<xf:group class="wrapper" id="" style="">
+    		<xf:group class="container" id="" tagname="section" style="">
+    			<xf:group class="container_inner" id="" tagname="">
+    				<xf:group class="btnbox" id="" style="">
+    					<xf:trigger class="btn_df" ev:onclick="scwin.trigger1_onclick" id="trigger1" style="" type="button">
+    						<xf:label><![CDATA[BottomSheet(50%)]]></xf:label>
+    					</xf:trigger>
+    					<xf:trigger class="btn_df" ev:onclick="scwin.trigger2_onclick" id="trigger2" style="" type="button">
+    						<xf:label><![CDATA[BottomSheet(100%)]]></xf:label>
+    					</xf:trigger>
+    				</xf:group>
+    			</xf:group>
+    		</xf:group>
+    	</xf:group>
+    	<xf:group class="bottomsheet" id="bottomSheet" style="">
+    		
+    		<xf:group class="dim" id="btn_dim" style="" ev:onclick="scwin.btn_dim_onclick"></xf:group>
+    		<xf:group class="bsbox" id="" style="">
+    			<xf:group class="bsboxwrap" id="bottomSheetWrap" style="">
+    				<xf:group class="contwrap" id="" style="">
+    					<w2:textbox id="" label="결과상세메세지" style="" tagname="h3"></w2:textbox>
+    					<w2:textbox id="" label="회선제한여부" style="" tagname="h4"></w2:textbox>
+    					<w2:textbox class="content" id=""
+    						label="유선 신용 및 회선 확인 결과 : 정상&lt;br/&gt; &amp;nbsp; &amp;nbsp;인터넷 개통 회선수 : 2회선, 연체 없음&lt;br/&gt; &amp;nbsp; &amp;nbsp;인터넷전화 개통 회선수 : 0 회선, 연체 없음&lt;br/&gt; &amp;nbsp; &amp;nbsp;방송 개통 회선수 : 0 회선, 연체 없음&lt;br/&gt;&lt;br/&gt;모바일 신용 및 회선 확인 결과 : 불가&lt;br/&gt; &amp;nbsp; &amp;nbsp;개인 가입가능회선(3회선) 초과, 개통불가&lt;br/&gt;&lt;br/&gt;M2M 신용 및 회선 확인 결과 : 정상&lt;br/&gt; &amp;nbsp; &amp;nbsp;개통가능 잔여 회선수 : 3회선&lt;br/&gt;&lt;br/&gt; &amp;nbsp; &amp;nbsp;현재 자사 모바일 개통 회선수 : 0회선&lt;br/&gt; &amp;nbsp; &amp;nbsp;현재 자사 M2M 개통 회선수 : 0회선, 연체 없음&lt;br/&gt;&lt;br/&gt;‘개통가능 회선수'는 추가 개통 가능한 잔여 회선수 입니다."
+    						style="">
+    					</w2:textbox>
+    				</xf:group>
+    				<xf:group class="btnbox" id="" style="">
+    					<xf:trigger class="btn_df" ev:onclick="scwin.btnClose_onclick" id="btnClose" style="" type="button">
+    						<xf:label><![CDATA[닫기]]></xf:label>
+    					</xf:trigger>
+    				</xf:group>
+    				<xf:group id="" style="" class="touchbox"></xf:group>
+    			</xf:group>
+    		</xf:group>
+    	</xf:group>
+    </body>
+</html>

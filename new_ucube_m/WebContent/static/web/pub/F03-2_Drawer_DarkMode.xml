@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:ev="http://www.w3.org/2001/xml-events"
+    xmlns:w2="http://www.inswave.com/websquare" xmlns:xf="http://www.w3.org/2002/xforms">
+    <head meta_programName="drawer - Dark Mode">
+    	<w2:type>DEFAULT</w2:type>
+        <w2:buildDate/>
+        <xf:model>
+            <xf:instance>
+                <data xmlns=""/>
+            </xf:instance>
+            <w2:dataCollection baseNode="map">
+            </w2:dataCollection>
+            <w2:workflowCollection>
+            </w2:workflowCollection>
+        </xf:model>
+         <script type="text/javascript" lazy="false"><![CDATA[
+        
+	scwin.onpageload = function() {
+		
+	};
+	
+	scwin.onpageunload = function() {
+		
+	};
+	
+	
+	scwin.btn_menu_onclick = function(e) {
+		rightMenu.addClass('active');
+	};
+	
+	scwin.btn_dim_onclick = function(e) {
+		rightMenu.removeClass('active');
+	};
+	]]></script>
+    </head>
+    <body ev:onpageload="scwin.onpageload" ev:onpageunload="scwin.onpageunload" class="dark">
+    	<xf:group style="" id="" class="wrapper">
+    		<xf:group style="" id="" class="header" tagname="section">
+
+    			<xf:group style="" id="" class="titlebar">
+    				<xf:group id="" class="cta">
+    					<w2:textbox tagname="h2" style="" label="타이틀 영역" id="" class="title"></w2:textbox>
+    					<w2:textbox tagname="em" style="" id="" label="7" class=""></w2:textbox>
+    				</xf:group>
+    			</xf:group>
+    			<xf:group tagname="button" style="" id="btn_menu" class="btn_menu" ev:onclick="scwin.btn_menu_onclick"></xf:group>
+    		</xf:group>
+    	</xf:group>
+    	<xf:group id="rightMenu" style="" class="rightmenu">
+    		<xf:group id="btn_dim" style="" class="dim" ev:onclick="scwin.btn_dim_onclick"></xf:group>
+    		<xf:group id="" style="" class="menuwrap">
+    			<xf:group id="" style="" class="headergroup">
+    				<xf:group id="" style="" class="titlewrap">
+    					<w2:textbox id="" label="홍상담" style="" tagname="h3" class="name"></w2:textbox>
+    					<w2:textbox id="" label="(hongsd)" style="" tagname="span" class="id"></w2:textbox>
+    					<w2:textbox id="" label="LG 유플러스 마곡사이언스파크 E14직영점" style="" tagname="span" class="team"></w2:textbox>
+    				</xf:group>
+    				<xf:group class="contwrap" id="" style="">
+    					<xf:group id="" style="" class="lta">
+    						<xf:group id="" style="" class="todo">
+    							<w2:textbox id="" label="To-Do" style="" tagname="label"></w2:textbox>
+    							<w2:textbox id="" label="13" style="" tagname="span"></w2:textbox>
+    						</xf:group>
+    						<xf:group class="alram" id="" style="">
+    							<w2:textbox id="" label="알림" style="" tagname="label"></w2:textbox>
+    							<w2:textbox id="" label="3" style="" tagname="span"></w2:textbox>
+    						</xf:group>
+    					</xf:group>
+    					<xf:group class="rta" id="" style="">
+    						<xf:trigger type="button" style="" id="" class="btn_setting">
+    							<xf:label><![CDATA[설정]]></xf:label>
+    						</xf:trigger>
+    					</xf:group>
+    				</xf:group>
+    			</xf:group>
+    			<xf:group id="" style="" class="bodygroup">
+    				<xf:group id="" style="" tagname="ul" class="depth1">
+    					<xf:group id="" style="" tagname="li">
+    						<xf:group id="" class="titlewrap">
+    							<xf:group id="" tagname="h3">
+    								<w2:textbox tagname="span" style="" id="" label="신*혜" class="name"></w2:textbox>
+    								<w2:textbox id="" label="고객님 상담업무" style="" tagname="span"></w2:textbox>
+    							</xf:group>
+    						</xf:group>
+    						<xf:group id="" style="" tagname="ul" class="depth2">
+
+    							<xf:group id="" style="" tagname="li">
+    								<w2:textbox id="" label="가입정보조회" style="" tagname="h4"></w2:textbox>
+    								<xf:group class="depth3" id="" style="" tagname="ul">
+    									<xf:group id="" style="" tagname="li" class="rightmenu_01_01">
+    										<xf:group id="" style="" class="lta">
+    											<w2:textbox id="" label="가입정보조회" style="" tagname="label"></w2:textbox>
+    										</xf:group>
+    										<xf:group class="rta" id="" style="">
+    											<xf:trigger type="button" style="" id="" class="btn_right">
+    												<xf:label><![CDATA[확인]]></xf:label>
+    											</xf:trigger>
+    										</xf:group>
+    									</xf:group>
+    									<xf:group id="" style="" tagname="li" class="rightmenu_01_02 disable">
+    										<xf:group class="lta" id="" style="">
+    											<w2:textbox id="" label="홈 개통진행현황" style="" tagname="label"></w2:textbox>
+    										</xf:group>
+    										<xf:group class="rta" id="" style="">
+    											<xf:trigger class="btn_right" id="" style="" type="button">
+    												<xf:label><![CDATA[확인]]></xf:label>
+    											</xf:trigger>
+    										</xf:group>
+    									</xf:group>
+    								</xf:group>
+    							</xf:group>
+    						</xf:group>
+    						<xf:group class="depth2" id="" style="" tagname="ul">
+    							<xf:group id="" style="" tagname="li">
+    								<w2:textbox id="" label="요금조회" style="" tagname="h4"></w2:textbox>
+    								<xf:group class="depth3" id="" style="" tagname="ul">
+    									<xf:group class="rightmenu_02_01" id="" style="" tagname="li">
+    										<w2:attributes>
+    											<w2:disabled>true</w2:disabled>
+    										</w2:attributes>
+    										<xf:group class="lta" id="" style="">
+    											<w2:textbox id="" label="청수미관리" style="" tagname="label"></w2:textbox>
+    										</xf:group>
+    										<xf:group class="rta" id="" style="">
+    											<xf:trigger class="btn_right" id="" style="" type="button">
+    												<xf:label><![CDATA[확인]]></xf:label>
+    											</xf:trigger>
+    										</xf:group>
+    									</xf:group>
+    									<xf:group class="rightmenu_02_02" id="" style="" tagname="li">
+    										<xf:group class="lta" id="" style="">
+    											<w2:textbox id="" label="청구정보조회" style="" tagname="label"></w2:textbox>
+    										</xf:group>
+    										<xf:group class="rta" id="" style="">
+    											<xf:trigger class="btn_right" id="" style="" type="button">
+    												<xf:label><![CDATA[확인]]></xf:label>
+    											</xf:trigger>
+    										</xf:group>
+    									</xf:group>
+    									<xf:group class="rightmenu_02_03" id="" style="" tagname="li">
+    										<xf:group class="lta" id="" style="">
+    											<w2:textbox id="" label="단말기할부정보" style="" tagname="label"></w2:textbox>
+    										</xf:group>
+    										<xf:group class="rta" id="" style="">
+    											<xf:trigger class="btn_right" id="" style="" type="button">
+    												<xf:label><![CDATA[확인]]></xf:label>
+    											</xf:trigger>
+    										</xf:group>
+    									</xf:group>
+    								</xf:group>
+    							</xf:group>
+    						</xf:group>
+    						<xf:group class="depth2" id="" style="" tagname="ul">
+    							<xf:group id="" style="" tagname="li">
+    								<w2:textbox id="" label="조회 및 변경" style="" tagname="h4"></w2:textbox>
+    								<xf:group class="depth3" id="" style="" tagname="ul">
+    									<xf:group class="rightmenu_03_01" id="" style="" tagname="li">
+    										<xf:group class="lta" id="" style="">
+    											<w2:textbox id="" label="요금제 변경" style="" tagname="label"></w2:textbox>
+    										</xf:group>
+    										<xf:group class="rta" id="" style="">
+    											<xf:trigger class="btn_right" id="" style="" type="button">
+    												<xf:label><![CDATA[확인]]></xf:label>
+    											</xf:trigger>
+    										</xf:group>
+    									</xf:group>
+    									<xf:group class="rightmenu_03_02" id="" style="" tagname="li">
+    										<xf:group class="lta" id="" style="">
+    											<w2:textbox id="" label="부가서비스 변경" style="" tagname="label"></w2:textbox>
+    										</xf:group>
+    										<xf:group class="rta" id="" style="">
+    											<xf:trigger class="btn_right" id="" style="" type="button">
+    												<xf:label><![CDATA[확인]]></xf:label>
+    											</xf:trigger>
+    										</xf:group>
+    									</xf:group>
+    								</xf:group>
+    							</xf:group>
+    						</xf:group>
+    					</xf:group>
+    					<xf:group id="" style="" tagname="li">
+    						<xf:group class="titlewrap" id="">
+    							<xf:group id="" tagname="h3">
+    								<w2:textbox id="" label="사전조회/개통가능여부조회" style="" tagname="span"></w2:textbox>
+    							</xf:group>
+    						</xf:group>
+    						<xf:group id="" class="depth3wrap">
+    							<xf:group tagname="ul" style="" id="" class="depth3">
+    								<xf:group tagname="li" style="" id="" class="rightmenu_04_01">
+    									<xf:group style="" id="" class="lta">
+    										<w2:textbox tagname="label" style="" id="" label="가입정보조회"></w2:textbox>
+    									</xf:group>
+    									<xf:group style="" id="" class="rta">
+    										<xf:trigger style="" id="" type="button" class="btn_right">
+    											<xf:label><![CDATA[확인]]></xf:label>
+    										</xf:trigger>
+    									</xf:group>
+    								</xf:group>
+    								<xf:group tagname="li" style="" id="" class="rightmenu_04_02">
+    									<xf:group style="" id="" class="lta">
+    										<w2:textbox tagname="label" style="" id="" label="홈 개통진행현황"></w2:textbox>
+    									</xf:group>
+    									<xf:group style="" id="" class="rta">
+    										<xf:trigger style="" id="" type="button" class="btn_right">
+    											<xf:label><![CDATA[확인]]></xf:label>
+    										</xf:trigger>
+    									</xf:group>
+    								</xf:group>
+    							</xf:group>
+    						</xf:group>
+    					</xf:group>
+    					<xf:group id="" style="" tagname="li">
+    						<xf:group class="titlewrap" id="">
+    							<xf:group id="" tagname="h3">
+    								<w2:textbox id="" label="U+ Apps 연동" style="" tagname="span"></w2:textbox>
+    							</xf:group>
+    						</xf:group>
+    						<xf:group class="depth3wrap" id="">
+    							<xf:group class="depth3" id="" style="" tagname="ul">
+    								<xf:group class="rightmenu_05_01" id="" style="" tagname="li">
+    									<xf:group class="lta" id="" style="">
+    										<w2:textbox id="" label="UCRM" style="" tagname="label"></w2:textbox>
+    									</xf:group>
+    									<xf:group class="rta" id="" style="">
+    										<xf:trigger class="btn_right" id="" style="" type="button">
+    											<xf:label><![CDATA[확인]]></xf:label>
+    										</xf:trigger>
+    									</xf:group>
+    								</xf:group>
+    								<xf:group class="rightmenu_05_02" id="" style="" tagname="li">
+    									<xf:group class="lta" id="" style="">
+    										<w2:textbox id="" label="스마트상담" style="" tagname="label"></w2:textbox>
+    									</xf:group>
+    									<xf:group class="rta" id="" style="">
+    										<xf:trigger class="btn_right" id="" style="" type="button">
+    											<xf:label><![CDATA[확인]]></xf:label>
+    										</xf:trigger>
+    									</xf:group>
+    								</xf:group>
+    								<xf:group class="rightmenu_05_03" id="" style="" tagname="li">
+    									<xf:group class="lta" id="" style="">
+    										<w2:textbox id="" label="스마트가입" style="" tagname="label"></w2:textbox>
+    									</xf:group>
+    									<xf:group class="rta" id="" style="">
+    										<xf:trigger class="btn_right" id="" style="" type="button">
+    											<xf:label><![CDATA[확인]]></xf:label>
+    										</xf:trigger>
+    									</xf:group>
+    								</xf:group>
+    								<xf:group class="rightmenu_05_04" id="" style="" tagname="li">
+    									<xf:group class="lta" id="" style="">
+    										<w2:textbox id="" label="올바른응대" style="" tagname="label"></w2:textbox>
+    									</xf:group>
+    									<xf:group class="rta" id="" style="">
+    										<xf:trigger class="btn_right" id="" style="" type="button">
+    											<xf:label><![CDATA[확인]]></xf:label>
+    										</xf:trigger>
+    									</xf:group>
+    								</xf:group>
+    							</xf:group>
+    						</xf:group>
+    					</xf:group>
+    				</xf:group>
+    			</xf:group>
+    		</xf:group>
+    	</xf:group>
+    </body>
+</html>
