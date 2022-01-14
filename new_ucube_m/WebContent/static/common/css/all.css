@@ -234,6 +234,7 @@
     --textcolor-btn-al:#56606B;
     --textcolor-btn-al-cm:#603973;
     --bordercolor-btn-al-bar:#DAE3ED;
+    --bgcolor-popup-container-section:#FFFFFF;
 
 
 
@@ -478,6 +479,7 @@
     --textcolor-btn-al:#C2C5CE;
     --textcolor-btn-al-cm:#C2A5CF;
     --bordercolor-btn-al-bar:#595D66;
+    --bgcolor-popup-container-section:#202022;
 
 
 
@@ -779,7 +781,7 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow:hidd
 .wrapper.popup{display:flex; background:var(--popup-bgcolor)}
 .wrapper.popup .header{background:var(--popup-header-bgcolor-h100); margin-top:0; transition:all .2s}
 .wrapper.popup .searchbox{background:#FFFFFF}
-.wrapper.popup .container section{margin-top:8px; background:var(--main-bgcolor); height: calc(100% - 8px)}
+.wrapper.popup .container section{margin-top:8px; background:var(--bgcolor-popup-container-section); height: calc(100% - 8px)}
 .wrapper.popup .container section.h100{display:inline-block; width:100%; height:calc(100% - 8px); background:var(--popup-bgcolor-h100); transition:all .2s}
 .container{flex-grow:1; display:block; overflow-y:auto; -webkit-overflow-scrolling:touch}
 .container.nobottom{display:block; height:calc( 100vh - 55px)}
