@@ -37,7 +37,7 @@
     			<xf:group tagname="button" style="" id="" class="btn_close"></xf:group>
     		</xf:group>
     		<xf:group id="" class="container" tagname="section">
-    			<xf:group id="" style="background: #fff;height: calc(100% - 8px);" tagname="section" class=""></xf:group>
+    			<xf:group id="" style="" tagname="section" class=""></xf:group>
     		</xf:group>
     		<xf:group class="bottomfix whiteBg" id="" style="">
     			<xf:group class="btnbox" id="" style="">
