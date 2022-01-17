@@ -627,7 +627,7 @@ input[type="search"]::-webkit-search-cancel-button{-webkit-appearance: none; dis
 .w2calendar_time_cancel:after {content:"취소" !important; font-size:14px !important; line-height:28px !important; color:#fff}
 .w2calendar_go_today, .w2calendar_footer_date {display:none}
 .w2calendar_footer_date {display:block; text-indent:-9999px}
-a .w2calendar_date_cancel {position:absolute; left:25%; top:57%; width:50%; height:30px; border:0; display:block; text-indent:inherit; font-size:14px !important; color:#5d5a77 !important; text-decoration:none !important; background:#5d5a77 !important; -moz-border-radius:2px !important; -webkit-border-radius:2px !important; box-sizing:border-box; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; text-align:center}
+a .w2calendar_date_cancel {position:absolute; left:25%; top:57%; width:50%; height:30px; border:0; display:block; text-indent:inherit; font-size:14px !important; color:#5d5a77 !important; text-decoration:none !important; background:#5d5a77 !important; border-radius:2px !important; box-sizing:border-box; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; text-align:center}
 a .w2calendar_date_cancel:after {content:"닫기" !important; position:absolute; left:25px; font-size:14px !important; color:#fff; line-height:28px !important; margin:0 !important}
 /* calendar yearMonth */
 .w2calendar_classYearMonth_class1 {width:300px; height:36px; border:1px solid #a8a8a8; border-radius:5px; box-shadow:1px 1px 5px rgba(0,0,0,0.1)}
