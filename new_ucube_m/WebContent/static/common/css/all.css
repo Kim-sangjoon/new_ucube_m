@@ -267,6 +267,14 @@
     --bordercolor-tabcontrol-type3-w2tabcontrol-tabhost-li-w2tabcontrol-tab-center:#DAE3ED;
     --bordercolor-tabcontrol-type3-ul-processTabs-li-complete-button:#BEC9D4;
     --ico-complete:url(./../images/ico_complete.svg);
+    --bgcolor-tabcontrol-type3-ul-processTabs-li-current-button:#FFFFFF;
+    --borderbottomcolor-tabcontrol-type3-ul-processTabs-li-current-button:#FFFFFF;
+    --bordertopcolor-tabcontrol-type3-ul-processTabs-li-current-button:#7B558D;
+    --tapcolor-tabcontrol-type3-ul-processTabs-li-current-button-em:#8D669F;
+    --textcolor-tabcontrol-type3-ul-processTabs-li-current-button-em:#FFFFFF;
+    --bgcolor-tabcontrol-type3-w2tabcontrol-tabhost-li-w2tabcontrol-tab-center:#F5F7FA;
+    --bgcolor-tabcontrol-type3-ul-processTabs-li-current-button-em:#BEC9D4;
+    --textcolor-tabcontrol-type3-ul-processTabs-li-current-button:#FFFFFF;
 
 
 
@@ -544,6 +552,14 @@
     --bordercolor-tabcontrol-type3-w2tabcontrol-tabhost-li-w2tabcontrol-tab-center:#45484F;
     --bordercolor-tabcontrol-type3-ul-processTabs-li-complete-button:#595D66;
     --ico-complete:url(./../images/ico_complete_dark.svg);
+    --bgcolor-tabcontrol-type3-ul-processTabs-li-current-button:#202022;
+    --borderbottomcolor-tabcontrol-type3-ul-processTabs-li-current-button:#202022;
+    --bordertopcolor-tabcontrol-type3-ul-processTabs-li-current-button:#C2A5CF;
+    --tapcolor-tabcontrol-type3-ul-processTabs-li-current-button-em:#C2A5CF;
+    --textcolor-tabcontrol-type3-ul-processTabs-li-current-button-em:#3B3C41;
+    --bgcolor-tabcontrol-type3-w2tabcontrol-tabhost-li-w2tabcontrol-tab-center:#3B3C41;
+    --bgcolor-tabcontrol-type3-ul-processTabs-li-current-button-em:#70747D;
+    --textcolor-tabcontrol-type3-ul-processTabs-li-current-button:#202022;
 
 
 
@@ -1166,17 +1182,17 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow:hidd
 .tabcontrol_type3{display:inline-block; width:100%}
 .tabcontrol_type3 ul.processTabs{display:flex; width:100%; height:52px}
 .tabcontrol_type3 ul.processTabs li{flex:1; text-align:center}
-.tabcontrol_type3 ul.processTabs li button{height:52px; width:100%; border-top:1px solid var(--bordercolor-tabcontrol-type3-w2tabcontrol-tabhost-li-w2tabcontrol-tab-center); border-bottom:1px solid var(--bordercolor-tabcontrol-type3-w2tabcontrol-tabhost-li-w2tabcontrol-tab-center); background:#F5F7FA; box-sizing:border-box}
+.tabcontrol_type3 ul.processTabs li button{height:52px; width:100%; border-top:1px solid var(--bordercolor-tabcontrol-type3-w2tabcontrol-tabhost-li-w2tabcontrol-tab-center); border-bottom:1px solid var(--bordercolor-tabcontrol-type3-w2tabcontrol-tabhost-li-w2tabcontrol-tab-center); background:var(--bgcolor-tabcontrol-type3-w2tabcontrol-tabhost-li-w2tabcontrol-tab-center); box-sizing:border-box}
 .tabcontrol_type3 ul.processTabs li + li button{border-left:1px solid var(--bordercolor-tabcontrol-type3-w2tabcontrol-tabhost-li-w2tabcontrol-tab-center)}
-.tabcontrol_type3 ul.processTabs li button em{font-weight:lighter; margin-right:4px; vertical-align:middle; display:inline-block; text-align:center; border-radius:50%; width:20px; height:20px; background:#BEC9D4; font-size:13px; color:#FFFFFF}
-.tabcontrol_type3 ul.processTabs li button span{font-weight:700; vertical-align:middle; font-size:15px; color:#BEC9D4}
+.tabcontrol_type3 ul.processTabs li button em{font-weight:400; margin-right:4px; vertical-align:middle; display:inline-block; text-align:center; border-radius:50%; width:20px; height:20px; background:var(--bgcolor-tabcontrol-type3-ul-processTabs-li-current-button-em); font-size:13px; color:var(--textcolor-tabcontrol-type3-ul-processTabs-li-current-button-em)}
+.tabcontrol_type3 ul.processTabs li button span{font-weight:700; vertical-align:middle; font-size:15px; color:var(--bgcolor-tabcontrol-type3-ul-processTabs-li-current-button-em)}
 
 .tabcontrol_type3 ul.processTabs li.complete button{background:var(--bgcolor-tabcontrol-type3-ul-processTabs-li-complete-button); border-top-color:var(--bordercolor-tabcontrol-type3-ul-processTabs-li-complete-button)}
 .tabcontrol_type3 ul.processTabs li.complete button em{text-indent:-99999999px; background:var(--ico-complete) no-repeat}
 .tabcontrol_type3 ul.processTabs li.complete button span{color:#8996A3}
-.tabcontrol_type3 ul.processTabs li.current button{background:#FFFFFF; border-bottom-color:#FFFFFF; border-top-color:#7B558D}
-.tabcontrol_type3 ul.processTabs li.current button em{background:#8D669F}
-.tabcontrol_type3 ul.processTabs li.current button span{color:#8D669F}
+.tabcontrol_type3 ul.processTabs li.current button{background:var(--bgcolor-tabcontrol-type3-ul-processTabs-li-current-button); border-bottom-color:var(--borderbottomcolor-tabcontrol-type3-ul-processTabs-li-current-button); border-top-color:var(--bordertopcolor-tabcontrol-type3-ul-processTabs-li-current-button)}
+.tabcontrol_type3 ul.processTabs li.current button em{background:var(--tapcolor-tabcontrol-type3-ul-processTabs-li-current-button-em); color:var(--textcolor-tabcontrol-type3-ul-processTabs-li-current-button)}
+.tabcontrol_type3 ul.processTabs li.current button span{color:var(--tapcolor-tabcontrol-type3-ul-processTabs-li-current-button-em)}
 .tabcontrol_type3 .tabbody{width:100%; background:transparent}
 
 /* tabcontrol > contentbox */
