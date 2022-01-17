@@ -235,6 +235,11 @@
     --textcolor-btn-al-cm:#603973;
     --bordercolor-btn-al-bar:#DAE3ED;
     --bgcolor-popup-container-section:#FFFFFF;
+    --bgcolor-bottomsheet-bsbox-bsboxwrap:#FFFFFF;
+    --textcolor-bottomsheet-bsbox-bsboxwrap-h3:#7B558D;
+    --textcolor-bottomsheet-bsbox-bsboxwrap-h4:#F92465;
+    --bgcolor-bottomsheet-bsbox-bsboxwrap-after:#BEC9D4;
+    --textcolor-bottomsheet-bsbox-bsboxwrap-content:#202020;
 
 
 
@@ -480,6 +485,11 @@
     --textcolor-btn-al-cm:#C2A5CF;
     --bordercolor-btn-al-bar:#595D66;
     --bgcolor-popup-container-section:#202022;
+    --bgcolor-bottomsheet-bsbox-bsboxwrap:##202022;
+    --textcolor-bottomsheet-bsbox-bsboxwrap-h3:#C2A5CF;
+    --textcolor-bottomsheet-bsbox-bsboxwrap-h4:#FF76A0;
+    --bgcolor-bottomsheet-bsbox-bsboxwrap-after:#595D66;
+    --textcolor-bottomsheet-bsbox-bsboxwrap-content:#F5F6FA;
 
 
 
@@ -1364,13 +1374,13 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow:hidd
 .bottomsheet.active .dim{display:block; position:absolute; top:0; left:0; width:100%; height:100vh; background:rgba(0, 0, 0, 0.4); z-index:10}
 .bottomsheet .bsbox{display:flex; position:absolute; bottom:-100%; left:0; width:100%; height:100%; background:transparent; justify-content:center; align-items:flex-end; z-index:12; transition:all 0.5s}
 .bottomsheet.active .bsbox{bottom:0; pointer-events:none}
-.bottomsheet .bsbox .bsboxwrap{position:relative; display:inline-block; width:100%; padding:29px 16px 16px; background:#FFFFFF; border-radius:16px 16px 0 0; box-shadow:0px 0px 2px rgba(0, 0, 0, 0.22), 0px -4px 10px rgba(0, 0, 0, 0.09); transition:all 0.5s; pointer-events: auto;}
+.bottomsheet .bsbox .bsboxwrap{position:relative; display:inline-block; width:100%; padding:29px 16px 16px; background:var(--bgcolor-bottomsheet-bsbox-bsboxwrap); border-radius:16px 16px 0 0; box-shadow:0px 0px 2px rgba(0, 0, 0, 0.22), 0px -4px 10px rgba(0, 0, 0, 0.09); transition:all 0.5s; pointer-events: auto;}
 .bottomsheet .bsbox .bsboxwrap .touchbox {height: 25px; width: 100%; background: transparent; position: absolute; top: 0; left: 0;}
 .bottomsheet .bsbox .bsboxwrap .contwrap{height:calc(100% - 74px); overflow-y:auto}
-.bottomsheet .bsbox .bsboxwrap::after{content:""; position:absolute; display:block; width:50px; height:5px; top:5px; left:calc(50% - 25px); background:#BEC9D4; border-radius:10px}
-.bottomsheet .bsbox .bsboxwrap h3{font-weight:700; font-size:15px; line-height:20px; color:#7B558D}
-.bottomsheet .bsbox .bsboxwrap h4{margin-top:9px; font-weight:700; font-size:14px; line-height:22px; color:#F92465}
-.bottomsheet .bsbox .bsboxwrap .content{margin-top:4px; font-size:14px; color:#202020}
+.bottomsheet .bsbox .bsboxwrap::after{content:""; position:absolute; display:block; width:50px; height:5px; top:5px; left:calc(50% - 25px); background:var(--bgcolor-bottomsheet-bsbox-bsboxwrap-after); border-radius:10px}
+.bottomsheet .bsbox .bsboxwrap h3{font-weight:700; font-size:15px; line-height:20px; color:var(--textcolor-bottomsheet-bsbox-bsboxwrap-h3)}
+.bottomsheet .bsbox .bsboxwrap h4{margin-top:9px; font-weight:700; font-size:14px; line-height:22px; color:var(--textcolor-bottomsheet-bsbox-bsboxwrap-h4)}
+.bottomsheet .bsbox .bsboxwrap .content{margin-top:4px; font-size:14px; font-weight:400; color:var(--textcolor-bottomsheet-bsbox-bsboxwrap-content)}
 
 /* toast message */
 .tmbox{display:flex; position:absolute; bottom:-5px; left:0; padding:0 22px; width:calc(100% - 44px); background:transparent; justify-content:center; z-index:13; opacity:0; transition:all 1s; pointer-events:none}
@@ -1383,7 +1393,7 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow:hidd
 .tmbox .tmboxwrap .confirm{font-weight:200; font-size:14px; color:#C2A5CF}
 .tmbox.alert .tmboxwrap .confirm{color:#FFFFFF}
 
-
+ 
 /* tableLayout */
 .w2tb{width:100%}
 
