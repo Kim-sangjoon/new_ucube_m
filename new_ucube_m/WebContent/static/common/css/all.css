@@ -259,7 +259,16 @@
     --ico-btn-cf-cardview:url(./../images/ico_cardview.svg);
     --bgcolor-btn-cf:#FFFFFF;
     --bgcolor-btn-cf-ico:#FFFFFF;
-    
+    --bordercolor-top-tabcontrol-type2-w2tabcontrol-tabhost-w2tabcontrol-active-w2tabcontrol-tab-center:#7B558D;
+    --bgcolor-tabcontrol-type2-w2tabcontrol-tabhost:#FFFFFF;
+    --bordercolor-tabcontrol-type2-w2tabcontrol-tabhost-li-w2tabcontrol-tab-center:#DAE3ED;
+    --bgcolor-tabcontrol-type2:#FFFFFF;
+    --bgcolor-tabcontrol-type3-ul-processTabs-li-complete-button:#E8EFF5;
+    --bordercolor-tabcontrol-type3-w2tabcontrol-tabhost-li-w2tabcontrol-tab-center:#DAE3ED;
+    --bordercolor-tabcontrol-type3-ul-processTabs-li-complete-button:#BEC9D4;
+    --ico-complete:url(./../images/ico_complete.svg);
+
+
 
 
 
@@ -527,6 +536,15 @@
     --ico-btn-cf-cardview:url(./../images/ico_cardview_dark.svg);
     --bgcolor-btn-cf:#29292B;
     --bgcolor-btn-cf-ico:#29292B;
+    --bordercolor-top-tabcontrol-type2-w2tabcontrol-tabhost-w2tabcontrol-active-w2tabcontrol-tab-center:#C2A5CF;
+    --bgcolor-tabcontrol-type2-w2tabcontrol-tabhost:#29292B;
+    --bordercolor-tabcontrol-type2-w2tabcontrol-tabhost-li-w2tabcontrol-tab-center:#45484F;
+    --bgcolor-tabcontrol-type2:#29292B;
+    --bgcolor-tabcontrol-type3-ul-processTabs-li-complete-button:#3B3C41;
+    --bordercolor-tabcontrol-type3-w2tabcontrol-tabhost-li-w2tabcontrol-tab-center:#45484F;
+    --bordercolor-tabcontrol-type3-ul-processTabs-li-complete-button:#595D66;
+    --ico-complete:url(./../images/ico_complete_dark.svg);
+
 
 
 
@@ -1123,16 +1141,16 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow:hidd
 .tabcontrol_type1 .w2tabcontrol_bridge{display:block}
 
 /* tabcontrol_type2 */
-.tabcontrol_type2{display:inline-block; background:#FFFFFF; width:100%}
+.tabcontrol_type2{display:inline-block; background:var(--bgcolor-tabcontrol-type2); width:100%}
 .tabcontrol_type2 .w2tabcontrol{display:inline-block; width:100%}
 .tabcontrol_type2 .w2tabcontrol .tabcontinner{padding:16px}
-.tabcontrol_type2 .w2tabcontrol_tabhost{display:flex; margin:0; float:left; list-style:none; height:52px; font-size:16px; background:#FFFFFF; color:#8996A3}
+.tabcontrol_type2 .w2tabcontrol_tabhost{display:flex; margin:0; float:left; list-style:none; height:52px; font-size:16px; background:var(--bgcolor-tabcontrol-type2-w2tabcontrol-tabhost); color:#8996A3}
 .tabcontrol_type2 .w2tabcontrol_tabhost li{float:left; margin:0; padding:0; height:100%; width:100%; margin-bottom:0; background:transparent; overflow:hidden; position:relative}
 .tabcontrol_type2 .w2tabcontrol_tabhost .w2tabcontrol_tab_left{position:absolute; top:0; left:0; height:100%; width:10px; background-image:none}
 .tabcontrol_type2 .w2tabcontrol_tabhost .w2tabcontrol_active .w2tabcontrol_tab_left{background-image:none; background-repeat:no-repeat}
 .tabcontrol_type2 .w2tabcontrol_tabhost .w2tabcontrol_active .w2tabcontrol_tab_center{background-image:none}
-.tabcontrol_type2 .w2tabcontrol_tabhost .w2tabcontrol_tab_center{overflow:hidden; height:100%; text-align:center; background-image:none; border-bottom:1px solid #DAE3ED; border-top:1px solid #DAE3ED; box-sizing:border-box}
-.tabcontrol_type2 .w2tabcontrol_tabhost .w2tabcontrol_active .w2tabcontrol_tab_center{background-image:none; border-top:1px solid #7B558D; border-bottom:none; border-left:1px solid #DAE3ED}
+.tabcontrol_type2 .w2tabcontrol_tabhost .w2tabcontrol_tab_center{overflow:hidden; height:100%; text-align:center; background-image:none; border-bottom:1px solid var(--bordercolor-tabcontrol-type2-w2tabcontrol-tabhost-li-w2tabcontrol-tab-center); border-top:1px solid var(--bordercolor-tabcontrol-type2-w2tabcontrol-tabhost-li-w2tabcontrol-tab-center); box-sizing:border-box}
+.tabcontrol_type2 .w2tabcontrol_tabhost .w2tabcontrol_active .w2tabcontrol_tab_center{background-image:none; border-top:1px solid var(--bordercolor-top-tabcontrol-type2-w2tabcontrol-tabhost-w2tabcontrol-active-w2tabcontrol-tab-center); border-bottom:none; border-left:1px solid var(--bordercolor-tabcontrol-type2-w2tabcontrol-tabhost-li-w2tabcontrol-tab-center)}
 .tabcontrol_type2 .w2tabcontrol_tabhost .w2tabcontrol_active .w2tabcontrol_tab_center a{color:#8D669F; font-weight:700; top:17px}
 .tabcontrol_type2 .w2tabcontrol_tabhost .w2tabcontrol_tab_right{position:absolute; top:0; height:100%; right:0; width:10px; background-image:none}
 .tabcontrol_type2 .w2tabcontrol_tabhost .w2tabcontrol_active .w2tabcontrol_tab_right{background-image:none; background-repeat:no-repeat; background-position:right 0}
@@ -1141,25 +1159,25 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow:hidd
 .tabcontrol_type2 .w2tabcontrol_contents{width:100%; height:100%; visibility:hidden}
 .tabcontrol_type2 .w2tabcontrol_contents_wrapper{position:relative; overflow:auto; height:100%}
 .tabcontrol_type2 .w2tabcontrol_bridge{display:block}
-.tabcontrol_type2 .w2tabcontrol_tabhost li .w2tabcontrol_tab_center{border-left:1px solid #DAE3ED}
+.tabcontrol_type2 .w2tabcontrol_tabhost li .w2tabcontrol_tab_center{border-left:1px solid var(--bordercolor-tabcontrol-type2-w2tabcontrol-tabhost-li-w2tabcontrol-tab-center)}
 .tabcontrol_type2 .w2tabcontrol_tabhost li:first-child .w2tabcontrol_tab_center{border-left:none}
 
 /* tabcontrol_type3 */
 .tabcontrol_type3{display:inline-block; width:100%}
 .tabcontrol_type3 ul.processTabs{display:flex; width:100%; height:52px}
 .tabcontrol_type3 ul.processTabs li{flex:1; text-align:center}
-.tabcontrol_type3 ul.processTabs li button{height:52px; width:100%; border-top:1px solid #DAE3ED; border-bottom:1px solid #DAE3ED; background:#F5F7FA; box-sizing:border-box}
-.tabcontrol_type3 ul.processTabs li + li button{border-left:1px solid #DAE3ED}
+.tabcontrol_type3 ul.processTabs li button{height:52px; width:100%; border-top:1px solid var(--bordercolor-tabcontrol-type3-w2tabcontrol-tabhost-li-w2tabcontrol-tab-center); border-bottom:1px solid var(--bordercolor-tabcontrol-type3-w2tabcontrol-tabhost-li-w2tabcontrol-tab-center); background:#F5F7FA; box-sizing:border-box}
+.tabcontrol_type3 ul.processTabs li + li button{border-left:1px solid var(--bordercolor-tabcontrol-type3-w2tabcontrol-tabhost-li-w2tabcontrol-tab-center)}
 .tabcontrol_type3 ul.processTabs li button em{font-weight:lighter; margin-right:4px; vertical-align:middle; display:inline-block; text-align:center; border-radius:50%; width:20px; height:20px; background:#BEC9D4; font-size:13px; color:#FFFFFF}
 .tabcontrol_type3 ul.processTabs li button span{font-weight:700; vertical-align:middle; font-size:15px; color:#BEC9D4}
 
-.tabcontrol_type3 ul.processTabs li.complete button{background:#E8EFF5; border-top-color:#BEC9D4}
-.tabcontrol_type3 ul.processTabs li.complete button em{text-indent:-99999999px; background:url(./../images/ico_complete.svg) no-repeat}
+.tabcontrol_type3 ul.processTabs li.complete button{background:var(--bgcolor-tabcontrol-type3-ul-processTabs-li-complete-button); border-top-color:var(--bordercolor-tabcontrol-type3-ul-processTabs-li-complete-button)}
+.tabcontrol_type3 ul.processTabs li.complete button em{text-indent:-99999999px; background:var(--ico-complete) no-repeat}
 .tabcontrol_type3 ul.processTabs li.complete button span{color:#8996A3}
 .tabcontrol_type3 ul.processTabs li.current button{background:#FFFFFF; border-bottom-color:#FFFFFF; border-top-color:#7B558D}
 .tabcontrol_type3 ul.processTabs li.current button em{background:#8D669F}
 .tabcontrol_type3 ul.processTabs li.current button span{color:#8D669F}
-.tabcontrol_type3 .tabbody{width:100%; background:#FFFFFF}
+.tabcontrol_type3 .tabbody{width:100%; background:transparent}
 
 /* tabcontrol > contentbox */
 .contentbox{display:inline-block; width:100%; background:var(--bgcolor-contentbox); border:1px solid var(--bordercolor-contentbox); box-sizing:border-box; border-radius:3px; padding:10px 17px; margin-bottom:6px}
