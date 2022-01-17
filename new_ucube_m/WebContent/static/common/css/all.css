@@ -243,8 +243,23 @@
     --bgcolor-tmbox-tmboxwrap:#373D45;
     --textcolor-tmbox-tmboxwrap-msg:#FFFFFF;
     --textcolor-tmbox-tmboxwrap-confirm:#C2A5CF;
-
-
+    --bgcolor-selbtnwrap-w2radio-selbtn-input-type-radio-checked:#FFFFFF;
+    --bordercolor-selbtnwrap-w2radio-selbtn-input-type-radio-checked:#8D669F;
+    --textcolor-selbtnwrap-w2radio-selbtn-input-type-radio-checked:#7B558D;
+    --bgcolor-selbtnwrap-w2radio-selbtn-w2radio-label:#E8EFF5;
+    --bordercolor-selbtnwrap-w2radio-selbtn-w2radio-label:#E8EFF5;
+    --textcolor-selbtnwrap-w2radio-selbtn-w2radio-label:#56606B;
+    --bgcolor-selbtnwrap-w2radio-selbtn-w2radio-label-disable:#FFFFFF;
+    --bordercolor-selbtnwrap-w2radio-selbtn-w2radio-label-disable:#FFFFFF;
+    --textcolor-selbtnwrap-w2radio-selbtn-w2radio-label-disable:#8996A3;
+    --bgcolor-selbtnwrap-w2radio-selbtn-input-type-radio-checked-disable:#FFFFFF;
+    --bordercolor-selbtnwrap-w2radio-selbtn-input-type-radio-checked-disable:#DECAE8;
+    --textcolor-selbtnwrap-w2radio-selbtn-input-type-radio-checked-disable:#C2A5CF;
+    --ico-btn-cf-gridview:url(./../images/ico_gridview.svg);
+    --ico-btn-cf-cardview:url(./../images/ico_cardview.svg);
+    --bgcolor-btn-cf:#FFFFFF;
+    --bgcolor-btn-cf-ico:#FFFFFF;
+    
 
 
 
@@ -496,7 +511,22 @@
     --bgcolor-tmbox-tmboxwrap:#FFFFFF;
     --textcolor-tmbox-tmboxwrap-msg:#202020;
     --textcolor-tmbox-tmboxwrap-confirm:#7B558D;
-
+    --bgcolor-selbtnwrap-w2radio-selbtn-input-type-radio-checked:#29292B;
+    --bordercolor-selbtnwrap-w2radio-selbtn-input-type-radio-checked:#A27FB1;
+    --textcolor-selbtnwrap-w2radio-selbtn-input-type-radio-checked:#C2A5CF;
+    --bgcolor-selbtnwrap-w2radio-selbtn-w2radio-label:#45484F;
+    --bordercolor-selbtnwrap-w2radio-selbtn-w2radio-label:#45484F;
+    --textcolor-selbtnwrap-w2radio-selbtn-w2radio-label:#C2C5CE;
+    --bgcolor-selbtnwrap-w2radio-selbtn-w2radio-label-disable:#29292B;
+    --bordercolor-selbtnwrap-w2radio-selbtn-w2radio-label-disable:#29292B;
+    --textcolor-selbtnwrap-w2radio-selbtn-w2radio-label-disable:#8E929E;
+    --bgcolor-selbtnwrap-w2radio-selbtn-input-type-radio-checked-disable:#29292B;
+    --bordercolor-selbtnwrap-w2radio-selbtn-input-type-radio-checked-disable:#603973;
+    --textcolor-selbtnwrap-w2radio-selbtn-input-type-radio-checked-disable:#7B558D;
+    --ico-btn-cf-gridview:url(./../images/ico_gridview_dark.svg);
+    --ico-btn-cf-cardview:url(./../images/ico_cardview_dark.svg);
+    --bgcolor-btn-cf:#29292B;
+    --bgcolor-btn-cf-ico:#29292B;
 
 
 
@@ -578,10 +608,8 @@ input[type="search"]::-webkit-search-cancel-button{-webkit-appearance: none; dis
 .w2radio .w2radio_item, .w2checkbox .w2checkbox_item{display:inline-block; height:20px; padding-top:0; box-sizing:border-box}
 .w2radio .w2radio_item + .w2radio_item,
 .w2checkbox .w2checkbox_item + .w2checkbox_item,
-.w2checkbox + .w2checkbox,
-.w2radio + .w2radio{margin-left:8px}
+.w2checkbox + .w2checkbox{margin-left:8px}
 
-/* option {font-weight: 400; display: block; white-space: nowrap; min-height: 1.2em; padding: 0px 2px 1px} */
 
 /* inputcalendar */
 .w2inputCalendar {height:40px}
@@ -697,11 +725,13 @@ input[type="radio"]:checked + .w2radio_label.w2radio_disabled:before, input[type
 .selbtnwrap + .selbtnwrap{margin-top:8px}
 .selbtnwrap .w2radio.selbtn{display:flex; width:100%; height:40px}
 .selbtnwrap .w2radio.selbtn .w2radio_item{flex:1}
-.selbtnwrap .w2radio.selbtn .w2radio_label, .selbtnwrap .selbtn .w2table_ccb_col_label{background-color:#E8EFF5; border:1px solid #E8EFF5; box-sizing:border-box; border-radius:5px; font-size:14px; height:40px; line-height:2; font-weight:700; color:#202020; padding-top:4px; padding-left:initial; text-align:center}
+.selbtnwrap .w2radio.selbtn .w2radio_label, .selbtnwrap .selbtn .w2table_ccb_col_label{background-color:var(--bgcolor-selbtnwrap-w2radio-selbtn-w2radio-label); border:1px solid var(--bordercolor-selbtnwrap-w2radio-selbtn-w2radio-label); box-sizing:border-box; border-radius:5px; font-size:14px; height:40px; line-height:2; font-weight:400; color:var(--textcolor-selbtnwrap-w2radio-selbtn-w2radio-label); padding-top:4px; padding-left:initial; text-align:center}
+.selbtnwrap .w2radio.selbtn .w2radio_label.w2radio_disabled, .selbtnwrap .selbtn .w2table_ccb_col_label.w2radio_disabled{background-color:var(--bgcolor-selbtnwrap-w2radio-selbtn-w2radio-label-disable); border:1px solid var(--bordercolor-selbtnwrap-w2radio-selbtn-w2radio-label-disable); color:var(--textcolor-selbtnwrap-w2radio-selbtn-w2radio-label-disable)}
 .selbtnwrap .w2radio.selbtn .w2radio_label + .selbtnwrap .selbtn .w2radio_label, .selbtnwrap .selbtn .w2radio_label + .selbtn .w2radio_label, .selbtnwrap .selbtn .w2table_ccb_col_label + .selbtn .w2table_ccb_col_label{margin-left:8px}
 .selbtnwrap .w2radio.selbtn .w2radio_label:before, .selbtnwrap .selbtn .w2table_ccb_col_label:before{content:''; position:absolute; left:0; top:0; width:1px; height:1px; margin-top:0; background:none}
 .selbtnwrap .w2radio.selbtn input[type="radio"]:checked + .w2radio_label:before, .selbtn input[type="radio"]:checked + .w2table_ccb_col_label:before{background-image:none}
-.selbtnwrap .w2radio.selbtn input[type="radio"]:checked + .w2radio_label, .selbtn input[type="radio"]:checked + .w2table_ccb_col_label{background-color:#FFFFFF; border:1px solid #8D669F;color:#7B558D}
+.selbtnwrap .w2radio.selbtn input[type="radio"]:checked + .w2radio_label, .selbtn input[type="radio"]:checked + .w2table_ccb_col_label{background-color:var(--bgcolor-selbtnwrap-w2radio-selbtn-input-type-radio-checked); border:1px solid var(--bordercolor-selbtnwrap-w2radio-selbtn-input-type-radio-checked); color:var(--textcolor-selbtnwrap-w2radio-selbtn-input-type-radio-checked); font-weight:700}
+.selbtnwrap .w2radio.selbtn input[type="radio"]:checked + .w2radio_label.w2radio_label.w2radio_disabled, .selbtn input[type="radio"]:checked + .w2table_ccb_col_label.w2radio_disabled{background-color:var(--bgcolor-selbtnwrap-w2radio-selbtn-input-type-radio-checked-disable); border:1px solid var(--bordercolor-selbtnwrap-w2radio-selbtn-input-type-radio-checked-disable); color:var(--textcolor-selbtnwrap-w2radio-selbtn-input-type-radio-checked-disable)}
 
 .inputgroup input[type=date],
 .inputgroup input[type=datetime-local],
@@ -1207,11 +1237,11 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow:hidd
 .btn_cf{background:var(--bgcolor-btn-cf); border:1px solid var(--bordercolor-btn-cf); box-sizing:border-box; border-radius:2px; color:var(--textcolor-btn-cf); font-size:14px; font-weight:700; padding:5.5px 8px; line-height:19px}
 .btn_cf + .btn_cf{margin-left:4px}
 .btn_cf.gridview,
-.btn_cf.cardview{position:relative; padding-left:30px; background-position:8px 50%; background-repeat:no-repeat; background-color:#FFFFFF}
-.btn_cf.gridview{background-image:url(./../images/ico_gridview.svg)}
-.btn_cf.cardview{background-image:url(./../images/ico_cardview.svg)}
+.btn_cf.cardview{position:relative; padding-left:30px; background-position:8px 50%; background-repeat:no-repeat; background-color:var(--bgcolor-btn-cf)}
+.btn_cf.gridview{background-image:var(--ico-btn-cf-gridview)}
+.btn_cf.cardview{background-image:var(--ico-btn-cf-cardview)}
 
-.btn_cf.ico{width:32px; text-indent:-9999999px; background-repeat:no-repeat; background-position:50% 50%; background-color:#FFFFFF}
+.btn_cf.ico{width:32px; text-indent:-9999999px; background-repeat:no-repeat; background-position:50% 50%; background-color:var(--bgcolor-btn-cf-ico)}
 .btn_cf.ico.trash{background-image:url(./../images/ico_trash21.svg)}
 .btn_cf.ico.info{background-image:url(./../images/ico_info.svg)}
 .alram_listbox ul.listbox{background:var(--bgcolor-alram-listbox); padding:0 16px; border-radius:8px; margin-top:6px}
