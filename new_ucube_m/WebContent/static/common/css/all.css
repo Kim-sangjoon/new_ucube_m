@@ -240,6 +240,9 @@
     --textcolor-bottomsheet-bsbox-bsboxwrap-h4:#F92465;
     --bgcolor-bottomsheet-bsbox-bsboxwrap-after:#BEC9D4;
     --textcolor-bottomsheet-bsbox-bsboxwrap-content:#202020;
+    --bgcolor-tmbox-tmboxwrap:#373D45;
+    --textcolor-tmbox-tmboxwrap-msg:#FFFFFF;
+    --textcolor-tmbox-tmboxwrap-confirm:#C2A5CF;
 
 
 
@@ -490,6 +493,9 @@
     --textcolor-bottomsheet-bsbox-bsboxwrap-h4:#FF76A0;
     --bgcolor-bottomsheet-bsbox-bsboxwrap-after:#595D66;
     --textcolor-bottomsheet-bsbox-bsboxwrap-content:#F5F6FA;
+    --bgcolor-tmbox-tmboxwrap:#FFFFFF;
+    --textcolor-tmbox-tmboxwrap-msg:#202020;
+    --textcolor-tmbox-tmboxwrap-confirm:#7B558D;
 
 
 
@@ -1385,15 +1391,15 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow:hidd
 /* toast message */
 .tmbox{display:flex; position:absolute; bottom:-5px; left:0; padding:0 22px; width:calc(100% - 44px); background:transparent; justify-content:center; z-index:13; opacity:0; transition:all 1s; pointer-events:none}
 .tmbox.enable{bottom:16px; opacity:1; transition:all .2s; pointer-events:auto}
-.tmbox .tmboxwrap{display:inline-block; width:100%; padding:12px 16px; background:#373D45; box-shadow:0px 0px 2px rgba(0, 0, 0, 0.22), 0px 7px 10px rgba(0, 0, 0, 0.12); border-radius:3px}
+.tmbox .tmboxwrap{display:inline-block; width:100%; padding:12px 16px; background:var(--bgcolor-tmbox-tmboxwrap); box-shadow:0px 0px 2px rgba(0, 0, 0, 0.22), 0px 7px 10px rgba(0, 0, 0, 0.12); border-radius:3px}
 .tmbox .tmboxwrap .btn_next{display: flex;align-items: center; pointer-events: none}
 .tmbox.enable .tmboxwrap .btn_next{pointer-events:auto}
 .tmbox.alert .tmboxwrap{background:#F94B50}
-.tmbox .tmboxwrap .msg{font-size:14px; color:#FFFFFF; font-weight:100}
-.tmbox .tmboxwrap .confirm{font-weight:200; font-size:14px; color:#C2A5CF}
+.tmbox .tmboxwrap .msg{font-size:14px; color:var(--textcolor-tmbox-tmboxwrap-msg); font-weight:400}
+.tmbox.alert .tmboxwrap .msg{color:#FFFFFF}
+.tmbox .tmboxwrap .confirm{font-weight:500; font-size:14px; color:var(--textcolor-tmbox-tmboxwrap-confirm)}
 .tmbox.alert .tmboxwrap .confirm{color:#FFFFFF}
 
- 
 /* tableLayout */
 .w2tb{width:100%}
 
