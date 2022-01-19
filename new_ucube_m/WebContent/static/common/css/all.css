@@ -281,6 +281,7 @@
 
 
 
+
     /* 사용안함 */
     --ico-menu06-customer-on:url(./../images/ico_06_customer_on.svg);
     --ico-menu07-allmenu-on:url(./../images/ico_07_allmenu_on.svg);
@@ -560,6 +561,7 @@
     --bgcolor-tabcontrol-type3-w2tabcontrol-tabhost-li-w2tabcontrol-tab-center:#3B3C41;
     --bgcolor-tabcontrol-type3-ul-processTabs-li-current-button-em:#70747D;
     --textcolor-tabcontrol-type3-ul-processTabs-li-current-button:#202022;
+
 
 
 
@@ -1219,7 +1221,7 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow:hidd
 .contentbox.type2-1 .listbox.title{margin-top:0; padding-bottom:12px; border-bottom:1px solid var(--bordercolor-contentbox-type2-1-listbox-title)}
 
 /* 고객정보 사전조회 안내 */
-.white_bgbox{position:relative; background:#FFFFFF; height:calc(100% - 8px); width:100%}
+.white_bgbox{position:relative; background:var(--bgcolor-white-bg); height:calc(100% - 8px); width:100%}
 .titlebox{height:32px; padding:8px 0}
 .titlebox h3{color:var(--textcolor-titlebox-h3); line-height:32px; font-size:15px; font-weight:700}
 .white_bgbox .titlebox h3, .titlebox h3{color:var(--textcolor-titlebox-h3); line-height:32px; font-size:15px; font-weight:700}
