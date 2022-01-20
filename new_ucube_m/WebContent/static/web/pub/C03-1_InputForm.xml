@@ -115,9 +115,9 @@
     									style="" placeholder="YYYY-MM-DD">
     								</w2:inputCalendar>
     								<w2:textbox class="" id="" label="~" style="" tagname="span"></w2:textbox>
-    								<w2:inputCalendar calendarValueType="yearMonthDate" class="" displayFormat=""
-    									focusOnDateSelect="false" footerDiv="false" id="" readOnly="" renderDiv="true" renderType="component" rightAlign="false"
-    									style="" placeholder="YYYY-MM-DD">
+    								<w2:inputCalendar calendarValueType="yearMonthDate" class="" displayFormat="" focusOnDateSelect="false"
+    									footerDiv="false" id="" readOnly="" renderDiv="true" renderType="component" rightAlign="false" style=""
+    									placeholder="YYYY-MM-DD">
     								</w2:inputCalendar>
     							</xf:group>
     						</xf:group>
@@ -269,6 +269,121 @@
     								</xf:group>
     							</xf:group>
     						</xf:group>
+    					</xf:group>
+    				</xf:group>
+    				<xf:group id="" style="" tagname="section">
+    					<xf:group class="titlebox" id="" style="">
+    						<w2:textbox id="" label="DropDown - small" style="" tagname="h3"></w2:textbox>
+    					</xf:group>
+    					<xf:group class="titlebargroup" id="" style="">
+    						<xf:select1 allOption="" appearance="minimal" chooseOption="" class="wd-100" direction="auto"
+    							disabled="false" disabledClass="w2selectbox_disabled" displayMode="" id="" ref="" renderType="native" style=""
+    							submenuSize="auto">
+    							<xf:choices>
+    								<xf:item>
+    									<xf:label><![CDATA[1개월]]></xf:label>
+    									<xf:value></xf:value>
+    								</xf:item>
+    								<xf:item>
+    									<xf:label><![CDATA[2개월]]></xf:label>
+    									<xf:value></xf:value>
+    								</xf:item>
+    								<xf:item>
+    									<xf:label><![CDATA[3개월]]></xf:label>
+    									<xf:value></xf:value>
+    								</xf:item>
+    								<xf:item>
+    									<xf:label><![CDATA[4개월]]></xf:label>
+    									<xf:value></xf:value>
+    								</xf:item>
+    								<xf:item>
+    									<xf:label><![CDATA[5개월]]></xf:label>
+    									<xf:value></xf:value>
+    								</xf:item>
+    								<xf:item>
+    									<xf:label><![CDATA[6개월]]></xf:label>
+    									<xf:value></xf:value>
+    								</xf:item>
+    								<xf:item>
+    									<xf:label><![CDATA[7개월]]></xf:label>
+    									<xf:value></xf:value>
+    								</xf:item>
+    								<xf:item>
+    									<xf:label><![CDATA[8개월]]></xf:label>
+    									<xf:value></xf:value>
+    								</xf:item>
+    								<xf:item>
+    									<xf:label><![CDATA[9개월]]></xf:label>
+    									<xf:value></xf:value>
+    								</xf:item>
+    								<xf:item>
+    									<xf:label><![CDATA[10개월]]></xf:label>
+    									<xf:value></xf:value>
+    								</xf:item>
+    								<xf:item>
+    									<xf:label><![CDATA[11개월]]></xf:label>
+    									<xf:value></xf:value>
+    								</xf:item>
+    								<xf:item>
+    									<xf:label><![CDATA[12개월]]></xf:label>
+    									<xf:value></xf:value>
+    								</xf:item>
+    							</xf:choices>
+    						</xf:select1>
+    						<xf:select1 allOption="" appearance="minimal" chooseOption="" class="wd-100 req" direction="auto"
+    							disabled="false" disabledClass="w2selectbox_disabled" displayMode="" id="" ref="" renderType="native" style=""
+    							submenuSize="auto">
+    							<xf:choices>
+    								<xf:item>
+    									<xf:label><![CDATA[1개월]]></xf:label>
+    									<xf:value></xf:value>
+    								</xf:item>
+    								<xf:item>
+    									<xf:label><![CDATA[2개월]]></xf:label>
+    									<xf:value></xf:value>
+    								</xf:item>
+    								<xf:item>
+    									<xf:label><![CDATA[3개월]]></xf:label>
+    									<xf:value></xf:value>
+    								</xf:item>
+    								<xf:item>
+    									<xf:label><![CDATA[4개월]]></xf:label>
+    									<xf:value></xf:value>
+    								</xf:item>
+    								<xf:item>
+    									<xf:label><![CDATA[5개월]]></xf:label>
+    									<xf:value></xf:value>
+    								</xf:item>
+    								<xf:item>
+    									<xf:label><![CDATA[6개월]]></xf:label>
+    									<xf:value></xf:value>
+    								</xf:item>
+    								<xf:item>
+    									<xf:label><![CDATA[7개월]]></xf:label>
+    									<xf:value></xf:value>
+    								</xf:item>
+    								<xf:item>
+    									<xf:label><![CDATA[8개월]]></xf:label>
+    									<xf:value></xf:value>
+    								</xf:item>
+    								<xf:item>
+    									<xf:label><![CDATA[9개월]]></xf:label>
+    									<xf:value></xf:value>
+    								</xf:item>
+    								<xf:item>
+    									<xf:label><![CDATA[10개월]]></xf:label>
+    									<xf:value></xf:value>
+    								</xf:item>
+    								<xf:item>
+    									<xf:label><![CDATA[11개월]]></xf:label>
+    									<xf:value></xf:value>
+    								</xf:item>
+    								<xf:item>
+    									<xf:label><![CDATA[12개월]]></xf:label>
+    									<xf:value></xf:value>
+    								</xf:item>
+    							</xf:choices>
+    						</xf:select1>
     					</xf:group>
     				</xf:group>
     				<xf:group id="" style="" tagname="section">

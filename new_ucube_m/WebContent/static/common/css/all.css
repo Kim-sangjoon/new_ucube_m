@@ -288,6 +288,7 @@
     --bordercolor-left-right-wq_gvw-bd1-gridBodyDefault:#E8EFF5;
     --textcolor-txt-grd-red:#F92465;
     --textcolor-txt-grd-green:#2FB8A8;
+    --textcolor-init-text:#424952;
 
 
 
@@ -587,6 +588,7 @@
     --bordercolor-left-right-wq_gvw-bd1-gridBodyDefault:#595D66;
     --textcolor-txt-grd-red:#F5F6FA;
     --textcolor-txt-grd-green:#F5F6FA;
+    --textcolor-init-text:#F5F6FA;
 
 
 
@@ -607,7 +609,7 @@ dl,dt,dd,table,thead,tbody,tfoot,label,caption,th,td,form,fieldset,legend,hr,inp
 html, body{width:100%}
 html{-webkit-touch-callout:none; -webkit-user-select:none; user-select:none; -webkit-tap-highlight-color:rgba(0, 0, 0, 0)}
 body{width:100%; min-width:320px; -webkit-text-size-adjust:none; word-wrap:break-word; word-break:break-all}
-body,input,.w2input,select,textarea,button,span,label{border:none; font-size:12px; font-family:"Noto Sans KR", sans-serif; color:#424952}
+body,input,.w2input,select,textarea,button,span,label{border:none; font-size:12px; font-family:"Noto Sans KR", sans-serif; color:var(--textcolor-init-text)}
 ul,ol,li{list-style:none}
 table{width:100%;border-spacing:0; border-collapse:collapse}
 img,fieldset{border:0}
@@ -823,7 +825,7 @@ input[type="radio"]:checked + .w2radio_label.w2radio_disabled:before, input[type
 /* .titlebargroup{margin-top:8px} */
 .titlebargroup .w2selectbox_native{width:100%; border:none}
 .titlebargroup .w2selectbox_native_select{-webkit-appearance:none;  -moz-appearance:none; appearance:none; height:32px; border:1px solid var(--bordercolor-select); background-image:var(--ico-select); background-repeat: no-repeat; background-position: calc(100% - 8px) center; background-color:var(--bgcolor-selectbox); padding-left:8px; padding-right:28px}
-.titlebargroup .req .w2selectbox_native_select{border:1px solid var(--bordercolor-input-req)}
+.titlebargroup .req .w2selectbox_native_select{border:1px solid var(--bordercolor-input-req); background-color: var(--bgcolor-input-req);}
 .titlebargroup .w2selectbox_native_select:focus{border:1px solid var(--bordercolor-focus)}
 .titlebargroup .w2selectbox_native_select::-ms-expand{display:none}
 
@@ -950,7 +952,7 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow:hidd
 .bottomMenu .navbox .menu07{position:relative; width:72px; height:64px; background-position:center 14px; background-repeat:no-repeat}
 .navbox .title{position:absolute; top:42px; width:100%; text-align:center; color:var(--text-color-navbox-title); font-weight:normal; font-size:11px}
 .navbox .on .title{color:var(--text-color-navbox-title-on); font-weight:700}
-.navbox .numberbox{position:absolute; top:22px; left:39px; background:var(--bgcolor-navibox-numberbox); border:1px solid var(--bordercolor-navibox-numberbox); border-radius:5px; text-align:center; color:#FFFFFF; font-weight:400; font-size:10px; padding:0px 3.5px 1px 3px}
+.navbox .numberbox{position:absolute; top:22px; left:39px; background:var(--bgcolor-navibox-numberbox); border:1px solid var(--bordercolor-navibox-numberbox); border-radius:5px; text-align:center; font-weight:700; font-size:10px; padding:0px 3.5px 1px 3px}
 .navbox .numberbox .num{line-height:14px; color:var(--text-color-navibox-numberbox-num); letter-spacing:initial}
 
 .menu01{background:var(--ico-menu01-todo)}
