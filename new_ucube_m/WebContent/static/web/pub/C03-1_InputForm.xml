@@ -47,7 +47,7 @@
     							<xf:group class="boxitem" id="">
     								<w2:textbox class="" id="" label="상품번호" style="" tagname="label"></w2:textbox>
     								<xf:input adjustMaxLength="false" class="" dataType="number" ev:onchange=""
-    									ev:onkeydown="scwin.ipxMoProductNo_onkeydown" id="ipxMoProductNo" placeholder="01000000000" style="">
+    									ev:onkeydown="scwin.ipxMoProductNo_onkeydown" id="" placeholder="01000000000" style="">
     								</xf:input>
     								<xf:input adjustMaxLength="false" class="tar" dataType="number" ev:onchange=""
     									ev:onkeydown="scwin.ipxMoProductNo_onkeydown" id="input2" placeholder="01000000000" style="">
