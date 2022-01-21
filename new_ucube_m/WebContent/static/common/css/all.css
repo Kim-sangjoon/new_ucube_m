@@ -289,6 +289,13 @@
     --textcolor-txt-grd-red:#F92465;
     --textcolor-txt-grd-green:#2FB8A8;
     --textcolor-init-text:#424952;
+    --bgcolor-tbbox-tb-w2tb-td:#FFFFFF;
+    --textcolor-tbbox-tb-w2tb-td:#202020;
+    --bgcolor-tbbox-tb-w2tb-th:#DDE2F5;
+    --textcolor-tbbox-tb-w2tb-th:#56606B;
+    --bordercolor-tbbox-basic:#E8EFF5;
+    --bordercolor-w2tb-th-last-child:#DDE2F5;
+    --bordercolor-w2tb-th-first-child:#DDE2F5;
 
 
 
@@ -589,6 +596,13 @@
     --textcolor-txt-grd-red:#F5F6FA;
     --textcolor-txt-grd-green:#F5F6FA;
     --textcolor-init-text:#F5F6FA;
+    --bgcolor-tbbox-tb-w2tb-td:#202022;
+    --textcolor-tbbox-tb-w2tb-td:#F5F6FA;
+    --bgcolor-tbbox-tb-w2tb-th:#45484F;
+    --textcolor-tbbox-tb-w2tb-th:#C2C5CE;
+    --bordercolor-tbbox-basic:#45484F;
+    --bordercolor-w2tb-th-last-child:#45484F;
+    --bordercolor-w2tb-th-first-child:#45484F;
 
 
 
@@ -1822,19 +1836,19 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow:hidd
 .h100p{height: calc(100% - 100px)}
 
 /* table */
-.tbbox{position:relative; margin:0; padding:0; border-bottom:1px solid #E8EFF5}
+.tbbox{position:relative; margin:0; padding:0; border-bottom:1px solid var(--bordercolor-tbbox-basic)}
 .tbbox > .tb{width:100%; border-spacing:0}
 .tbbox > .tb > tbody > tr > .w2tb_th,
 .tbbox > .tb > tr > .w2tb_th,
 .tbbox > .tb > tbody > tr > .w2tb_td,
-.tbbox > .tb > tr > .w2tb_td{border:0; border-bottom:1px solid #E8EFF5; line-height:16px; box-sizing:border-box}
-.tbbox > .tb thead .w2tb_th{background:#DDE2F5; font-weight:300; text-align:center; height:40px; box-sizing:border-box; border:0}
+.tbbox > .tb > tr > .w2tb_td{border:0; border-bottom:1px solid var(--bordercolor-tbbox-basic); line-height:16px; box-sizing:border-box}
+.tbbox > .tb thead .w2tb_th{background:var(--bgcolor-tbbox-tb-w2tb-th); font-weight:300; text-align:center; height:40px; box-sizing:border-box; border:0}
 .tbbox > .tb > tbody > tr > .w2tb_th,
 .tbbox > .tb > tr > .w2tb_th,
 .tbbox > .tb > tr > .w2tb_td{height:35px}
-.tbbox > .tb .w2tb_th{padding:3px; background:#DDE2F5; color:#56606B; font-weight:300; text-align:center}
-.tbbox > .tb .w2tb_td{padding:2px 3px; background:#FFFFFF; color:#202020; height:35px}
-.tbbox > .tb thead .w2tb_th *, .tbbox > .tb .w2tb_th *{font-size:14px; color:#56606B}
+.tbbox > .tb .w2tb_th{padding:3px; background:var(--bgcolor-tbbox-tb-w2tb-th); color:var(--textcolor-tbbox-tb-w2tb-th); font-weight:300; text-align:center}
+.tbbox > .tb .w2tb_td{padding:2px 3px; background:var(--bgcolor-tbbox-tb-w2tb-td); color:var(--textcolor-tbbox-tb-w2tb-td); height:35px}
+.tbbox > .tb thead .w2tb_th *, .tbbox > .tb .w2tb_th *{font-size:14px; color:var(--textcolor-tbbox-tb-w2tb-th)}
 .tbbox > .tb tbody .w2tb_td *, .tbbox > .tb .w2tb_td *{font-size:13px}
 .tbbox > .tb .w2tb_td.tar,
 .tbbox > .tb .w2tb_th.tar{text-align:right}
@@ -1851,9 +1865,11 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow:hidd
 .tbbox.list > .tb .w2tb_th{padding:3px 10px; vertical-align:middle; line-height:25px; text-align:center; height:34px}
 .tbbox.list > .tb .w2tb_td{padding:3px 10px; vertical-align:middle; line-height:25px; border-left:1px solid #cdcdcd; border-right:1px solid #cdcdcd; text-align:center; height:34px}
 
-.tbbox > .tb .w2tb_th + .w2tb_th:last-child{border-right:1px solid #DDE2F5}
+.tbbox > .tb colgroup + tbody > tr:first-child > .w2tb_th{border-top:1px solid var(--bordercolor-w2tb-th-first-child)}
+.tbbox > .tb thead + tbody > tr:first-child > .w2tb_td{border-top:none}
+.tbbox > .tb .w2tb_th + .w2tb_th:last-child{border-right:1px solid var(--bordercolor-w2tb-th-last-child)}
 .tbbox > .tb .w2tb_td + .w2tb_td:last-child,
-.tbbox > .tb tbody tr > .w2tb_td:last-child{border-right:1px solid #E8EFF5}
-.tbbox > .tb tbody tr > .w2tb_td:first-child{border-left:1px solid #E8EFF5}
-.tbbox > .tb tbody tr:first-child > .w2tb_td{border-top:1px solid #E8EFF5}
-.tbbox > .tb .w2tb_td + .w2tb_td{border-left:1px solid #E8EFF5}
+.tbbox > .tb tbody tr > .w2tb_td:last-child{border-right:1px solid var(--bordercolor-tbbox-basic)}
+.tbbox > .tb tbody tr > .w2tb_td:first-child{border-left:1px solid var(--bordercolor-tbbox-basic)}
+.tbbox > .tb tbody tr:first-child > .w2tb_td{border-top:1px solid var(--bordercolor-tbbox-basic)}
+.tbbox > .tb .w2tb_td + .w2tb_td{border-left:1px solid var(--bordercolor-tbbox-basic)}

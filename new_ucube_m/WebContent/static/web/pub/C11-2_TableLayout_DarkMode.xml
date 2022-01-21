@@ -40,9 +40,7 @@
     			<xf:group class="container_inner" id="" style="">
     				<xf:group id="" style="" tagname="section">
     					<xf:group class="titlebox" id="" style="">
-    						<xf:group class="lta" id="">
-    							<w2:textbox id="" label="기본테이블1" style="" tagname="h3"></w2:textbox>
-    						</xf:group>
+    						<w2:textbox id="" label="기본테이블1" style="" tagname="h3"></w2:textbox>
     					</xf:group>
     					<xf:group class="tbbox" id="" style="">
     						<xf:group class="w2tb tb" id="" style="" tagname="table">
@@ -169,9 +167,7 @@
     				</xf:group>
     				<xf:group id="" style="" tagname="section">
     					<xf:group class="titlebox" id="" style="">
-    						<xf:group id="" class="lta">
-    							<w2:textbox tagname="h3" style="" id="" label="기본테이블2"></w2:textbox>
-    						</xf:group>
+    						<w2:textbox tagname="h3" style="" id="" label="기본테이블2"></w2:textbox>
     					</xf:group>
     					<xf:group class="tbbox" id="" style="">
     						<xf:group class="w2tb tb" id="" style="" tagname="table">
@@ -267,9 +263,7 @@
     				</xf:group>
     				<xf:group id="" style="" tagname="section">
     					<xf:group class="titlebox" id="" style="">
-    						<xf:group class="lta" id="">
-    							<w2:textbox id="" label="기본테이블3" style="" tagname="h3"></w2:textbox>
-    						</xf:group>
+    						<w2:textbox id="" label="기본테이블3" style="" tagname="h3"></w2:textbox>
     					</xf:group>
     					<xf:group class="tbbox" id="" style="">
     						<xf:group class="w2tb tb" id="" style="" tagname="table">

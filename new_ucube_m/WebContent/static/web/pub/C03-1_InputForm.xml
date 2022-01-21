@@ -43,7 +43,7 @@
     						<w2:textbox id="" label="Searchbox - 고객정보" style="" tagname="h3"></w2:textbox>
     					</xf:group>
     					<xf:group class="searchbox" id="" style="">
-    						<xf:group class="inputbox" id="ipxMobile" style="">
+    						<xf:group class="inputbox" id="" style="">
     							<xf:group class="boxitem" id="">
     								<w2:textbox class="" id="" label="상품번호" style="" tagname="label"></w2:textbox>
     								<xf:input adjustMaxLength="false" class="" dataType="number" ev:onchange=""
