@@ -303,6 +303,8 @@
     --textcolor-w2calendar-class1-w2calendar-col-date:#202020;
     --textcolor-w2calendar-class1-w2calendar-date-off:#BEC9D4;
     --bgcolor-w2calendar-selectbox-month-native:#FFFFFF;
+    --ico-down12:url(./../images/ico_down12.svg);
+    --bgcolor-w2calendar-class1-w2selectbox:#FFFFFF;
 
 
 
@@ -617,6 +619,8 @@
     --textcolor-w2calendar-class1-w2calendar-col-date:#F5F6FA;
     --textcolor-w2calendar-class1-w2calendar-date-off:#70747D;
     --bgcolor-w2calendar-selectbox-month-native:#202022;
+    --ico-down12:url(./../images/ico_down12_dark.svg);
+    --bgcolor-w2calendar-class1-w2selectbox:#202022;
 
 
 
@@ -727,23 +731,25 @@ input[type="search"]::-webkit-search-cancel-button{-webkit-appearance: none; dis
 .w2calendar_header_next_month {left:auto; right:16px; top:24px; width:24px; height:24px; background:var(--ico-arrow-right24) center center no-repeat}
 .w2calendar_header_next_year {display:none; left:auto; right:0; top:24px; width:24px; height:24px}
 
-.w2calendar_selectbox_year {position:absolute; top:21px; left:calc(50% - 78px); width:86px !important; height:26px; border:none; border-bottom:1px solid #BEC9D4; padding-bottom:3px; font:inherit}
+.w2calendar_selectbox_year {position:absolute; top:21px; left:calc(50% - 78px); width:84px !important; height:26px; border:none; border-bottom:1px solid #BEC9D4; padding-bottom:3px; font:inherit}
 .w2calendar_selectbox_month  {position:absolute; top:21px; left:calc(50% + 16px); width:65px !important; height:26px; border:none; border-bottom:1px solid #BEC9D4; padding-bottom:3px; font:inherit}
 .w2calendar_selectbox_year .w2selectbox_label,
 .w2calendar_selectbox_month .w2selectbox_label {font-size:14px; font-weight:400; font-family:"Noto Sans KR", sans-serif; color:var(--textcolor-ctbox-span); text-align:left}
 .w2table_sb_main {position: absolute; left: 0; top: -1px; overflow-x: hidden; border-collapse: collapse; border-spacing: 0; background-color: #FFFFFF; text-align: left; vertical-align: middle}
-.w2table_sb_col {height: 26px; font-size: 14px; border-top: none; background-color: #FFFFFF; overflow: hidden; padding-top: 2px; padding-left: 3px; padding-right: 3px; white-space: nowrap}
+.w2table_sb_col {height: 26px; font-size: 14px; border-top: none; background-color: var(--bgcolor-w2calendar-class1-w2selectbox); overflow: hidden; padding-top: 2px; padding-left: 3px; padding-right: 3px; white-space: nowrap}
 .w2table_sb.w2table.w2calendar_selectbox_year,
-.w2table_sb.w2table.w2calendar_selectbox_month {border-left:1px solid #BEC9D4; border-right:1px solid #BEC9D4}
+.w2table_sb.w2table.w2calendar_selectbox_month {height:336px !important; border-left:1px solid #BEC9D4; border-right:1px solid #BEC9D4; box-sizing: border-box;}
 
 
 .w2selectbox_over .w2selectbox_col_label {background-color:transparent}
 .w2selectbox_over .w2selectbox_col_button {background: url(./../images/ico_down12.svg) center center no-repeat transparent}
-.w2selectbox .w2selectbox_col_button {background-image: url(./../images/ico_down12.svg); padding-right:10px}
+.w2selectbox .w2selectbox_col_button {background-image:var(--ico-down12); padding-right:10px}
 
-.w2calendar_selectbox_year_native {position:absolute; top:21px; left:calc(50% - 78px); width:86px !important; height:26px; border:none; border-bottom:1px solid #BEC9D4; padding-bottom:3px; font:inherit; font-size: 14px}
+.w2calendar_selectbox_year_native {position:absolute; top:21px; left:calc(50% - 78px); width:84px !important; height:26px; border:none; border-bottom:1px solid #BEC9D4; padding-bottom:3px; font:inherit; font-size: 14px}
 .w2calendar_selectbox_month_native {position:absolute; top:21px; left:calc(50% + 16px); width:65px !important; height:26px; border:none; border-bottom:1px solid #BEC9D4; padding-bottom:3px; font:inherit; font-size: 14px}
 
+.w2calendar_class1 .w2selectbox{background-color:var(--bgcolor-w2calendar-class1-w2selectbox)}
+/* .w2calendar_class1 .w2table_sb{background-color:var(--bgcolor-w2calendar-class1-w2selectbox)} */
 .w2calendar_class1 .w2calendar_content {border:0; background:none; margin-top:7px; padding:0 10px}
 .w2calendar_class1 .w2calendar_col_date {font-size:16px; background:none; height:45px; color:var(--textcolor-w2calendar-class1-w2calendar-col-date); border-radius:3px}
 .w2calendar_class1 .w2calendar_day {background:none}
@@ -800,6 +806,7 @@ a .w2calendar_date_cancel:after {content:"닫기" !important; position:absolute;
 .w2calendar_classYear_class1 .w2calendar_header_btn_ok_yearType {left:124px; top:0px; width:30px; height:36px; cursor:pointer}
 .w2calendar_classYear_class1 .w2calendar_header_btn_close_yearType {left:154px; top:0px; width:30px; height:36px; cursor:pointer}
 
+/* .w2calendar_wrap! .w2calendar_footer{height:457px} */
 
 
 input[type="radio"], input[type="checkbox"]{display:none}
