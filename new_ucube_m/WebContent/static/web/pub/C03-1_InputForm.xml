@@ -112,7 +112,7 @@
     							<xf:group class="inputgroup" id="">
     								<w2:inputCalendar calendarValueType="yearMonthDate" class="req" displayFormat=""
     									focusOnDateSelect="false" footerDiv="false" id="" readOnly="" renderDiv="true" renderType="component" rightAlign="false"
-    									style="" placeholder="YYYY-MM-DD">
+    									style="" placeholder="YYYY-MM-DD" cancelButtonShow="" setCurrentDate="">
     								</w2:inputCalendar>
     								<w2:textbox class="" id="" label="~" style="" tagname="span"></w2:textbox>
     								<w2:inputCalendar calendarValueType="yearMonthDate" class="" displayFormat="" focusOnDateSelect="false"
