@@ -753,23 +753,19 @@ input[type="search"]::-webkit-search-cancel-button{-webkit-appearance: none; dis
 .w2calendar_class1 .today{background:url(./../images/ico_calendar_today_over.svg) no-repeat  center center; background-size:32px 32px; color:#202020; font-weight:900}
 .w2calendar_class1 .w2calendar_selectbox_hour{display:none !important}
 .w2calendar_class1 .w2calendar_selectbox_minute{display:none !important}
-/* .w2calendar_class1 th:after {display:none} */
 .w2calendar_class1 .w2calendar_date_disable {color:#BEC9D4; cursor:default}
 .w2calendar_class1 .w2calendar_date_off {color:#d7d7d7}
 .w2calendar_class1 .w2calendar_date_over {background:url(./../images/ico_calendar_today_over.svg) no-repeat  center center; background-size:32px 32px; color:#000}
 .w2calendar_content_table *:focus {outline:0}
 .w2calendar_class1 .w2calendar_day_0 {font-weight:normal; color:#202020}
 .w2calendar_class1 .w2calendar_day_6 {font-weight:normal; color:#202020}
-.w2calendar_class1 .w2calendar_selected {/* background:#7B558D; */ background:url(./../images/ico_calendar_today.svg) no-repeat center center; color:#FFFFFF;}
+.w2calendar_class1 .w2calendar_selected {background:url(./../images/ico_calendar_today.svg) no-repeat center center; color:#FFFFFF;}
 .w2calendar_class1 .w2calendar_holiday {font-weight:bold; color:#ec008c}
-/* .w2calendar_selectbox_hour_mobile {width:100%; height:100%; padding-left:5px; border-radius:3px; border:1px solid #def1e0 !important; background:#f4f4f4; font-size:12px !important; color:#b2b2b2; box-sizing:border-box} */
 .w2calendar_selectbox_hour_mobile {display: none}
-/* .w2calendar_selectbox_minute_mobile {width:100%; height:100%; padding-left:5px; border-radius:3px; border:1px solid #def1e0 !important; background:#f4f4f4; font-size:12px !important; color:#b2b2b2; box-sizing:border-box} */
 .w2calendar_selectbox_minute_mobile {display:none}
 .w2calendar_footer td:nth-child(3) {display:none}
 .w2calendar_time_confirm {display:inline-block; margin:0; margin-left:16px; width:calc(100% - 32px); height:48px; background:#7B558D !important; font-size:15px !important; border-radius:4px !important; box-sizing:border-box; text-align:center}
 .w2calendar_time_confirm:after {content:"확인" !important; font-size:15px !important; font-weight:700; line-height:48px !important; color:#FFFFFF}
-/* .w2calendar_time_cancel {display:inline-block; left:51%; top:45% !important; height:30px !important; background:#5d5a77 !important; font-size:15px !important; box-sizing:border-box; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; text-align:center} */
 .w2calendar_time_cancel {display:none}
 .w2calendar_time_cancel:after {content:"취소" !important; font-size:14px !important; font-weight:700; line-height:48px !important; color:#FFFFFF}
 .w2calendar_go_today, .w2calendar_footer_date {display:none}
