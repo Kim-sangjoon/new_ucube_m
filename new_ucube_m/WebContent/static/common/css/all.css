@@ -299,6 +299,10 @@
     --ico-pre:url(./../images/ico_pre.svg);
     --ico-arrow-left24:url(./../images/ico_arrow_left24.svg);
     --ico-arrow-right24:url(./../images/ico_arrow_right24.svg);
+    --bgcolor-w2calendar-wrap:#FFFFFF;
+    --textcolor-w2calendar-class1-w2calendar-col-date:#202020;
+    --textcolor-w2calendar-class1-w2calendar-date-off:#BEC9D4;
+    --bgcolor-w2calendar-selectbox-month-native:#FFFFFF;
 
 
 
@@ -609,6 +613,10 @@
     --ico-pre:url(./../images/ico_pre_dark.svg);
     --ico-arrow-left24:url(./../images/ico_arrow_left24_dark.svg);
     --ico-arrow-right24:url(./../images/ico_arrow_right24_dark.svg);
+    --bgcolor-w2calendar-wrap:#202022;
+    --textcolor-w2calendar-class1-w2calendar-col-date:#F5F6FA;
+    --textcolor-w2calendar-class1-w2calendar-date-off:#70747D;
+    --bgcolor-w2calendar-selectbox-month-native:#202022;
 
 
 
@@ -711,7 +719,7 @@ input[type="search"]::-webkit-search-cancel-button{-webkit-appearance: none; dis
 
 /* calendar */
 .w2calendar{border:none}
-.w2calendar_wrap {position: fixed; left:0 !important; bottom:0 !important; background:#FFFFFF; width:100%; height:457px; padding:0; border:0; box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.22), 0px 7px 10px rgba(0, 0, 0, 0.12); border-radius: 8px 8px 0px 0px; box-sizing:border-box}
+.w2calendar_wrap {position: fixed; left:0 !important; bottom:0 !important; background:var(--bgcolor-w2calendar-wrap); width:100%; height:425px; padding:0; border:0; box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.22), 0px 7px 10px rgba(0, 0, 0, 0.12); border-radius: 8px 8px 0px 0px; box-sizing:border-box}
 .w2calendar_class1 {position:absolute; left:0 !important; top:0 !important; background:rgba(0, 0, 0, 0.2); height:100%; width:100%;}
 .w2calendar_header {height:64px; border-bottom:none; text-align:left}
 .w2calendar_header_last_year {display:none; left:0; top:24px; width:24px; height:24px}
@@ -737,7 +745,7 @@ input[type="search"]::-webkit-search-cancel-button{-webkit-appearance: none; dis
 .w2calendar_selectbox_month_native {position:absolute; top:21px; left:calc(50% + 16px); width:65px !important; height:26px; border:none; border-bottom:1px solid #BEC9D4; padding-bottom:3px; font:inherit; font-size: 14px}
 
 .w2calendar_class1 .w2calendar_content {border:0; background:none; margin-top:7px; padding:0 10px}
-.w2calendar_class1 .w2calendar_col_date {font-size:16px; background:none; height:45px; color:#202020; border-radius:3px}
+.w2calendar_class1 .w2calendar_col_date {font-size:16px; background:none; height:45px; color:var(--textcolor-w2calendar-class1-w2calendar-col-date); border-radius:3px}
 .w2calendar_class1 .w2calendar_day {background:none}
 .w2calendar_class1 .w2calendar_day0:after {content:'일'}
 .w2calendar_class1 .w2calendar_day1:after {content:'월'}
@@ -753,12 +761,12 @@ input[type="search"]::-webkit-search-cancel-button{-webkit-appearance: none; dis
 .w2calendar_class1 .today{background:url(./../images/ico_calendar_today_over.svg) no-repeat  center center; background-size:32px 32px; color:#202020; font-weight:900}
 .w2calendar_class1 .w2calendar_selectbox_hour{display:none !important}
 .w2calendar_class1 .w2calendar_selectbox_minute{display:none !important}
-.w2calendar_class1 .w2calendar_date_disable {color:#BEC9D4; cursor:default}
-.w2calendar_class1 .w2calendar_date_off {color:#d7d7d7}
+.w2calendar_class1 .w2calendar_date_disable {color:var(--textcolor-w2calendar-class1-w2calendar-date-off); cursor:default}
+.w2calendar_class1 .w2calendar_date_off {color:var(--textcolor-w2calendar-class1-w2calendar-date-off)}
 .w2calendar_class1 .w2calendar_date_over {background:url(./../images/ico_calendar_today_over.svg) no-repeat  center center; background-size:32px 32px; color:#000}
 .w2calendar_content_table *:focus {outline:0}
-.w2calendar_class1 .w2calendar_day_0 {font-weight:normal; color:#202020}
-.w2calendar_class1 .w2calendar_day_6 {font-weight:normal; color:#202020}
+.w2calendar_class1 .w2calendar_day_0 {font-weight:normal; color:var(--textcolor-w2calendar-class1-w2calendar-col-date)}
+.w2calendar_class1 .w2calendar_day_6 {font-weight:normal; color:var(--textcolor-w2calendar-class1-w2calendar-col-date)}
 .w2calendar_class1 .w2calendar_selected {background:url(./../images/ico_calendar_today.svg) no-repeat center center; color:#FFFFFF;}
 .w2calendar_class1 .w2calendar_holiday {font-weight:bold; color:#ec008c}
 .w2calendar_selectbox_hour_mobile {display: none}
@@ -867,7 +875,7 @@ input[type="radio"]:checked + .w2radio_label.w2radio_disabled:before, input[type
 .titlebargroup .w2selectbox_native_select::-ms-expand{display:none}
 
 .w2calendar_selectbox_year_native,
-.w2calendar_selectbox_month_native{margin-top:0px; border-top:none; border-left:none; border-right:none}
+.w2calendar_selectbox_month_native{margin-top:0px; border-top:none; border-left:none; border-right:none; background-color: var(--bgcolor-w2calendar-selectbox-month-native)}
 
 .clear{clear:both}
 .clear:after{content:""; display:block; clear:both}
