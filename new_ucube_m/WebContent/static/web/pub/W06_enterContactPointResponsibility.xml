@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:ev="http://www.w3.org/2001/xml-events"
+    xmlns:w2="http://www.inswave.com/websquare" xmlns:xf="http://www.w3.org/2002/xforms">
+    <head meta_programName="06_접점책임처리 진입">
+    	<w2:type>DEFAULT</w2:type>
+        <w2:buildDate/>
+        <xf:model>
+            <xf:instance>
+                <data xmlns=""/>
+            </xf:instance>
+            <w2:dataCollection baseNode="map">
+            </w2:dataCollection>
+            <w2:workflowCollection>
+            </w2:workflowCollection>
+        </xf:model>
+         <script type="text/javascript" lazy="false"><![CDATA[
+        
+	scwin.onpageload = function() {
+		msg01.setValue("message");
+	};
+	
+	scwin.onpageunload = function() {
+		
+	};
+	
+	]]></script>
+    </head>
+    <body ev:onpageload="scwin.onpageload" ev:onpageunload="scwin.onpageunload">
+    	<xf:group class="wrapper" id="" style="">
+    		<xf:group class="header white_bg" id="" style="" tagname="section">
+    			<xf:group class="titlebar" id="" style="">
+    				<xf:group class="cta" id="">
+    					<w2:textbox class="title" id="" label="접점책임처리/민원처리" style="" tagname="h2"></w2:textbox>
+    				</xf:group>
+    			</xf:group>
+    			<xf:group class="btn_menu" id="" style="" tagname="button"></xf:group>
+    			<xf:group class="btn_pre" id="" style="" tagname="button"></xf:group>
+    		</xf:group>
+    		<xf:group class="container" id="" style="" tagname="section">
+    			<xf:group class="" id="" style="" tagname="section">
+    				<xf:group class="messagebox" id="" style="">
+    					<xf:group class="messageboxwrap main" id="" tagname="">
+    						<xf:group id="" tagname="section">
+    							<xf:group style="" id="" class="container_inner">
+    								<xf:group style="" id="" class="titlebox">
+    									<w2:textbox tagname="h3" style="" id="" label="민원인 상담내용"></w2:textbox>
+    								</xf:group>
+    								<xf:group id="" class="infobox_type1">
+    									<xf:group style="" id="" class="dfbox">
+    										<xf:group style="" id="" class="lta">
+    											<w2:textbox id="" label="민원인 불만 및 요구사항" style="" tagname="h4"></w2:textbox>
+    										</xf:group>
+    									</xf:group>
+    									<xf:group id="" style="" text="" tagname="ul" class="msg_list1">
+    										<xf:group id="" style="" tagname="li">
+    											<w2:textbox id="" label="*민원인 : " style="" tagname="span"></w2:textbox>
+    											<w2:textbox id="" label=" 본인" style="" tagname="span"></w2:textbox>
+    										</xf:group>
+    										<xf:group id="" style="" tagname="li">
+    											<w2:textbox id="" label="*연락처 : " style="" tagname="span"></w2:textbox>
+    											<w2:textbox id="" label="010*1234*1234" style="" tagname="span"></w2:textbox>
+    										</xf:group>
+    										<xf:group id="" style="" tagname="li">
+    											<w2:textbox id="" label="*통화요청시간 : " style="" tagname="span"></w2:textbox>
+    											<w2:textbox id="" label="즉시" style="" tagname="span"></w2:textbox>
+    										</xf:group>
+    										<xf:group id="" style="" tagname="li">
+    											<w2:textbox id="" label="*스캔서류확인 : " style="" tagname="span"></w2:textbox>
+    											<w2:textbox id="" label="서류확인안됨" style="" tagname="span"></w2:textbox>
+    										</xf:group>
+    										<xf:group id="" style="" tagname="li">
+    											<w2:textbox id=""
+    												label="*고객요청(불만)내용 : " style=""
+    												tagname="span">
+    											</w2:textbox>
+    											<w2:textbox id=""
+    												label="모/ 개통시 등본 제출했다고 주장/결합구성원 추가되어있지 않음/납부방법 카드변경 요청도 했다고 주장하나 은행 등록중임/확인 부탁드립니다/010*1234*1234" style=""
+    												tagname="span">
+    											</w2:textbox>
+    										</xf:group>
+
+    									</xf:group>
+    									<xf:group class="dfbox" id="" style="">
+    										<xf:group class="lta" id="" style="">
+    											<w2:textbox id="" label="민원인 연락처" style="" tagname="label"></w2:textbox>
+    										</xf:group>
+    										<xf:group class="rta" id="" style="">
+    											<w2:textbox id="" label="010-1234-1234" style="" class="text"></w2:textbox>
+    										</xf:group>
+    									</xf:group>
+    									<xf:group class="dfbox" id="" style="">
+    										<xf:group class="lta" id="" style="">
+    											<w2:textbox id="" label="만기일시" style="" tagname="label"></w2:textbox>
+    										</xf:group>
+    										<xf:group class="rta" id="" style="">
+    											<w2:textbox id="" label="2020-12-11 17:03:28" style="" class="text"></w2:textbox>
+    										</xf:group>
+    									</xf:group>
+    								</xf:group></xf:group>
+    						</xf:group>
+    						<xf:group class="" id="" style="" tagname="section">
+    							<xf:group class="searchbox" id="" style="">
+    								<xf:group class="searchboxwrap" id="">
+    									<xf:group class="srchitem" id="" style="">
+    										<w2:textbox class="req" id="" label="책임접점" style="" tagname="label"></w2:textbox>
+    										<xf:group class="inputgroup" id="">
+    											<xf:input adjustMaxLength="false" style="" id="" placeholder="" type="search" class="adsearch req">
+    											</xf:input><xf:input adjustMaxLength="false" allowChar="" applyFormat="" class="" dataType="text"
+    												editType="" ev:onchange="" ev:onkeydown="" id="" placeholder="" style="" type="" disabled="true">
+    												<w2:attributes>
+    													<w2:required></w2:required>
+    												</w2:attributes>
+    											</xf:input>
+    										</xf:group>
+    									</xf:group>
+    									<xf:group class="srchitem" id="" style="">
+    										<w2:textbox class="req" id="" label="처리현황" style="" tagname="label"></w2:textbox>
+    										<xf:group class="inputgroup" id="">
+    											<xf:select1 allOption="" appearance="minimal" chooseOption="" class="req" direction="auto"
+    												disabled="false" disabledClass="w2selectbox_disabled" displayMode="" id="" ref="" renderType="native" style=""
+    												submenuSize="auto">
+    												<xf:choices>
+    													<xf:item>
+    														<xf:label><![CDATA[처리완료]]></xf:label>
+    														<xf:value><![CDATA[]]></xf:value>
+    													</xf:item>
+    												</xf:choices>
+    											</xf:select1>
+    										</xf:group>
+    									</xf:group>
+    								</xf:group>
+    							</xf:group>
+    						</xf:group>
+    					</xf:group>
+    					<xf:group class="bottomfix main noshadow" id="">
+    						<xf:group class="btnbox" id="" style="">
+    							<xf:trigger class="btn_cm" disabled="" id="" style="" type="button">
+    								<xf:label><![CDATA[확인]]></xf:label>
+    							</xf:trigger>
+    						</xf:group>
+    					</xf:group>
+    				</xf:group>
+    			</xf:group>
+    		</xf:group>
+    		<xf:group class="bottomMenu" id="" style="" tagname="section">
+    			<xf:group class="navbox" id="" style="">
+    				<xf:group class="menu01 on" id="" style="" tagname="button">
+    					<xf:group class="numberbox" id="">
+    						<w2:textbox class="num" id="" label="13" style=""></w2:textbox>
+    					</xf:group>
+    					<w2:textbox class="title" id="" label="To-Do" style=""></w2:textbox>
+    				</xf:group>
+    				<xf:group class="menu02" id="" style="" tagname="button">
+    					<w2:textbox class="title" id="" label="가입정보조회" style=""></w2:textbox>
+    				</xf:group>
+    				<xf:group class="menu03" id="" style="" tagname="button">
+    					<w2:textbox class="title" id="" label="사전조회" style=""></w2:textbox>
+    				</xf:group>
+    				<xf:group class="menu04" id="" style="" tagname="button">
+    					<w2:textbox class="title" id="" label="개통지역" style=""></w2:textbox>
+    				</xf:group>
+    				<xf:group class="menu05" id="" style="" tagname="button">
+    					<xf:group class="numberbox" id="" style="">
+    						<w2:textbox class="num" id="" label="3" style=""></w2:textbox>
+    					</xf:group>
+    					<w2:textbox class="title" id="" label="알림" style=""></w2:textbox>
+    				</xf:group>
+    			</xf:group>
+    		</xf:group>
+    	</xf:group>
+    </body>
+</html>

@@ -117,6 +117,9 @@
     							<xf:trigger class="btn_sh" disabled="" id="btnSearch" style="" type="button">
     								<xf:label><![CDATA[조회]]></xf:label>
     							</xf:trigger>
+    							<xf:trigger class="btn_sh border" disabled="true" id="trigger1" style="" type="button">
+    								<xf:label><![CDATA[조회]]></xf:label>
+    							</xf:trigger>
     						</xf:group>
     					</xf:group>
     					<xf:group id="" style="" tagname="section">

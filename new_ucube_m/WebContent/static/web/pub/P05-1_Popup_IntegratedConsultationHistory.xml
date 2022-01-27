@@ -40,19 +40,15 @@
     			<xf:group id="" class="searchboxwrap"><xf:group style="" id="" class="srchitem">
     					<w2:textbox tagname="label" style="" id="" label="조회기간" class="req"></w2:textbox>
     					<xf:group id="" class="inputgroup">
-    						<xf:input ev:onchange="" dataType="date" ev:onkeydown="" editType="" adjustMaxLength="false" style=""
-    							applyFormat="" id="" placeholder="YYYY-MM-DD" allowChar="" type="date" class="req">
-    							<w2:attributes>
-    								<w2:required></w2:required>
-    							</w2:attributes>
-    						</xf:input>
+    						<w2:inputCalendar calendarValueType="yearMonthDate" cancelButtonShow="" class="req" displayFormat=""
+    							focusOnDateSelect="false" footerDiv="false" id="" placeholder="YYYY-MM-DD" readOnly="" renderDiv="true" renderType="component"
+    							rightAlign="false" setCurrentDate="" style="">
+    						</w2:inputCalendar>
     						<w2:textbox tagname="span" style="" id="" label="~" class=""></w2:textbox>
-    						<xf:input adjustMaxLength="false" allowChar="" applyFormat="" class="req" dataType="date" editType=""
-    							ev:onchange="" ev:onkeydown="" id="" placeholder="YYYY-MM-DD" style="" type="date">
-    							<w2:attributes>
-    								<w2:required></w2:required>
-    							</w2:attributes>
-    						</xf:input>
+    						<w2:inputCalendar calendarValueType="yearMonthDate" cancelButtonShow="" class="req" displayFormat=""
+    							focusOnDateSelect="false" footerDiv="false" id="" placeholder="YYYY-MM-DD" readOnly="" renderDiv="true" renderType="component"
+    							rightAlign="false" setCurrentDate="" style="">
+    						</w2:inputCalendar>
     					</xf:group></xf:group><xf:group style="" id="" class="srchitem">
     					<w2:textbox tagname="label" style="" id="" label="상품구분" class="req"></w2:textbox>
     				<xf:group id="" class="inputgroup">
