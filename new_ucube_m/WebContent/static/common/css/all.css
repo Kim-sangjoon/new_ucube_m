@@ -308,6 +308,7 @@
     --bordercolor-messageboxwrap-main-section:#F5F7FA;
     --bgcolor-wrapper-popup-searchbox:#FFFFFF;
     --bgcolor-messageboxwrap-main-section:#FFFFFF;
+    --bgcolor-container-inner:#FFFFFF;
 
 
 
@@ -627,6 +628,7 @@
     --bordercolor-messageboxwrap-main-section:#131317;
     --bgcolor-wrapper-popup-searchbox:#202022;
     --bgcolor-messageboxwrap-main-section:#202022;
+    --bgcolor-container-inner:#202022;
 
 
 
@@ -956,12 +958,12 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow:hidd
 .wrapper.popup .container section.h100{display:inline-block; width:100%; height:calc(100% - 8px); background:var(--popup-bgcolor-h100); transition:all .2s}
 .container{flex-grow:1; display:block; overflow-y:auto; -webkit-overflow-scrolling:touch}
 .container.nobottom{display:block; height:calc( 100vh - 55px)}
-.container .container_inner{padding:0 16px 16px 16px}
+.container .container_inner{padding:0 16px 16px 16px; background: var(--bgcolor-container-inner);}
 .container.vcenter .container_inner{flex:1}
 .container .container_inner section{margin-top:0px}
 .container .container_inner .page_inner section + section{margin-top:24px}
 .container .container_inner > section + section{margin-top:8px}
-.side_inner{padding:0 16px; background:var(--bgcolor-messageboxwrap-main-section)}
+.side_inner{padding:0 16px; background:var(--bgcolor-container-inner)}
 
 .filterbox{border-top:1px solid var(--bordercolor-filterbox-top)}
 .filterbox .fboxgroup{display:inline-block; width:100%; margin-top:16px; min-width:315px}
@@ -1323,6 +1325,8 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow:hidd
 .messagebox .messageboxwrap.main{margin-top:8px; background:var(--bordercolor-messageboxwrap-main-section)}
 .messagebox .messageboxwrap.main.btnfix{margin-bottom:80px}
 .messagebox .messageboxwrap.main.titleinfo{height:calc(100vh - 171px)}
+
+.sectionbg{height:calc(100% - 8px)}
 /* .messagebox .titlebox{height:48px} */
 /* .messagebox .titlebox h3{color:#7B558D; line-height:48px; font-size:15px; font-weight:900} */
 .messagebox .textbox{background:var(--bgcolor-messagebox-textbox); border:1px solid var(--bordercolor--messagebox-textbox); box-sizing:border-box; padding:14px}
@@ -1346,6 +1350,7 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow:hidd
 .messagebox .textbox ul.msgbox li::before{content:''; position:absolute; top:0; left:0; width:21px; height:21px; background:var(--ico-noti21) no-repeat}
 .bottomfix{flex-grow:0; flex-shrink:0}
 .bottomfix.whiteBg{background:var(--bgcolor-messagbox)}
+.bottomfix.whiteBg.shadow{box-shadow:var(--shadow-messagebox-bottomfix-main); z-index: 1}
 .messagebox .bottomfix.main{position:fixed; background:var(--bgcolor-messagebox-bottomfix-main); padding:16px; bottom:72px; width:calc(100% - 32px); box-shadow:var(--shadow-messagebox-bottomfix-main)}
 .messagebox .bottomfix.main .btnbox{margin-top:0; padding:0}
 .messagebox .bottomfix.main.noshadow{box-shadow:none}

@@ -39,29 +39,26 @@
     			<xf:group class="btn_menu" id="" style="" tagname="button"></xf:group>
     		</xf:group>
     		<xf:group class="container" id="" style="" tagname="section">
-    			<xf:group class="" id="" style="" tagname="section">
-    				<xf:group class="messagebox" id="" style="">
-    					<xf:group class="messageboxwrap main" id="" tagname="">
+    		<xf:group id="" tagname="section" class="sectionbg"><xf:group style="" id="" class="messagebox">
+    					<xf:group tagname="" id="" class="messageboxwrap main">
 
     					<xf:group id="" class="container_inner"><xf:group style="" id="" class="titlebox">
     							<w2:textbox tagname="h3" style="" id="" label="주소입력"></w2:textbox>
     						</xf:group><xf:group style="" id="" class="searchbox_type2">
     							<xf:group adaptiveThreshold="" style="" id="" class="inputbox">
     								<xf:group style="" id="" class="boxitem">
-    									<xf:input adjustMaxLength="false" style="" id="" placeholder="Placeholder" class="adsearch" type="search"></xf:input>
+    									<xf:input adjustMaxLength="false" style="" id="" placeholder="Placeholder" type="search" class="adsearch"></xf:input>
     								</xf:group>
     							</xf:group>
     						</xf:group></xf:group></xf:group>
-    					<xf:group class="bottomfix main" id="">
-    							<xf:group class="btnbox" id="" style="">
-    								<xf:trigger class="btn_sh border" disabled="true" id="" style="" type="button">
+    					<xf:group id="" class="bottomfix main">
+    							<xf:group style="" id="" class="btnbox">
+    								<xf:trigger disabled="true" style="" id="" type="button" class="btn_sh border">
     									<xf:label><![CDATA[조회]]></xf:label>
     								</xf:trigger>
     							</xf:group>
     						</xf:group>
-    				</xf:group>
-    			</xf:group>
-    		</xf:group>
+    				</xf:group></xf:group></xf:group>
     		<xf:group style="" id="" class="bottomMenu" tagname="section">
     			<xf:group style="" id="" class="navbox">
     				<xf:group style="" id="" class="menu01" tagname="button">

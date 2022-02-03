@@ -40,7 +40,7 @@
     			<xf:group id="" class="messageboxwrap">
 
     				
-    			<xf:group id="" class="side_inner"><xf:group style="" id="" class="titlebox">
+    			<xf:group id="" class="container_inner"><xf:group style="" id="" class="titlebox">
     					<w2:textbox tagname="h3" style="" label="안내" id=""></w2:textbox>
     				</xf:group><xf:group style="" id="" class="textbox">
     					<xf:group tagname="ol" style="" id="" class="numberbox">
@@ -82,7 +82,7 @@
     					</xf:select>
     					<w2:textbox tagname="span" dataType="" style="" id="" label="(필수)" class="txt_red"></w2:textbox>
     				</xf:group></xf:group></xf:group></xf:group>
-    		</xf:group></xf:group><xf:group id="" class="bottomfix whiteBg" style="">
+    		</xf:group></xf:group><xf:group id="" class="bottomfix whiteBg shadow" style="">
     					<xf:group style="" id="" class="btnbox">
     						<xf:trigger disabled="" style="" id="" type="button" class="btn_df">
     							<xf:label><![CDATA[취소]]></xf:label>
