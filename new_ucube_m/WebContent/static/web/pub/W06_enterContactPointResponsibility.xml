@@ -40,7 +40,7 @@
     		<xf:group class="container" id="" style="" tagname="section">
     			<xf:group class="" id="" style="" tagname="section">
     				<xf:group class="messagebox" id="" style="">
-    					<xf:group class="messageboxwrap main" id="" tagname="">
+    					<xf:group class="messageboxwrap main btnfix" id="" tagname="">
     						<xf:group id="" tagname="section">
     							<xf:group style="" id="" class="container_inner">
     								<xf:group style="" id="" class="titlebox">

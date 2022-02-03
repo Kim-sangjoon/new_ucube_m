@@ -307,6 +307,7 @@
     --bgcolor-w2calendar-class1-w2selectbox:#FFFFFF;
     --bordercolor-messageboxwrap-main-section:#F5F7FA;
     --bgcolor-wrapper-popup-searchbox:#FFFFFF;
+    --bgcolor-messageboxwrap-main-section:#FFFFFF;
 
 
 
@@ -625,6 +626,7 @@
     --bgcolor-w2calendar-class1-w2selectbox:#202022;
     --bordercolor-messageboxwrap-main-section:#131317;
     --bgcolor-wrapper-popup-searchbox:#202022;
+    --bgcolor-messageboxwrap-main-section:#202022;
 
 
 
@@ -950,7 +952,7 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow:hidd
 .wrapper.popup{display:flex; background:var(--popup-bgcolor)}
 .wrapper.popup .header{background:var(--popup-header-bgcolor-h100); margin-top:0; transition:all .2s}
 .wrapper.popup .searchbox{background:var(--bgcolor-wrapper-popup-searchbox)}
-.wrapper.popup .container section{margin-top:8px; background:var(--bgcolor-popup-container-section); /* height: calc(100% - 8px) */}
+.wrapper.popup .container section{margin-top:8px; background:var(--bgcolor-popup-container-section); height: calc(100% - 8px)}
 .wrapper.popup .container section.h100{display:inline-block; width:100%; height:calc(100% - 8px); background:var(--popup-bgcolor-h100); transition:all .2s}
 .container{flex-grow:1; display:block; overflow-y:auto; -webkit-overflow-scrolling:touch}
 .container.nobottom{display:block; height:calc( 100vh - 55px)}
@@ -959,7 +961,7 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow:hidd
 .container .container_inner section{margin-top:0px}
 .container .container_inner .page_inner section + section{margin-top:24px}
 .container .container_inner > section + section{margin-top:8px}
-.side_inner{padding:0 16px}
+.side_inner{padding:0 16px; background:var(--bgcolor-messageboxwrap-main-section)}
 
 .filterbox{border-top:1px solid var(--bordercolor-filterbox-top)}
 .filterbox .fboxgroup{display:inline-block; width:100%; margin-top:16px; min-width:315px}
@@ -1317,8 +1319,9 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow:hidd
 .white_bgbox .white_bgboxwrap.main.titleinfo{height:calc(100vh - 171px)}
 
 .messagebox{position:relative; background:var(--bgcolor-messagbox); height:100%; width:100%}
-.messagebox .messageboxwrap{height:calc(100vh - 143px)}
-.messagebox .messageboxwrap.main{height:calc(100vh - 135px); margin-top:8px}
+.messagebox .messageboxwrap{}
+.messagebox .messageboxwrap.main{margin-top:8px; background:var(--bordercolor-messageboxwrap-main-section)}
+.messagebox .messageboxwrap.main.btnfix{margin-bottom:80px}
 .messagebox .messageboxwrap.main.titleinfo{height:calc(100vh - 171px)}
 /* .messagebox .titlebox{height:48px} */
 /* .messagebox .titlebox h3{color:#7B558D; line-height:48px; font-size:15px; font-weight:900} */
@@ -1921,8 +1924,9 @@ input.adsearch{padding-left:40px; background-image:url(./../images/ico_search32.
 .tbbox > .tb tbody tr:first-child > .w2tb_td{border-top:1px solid var(--bordercolor-tbbox-basic)}
 .tbbox > .tb .w2tb_td + .w2tb_td{border-left:1px solid var(--bordercolor-tbbox-basic)}
 
-.messageboxwrap.main > section{border-top:8px solid var(--bordercolor-messageboxwrap-main-section)}
-.messageboxwrap.main > section:first-child{border-top:none}
+/* .messageboxwrap.main > section{border-top:8px solid var(--bordercolor-messageboxwrap-main-section)} */
+.messageboxwrap.main > section{margin-top:8px; background:var(--bgcolor-messageboxwrap-main-section)}
+.messageboxwrap.main > section:first-child{margin-top:0}
 
 .infobox_type1 > .dfbox{margin:4px 0}
 .infobox_type1 > .dfbox h4{font-size:14px; font-weight:700; color:#8996A3}
