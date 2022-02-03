@@ -950,6 +950,8 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow:hidd
 .header .user_info .dot{position:relative; display:inline-block; text-indent:-9999999px; width:3px; height:3px; color:transparent; vertical-align:middle; margin-left:4px; margin-right:4px}
 .header .user_info .dot::before{content:""; display:block; position:absolute; width:3px; height:3px; top:0; left:0; background:#8996A3; border-radius:99px}
 .header.white_bg + .container{background:var(--bgcolor-white-bg-container)}
+.header.white_bg + .container.multisection{background:var(--bgcolor-container-inner)}
+
 /* popup layout */
 .wrapper.popup{display:flex; background:var(--popup-bgcolor)}
 .wrapper.popup .header{background:var(--popup-header-bgcolor-h100); margin-top:0; transition:all .2s}
@@ -958,7 +960,8 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow:hidd
 .wrapper.popup .container section.h100{display:inline-block; width:100%; height:calc(100% - 8px); background:var(--popup-bgcolor-h100); transition:all .2s}
 .container{flex-grow:1; display:block; overflow-y:auto; -webkit-overflow-scrolling:touch}
 .container.nobottom{display:block; height:calc( 100vh - 55px)}
-.container .container_inner{padding:0 16px 16px 16px; background: var(--bgcolor-container-inner);}
+.container .container_inner{padding:0 16px 16px 16px}
+.header.white_bg + .container .container_inner{background: var(--bgcolor-container-inner)}
 .container.vcenter .container_inner{flex:1}
 .container .container_inner section{margin-top:0px}
 .container .container_inner .page_inner section + section{margin-top:24px}
@@ -1930,7 +1933,8 @@ input.adsearch{padding-left:40px; background-image:url(./../images/ico_search32.
 .tbbox > .tb .w2tb_td + .w2tb_td{border-left:1px solid var(--bordercolor-tbbox-basic)}
 
 /* .messageboxwrap.main > section{border-top:8px solid var(--bordercolor-messageboxwrap-main-section)} */
-.messageboxwrap.main > section{margin-top:8px; background:var(--bgcolor-messageboxwrap-main-section)}
+.messageboxwrap.main > section{position:relative; margin-top:8px; background:var(--bgcolor-messageboxwrap-main-section)}
+.messageboxwrap.main > section::before{content: ''; position:absolute; top:-8px; display:block; width:100%; height: 8px; background: var(--bordercolor-messageboxwrap-main-section)}
 .messageboxwrap.main > section:first-child{margin-top:0}
 
 .infobox_type1 > .dfbox{margin:4px 0}

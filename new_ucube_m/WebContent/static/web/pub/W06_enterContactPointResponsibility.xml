@@ -37,7 +37,7 @@
     			<xf:group class="btn_menu" id="" style="" tagname="button"></xf:group>
     			<xf:group class="btn_pre" id="" style="" tagname="button"></xf:group>
     		</xf:group>
-    		<xf:group class="container" id="" style="" tagname="section">
+    		<xf:group class="container multisection" id="" style="" tagname="section">
     			<xf:group class="" id="" style="" tagname="section">
     				<xf:group class="messagebox" id="" style="">
     					<xf:group class="messageboxwrap main btnfix" id="" tagname="">
