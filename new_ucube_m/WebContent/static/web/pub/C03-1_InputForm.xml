@@ -47,10 +47,10 @@
     							<xf:group class="boxitem" id="">
     								<w2:textbox class="" id="" label="상품번호" style="" tagname="label"></w2:textbox>
     								<xf:input adjustMaxLength="false" class="" dataType="number" ev:onchange=""
-    									ev:onkeydown="scwin.ipxMoProductNo_onkeydown" id="" placeholder="01000000000" style="">
+    									ev:onkeydown="scwin.ipxMoProductNo_onkeydown" id="" placeholder="01000000000" style="" type="number">
     								</xf:input>
     								<xf:input adjustMaxLength="false" class="tar" dataType="number" ev:onchange=""
-    									ev:onkeydown="scwin.ipxMoProductNo_onkeydown" id="input2" placeholder="01000000000" style="">
+    									ev:onkeydown="scwin.ipxMoProductNo_onkeydown" id="input2" placeholder="01000000000" style="" type="number">
     								</xf:input>
     							</xf:group>
     							<xf:group class="boxitem" id="" style="">
@@ -75,9 +75,15 @@
     								<w2:textbox id="" label="설치주소(시군구)" style="" tagname="label"></w2:textbox>
     								<xf:input adjustMaxLength="false" class="ico_address" id="" placeholder="설치주소 검색입력" style="" dataType=""
     									type="search">
+    									<w2:attributes>
+    										<w2:enterkeyhint>search</w2:enterkeyhint>
+    									</w2:attributes>
     								</xf:input>
     								<xf:input adjustMaxLength="false" class="ico_address" dataType="" id="" placeholder="설치주소 검색입력" style=""
     									type="search" disabled="true">
+    									<w2:attributes>
+    										<w2:enterkeyhint>search</w2:enterkeyhint>
+    									</w2:attributes>
     								</xf:input>
     							</xf:group>
     						</xf:group>
@@ -526,6 +532,9 @@
     							<xf:group class="boxitem" id="" style="">
     								<xf:input adjustMaxLength="false" class="adsearch" id="" placeholder="Placeholder" style=""
     									type="search">
+    									<w2:attributes>
+    										<w2:enterkeyhint>search</w2:enterkeyhint>
+    									</w2:attributes>
     								</xf:input>
     							</xf:group>
     						</xf:group>
@@ -535,6 +544,9 @@
     							<xf:group class="boxitem" id="" style="">
     								<xf:input adjustMaxLength="false" class="adsearch" id="" placeholder="Placeholder" style=""
     									type="search" disabled="true">
+    									<w2:attributes>
+    										<w2:enterkeyhint>search</w2:enterkeyhint>
+    									</w2:attributes>
     								</xf:input>
     							</xf:group>
     						</xf:group>
