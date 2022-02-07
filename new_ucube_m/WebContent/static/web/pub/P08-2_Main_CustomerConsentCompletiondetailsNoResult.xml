@@ -32,7 +32,7 @@
     			
     		<xf:group style="" id="" class="titlebar">
     				<xf:group id="" class="cta"><w2:textbox tagname="h2" style="" label="고객동의 완료내역" id="" class="title"></w2:textbox></xf:group></xf:group><xf:group tagname="button" style="" id="" class="btn_close"></xf:group></xf:group>
-    		<xf:group style="" id="" class="container" tagname="section">
+    		<xf:group style="" id="" class="container confirmlist" tagname="section">
     			<xf:group style="" id="" class="container_inner">
     				<xf:group style="" id="" tagname="" userData2="" class="alram_listbox">
     					<xf:group class="no_resultsbox" id="" style="">
