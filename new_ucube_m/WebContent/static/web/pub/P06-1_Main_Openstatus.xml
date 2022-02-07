@@ -47,7 +47,12 @@
     						</xf:group><xf:group style="" id="" class="searchbox_type2">
     							<xf:group adaptiveThreshold="" style="" id="" class="inputbox">
     								<xf:group style="" id="" class="boxitem">
-    									<xf:input adjustMaxLength="false" style="" id="" placeholder="Placeholder" type="search" class="adsearch"></xf:input>
+    									<xf:input adjustMaxLength="false" style="" id="" placeholder="Placeholder" type="search"
+    										class="adsearch">
+    										<w2:attributes>
+    											<w2:enterkeyhint>search</w2:enterkeyhint>
+    										</w2:attributes>
+    									</xf:input>
     								</xf:group>
     							</xf:group>
     						</xf:group></xf:group></xf:group>

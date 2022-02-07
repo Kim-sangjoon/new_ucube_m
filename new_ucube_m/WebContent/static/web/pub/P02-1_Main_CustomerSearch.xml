@@ -101,11 +101,16 @@
     						</xf:group>
     						<xf:group class="boxitem" id="" style="">
     							<w2:textbox id="" label="생년월일" style="" tagname="label" class="req"></w2:textbox>
-    							<xf:input adjustMaxLength="false" id="" placeholder="1900-00-00" style="" class="req" dataType="date"></xf:input>
+    							<xf:input adjustMaxLength="false" id="" placeholder="1900-00-00" style="" class="req" dataType="date" type="number"></xf:input>
     						</xf:group>
     						<xf:group class="boxitem" id="" style="">
     							<w2:textbox id="" label="설치주소(시군구)" style="" tagname="label"></w2:textbox>
-    							<xf:input adjustMaxLength="false" id="" placeholder="설치주소 검색입력" style="" class="ico_address"></xf:input>
+    							<xf:input adjustMaxLength="false" id="" placeholder="설치주소 검색입력" style="" class="ico_address"
+    								type="search">
+    								<w2:attributes>
+    									<w2:enterkeyhint>search</w2:enterkeyhint>
+    								</w2:attributes>
+    							</xf:input>
     						</xf:group>
     					</xf:group>
     					

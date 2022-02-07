@@ -35,14 +35,14 @@
     				</xf:group>
     			</xf:group>
     			<xf:group tagname="button" style="" id="" class="btn_close"></xf:group>
-    		</xf:group><xf:group id="" class="container" tagname="section"><xf:group tagname="section" style="" id="" class="">
+    		</xf:group><xf:group id="" class="container multisection" tagname="section"><xf:group tagname="section" style="" id="" class="">
     			<xf:group style="" id="" class="searchbox">
     			<xf:group id="" class="searchboxwrap"><xf:group style="" id="" class="srchitem">
     					<w2:textbox tagname="label" style="" id="" label="조회기간" class="req"></w2:textbox>
     					<xf:group id="" class="inputgroup">
     						<w2:inputCalendar calendarValueType="yearMonthDate" cancelButtonShow="" class="req" displayFormat=""
     							focusOnDateSelect="false" footerDiv="false" id="" placeholder="YYYY-MM-DD" readOnly="" renderDiv="true" renderType="component"
-    							rightAlign="false" setCurrentDate="" style="">
+    							rightAlign="false" setCurrentDate="" style="" type="">
     						</w2:inputCalendar>
     						<w2:textbox tagname="span" style="" id="" label="~" class=""></w2:textbox>
     						<w2:inputCalendar calendarValueType="yearMonthDate" cancelButtonShow="" class="req" displayFormat=""
