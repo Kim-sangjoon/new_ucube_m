@@ -689,6 +689,7 @@ input[type=number],
 input[type=password]{padding-left:8px; padding-right:8px}
 
 .w2textarea{padding: 8px; font-family: inherit; height: 100px; line-height: 21px; resize: none}
+.w2textarea.req{border-color: #2FB8A8}
 textarea::-webkit-input-placeholder{color:var(--textcolor-input-placeholder)}
 
 input::-webkit-input-placeholder{color:var(--textcolor-input-placeholder); font-size:14px; line-height:21px; font-weight:400; letter-spacing:-0.02em}
@@ -1094,6 +1095,7 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow:hidd
 .srchitem label{margin:24px 0 9px 0}
 .srchitem:first-child label{margin-top:0}
 .inputgroup{display:flex; flex-direction:row}
+.inputgroup + .inputgroup{margin-top:8px}
 .inputgroup > *{margin-left:4px}
 .inputgroup > *:first-child{margin-left:0}
 .inputgroup span{line-height:40px}

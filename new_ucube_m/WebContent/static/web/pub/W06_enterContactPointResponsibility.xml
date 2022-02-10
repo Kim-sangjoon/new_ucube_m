@@ -125,6 +125,18 @@
     														<xf:label><![CDATA[처리완료]]></xf:label>
     														<xf:value><![CDATA[]]></xf:value>
     													</xf:item>
+    													<xf:item>
+    														<xf:label><![CDATA[이의제기]]></xf:label>
+    														<xf:value><![CDATA[]]></xf:value>
+    													</xf:item>
+    													<xf:item>
+    														<xf:label><![CDATA[처리진행중]]></xf:label>
+    														<xf:value><![CDATA[]]></xf:value>
+    													</xf:item>
+    													<xf:item>
+    														<xf:label><![CDATA[처리변경]]></xf:label>
+    														<xf:value><![CDATA[]]></xf:value>
+    													</xf:item>
     												</xf:choices>
     											</xf:select1>
     										</xf:group>
@@ -135,7 +147,7 @@
     					</xf:group>
     					<xf:group class="bottomfix main noshadow" id="">
     						<xf:group class="btnbox" id="" style="">
-    							<xf:trigger class="btn_cm" disabled="" id="" style="" type="button">
+    							<xf:trigger class="btn_sh border" disabled="" id="" style="" type="button">
     								<xf:label><![CDATA[확인]]></xf:label>
     							</xf:trigger>
     						</xf:group>
