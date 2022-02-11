@@ -309,6 +309,11 @@
     --bgcolor-wrapper-popup-searchbox:#FFFFFF;
     --bgcolor-messageboxwrap-main-section:#FFFFFF;
     --bgcolor-container-inner:#FFFFFF;
+    --textcolor-msgbox-df:#56606B;
+    --ico-file-close24:url(./../images/ico_file_close24.svg);
+    --bordercolor-filelistbox-li:#E8EFF5;
+    --textcolor-btn-cf-fileupload:#56606B;
+    --bordercolor-btn-cf-fileupload:#BEC9D4;
 
 
 
@@ -629,6 +634,11 @@
     --bgcolor-wrapper-popup-searchbox:#202022;
     --bgcolor-messageboxwrap-main-section:#202022;
     --bgcolor-container-inner:#202022;
+    --textcolor-msgbox-df:#C2C5CE;
+    --ico-file-close24:url(./../images/ico_file_close24_dark.svg);
+    --bordercolor-filelistbox-li:#45484F;
+    --textcolor-btn-cf-fileupload:#C2C5CE;
+    --bordercolor-btn-cf-fileupload:#70747D;
 
 
 
@@ -1370,6 +1380,9 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow:hidd
 .messagebox .textbox ul.msgbox li{position:relative; padding-left:24px}
 .messagebox .textbox ul.msgbox li span{font-size:14px; color:var(--textcolor-messagebox-textbox-ul-msgbox-li-span); font-weight:300}
 .messagebox .textbox ul.msgbox li::before{content:''; position:absolute; top:0; left:0; width:21px; height:21px; background:var(--ico-noti21) no-repeat}
+.msgbox_df{position:relative; margin-top:8px}
+.msgbox_df::before{content:''; position:absolute; top:2px; left:0; width:21px; height:21px; background:var(--ico-noti21) no-repeat}
+.msgbox_df > span{margin-left:23px; color:var(--textcolor-msgbox-df)}
 .bottomfix{z-index: 1;}
 .bottomfix.whiteBg{background:var(--bgcolor-messagbox)}
 .bottomfix.whiteBg.shadow{box-shadow:var(--shadow-messagebox-bottomfix-main); z-index: 1}
@@ -1395,6 +1408,7 @@ input.adsearch{padding-left:40px; background-image:url(./../images/ico_search32.
 .btn_cf.cardview{position:relative; padding-left:30px; background-position:8px 50%; background-repeat:no-repeat; background-color:var(--bgcolor-btn-cf)}
 .btn_cf.gridview{background-image:var(--ico-btn-cf-gridview)}
 .btn_cf.cardview{background-image:var(--ico-btn-cf-cardview)}
+.btn_cf.fileupload{color:var(--textcolor-btn-cf-fileupload); border-color:var(--bordercolor-btn-cf-fileupload)}
 
 .btn_cf.ico{width:32px; text-indent:-9999999px; background-repeat:no-repeat; background-position:50% 50%; background-color:var(--bgcolor-btn-cf-ico)}
 .btn_cf.ico.trash{background-image:url(./../images/ico_trash21.svg)}
@@ -1829,6 +1843,7 @@ input.adsearch{padding-left:40px; background-image:url(./../images/ico_search32.
 .pl20{padding-left:20px !important}
 
 /* margin  */
+.m0{margin:0 !important}
 .mt0{margin-top:0 !important}
 .mt1{margin-top:1px !important}
 .mt2{margin-top:2px !important}
@@ -1964,3 +1979,11 @@ input.adsearch{padding-left:40px; background-image:url(./../images/ico_search32.
 
 .msg_list1{background:var(--bgcolor-input-disabled); padding:8px}
 .msg_list1 span{color:var(--textcolor-input-disabled)}
+
+.filelistbox{display:block; width:100%; margin-top:4px;}
+.filelistbox > li{display: inline-block; height:20px; width: 100%; padding: 9px 0 12px; border-bottom:1px solid var(--bordercolor-filelistbox-li)}
+.filelistbox > li .rta > *{display: inline-block; vertical-align: middle}
+.filelistbox > li .filename{padding-left:8px}
+.filelistbox > li .filesize{padding-right:20px}
+.btn_ico24_close{height:24px; width:24px; border:none; color:transparent; background:var(--ico-file-close24) no-repeat center center}
+.filelistbox > li .btn_ico24_close{margin-right:14px}
