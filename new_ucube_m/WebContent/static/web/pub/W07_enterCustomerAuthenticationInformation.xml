@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:ev="http://www.w3.org/2001/xml-events"
+    xmlns:w2="http://www.inswave.com/websquare" xmlns:xf="http://www.w3.org/2002/xforms">
+    <head meta_programName="07_고객인증정보 입력(팝업)">
+    	<w2:type>DEFAULT</w2:type>
+        <w2:buildDate/>
+        <xf:model>
+            <xf:instance>
+                <data xmlns=""/>
+            </xf:instance>
+            <w2:dataCollection baseNode="map">
+            </w2:dataCollection>
+            <w2:workflowCollection>
+            </w2:workflowCollection>
+        </xf:model>
+         <script type="text/javascript" lazy="false"><![CDATA[
+        
+	scwin.onpageload = function() {
+		
+	};
+	
+	scwin.onpageunload = function() {
+		
+	};
+	
+	]]></script>
+    </head>
+    <body ev:onpageload="scwin.onpageload" ev:onpageunload="scwin.onpageunload">
+    	<xf:group class="wrapper popup" id="" style="">
+    		<xf:group class="header white_bg" id="" style="" tagname="section">
+    			<xf:group class="titlebar" id="" style="">
+    				<xf:group class="cta" id="">
+    					<w2:textbox class="title" id="" label="고객정보 사전조회 동의" style="" tagname="h2"></w2:textbox>
+    				</xf:group>
+    			</xf:group>
+    			<xf:group class="btn_close" id="" style="" tagname="button"></xf:group>
+    		</xf:group>
+    		<xf:group class="container multisection" id="" tagname="section" style="">
+    			<xf:group class="" id="" style="" tagname="section">
+    				<xf:group class="messagebox" id="" style="">
+    					<xf:group class="messageboxwrap main" id="">
+    						<xf:group class="container_inner" id="">
+    							<xf:group class="titlebox" id="" style="">
+    								<w2:textbox id="" label="고객정보 사전조회 동의" style="" tagname="h3"></w2:textbox>
+    							</xf:group>
+    							<xf:group class="textbox" id="" style="">
+    								<xf:group class="msgbox mt0" id="" style="" tagname="ul">
+    									<xf:group id="" tagname="li">
+    										<w2:textbox id="" label="신용정보법, 개인정보보호법에 의거하여 사전 조회시 고객님의 조회동의를 필히 득해야 합니다." style=""
+    											tagname="span">
+    										</w2:textbox>
+    									</xf:group>
+    								</xf:group>
+    								<xf:group class="msgbox mt8" id="" style="" tagname="ul">
+    									<xf:group id="" tagname="li">
+    										<w2:textbox id="" label="고객님의 동의없이 조회가 이루어질 경우에는 최대 징역 5년 또는 5천만원의 벌금이 부과 될 수 있습니다." style=""
+    											tagname="span">
+    										</w2:textbox>
+    									</xf:group>
+    								</xf:group>
+    							</xf:group>
+    						</xf:group>
+    					</xf:group>
+    				</xf:group>
+    			</xf:group>
+    			<xf:group class="" id="" style="" tagname="section">
+    				<xf:group class="searchbox title" id="" style="">
+    					<xf:group class="searchboxwrap" id="">
+    						<xf:group id="" class="titlebox">
+    							<w2:textbox tagname="h3" style="" id="" label="사전조회 동의를 위한 고객정보 입력"></w2:textbox>
+    						</xf:group>
+    						<xf:group class="srchitem" id="" style="">
+    							<w2:textbox class="req" id="" label="휴대폰" style="" tagname="label"></w2:textbox>
+    							<xf:group class="inputgroup" id="">
+    								<xf:input adjustMaxLength="false" allowChar="" applyFormat="" class="req" dataType="number" editType=""
+    									ev:onchange="" ev:onkeydown="" id="" placeholder="" style="" type="number">
+    									<w2:attributes>
+    										<w2:required></w2:required>
+    									</w2:attributes>
+    								</xf:input>
+    							</xf:group>
+    						</xf:group>
+    						<xf:group class="srchitem" id="" style="">
+    							<w2:textbox class="req" id="" label="성명(명의자)" style="" tagname="label"></w2:textbox>
+    							<xf:group class="inputgroup" id="">
+    								<xf:input adjustMaxLength="false" allowChar="" applyFormat="" class="req" dataType="text" editType=""
+    									ev:onchange="" ev:onkeydown="" id="" placeholder="" style="" type="">
+    									<w2:attributes>
+    										<w2:required></w2:required>
+    									</w2:attributes>
+    								</xf:input>
+    								<xf:select appearance="full" cols="" id="" ref="" renderType="checkboxgroup" rows="" selectedindex="-1"
+    									style="">
+    									<xf:choices>
+    										<xf:item>
+    											<xf:label><![CDATA[외국인]]></xf:label>
+    											<xf:value><![CDATA[]]></xf:value>
+    										</xf:item>
+    									</xf:choices>
+    								</xf:select>
+    							</xf:group>
+    						</xf:group>
+    						<xf:group class="srchitem" id="" style="">
+    							<w2:textbox class="req" id="" label="생년월일" style="" tagname="label"></w2:textbox>
+    							<xf:group class="inputgroup" id="">
+    								<xf:input adjustMaxLength="false" allowChar="" applyFormat="" class="req" dataType="date" editType=""
+    									ev:onchange="" ev:onkeydown="" id="" placeholder="YYYY-MM-DD" style="" type="date">
+    									<w2:attributes>
+    										<w2:required></w2:required>
+    									</w2:attributes>
+    								</xf:input>
+    							</xf:group>
+    						</xf:group>
+    						<xf:group class="srchitem" id="" style="">
+    							<w2:textbox class="req" id="" label="성별" style="" tagname="label"></w2:textbox>
+    							<xf:group id="" class="selbtnwrap"><xf:select1 ref="" appearance="full" name="multiline" style="" id="" ignoreTabIndex="" renderType="radiogroup" rows="" class="selbtn" cols="" selectedIndex="0">
+    									<xf:choices>
+    										<xf:item>
+    											<xf:label><![CDATA[남성]]></xf:label>
+    											<xf:value></xf:value>
+    										</xf:item>
+    										<xf:item>
+    											<xf:label><![CDATA[여성]]></xf:label>
+    											<xf:value></xf:value>
+    										</xf:item>
+    									</xf:choices>
+    								</xf:select1></xf:group>
+    						</xf:group>
+    						<xf:group class="srchitem" id="" style="">
+    							<w2:textbox class="req" id="" label="통신사 구분" style="" tagname="label"></w2:textbox>
+    							<xf:group class="inputgroup" id="">
+    								<xf:select1 allOption="" appearance="minimal" chooseOption="" class="req" direction="auto"
+    									disabled="false" disabledClass="w2selectbox_disabled" displayMode="" id="" ref="" renderType="native" style=""
+    									submenuSize="auto">
+    									<xf:choices>
+    										<xf:item>
+    											<xf:label><![CDATA[LG U+]]></xf:label>
+    											<xf:value><![CDATA[]]></xf:value>
+    										</xf:item>
+    									</xf:choices>
+    								</xf:select1>
+    							</xf:group>
+    						</xf:group>
+    					</xf:group>
+    				</xf:group>
+    			</xf:group>
+    		</xf:group>
+    		<xf:group class="bottomfix whiteBg shadow" id="" style="">
+    			<xf:group class="btnbox" id="" style="">
+    				<xf:trigger class="btn_cm" disabled="" id="" style="" type="button">
+    					<xf:label><![CDATA[인증번호전송]]></xf:label>
+    				</xf:trigger>
+    			</xf:group>
+    		</xf:group>
+    	</xf:group>
+    </body>
+</html>
