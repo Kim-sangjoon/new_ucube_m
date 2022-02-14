@@ -314,6 +314,8 @@
     --bordercolor-filelistbox-li:#E8EFF5;
     --textcolor-btn-cf-fileupload:#56606B;
     --bordercolor-btn-cf-fileupload:#BEC9D4;
+    --textcolor-certified-time:#F92465;
+    --textcolor-messagebox-textbox-ul-msgbox-li-span-df:#56606B;
 
 
 
@@ -639,6 +641,8 @@
     --bordercolor-filelistbox-li:#45484F;
     --textcolor-btn-cf-fileupload:#C2C5CE;
     --bordercolor-btn-cf-fileupload:#70747D;
+    --textcolor-certified-time:#FF76A0;
+    --textcolor-messagebox-textbox-ul-msgbox-li-span-df:#C2C5CE;
 
 
 
@@ -1383,6 +1387,7 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow:hidd
 .messagebox .textbox ul.msgbox{margin-top:24px}
 .messagebox .textbox ul.msgbox li{position:relative; padding-left:24px}
 .messagebox .textbox ul.msgbox li span{font-size:14px; color:var(--textcolor-messagebox-textbox-ul-msgbox-li-span); font-weight:400}
+.messagebox .textbox ul.msgbox li span.text_df{color:var(--textcolor-messagebox-textbox-ul-msgbox-li-span-df)}
 .messagebox .textbox ul.msgbox li::before{content:''; position:absolute; top:2px; left:0; width:21px; height:21px; background:var(--ico-noti21) no-repeat}
 .msgbox_df{position:relative; margin-top:8px}
 .msgbox_df::before{content:''; position:absolute; top:2px; left:0; width:21px; height:21px; background:var(--ico-noti21) no-repeat}
@@ -1413,6 +1418,9 @@ input.adsearch{padding-left:40px; background-image:url(./../images/ico_search32.
 .btn_cf.gridview{background-image:var(--ico-btn-cf-gridview)}
 .btn_cf.cardview{background-image:var(--ico-btn-cf-cardview)}
 .btn_cf.fileupload{color:var(--textcolor-btn-cf-fileupload); border-color:var(--bordercolor-btn-cf-fileupload)}
+
+
+.btn_in{background:var(--bgcolor-btn-cf); border:1px solid var(--bordercolor-btn-cf); box-sizing:border-box; border-radius:3px; color:var(--textcolor-btn-cf); font-size:14px; font-weight:700; padding:5.5px 8px; line-height:19px; width:auto; height:auto}
 
 .btn_cf.ico{width:32px; text-indent:-9999999px; background-repeat:no-repeat; background-position:50% 50%; background-color:var(--bgcolor-btn-cf-ico)}
 .btn_cf.ico.trash{background-image:url(./../images/ico_trash21.svg)}
@@ -1994,3 +2002,7 @@ input.adsearch{padding-left:40px; background-image:url(./../images/ico_search32.
 .filelistbox > li .filesize{padding-right:20px}
 .btn_ico24_close{height:24px; width:24px; border:none; color:transparent; background:var(--ico-file-close24) no-repeat center center}
 .filelistbox > li .btn_ico24_close{margin-right:14px}
+
+
+.certified{position:relative; width:100%}
+.certified .time{position:absolute; display:block; top:0; right:8px; text-align: right; color:var(--textcolor-certified-time)}

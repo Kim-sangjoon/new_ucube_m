@@ -275,6 +275,61 @@
     								</xf:group>
     							</xf:group>
     						</xf:group>
+    						<xf:group class="srchitem" id="" style="">
+    							<w2:textbox class="req" id="" label="성명(명의자)" style="" tagname="label"></w2:textbox>
+    							<xf:group class="inputgroup" id="">
+    								<xf:input adjustMaxLength="false" allowChar="" applyFormat="" class="req" dataType="text" editType=""
+    									ev:onchange="" ev:onkeydown="" id="" placeholder="" style="" type="">
+    									<w2:attributes>
+    										<w2:required></w2:required>
+    									</w2:attributes>
+    								</xf:input>
+    								<xf:select appearance="full" cols="" id="" ref="" renderType="checkboxgroup" rows="" selectedindex="-1"
+    									style="">
+    									<xf:choices>
+    										<xf:item>
+    											<xf:label><![CDATA[외국인]]></xf:label>
+    											<xf:value></xf:value>
+    										</xf:item>
+    									</xf:choices>
+    								</xf:select>
+    							</xf:group>
+    						</xf:group>
+    						<xf:group class="srchitem" id="" style="">
+    							<w2:textbox class="req" id="" label="인증번호입력" style="" tagname="label"></w2:textbox>
+    							<xf:group class="inputgroup" id="">
+    								<xf:group id="" class="certified">
+    									
+    									<xf:input ev:onchange="" dataType="number" ev:onkeydown="" editType="" adjustMaxLength="false"
+    										applyFormat="" style="" allowChar="" id="" placeholder="" type="number" class="req ">
+    										<w2:attributes>
+    											<w2:required></w2:required>
+    										</w2:attributes>
+    									</xf:input><w2:textbox id="" label="2분 59초" style="" class="time" tagname="span"></w2:textbox>
+    								</xf:group>
+    								<xf:trigger class="btn_in" ev:onclick="" id="" style="" type="button">
+    									<xf:label><![CDATA[인증번호 재전송]]></xf:label>
+    								</xf:trigger>
+    							</xf:group>
+    						</xf:group>
+    						<xf:group class="srchitem" id="" style="">
+    							<w2:textbox class="req" id="" label="성별" style="" tagname="label"></w2:textbox>
+    							<xf:group class="selbtnwrap" id="">
+    								<xf:select1 appearance="full" class="selbtn" cols="" id="" ignoreTabIndex="" name="multiline" ref=""
+    									renderType="radiogroup" rows="" selectedIndex="0" style="">
+    									<xf:choices>
+    										<xf:item>
+    											<xf:label><![CDATA[남성]]></xf:label>
+    											<xf:value></xf:value>
+    										</xf:item>
+    										<xf:item>
+    											<xf:label><![CDATA[여성]]></xf:label>
+    											<xf:value></xf:value>
+    										</xf:item>
+    									</xf:choices>
+    								</xf:select1>
+    							</xf:group>
+    						</xf:group>
     					</xf:group>
     				</xf:group>
     				<xf:group id="" style="" tagname="section">

@@ -81,33 +81,40 @@
     						<xf:group class="titlebox" id="" style="">
     							<w2:textbox id="" label="단일선택버튼" style="" tagname="h3"></w2:textbox>
     						</xf:group>
-    						<xf:group class="btnbox" id="" style=""><xf:group id="" class="selbtnwrap"><xf:select1 ref="" appearance="full" name="multiline" style="" id="" ignoreTabIndex="" rows="" renderType="radiogroup" cols="" class="selbtn" selectedIndex="0">
-    								<xf:choices>
-    									<xf:item>
-    										<xf:label><![CDATA[남성]]></xf:label>
-    										<xf:value><![CDATA[]]></xf:value>
-    									</xf:item>
-    									<xf:item>
-    										<xf:label><![CDATA[여성]]></xf:label>
-    										<xf:value><![CDATA[]]></xf:value>
-    									</xf:item>
-    								</xf:choices>
-    							</xf:select1><xf:select1 ref="" appearance="full" name="multiline" style="" id="" ignoreTabIndex="" renderType="radiogroup" rows="" class="selbtn" cols="" selectedIndex="">
-    								<xf:choices>
-    									<xf:item>
-    										<xf:label><![CDATA[1]]></xf:label>
-    										<xf:value><![CDATA[]]></xf:value>
-    									</xf:item>
-    									<xf:item>
-    										<xf:label><![CDATA[2]]></xf:label>
-    										<xf:value><![CDATA[]]></xf:value>
-    									</xf:item>
-    									<xf:item>
-    										<xf:label><![CDATA[3]]></xf:label>
-    										<xf:value><![CDATA[]]></xf:value>
-    									</xf:item>
-    								</xf:choices>
-    							</xf:select1></xf:group></xf:group>
+    						<xf:group class="btnbox" id="" style="">
+    							<xf:group id="" class="selbtnwrap">
+    								<xf:select1 ref="" appearance="full" name="multiline" style="" id="" ignoreTabIndex="" rows=""
+    									renderType="radiogroup" cols="" class="selbtn" selectedIndex="0">
+    									<xf:choices>
+    										<xf:item>
+    											<xf:label><![CDATA[남성]]></xf:label>
+    											<xf:value><![CDATA[]]></xf:value>
+    										</xf:item>
+    										<xf:item>
+    											<xf:label><![CDATA[여성]]></xf:label>
+    											<xf:value><![CDATA[]]></xf:value>
+    										</xf:item>
+    									</xf:choices>
+    								</xf:select1>
+    								<xf:select1 ref="" appearance="full" name="multiline" style="" id="" ignoreTabIndex=""
+    									renderType="radiogroup" rows="" class="selbtn" cols="" selectedIndex="">
+    									<xf:choices>
+    										<xf:item>
+    											<xf:label><![CDATA[1]]></xf:label>
+    											<xf:value><![CDATA[]]></xf:value>
+    										</xf:item>
+    										<xf:item>
+    											<xf:label><![CDATA[2]]></xf:label>
+    											<xf:value><![CDATA[]]></xf:value>
+    										</xf:item>
+    										<xf:item>
+    											<xf:label><![CDATA[3]]></xf:label>
+    											<xf:value><![CDATA[]]></xf:value>
+    										</xf:item>
+    									</xf:choices>
+    								</xf:select1>
+    							</xf:group>
+    						</xf:group>
     					</xf:group>
     					<xf:group id="" tagname="section" style="">
     						<xf:group class="titlebox" id="" style="">
@@ -119,6 +126,25 @@
     							</xf:trigger>
     							<xf:trigger class="btn_sh border" disabled="true" id="trigger1" style="" type="button">
     								<xf:label><![CDATA[조회]]></xf:label>
+    							</xf:trigger>
+    						</xf:group>
+    					</xf:group>
+    					<xf:group id="" style="" tagname="section">
+    						<xf:group class="titlebox" id="" style="">
+    							<w2:textbox id="" label="인라인버튼" style="" tagname="h3"></w2:textbox>
+    						</xf:group>
+    						<xf:group class="inputgroup" id="" style="">
+    							<xf:input adjustMaxLength="false" allowChar="" applyFormat="" class="req" dataType="text" editType=""
+    								ev:onchange="" ev:onkeydown="" id="" placeholder="" style="" type="">
+    								<w2:attributes>
+    									<w2:required></w2:required>
+    								</w2:attributes>
+    							</xf:input>
+    							<xf:trigger class="btn_in" ev:onclick="" id="" style="" type="button">
+    								<xf:label><![CDATA[인증번호 재전송]]></xf:label>
+    							</xf:trigger>
+    							<xf:trigger class="btn_in" ev:onclick="" id="" style="" type="button">
+    								<xf:label><![CDATA[취소]]></xf:label>
     							</xf:trigger>
     						</xf:group>
     					</xf:group>
