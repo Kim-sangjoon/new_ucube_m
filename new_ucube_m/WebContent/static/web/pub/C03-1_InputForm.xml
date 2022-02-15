@@ -98,14 +98,14 @@
     						<xf:group class="srchitem" id="" style="">
     							<w2:textbox class="req" id="" label="조회기간(native)" style="" tagname="label"></w2:textbox>
     							<xf:group class="inputgroup" id="">
-    								<xf:input adjustMaxLength="false" allowChar="" applyFormat="" class="req" dataType="date" editType=""
+    								<xf:input adjustMaxLength="false" allowChar="" applyFormat="" class="req wd-150" dataType="date" editType=""
     									ev:onchange="" ev:onkeydown="" id="" placeholder="YYYY-MM-DD" style="" type="date">
     									<w2:attributes>
     										<w2:required></w2:required>
     									</w2:attributes>
     								</xf:input>
     								<w2:textbox class="" id="" label="~" style="" tagname="span"></w2:textbox>
-    								<xf:input adjustMaxLength="false" allowChar="" applyFormat="" class="req" dataType="date" editType=""
+    								<xf:input adjustMaxLength="false" allowChar="" applyFormat="" class="req wd-150" dataType="date" editType=""
     									ev:onchange="" ev:onkeydown="" id="" placeholder="YYYY-MM-DD" style="" type="date">
     									<w2:attributes>
     										<w2:required></w2:required>
