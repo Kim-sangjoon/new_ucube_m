@@ -147,6 +147,18 @@
     								<xf:label><![CDATA[취소]]></xf:label>
     							</xf:trigger>
     						</xf:group>
+    						<xf:group class="inputgroup" id="" style="">
+    							<xf:input adjustMaxLength="false" allowChar="" applyFormat="" class="req" dataType="number" editType=""
+    								ev:onchange="" ev:onkeydown="" id="" placeholder="‘-’ 없이 숫자만 입력해주세요" style="" type="number">
+    								<w2:attributes>
+    									<w2:required></w2:required>
+    								</w2:attributes>
+    							</xf:input>
+    							<xf:group class="btn_df h40 ico been fn" id="" style="" tagname="button">
+    								<w2:textbox id="" label="외국인인증" style="" tagname="span"></w2:textbox>
+    								<w2:textbox id="" label="icon" style="" tagname="em"></w2:textbox>
+    							</xf:group>
+    						</xf:group>
     					</xf:group>
     					<xf:group id="" style="" tagname="section">
     						<xf:group class="titlebox" id="" style="">
