@@ -316,6 +316,8 @@
     --bordercolor-btn-cf-fileupload:#BEC9D4;
     --textcolor-certified-time:#F92465;
     --textcolor-messagebox-textbox-ul-msgbox-li-span-df:#56606B;
+    --ico-been:url(./../images/ico_been.svg);
+    --ico-been-on:url(./../images/ico_been_on.svg);
 
 
 
@@ -643,6 +645,8 @@
     --bordercolor-btn-cf-fileupload:#70747D;
     --textcolor-certified-time:#FF76A0;
     --textcolor-messagebox-textbox-ul-msgbox-li-span-df:#C2C5CE;
+    --ico-been:url(./../images/ico_been_dark.svg);
+    --ico-been-on:url(./../images/ico_been_on_dark.svg);
 
 
 
@@ -733,6 +737,7 @@ input[type="search"]::-webkit-search-results-decoration{display:none}
 .w2radio .w2radio_item + .w2radio_item,
 .w2checkbox .w2checkbox_item + .w2checkbox_item,
 .w2checkbox + .w2checkbox{margin-left:8px}
+.w2checkbox.gap16 .w2checkbox_item + .w2checkbox_item{margin-left:16px}
 .w2checkbox {display: inline-block; vertical-align: middle}
 input + .w2checkbox .w2checkbox_item .w2checkbox_label{display: inline-block; vertical-align: middle; margin: 0;  margin-top: 10px; margin-left: 4px; min-width: max-content}
 
@@ -1128,13 +1133,18 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow:hidd
 .btnbox button + button,
 .btnbox button + input[type=button]{margin-left:8px}
 
+.h40{height:40px !important}
+.h32{height:32px !important}
 .btn_df{flex:1; border:1px solid var(--bordercolor-btn-df); height:48px; background:var(--bgcolor-btn-df); border-radius:4px; color:var(--textcolor-btn-df); font-weight:700; font-size:15px; text-align:center; letter-spacing:-0.02em}
 .btn_df.imp{border:1px solid #7B558D; color:#7B558D}
 .btn_df.cl{border:1px solid #E8EFF5; background:#E8EFF5; color:#202020}
 .btn_df.ico{line-height:inherit}
 .btn_df.ico em{display:inline-block; margin-right:4px; color:transparent; height:26px; width:26px; vertical-align:middle}
 .btn_df.ico.camera em{background:url(./../images/ico_camera26.svg) no-repeat}
-.btn_df.ico span{vertical-align:middle; font-size:15px; color:#56606B;font-weight:700}
+.btn_df.ico.been em{height:20px; width:20px; margin-right:0; margin-left:4px; background:var(--ico-been) no-repeat}
+.btn_df.ico.been.fn{flex:none; padding: 0 10px 0 12px} 
+.btn_df.on.ico.been em{background:var(--ico-been-on) no-repeat}
+.btn_df.ico span{vertical-align:middle; font-size:15px; color:var(--textcolor-btn-df);font-weight:700}
 .btn_cm{flex:1; border:none; background:#7B558D; height:48px; border-radius:4px; color:#FFFFFF; font-weight:700; font-size:15px; text-align:center; letter-spacing:-0.02em}
 .btn_cm.w2trigger_disabled{background:#E8EFF5; color:#BEC9D4}
 .btn_sh{flex:1; border:none; background:#7B558D; border-radius:4px; color:#FFFFFF; font-weight:700; font-size:15px; height:auto; line-height:48px; text-align:center; letter-spacing:-0.02em}
