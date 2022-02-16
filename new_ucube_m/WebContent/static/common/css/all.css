@@ -318,6 +318,12 @@
     --textcolor-messagebox-textbox-ul-msgbox-li-span-df:#56606B;
     --ico-been:url(./../images/ico_been.svg);
     --ico-been-on:url(./../images/ico_been_on.svg);
+    --bordercolor-listbox-type1-ul-listboxwrap-li-listitem:#DAE3ED;
+    --textcolor-listbox-type1-ul-listboxwrap-li-listitem-span:#2C3238;
+    --ico-phone18:url(./../images/ico_phone18.svg);
+    --ico-internet18:url(./../images/ico_internet18.svg);
+    --ico-call18:url(./../images/ico_call18.svg);
+    --ico-tv18:url(./../images/ico_tv18.svg);
 
 
 
@@ -647,6 +653,12 @@
     --textcolor-messagebox-textbox-ul-msgbox-li-span-df:#C2C5CE;
     --ico-been:url(./../images/ico_been_dark.svg);
     --ico-been-on:url(./../images/ico_been_on_dark.svg);
+    --bordercolor-listbox-type1-ul-listboxwrap-li-listitem:#45484F;
+    --textcolor-listbox-type1-ul-listboxwrap-li-listitem-span:#F5F6FA;
+    --ico-phone18:url(./../images/ico_phone18_dark.svg);
+    --ico-internet18:url(./../images/ico_internet18_dark.svg);
+    --ico-call18:url(./../images/ico_call18_dark.svg);
+    --ico-tv18:url(./../images/ico_tv18_dark.svg);
 
 
 
@@ -1363,8 +1375,10 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow:hidd
 /* 고객정보 사전조회 안내 */
 .white_bgbox{position:relative; background:var(--bgcolor-white-bg); height:calc(100% - 8px); width:100%}
 .titlebox{margin-top:8px; margin-bottom:12px}
+.titlebox2{padding:8px 16px}
 .searchboxwrap > .titlebox{margin:0; margin-bottom:-10px}
-.titlebox h3{color:var(--textcolor-titlebox-h3); line-height:32px; font-size:15px; font-weight:700}
+.titlebox h3,
+.titlebox2 h3{color:var(--textcolor-titlebox-h3); line-height:32px; font-size:15px; font-weight:700}
 .white_bgbox .titlebox h3, .titlebox h3{color:var(--textcolor-titlebox-h3); line-height:32px; font-size:15px; font-weight:700}
 .white_bgbox .white_bgboxwrap{height:calc(100vh - 143px)}
 .white_bgbox .white_bgboxwrap.main{height:calc(100vh - 135px); margin-top:8px}
@@ -2013,6 +2027,17 @@ input.adsearch{padding-left:40px; background-image:url(./../images/ico_search32.
 .btn_ico24_close{height:24px; width:24px; border:none; color:transparent; background:var(--ico-file-close24) no-repeat center center}
 .filelistbox > li .btn_ico24_close{margin-right:14px}
 
-
 .certified{position:relative; width:100%}
 .certified .time{position:absolute; display:block; top:0; right:8px; text-align: right; color:var(--textcolor-certified-time)}
+
+.listbox_type1{display:inline-block; height:100%; width:100%}
+.listbox_type1 ul.listboxwrap{width:100%}
+.listbox_type1 ul.listboxwrap li.listitem{border-top:1px solid var(--bordercolor-listbox-type1-ul-listboxwrap-li-listitem); padding:8px 0 9px 16px; height:60px; box-sizing:border-box;}
+.listbox_type1 ul.listboxwrap li.listitem h4{font-weight:500}
+.listbox_type1 ul.listboxwrap li.listitem .statuswrap{display: inline-block; width:100%}
+.listbox_type1 ul.listboxwrap li.listitem .statuswrap span{color:var(--textcolor-listbox-type1-ul-listboxwrap-li-listitem-span); font-size: 12px; padding-left:20px; background-repeat: no-repeat}
+.listbox_type1 ul.listboxwrap li.listitem .statuswrap span + span{margin-left:17px}
+.listbox_type1 ul.listboxwrap li.listitem .statuswrap span.phone{background-image:var(--ico-phone18)}
+.listbox_type1 ul.listboxwrap li.listitem .statuswrap span.internet{background-image:var(--ico-internet18)}
+.listbox_type1 ul.listboxwrap li.listitem .statuswrap span.call{background-image:var(--ico-call18)}
+.listbox_type1 ul.listboxwrap li.listitem .statuswrap span.tv{background-image:var(--ico-tv18)}

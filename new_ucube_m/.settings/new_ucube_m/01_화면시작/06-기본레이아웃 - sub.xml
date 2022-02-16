@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><html xmlns="http://www.w3.org/1999/xhtml" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:w2="http://www.inswave.com/websquare" xmlns:xf="http://www.w3.org/2002/xforms">
+    <head>
+        <w2:buildDate/>
+        <w2:userPalette defaultIcon="mix.png" desc=""/>
+        <xf:model>
+            <xf:instance>
+                <data xmlns=""/>
+            </xf:instance>
+        </xf:model>
+        <script type="text/javascript"><![CDATA[ ]]></script>
+    </head>
+    <body><xf:group class="wrapper" id="" style="">
+	<xf:group class="header white_bg" id="" style="" tagname="section">
+		<xf:group class="titlebar" id="" style="">
+			<xf:group class="cta" id="">
+				<w2:textbox class="title" id="" label="고객정보 사전조회 결과" style="" tagname="h2">
+				</w2:textbox>
+</xf:group>
+</xf:group>
+		<xf:group class="btn_menu" id="" style="" tagname="button">
+		</xf:group>
+		<xf:group class="btn_pre" id="" style="" tagname="button">
+		</xf:group>
+</xf:group>
+	<xf:group class="container multisection" id="" style="" tagname="section">
+		<xf:group class="" id="" tagname="section" style="">
+			<xf:group class="messagebox" id="" style="">
+				<xf:group class="messageboxwrap main" id="" tagname="">
+					<xf:group class="" id="" style="" tagname="section">
+						<xf:group id="" class="container_inner">
+							<xf:group style="" id="" class="listbox_type1">
+								<xf:group id="" class="titlebox">
+									<w2:textbox tagname="h3" style="" id="" label="조회결과">
+									</w2:textbox>
+</xf:group>
+								<xf:group id="" class="listboxwrap" tagname="ul">
+									<xf:group style="" id="" class="listitem" tagname="li">
+										<w2:textbox tagname="label" style="" id="" label="실명확인" class="">
+										</w2:textbox>
+</xf:group>
+</xf:group>
+</xf:group>
+						</xf:group>
+					</xf:group>
+</xf:group>
+</xf:group>
+</xf:group>
+</xf:group>
+	<xf:group class="bottomMenu" id="" style="" tagname="section">
+		<xf:group class="navbox" id="" style="">
+			<xf:group class="menu01" id="" style="" tagname="button">
+				<xf:group class="numberbox" id="">
+					<w2:textbox class="num" id="" label="13" style="">
+					</w2:textbox>
+</xf:group>
+				<w2:textbox class="title" id="" label="To-Do" style="">
+				</w2:textbox>
+</xf:group>
+			<xf:group class="menu02" id="" style="" tagname="button">
+				<w2:textbox class="title" id="" label="가입정보조회" style="">
+				</w2:textbox>
+</xf:group>
+			<xf:group class="menu03 on" id="" style="" tagname="button">
+				<w2:textbox class="title" id="" label="사전조회" style="">
+				</w2:textbox>
+</xf:group>
+			<xf:group class="menu04" id="" style="" tagname="button">
+				<w2:textbox class="title" id="" label="개통지역" style="">
+				</w2:textbox>
+</xf:group>
+			<xf:group class="menu05" id="" style="" tagname="button">
+				<xf:group class="numberbox" id="" style="">
+					<w2:textbox class="num" id="" label="3" style="">
+					</w2:textbox>
+</xf:group>
+				<w2:textbox class="title" id="" label="알림" style="">
+				</w2:textbox>
+</xf:group>
+</xf:group>
+</xf:group>
+</xf:group>
+</body>
+</html>
