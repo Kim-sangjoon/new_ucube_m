@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml"
     xmlns:ev="http://www.w3.org/2001/xml-events"
     xmlns:w2="http://www.inswave.com/websquare" xmlns:xf="http://www.w3.org/2002/xforms">
-    <head meta_programName="07_사전조회결과 목록">
+    <head meta_programName="07_결과항목 상세 메시지">
     	<w2:type>DEFAULT</w2:type>
         <w2:buildDate/>
         <xf:model>
@@ -180,32 +180,39 @@
     									</xf:trigger>
     								</xf:group>
     							</xf:group>
-    						<xf:group id="" class="container_inner">
-    							<xf:group style="" id="" class="textbox2">
-    								<xf:group id="" tagname="p" class="txtlist"><w2:textbox tagname="span" style="" id="" label="사전조회결과 -&gt; 회선제한여부 항목중&lt;br/&gt;“개통회선수(모바일)가 99회선”인 경우" class=""></w2:textbox></xf:group><xf:group tagname="ol" style="" id="" class="numberbox">
-    									<xf:group tagname="li" style="" id="">
+    							<xf:group id="" class="container_inner">
+    								<xf:group style="" id="" class="textbox2">
+    									<xf:group id="" tagname="p" class="txtlist">
     										<w2:textbox tagname="span" style="" id=""
-    											label="추가 개통작업은 고객 회선수 &lt;br/&gt;제한해제(특수권한자)를 해야 합니다.">
+    											label="사전조회결과 -&gt; 회선제한여부 항목중&lt;br/&gt;“개통회선수(모바일)가 99회선”인 경우" class="">
     										</w2:textbox>
     									</xf:group>
-    									<xf:group tagname="li" style="" id="">
-    										<w2:textbox tagname="span" style="" id=""
-    											label="회선 99건은 실제 100회선 이상 고객이므로&lt;br/&gt;회선수 제한해제 작업시 참고하세요.">
-    										</w2:textbox>
+    									<xf:group tagname="ol" style="" id="" class="numberbox">
+    										<xf:group tagname="li" style="" id="">
+    											<w2:textbox tagname="span" style="" id=""
+    												label="추가 개통작업은 고객 회선수 &lt;br/&gt;제한해제(특수권한자)를 해야 합니다.">
+    											</w2:textbox>
+    										</xf:group>
+    										<xf:group tagname="li" style="" id="">
+    											<w2:textbox tagname="span" style="" id=""
+    												label="회선 99건은 실제 100회선 이상 고객이므로&lt;br/&gt;회선수 제한해제 작업시 참고하세요.">
+    											</w2:textbox>
+    										</xf:group>
+    									</xf:group>
+    									<xf:group tagname="ul" style="" id="" class="msgbox">
+    										<xf:group tagname="li" id="">
+    											<w2:textbox tagname="span" style="" id="" label="모바일&amp;홈: 올바른지식인" class="text_df">
+    											</w2:textbox>
+    										</xf:group>
+    										<xf:group id="" tagname="li" style="">
+    											<w2:textbox class="text_df" id="" label="영업PI팀(070-4062-2111~2) : 모바일전산장애/오류" style=""
+    												tagname="span">
+    											</w2:textbox>
+    										</xf:group>
     									</xf:group>
     								</xf:group>
-    								<xf:group tagname="ul" style="" id="" class="msgbox">
-    									<xf:group tagname="li" id="">
-    										<w2:textbox tagname="span" style="" id="" label="모바일&amp;홈: 올바른지식인" class="text_df">
-    										</w2:textbox>
-    									</xf:group>
-    									<xf:group id="" tagname="li" style="">
-    										<w2:textbox class="text_df" id="" label="영업PI팀(070-4062-2111~2) : 모바일전산장애/오류" style=""
-    											tagname="span">
-    										</w2:textbox>
-    									</xf:group>
-    								</xf:group>
-    							</xf:group></xf:group></xf:group>
+    							</xf:group>
+    						</xf:group>
     					</xf:group>
     				</xf:group>
     			</xf:group>
@@ -233,6 +240,26 @@
     					</xf:group>
     					<w2:textbox class="title" id="" label="알림" style=""></w2:textbox>
     				</xf:group>
+    			</xf:group>
+    		</xf:group>
+    	</xf:group>
+    	<xf:group class="bottomsheet active" id="bottomSheet" style="">
+    		<xf:group class="dim" ev:onclick="scwin.btn_dim_onclick" id="btn_dim" style=""></xf:group>
+    		<xf:group class="bsbox" id="" style="">
+    			<xf:group class="bsboxwrap h50p" id="bottomSheetWrap" style="">
+    				<xf:group class="contwrap" id="" style="">
+    					<w2:textbox id="" label="결과상세메세지" style="" tagname="h3"></w2:textbox>
+    					<w2:textbox id="" label="회선제한여부" style="" tagname="h4"></w2:textbox>
+    					<w2:textbox class="content" id=""
+    						label="유선 신용 및 회선 확인 결과 : 정상&lt;br/&gt; &amp;nbsp; &amp;nbsp;인터넷 개통 회선수 : 2회선, 연체 없음&lt;br/&gt; &amp;nbsp; &amp;nbsp;인터넷전화 개통 회선수 : 0 회선, 연체 없음&lt;br/&gt; &amp;nbsp; &amp;nbsp;방송 개통 회선수 : 0 회선, 연체 없음&lt;br/&gt;&lt;br/&gt;모바일 신용 및 회선 확인 결과 : 불가&lt;br/&gt; &amp;nbsp; &amp;nbsp;개인 가입가능회선(3회선) 초과, 개통불가&lt;br/&gt;&lt;br/&gt;M2M 신용 및 회선 확인 결과 : 정상&lt;br/&gt; &amp;nbsp; &amp;nbsp;개통가능 잔여 회선수 : 3회선&lt;br/&gt;&lt;br/&gt; &amp;nbsp; &amp;nbsp;현재 자사 모바일 개통 회선수 : 0회선&lt;br/&gt; &amp;nbsp; &amp;nbsp;현재 자사 M2M 개통 회선수 : 0회선, 연체 없음&lt;br/&gt;&lt;br/&gt;‘개통가능 회선수'는 추가 개통 가능한 잔여 회선수 입니다."
+    						style="">
+    					</w2:textbox>
+    				</xf:group>
+    				<xf:group id="" class="btnboxwrap"><xf:group style="" id="" class="btnbox">
+    					<xf:trigger ev:onclick="scwin.btnClose_onclick" style="" id="btnClose" type="button" class="btn_df">
+    						<xf:label><![CDATA[닫기]]></xf:label>
+    					</xf:trigger>
+    				</xf:group></xf:group><xf:group class="touchbox" id="" style=""></xf:group>
     			</xf:group>
     		</xf:group>
     	</xf:group>

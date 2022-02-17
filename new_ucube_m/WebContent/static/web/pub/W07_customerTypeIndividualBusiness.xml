@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:ev="http://www.w3.org/2001/xml-events"
+    xmlns:w2="http://www.inswave.com/websquare" xmlns:xf="http://www.w3.org/2002/xforms">
+    <head meta_programName="07_고객유형-개인/개인사업자">
+    	<w2:type>DEFAULT</w2:type>
+        <w2:buildDate/>
+        <xf:model>
+            <xf:instance>
+                <data xmlns=""/>
+            </xf:instance>
+            <w2:dataCollection baseNode="map">
+            </w2:dataCollection>
+            <w2:workflowCollection>
+            </w2:workflowCollection>
+        </xf:model>
+         <script type="text/javascript" lazy="false"><![CDATA[
+        
+	scwin.onpageload = function() {
+		
+	};
+	
+	scwin.onpageunload = function() {
+		
+	};
+	
+	]]></script>
+    </head>
+    <body ev:onpageload="scwin.onpageload" ev:onpageunload="scwin.onpageunload">
+    	<xf:group class="wrapper" id="" style="">
+    		<xf:group class="header white_bg" id="" style="" tagname="section">
+    			<xf:group class="titlebar" id="" style="">
+    				<xf:group class="cta" id="">
+    					<w2:textbox class="title" id="" label="고객정보 사전조회" style="" tagname="h2"></w2:textbox>
+    				</xf:group>
+    			</xf:group>
+    			<xf:group class="btn_menu" id="" style="" tagname="button"></xf:group>
+    			<xf:group class="btn_pre" id="" style="" tagname="button"></xf:group>
+    		</xf:group>
+    		<xf:group class="container multisection" id="" style="" tagname="section">
+    			<xf:group class="" id="" style="" tagname="section">
+    				<xf:group class="messagebox" id="" style="">
+    					<xf:group class="messageboxwrap main" id="" tagname="">
+    						<xf:group class="" id="" style="" tagname="section">
+    							<xf:group class="searchbox title" id="" style="">
+    								<xf:group class="searchboxwrap" id="">
+    									<xf:group class="titlebox" id="">
+    										<w2:textbox id="" label="조회조건 입력" style="" tagname="h3"></w2:textbox>
+    									</xf:group>
+    									<xf:group class="srchitem" id="" style="">
+    										<w2:textbox class="req" id="" label="고객유형" style="" tagname="label"></w2:textbox>
+    										<xf:group class="inputgroup" id="">
+    											<xf:select1 allOption="" appearance="minimal" chooseOption="" class="req" direction="auto"
+    												disabled="false" disabledClass="w2selectbox_disabled" displayMode="" id="" ref="" renderType="native" style=""
+    												submenuSize="auto">
+    												<xf:choices>
+    													<xf:item>
+    														<xf:label><![CDATA[개인/개인사업자]]></xf:label>
+    														<xf:value></xf:value>
+    													</xf:item>
+    													<xf:item>
+    														<xf:label><![CDATA[외국인(외국인등록증)]]></xf:label>
+    														<xf:value></xf:value>
+    													</xf:item>
+    													<xf:item>
+    														<xf:label><![CDATA[외국인(여권)]]></xf:label>
+    														<xf:value></xf:value>
+    													</xf:item>
+    												</xf:choices>
+    											</xf:select1>
+    										</xf:group>
+    										<xf:group class="inputgroup" id="" tagname="">
+    											<xf:select appearance="full" cols="" id="" ref="" renderType="checkboxgroup" rows=""
+    												selectedindex="-1" style="">
+    												<xf:choices>
+    													<xf:item>
+    														<xf:label><![CDATA[개인사업자 휴폐업]]></xf:label>
+    														<xf:value></xf:value>
+    													</xf:item>
+    												</xf:choices>
+    											</xf:select>
+    										</xf:group>
+    									</xf:group>
+    									<xf:group class="srchitem" id="" style="">
+    										<w2:textbox class="req" id="" label="고객명/대표자명" style="" tagname="label"></w2:textbox>
+    										<xf:group class="inputgroup" id="">
+    											<xf:input adjustMaxLength="false" allowChar="" applyFormat="" class="req" dataType="text"
+    												editType="" ev:onchange="" ev:onkeydown="" id="" placeholder="입력해주세요." style="" type="">
+    												<w2:attributes>
+    													<w2:required></w2:required>
+    												</w2:attributes>
+    											</xf:input>
+    										</xf:group>
+    									</xf:group>
+    									<xf:group class="srchitem" id="" style="">
+    										<w2:textbox class="req" id="" label="주민등록번호" style="" tagname="label"></w2:textbox>
+    										<xf:group class="inputgroup" id="">
+    											<xf:input adjustMaxLength="false" allowChar="" applyFormat="" class="req" dataType="number"
+    												editType="" ev:onchange="" ev:onkeydown="" id="" placeholder="‘-’ 없이 숫자만 입력해주세요" style="" type="number">
+    												<w2:attributes>
+    													<w2:required></w2:required>
+    												</w2:attributes>
+    											</xf:input>
+    										</xf:group>
+    									</xf:group>
+    									<xf:group class="srchitem" id="" style="">
+    										<w2:textbox class="req" id="" label="사업자번호" style="" tagname="label"></w2:textbox>
+    										<xf:group class="inputgroup" id="">
+    											<xf:input adjustMaxLength="false" allowChar="" applyFormat="" class="req" dataType="number"
+    												editType="" ev:onchange="" ev:onkeydown="" id="" placeholder="‘-’ 없이 숫자만 입력해주세요" style="" type="number">
+    												<w2:attributes>
+    													<w2:required></w2:required>
+    												</w2:attributes>
+    											</xf:input>
+    										</xf:group>
+    									</xf:group>
+    									<xf:group class="srchitem" id="" style="">
+    										<w2:textbox class="" id="" label="개통가능지역 확인" style="" tagname="label"></w2:textbox>
+    										<xf:group class="inputgroup" id="">
+    											<xf:group class="btn_df h40 ico been" id="" style="" tagname="button">
+    												<w2:textbox id="" label="개통가능지역" style="" tagname="span"></w2:textbox>
+    												<w2:textbox id="" label="icon" style="" tagname="em"></w2:textbox>
+    											</xf:group>
+    											<xf:group class="btn_df h40 ico been on" id="" style="" tagname="button">
+    												<w2:textbox id="" label="소호개통가능지역" style="" tagname="span"></w2:textbox>
+    												<w2:textbox id="" label="icon" style="" tagname="em"></w2:textbox>
+    											</xf:group>
+    										</xf:group>
+    									</xf:group>
+    									<xf:group class="srchitem dib" id="" style="">
+    										<w2:textbox class="" id="" label="주소" style="" tagname="label"></w2:textbox>
+    										<w2:textbox class="text_type1 rta" id="" label="서울시 은평구 통일로82가길 24, 1층" style=""></w2:textbox>
+    									</xf:group>
+    									<xf:group class="btnbox" id="">
+    										<xf:trigger class="btn_sh" disabled="" id="btnSearch" style="" type="button">
+    											<xf:label><![CDATA[조회]]></xf:label>
+    										</xf:trigger>
+    									</xf:group>
+    								</xf:group>
+    							</xf:group>
+    						</xf:group>
+    					</xf:group>
+    				</xf:group>
+    			</xf:group>
+    		</xf:group>
+    		<xf:group class="bottomMenu" id="" style="" tagname="section">
+    			<xf:group class="navbox" id="" style="">
+    				<xf:group class="menu01" id="" style="" tagname="button">
+    					<xf:group class="numberbox" id="">
+    						<w2:textbox class="num" id="" label="13" style=""></w2:textbox>
+    					</xf:group>
+    					<w2:textbox class="title" id="" label="To-Do" style=""></w2:textbox>
+    				</xf:group>
+    				<xf:group class="menu02" id="" style="" tagname="button">
+    					<w2:textbox class="title" id="" label="가입정보조회" style=""></w2:textbox>
+    				</xf:group>
+    				<xf:group class="menu03 on" id="" style="" tagname="button">
+    					<w2:textbox class="title" id="" label="사전조회" style=""></w2:textbox>
+    				</xf:group>
+    				<xf:group class="menu04" id="" style="" tagname="button">
+    					<w2:textbox class="title" id="" label="개통지역" style=""></w2:textbox>
+    				</xf:group>
+    				<xf:group class="menu05" id="" style="" tagname="button">
+    					<xf:group class="numberbox" id="" style="">
+    						<w2:textbox class="num" id="" label="3" style=""></w2:textbox>
+    					</xf:group>
+    					<w2:textbox class="title" id="" label="알림" style=""></w2:textbox>
+    				</xf:group>
+    			</xf:group>
+    		</xf:group>
+    	</xf:group>
+    </body>
+</html>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:ev="http://www.w3.org/2001/xml-events"
+    xmlns:w2="http://www.inswave.com/websquare" xmlns:xf="http://www.w3.org/2002/xforms">
+    <head meta_programName="07_고객유형-외국인(정보입력팝업)">
+    	<w2:type>DEFAULT</w2:type>
+        <w2:buildDate/>
+        <xf:model>
+            <xf:instance>
+                <data xmlns=""/>
+            </xf:instance>
+            <w2:dataCollection baseNode="map">
+            </w2:dataCollection>
+            <w2:workflowCollection>
+            </w2:workflowCollection>
+        </xf:model>
+         <script type="text/javascript" lazy="false"><![CDATA[
+        
+	scwin.onpageload = function() {
+		
+	};
+	
+	scwin.onpageunload = function() {
+		
+	};
+	
+	]]></script>
+    </head>
+    <body ev:onpageload="scwin.onpageload" ev:onpageunload="scwin.onpageunload">
+    	<xf:group class="wrapper popup" id="" style="">
+    		<xf:group class="header white_bg" id="" style="" tagname="section">
+    			<xf:group class="titlebar" id="" style="">
+    				<xf:group class="cta" id="">
+    					<w2:textbox class="title" id="" label="고객정보 사전조회 동의" style="" tagname="h2"></w2:textbox>
+    				</xf:group>
+    			</xf:group>
+    			<xf:group class="btn_close" id="" style="" tagname="button"></xf:group>
+    		</xf:group>
+    		<xf:group class="container multisection" id="" style="" tagname="section">
+    			<xf:group class="" id="" style="" tagname="section">
+    				<xf:group class="searchbox title" id="" style="">
+    					<xf:group class="searchboxwrap" id="">
+    						<xf:group class="msgbox" id="">
+    							<xf:group class="titlebox" id="">
+    								<w2:textbox id="" label="인증번호입력" style="" tagname="h3"></w2:textbox>
+    							</xf:group>
+    						</xf:group>
+    						<xf:group class="ly" id="">
+    							<xf:group class="col1" id="">
+    								<xf:group class="srchitem" id="" style="">
+    									<w2:textbox class="" id="" label="체류기간 시작일" style="" tagname="label"></w2:textbox>
+    									<xf:group class="inputgroup" id="">
+    										<w2:inputCalendar calendarValueType="yearMonthDate" class="" displayFormat=""
+    											focusOnDateSelect="false" footerDiv="false" id="" placeholder="YYYY-MM-DD" readOnly="true" renderDiv="true"
+    											renderType="component" rightAlign="false" style="">
+    										</w2:inputCalendar>
+    									</xf:group>
+    								</xf:group>
+    							</xf:group>
+    							<xf:group class="col1" id="">
+    								<xf:group class="srchitem" id="" style="">
+    									<w2:textbox class="" id="" label="체류기간 종료일" style="" tagname="label"></w2:textbox>
+    									<xf:group class="inputgroup" id="" style="">
+    										<w2:inputCalendar calendarValueType="yearMonthDate" class="" displayFormat=""
+    											focusOnDateSelect="false" footerDiv="false" id="" placeholder="YYYY-MM-DD" readOnly="true" renderDiv="true"
+    											renderType="component" rightAlign="false" style="">
+    										</w2:inputCalendar>
+    									</xf:group>
+    								</xf:group>
+    							</xf:group>
+    						</xf:group>
+    					</xf:group>
+    				</xf:group>
+    			</xf:group>
+    			<xf:group class="" id="" style="" tagname="section">
+    				<xf:group class="searchbox title" id="" style="">
+    					<xf:group class="searchboxwrap" id="">
+    						<xf:group class="titlebox" id="">
+    							<w2:textbox id="" label="여권등록기간" style="" tagname="h3"></w2:textbox>
+    						</xf:group>
+    						<xf:group class="srchitem" id="" style="">
+    							<w2:textbox class="" id="" label="국적" style="" tagname="label"></w2:textbox>
+    							<xf:group class="inputgroup" id="">
+    								<xf:select1 allOption="" appearance="minimal" chooseOption="true" class="" direction="auto"
+    									disabled="true" disabledClass="w2selectbox_disabled" displayMode="" id="" ref="" renderType="native" style=""
+    									submenuSize="auto" chooseOptionLabel="">
+    									<xf:choices>
+    										<xf:item>
+    											<xf:label><![CDATA[선택]]></xf:label>
+    											<xf:value><![CDATA[]]></xf:value>
+    										</xf:item>
+    									</xf:choices>
+    								</xf:select1>
+    							</xf:group>
+    						</xf:group>
+    						
+    						<xf:group class="srchitem" id="" style="">
+    							<w2:textbox class="req" id="" label="생일(일 - 월 - 년)" style="" tagname="label"></w2:textbox>
+    							<xf:group class="inputgroup" id="" style="">
+    								<xf:input adjustMaxLength="false" allowChar="" applyFormat="" class="req" dataType="number" editType=""
+    									ev:onchange="" ev:onkeydown="" id="" placeholder="" style="" type="number" disabled="true">
+    									<w2:attributes>
+    										<w2:required></w2:required>
+    									</w2:attributes>
+    								</xf:input>
+    								<w2:textbox class="" id="" label="-" style="" tagname="span"></w2:textbox>
+    								<xf:select1 allOption="" appearance="minimal" chooseOption="true" chooseOptionLabel="" class="req"
+    									direction="auto" disabled="false" disabledClass="w2selectbox_disabled" displayMode="" id="" ref="" renderType="native" style=""
+    									submenuSize="auto">
+    									<xf:choices>
+    										<xf:item>
+    											<xf:label><![CDATA[선택]]></xf:label>
+    											<xf:value></xf:value>
+    										</xf:item>
+    									</xf:choices>
+    								</xf:select1>
+    								<w2:textbox class="" id="" label="-" style="" tagname="span"></w2:textbox>
+    								<xf:input adjustMaxLength="false" allowChar="" applyFormat="" class="req" dataType="number" editType=""
+    									ev:onchange="" ev:onkeydown="" id="" placeholder="" style="" type="number">
+    									<w2:attributes>
+    										<w2:required></w2:required>
+    									</w2:attributes>
+    								</xf:input>
+    							</xf:group>
+    						</xf:group><xf:group id="" class="srchitem"><xf:group style="" id="" class="ly mt16">
+    							<xf:group id="" class="col1">
+    								<xf:group style="" id="" class="srchitem">
+    									<w2:textbox tagname="label" style="" id="" label="여권 인증일자" class="req"></w2:textbox>
+    									<xf:group id="" class="inputgroup">
+    										<w2:inputCalendar calendarValueType="yearMonthDate" cancelButtonShow="" class="req" displayFormat="" focusOnDateSelect="false" footerDiv="false" id="" placeholder="YYYY-MM-DD" readOnly="" renderDiv="true" renderType="component" rightAlign="false" setCurrentDate="" style="">
+    										</w2:inputCalendar>
+    									</xf:group>
+    								</xf:group>
+    							</xf:group>
+    							<xf:group id="" class="col1">
+    								<xf:group style="" id="" class="srchitem">
+    									<w2:textbox tagname="label" style="" id="" label="여권인증 종료일자" class="req"></w2:textbox>
+    									<xf:group style="" id="" class="inputgroup">
+    										<w2:inputCalendar calendarValueType="yearMonthDate" cancelButtonShow="" class="req" displayFormat="" focusOnDateSelect="false" footerDiv="false" id="" placeholder="YYYY-MM-DD" readOnly="" renderDiv="true" renderType="component" rightAlign="false" setCurrentDate="" style="">
+    										</w2:inputCalendar>
+    									</xf:group>
+    								</xf:group>
+    							</xf:group>
+    						</xf:group></xf:group>
+    					</xf:group>
+    				</xf:group>
+    			</xf:group>
+    		</xf:group>
+    		<xf:group class="bottomfix whiteBg shadow" id="" style="">
+    			<xf:group class="btnbox" id="" style="">
+    				<xf:trigger class="btn_df" disabled="" id="" style="" type="button">
+    					<xf:label><![CDATA[취소]]></xf:label>
+    				</xf:trigger>
+    				<xf:trigger class="btn_cm" disabled="" id="" style="" type="button">
+    					<xf:label><![CDATA[인증]]></xf:label>
+    				</xf:trigger>
+    			</xf:group>
+    		</xf:group>
+    	</xf:group>
+    </body>
+</html>

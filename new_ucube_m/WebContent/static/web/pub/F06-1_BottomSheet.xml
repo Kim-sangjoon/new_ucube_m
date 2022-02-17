@@ -76,12 +76,11 @@
     						style="">
     					</w2:textbox>
     				</xf:group>
-    				<xf:group class="btnbox" id="" style="">
-    					<xf:trigger class="btn_df" ev:onclick="scwin.btnClose_onclick" id="btnClose" style="" type="button">
+    				<xf:group id="" class="btnboxwrap"><xf:group style="" id="" class="btnbox">
+    					<xf:trigger ev:onclick="scwin.btnClose_onclick" style="" id="btnClose" type="button" class="btn_df">
     						<xf:label><![CDATA[닫기]]></xf:label>
     					</xf:trigger>
-    				</xf:group>
-    				<xf:group id="" style="" class="touchbox"></xf:group>
+    				</xf:group></xf:group><xf:group id="" style="" class="touchbox"></xf:group>
     			</xf:group>
     		</xf:group>
     	</xf:group>
