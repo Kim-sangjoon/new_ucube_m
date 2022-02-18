@@ -331,6 +331,28 @@
     --textcolor-textbox2-df:#56606B;
     --boxshadow-btnbox: 0px 0px 2px rgba(0, 0, 0, 0.22), 0px -4px 10px rgba(0, 0, 0, 0.09);
     --ico-cal22:url(./../images/ico_cal22.svg);
+    --bordercolor-infobox-type3:#C2A5CF;
+    --bgcolor-infobox-type3-headwrap:#FFFFFF;
+    --textcolor-infobox-type3-headwrap-label:#A5B3C2;
+    --textcolor-infobox-type3-headwrap-span:#603973;
+    --bordercolor-infobox-type3-bodywrap-section:#C2A5CF;
+    --bgcolor-infobox-type3-bar:#BEC9D4;
+    --textcolor-infobox-type3-titlebar-span:#555555;
+    --ico-phone24:url(./../images/ico_phone24.svg);
+    --ico-internet24:url(./../images/ico_internet24.svg);
+    --ico-tv24:url(./../images/ico_tv24.svg);
+    --ico-iot24:url(./../images/ico_iot24.svg);
+    --bgcolor-infobox-type3-li-sel:#EEE5F2;
+    --textcolor-infobox-type3-lta-label:#202020;
+    --textcolor-infobox-type3-lta-number:#8996A3;
+    --bordercolor-infobox-type3-badge:#E0FCF9;
+    --bgcolor-infobox-type3-badge:#E0FCF9;
+    --textcolor-infobox-type3-badge:#139989;
+    --bordercolor-infobox-type3-badge-cancel:#EEEEEE;
+    --bgcolor-infobox-type3-badge-cancel:#EEEEEE;
+    --textcolor-infobox-type3-badge-cancel:#555555;
+    --ico-arrow-fold22:url(./../images/ico_fold22.svg);
+    --ico-arrow-spread22:url(./../images/ico_spread22.svg);
 
 
 
@@ -673,6 +695,28 @@
     --textcolor-textbox2-df:#C2C5CE;
     --boxshadow-btnbox: 0px 0px 2px rgba(0, 0, 0, 0.22), 0px -4px 10px rgba(0, 0, 0, 0.3);
     --ico-cal22:url(./../images/ico_cal22_dark.svg);
+    --bordercolor-infobox-type3:#C2A5CF;
+    --bgcolor-infobox-type3-headwrap:#29292B;
+    --textcolor-infobox-type3-headwrap-label:#8E929E;
+    --textcolor-infobox-type3-headwrap-span:#C2A5CF;
+    --bordercolor-infobox-type3-bodywrap-section:#45484F;
+    --bgcolor-infobox-type3-bar:#8E929E;
+    --textcolor-infobox-type3-titlebar-span:#C2C5CE;
+    --ico-phone24:url(./../images/ico_phone24_dark.svg);
+    --ico-internet24:url(./../images/ico_internet24_dark.svg);
+    --ico-tv24:url(./../images/ico_tv24_dark.svg);
+    --ico-iot24:url(./../images/ico_iot24_dark.svg);
+    --bgcolor-infobox-type3-li-sel:#7B558D;
+    --textcolor-infobox-type3-lta-label:#F5F6FA;
+    --textcolor-infobox-type3-lta-number:#8E929E;
+    --bordercolor-infobox-type3-badge:#50D2C3;
+    --bgcolor-infobox-type3-badge:#3B3C41;
+    --textcolor-infobox-type3-badge:#50D2C3;
+    --bordercolor-infobox-type3-badge-cancel:#A7ABB5;
+    --bgcolor-infobox-type3-badge-cancel:#3B3C41;
+    --textcolor-infobox-type3-badge-cancel:#CCCCCC;
+    --ico-arrow-fold22:url(./../images/ico_fold22_dark.svg);
+    --ico-arrow-spread22:url(./../images/ico_spread22_dark.svg);
 
 
 
@@ -1087,7 +1131,7 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow:hidd
 .ctbox .psbox .ct_text{display:inline-block; font-weight:500; color:var(--textcolor-ctbox-psbox-cttext); font-size:12px; line-height:32px; margin-left:8px; width:calc(100% - 80px); overflow:hidden; text-overflow:ellipsis; white-space:nowrap}
 .ctbox .psbox .process{display:inline-block; position:relative; font-weight:700; color:var(--textcolor-ctbox-psbox-process); width:40px; line-height:32px; margin-right:8px}
 .ctbox .psbox .process::after{content:''; display:block; position:absolute; top:7px; right:0; height:18px; width:18px; background-image:var(--ico-arrow-right)}
-.bottomMenu{width:100%; min-width:360px; height:72px; background:var(--bgcolor-navibox); border-top:1px solid var(--border-color-navibox-top); box-sizing:border-box; position:fixed; bottom:0; z-index: 1;  transition:all .2s}
+.bottomMenu{width:100%; min-width:360px; height:72px; background:var(--bgcolor-navibox); border-top:1px solid var(--border-color-navibox-top); box-sizing:border-box; position:fixed; bottom:0; z-index: 10;  transition:all .2s}
 .bottomMenu .navbox{display:flex; flex-direction:row; justify-content:space-around}
 .bottomMenu .navbox .menu01,
 .bottomMenu .navbox .menu02,
@@ -1411,9 +1455,11 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow:hidd
 .white_bgbox{position:relative; background:var(--bgcolor-white-bg); height:calc(100% - 8px); width:100%}
 .titlebox{margin-top:8px; margin-bottom:12px}
 .titlebox2{padding:8px 16px; display: inline-block; width: -webkit-fill-available}
+.titlebox3{display: inline-block; width: -webkit-fill-available}
 .searchboxwrap > .titlebox{margin:0; margin-bottom:-10px}
 .titlebox h3,
-.titlebox2 h3{color:var(--textcolor-titlebox-h3); line-height:32px; font-size:15px; font-weight:700}
+.titlebox2 h3,
+.titlebox3 h3{color:var(--textcolor-titlebox-h3); line-height:32px; font-size:15px; font-weight:700}
 .white_bgbox .titlebox h3, .titlebox h3{color:var(--textcolor-titlebox-h3); line-height:32px; font-size:15px; font-weight:700}
 .white_bgbox .white_bgboxwrap{height:calc(100vh - 143px)}
 .white_bgbox .white_bgboxwrap.main{height:calc(100vh - 135px); margin-top:8px}
@@ -2094,7 +2140,6 @@ input.adsearch{padding-left:40px; background-image:url(./../images/ico_search32.
 .infobox_type2 > .dfbox .text{font-size:14px; font-weight:400; color:var(--textcolor-label)}
 .infobox_type2 > *{margin-bottom:8px}
 
-
 .msg_list1{background:var(--bgcolor-input-disabled); padding:8px}
 .msg_list1 span{color:var(--textcolor-input-disabled)}
 
@@ -2129,6 +2174,58 @@ input.adsearch{padding-left:40px; background-image:url(./../images/ico_search32.
 .dark .listbox_type1 ul.listboxwrap li.listitem.sel .statuswrap span.call{background-image:url(./../images/ico_call18_dark_sel.svg)}
 .dark .listbox_type1 ul.listboxwrap li.listitem.sel .statuswrap span.tv{background-image:url(./../images/ico_tv18_dark_sel.svg)}
 .dark .listbox_type1 ul.listboxwrap li.listitem.sel .statuswrap span + span::before{background:#F5F6FA}
+
+.innerwrap_type1{padding:16px}
+
+.infobox_type3{margin-top:4px; background:var(--bgcolor-white-bg); border:1px solid var(--bordercolor-infobox-type3); border-radius:2px}
+.infobox_type3 .headwrap{padding: 10px 16px; background:var(--bgcolor-infobox-type3-headwrap)}
+.infobox_type3 .headwrap .lta{white-space: nowrap}
+.infobox_type3 .headwrap label{color:var(--textcolor-infobox-type3-headwrap-label); font-size:12px; font-weight:700}
+.infobox_type3 .headwrap span{color:var(--textcolor-infobox-type3-headwrap-span); font-size:14px; font-weight:700; margin-left:4px; white-space: nowrap}
+
+.infobox_type3 .bodywrap{}
+.infobox_type3 .bodywrap > section{border-top:1px solid var(--bordercolor-infobox-type3-bodywrap-section)}
+.infobox_type3 .bodywrap > section:last-child{border-bottom:1px solid var(--bordercolor-infobox-type3-bodywrap-section)}
+.infobox_type3 .bodywrap > section .titlebar{display:inline-block; padding:10px 16px}
+.infobox_type3 .bodywrap > section .titlebar > *{display:inline-block; vertical-align: middle}
+.infobox_type3 .bodywrap > section .titlebar > label{color:var(--textcolor-infobox-type3-headwrap-span); font-size: 13px; font-weight:700}
+.infobox_type3 .bodywrap > section .titlebar > .bar{margin:0 6px; width:1px; height:12px; background:var(--bgcolor-infobox-type3-bar)}
+.infobox_type3 .bodywrap > section .titlebar > span{color:var(--textcolor-infobox-type3-titlebar-span); font-size: 13px; font-weight:700}
+
+.infobox_type3 .bodywrap > section ul > li{padding:12px 12px 12px 44px; background-repeat:no-repeat; background-size: 24px; background-position: 12px center}
+.infobox_type3 .bodywrap > section ul > li.sel{background-color:var(--bgcolor-infobox-type3-li-sel)}
+.infobox_type3 .bodywrap > section ul > li.phone{background-image: var(--ico-phone24)}
+.infobox_type3 .bodywrap > section ul > li.internet{background-image: var(--ico-internet24)}
+.infobox_type3 .bodywrap > section ul > li.tv{background-image: var(--ico-tv24)}
+.infobox_type3 .bodywrap > section ul > li.iot{background-image: var(--ico-iot24)}
+
+/* .infobox_type3 .bodywrap > section ul > li .lta{overflow:hidden; white-space: nowrap; text-overflow: ellipsis;} */
+.infobox_type3 .bodywrap > section ul > li .lta label{color:var(--textcolor-infobox-type3-lta-label); font-size:14px; font-weight:500}
+.infobox_type3 .bodywrap > section ul > li .lta span{color:var(--textcolor-infobox-type3-lta-label); font-size:12px; font-weight:400}
+
+.infobox_type3 .bodywrap > section ul > li .rta{flex:none}
+.infobox_type3 .bodywrap > section ul > li .rta .number{color:var(--textcolor-infobox-type3-lta-number); font-size:12px; font-weight:400}
+.infobox_type3 .bodywrap > section ul > li .rta label{color:var(--textcolor-infobox-type3-lta-number); font-size:12px; font-weight:500}
+.infobox_type3 .bodywrap > section ul > li .rta span.name{margin:0 2px; color:var(--textcolor-infobox-type3-lta-label); font-size:12px; font-weight:400}
+.infobox_type3 .bodywrap > section ul > li .rta .badge2_green{display:inline-block; padding:2px; line-height:1; height:18px; border-radius:3px; font-size:12px; box-sizing: border-box; border:1px solid var(--bordercolor-infobox-type3-badge); background-color:var(--bgcolor-infobox-type3-badge); color:var(--textcolor-infobox-type3-badge)}
+.infobox_type3 .bodywrap > section ul > li .rta .badge2_green.cancel{border:1px solid var(--bordercolor-infobox-type3-badge-cancel); background-color:var(--bgcolor-infobox-type3-badge-cancel); color:var(--textcolor-infobox-type3-badge-cancel)}
+
+.infobox_type3 .bottomwrap{background:var(--bgcolor-infobox-type3-headwrap); padding: 6.5px 0; line-height: 1;}
+.infobox_type3 .bottomwrap > div{height:20px}
+.infobox_type3 .bottomwrap span{font-size:13px; color:var(--textcolor-infobox-type3-lta-label); padding-left:24px; }
+.infobox_type3 .bottomwrap span.fold{background:var(--ico-arrow-fold22) no-repeat 0 -1px}
+.infobox_type3 .bottomwrap span.spread{background:var(--ico-arrow-spread22) no-repeat 0 -1px}
+
+.dark .infobox_type3 .bodywrap > section ul > li.phone.sel{background-image: url(./../images/ico_phone24_dark_sel.svg)}
+.dark .infobox_type3 .bodywrap > section ul > li.internet.sel{background-image: url(./../images/ico_internet24_dark_sel.svg)}
+.dark .infobox_type3 .bodywrap > section ul > li.tv.sel{background-image: url(./../images/ico_tv24_dark_sel.svg)}
+.dark .infobox_type3 .bodywrap > section ul > li.iot.sel{background-image: url(./../images/ico_iot24_dark_sel.svg)}
+
+.dark .infobox_type3 .bodywrap > section ul > li.sel .rta .number,
+.dark .infobox_type3 .bodywrap > section ul > li.sel .rta label{color:#F5F6FA}
+
+
+
 
 
 
