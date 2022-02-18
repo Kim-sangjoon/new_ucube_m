@@ -2183,7 +2183,7 @@ input.adsearch{padding-left:40px; background-image:url(./../images/ico_search32.
 .infobox_type3 .headwrap label{color:var(--textcolor-infobox-type3-headwrap-label); font-size:12px; font-weight:700}
 .infobox_type3 .headwrap span{color:var(--textcolor-infobox-type3-headwrap-span); font-size:14px; font-weight:700; margin-left:4px; white-space: nowrap}
 
-.infobox_type3 .bodywrap{}
+/* .infobox_type3 .bodywrap{} */
 .infobox_type3 .bodywrap > section{border-top:1px solid var(--bordercolor-infobox-type3-bodywrap-section)}
 .infobox_type3 .bodywrap > section:last-child{border-bottom:1px solid var(--bordercolor-infobox-type3-bodywrap-section)}
 .infobox_type3 .bodywrap > section .titlebar{display:inline-block; padding:10px 16px}
@@ -2223,6 +2223,9 @@ input.adsearch{padding-left:40px; background-image:url(./../images/ico_search32.
 
 .dark .infobox_type3 .bodywrap > section ul > li.sel .rta .number,
 .dark .infobox_type3 .bodywrap > section ul > li.sel .rta label{color:#F5F6FA}
+
+
+
 
 
 
