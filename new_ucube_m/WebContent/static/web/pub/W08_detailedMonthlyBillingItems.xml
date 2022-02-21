@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml"
     xmlns:ev="http://www.w3.org/2001/xml-events"
     xmlns:w2="http://www.inswave.com/websquare" xmlns:xf="http://www.w3.org/2002/xforms">
-    <head meta_programName="08_상세청구항목 확인">
+    <head meta_programName="08_월별 상세 청구항목">
     	<w2:type>DEFAULT</w2:type>
         <w2:buildDate/>
         <xf:model>
@@ -31,58 +31,58 @@
     		<xf:group class="dim" ev:onclick="scwin.btn_dim_onclick" id="btn_dim" style=""></xf:group>
     		<xf:group class="bsbox" id="" style="">
     			<xf:group class="bsboxwrap h100p" id="bottomSheetWrap" style="">
-    				<xf:group style="" id="" class="contwrap_line3">
-    					<w2:textbox tagname="h3" style="" id="" label="상세청구항목 (2021-11)"></w2:textbox>
-    					<xf:group id="" class="listbox_type2">
-    						<xf:group id="" class="headline">
-    							<xf:group id="" class="ly">
-    								<xf:group id="" class="lta">
-    									<w2:textbox tagname="span" style="" id="" label="U+인터넷 이용요금"></w2:textbox>
+    				<xf:group class="contwrap_line3" id="" style="">
+    					<w2:textbox id="" label="상세청구항목 (2021-11)" style="" tagname="h3"></w2:textbox>
+    					<xf:group class="listbox_type2" id="">
+    						<xf:group class="headline" id="">
+    							<xf:group class="ly" id="">
+    								<xf:group class="lta" id="">
+    									<w2:textbox id="" label="U+인터넷 이용요금" style="" tagname="span"></w2:textbox>
     								</xf:group>
-    								<xf:group id="" class="rta">
-    									<w2:textbox tagname="span" style="" id="" label="14,300"></w2:textbox>
+    								<xf:group class="rta" id="">
+    									<w2:textbox id="" label="14,300" style="" tagname="span"></w2:textbox>
     									<w2:textbox id="" label="원" style="" tagname="span"></w2:textbox>
     								</xf:group>
     							</xf:group>
     						</xf:group>
-    						<xf:group id="" class="boxwrap">
-    							<xf:group style="" id="" class="subtotal">
-    								<xf:group id="" class="ly">
-    									<xf:group id="" class="lta">
-    										<w2:textbox tagname="span" style="" id="" label="기본료 소계"></w2:textbox>
+    						<xf:group class="boxwrap" id="">
+    							<xf:group class="subtotal" id="" style="">
+    								<xf:group class="ly" id="">
+    									<xf:group class="lta" id="">
+    										<w2:textbox id="" label="기본료 소계" style="" tagname="span"></w2:textbox>
     									</xf:group>
-    									<xf:group id="" class="rta">
-    										<w2:textbox tagname="span" style="" id="" label="29,700"></w2:textbox>
-    										<w2:textbox tagname="span" style="" id="" label="원"></w2:textbox>
+    									<xf:group class="rta" id="">
+    										<w2:textbox id="" label="29,700" style="" tagname="span"></w2:textbox>
+    										<w2:textbox id="" label="원" style="" tagname="span"></w2:textbox>
     									</xf:group>
     								</xf:group>
     							</xf:group>
-    							<xf:group style="" id="" class="bodylist">
-    								<xf:group id="" class="ly">
-    									<xf:group id="" class="lta">
-    										<w2:textbox tagname="span" style="" id="" label="기본료(무약정)"></w2:textbox>
+    							<xf:group class="bodylist" id="" style="">
+    								<xf:group class="ly" id="">
+    									<xf:group class="lta" id="">
+    										<w2:textbox id="" label="기본료(무약정)" style="" tagname="span"></w2:textbox>
     									</xf:group>
-    									<xf:group id="" class="rta">
-    										<w2:textbox tagname="span" style="" id="" label="33,000"></w2:textbox>
-    										<w2:textbox tagname="span" style="" id="" label="원"></w2:textbox>
-    									</xf:group>
-    								</xf:group>
-    								<xf:group style="" id="" class="ly">
-    									<xf:group id="" class="lta">
-    										<w2:textbox tagname="span" style="" id="" label="결합할인"></w2:textbox>
-    									</xf:group>
-    									<xf:group id="" class="rta">
-    										<w2:textbox tagname="span" style="" id="" label="-5,000"></w2:textbox>
-    										<w2:textbox tagname="span" style="" id="" label="원"></w2:textbox>
+    									<xf:group class="rta" id="">
+    										<w2:textbox id="" label="33,000" style="" tagname="span"></w2:textbox>
+    										<w2:textbox id="" label="원" style="" tagname="span"></w2:textbox>
     									</xf:group>
     								</xf:group>
-    								<xf:group style="" id="" class="ly">
-    									<xf:group id="" class="lta">
-    										<w2:textbox tagname="span" style="" id="" label="가족무한사랑 유무선결합할인"></w2:textbox>
+    								<xf:group class="ly" id="" style="">
+    									<xf:group class="lta" id="">
+    										<w2:textbox id="" label="결합할인" style="" tagname="span"></w2:textbox>
     									</xf:group>
-    									<xf:group id="" class="rta">
-    										<w2:textbox tagname="span" style="" id="" label="-11,000"></w2:textbox>
-    										<w2:textbox tagname="span" style="" id="" label="원"></w2:textbox>
+    									<xf:group class="rta" id="">
+    										<w2:textbox id="" label="-5,000" style="" tagname="span"></w2:textbox>
+    										<w2:textbox id="" label="원" style="" tagname="span"></w2:textbox>
+    									</xf:group>
+    								</xf:group>
+    								<xf:group class="ly" id="" style="">
+    									<xf:group class="lta" id="">
+    										<w2:textbox id="" label="가족무한사랑 유무선결합할인" style="" tagname="span"></w2:textbox>
+    									</xf:group>
+    									<xf:group class="rta" id="">
+    										<w2:textbox id="" label="-11,000" style="" tagname="span"></w2:textbox>
+    										<w2:textbox id="" label="원" style="" tagname="span"></w2:textbox>
     									</xf:group>
     								</xf:group>
     							</xf:group>
@@ -205,7 +205,7 @@
     						</xf:group>
     					</xf:group>
     				</xf:group>
-    				<xf:group id="" class="totalwrap">
+    				<xf:group class="totalwrap" id="">
     					<xf:group class="totalline" id="" style="">
     						<xf:group class="ly" id="">
     							<xf:group class="lta" id="">
