@@ -160,7 +160,7 @@
     										<xf:group id=""><w2:textbox tagname="span" style="" id="" label="와이파이기본_기가슬림안심_500M"></w2:textbox></xf:group></xf:group>
     										<xf:group class="rta" id="" style="" tagname="">
     											<xf:group id=""><w2:textbox tagname="span" style="" id="" label="0000****0000" class="number"></w2:textbox></xf:group>
-    										<xf:group id=""><w2:textbox tagname="label" style="" id="" label="명의"></w2:textbox><w2:textbox tagname="span" style="" id="" label="제갈*동" class="name"></w2:textbox><w2:textbox tagname="span" style="" id="" label="개통" class="badge2_green"></w2:textbox></xf:group></xf:group>
+    										<xf:group id=""><w2:textbox tagname="label" style="" id="" label="명의"></w2:textbox><w2:textbox tagname="span" style="" id="" label="장*동" class="name"></w2:textbox><w2:textbox tagname="span" style="" id="" label="개통" class="badge2_green"></w2:textbox></xf:group></xf:group>
     									</xf:group>
     								</xf:group>
     								<xf:group class="tv" id="" style="" tagname="li">
