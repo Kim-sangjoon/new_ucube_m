@@ -101,69 +101,67 @@
     			<xf:group class="white_bgbox" id="" style="">
     					<xf:group class="white_bgboxwrap main titleinfo" id="">
     						<xf:group tagname="section" id="" class="col1">
-    							<xf:group id="" class="side_inner">
-    								<xf:group style="" id="" class="titlebox">
-    									<xf:group id="" class="ly_form">
-    										<xf:group id="" class="lta">
-    											<w2:textbox tagname="h3" style="" id="" label="월별청구내역(원)"></w2:textbox>
-    										</xf:group>
-    										<xf:group class="rta" id="" style="">
-    											<xf:group id="" class="titlebargroup">
-    												<xf:select1 submenuSize="auto" chooseOption="" allOption="" displayMode="" ref=""
-    													appearance="minimal" disabledClass="w2selectbox_disabled" disabled="false" style="" id="" renderType="native"
-    													class="wd-100" direction="auto">
-    													<xf:choices>
-    														<xf:item>
-    															<xf:label><![CDATA[1개월]]></xf:label>
-    															<xf:value><![CDATA[]]></xf:value>
-    														</xf:item>
-    														<xf:item>
-    															<xf:label><![CDATA[2개월]]></xf:label>
-    															<xf:value><![CDATA[]]></xf:value>
-    														</xf:item>
-    														<xf:item>
-    															<xf:label><![CDATA[3개월]]></xf:label>
-    															<xf:value><![CDATA[]]></xf:value>
-    														</xf:item>
-    														<xf:item>
-    															<xf:label><![CDATA[4개월]]></xf:label>
-    															<xf:value><![CDATA[]]></xf:value>
-    														</xf:item>
-    														<xf:item>
-    															<xf:label><![CDATA[5개월]]></xf:label>
-    															<xf:value><![CDATA[]]></xf:value>
-    														</xf:item>
-    														<xf:item>
-    															<xf:label><![CDATA[6개월]]></xf:label>
-    															<xf:value><![CDATA[]]></xf:value>
-    														</xf:item>
-    														<xf:item>
-    															<xf:label><![CDATA[7개월]]></xf:label>
-    															<xf:value><![CDATA[]]></xf:value>
-    														</xf:item>
-    														<xf:item>
-    															<xf:label><![CDATA[8개월]]></xf:label>
-    															<xf:value><![CDATA[]]></xf:value>
-    														</xf:item>
-    														<xf:item>
-    															<xf:label><![CDATA[9개월]]></xf:label>
-    															<xf:value><![CDATA[]]></xf:value>
-    														</xf:item>
-    														<xf:item>
-    															<xf:label><![CDATA[10개월]]></xf:label>
-    															<xf:value><![CDATA[]]></xf:value>
-    														</xf:item>
-    														<xf:item>
-    															<xf:label><![CDATA[11개월]]></xf:label>
-    															<xf:value><![CDATA[]]></xf:value>
-    														</xf:item>
-    														<xf:item>
-    															<xf:label><![CDATA[12개월]]></xf:label>
-    															<xf:value><![CDATA[]]></xf:value>
-    														</xf:item>
-    													</xf:choices>
-    												</xf:select1>
-    											</xf:group>
+    							<xf:group class="titlebox2 white_bg" id="" style="">
+    								<xf:group class="ly_form" id="">
+    									<xf:group class="lta" id="">
+    										<w2:textbox id="" label="월별청구내역(원)" style="" tagname="h3"></w2:textbox>
+    									</xf:group>
+    									<xf:group class="rta" id="" style="">
+    										<xf:group class="titlebargroup" id="">
+    											<xf:select1 allOption="" appearance="minimal" chooseOption="" class="wd-100"
+    												direction="auto" disabled="false" disabledClass="w2selectbox_disabled" displayMode="" id="" ref="" renderType="native"
+    												style="" submenuSize="auto">
+    												<xf:choices>
+    													<xf:item>
+    														<xf:label><![CDATA[1개월]]></xf:label>
+    														<xf:value></xf:value>
+    													</xf:item>
+    													<xf:item>
+    														<xf:label><![CDATA[2개월]]></xf:label>
+    														<xf:value></xf:value>
+    													</xf:item>
+    													<xf:item>
+    														<xf:label><![CDATA[3개월]]></xf:label>
+    														<xf:value></xf:value>
+    													</xf:item>
+    													<xf:item>
+    														<xf:label><![CDATA[4개월]]></xf:label>
+    														<xf:value></xf:value>
+    													</xf:item>
+    													<xf:item>
+    														<xf:label><![CDATA[5개월]]></xf:label>
+    														<xf:value></xf:value>
+    													</xf:item>
+    													<xf:item>
+    														<xf:label><![CDATA[6개월]]></xf:label>
+    														<xf:value></xf:value>
+    													</xf:item>
+    													<xf:item>
+    														<xf:label><![CDATA[7개월]]></xf:label>
+    														<xf:value></xf:value>
+    													</xf:item>
+    													<xf:item>
+    														<xf:label><![CDATA[8개월]]></xf:label>
+    														<xf:value></xf:value>
+    													</xf:item>
+    													<xf:item>
+    														<xf:label><![CDATA[9개월]]></xf:label>
+    														<xf:value></xf:value>
+    													</xf:item>
+    													<xf:item>
+    														<xf:label><![CDATA[10개월]]></xf:label>
+    														<xf:value></xf:value>
+    													</xf:item>
+    													<xf:item>
+    														<xf:label><![CDATA[11개월]]></xf:label>
+    														<xf:value></xf:value>
+    													</xf:item>
+    													<xf:item>
+    														<xf:label><![CDATA[12개월]]></xf:label>
+    														<xf:value></xf:value>
+    													</xf:item>
+    												</xf:choices>
+    											</xf:select1>
     										</xf:group>
     									</xf:group>
     								</xf:group>

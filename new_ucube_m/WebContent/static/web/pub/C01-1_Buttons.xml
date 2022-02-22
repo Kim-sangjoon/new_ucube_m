@@ -115,6 +115,40 @@
     								</xf:select1>
     							</xf:group>
     						</xf:group>
+    						<xf:group class="btnbox" id="" style="">
+    							<xf:group class="selbtnwrap" id="">
+    								<xf:select1 appearance="full" class="selbtn h32p" cols="" id="" ignoreTabIndex="" name="multiline" ref=""
+    									renderType="radiogroup" rows="" selectedIndex="0" style="">
+    									<xf:choices>
+    										<xf:item>
+    											<xf:label><![CDATA[남성]]></xf:label>
+    											<xf:value></xf:value>
+    										</xf:item>
+    										<xf:item>
+    											<xf:label><![CDATA[여성]]></xf:label>
+    											<xf:value></xf:value>
+    										</xf:item>
+    									</xf:choices>
+    								</xf:select1>
+    								<xf:select1 appearance="full" class="selbtn h32p" cols="" id="" ignoreTabIndex="" name="multiline" ref=""
+    									renderType="radiogroup" rows="" selectedIndex="" style="">
+    									<xf:choices>
+    										<xf:item>
+    											<xf:label><![CDATA[1]]></xf:label>
+    											<xf:value></xf:value>
+    										</xf:item>
+    										<xf:item>
+    											<xf:label><![CDATA[2]]></xf:label>
+    											<xf:value></xf:value>
+    										</xf:item>
+    										<xf:item>
+    											<xf:label><![CDATA[3]]></xf:label>
+    											<xf:value></xf:value>
+    										</xf:item>
+    									</xf:choices>
+    								</xf:select1>
+    							</xf:group>
+    						</xf:group>
     					</xf:group>
     					<xf:group id="" tagname="section" style="">
     						<xf:group class="titlebox" id="" style="">
