@@ -31,7 +31,7 @@
     		<xf:group class="header  white_bg titleinfo" id="" style="" tagname="section">
     			<xf:group class="titlebar" id="" style="">
     				<xf:group class="cta" id="">
-    					<w2:textbox class="title" id="" label="청구정보조회" style="" tagname="h2"></w2:textbox>
+    					<w2:textbox class="title" id="" label="단말기할부정보" style="" tagname="h2"></w2:textbox>
     				</xf:group>
     			</xf:group>
     			<xf:group class="user_info" id="">
@@ -47,7 +47,7 @@
     		<xf:group class="container" id="" style="" tagname="section">
     			<xf:group class="white_bgbox" id="" style="">
     				<xf:group class="white_bgboxwrap main titleinfo" id="">
-    					<xf:group class="" id="" style="" tagname="section">
+    					<xf:group class="navigation" id="" style="" tagname="section">
     						<xf:group class="titlebox2" id="" style="">
     							<xf:group class="ly_form" id="">
     								<xf:group class="lta" id="">
@@ -79,7 +79,7 @@
     								</xf:select1>
     							</xf:group>
     						</xf:group>
-    						<xf:group id="" class="side_inner" style="padding-bottom:50px">
+    						<xf:group id="" class="side_inner" style="">
 
     						<xf:group id="" class="cardviewwrap"><xf:group style="" id="" class="cardlist">
     								<xf:group style="" id="" class="itemlist">

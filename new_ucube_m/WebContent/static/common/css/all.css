@@ -367,6 +367,10 @@
     --bordercolor-cardviewwrap-cardlist:#BEC9D4;
     --textcolor-cardlist-itemlist-item-label:#8996A3;
     --textcolor-cardlist-itemlist-item-span:#202020;
+    --textcolor-detailbox-itemlist-item-label:#A5B3C2;
+    --textcolor-detailbox-itemlist-item-span:#202020;
+    --bgcolor-tbmsgbox:#F0F4FF;
+    --textcolor-tbmsgbox:#56606B;
 
 
 
@@ -745,6 +749,10 @@
     --bordercolor-cardviewwrap-cardlist:#70747D;
     --textcolor-cardlist-itemlist-item-label:#8E929E;
     --textcolor-cardlist-itemlist-item-span:#F5F6FA;
+    --textcolor-detailbox-itemlist-item-label:#8E929E;
+    --textcolor-detailbox-itemlist-item-span:#F5F6FA;
+    --bgcolor-tbmsgbox:#45484F;
+    --textcolor-tbmsgbox:#C2C5CE;
 
 
 
@@ -1115,8 +1123,7 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow:hidd
 .wrapper.popup .container.multisection section{height:auto}
 .wrapper.popup .container section.h100{display:inline-block; width:100%; height:calc(100% - 8px); background:var(--popup-bgcolor-h100); transition:all .2s}
 .container{display:block; overflow-y:auto; /* margin-top:55px; */ padding-bottom:72px; width:100%; height:calc(100% - 127px); -webkit-overflow-scrolling:touch}
-/* .titleinfo + .container{height:calc(100% - 166px)} */
-.titleinfo + .container{height:calc(100% - 205px)}
+.titleinfo + .container{height:calc(100% - 166px)}
 .container.btnfix{height:calc(100% - 207px); padding-bottom:80px}
 .container.confirmlist{height:calc(100% - 135px)}
 .wrapper.popup .container{height:calc(100% - 55px); padding-bottom:0}
@@ -1128,6 +1135,8 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow:hidd
 .container .container_inner .page_inner section + section{margin-top:24px}
 .container .container_inner > section + section{margin-top:8px}
 .side_inner{padding:0 16px; background:var(--bgcolor-container-inner)}
+
+.container section.navigation > div:last-child{padding-bottom:90px}
 
 .filterbox{border-top:1px solid var(--bordercolor-filterbox-top)}
 .filterbox .fboxgroup{display:inline-block; width:100%; margin-top:16px; min-width:315px}
@@ -1591,6 +1600,8 @@ input.adsearch{padding-left:40px; background-image:url(./../images/ico_search32.
 .btn_cf.ico{width:32px; text-indent:-9999999px; background-repeat:no-repeat; background-position:50% 50%; background-color:var(--bgcolor-btn-cf-ico)}
 .btn_cf.ico.trash{background-image:url(./../images/ico_trash21.svg)}
 .btn_cf.ico.info{background-image:url(./../images/ico_info.svg)}
+.btn_cf.ico.bean{background-image:var(--ico-been)}
+.btn_cf.ico.bean.on{background-image:var(--ico-been-on)}
 .alram_listbox ul.listbox{background:var(--bgcolor-alram-listbox); padding:0 16px; border-radius:8px; margin-top:6px}
 .alram_listbox ul.listbox li{display:inline-block; width:100%; height:44px; line-height:48px}
 .alram_listbox ul.listbox li + li{border-top:1px solid var(--bordercolor-alram-listbox-top)}
@@ -2160,6 +2171,9 @@ input.adsearch{padding-left:40px; background-image:url(./../images/ico_search32.
 .tbbox > .tb tbody tr:first-child > .w2tb_td{border-top:1px solid var(--bordercolor-tbbox-basic)}
 .tbbox > .tb .w2tb_td + .w2tb_td{border-left:1px solid var(--bordercolor-tbbox-basic)}
 
+.tbmsgbox{background:var(--bgcolor-tbmsgbox); margin-bottom:8px;text-align:center; padding:9px 0 11px}
+.tbmsgbox span{line-height:1.2; color:var(--textcolor-tbmsgbox); font-size:14px; }
+
 /* .messageboxwrap.main > section{border-top:8px solid var(--bordercolor-messageboxwrap-main-section)} */
 .messageboxwrap.main > section{position:relative; margin-top:8px; background:var(--bgcolor-messageboxwrap-main-section)}
 .messageboxwrap.main > section::before{content: ''; position:absolute; top:-8px; display:block; width:100%; height: 8px; background: var(--bordercolor-messageboxwrap-main-section)}
@@ -2295,6 +2309,12 @@ input.adsearch{padding-left:40px; background-image:url(./../images/ico_search32.
 .cardviewwrap .cardlist > .itemlist > .item label{font-size: 14px; font-weight:700; color:var(--textcolor-cardlist-itemlist-item-label)}
 .cardviewwrap .cardlist > .itemlist > .item span{font-size: 14px; font-weight:400; color:var(--textcolor-cardlist-itemlist-item-span)}
 .cardviewwrap .cardlist > .detailview{flex:none; width:36px; background:var(--ico-arrow-right20) no-repeat center center; border-left:1px solid var(--bordercolor-cardviewwrap-cardlist-detailview); box-sizing: border-box}
+
+.detailbox > .itemlist{line-height: 1.2}
+.detailbox > .itemlist > .item{line-height: 34px;}
+.detailbox > .itemlist > .item label{font-size: 14px; font-weight:700; color:var(--textcolor-detailbox-itemlist-item-label)}
+.detailbox > .itemlist > .item span{font-size: 14px; font-weight:400; color:var(--textcolor-detailbox-itemlist-item-span)}
+.detailbox > .itemlist > .item span + *{margin-left:8px}
 
 
 

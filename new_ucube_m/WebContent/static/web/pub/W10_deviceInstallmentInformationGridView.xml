@@ -210,7 +210,7 @@
     		<xf:group class="header white_bg titleinfo" id="" style="" tagname="section">
     			<xf:group class="titlebar" id="" style="">
     				<xf:group class="cta" id="">
-    					<w2:textbox class="title" id="" label="청구정보조회" style="" tagname="h2"></w2:textbox>
+    					<w2:textbox class="title" id="" label="단말기할부정보" style="" tagname="h2"></w2:textbox>
     				</xf:group>
     			</xf:group>
     			<xf:group class="user_info" id="">

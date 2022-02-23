@@ -272,6 +272,12 @@
     									<xf:trigger class="btn_cf ico info" id="" style="" type="button">
     										<xf:label></xf:label>
     									</xf:trigger>
+    									<xf:trigger class="btn_cf ico bean" id="" style="" type="button">
+    										<xf:label></xf:label>
+    									</xf:trigger>
+    									<xf:trigger class="btn_cf ico bean on" id="" style="" type="button">
+    										<xf:label></xf:label>
+    									</xf:trigger>
     								</xf:group>
     							</xf:group>
     						</xf:group>
