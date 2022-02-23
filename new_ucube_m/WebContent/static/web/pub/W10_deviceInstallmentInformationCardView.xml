@@ -28,7 +28,7 @@
     </head>
     <body ev:onpageload="scwin.onpageload" ev:onpageunload="scwin.onpageunload">
     	<xf:group class="wrapper" id="" style="">
-    		<xf:group class="header  white_bg" id="" style="" tagname="section">
+    		<xf:group class="header  white_bg titleinfo" id="" style="" tagname="section">
     			<xf:group class="titlebar" id="" style="">
     				<xf:group class="cta" id="">
     					<w2:textbox class="title" id="" label="청구정보조회" style="" tagname="h2"></w2:textbox>
@@ -79,7 +79,141 @@
     								</xf:select1>
     							</xf:group>
     						</xf:group>
-    					<xf:group id="" class="side_inner"></xf:group></xf:group>
+    						<xf:group id="" class="side_inner" style="padding-bottom:50px">
+
+    						<xf:group id="" class="cardviewwrap"><xf:group style="" id="" class="cardlist">
+    								<xf:group style="" id="" class="itemlist">
+    									<xf:group style="" id="" class="item ly">
+
+
+    										<xf:group style="" id="" class="lta fn">
+    											<w2:textbox tagname="label" style="" id="" label="할부상태"></w2:textbox>
+    										</xf:group>
+    										<xf:group style="" id="" class="rta">
+    											<w2:textbox tagname="span" style="" id="" label="할부중" class="txt_grd_red2"></w2:textbox>
+    										</xf:group>
+    									</xf:group>
+    									<xf:group style="" id="" class="item ly">
+    										<xf:group style="" id="" class="lta fn">
+    											<w2:textbox tagname="label" style="" id="" label="단말기모델"></w2:textbox>
+    										</xf:group>
+    										<xf:group style="" id="" class="rta">
+    											<w2:textbox tagname="span" style="" id="" label="A2097-64" class=""></w2:textbox>
+    										</xf:group>
+    									</xf:group>
+    									<xf:group style="" id="" class="item ly">
+    										<xf:group style="" id="" class="lta fn">
+    											<w2:textbox tagname="label" style="" id="" label="할부개월수"></w2:textbox>
+    										</xf:group>
+    										<xf:group style="" id="" class="rta">
+    											<w2:textbox tagname="span" style="" id="" label="36" class=""></w2:textbox>
+    										</xf:group>
+    									</xf:group>
+    									<xf:group style="" id="" class="item ly">
+    										<xf:group style="" id="" class="lta fn">
+    											<w2:textbox tagname="label" style="" id="" label="할부원금"></w2:textbox>
+    										</xf:group>
+    										<xf:group style="" id="" class="rta">
+    											<w2:textbox tagname="span" style="" id="" label="819,400" class=""></w2:textbox>
+    										</xf:group>
+    									</xf:group>
+    									<xf:group style="" id="" class="item ly">
+    										<xf:group style="" id="" class="lta fn">
+    											<w2:textbox tagname="label" style="" id="" label="할부총액"></w2:textbox>
+    										</xf:group>
+    										<xf:group style="" id="" class="rta">
+    											<w2:textbox tagname="span" style="" id="" label="907,484" class=""></w2:textbox>
+    										</xf:group>
+    									</xf:group>
+    									<xf:group style="" id="" class="item ly">
+    										<xf:group style="" id="" class="lta fn">
+    											<w2:textbox tagname="label" style="" id="" label="월청구금액"></w2:textbox>
+    										</xf:group>
+    										<xf:group style="" id="" class="rta">
+    											<w2:textbox tagname="span" style="" id="" label="17,690" class=""></w2:textbox>
+    										</xf:group>
+    									</xf:group>
+    									<xf:group style="" id="" class="item ly">
+    										<xf:group style="" id="" class="lta fn">
+    											<w2:textbox tagname="label" style="" id="" label="잔여할부개월"></w2:textbox>
+    										</xf:group>
+    										<xf:group style="" id="" class="rta">
+    											<w2:textbox tagname="span" style="" id="" label="14" class=""></w2:textbox>
+    										</xf:group>
+    									</xf:group>
+    									<xf:group style="" id="" class="item ly">
+    										<xf:group style="" id="" class="lta fn">
+    											<w2:textbox tagname="label" style="" id="" label="잔여할부총액"></w2:textbox>
+    										</xf:group>
+    										<xf:group style="" id="" class="rta">
+    											<w2:textbox tagname="span" style="" id="" label="472,918" class=""></w2:textbox>
+    										</xf:group>
+    									</xf:group>
+
+    								</xf:group>
+    								<xf:group style="" id="" class="detailview"></xf:group>
+
+    							</xf:group><xf:group style="" id="" class="cardlist">
+    								<xf:group style="" id="" class="itemlist">
+    									<xf:group style="" id="" class="item ly">
+    										<xf:group style="" id="" class="lta fn">
+    											<w2:textbox tagname="label" style="" id="" label="할부상태"></w2:textbox>
+    										</xf:group>
+    										<xf:group style="" id="" class="rta">
+    											<w2:textbox tagname="span" style="" id="" label="할부완납(중간완납)" class="txt_grd_green2"></w2:textbox>
+    										</xf:group>
+    									</xf:group>
+    									<xf:group style="" id="" class="item ly">
+    										<xf:group style="" id="" class="lta fn">
+    											<w2:textbox tagname="label" style="" id="" label="단말기모델"></w2:textbox>
+    										</xf:group>
+    										<xf:group style="" id="" class="rta">
+    											<w2:textbox tagname="span" style="" id="" label="A1778-128" class=""></w2:textbox>
+    										</xf:group>
+    									</xf:group>
+    								</xf:group>
+    								<xf:group style="" id="" class="detailview"></xf:group>
+    							</xf:group><xf:group style="" id="" class="cardlist">
+    								<xf:group style="" id="" class="itemlist">
+    									<xf:group style="" id="" class="item ly">
+    										<xf:group style="" id="" class="lta fn">
+    											<w2:textbox tagname="label" style="" id="" label="할부상태"></w2:textbox>
+    										</xf:group>
+    										<xf:group style="" id="" class="rta">
+    											<w2:textbox tagname="span" style="" id="" label="할부완료" class="txt_grd_green2"></w2:textbox>
+    										</xf:group>
+    									</xf:group>
+    									<xf:group style="" id="" class="item ly">
+    										<xf:group style="" id="" class="lta fn">
+    											<w2:textbox tagname="label" style="" id="" label="단말기모델"></w2:textbox>
+    										</xf:group>
+    										<xf:group style="" id="" class="rta">
+    											<w2:textbox tagname="span" style="" id="" label="A1778-128" class=""></w2:textbox>
+    										</xf:group>
+    									</xf:group>
+    								</xf:group>
+    								<xf:group style="" id="" class="detailview"></xf:group>
+    							</xf:group><xf:group style="" id="" class="cardlist">
+    								<xf:group style="" id="" class="itemlist">
+    									<xf:group style="" id="" class="item ly">
+    										<xf:group style="" id="" class="lta fn">
+    											<w2:textbox tagname="label" style="" id="" label="할부상태"></w2:textbox>
+    										</xf:group>
+    										<xf:group style="" id="" class="rta">
+    											<w2:textbox tagname="span" style="" id="" label="할부완료" class="txt_grd_green2"></w2:textbox>
+    										</xf:group>
+    									</xf:group>
+    									<xf:group style="" id="" class="item ly">
+    										<xf:group style="" id="" class="lta fn">
+    											<w2:textbox tagname="label" style="" id="" label="단말기모델"></w2:textbox>
+    										</xf:group>
+    										<xf:group style="" id="" class="rta">
+    											<w2:textbox tagname="span" style="" id="" label="A1778-128" class=""></w2:textbox>
+    										</xf:group>
+    									</xf:group>
+    								</xf:group>
+    								<xf:group style="" id="" class="detailview"></xf:group>
+    							</xf:group></xf:group></xf:group></xf:group>
     				</xf:group>
     			</xf:group>
     		</xf:group>

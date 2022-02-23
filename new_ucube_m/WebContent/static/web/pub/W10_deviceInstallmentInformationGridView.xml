@@ -207,7 +207,7 @@
     </head>
     <body ev:onpageload="scwin.onpageload" ev:onpageunload="scwin.onpageunload">
     	<xf:group class="wrapper" id="" style="">
-    		<xf:group class="header  white_bg" id="" style="" tagname="section">
+    		<xf:group class="header white_bg titleinfo" id="" style="" tagname="section">
     			<xf:group class="titlebar" id="" style="">
     				<xf:group class="cta" id="">
     					<w2:textbox class="title" id="" label="청구정보조회" style="" tagname="h2"></w2:textbox>
@@ -321,8 +321,8 @@
     										<w2:column blockSelect="false" displayMode="label" id="col8" inputType="text"
     											removeBorderStyle="false" textAlign="right" width="70">
     										</w2:column>
-    										<w2:column blockSelect="false" displayMode="label" id="col9" imageHeight="24"
-    											imageSrc="../../common/images/ico_arrow_right24.svg" imageWidth="24" inputType="image" removeBorderStyle="false"
+    										<w2:column blockSelect="false" displayMode="label" id="col9" imageHeight="20"
+    											imageSrc="../../common/images/ico_arrow_right20.svg" imageWidth="20" inputType="image" removeBorderStyle="false"
     											viewType="icon" width="37">
     										</w2:column>
     									</w2:row>
