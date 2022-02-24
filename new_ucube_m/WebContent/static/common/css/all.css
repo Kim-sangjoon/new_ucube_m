@@ -842,6 +842,8 @@ input[type="search"]::-webkit-search-decoration,
 input[type="search"]::-webkit-search-results-button,
 input[type="search"]::-webkit-search-results-decoration{display:none}
 
+.appbarsearch{padding:0 12px 0 40px}
+.appbarsearch input[type="search"]{border:none; height:auto}
 
 .w2radio .w2radio_item, .w2checkbox .w2checkbox_item{display:inline-block; height:20px; padding-top:0; box-sizing:border-box}
 .w2radio .w2radio_item + .w2radio_item,
@@ -1161,9 +1163,9 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow:hidd
 .badge_green{color:var(--textcolor-badge-green); background:var(--bgcolor-badge-green)}
 
 .lable_purple,.lable_blue,.lable_green{display:inline-block; font-size:13px; font-weight:400; line-height:19px; margin-right:8px}
-.lable_purple{color:var(--textcolor-label-purple)}
-.lable_blue{color:var(--textcolor-label-blue)}
-.lable_green{color:var(--textcolor-label-green)}
+.lable_purple{color:var(--textcolor-label-purple) !important}
+.lable_blue{color:var(--textcolor-label-blue) !important}
+.lable_green{color:var(--textcolor-label-green) !important}
 .period{font-size:12px; font-weight:400; color:var(--textcolor-period); line-height:20px}
 .period.red{color:#F94B50}
 .ctbox .ifbox{width:100%; height:18px; margin-top:5px}
@@ -2309,6 +2311,16 @@ input.adsearch{padding-left:40px; background-image:url(./../images/ico_search32.
 .cardviewwrap .cardlist > .itemlist > .item label{font-size: 14px; font-weight:700; color:var(--textcolor-cardlist-itemlist-item-label)}
 .cardviewwrap .cardlist > .itemlist > .item span{font-size: 14px; font-weight:400; color:var(--textcolor-cardlist-itemlist-item-span)}
 .cardviewwrap .cardlist > .detailview{flex:none; width:36px; background:var(--ico-arrow-right20) no-repeat center center; border-left:1px solid var(--bordercolor-cardviewwrap-cardlist-detailview); box-sizing: border-box}
+
+.cardviewwrap .searchcardlist1{border: 1px solid var(--bordercolor-cardviewwrap-cardlist); display: flex; flex-direction: row}
+.cardviewwrap .searchcardlist1 + .searchcardlist1{margin-top:8px}
+.cardviewwrap .searchcardlist1 > .itemlist{flex:1; line-height: 1.2; padding:12px}
+.cardviewwrap .searchcardlist1 > .itemlist > .item + .item{margin-top:8px}
+.cardviewwrap .searchcardlist1 > .itemlist > .item .lta{width:64px}
+.cardviewwrap .searchcardlist1 > .itemlist > .item .rta{text-align:left}
+.cardviewwrap .searchcardlist1 > .itemlist > .item label{font-size: 13px; font-weight:700; line-height:19px; color:var(--textcolor-cardlist-itemlist-item-label)}
+.cardviewwrap .searchcardlist1 > .itemlist > .item span{font-size: 13px; font-weight:400; line-height:19px; color:var(--textcolor-cardlist-itemlist-item-span)}
+.cardviewwrap .searchcardlist1 > .detailview{flex:none; width:36px; background:var(--ico-arrow-right20) no-repeat center center; border-left:1px solid var(--bordercolor-cardviewwrap-cardlist-detailview); box-sizing: border-box}
 
 .detailbox > .itemlist{line-height: 1.2}
 .detailbox > .itemlist > .item{line-height: 34px;}

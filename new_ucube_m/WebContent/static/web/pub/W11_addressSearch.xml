@@ -28,18 +28,20 @@
     </head>
     <body ev:onpageload="scwin.onpageload" ev:onpageunload="scwin.onpageunload">
     	<xf:group class="wrapper" id="" style="">
-    		<xf:group class="header white_bg" id="" style="" tagname="section">
-    			<xf:group class="titlebar" id="" style="">
-    				<xf:group class="cta" id="">
-    					<w2:textbox class="title" id="" label="개통지역확인" style="" tagname="h2"></w2:textbox>
-    				</xf:group>
+    		<xf:group class="header  white_bg" id="" style="" tagname="section">
+    			<xf:group class="appbarsearch" id="" style="">
+    				<xf:input adjustMaxLength="false" class="" id="" placeholder="검색할 주소를 입력하세요" style="" type="search">
+    					<w2:attributes>
+    						<w2:enterkeyhint>search</w2:enterkeyhint>
+    					</w2:attributes>
+    				</xf:input>
     			</xf:group>
-    			<xf:group class="btn_menu" id="" style="" tagname="button"></xf:group>
+    			<xf:group class="btn_pre" id="" style="" tagname="button"></xf:group>
     		</xf:group>
     		<xf:group class="container" id="" style="" tagname="section">
-    			<xf:group class="sectionbg" id="" tagname="section">
-    				<xf:group class="messagebox" id="" style="">
-    					<xf:group class="messageboxwrap main" id="" tagname="">
+    			<xf:group class="white_bgbox" id="" style="">
+    				<xf:group class="white_bgboxwrap main titleinfo" id="">
+    					<xf:group class="navigation" id="" style="" tagname="section">
     					</xf:group>
     				</xf:group>
     			</xf:group>

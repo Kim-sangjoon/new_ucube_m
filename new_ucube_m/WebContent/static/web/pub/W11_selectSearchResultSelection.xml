@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:ev="http://www.w3.org/2001/xml-events"
+    xmlns:w2="http://www.inswave.com/websquare" xmlns:xf="http://www.w3.org/2002/xforms">
+    <head meta_programName="11_검색결과 선택">
+    	<w2:type>DEFAULT</w2:type>
+        <w2:buildDate/>
+        <xf:model>
+            <xf:instance>
+                <data xmlns=""/>
+            </xf:instance>
+            <w2:dataCollection baseNode="map">
+            </w2:dataCollection>
+            <w2:workflowCollection>
+            </w2:workflowCollection>
+        </xf:model>
+         <script type="text/javascript" lazy="false"><![CDATA[
+        
+	scwin.onpageload = function() {
+		
+	};
+	
+	scwin.onpageunload = function() {
+		
+	};
+	
+	]]></script>
+    </head>
+    <body ev:onpageload="scwin.onpageload" ev:onpageunload="scwin.onpageunload">
+    	<xf:group class="wrapper" id="" style="">
+    		<xf:group class="header  white_bg" id="" style="" tagname="section">
+    			<xf:group class="appbarsearch" id="" style="">
+    				<xf:input adjustMaxLength="false" class="" id="" placeholder="검색할 주소를 입력하세요" style="" type="search">
+    					<w2:attributes>
+    						<w2:enterkeyhint>search</w2:enterkeyhint>
+    					</w2:attributes>
+    				</xf:input>
+    			</xf:group>
+    			<xf:group class="btn_pre" id="" style="" tagname="button"></xf:group>
+    		</xf:group>
+    		<xf:group class="container" id="" style="" tagname="section">
+    			<xf:group class="white_bgbox" id="" style="">
+    				<xf:group class="white_bgboxwrap main titleinfo" id="">
+    					<xf:group class="navigation" id="" style="" tagname="section">
+    						<xf:group class="titlebox2" id="" style="">
+    							<xf:group class="ly_form" id="">
+    								<xf:group class="lta" id="">
+    									<w2:textbox id="" label="‘상암동 월드컵파크’ 검색 결과" style="" tagname="h3"></w2:textbox>
+    								</xf:group>
+    							</xf:group>
+    						</xf:group>
+    						<xf:group class="side_inner" id="" style="">
+    							<xf:group class="cardviewwrap" id="">
+    								<xf:group class="searchcardlist1" id="" style="">
+    									<xf:group class="itemlist" id="" style="">
+    										<xf:group class="item ly" id="" style="">
+    											<xf:group class="lta fn" id="" style="">
+    												<w2:textbox id="" label="아파트" style="" tagname="label" class="lable_green"></w2:textbox>
+    											</xf:group>
+    										</xf:group>
+    										<xf:group class="item ly" id="" style="">
+    											<xf:group class="lta fn" id="" style="">
+    												<w2:textbox id="" label="지번" style="" tagname="label"></w2:textbox>
+    											</xf:group>
+    											<xf:group class="rta" id="" style="">
+    												<w2:textbox class="" id="" label="[서울시 마포구 상암동 1736-0] 상암월드컵파크10단지" style=""
+    													tagname="span">
+    												</w2:textbox>
+    											</xf:group>
+    										</xf:group>
+    										<xf:group class="item ly" id="" style="">
+    											<xf:group class="lta fn" id="" style="">
+    												<w2:textbox id="" label="도로명" style="" tagname="label"></w2:textbox>
+    											</xf:group>
+    											<xf:group class="rta" id="" style="">
+    												<w2:textbox class="" id="" label="서울 마포구 월드컵북로 502-37" style="" tagname="span"></w2:textbox>
+    											</xf:group>
+    										</xf:group>
+    										<xf:group class="item ly" id="" style="">
+    											<xf:group class="lta fn" id="" style="">
+    												<w2:textbox id="" label="우편번호" style="" tagname="label"></w2:textbox>
+    											</xf:group>
+    											<xf:group class="rta" id="" style="">
+    												<w2:textbox class="" id="" label="03918" style="" tagname="span"></w2:textbox>
+    											</xf:group>
+    										</xf:group>
+    									</xf:group>
+    									<xf:group class="detailview" id="" style=""></xf:group>
+    								</xf:group>
+    								<xf:group class="searchcardlist1" id="" style="">
+    									<xf:group class="itemlist" id="" style="">
+    										<xf:group class="item ly" id="" style="">
+    											<xf:group class="lta fn" id="" style="">
+    												<w2:textbox class="lable_green" id="" label="아파트" style="" tagname="label"></w2:textbox>
+    											</xf:group>
+    										</xf:group>
+    										<xf:group class="item ly" id="" style="">
+    											<xf:group class="lta fn" id="" style="">
+    												<w2:textbox id="" label="지번" style="" tagname="label"></w2:textbox>
+    											</xf:group>
+    											<xf:group class="rta" id="" style="">
+    												<w2:textbox class="" id="" label="[서울시 마포구 상암동 1741-0] 상암월드컵파크11단지" style=""
+    													tagname="span">
+    												</w2:textbox>
+    											</xf:group>
+    										</xf:group>
+    										<xf:group class="item ly" id="" style="">
+    											<xf:group class="lta fn" id="" style="">
+    												<w2:textbox id="" label="도로명" style="" tagname="label"></w2:textbox>
+    											</xf:group>
+    											<xf:group class="rta" id="" style="">
+    												<w2:textbox class="" id="" label="서울 마포구 월드컵북로 502-37" style="" tagname="span"></w2:textbox>
+    											</xf:group>
+    										</xf:group>
+    										<xf:group class="item ly" id="" style="">
+    											<xf:group class="lta fn" id="" style="">
+    												<w2:textbox id="" label="우편번호" style="" tagname="label"></w2:textbox>
+    											</xf:group>
+    											<xf:group class="rta" id="" style="">
+    												<w2:textbox class="" id="" label="03918" style="" tagname="span"></w2:textbox>
+    											</xf:group>
+    										</xf:group>
+    									</xf:group>
+    									<xf:group class="detailview" id="" style=""></xf:group>
+    								</xf:group>
+    								<xf:group class="searchcardlist1" id="" style="">
+    									<xf:group class="itemlist" id="" style="">
+    										<xf:group class="item ly" id="" style="">
+    											<xf:group class="lta fn" id="" style="">
+    												<w2:textbox class="lable_green" id="" label="아파트" style="" tagname="label"></w2:textbox>
+    											</xf:group>
+    										</xf:group>
+    										<xf:group class="item ly" id="" style="">
+    											<xf:group class="lta fn" id="" style="">
+    												<w2:textbox id="" label="지번" style="" tagname="label"></w2:textbox>
+    											</xf:group>
+    											<xf:group class="rta" id="" style="">
+    												<w2:textbox class="" id="" label="[서울시 마포구 상암동 1743-0] 상암월드컵파크12단지" style=""
+    													tagname="span">
+    												</w2:textbox>
+    											</xf:group>
+    										</xf:group>
+    										<xf:group class="item ly" id="" style="">
+    											<xf:group class="lta fn" id="" style="">
+    												<w2:textbox id="" label="도로명" style="" tagname="label"></w2:textbox>
+    											</xf:group>
+    											<xf:group class="rta" id="" style="">
+    												<w2:textbox class="" id="" label="서울 마포구 월드컵북로 502-37" style="" tagname="span"></w2:textbox>
+    											</xf:group>
+    										</xf:group>
+    										<xf:group class="item ly" id="" style="">
+    											<xf:group class="lta fn" id="" style="">
+    												<w2:textbox id="" label="우편번호" style="" tagname="label"></w2:textbox>
+    											</xf:group>
+    											<xf:group class="rta" id="" style="">
+    												<w2:textbox class="" id="" label="03918" style="" tagname="span"></w2:textbox>
+    											</xf:group>
+    										</xf:group>
+    									</xf:group>
+    									<xf:group class="detailview" id="" style=""></xf:group>
+    								</xf:group>
+    								<xf:group class="searchcardlist1" id="" style="">
+    									<xf:group class="itemlist" id="" style="">
+    										<xf:group class="item ly" id="" style="">
+    											<xf:group class="lta fn" id="" style="">
+    												<w2:textbox class="lable_blue" id="" label="건물" style="" tagname="label"></w2:textbox>
+    											</xf:group>
+    										</xf:group>
+    										<xf:group class="item ly" id="" style="">
+    											<xf:group class="lta fn" id="" style="">
+    												<w2:textbox id="" label="지번" style="" tagname="label"></w2:textbox>
+    											</xf:group>
+    											<xf:group class="rta" id="" style="">
+    												<w2:textbox class="" id="" label="[서울시 마포구 상암동 1660-0] 상암월드컵파크7단지" style=""
+    													tagname="span">
+    												</w2:textbox>
+    											</xf:group>
+    										</xf:group>
+    										<xf:group class="item ly" id="" style="">
+    											<xf:group class="lta fn" id="" style="">
+    												<w2:textbox id="" label="도로명" style="" tagname="label"></w2:textbox>
+    											</xf:group>
+    											<xf:group class="rta" id="" style="">
+    												<w2:textbox class="" id="" label="서울 마포구 월드컵북로 502-37" style="" tagname="span"></w2:textbox>
+    											</xf:group>
+    										</xf:group>
+    										<xf:group class="item ly" id="" style="">
+    											<xf:group class="lta fn" id="" style="">
+    												<w2:textbox id="" label="우편번호" style="" tagname="label"></w2:textbox>
+    											</xf:group>
+    											<xf:group class="rta" id="" style="">
+    												<w2:textbox class="" id="" label="03918" style="" tagname="span"></w2:textbox>
+    											</xf:group>
+    										</xf:group>
+    									</xf:group>
+    									<xf:group class="detailview" id="" style=""></xf:group>
+    								</xf:group>
+    							</xf:group>
+    						</xf:group>
+    					</xf:group>
+    				</xf:group>
+    			</xf:group>
+    		</xf:group>
+    		<xf:group class="bottomMenu" id="" style="" tagname="section">
+    			<xf:group class="navbox" id="" style="">
+    				<xf:group class="menu01" id="" style="" tagname="button">
+    					<xf:group class="numberbox" id="">
+    						<w2:textbox class="num" id="" label="13" style=""></w2:textbox>
+    					</xf:group>
+    					<w2:textbox class="title" id="" label="To-Do" style=""></w2:textbox>
+    				</xf:group>
+    				<xf:group class="menu02-01" id="" style="" tagname="button">
+    					<w2:textbox class="title" id="" label="가입정보조회" style=""></w2:textbox>
+    				</xf:group>
+    				<xf:group class="menu03" id="" style="" tagname="button">
+    					<w2:textbox class="title" id="" label="사전조회" style=""></w2:textbox>
+    				</xf:group>
+    				<xf:group class="menu04 on" id="" style="" tagname="button">
+    					<w2:textbox class="title" id="" label="개통지역" style=""></w2:textbox>
+    				</xf:group>
+    				<xf:group class="menu05" id="" style="" tagname="button">
+    					<xf:group class="numberbox" id="" style="">
+    						<w2:textbox class="num" id="" label="3" style=""></w2:textbox>
+    					</xf:group>
+    					<w2:textbox class="title" id="" label="알림" style=""></w2:textbox>
+    				</xf:group>
+    			</xf:group>
+    		</xf:group>
+    	</xf:group>
+    </body>
+</html>
