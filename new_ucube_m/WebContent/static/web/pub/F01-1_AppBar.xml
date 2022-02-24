@@ -59,13 +59,14 @@
     				<xf:group class="cta" id="">
     					<w2:textbox class="title" id="" label="타이틀영역" style="" tagname="h2"></w2:textbox>
     				</xf:group>
-    			</xf:group><xf:group id="" class="user_info">
-    					<w2:textbox tagname="span" style="" id="" label="신*혜 님" class="text"></w2:textbox>
-    					<w2:textbox class="dot" id="" label="dot" style="" tagname="i"></w2:textbox>
-    					<w2:textbox class="text" id="" label="500000000000" style="" tagname="span"></w2:textbox>
-    					<w2:textbox class="dot" id="" label="dot" style="" tagname="i"></w2:textbox>
-    					<w2:textbox class="text" id="" label="5G 프리미엄" style="" tagname="span"></w2:textbox>
-    				</xf:group>
+    			</xf:group>
+    			<xf:group id="" class="user_info">
+    				<w2:textbox tagname="span" style="" id="" label="신*혜 님" class="text"></w2:textbox>
+    				<w2:textbox class="dot" id="" label="dot" style="" tagname="i"></w2:textbox>
+    				<w2:textbox class="text" id="" label="500000000000" style="" tagname="span"></w2:textbox>
+    				<w2:textbox class="dot" id="" label="dot" style="" tagname="i"></w2:textbox>
+    				<w2:textbox class="text" id="" label="5G 프리미엄" style="" tagname="span"></w2:textbox>
+    			</xf:group>
     			<xf:group class="btn_menu" id="" style="" tagname="button" text=""></xf:group>
     			<xf:group class="btn_pre" id="" style="" tagname="button"></xf:group>
     		</xf:group>
@@ -79,6 +80,15 @@
     			<xf:trigger class="btn_top preSearch" id="" style="" type="button">
     				<xf:label><![CDATA[다른고객조회]]></xf:label>
     			</xf:trigger>
+    		</xf:group>
+    		<xf:group class="header  white_bg" id="" style="" tagname="section">
+    			<xf:group class="titlebar" id="" style="">
+    				<xf:group class="cta" id="">
+    					<w2:textbox class="title" id="" label="타이틀영역" style="" tagname="h2"></w2:textbox>
+    				</xf:group>
+    			</xf:group>
+    			<xf:group class="btn_close" id="" style="" tagname="button"></xf:group>
+    			<xf:group class="btn_pre" id="" style="" tagname="button"></xf:group>
     		</xf:group>
     	</xf:group>
     </body>
