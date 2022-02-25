@@ -372,6 +372,9 @@
     --bgcolor-tbmsgbox:#F0F4FF;
     --textcolor-tbmsgbox:#56606B;
     --ico-search-delete:url(./../images/ico_search_delete.svg);
+    --textcolor-gray:#8996A3;
+    --textcolor-green:#2FB8A8;
+    --textcolor-red:#F94B50;
 
 
 
@@ -755,6 +758,9 @@
     --bgcolor-tbmsgbox:#45484F;
     --textcolor-tbmsgbox:#C2C5CE;
     --ico-search-delete:url(./../images/ico_search_delete_dark.svg);
+    --textcolor-gray:#F5F6FA;
+    --textcolor-green:#8E929E;
+    --textcolor-red:#8E929E;
 
 
 
@@ -845,7 +851,7 @@ input[type="search"]::-webkit-search-results-button,
 input[type="search"]::-webkit-search-results-decoration{display:none}
 
 .appbarsearch{padding:0 12px 0 40px}
-.appbarsearch input[type="search"]{border:none; font-size:15px; height:24px; background:transparent}
+.appbarsearch input[type="search"]{border:none; font-size:15px; height:25px; background:transparent}
 
 .w2radio .w2radio_item, .w2checkbox .w2checkbox_item{display:inline-block; height:20px; padding-top:0; box-sizing:border-box}
 .w2radio .w2radio_item + .w2radio_item,
@@ -961,7 +967,7 @@ a .w2calendar_date_cancel:after {content:"닫기" !important; position:absolute;
 
 
 input[type="radio"], input[type="checkbox"]{display:none}
-.w2radio_label, .w2checkbox_label, .w2table_ccb_col_label{position:relative; display:block; min-height:20px; line-height:20px; padding-left:24px; color:var(--textcolor-label); font-size:14px}
+.w2radio_label, .w2checkbox_label, .w2table_ccb_col_label{position:relative; display:block; min-height:20px; line-height:20px; padding-left:24px; color:var(--textcolor-label) !important; font-weight:400 !important; font-size:14px}
 .w2radio_label.w2radio_disabled, .w2checkbox_label.w2checkbox_disabled, .w2table_ccb_col_label.w2radio_disabled, .w2table_ccb_col_label.w2checkbox_disabled{color:var(--textcolor-label-disable)}
 .w2checkbox_label:before, .w2table_ccb_col_label:before{content:''; position:absolute; left:0; top:50%; width:20px; height:20px; margin-top:-10px; background:var(--ico-cbx1) no-repeat 0 0}
 .w2checkbox_label.w2checkbox_disabled:before, .w2table_ccb_col_label.w2checkbox_disabled:before{background:var(--ico-cbx1-disable)}
@@ -1099,7 +1105,7 @@ input[type="radio"]:checked + .w2radio_label.w2radio_disabled:before, input[type
 html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow:hidden}
 .wrapper{width:100%; min-width:360px; background:var(--main-bgcolor); height:100vh; transition:all .2s}
 .wrapper.white{background:var(--bgcolor-wrapper-white)}
-.header{padding:16px 0 16px;  position:relative; top:0; width:100%; z-index: 1}
+.header{padding:15px 0 16px;  position:relative; top:0; width:100%; z-index: 1}
 /* .header + .header{display:table} */
 .header .titlebar{display:inline; height:56px}
 .header .titlebar h2.title{display:inline-block; font-weight:700; color:var(--main-txtcolor-title); font-size:16px; vertical-align:middle; height:25px}
@@ -1139,6 +1145,7 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow:hidd
 .container .container_inner .page_inner section + section{margin-top:24px}
 .container .container_inner > section + section{margin-top:8px}
 .side_inner{padding:0 16px; background:var(--bgcolor-container-inner)}
+.innerbox16{padding:16px; background:var(--bgcolor-container-inner)}
 
 .container section.navigation > div:last-child{padding-bottom:90px}
 
@@ -1168,6 +1175,7 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow:hidd
 .lable_purple{color:var(--textcolor-label-purple) !important}
 .lable_blue{color:var(--textcolor-label-blue) !important}
 .lable_green{color:var(--textcolor-label-green) !important}
+
 .period{font-size:12px; font-weight:400; color:var(--textcolor-period); line-height:20px}
 .period.red{color:#F94B50}
 .ctbox .ifbox{width:100%; height:18px; margin-top:5px}
@@ -1782,6 +1790,7 @@ input.adsearch{padding-left:40px; background-image:url(./../images/ico_search32.
 .bottomsheet .bsbox .bsboxwrap .contwrap_line3{height:calc(100% - 177px); overflow-y:auto; padding:0px 16px 16px 16px}
 .bottomsheet .bsbox .bsboxwrap .contwrap_line1{height:calc(100% - 80px); overflow-y:auto; padding:0px 16px 16px 16px}
 .bottomsheet .bsbox .bsboxwrap::after{content:""; position:absolute; display:block; width:50px; height:5px; top:5px; left:calc(50% - 25px); background:var(--bgcolor-bottomsheet-bsbox-bsboxwrap-after); border-radius:10px}
+.bottomsheet.detail .bsbox .bsboxwrap::after{content:""; position:absolute; display:block; width:120px; height:5px; top:5px; left:calc(50% - 60px); background:var(--bgcolor-bottomsheet-bsbox-bsboxwrap-after); border-radius:10px}
 .bottomsheet .bsbox .bsboxwrap h3{font-weight:700; font-size:15px; line-height:20px; color:var(--textcolor-bottomsheet-bsbox-bsboxwrap-h3)}
 .bottomsheet .bsbox .bsboxwrap h4{margin-top:9px; font-weight:700; font-size:14px; line-height:22px; color:var(--textcolor-bottomsheet-bsbox-bsboxwrap-h4)}
 .bottomsheet .bsbox .bsboxwrap .content{margin-top:4px; font-size:14px; font-weight:400; color:var(--textcolor-bottomsheet-bsbox-bsboxwrap-content)}
@@ -2324,8 +2333,27 @@ input.adsearch{padding-left:40px; background-image:url(./../images/ico_search32.
 .cardviewwrap .searchcardlist1 > .itemlist > .item span{font-size: 13px; font-weight:400; line-height:19px; color:var(--textcolor-cardlist-itemlist-item-span)}
 .cardviewwrap .searchcardlist1 > .detailview{flex:none; width:36px; background:var(--ico-arrow-right20) no-repeat center center; border-left:1px solid var(--bordercolor-cardviewwrap-cardlist-detailview); box-sizing: border-box}
 
+.cardviewwrap .searchcardlist2{border: 1px solid var(--bordercolor-cardviewwrap-cardlist); display: flex; flex-direction: row}
+.cardviewwrap .searchcardlist2 + .searchcardlist2{margin-top:8px}
+.cardviewwrap .searchcardlist2 > .itemlist{flex:1; line-height: 1.2; padding:12px}
+.cardviewwrap .searchcardlist2 > .itemlist > .item + .item{margin-top:4px}
+.cardviewwrap .searchcardlist2 > .itemlist > .item .lta{width:64px}
+.cardviewwrap .searchcardlist2 > .itemlist > .item .rta{text-align:left}
+.cardviewwrap .searchcardlist2 > .itemlist > .item label{font-size: 13px; font-weight:700; line-height:19px; color:var(--textcolor-cardlist-itemlist-item-label)}
+.cardviewwrap .searchcardlist2 > .itemlist > .item span{font-size: 13px; font-weight:400; line-height:19px; color:var(--textcolor-cardlist-itemlist-item-span)}
+.cardviewwrap .searchcardlist2 > .selectview{flex:none; display:flex; justify-content: center; align-items: center; width:36px; border-right:1px solid var(--bordercolor-cardviewwrap-cardlist-detailview); box-sizing: border-box}
+.selectview .w2radio_label, .selectview .w2checkbox_label, .selectview .w2table_ccb_col_label{padding-left:0; height:100%; width:100%}
+.selectview .w2radio{height:100%; width:100%}
+.selectview .w2radio .w2radio_item, .selectview .w2checkbox .w2checkbox_item{width:100%; height:100%}
+.selectview .w2radio_label:before, .selectview .w2table_ccb_col_label:before{content:''; position:absolute; left:calc(50% - 10px); top:50%; width:20.5px; height:20px; margin-top:-10px; background:var(--ico-rdo1) no-repeat 0 0}
+
+.txt_color_gray{color:var(--textcolor-gray) !important}
+.txt_color_green{color:var(--textcolor-green) !important}
+.txt_color_red{color:var(--textcolor-red) !important}
+
 .detailbox > .itemlist{line-height: 1.2}
-.detailbox > .itemlist > .item{line-height: 34px;}
+.detailbox > .itemlist > .item + .item{margin-top:14px}
+.detailbox > .itemlist > .item{line-height: 20px}
 .detailbox > .itemlist > .item label{font-size: 14px; font-weight:700; color:var(--textcolor-detailbox-itemlist-item-label)}
 .detailbox > .itemlist > .item span{font-size: 14px; font-weight:400; color:var(--textcolor-detailbox-itemlist-item-span)}
 .detailbox > .itemlist > .item span + *{margin-left:8px}

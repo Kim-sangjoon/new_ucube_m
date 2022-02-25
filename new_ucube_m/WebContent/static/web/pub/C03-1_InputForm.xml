@@ -98,15 +98,15 @@
     						<xf:group class="srchitem" id="" style="">
     							<w2:textbox class="req" id="" label="조회기간(native)" style="" tagname="label"></w2:textbox>
     							<xf:group class="inputgroup" id="">
-    								<xf:input adjustMaxLength="false" allowChar="" applyFormat="" class="req wd-150" dataType="date" editType=""
-    									ev:onchange="" ev:onkeydown="" id="" placeholder="YYYY-MM-DD" style="" type="date">
+    								<xf:input adjustMaxLength="false" allowChar="" applyFormat="" class="req wd-150" dataType="date"
+    									editType="" ev:onchange="" ev:onkeydown="" id="" placeholder="YYYY-MM-DD" style="" type="date">
     									<w2:attributes>
     										<w2:required></w2:required>
     									</w2:attributes>
     								</xf:input>
     								<w2:textbox class="" id="" label="~" style="" tagname="span"></w2:textbox>
-    								<xf:input adjustMaxLength="false" allowChar="" applyFormat="" class="req wd-150" dataType="date" editType=""
-    									ev:onchange="" ev:onkeydown="" id="" placeholder="YYYY-MM-DD" style="" type="date">
+    								<xf:input adjustMaxLength="false" allowChar="" applyFormat="" class="req wd-150" dataType="date"
+    									editType="" ev:onchange="" ev:onkeydown="" id="" placeholder="YYYY-MM-DD" style="" type="date">
     									<w2:attributes>
     										<w2:required></w2:required>
     									</w2:attributes>
@@ -299,17 +299,141 @@
     							<w2:textbox class="req" id="" label="인증번호입력" style="" tagname="label"></w2:textbox>
     							<xf:group class="inputgroup" id="">
     								<xf:group id="" class="certified">
-    									
+
     									<xf:input ev:onchange="" dataType="number" ev:onkeydown="" editType="" adjustMaxLength="false"
     										applyFormat="" style="" allowChar="" id="" placeholder="" type="number" class="req ">
     										<w2:attributes>
     											<w2:required></w2:required>
     										</w2:attributes>
-    									</xf:input><w2:textbox id="" label="2분 59초" style="" class="time" tagname="span"></w2:textbox>
+    									</xf:input>
+    									<w2:textbox id="" label="2분 59초" style="" class="time" tagname="span"></w2:textbox>
     								</xf:group>
     								<xf:trigger class="btn_in" ev:onclick="" id="" style="" type="button">
     									<xf:label><![CDATA[인증번호 재전송]]></xf:label>
     								</xf:trigger>
+    							</xf:group>
+    						</xf:group>
+    						<xf:group class="srchitem" id="" style="">
+    							<w2:textbox class="req" id="" label="생일(일 - 월 - 년)" style="" tagname="label"></w2:textbox>
+    							<xf:group class="inputgroup" id="" style="">
+    								<xf:input adjustMaxLength="false" allowChar="" applyFormat="" class="req" dataType="number"
+    									disabled="true" editType="" ev:onchange="" ev:onkeydown="" id="" placeholder="" style="" type="number">
+    									<w2:attributes>
+    										<w2:required></w2:required>
+    									</w2:attributes>
+    								</xf:input>
+    								<w2:textbox class="" id="" label="-" style="" tagname="span"></w2:textbox>
+    								<xf:select1 allOption="" appearance="minimal" chooseOption="true" chooseOptionLabel="" class="req"
+    									direction="auto" disabled="false" disabledClass="w2selectbox_disabled" displayMode="" id="" ref="" renderType="native" style=""
+    									submenuSize="auto">
+    									<xf:choices>
+    										<xf:item>
+    											<xf:label><![CDATA[선택]]></xf:label>
+    											<xf:value></xf:value>
+    										</xf:item>
+    									</xf:choices>
+    								</xf:select1>
+    								<w2:textbox class="" id="" label="-" style="" tagname="span"></w2:textbox>
+    								<xf:input adjustMaxLength="false" allowChar="" applyFormat="" class="req" dataType="number" editType=""
+    									ev:onchange="" ev:onkeydown="" id="" placeholder="" style="" type="number">
+    									<w2:attributes>
+    										<w2:required></w2:required>
+    									</w2:attributes>
+    								</xf:input>
+    							</xf:group>
+    						</xf:group>
+    						<xf:group class="srchitem" id="" style="">
+    							<xf:group class="ly mt16" id="" style="">
+    								<xf:group class="col1" id="">
+    									<xf:group class="srchitem" id="" style="">
+    										<w2:textbox class="" id="" label="동" style="" tagname="label"></w2:textbox>
+    										<xf:group class="inputgroup" id="">
+    											<xf:input adjustMaxLength="false" allowChar="" applyFormat="" class="" dataType="text"
+    												editType="" ev:onchange="" ev:onkeydown="" id="" placeholder="" style="" type="">
+    												<w2:attributes>
+    													<w2:required></w2:required>
+    												</w2:attributes>
+    											</xf:input>
+    										</xf:group>
+    									</xf:group>
+    								</xf:group>
+    								<xf:group class="col1" id="">
+    									<xf:group class="srchitem" id="" style="">
+    										<w2:textbox class="req" id="" label="층" style="" tagname="label"></w2:textbox>
+    										<xf:group class="inputgroup" id="" style="">
+    											<xf:input adjustMaxLength="false" allowChar="" applyFormat="" class="req" dataType="text"
+    												editType="" ev:onchange="" ev:onkeydown="" id="" placeholder="" style="" type="">
+    												<w2:attributes>
+    													<w2:required></w2:required>
+    												</w2:attributes>
+    											</xf:input>
+    										</xf:group>
+    									</xf:group>
+    								</xf:group>
+    								<xf:group class="col1" id="" style="">
+    									<xf:group class="srchitem" id="" style="">
+    										<w2:textbox class="" id="" label="호" style="" tagname="label"></w2:textbox>
+    										<xf:group class="inputgroup" id="" style="">
+    											<xf:input adjustMaxLength="false" allowChar="" applyFormat="" class="" dataType="text"
+    												editType="" ev:onchange="" ev:onkeydown="" id="" placeholder="" style="" type="">
+    												<w2:attributes>
+    													<w2:required></w2:required>
+    												</w2:attributes>
+    											</xf:input>
+    										</xf:group>
+    									</xf:group>
+    								</xf:group>
+    							</xf:group>
+    						</xf:group>
+    						<xf:group id="" class="srchitem"><xf:group style="" id="" class="ly mt16">
+    							<xf:group id="" class="col1">
+    								<xf:group style="" id="" class="srchitem">
+    									<w2:textbox tagname="label" style="" id="" label="조회자명" class=""></w2:textbox>
+    									<xf:group id="" class="inputgroup">
+    										<xf:input ev:onchange="" dataType="text" ev:onkeydown="" applyFormat="" type="text" editType="" adjustMaxLength="false" disabled="true" style="" allowChar="" id="" placeholder="" class="">
+    											<w2:attributes>
+    												<w2:required></w2:required>
+    											</w2:attributes>
+    										</xf:input>
+    									</xf:group>
+    								</xf:group>
+    							</xf:group>
+    							<xf:group id="" class="col1">
+    								<xf:group style="" id="" class="srchitem">
+    									<w2:textbox tagname="label" style="" id="" label="조회자ID" class=""></w2:textbox>
+    									<xf:group id="" class="inputgroup">
+    										<xf:input ev:onchange="" dataType="text" ev:onkeydown="" applyFormat="" type="text" editType="" adjustMaxLength="false" disabled="true" style="" allowChar="" id="" placeholder="" class="">
+    											<w2:attributes>
+    												<w2:required></w2:required>
+    											</w2:attributes>
+    										</xf:input>
+    									</xf:group>
+    								</xf:group>
+    							</xf:group>
+    						</xf:group></xf:group><xf:group class="srchitem" id="" style="">
+    							<xf:group class="ly mt16" id="" style="">
+    								<xf:group class="col1" id="">
+    									<xf:group class="srchitem" id="" style="">
+    										<w2:textbox class="req" id="" label="여권 인증일자" style="" tagname="label"></w2:textbox>
+    										<xf:group class="inputgroup" id="">
+    											<w2:inputCalendar calendarValueType="yearMonthDate" cancelButtonShow="" class="req"
+    												displayFormat="" focusOnDateSelect="false" footerDiv="false" id="" placeholder="YYYY-MM-DD" readOnly="" renderDiv="true"
+    												renderType="component" rightAlign="false" setCurrentDate="" style="">
+    											</w2:inputCalendar>
+    										</xf:group>
+    									</xf:group>
+    								</xf:group>
+    								<xf:group class="col1" id="">
+    									<xf:group class="srchitem" id="" style="">
+    										<w2:textbox class="req" id="" label="여권인증 종료일자" style="" tagname="label"></w2:textbox>
+    										<xf:group class="inputgroup" id="" style="">
+    											<w2:inputCalendar calendarValueType="yearMonthDate" cancelButtonShow="" class="req"
+    												displayFormat="" focusOnDateSelect="false" footerDiv="false" id="" placeholder="YYYY-MM-DD" readOnly="" renderDiv="true"
+    												renderType="component" rightAlign="false" setCurrentDate="" style="">
+    											</w2:inputCalendar>
+    										</xf:group>
+    									</xf:group>
+    								</xf:group>
     							</xf:group>
     						</xf:group>
     						<xf:group class="srchitem" id="" style="">

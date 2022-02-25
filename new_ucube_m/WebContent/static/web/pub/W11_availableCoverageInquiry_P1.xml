@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:ev="http://www.w3.org/2001/xml-events"
+    xmlns:w2="http://www.inswave.com/websquare" xmlns:xf="http://www.w3.org/2002/xforms">
+    <head meta_programName="11_제공가능 커버리지 조회 결과 - 항목선택시">
+    	<w2:type>DEFAULT</w2:type>
+        <w2:buildDate/>
+        <xf:model>
+            <xf:instance>
+                <data xmlns=""/>
+            </xf:instance>
+            <w2:dataCollection baseNode="map">
+            </w2:dataCollection>
+            <w2:workflowCollection>
+            </w2:workflowCollection>
+        </xf:model>
+         <script type="text/javascript" lazy="false"><![CDATA[
+        
+	scwin.onpageload = function() {
+		
+	};
+	
+	scwin.onpageunload = function() {
+		
+	};
+	
+	]]></script>
+    </head>
+    <body ev:onpageload="scwin.onpageload" ev:onpageunload="scwin.onpageunload">
+    	<xf:group class="wrapper popup" id="" style="">
+    		<xf:group class="header white_bg" id="" style="" tagname="section">
+    			<xf:group class="titlebar" id="" style="">
+    				<xf:group class="cta" id="">
+    					<w2:textbox class="title" id="" label="개통지역 조회결과" style="" tagname="h2"></w2:textbox>
+    				</xf:group>
+    			</xf:group>
+    			<xf:group class="btn_close" id="" style="" tagname="button"></xf:group>
+    		</xf:group>
+    		<xf:group class="container multisection" id="" style="" tagname="section">
+    			<xf:group class="" id="" style="" tagname="section">
+    				<xf:group class="innerbox16" id="" style="">
+    					<xf:group class="detailbox" id="">
+    						<xf:group class="itemlist" id="" style="">
+    							<xf:group class="item ly" id="" style="">
+    								<xf:group class="lta fn wd-80" id="" style="">
+    									<w2:textbox id="" label="번지주소" style="" tagname="label"></w2:textbox>
+    								</xf:group>
+    								<xf:group class="rta" id="" style="">
+    									<w2:textbox class="" id="" label="[서울시 마포구 상암동 1741-0] 상암월드컵파크11단지" style="" tagname="span"></w2:textbox>
+    								</xf:group>
+    							</xf:group>
+    							<xf:group class="item ly" id="" style="">
+    								<xf:group class="lta fn" id="" style="">
+    									<w2:textbox id="" label="도로명주소" style="" tagname="label"></w2:textbox>
+    								</xf:group>
+    								<xf:group class="rta" id="" style="">
+    									<w2:textbox class="" id="" label="서울 마포구 월드컵북로 502-37" style="" tagname="span"></w2:textbox>
+    								</xf:group>
+    							</xf:group>
+    						</xf:group>
+    					</xf:group>
+    				</xf:group>
+    			</xf:group>
+    			<xf:group class="" id="" style="" tagname="section">
+    				<xf:group class="titlebox2" id="" style="">
+    					<xf:group class="ly_form" id="">
+    						<xf:group class="lta" id="">
+    							<w2:textbox id="" label="제공가능 커버리지" style="" tagname="h3"></w2:textbox>
+    						</xf:group>
+    					</xf:group>
+    				</xf:group>
+    				<xf:group class="container_inner" id="" style="">
+    					<xf:group class="cardviewwrap" id="">
+    						<xf:group class="searchcardlist2" id="" style="">
+    							<xf:group class="selectview" id="" style="">
+    								<xf:select1 appearance="full" cols="" id="" ref="" renderType="radiogroup" rows="" selectedIndex="0"
+    									style="" name="radioName1">
+    									<xf:choices>
+    										<xf:item>
+    											<xf:label><![CDATA[]]></xf:label>
+    											<xf:value><![CDATA[]]></xf:value>
+    										</xf:item>
+    									</xf:choices>
+    								</xf:select1>
+    							</xf:group>
+    							<xf:group class="itemlist" id="" style="">
+    								<xf:group class="item" id="" style="">
+    									<w2:textbox class="txt_color_green" id="" label="개통가능" style="" tagname="label"></w2:textbox>
+    								</xf:group>
+    								<xf:group class="item" id="" style="">
+    									<w2:textbox class="" id="" label="광랜(G.hn/G.fast포함) 기가가능 (500M)" style="" tagname="span"></w2:textbox>
+    								</xf:group>
+    								<xf:group class="item" id="" style="">
+    									<w2:textbox class="txt_color_gray" id="" label="제공속도 | 기가가능(1G/500M)" style="" tagname="span"></w2:textbox>
+    								</xf:group>
+    							</xf:group>
+
+    						</xf:group>
+    						<xf:group class="searchcardlist2" id="" style="">
+    							<xf:group class="selectview" id="" style="">
+    								<xf:select1 appearance="full" cols="" id="" name="radioName1" ref="" renderType="radiogroup" rows=""
+    									selectedIndex="" style="">
+    									<xf:choices>
+    										<xf:item>
+    											<xf:label></xf:label>
+    											<xf:value></xf:value>
+    										</xf:item>
+    									</xf:choices>
+    								</xf:select1>
+    							</xf:group>
+    							<xf:group class="itemlist" id="" style="">
+    								<xf:group class="item" id="" style="">
+    									<w2:textbox class="txt_color_green" id="" label="개통가능" style="" tagname="label"></w2:textbox>
+    								</xf:group>
+    								<xf:group class="item" id="" style="">
+    									<w2:textbox class="" id="" label="주택 FTTH" style="" tagname="span"></w2:textbox>
+    								</xf:group>
+    							</xf:group>
+    						</xf:group>
+    						<xf:group class="searchcardlist2" id="" style="">
+    							<xf:group class="selectview" id="" style="">
+    								<xf:select1 appearance="full" cols="" id="" name="radioName1" ref="" renderType="radiogroup" rows=""
+    									selectedIndex="" style="">
+    									<xf:choices>
+    										<xf:item>
+    											<xf:label></xf:label>
+    											<xf:value></xf:value>
+    										</xf:item>
+    									</xf:choices>
+    								</xf:select1>
+    							</xf:group>
+    							<xf:group class="itemlist" id="" style="">
+    								<xf:group class="item" id="" style="">
+    									<w2:textbox class="txt_color_red" id="" label="서비스 제공불가" style="" tagname="label"></w2:textbox>
+    								</xf:group>
+    								<xf:group class="item" id="" style="">
+    									<w2:textbox class="" id="" label="광랜(G.hn/G.fast포함)" style="" tagname="span"></w2:textbox>
+    								</xf:group>
+    								<xf:group class="item" id="" style="">
+    									<w2:textbox class="txt_color_gray" id="" label="제공속도 | 기가불가" style="" tagname="span"></w2:textbox>
+    								</xf:group>
+    							</xf:group>
+    						</xf:group>
+    					</xf:group>
+    				</xf:group>
+    			</xf:group>
+    		</xf:group>
+    	</xf:group>
+    	<xf:group class="bottomsheet detail active" id="bottomSheet" style="">
+    		<xf:group class="bsbox" id="" style="">
+    			<xf:group class="bsboxwrap" id="bottomSheetWrap" style="">
+    				<xf:group class="contwrap" id="" style="">
+    					<xf:group class="detailbox" id="" style="">
+    						<xf:group class="itemlist" id="" style="">
+    							<xf:group class="item ly" id="" style="">
+    								<xf:group class="lta fn wd-100" id="" style="">
+    									<w2:textbox id="" label="참고사항" style="" tagname="label"></w2:textbox>
+    								</xf:group>
+    								<xf:group class="rta" id="" style="">
+    									<w2:textbox class="" id="" label="아파트는 광랜(500M), 상가는 광랜F(500M/1G) 가능" style="" tagname="span"></w2:textbox>
+    								</xf:group>
+    							</xf:group>
+    							<xf:group class="item ly" id="" style="">
+    								<xf:group class="lta fn wd-100" id="" style="">
+    									<w2:textbox id="" label="인입진행사항" style="" tagname="label"></w2:textbox>
+    								</xf:group>
+    								<xf:group class="rta" id="" style="">
+    									<w2:textbox class="" id="" label="아파트는 광랜(500M), 상가는 광랜F(500M/1G) 가능" style="" tagname="span"></w2:textbox>
+    								</xf:group>
+    							</xf:group>
+    						</xf:group>
+    					</xf:group>
+    				</xf:group>
+    				<xf:group class="touchbox" id="" style=""></xf:group>
+    			</xf:group>
+    		</xf:group>
+    	</xf:group>
+    </body>
+</html>

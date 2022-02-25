@@ -63,7 +63,7 @@
     			</xf:group>
     		</xf:group>
     	</xf:group>
-    	<xf:group class="bottomsheet" id="bottomSheet" style="">
+    	<xf:group class="bottomsheet active" id="bottomSheet" style="">
     		
     		<xf:group class="dim" id="btn_dim" style="" ev:onclick="scwin.btn_dim_onclick"></xf:group>
     		<xf:group class="bsbox" id="" style="">

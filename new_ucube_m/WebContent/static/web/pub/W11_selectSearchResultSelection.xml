@@ -40,7 +40,7 @@
     		</xf:group>
     		<xf:group class="container" id="" style="" tagname="section">
     			<xf:group class="white_bgbox" id="" style="">
-    				<xf:group class="white_bgboxwrap main titleinfo" id="">
+    				<xf:group class="white_bgboxwrap main" id="">
     					<xf:group class="navigation" id="" style="" tagname="section">
     						<xf:group class="titlebox2" id="" style="">
     							<xf:group class="ly_form" id="">
