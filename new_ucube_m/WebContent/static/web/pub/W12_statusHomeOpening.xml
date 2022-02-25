@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:ev="http://www.w3.org/2001/xml-events"
+    xmlns:w2="http://www.inswave.com/websquare" xmlns:xf="http://www.w3.org/2002/xforms">
+    <head meta_programName="12_홈개통진행현황">
+    	<w2:type>DEFAULT</w2:type>
+        <w2:buildDate/>
+        <xf:model>
+            <xf:instance>
+                <data xmlns=""/>
+            </xf:instance>
+            <w2:dataCollection baseNode="map">
+            </w2:dataCollection>
+            <w2:workflowCollection>
+            </w2:workflowCollection>
+        </xf:model>
+         <script type="text/javascript" lazy="false"><![CDATA[
+        
+	scwin.onpageload = function() {
+		
+	};
+	
+	scwin.onpageunload = function() {
+		
+	};
+	
+	]]></script>
+    </head>
+    <body ev:onpageload="scwin.onpageload" ev:onpageunload="scwin.onpageunload">
+    	<xf:group class="wrapper" id="" style="">
+    		<xf:group class="header  white_bg titleinfo" id="" style="" tagname="section">
+    			<xf:group class="titlebar" id="" style="">
+    				<xf:group class="cta" id="">
+    					<w2:textbox class="title" id="" label="홈개통진행현황" style="" tagname="h2"></w2:textbox>
+    				</xf:group>
+    			</xf:group>
+    			<xf:group class="user_info" id="">
+    				<w2:textbox class="text" id="" label="U+인터넷" style="" tagname="span"></w2:textbox>
+    				<w2:textbox class="dot" id="" label="dot" style="" tagname="i"></w2:textbox>
+    				<w2:textbox class="text" id="" label="광랜_19" style="" tagname="span"></w2:textbox>
+    			</xf:group>
+    			<xf:group class="btn_menu" id="" style="" tagname="button" text=""></xf:group>
+    			<xf:group class="btn_pre" id="" style="" tagname="button"></xf:group>
+    		</xf:group>
+    		<xf:group class="container" id="" style="" tagname="section">
+    			<xf:group class="white_bgbox" id="" style="">
+    				<xf:group class="white_bgboxwrap main titleinfo" id="">
+    					<xf:group class="navigation" id="" style="" tagname="section">
+    						<xf:group class="tabcontrol_type3" id="" style="">
+    							<xf:group class="processTabs" id="" style="" tagname="ul">
+    								<xf:group class="current" id="" style="" tagname="li">
+    									<xf:group id="" style="" tagname="button">
+    										<w2:textbox class="" id="" label="1" style="" tagname="em"></w2:textbox>
+    										<w2:textbox id="" label="청약" style="" tagname="span"></w2:textbox>
+    									</xf:group>
+    								</xf:group>
+    								<xf:group class="" id="" style="" tagname="li">
+    									<xf:group id="" style="" tagname="button">
+    										<w2:textbox class="" id="" label="2" style="" tagname="em"></w2:textbox>
+    										<w2:textbox id="" label="심사" style="" tagname="span"></w2:textbox>
+    									</xf:group>
+    								</xf:group>
+    								<xf:group id="" style="" tagname="li">
+    									<xf:group id="" style="" tagname="button">
+    										<w2:textbox class="" id="" label="3" style="" tagname="em"></w2:textbox>
+    										<w2:textbox id="" label="개통" style="" tagname="span"></w2:textbox>
+    									</xf:group>
+    								</xf:group>
+    							</xf:group>
+    							<xf:group class="tabbody" id="" style="">
+    							<xf:group id="" class="side_inner mt16"><xf:group style="" id="" class="detailbox">
+    									<xf:group style="" id="" class="itemlist">
+    										<xf:group style="" id="" class="item ly">
+    											<xf:group style="" id="" class="lta fn wd-110">
+    												<w2:textbox tagname="label" style="" id="" label="구분"></w2:textbox>
+    											</xf:group>
+    											<xf:group style="" id="" class="rta">
+    												<w2:textbox tagname="span" style="" id="" label="신규설치" class=""></w2:textbox>
+    											</xf:group>
+    										</xf:group>
+    										<xf:group style="" id="" class="item ly">
+    											<xf:group style="" id="" class="lta fn wd-110">
+    												<w2:textbox tagname="label" style="" id="" label="결합유형"></w2:textbox>
+    											</xf:group>
+    											<xf:group style="" id="" class="rta">
+    												<w2:textbox tagname="span" style="" id="" label="가족무한사랑(유무선) 결합유형" class="">
+    												</w2:textbox>
+    											</xf:group>
+    										</xf:group>
+    										<xf:group style="" id="" class="item ly">
+    											<xf:group style="" id="" class="lta fn wd-110">
+    												<w2:textbox tagname="label" style="" id="" label="변경전후정보"></w2:textbox>
+    											</xf:group>
+    											<xf:group style="" id="" class="rta">
+    												<w2:textbox tagname="span" style="" id="" label="U+인터넷 U+TV IoT" class=""></w2:textbox>
+    											</xf:group>
+    										</xf:group>
+    										<xf:group style="" id="" class="item ly">
+    											<xf:group style="" id="" class="lta fn wd-110">
+    												<w2:textbox tagname="label" style="" id="" label="상품/부가서비스"></w2:textbox>
+    											</xf:group>
+    											<xf:group style="" id="" class="rta">
+    												<w2:textbox tagname="span" style="" id="" label="안심광기가슬림_500M" class=""></w2:textbox>
+    											</xf:group>
+    										</xf:group>
+    										<xf:group style="" id="" class="item ly">
+    											<xf:group style="" id="" class="lta fn wd-110">
+    												<w2:textbox tagname="label" style="" id="" label="장비 및 정책"></w2:textbox>
+    											</xf:group>
+    											<xf:group style="" id="" class="rta">
+    												<w2:textbox tagname="span" style="" id="" label="기가Wifi 외 3건" class=""></w2:textbox>
+    											</xf:group>
+    										</xf:group>
+    										<xf:group style="" id="" class="item ly">
+    											<xf:group style="" id="" class="lta fn wd-110">
+    												<w2:textbox tagname="label" style="" id="" label="가입제한"></w2:textbox>
+    											</xf:group>
+    											<xf:group style="" id="" class="rta">
+    												<w2:textbox tagname="span" style="" id="" label="-" class=""></w2:textbox>
+    											</xf:group>
+    										</xf:group>
+    										<xf:group style="" id="" class="item ly">
+    											<xf:group style="" id="" class="lta fn wd-110">
+    												<w2:textbox tagname="label" style="" id="" label="사은품/오퍼"></w2:textbox>
+    											</xf:group>
+    											<xf:group style="" id="" class="rta">
+    												<w2:textbox tagname="span" style="" id="" label="홈플러스20만원 외 3건" class=""></w2:textbox>
+    											</xf:group>
+    										</xf:group>
+    										<xf:group style="" id="" class="item ly">
+    											<xf:group style="" id="" class="lta fn wd-110">
+    												<w2:textbox tagname="label" style="" id="" label="WAP심사번호"></w2:textbox>
+    											</xf:group>
+    											<xf:group style="" id="" class="rta">
+    												<w2:textbox tagname="span" style="" id="" label="010-****-0000" class=""></w2:textbox>
+    											</xf:group>
+    										</xf:group>
+    										<xf:group style="" id="" class="item ly">
+    											<xf:group style="" id="" class="lta fn wd-110">
+    												<w2:textbox tagname="label" style="" id="" label="신청인댁내대기자"></w2:textbox>
+    											</xf:group>
+    											<xf:group style="" id="" class="rta">
+    												<w2:textbox tagname="span" style="" id="" label="홍*동(010-****-0000)" class="">
+    												</w2:textbox>
+    											</xf:group>
+    										</xf:group>
+    										<xf:group style="" id="" class="item ly">
+    											<xf:group style="" id="" class="lta fn wd-110">
+    												<w2:textbox tagname="label" style="" id="" label="유치대리점"></w2:textbox>
+    											</xf:group>
+    											<xf:group style="" id="" class="rta">
+    												<w2:textbox tagname="span" style="" id="" label="고객센터OB부서" class=""></w2:textbox>
+    											</xf:group>
+    										</xf:group>
+    										<xf:group style="" id="" class="item ly">
+    											<xf:group style="" id="" class="lta fn wd-110">
+    												<w2:textbox tagname="label" style="" id="" label="유치자정보"></w2:textbox>
+    											</xf:group>
+    											<xf:group style="" id="" class="rta">
+    												<w2:textbox tagname="span" style="" id="" label="OOO 가입OB1팀" class=""></w2:textbox>
+    											</xf:group>
+    										</xf:group>
+    										<xf:group style="" id="" class="item ly">
+    											<xf:group style="" id="" class="lta fn wd-110">
+    												<w2:textbox tagname="label" style="" id="" label="114안내"></w2:textbox>
+    											</xf:group>
+    											<xf:group style="" id="" class="rta">
+    												<w2:textbox tagname="span" style="" id="" label="미가입" class=""></w2:textbox>
+    											</xf:group>
+    										</xf:group>
+    										<xf:group style="" id="" class="item ly">
+    											<xf:group style="" id="" class="lta fn wd-110">
+    												<w2:textbox tagname="label" style="" id="" label="설치주소"></w2:textbox>
+    											</xf:group>
+    											<xf:group style="" id="" class="rta">
+    												<w2:textbox tagname="span" style="" id="" label="서울 용산구 용산대로 ******** 상암월드컵파크 아파트 1102동 ***호" class="">
+    												</w2:textbox>
+    											</xf:group>
+    										</xf:group>
+    									</xf:group>
+    								</xf:group><xf:group style="" id="" class="infobox_type1 mt16">
+    									<xf:group style="" id="" class="dfbox">
+    										<xf:group style="" id="" class="lta">
+    											<w2:textbox tagname="h4" style="" id="" label="청약특이사항"></w2:textbox>
+    										</xf:group>
+    									</xf:group>
+    									<xf:group tagname="ul" style="height:100px" id="" text="" class="msg_list1">
+    										<xf:group tagname="li" style="" id="">
+    											<w2:textbox tagname="span" style="" id="" label="고객 빠른 내방 희망"></w2:textbox>
+    										</xf:group>
+    									</xf:group>
+    								</xf:group></xf:group></xf:group>
+    						</xf:group>
+    					</xf:group>
+    				</xf:group>
+    			</xf:group>
+    		</xf:group>
+    		<xf:group class="bottomMenu" id="" style="" tagname="section">
+    			<xf:group class="navbox" id="" style="">
+    				<xf:group class="menu01" id="" style="" tagname="button">
+    					<xf:group class="numberbox" id="">
+    						<w2:textbox class="num" id="" label="13" style=""></w2:textbox>
+    					</xf:group>
+    					<w2:textbox class="title" id="" label="To-Do" style=""></w2:textbox>
+    				</xf:group>
+    				<xf:group class="menu02-01 on" id="" style="" tagname="button">
+    					<w2:textbox class="title" id="" label="가입정보조회" style=""></w2:textbox>
+    				</xf:group>
+    				<xf:group class="menu03" id="" style="" tagname="button">
+    					<w2:textbox class="title" id="" label="사전조회" style=""></w2:textbox>
+    				</xf:group>
+    				<xf:group class="menu04" id="" style="" tagname="button">
+    					<w2:textbox class="title" id="" label="개통지역" style=""></w2:textbox>
+    				</xf:group>
+    				<xf:group class="menu05" id="" style="" tagname="button">
+    					<xf:group class="numberbox" id="" style="">
+    						<w2:textbox class="num" id="" label="3" style=""></w2:textbox>
+    					</xf:group>
+    					<w2:textbox class="title" id="" label="알림" style=""></w2:textbox>
+    				</xf:group>
+    			</xf:group>
+    		</xf:group>
+    	</xf:group>
+    </body>
+</html>

@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:ev="http://www.w3.org/2001/xml-events"
+    xmlns:w2="http://www.inswave.com/websquare" xmlns:xf="http://www.w3.org/2002/xforms">
+    <head meta_programName="12_개통단계진행중">
+    	<w2:type>DEFAULT</w2:type>
+        <w2:buildDate/>
+        <xf:model>
+            <xf:instance>
+                <data xmlns=""/>
+            </xf:instance>
+            <w2:dataCollection baseNode="map">
+            </w2:dataCollection>
+            <w2:workflowCollection>
+            </w2:workflowCollection>
+        </xf:model>
+         <script type="text/javascript" lazy="false"><![CDATA[
+        
+	scwin.onpageload = function() {
+		
+	};
+	
+	scwin.onpageunload = function() {
+		
+	};
+	
+	]]></script>
+    </head>
+    <body ev:onpageload="scwin.onpageload" ev:onpageunload="scwin.onpageunload">
+    	<xf:group class="wrapper" id="" style="">
+    		<xf:group class="header  white_bg titleinfo" id="" style="" tagname="section">
+    			<xf:group class="titlebar" id="" style="">
+    				<xf:group class="cta" id="">
+    					<w2:textbox class="title" id="" label="홈개통진행현황" style="" tagname="h2"></w2:textbox>
+    				</xf:group>
+    			</xf:group>
+    			<xf:group class="user_info" id="">
+    				<w2:textbox class="text" id="" label="U+인터넷" style="" tagname="span"></w2:textbox>
+    				<w2:textbox class="dot" id="" label="dot" style="" tagname="i"></w2:textbox>
+    				<w2:textbox class="text" id="" label="광랜_19" style="" tagname="span"></w2:textbox>
+    			</xf:group>
+    			<xf:group class="btn_menu" id="" style="" tagname="button" text=""></xf:group>
+    			<xf:group class="btn_pre" id="" style="" tagname="button"></xf:group>
+    		</xf:group>
+    		<xf:group class="container" id="" style="" tagname="section">
+    			<xf:group class="white_bgbox" id="" style="">
+    				<xf:group class="white_bgboxwrap main titleinfo" id="">
+    					<xf:group class="navigation" id="" style="" tagname="section">
+    						<xf:group class="tabcontrol_type3" id="" style="">
+    							<xf:group class="processTabs" id="" style="" tagname="ul">
+    								<xf:group class="complete" id="" style="" tagname="li">
+    									<xf:group id="" style="" tagname="button">
+    										<w2:textbox class="" id="" label="1" style="" tagname="em"></w2:textbox>
+    										<w2:textbox id="" label="청약" style="" tagname="span"></w2:textbox>
+    									</xf:group>
+    								</xf:group>
+    								<xf:group class="complete" id="" style="" tagname="li">
+    									<xf:group id="" style="" tagname="button">
+    										<w2:textbox class="" id="" label="2" style="" tagname="em"></w2:textbox>
+    										<w2:textbox id="" label="심사" style="" tagname="span"></w2:textbox>
+    									</xf:group>
+    								</xf:group>
+    								<xf:group id="" style="" tagname="li" class="current">
+    									<xf:group id="" style="" tagname="button">
+    										<w2:textbox class="" id="" label="3" style="" tagname="em"></w2:textbox>
+    										<w2:textbox id="" label="개통" style="" tagname="span"></w2:textbox>
+    									</xf:group>
+    								</xf:group>
+    							</xf:group>
+    							<xf:group class="tabbody" id="" style="">
+    								<xf:group id="" style="" tagname="section">
+    									<xf:group class="innerbox16" id="" style="">
+    										<xf:group class="diagrambg" id="" style="">
+    											<w2:textbox id="" label="다이어그램" style="" tagname="span"></w2:textbox>
+    										</xf:group>
+    									</xf:group>
+    								</xf:group>
+    								<xf:group id="" style="" tagname="section">
+    									<xf:group class="titlebox2" id="" style="">
+    										<w2:textbox id="" label="개통정보" style="" tagname="h3"></w2:textbox>
+    									</xf:group>
+    									<xf:group class="container_inner" id="" style="">
+    										<xf:group class="detailbox" id="" style="">
+    											<xf:group class="itemlist" id="" style="">
+    												<xf:group class="item ly" id="" style="">
+    													<xf:group class="lta fn wd-110" id="" style="">
+    														<w2:textbox id="" label="고객희망일자" style="" tagname="label"></w2:textbox>
+    													</xf:group>
+    													<xf:group class="rta" id="" style="">
+    														<w2:textbox class="" id="" label="2020-08-27" style="" tagname="span"></w2:textbox>
+    													</xf:group>
+    												</xf:group>
+    												<xf:group class="item ly" id="" style="">
+    													<xf:group class="lta fn wd-110" id="" style="">
+    														<w2:textbox id="" label="기사방문약속일시" style="" tagname="label"></w2:textbox>
+    													</xf:group>
+    													<xf:group class="rta" id="" style="">
+    														<w2:textbox class="" id="" label="2020-08-30" style="" tagname="span"></w2:textbox>
+    													</xf:group>
+    												</xf:group>
+    												<xf:group class="item ly" id="" style="">
+    													<xf:group class="lta fn wd-110" id="" style="">
+    														<w2:textbox id="" label="공사요청일" style="" tagname="label"></w2:textbox>
+    													</xf:group>
+    													<xf:group class="rta" id="" style="">
+    														<w2:textbox class="" id="" label="2020-08-23" style="" tagname="span"></w2:textbox>
+    													</xf:group>
+    												</xf:group>
+    												<xf:group class="item ly" id="" style="">
+    													<xf:group class="lta fn wd-110" id="" style="">
+    														<w2:textbox id="" label="공사완료예정일" style="" tagname="label"></w2:textbox>
+    													</xf:group>
+    													<xf:group class="rta" id="" style="">
+    														<w2:textbox class="txt_bold" id="" label="2020-08-26" style="" tagname="span"></w2:textbox>
+    													</xf:group>
+    												</xf:group>
+    												<xf:group class="item ly" id="" style="">
+    													<xf:group class="lta fn wd-110" id="" style="">
+    														<w2:textbox id="" label="공사완료일" style="" tagname="label"></w2:textbox>
+    													</xf:group>
+    													<xf:group class="rta" id="" style="">
+    														<w2:textbox class="txt_bold" id="" label="2020-08-27" style="" tagname="span"></w2:textbox>
+    													</xf:group>
+    												</xf:group>
+    												<xf:group class="item ly" id="" style="">
+    													<xf:group class="lta fn wd-110" id="" style="">
+    														<w2:textbox id="" label="난개통여부" style="" tagname="label"></w2:textbox>
+    													</xf:group>
+    													<xf:group class="rta" id="" style="">
+    														<w2:textbox class="" id="" label="일반개통" style="" tagname="span"></w2:textbox>
+    													</xf:group>
+    												</xf:group>
+    												<xf:group class="item ly" id="" style="">
+    													<xf:group class="lta fn wd-110" id="" style="">
+    														<w2:textbox id="" label="개통대리점/기사" style="" tagname="label"></w2:textbox>
+    													</xf:group>
+    													<xf:group class="rta" id="" style="">
+    														<w2:textbox class="txt_bold" id="" label="용산서비스센터/김용산 기사" style="" tagname="span"></w2:textbox>
+    													</xf:group>
+    												</xf:group>
+    												<xf:group class="item ly" id="" style="">
+    													<xf:group class="lta fn wd-110" id="" style="">
+    														<w2:textbox id="" label="적기여부" style="" tagname="label"></w2:textbox>
+    													</xf:group>
+    													<xf:group class="rta" id="" style="">
+    														<w2:textbox class="" id="" label="적기가능" style="" tagname="span"></w2:textbox>
+    													</xf:group>
+    												</xf:group>
+    												<xf:group class="item ly" id="" style="">
+    													<xf:group class="lta fn wd-110" id="" style="">
+    														<w2:textbox id="" label="공사현장담당자" style="" tagname="label"></w2:textbox>
+    													</xf:group>
+    													<xf:group class="rta" id="" style="">
+    														<w2:textbox class="txt_bold" id="" label="(주)엘지/이엘지 기사" style="" tagname="span"></w2:textbox>
+    													</xf:group>
+    												</xf:group>
+    											</xf:group>
+    										</xf:group>
+    										<xf:group class="infobox_type1 mt16" id="" style="">
+    											<xf:group class="dfbox" id="" style="">
+    												<xf:group class="lta" id="" style="">
+    													<w2:textbox id="" label="지연사유/공사담당자 의견" style="" tagname="h4"></w2:textbox>
+    												</xf:group>
+    											</xf:group>
+    											<xf:group class="msg_list1" id="" style="height:100px" tagname="ul" text="">
+    												<xf:group id="" style="" tagname="li">
+    													<w2:textbox id=""
+    														label="2020-08-23, 해당없음..... 20190824, 이엘지, 010-50.35-93.06,[실사예정]8/24일 현장 실사 예정" style="" tagname="span">
+    													</w2:textbox>
+    												</xf:group>
+    											</xf:group>
+    										</xf:group>
+    										<xf:group class="infobox_type1" id="" style="">
+    											<xf:group class="dfbox" id="" style="">
+    												<xf:group class="lta" id="" style="">
+    													<w2:textbox id="" label="중간처리/공정관리이력조회" style="" tagname="h4"></w2:textbox>
+    												</xf:group>
+    											</xf:group>
+    											<xf:group class="msg_list1" id="" style="height:100px" tagname="ul" text="">
+    												<xf:group id="" style="" tagname="li">
+    													<w2:textbox id="" label="한전공가 지연으로 완료일 변경 2020-08-27" style="" tagname="span"></w2:textbox>
+    												</xf:group>
+    											</xf:group>
+    										</xf:group>
+    									</xf:group>
+    								</xf:group>
+    							</xf:group>
+    						</xf:group>
+    					</xf:group>
+    				</xf:group>
+    			</xf:group>
+    		</xf:group>
+    		<xf:group class="bottomMenu" id="" style="" tagname="section">
+    			<xf:group class="navbox" id="" style="">
+    				<xf:group class="menu01" id="" style="" tagname="button">
+    					<xf:group class="numberbox" id="">
+    						<w2:textbox class="num" id="" label="13" style=""></w2:textbox>
+    					</xf:group>
+    					<w2:textbox class="title" id="" label="To-Do" style=""></w2:textbox>
+    				</xf:group>
+    				<xf:group class="menu02-01 on" id="" style="" tagname="button">
+    					<w2:textbox class="title" id="" label="가입정보조회" style=""></w2:textbox>
+    				</xf:group>
+    				<xf:group class="menu03" id="" style="" tagname="button">
+    					<w2:textbox class="title" id="" label="사전조회" style=""></w2:textbox>
+    				</xf:group>
+    				<xf:group class="menu04" id="" style="" tagname="button">
+    					<w2:textbox class="title" id="" label="개통지역" style=""></w2:textbox>
+    				</xf:group>
+    				<xf:group class="menu05" id="" style="" tagname="button">
+    					<xf:group class="numberbox" id="" style="">
+    						<w2:textbox class="num" id="" label="3" style=""></w2:textbox>
+    					</xf:group>
+    					<w2:textbox class="title" id="" label="알림" style=""></w2:textbox>
+    				</xf:group>
+    			</xf:group>
+    		</xf:group>
+    	</xf:group>
+    </body>
+</html>

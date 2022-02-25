@@ -80,6 +80,28 @@
     				<xf:group id="" style="" tagname="section">
     					<xf:group class="titlebox" id="" style="">
     						<w2:textbox id="" label="TabControl - Type3" style="" tagname="h3"></w2:textbox>
+    					</xf:group><xf:group class="tabcontrol_type3" id="" style="">
+    						<xf:group class="processTabs" id="" style="" tagname="ul">
+    							<xf:group class="current" id="" style="" tagname="li">
+    								<xf:group id="" style="" tagname="button">
+    									<w2:textbox class="" id="" label="1" style="" tagname="em"></w2:textbox>
+    									<w2:textbox id="" label="Tab1" style="" tagname="span"></w2:textbox>
+    								</xf:group>
+    							</xf:group>
+    							<xf:group class="" id="" style="" tagname="li">
+    								<xf:group id="" style="" tagname="button">
+    									<w2:textbox class="" id="" label="2" style="" tagname="em"></w2:textbox>
+    									<w2:textbox id="" label="Tab2" style="" tagname="span"></w2:textbox>
+    								</xf:group>
+    							</xf:group>
+    							<xf:group id="" style="" tagname="li">
+    								<xf:group id="" style="" tagname="button">
+    									<w2:textbox class="" id="" label="3" style="" tagname="em"></w2:textbox>
+    									<w2:textbox id="" label="Tab3" style="" tagname="span"></w2:textbox>
+    								</xf:group>
+    							</xf:group>
+    						</xf:group>
+    						<xf:group class="tabbody" id="" style="height: 35px;"></xf:group>
     					</xf:group>
     					<xf:group class="tabcontrol_type3" id="" style="">
     						<xf:group id="" style="" class="processTabs" tagname="ul">
@@ -103,6 +125,30 @@
     							</xf:group>
     						</xf:group>
     						<xf:group id="" style="height: 35px;" class="tabbody"></xf:group>
+    					</xf:group>
+    					
+    					<xf:group class="tabcontrol_type3" id="" style="">
+    						<xf:group class="processTabs" id="" style="" tagname="ul">
+    							<xf:group class="complete" id="" style="" tagname="li">
+    								<xf:group id="" style="" tagname="button">
+    									<w2:textbox class="" id="" label="1" style="" tagname="em"></w2:textbox>
+    									<w2:textbox id="" label="Tab1" style="" tagname="span"></w2:textbox>
+    								</xf:group>
+    							</xf:group>
+    							<xf:group class="complete" id="" style="" tagname="li">
+    								<xf:group id="" style="" tagname="button">
+    									<w2:textbox class="" id="" label="2" style="" tagname="em"></w2:textbox>
+    									<w2:textbox id="" label="Tab2" style="" tagname="span"></w2:textbox>
+    								</xf:group>
+    							</xf:group>
+    							<xf:group id="" style="" tagname="li" class="current">
+    								<xf:group id="" style="" tagname="button">
+    									<w2:textbox class="" id="" label="3" style="" tagname="em"></w2:textbox>
+    									<w2:textbox id="" label="Tab3" style="" tagname="span"></w2:textbox>
+    								</xf:group>
+    							</xf:group>
+    						</xf:group>
+    						<xf:group class="tabbody" id="" style="height: 35px;"></xf:group>
     					</xf:group>
     				</xf:group>
 
