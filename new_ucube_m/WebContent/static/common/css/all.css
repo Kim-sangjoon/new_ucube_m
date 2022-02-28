@@ -375,6 +375,31 @@
     --textcolor-gray:#8996A3;
     --textcolor-green:#2FB8A8;
     --textcolor-red:#F94B50;
+    --bgcolor-diagrambg:#F5F7FA;
+    --ico-flow-down-4col-inner-dotted:url(./../images/ico_flow_down_4col_inner_dotted.svg);
+    --ico-flow-down-left-down-4col-inner-solid:url(./../images/ico_flow_down_left_down_4col_inner_solid.svg);
+    --ico-flow-right-4col-inner-dotted:url(./../images/ico_flow_right_4col_inner_dotted.svg);
+    --ico-flow-right-4col-inner-solid:url(./../images/ico_flow_right_4col_inner_solid.svg);
+    --ico-flow-right-down-4col-dotted:url(./../images/ico_flow_right_down_4col_dotted.svg);
+    --ico-flow-right-up-4col-dotted:url(./../images/ico_flow_right_up_4col_dotted.svg);
+    --ico-flow-right-4col-solid:url(./../images/ico_flow_right_4col_solid.svg);
+    --ico-flow-right-up-3col-dotted:url(./../images/ico_flow_right_up_3col_dotted.svg);
+    --ico-flow-right-down-3col-dotted:url(./../images/ico_flow_right_down_3col_dotted.svg);
+    --ico-flow-right-up-3col-solid:url(./../images/ico_flow_right_up_3col_solid.svg);
+    --ico-flow-right-3col-solid:url(./../images/ico_flow_right_3col_solid.svg);
+    --bgcolor-diagrambg-inner:#E7EEF5;
+    --bgcolor-diagram-item-itembox:#BEC9D4;
+    --textcolor-diagram-item-itembox:#FFFFFF;
+    --bordercolor-diagram-item-itembox:#BEC9D4;
+    --bgcolor-diagram-item-itembox-complete:#FFFFFF;
+    --textcolor-diagram-item-itembox-complete:#6B7682;
+    --bordercolor-diagram-item-itembox-complete:#6B7682;
+    --bgcolor-diagram-item-itembox-current:#8862F5;
+    --textcolor-diagram-item-itembox-current:#FFFFFF;
+    --bordercolor-diagram-item-itembox-current:#8862F5;
+    --textcolor-diagrambg-inner-status:#8996A3;
+    --ico-arrow-down20:url(./../images/ico_arrow_down20.svg);
+    
 
 
 
@@ -761,6 +786,30 @@
     --textcolor-gray:#F5F6FA;
     --textcolor-green:#8E929E;
     --textcolor-red:#8E929E;
+    --bgcolor-diagrambg:#303135;
+    --ico-flow-down-4col-inner-dotted:url(./../images/ico_flow_down_4col_inner_dotted_dark.svg);
+    --ico-flow-down-left-down-4col-inner-solid:url(./../images/ico_flow_down_left_down_4col_inner_solid_dark.svg);
+    --ico-flow-right-4col-inner-dotted:url(./../images/ico_flow_right_4col_inner_dotted_dark.svg);
+    --ico-flow-right-4col-inner-solid:url(./../images/ico_flow_right_4col_inner_solid_dark.svg);
+    --ico-flow-right-down-4col-dotted:url(./../images/ico_flow_right_down_4col_dotted_dark.svg);
+    --ico-flow-right-up-4col-dotted:url(./../images/ico_flow_right_up_4col_dotted_dark.svg);
+    --ico-flow-right-4col-solid:url(./../images/ico_flow_right_4col_solid_dark.svg);
+    --ico-flow-right-up-3col-dotted:url(./../images/ico_flow_right_up_3col_dotted_dark.svg);
+    --ico-flow-right-down-3col-dotted:url(./../images/ico_flow_right_down_3col_dotted_dark.svg);
+    --ico-flow-right-up-3col-solid:url(./../images/ico_flow_right_up_3col_solid_dark.svg);
+    --ico-flow-right-3col-solid:url(./../images/ico_flow_right_3col_solid_dark.svg);
+    --bgcolor-diagrambg-inner:#3B3C41;
+    --bgcolor-diagram-item-itembox:#595D66;
+    --textcolor-diagram-item-itembox:#FFFFFF;
+    --bordercolor-diagram-item-itembox:#595D66;
+    --bgcolor-diagram-item-itembox-complete:transparent;
+    --textcolor-diagram-item-itembox-complete:#C2C5CE;
+    --bordercolor-diagram-item-itembox-complete:#595D66;
+    --bgcolor-diagram-item-itembox-current:#8862F5;
+    --textcolor-diagram-item-itembox-current:#FFFFFF;
+    --bordercolor-diagram-item-itembox-current:#8862F5;
+    --textcolor-diagrambg-inner-status:#8E929E;
+    --ico-arrow-down20:url(./../images/ico_arrow_down20_dark.svg);
 
 
 
@@ -2294,7 +2343,7 @@ input.adsearch{padding-left:40px; background-image:url(./../images/ico_search32.
 .txt_color_green{color:var(--textcolor-green) !important}
 .txt_color_red{color:var(--textcolor-red) !important}
 
-/* 탭상세보기 */
+/* cardview list */
 .detailbox > .itemlist{line-height: 1.2}
 .detailbox > .itemlist > .item + .item{margin-top:14px}
 .detailbox > .itemlist > .item{line-height: 20px}
@@ -2302,17 +2351,58 @@ input.adsearch{padding-left:40px; background-image:url(./../images/ico_search32.
 .detailbox > .itemlist > .item span{font-size: 14px; font-weight:400; color:var(--textcolor-detailbox-itemlist-item-span)}
 .detailbox > .itemlist > .item span + *{margin-left:8px}
 
+/* tabcontrol_type3 */
 .container section.navigation .tabcontrol_type3{padding-bottom:0 !important}
 .container section.navigation .tabcontrol_type3 .tabbody{width:auto; padding-bottom:90px; background:var(--bgcolor-container-inner)}
-/* 상세보기 */
+/* tabcontrol_type3 body */
 .tabbody section{position:relative}
 .tabbody section + section{padding-top:8px}
 .tabbody section + section::before{content: ''; position:absolute; top:0; display:block; width:100%; height: 8px; background: var(--bordercolor-messageboxwrap-main-section)}
-.diagrambg{display:flex; justify-content:center; align-items:center; padding:16px 0; background:#F5F7FA; border-radius:8px}
 
-
-
-
+/* diagram */
+.diagrambg{display:flex; justify-content:center; align-items:center; padding:16px 0; background:var(--bgcolor-diagrambg); border-radius:8px}
+.diagrambg_inner{display:flex; justify-content:center; align-items:center; background:var(--bgcolor-diagrambg-inner); border-radius:8px; padding-right:8px; padding-bottom:10px}
+.diagrambg.col,
+.diagrambg_inner.col{flex-direction: column}
+/* 3단계 */
+.ly_diagram_3col{display:flex; height:90px}
+.ly_diagram_3col .item{display:flex; flex:1; justify-content:center; align-items:center;}
+.ly_diagram_3col .item.col{flex-direction:column}
+.ly_diagram_3col .item.col .itembox + .itembox{margin-top:10px}
+.ly_diagram_3col .item .itembox{display:flex; justify-content:center; align-items:center; text-align:center; width:64px; height:100%; font-size:12px; font-weight:700; background:var(--bgcolor-diagram-item-itembox); color:var(--textcolor-diagram-item-itembox); border:1px solid var(--bordercolor-diagram-item-itembox); box-sizing:border-box; border-radius: 8px; white-space:nowrap}
+.ly_diagram_3col .item .itembox.complete{background:var(--bgcolor-diagram-item-itembox-complete); color:var(--textcolor-diagram-item-itembox-complete); border:1px solid var(--bordercolor-diagram-item-itembox-complete)}
+.ly_diagram_3col .item .itembox.current{background:var(--bgcolor-diagram-item-itembox-current); color:var(--textcolor-diagram-item-itembox-current); border:1px solid var(--bordercolor-diagram-item-itembox-current)}
+.ly_diagram_3col .flow{flex:none; width:28px}
+.ly_diagram_3col .flow.arrow_right{background:var(--ico-arrow-right20) no-repeat center center}
+/* 4단계 */
+.ly_diagram_4col{display:flex; height:90px}
+.ly_diagram_4col .item{display:flex; flex:1; justify-content:center; align-items:center;}
+.ly_diagram_4col .item.col{flex-direction:column}
+.ly_diagram_4col .item.col .itembox + .itembox{margin-top:10px}
+.ly_diagram_4col .item .itembox{display:flex; justify-content:center; align-items:center; text-align:center; width:56px; height:100%; font-size:12px; font-weight:700; background:var(--bgcolor-diagram-item-itembox); color:var(--textcolor-diagram-item-itembox); border:1px solid var(--bordercolor-diagram-item-itembox); box-sizing:border-box; border-radius: 8px; white-space:nowrap}
+.ly_diagram_4col .item .itembox.complete{background:var(--bgcolor-diagram-item-itembox-complete); color:var(--textcolor-diagram-item-itembox-complete); border:1px solid var(--bordercolor-diagram-item-itembox-complete)}
+.ly_diagram_4col .item .itembox.current{background:var(--bgcolor-diagram-item-itembox-current); color:var(--textcolor-diagram-item-itembox-current); border:1px solid var(--bordercolor-diagram-item-itembox-current)}
+.ly_diagram_4col .flow{flex:none; width:20px}
+.ly_diagram_4col .flow.arrow_right{background:var(--ico-arrow-right20) no-repeat center center}
+/* 그리드형 */
+.ly_diagram_grid{display:flex; height:40px; width:304px}
+/* .ly_diagram_grid.col{flex-direction:column} */
+.ly_diagram_grid .item{display:flex; flex:1; justify-content:center; align-items:center;}
+.ly_diagram_grid .item.col{flex-direction:column}
+.ly_diagram_grid .item.col .itembox + .itembox{margin-top:10px}
+.ly_diagram_grid .item .itembox{display:flex; justify-content:center; align-items:center; text-align:center; width:56px; height:100%; font-size:12px; font-weight:700; background:var(--bgcolor-diagram-item-itembox); color:var(--textcolor-diagram-item-itembox); border:1px solid var(--bordercolor-diagram-item-itembox); box-sizing:border-box; border-radius: 8px; white-space:nowrap}
+.ly_diagram_grid .item .itembox.complete{background:var(--bgcolor-diagram-item-itembox-complete); color:var(--textcolor-diagram-item-itembox-complete); border:1px solid var(--bordercolor-diagram-item-itembox-complete)}
+.ly_diagram_grid .item .itembox.current{background:var(--bgcolor-diagram-item-itembox-current); color:var(--textcolor-diagram-item-itembox-current); border:1px solid var(--bordercolor-diagram-item-itembox-current)}
+.ly_diagram_grid .flow{flex:none; width:20px}
+.ly_diagram_grid .flow.arrow_right{background:var(--ico-arrow-right20) no-repeat center center}
+.diagrambg_inner .status{font-size:11px; font-weight:700; color:var(--textcolor-diagrambg-inner-status); margin:4px auto 5px auto}
+.ly_diagram_grid.topline{margin-bottom:12px; padding-left:20px; width:292px}
+.ly_diagram_grid.topline .item{flex:none}
+.ly_diagram_grid.bottomline{margin-top:20px; position:relative}
+.ly_diagram_grid.bottomline .item{position:relative; flex:none; height:100%}
+.ly_diagram_grid.bottomline .item::before{content: ''; display:block; position:absolute; top:-20px; left:calc(50% - 10px); width:20px; height:20px; background:var(--ico-arrow-down20) no-repeat}
+.ly_diagram_grid.bottomline .item.install{position:absolute; left:92px}
+.ly_diagram_grid.bottomline .item.cancel{position:absolute; right:4px}
 
 
 

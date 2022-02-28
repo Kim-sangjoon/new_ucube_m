@@ -73,18 +73,51 @@
     										<w2:textbox id="" label="WAP 심사" style="" tagname="h3"></w2:textbox>
     									</xf:group>
     									<xf:group id="" style="" class="container_inner">
-    										<xf:group id="" style="" class="diagrambg">
-    											<w2:textbox id="" label="다이어그램" style="" tagname="span"></w2:textbox>
-    										</xf:group>
-    									</xf:group>
+    									<xf:group id="" class="diagram"><xf:group style="" id="" class="diagrambg">
+	<xf:group id="" class="ly_diagram_3col">
+		<xf:group id="" class="item">
+			<w2:textbox tagname="span" style="" id="" label="심사요청" class="itembox complete"></w2:textbox>
+		</xf:group>
+		<xf:group class="flow arrow_right" id="" style=""></xf:group>
+
+		<xf:group id="" class="item">
+			<w2:textbox tagname="span" style="" id="" label="심사중" class="itembox complete"></w2:textbox>
+		</xf:group>
+		<xf:group class="flow arrow_right" id="" style=""></xf:group>
+		<xf:group id="" class="item col">
+			<w2:textbox tagname="span" style="" id="" label="심사완료" class="itembox current"></w2:textbox>
+			<w2:textbox tagname="span" style="" id="" label="심사반려" class="itembox"></w2:textbox>
+		</xf:group>
+	</xf:group></xf:group></xf:group></xf:group>
     								</xf:group>
     								<xf:group id="" style="" tagname="section">
     									<xf:group class="titlebox2" id="" style="">
     										<w2:textbox id="" label="고객정보 활용동의 심사" style="" tagname="h3"></w2:textbox>
     									</xf:group>
     									<xf:group class="container_inner" id="" style="">
-    										<xf:group class="diagrambg" id="" style="">
-    											<w2:textbox id="" label="다이어그램" style="" tagname="span"></w2:textbox>
+    										<xf:group class="diagram" id="">
+    											<xf:group class="diagrambg" id="" style="">
+    												<xf:group class="ly_diagram_3col" id="">
+    													<xf:group class="item" id="">
+    														<w2:textbox class="itembox complete" id="" label="심사요청" style=""
+    															tagname="span">
+    														</w2:textbox>
+    													</xf:group>
+    													<xf:group class="flow arrow_right" id="" style=""></xf:group>
+    													<xf:group class="item" id="">
+    														<w2:textbox class="itembox current" id="" label="심사중" style=""
+    															tagname="span">
+    														</w2:textbox>
+    													</xf:group>
+    													<xf:group class="flow arrow_right" id="" style=""></xf:group>
+    													<xf:group class="item col" id="">
+    														<w2:textbox class="itembox" id="" label="심사완료" style=""
+    															tagname="span">
+    														</w2:textbox>
+    														<w2:textbox class="itembox" id="" label="심사반려" style="" tagname="span"></w2:textbox>
+    													</xf:group>
+    												</xf:group>
+    											</xf:group>
     										</xf:group>
     									</xf:group>
     								</xf:group>
@@ -93,8 +126,29 @@
     										<w2:textbox id="" label="번호이동 심사" style="" tagname="h3"></w2:textbox>
     									</xf:group>
     									<xf:group class="container_inner" id="" style="">
-    										<xf:group class="diagrambg" id="" style="">
-    											<w2:textbox id="" label="다이어그램" style="" tagname="span"></w2:textbox>
+    										<xf:group class="diagram" id="" style="">
+    											<xf:group class="diagrambg" id="" style="">
+    												<xf:group class="ly_diagram_4col" id="">
+    													<xf:group class="item" id="">
+    														<w2:textbox class="itembox complete" id="" label="심사요청" style=""
+    															tagname="span">
+    														</w2:textbox>
+    													</xf:group>
+    													<xf:group class="flow arrow_right" id="" style=""></xf:group>
+    													<xf:group class="item" id="">
+    														<w2:textbox class="itembox current" id="" label="심사중" style="" tagname="span"></w2:textbox>
+    													</xf:group>
+    													<xf:group class="flow arrow_right" id="" style=""></xf:group>
+    													<xf:group class="item col" id="">
+    														<w2:textbox class="itembox" id="" label="심사완료" style="" tagname="span"></w2:textbox>
+    														<w2:textbox class="itembox" id="" label="심사반려" style="" tagname="span"></w2:textbox>
+    													</xf:group>
+    													<xf:group class="flow arrow_right" id="" style=""></xf:group>
+    													<xf:group class="item" id="" style="">
+    														<w2:textbox class="itembox" id="" label="꼬리표&lt;br/&gt;발행" style="" tagname="span"></w2:textbox>
+    													</xf:group>
+    												</xf:group>
+    											</xf:group>
     										</xf:group>
     									</xf:group>
     								</xf:group>
