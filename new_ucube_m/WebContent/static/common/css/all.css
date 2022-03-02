@@ -399,6 +399,7 @@
     --bordercolor-diagram-item-itembox-current:#8862F5;
     --textcolor-diagrambg-inner-status:#8996A3;
     --ico-arrow-down20:url(./../images/ico_arrow_down20.svg);
+    --bordercolor-radiolistview-itemlist:#E8EFF5;
     
 
 
@@ -810,6 +811,7 @@
     --bordercolor-diagram-item-itembox-current:#8862F5;
     --textcolor-diagrambg-inner-status:#8E929E;
     --ico-arrow-down20:url(./../images/ico_arrow_down20_dark.svg);
+    --bordercolor-radiolistview-itemlist:#45484F;
 
 
 
@@ -1022,11 +1024,11 @@ input[type="radio"]:checked + .w2radio_label.w2radio_disabled:before, input[type
 .w2radio.filterbtn .w2radio_item, .w2checkbox.filterbtn .w2checkbox_item{height:27px; display:inline-block; margin-right:0; padding-top:0; box-sizing:border-box}
 .w2radio.filterbtn .w2radio_item + .w2radio_item, .w2checkbox.filterbtn .w2checkbox_item + .w2checkbox_item{margin-left:4px}
 .w2checkbox.filterbtn + .w2checkbox.filterbtn{margin-left:4px}
-.filterbtn .w2radio_label, .filterbtn .w2checkbox_label, .filterbtn .w2table_ccb_col_label{background-color:transparent; border:1px solid var(--bordercolor-filterbtn); box-sizing:border-box; border-radius:5px; font-size:13px; height:27px; line-height:2; font-weight:700; color:var(--textcolor-filterbtn); padding:0 8px}
+.filterbtn .w2radio_label, .filterbtn .w2checkbox_label, .filterbtn .w2table_ccb_col_label{background-color:transparent; border:1px solid var(--bordercolor-filterbtn); box-sizing:border-box; border-radius:5px; font-size:13px; height:27px; line-height:2; font-weight:700 !important; color:var(--textcolor-filterbtn) !important; padding:0 8px}
 .filterbtn .w2radio_label + .filterbtn .w2radio_label, .filterbtn .w2checkbox_label + .filterbtn .w2checkbox_label, .filterbtn .w2table_ccb_col_label + .filterbtn .w2table_ccb_col_label{margin-left:8px}
 .filterbtn .w2checkbox_label:before, .filterbtn .w2table_ccb_col_label:before{content:''; position:absolute; left:0; top:0; width:1px; height:1px; margin-top:0; background:none}
 .filterbtn input[type="checkbox"]:checked + .w2checkbox_label:before, .filterbtn input[type="checkbox"]:checked + .w2table_ccb_col_label:before{background:none}
-.filterbtn input[type="checkbox"]:checked + .w2checkbox_label, .filterbtn input[type="checkbox"]:checked + .w2table_ccb_col_label{background-color:var(--bgcolor-filterbtn-checked); border:1px solid var(--bordercolor-filterbtn-checked); color:var(--textcolor-filterbtn-checked)}
+.filterbtn input[type="checkbox"]:checked + .w2checkbox_label, .filterbtn input[type="checkbox"]:checked + .w2table_ccb_col_label{background-color:var(--bgcolor-filterbtn-checked); border:1px solid var(--bordercolor-filterbtn-checked); color:var(--textcolor-filterbtn-checked) !important}
 
 .selbtnwrap{flex:1}
 .selbtnwrap + .selbtnwrap{margin-top:8px}
@@ -1172,6 +1174,8 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow:hidd
 .container.confirmlist{height:calc(100% - 135px)}
 .wrapper.popup .container{height:calc(100% - 55px); padding-bottom:0}
 .container.nobottom{display:block; height:calc( 100vh - 55px)}
+.container.topborder{position:relative; background: var(--bgcolor-container-inner) !important}
+.container.topborder::before{content: ''; position:absolute; top:0; display:block; width:100%; height: 8px; background: var(--bordercolor-messageboxwrap-main-section)}
 .container .container_inner{padding:0 16px 16px 16px}
 .header.white_bg + .container .container_inner{background: var(--bgcolor-container-inner)}
 .container.vcenter .container_inner{flex:1}
@@ -1549,6 +1553,7 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow:hidd
 .white_bgbox .titlebox h3, .titlebox h3{color:var(--textcolor-titlebox-h3); line-height:32px; font-size:15px; font-weight:700}
 .white_bgbox .white_bgboxwrap{height:calc(100vh - 143px)}
 .white_bgbox .white_bgboxwrap.main{height:calc(100vh - 135px); margin-top:8px}
+.topborder .white_bgbox .white_bgboxwrap.main{height:calc(100vh - 143px)}
 .white_bgbox .white_bgboxwrap.main.titleinfo{height:100%}
 
 .messagebox{position:relative; background:var(--bgcolor-messagbox); height:100%; width:100%}
@@ -2405,12 +2410,19 @@ input.adsearch{padding-left:40px; background-image:url(./../images/ico_search32.
 .ly_diagram_grid.bottomline .item.cancel{position:absolute; right:4px}
 
 
+/* radiolist */
+.radiolistfilterwrap{padding: 16px}
+.radiolistwrap{}
+.radiolistwrap .radiolistview{}
+.radiolistwrap .radiolistview .itemlist{padding:13px 16px 13px 22px}
+.radiolistwrap .radiolistview .itemlist + .itemlist{border-top:1px solid var(--bordercolor-radiolistview-itemlist)}
+.radiolistwrap .radiolistview .itemlist .w2radio_label{padding-left:43px; font-size:13px}
+.radiolistwrap .radiolistview .itemlist .ly .rta > span{font-size:13px}
 
+.topborder .white_bgboxwrap.main .contentswrap{}
+.topborder .white_bgboxwrap.main .contentswrap.bottombtn{padding-bottom:80px}
 
-
-
-
-
-
-
-
+.topborder .bottomfix.main{position:fixed; background:var(--bgcolor-messagebox-bottomfix-main); padding:16px; bottom:72px; width:calc(100% - 32px); box-shadow:var(--shadow-messagebox-bottomfix-main)}
+.topborder .bottomfix.main.nobottom{bottom:0px}
+.topborder .bottomfix.main .btnbox{margin-top:0; padding:0}
+.topborder .bottomfix.main.noshadow{box-shadow:none}
