@@ -400,6 +400,11 @@
     --textcolor-diagrambg-inner-status:#8996A3;
     --ico-arrow-down20:url(./../images/ico_arrow_down20.svg);
     --bordercolor-radiolistview-itemlist:#E8EFF5;
+    --bgcolor-textbox-title-titbox:#FFFFFF;
+    --textcolor-filename:#56606B;
+    --bgcolor-docconfirmbox:#FFFFFF;
+    --bordercolor-docconfirmbox:#BEC9D4;
+    --ico-file26:url(./../images/ico_file26.svg);
     
 
 
@@ -812,6 +817,11 @@
     --textcolor-diagrambg-inner-status:#8E929E;
     --ico-arrow-down20:url(./../images/ico_arrow_down20_dark.svg);
     --bordercolor-radiolistview-itemlist:#45484F;
+    --bgcolor-textbox-title-titbox:#202022;
+    --textcolor-filename:#C2C5CE;
+    --bgcolor-docconfirmbox:#29292B;
+    --bordercolor-docconfirmbox:#70747D;
+    --ico-file26:url(./../images/ico_file26_dark.svg);
 
 
 
@@ -1819,6 +1829,7 @@ input.adsearch{padding-left:40px; background-image:url(./../images/ico_search32.
 .bottomsheet .bsbox .bsboxwrap h4{margin-top:9px; font-weight:700; font-size:14px; line-height:22px; color:var(--textcolor-bottomsheet-bsbox-bsboxwrap-h4)}
 .bottomsheet .bsbox .bsboxwrap .content{margin-top:4px; font-size:14px; font-weight:400; color:var(--textcolor-bottomsheet-bsbox-bsboxwrap-content)}
 .bottomsheet .btnboxwrap{padding:16px; box-shadow:var(--boxshadow-btnbox)}
+.bottomsheet .btnboxwrap.noshadow{box-shadow:none}
 .bottomsheet .totalwrap{padding:16px; background:#7B558D}
 .bottomsheet .btnboxwrap .btnbox{margin-top:0}
 
@@ -2409,20 +2420,42 @@ input.adsearch{padding-left:40px; background-image:url(./../images/ico_search32.
 .ly_diagram_grid.bottomline .item.install{position:absolute; left:92px}
 .ly_diagram_grid.bottomline .item.cancel{position:absolute; right:4px}
 
-
 /* radiolist */
 .radiolistfilterwrap{padding: 16px}
-.radiolistwrap{}
-.radiolistwrap .radiolistview{}
 .radiolistwrap .radiolistview .itemlist{padding:13px 16px 13px 22px}
 .radiolistwrap .radiolistview .itemlist + .itemlist{border-top:1px solid var(--bordercolor-radiolistview-itemlist)}
 .radiolistwrap .radiolistview .itemlist .w2radio_label{padding-left:43px; font-size:13px}
 .radiolistwrap .radiolistview .itemlist .ly .rta > span{font-size:13px}
-
-.topborder .white_bgboxwrap.main .contentswrap{}
 .topborder .white_bgboxwrap.main .contentswrap.bottombtn{padding-bottom:80px}
-
 .topborder .bottomfix.main{position:fixed; background:var(--bgcolor-messagebox-bottomfix-main); padding:16px; bottom:72px; width:calc(100% - 32px); box-shadow:var(--shadow-messagebox-bottomfix-main)}
 .topborder .bottomfix.main.nobottom{bottom:0px}
 .topborder .bottomfix.main .btnbox{margin-top:0; padding:0}
 .topborder .bottomfix.main.noshadow{box-shadow:none}
+
+/* 문서확인버튼박스 */
+.docconfirmbox{display:inline-block; width:100%; box-sizing: border-box; background:var(--bgcolor-docconfirmbox); border:1px solid var(--bordercolor-docconfirmbox); border-radius: 4px}
+.docconfirmbox .rta{display:flex; align-items: center; padding-right:16px}
+.filename{padding-left:41px; font-size:15px; font-weight:700; line-height:48px; color:var(--textcolor-filename); background:var(--ico-file26) no-repeat 13px center}
+.btn_cfs{background:#E8EFF5; border-radius:99px; height:26px}
+.btn_cfs.on{background:#2FB8A8}
+.btn_cfs.ico{display:flex; align-items:center; padding:0 10px}
+.btn_cfs.ico span{color:#BEC9D4; font-size:13px; font-weight:400; line-height:26px}
+.btn_cfs.on.ico span{color:#FFFFFF}
+.btn_cfs.ico em{margin-left:3px; color:transparent; font-size:13px; font-weight:400; line-height:26px; width:17px; height:17px; background:url(./../images/ico_check.svg) no-repeat center center}
+.btn_cfs.on.ico em{background:url(./../images/ico_check_on.svg) no-repeat center center}
+
+/* textbox ul */
+.textbox.title{padding:0}
+.textbox.title .titbox{display:inline-block; width:100%; background:var(--bgcolor-textbox-title-titbox)}
+.textbox.title .titbox span{font-size:14px; font-weight:500; color:var(--main-txtcolor-title); padding-left:16px; line-height:38px;}
+.textbox ul.contbox{padding-left:0}
+.textbox ul.contbox li{position:relative}
+.textbox ul.contbox li + li{margin-top:8px}
+.textbox ul.contbox li span{font-size:14px; color:var(--textcolor-ol-numberbox-li-span); font-weight:400}
+.bgtp{background:transparent !important}
+
+
+
+
+
+
