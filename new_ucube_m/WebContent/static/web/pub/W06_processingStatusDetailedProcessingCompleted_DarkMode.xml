@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:ev="http://www.w3.org/2001/xml-events"
+    xmlns:w2="http://www.inswave.com/websquare" xmlns:xf="http://www.w3.org/2002/xforms">
+    <head meta_programName="06_처리현황상세 - 처리완료">
+    	<w2:type>DEFAULT</w2:type>
+        <w2:buildDate/>
+        <xf:model>
+            <xf:instance>
+                <data xmlns=""/>
+            </xf:instance>
+            <w2:dataCollection baseNode="map">
+            </w2:dataCollection>
+            <w2:workflowCollection>
+            </w2:workflowCollection>
+        </xf:model>
+         <script type="text/javascript" lazy="false"><![CDATA[
+        
+	scwin.onpageload = function() {
+		
+	};
+	
+	scwin.onpageunload = function() {
+		
+	};
+	
+	]]></script>
+    </head>
+    <body ev:onpageload="scwin.onpageload" ev:onpageunload="scwin.onpageunload" class="dark">
+    	<xf:group class="wrapper" id="" style="">
+    		<xf:group class="header white_bg" id="" style="" tagname="section">
+    			<xf:group class="titlebar" id="" style="">
+    				<xf:group class="cta" id="">
+    					<w2:textbox class="title" id="" label="처리완료" style="" tagname="h2"></w2:textbox>
+    				</xf:group>
+    			</xf:group>
+    			<xf:group class="btn_menu" id="" style="" tagname="button"></xf:group>
+    			<xf:group class="btn_pre" id="" style="" tagname="button"></xf:group>
+    		</xf:group>
+    		<xf:group class="container multisection btnfix" id="" style="" tagname="section">
+    			<xf:group class="" id="" style="" tagname="section">
+    				<xf:group class="messagebox" id="" style="">
+    					<xf:group class="messageboxwrap main" id="" tagname="">
+    						<xf:group class="" id="" style="" tagname="section">
+    							<xf:group class="searchbox" id="" style="">
+    								<xf:group class="searchboxwrap" id="">
+    									<xf:group class="srchitem" id="" style="">
+    										<w2:textbox class="req" id="" label="처리일" style="" tagname="label"></w2:textbox>
+    										<xf:group class="inputgroup" id="">
+    											<w2:inputCalendar calendarValueType="yearMonthDate" cancelButtonShow="" class="req"
+    												displayFormat="" focusOnDateSelect="false" footerDiv="false" id="" placeholder="YYYY-MM-DD" readOnly="" renderDiv="true"
+    												renderType="component" rightAlign="false" setCurrentDate="" style="">
+    											</w2:inputCalendar>
+    										</xf:group>
+    									</xf:group>
+    									<xf:group class="srchitem" id="" style="">
+    										<w2:textbox class="req" id="" label="접점처리비용" style="" tagname="label"></w2:textbox>
+    										<xf:group class="inputgroup" id="">
+    											<xf:input adjustMaxLength="false" allowChar="" applyFormat="" class="req" dataType="number"
+    												editType="" ev:onchange="" ev:onkeydown="" id="" placeholder="비용입력" style="" type="number">
+    												<w2:attributes>
+    													<w2:required></w2:required>
+    												</w2:attributes>
+    											</xf:input>
+    										</xf:group>
+    									</xf:group>
+    									<xf:group class="srchitem" id="" style="">
+    										<w2:textbox class="req" id="" label="발생사유 및 처리내용" style="" tagname="label"></w2:textbox>
+    										<xf:group class="inputgroup" id="">
+    											<xf:textarea id="" placeholder="" style="height: 234px;" class="req"></xf:textarea>
+    										</xf:group>
+    									</xf:group>
+    									<xf:group class="srchitem" id="" style="">
+    										<w2:textbox class="req" id="" label="Offer 제공여부" style="" tagname="label"></w2:textbox>
+    										<xf:group class="inputgroup" id="">
+    											<xf:select1 allOption="" appearance="minimal" chooseOption="" class="req" direction="auto"
+    												disabled="false" disabledClass="w2selectbox_disabled" displayMode="" id="" ref="" renderType="native" style=""
+    												submenuSize="auto">
+    												<xf:choices>
+    													<xf:item>
+    														<xf:label><![CDATA[금전+비금전적 offer제공]]></xf:label>
+    														<xf:value><![CDATA[]]></xf:value>
+    													</xf:item>
+    												</xf:choices>
+    											</xf:select1>
+    										</xf:group>
+    										<xf:group id="" class="inputgroup">
+    											<xf:input ev:onchange="" dataType="text" ev:onkeydown="" applyFormat="" type="" editType=""
+    												adjustMaxLength="false" disabled="" style="" allowChar="" id="" placeholder="" class="">
+    												<w2:attributes>
+    													<w2:required></w2:required>
+    												</w2:attributes>
+    											</xf:input>
+    										</xf:group>
+    									</xf:group>
+    									<xf:group class="srchitem" id="" style="">
+    										<w2:textbox class="req" id="" label="O/B여부" style="" tagname="label"></w2:textbox>
+    										<xf:group class="inputgroup" id="">
+    											<xf:select1 allOption="" appearance="minimal" chooseOption="" class="req" direction="auto"
+    												disabled="false" disabledClass="w2selectbox_disabled" displayMode="" id="" ref="" renderType="native" style=""
+    												submenuSize="auto">
+    												<xf:choices>
+    													<xf:item>
+    														<xf:label><![CDATA[처리위한Call실시하지않았으나,최종 O/B도 미실시]]></xf:label>
+    														<xf:value><![CDATA[]]></xf:value>
+    													</xf:item>
+    												</xf:choices>
+    											</xf:select1>
+    										</xf:group>
+    									</xf:group>
+    								</xf:group>
+    							</xf:group>
+    						</xf:group>
+    					</xf:group>
+    					<xf:group class="bottomfix main noshadow" id="">
+    						<xf:group class="btnbox" id="" style="">
+    							<xf:trigger class="btn_df" disabled="true" id="" style="" type="button">
+    								<xf:label><![CDATA[저장]]></xf:label>
+    							</xf:trigger>
+    						</xf:group>
+    					</xf:group>
+    				</xf:group>
+    			</xf:group>
+    		</xf:group>
+    		<xf:group class="bottomMenu" id="" style="" tagname="section">
+    			<xf:group class="navbox" id="" style="">
+    				<xf:group class="menu01 on" id="" style="" tagname="button">
+    					<xf:group class="numberbox" id="">
+    						<w2:textbox class="num" id="" label="13" style=""></w2:textbox>
+    					</xf:group>
+    					<w2:textbox class="title" id="" label="To-Do" style=""></w2:textbox>
+    				</xf:group>
+    				<xf:group class="menu02" id="" style="" tagname="button">
+    					<w2:textbox class="title" id="" label="가입정보조회" style=""></w2:textbox>
+    				</xf:group>
+    				<xf:group class="menu03" id="" style="" tagname="button">
+    					<w2:textbox class="title" id="" label="사전조회" style=""></w2:textbox>
+    				</xf:group>
+    				<xf:group class="menu04" id="" style="" tagname="button">
+    					<w2:textbox class="title" id="" label="개통지역" style=""></w2:textbox>
+    				</xf:group>
+    				<xf:group class="menu05" id="" style="" tagname="button">
+    					<xf:group class="numberbox" id="" style="">
+    						<w2:textbox class="num" id="" label="3" style=""></w2:textbox>
+    					</xf:group>
+    					<w2:textbox class="title" id="" label="알림" style=""></w2:textbox>
+    				</xf:group>
+    			</xf:group>
+    		</xf:group>
+    	</xf:group>
+    </body>
+</html>

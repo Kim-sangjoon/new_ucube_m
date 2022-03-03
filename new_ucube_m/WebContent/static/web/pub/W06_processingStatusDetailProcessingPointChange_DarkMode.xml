@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:ev="http://www.w3.org/2001/xml-events"
+    xmlns:w2="http://www.inswave.com/websquare" xmlns:xf="http://www.w3.org/2002/xforms">
+    <head meta_programName="06_처리현황상세 - 처리점변경">
+    	<w2:type>DEFAULT</w2:type>
+        <w2:buildDate/>
+        <xf:model>
+            <xf:instance>
+                <data xmlns=""/>
+            </xf:instance>
+            <w2:dataCollection baseNode="map">
+            </w2:dataCollection>
+            <w2:workflowCollection>
+            </w2:workflowCollection>
+        </xf:model>
+         <script type="text/javascript" lazy="false"><![CDATA[
+        
+	scwin.onpageload = function() {
+		
+	};
+	
+	scwin.onpageunload = function() {
+		
+	};
+	
+	]]></script>
+    </head>
+    <body ev:onpageload="scwin.onpageload" ev:onpageunload="scwin.onpageunload" class="dark">
+    	<xf:group class="wrapper" id="" style="">
+    		<xf:group class="header white_bg" id="" style="" tagname="section">
+    			<xf:group class="titlebar" id="" style="">
+    				<xf:group class="cta" id="">
+    					<w2:textbox class="title" id="" label="처리점변경" style="" tagname="h2"></w2:textbox>
+    				</xf:group>
+    			</xf:group>
+    			<xf:group class="btn_menu" id="" style="" tagname="button"></xf:group>
+    			<xf:group class="btn_pre" id="" style="" tagname="button"></xf:group>
+    		</xf:group>
+    		<xf:group class="container multisection btnfix" id="" style="" tagname="section">
+    			<xf:group class="" id="" style="" tagname="section">
+    				<xf:group class="messagebox" id="" style="">
+    					<xf:group class="messageboxwrap main" id="" tagname="">
+    						<xf:group class="" id="" style="" tagname="section">
+    							<xf:group class="searchbox" id="" style="">
+    								<xf:group class="searchboxwrap" id="">
+    									<xf:group class="srchitem" id="" style="">
+    										<w2:textbox class="req" id="" label="처리점 변경사유" style="" tagname="label"></w2:textbox>
+    										<xf:group class="inputgroup" id="">
+    											<xf:textarea class="req" id="" placeholder="" style="height: 100px;"></xf:textarea>
+    										</xf:group>
+    									</xf:group>
+    								</xf:group>
+    							</xf:group>
+    						</xf:group>
+    						<xf:group class="" id="" style="" tagname="section">
+    							<xf:group class="searchbox" id="" style="">
+    								<xf:group class="searchboxwrap" id="">
+    									<xf:group class="srchitem" id="" style="">
+    										<xf:group class="dfbox" id="" style="">
+    											<xf:group class="lta" id="" style="">
+    												<w2:textbox class="m0" id="" label="첨부파일" style="" tagname="label"></w2:textbox>
+    											</xf:group>
+    											<xf:group class="rta" id="" style="">
+    												<xf:trigger class="btn_cf fileupload" id="" style="" type="button">
+    													<xf:label><![CDATA[파일선택]]></xf:label>
+    												</xf:trigger>
+    											</xf:group>
+    										</xf:group>
+
+    										<xf:group class="filelistbox" id="" style="" tagname="ul">
+    											<xf:group class="" id="" style="" tagname="li">
+    												<xf:group id="" class="lta">
+    													<w2:textbox style="" id="" label="IMG_1208.png" class="filename"></w2:textbox>
+    												</xf:group>
+    												<xf:group class="rta" id="" style="">
+    													<w2:textbox id="" label="123kb" style="" class="filesize tar"></w2:textbox>
+    													<xf:trigger class="btn_ico24_close" id="" style="" type="button">
+    														<xf:label><![CDATA[버튼]]></xf:label>
+    													</xf:trigger>
+    												</xf:group>
+    											</xf:group>
+    											<xf:group class="" id="" style="" tagname="li">
+    												<xf:group class="lta" id="">
+    													<w2:textbox id="" label="Screenshot_20210715....png" style="" class="filename"></w2:textbox>
+    												</xf:group>
+    												<xf:group class="rta" id="" style="">
+    													<w2:textbox class="filesize tar" id="" label="94kb" style=""></w2:textbox>
+    													<xf:trigger class="btn_ico24_close" id="" style="" type="button">
+    														<xf:label><![CDATA[버튼]]></xf:label>
+    													</xf:trigger>
+    												</xf:group>
+    											</xf:group>
+    											<xf:group class="" id="" style="" tagname="li">
+    												<xf:group class="lta" id="">
+    													<w2:textbox class="filename" id="" label="Screenshot_20210715....png" style=""></w2:textbox>
+    												</xf:group>
+    												<xf:group class="rta" id="" style="">
+    													<w2:textbox class="filesize tar" id="" label="94kb" style=""></w2:textbox>
+    													<xf:trigger class="btn_ico24_close" id="" style="" type="button">
+    														<xf:label><![CDATA[버튼]]></xf:label>
+    													</xf:trigger>
+    												</xf:group>
+    											</xf:group>
+    										</xf:group>
+
+    										
+    									</xf:group>
+    								</xf:group>
+    							</xf:group>
+    						</xf:group>
+    					</xf:group>
+    					<xf:group class="bottomfix main noshadow" id="">
+    						<xf:group class="btnbox" id="" style="">
+    							<xf:trigger class="btn_df" disabled="true" id="" style="" type="button">
+    								<xf:label><![CDATA[저장]]></xf:label>
+    							</xf:trigger>
+    						</xf:group>
+    					</xf:group>
+    				</xf:group>
+    			</xf:group>
+    		</xf:group>
+    		<xf:group class="bottomMenu" id="" style="" tagname="section">
+    			<xf:group class="navbox" id="" style="">
+    				<xf:group class="menu01 on" id="" style="" tagname="button">
+    					<xf:group class="numberbox" id="">
+    						<w2:textbox class="num" id="" label="13" style=""></w2:textbox>
+    					</xf:group>
+    					<w2:textbox class="title" id="" label="To-Do" style=""></w2:textbox>
+    				</xf:group>
+    				<xf:group class="menu02" id="" style="" tagname="button">
+    					<w2:textbox class="title" id="" label="가입정보조회" style=""></w2:textbox>
+    				</xf:group>
+    				<xf:group class="menu03" id="" style="" tagname="button">
+    					<w2:textbox class="title" id="" label="사전조회" style=""></w2:textbox>
+    				</xf:group>
+    				<xf:group class="menu04" id="" style="" tagname="button">
+    					<w2:textbox class="title" id="" label="개통지역" style=""></w2:textbox>
+    				</xf:group>
+    				<xf:group class="menu05" id="" style="" tagname="button">
+    					<xf:group class="numberbox" id="" style="">
+    						<w2:textbox class="num" id="" label="3" style=""></w2:textbox>
+    					</xf:group>
+    					<w2:textbox class="title" id="" label="알림" style=""></w2:textbox>
+    				</xf:group>
+    			</xf:group>
+    		</xf:group>
+    	</xf:group>
+    </body>
+</html>
