@@ -405,6 +405,12 @@
     --bgcolor-docconfirmbox:#FFFFFF;
     --bordercolor-docconfirmbox:#BEC9D4;
     --ico-file26:url(./../images/ico_file26.svg);
+    --textcolor-checklistbtnbox-btn-df:#424952;
+    --textcolor-checklistbtnbox-btn-df-ico:#7B558D;
+    --ico-trash26:url(./../images/ico_trash26.svg);
+    --ico-check26:url(./../images/ico_check26.svg);
+    --ico-plus26:url(./../images/ico_plus26.svg);
+    --bordercolor-checklistview-itemlist:#E8EFF5;
     
 
 
@@ -822,6 +828,12 @@
     --bgcolor-docconfirmbox:#29292B;
     --bordercolor-docconfirmbox:#70747D;
     --ico-file26:url(./../images/ico_file26_dark.svg);
+    --textcolor-checklistbtnbox-btn-df:#C2C5CE;
+    --textcolor-checklistbtnbox-btn-df-ico:#C2A5CF;
+    --ico-trash26:url(./../images/ico_trash26_dark.svg);
+    --ico-check26:url(./../images/ico_check26_dark.svg);
+    --ico-plus26:url(./../images/ico_plus26_dark.svg);
+    --bordercolor-checklistview-itemlist:#45484F;
 
 
 
@@ -1183,6 +1195,7 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow:hidd
 .container.btnfix{height:calc(100% - 207px); padding-bottom:80px}
 .container.confirmlist{height:calc(100% - 135px)}
 .wrapper.popup .container{height:calc(100% - 55px); padding-bottom:0}
+.wrapper.popup .container.listbottombtn{height:calc(100% - 134px); padding-bottom:0; background: var(--bgcolor-container-inner)}
 .container.nobottom{display:block; height:calc( 100vh - 55px)}
 .container.topborder{position:relative; background: var(--bgcolor-container-inner) !important}
 .container.topborder::before{content: ''; position:absolute; top:0; display:block; width:100%; height: 8px; background: var(--bordercolor-messageboxwrap-main-section)}
@@ -2454,7 +2467,32 @@ input.adsearch{padding-left:40px; background-image:url(./../images/ico_search32.
 .textbox ul.contbox li span{font-size:14px; color:var(--textcolor-ol-numberbox-li-span); font-weight:400}
 .bgtp{background:transparent !important}
 
+/* checkboxlist */
+/* .titlebox2 .rta{display:flex; align-items:center; justify-content:end; margin-left:0} */
+.titlebox2 .lta{margin-right:0}
+.titlebox2 .rta{padding:2.5px 0; margin-left:0}
 
+.checklistwrap .checklistview .itemlist{padding:12px 16px}
+.checklistwrap .checklistview .itemlist + .itemlist{border-top:1px solid var(--bordercolor-checklistview-itemlist)}
+.checklistwrap .checklistview .itemlist label{font-size:13px; padding-left:20px}
+.checklistwrap .checklistview .itemlist .txtlabel{margin:0}
+.checklistwrap .checklistview .itemlist .ly{align-items: center; height:20px} 
+.checklistwrap .checklistview .itemlist .ly .rta > span{font-size:13px}
+.checklistwrap .checklistview .itemlist .ly .check .w2checkbox{height:20px; width:20px}
+.checklistwrap .checklistview .itemlist .ly .check{margin-right:23px; display:none}
+.checklistwrap.editmode .checklistview .itemlist .ly .check{display:block}
+
+
+.checklistbtnbox{height:56px; border-top:1px solid #BEC9D4}
+.checklistbtnbox .lta{padding-left:8px}
+.checklistbtnbox .rta{padding-right:8px}
+.checklistbtnbox .btn_df{flex:1; border:none; line-height:20px; padding:16px 16px; height:56px; background:transparent; border-radius:0; color:var(--textcolor-checklistbtnbox-btn-df); font-weight:700; font-size:15px; text-align:center;}
+.checklistbtnbox .btn_df.ico{line-height:inherit}
+.checklistbtnbox .btn_df.ico em{display:inline-block; margin-right:1px; color:transparent; height:26px; width:26px; vertical-align:middle}
+.checklistbtnbox .btn_df.ico.trash em{background:var(--ico-trash26) no-repeat}
+.checklistbtnbox .btn_df.ico.check em{background:var(--ico-check26) no-repeat}
+.checklistbtnbox .btn_df.ico.plus em{background:var(--ico-plus26) no-repeat}
+.checklistbtnbox .btn_df.ico span{vertical-align:middle; font-size:15px; color:var(--textcolor-checklistbtnbox-btn-df-ico);font-weight:700}
 
 
 

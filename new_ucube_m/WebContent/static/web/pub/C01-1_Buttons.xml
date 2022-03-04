@@ -117,8 +117,8 @@
     						</xf:group>
     						<xf:group class="btnbox" id="" style="">
     							<xf:group class="selbtnwrap" id="">
-    								<xf:select1 appearance="full" class="selbtn h32p" cols="" id="" ignoreTabIndex="" name="multiline" ref=""
-    									renderType="radiogroup" rows="" selectedIndex="0" style="">
+    								<xf:select1 appearance="full" class="selbtn h32p" cols="" id="" ignoreTabIndex="" name="multiline"
+    									ref="" renderType="radiogroup" rows="" selectedIndex="0" style="">
     									<xf:choices>
     										<xf:item>
     											<xf:label><![CDATA[남성]]></xf:label>
@@ -130,8 +130,8 @@
     										</xf:item>
     									</xf:choices>
     								</xf:select1>
-    								<xf:select1 appearance="full" class="selbtn h32p" cols="" id="" ignoreTabIndex="" name="multiline" ref=""
-    									renderType="radiogroup" rows="" selectedIndex="" style="">
+    								<xf:select1 appearance="full" class="selbtn h32p" cols="" id="" ignoreTabIndex="" name="multiline"
+    									ref="" renderType="radiogroup" rows="" selectedIndex="" style="">
     									<xf:choices>
     										<xf:item>
     											<xf:label><![CDATA[1]]></xf:label>
@@ -211,12 +211,14 @@
     						</xf:group>
     						<xf:group class="btnbox" id="" style="">
     							<xf:group class="btn_df h40 ico been" id="" style="" tagname="button">
-    								
-    								<w2:textbox id="" label="개통가능지역" style="" tagname="span"></w2:textbox><w2:textbox id="" label="icon" style="" tagname="em"></w2:textbox>
+
+    								<w2:textbox id="" label="개통가능지역" style="" tagname="span"></w2:textbox>
+    								<w2:textbox id="" label="icon" style="" tagname="em"></w2:textbox>
     							</xf:group>
     							<xf:group class="btn_df h40 ico been on" id="" style="" tagname="button">
-    								
-    								<w2:textbox id="" label="소호개통가능지역" style="" tagname="span"></w2:textbox><w2:textbox id="" label="icon" style="" tagname="em"></w2:textbox>
+
+    								<w2:textbox id="" label="소호개통가능지역" style="" tagname="span"></w2:textbox>
+    								<w2:textbox id="" label="icon" style="" tagname="em"></w2:textbox>
     							</xf:group>
     						</xf:group>
     					</xf:group>
@@ -345,7 +347,35 @@
     							</xf:group>
     						</xf:group>
     					</xf:group>
-    				</xf:group></xf:group>
+    					<xf:group id="" class="" tagname="section">
+    						<xf:group class="titlebox" id="" style="">
+    							<w2:textbox id="" label="checkboxlist bottom 버튼" style="" tagname="h3"></w2:textbox>
+    						</xf:group>
+    						<xf:group style="" id="" class="checklistbtnbox ly">
+    							<xf:group id="" class="lta">
+    								<xf:group tagname="button" style="" id="" class="btn_df">
+    									<w2:textbox tagname="span" style="" id="" label="전체선택"></w2:textbox>
+    								</xf:group>
+    								<xf:group tagname="button" style="" id="" class="btn_df">
+    									<w2:textbox tagname="span" style="" id="" label="취소"></w2:textbox>
+    								</xf:group>
+    							</xf:group>
+    							<xf:group style="" id="" class="rta fn">
+    								<xf:group tagname="button" style="" id="" class="btn_df ico trash">
+    									<w2:textbox tagname="em" style="" id="" label="icon"></w2:textbox>
+    									<w2:textbox tagname="span" style="" id="" label="삭제"></w2:textbox>
+    								</xf:group>
+    								<xf:group class="btn_df ico check" id="" style="" tagname="button">
+    									<w2:textbox id="" label="icon" style="" tagname="em"></w2:textbox>
+    									<w2:textbox id="" label="변경완료" style="" tagname="span"></w2:textbox>
+    								</xf:group>
+    								<xf:group class="btn_df ico plus" id="" style="" tagname="button">
+    									<w2:textbox id="" label="icon" style="" tagname="em"></w2:textbox>
+    									<w2:textbox id="" label="선택상품 추가" style="" tagname="span"></w2:textbox>
+    								</xf:group>
+    							</xf:group>
+    						</xf:group>
+    					</xf:group></xf:group></xf:group>
     		</xf:group>
     		<xf:group class="bottomMenu" id="" style="" tagname="section">
     			<xf:group class="navbox" id="" style="">
