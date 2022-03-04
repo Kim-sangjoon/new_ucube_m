@@ -411,6 +411,7 @@
     --ico-check26:url(./../images/ico_check26.svg);
     --ico-plus26:url(./../images/ico_plus26.svg);
     --bordercolor-checklistview-itemlist:#E8EFF5;
+    --bordercolor-checklistbtnbox:#BEC9D4;
     
 
 
@@ -834,6 +835,7 @@
     --ico-check26:url(./../images/ico_check26_dark.svg);
     --ico-plus26:url(./../images/ico_plus26_dark.svg);
     --bordercolor-checklistview-itemlist:#45484F;
+    --bordercolor-checklistbtnbox:#70747D;
 
 
 
@@ -2474,7 +2476,7 @@ input.adsearch{padding-left:40px; background-image:url(./../images/ico_search32.
 
 .checklistwrap .checklistview .itemlist{padding:12px 16px}
 .checklistwrap .checklistview .itemlist + .itemlist{border-top:1px solid var(--bordercolor-checklistview-itemlist)}
-.checklistwrap .checklistview .itemlist label{font-size:13px; padding-left:20px}
+.checklistwrap .checklistview .itemlist .w2checkbox_label{font-size:13px; padding-left:20px}
 .checklistwrap .checklistview .itemlist .txtlabel{margin:0}
 .checklistwrap .checklistview .itemlist .ly{align-items: center; height:20px} 
 .checklistwrap .checklistview .itemlist .ly .rta > span{font-size:13px}
@@ -2483,10 +2485,11 @@ input.adsearch{padding-left:40px; background-image:url(./../images/ico_search32.
 .checklistwrap.editmode .checklistview .itemlist .ly .check{display:block}
 
 
-.checklistbtnbox{height:56px; border-top:1px solid #BEC9D4}
+.checklistbtnbox{height:56px; border-top:1px solid var(--bordercolor-checklistbtnbox)}
 .checklistbtnbox .lta{padding-left:8px}
 .checklistbtnbox .rta{padding-right:8px}
-.checklistbtnbox .btn_df{flex:1; border:none; line-height:20px; padding:16px 16px; height:56px; background:transparent; border-radius:0; color:var(--textcolor-checklistbtnbox-btn-df); font-weight:700; font-size:15px; text-align:center;}
+.checklistbtnbox .btn_df{flex:1; border:none; padding:16px 16px; height:56px; background:transparent; border-radius:0; text-align:center}
+.checklistbtnbox .btn_df span{color:var(--textcolor-checklistbtnbox-btn-df); font-weight:700; font-size:15px}
 .checklistbtnbox .btn_df.ico{line-height:inherit}
 .checklistbtnbox .btn_df.ico em{display:inline-block; margin-right:1px; color:transparent; height:26px; width:26px; vertical-align:middle}
 .checklistbtnbox .btn_df.ico.trash em{background:var(--ico-trash26) no-repeat}
