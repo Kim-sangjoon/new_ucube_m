@@ -421,6 +421,7 @@
     --textcolor-add-waiting-before:#E79508;
     --bordercolor-add-waiting-before:#FFFCEE;
     --bgcolor-add-waiting-before:#FFECC3;
+    --ico-search22:url(./../images/ico_search22.svg);
     
 
 
@@ -854,6 +855,7 @@
     --textcolor-add-waiting-before:#F5B02B;
     --bordercolor-add-waiting-before:#F5B02B;
     --bgcolor-add-waiting-before:#3B3C41;
+    --ico-search22:url(./../images/ico_search22_dark.svg);
 
 
 
@@ -1327,7 +1329,7 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow:hidd
 .searchbox .inputbox .boxitem input[type=text]:focus,
 .searchbox .inputbox .boxitem input[type=search]:focus,
 .searchbox .inputbox .boxitem input[type=number]:focus{border-bottom:2px solid var(--bordercolor-searchbox-inputbox-boxitem-bottom-focus);}
-.searchbox .inputbox .boxitem input.ico_address{padding-left:36px; background:url(./../images/ico_address.svg) no-repeat; background-position:0 1px; /*width:calc(100% - 36px)*/}
+.searchbox .inputbox .boxitem input.ico_address{padding-left:36px; background:var(--ico-address) no-repeat; background-position:0 1px; /*width:calc(100% - 36px)*/}
 .searchbox .inputbox .boxitem input.req{border-bottom:1px solid #2FB8A8}
 .searchbox .inputbox .boxitem input[type=text][readonly],
 .searchbox .inputbox .boxitem input[type=text][disabled],
@@ -1355,6 +1357,23 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow:hidd
 .btnbox input[type=button] + button,
 .btnbox button + button,
 .btnbox button + input[type=button]{margin-left:8px}
+
+.servicebox {margin-top: 20px; margin-bottom:16px; padding: 0 16px}
+.servicebox label.req::after{content:''; display:block; position:absolute; top:0; right:-7px; width:6px; height:21px; background:url(./../images/ico_req.svg)}
+.servicebox input[type=text],
+.servicebox input[type=search],
+.servicebox input[type=number]{background:transparent; border:none; border-bottom:1px solid var(--bordercolor-searchbox-inputbox-boxitem-bottom); padding:0px; height:32px}
+.servicebox input[type=text]:focus,
+.servicebox input[type=search]:focus,
+.servicebox input[type=number]:focus{border-bottom:2px solid var(--bordercolor-searchbox-inputbox-boxitem-bottom-focus);}
+.servicebox input.ico_search22{padding-left:36px; background:var(--ico-search22) no-repeat; background-position:6px 5px; /*width:calc(100% - 36px)*/}
+.servicebox input.req{border-bottom:1px solid #2FB8A8}
+.servicebox input[type=text][readonly],
+.servicebox input[type=text][disabled],
+.servicebox input[type=search][readonly],
+.servicebox input[type=search][disabled],
+.servicebox input[type=number][readonly],
+.servicebox input[type=number][disabled]{border-bottom:1px dashed var(--bordercolor-searchbox-inputbox-boxitem-bottom-disable);}
 
 .h40{height:40px !important}
 .h32{height:32px !important}
@@ -1856,6 +1875,8 @@ input.adsearch{padding-left:40px; background-image:url(./../images/ico_search32.
 .bottomsheet .bsbox .bsboxwrap .contwrap{height:calc(100% - 96px); overflow-y:auto; padding:0px 36px 16px 16px}
 .bottomsheet .bsbox .bsboxwrap .contwrap_line3{height:calc(100% - 177px); overflow-y:auto; padding:0px 16px 16px 16px}
 .bottomsheet .bsbox .bsboxwrap .contwrap_line1{height:calc(100% - 80px); overflow-y:auto; padding:0px 16px 16px 16px}
+.bottomsheet .bsbox .bsboxwrap .contwrap_line2{position:relative; height:calc(100% - 125px); overflow-y:auto}
+.bottomsheet .bsbox .bsboxwrap .contwrap_line2::before{content: ''; position:absolute; top:0px; display:block; width:100%; height: 8px; background: var(--bordercolor-messageboxwrap-main-section)}
 .bottomsheet .bsbox .bsboxwrap::after{content:""; position:absolute; display:block; width:50px; height:5px; top:5px; left:calc(50% - 25px); background:var(--bgcolor-bottomsheet-bsbox-bsboxwrap-after); border-radius:10px}
 .bottomsheet.detail .bsbox .bsboxwrap::after{content:""; position:absolute; display:block; width:120px; height:5px; top:5px; left:calc(50% - 60px); background:var(--bgcolor-bottomsheet-bsbox-bsboxwrap-after); border-radius:10px}
 .bottomsheet .bsbox .bsboxwrap h3{font-weight:700; font-size:15px; line-height:20px; color:var(--textcolor-bottomsheet-bsbox-bsboxwrap-h3)}
