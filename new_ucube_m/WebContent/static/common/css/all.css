@@ -412,6 +412,15 @@
     --ico-plus26:url(./../images/ico_plus26.svg);
     --bordercolor-checklistview-itemlist:#E8EFF5;
     --bordercolor-checklistbtnbox:#BEC9D4;
+    --bgcolor-delete_waiting:#F5F7FA;
+    --textcolor-delete-waiting-span:#8996A3;
+    --textcolor-delete-waiting-before:#56606B;
+    --bordercolor-delete-waiting-before:#E8EFF5;
+    --bgcolor-delete-waiting-before:#E8EFF5;
+    --bgcolor-add_waiting:#FFFCEE;
+    --textcolor-add-waiting-before:#E79508;
+    --bordercolor-add-waiting-before:#FFFCEE;
+    --bgcolor-add-waiting-before:#FFECC3;
     
 
 
@@ -836,6 +845,15 @@
     --ico-plus26:url(./../images/ico_plus26_dark.svg);
     --bordercolor-checklistview-itemlist:#45484F;
     --bordercolor-checklistbtnbox:#70747D;
+    --bgcolor-delete_waiting:#303135;
+    --textcolor-delete-waiting-span:#8E929E;
+    --textcolor-delete-waiting-before:#C2C5CE;
+    --bordercolor-delete-waiting-before:#A7ABB5;
+    --bgcolor-delete-waiting-before:#3B3C41;
+    --bgcolor-add_waiting:#393932;
+    --textcolor-add-waiting-before:#F5B02B;
+    --bordercolor-add-waiting-before:#F5B02B;
+    --bgcolor-add-waiting-before:#3B3C41;
 
 
 
@@ -2484,6 +2502,14 @@ input.adsearch{padding-left:40px; background-image:url(./../images/ico_search32.
 .checklistwrap .checklistview .itemlist .ly .check{margin-right:23px; display:none}
 .checklistwrap.editmode .checklistview .itemlist .ly .check{display:block}
 
+.checklistwrap .checklistview .itemlist.delete_waiting{background:var(--bgcolor-delete_waiting)}
+.checklistwrap .checklistview .itemlist.delete_waiting span{color:var(--textcolor-delete-waiting-span)}
+.checklistwrap .checklistview .itemlist.delete_waiting .txtlabel{position:relative; padding-left:60px; color:var(--textcolor-delete-waiting-span)}
+.checklistwrap .checklistview .itemlist.delete_waiting .txtlabel::before{content: '삭제대기'; position:absolute; display:block; padding:4px; top:-4px; left:0; font-size:12px; font-weight:700; color:var(--textcolor-delete-waiting-before); border:1px solid var(--bordercolor-delete-waiting-before); background:var(--bgcolor-delete-waiting-before); border-radius:3px; box-sizing: border-box}
+
+.checklistwrap .checklistview .itemlist.add_waiting{background:var(--bgcolor-add_waiting)}
+.checklistwrap .checklistview .itemlist.add_waiting .txtlabel{position:relative; padding-left:60px}
+.checklistwrap .checklistview .itemlist.add_waiting .txtlabel::before{content: '추가대기'; position:absolute; display:block; padding:4px; top:-4px; left:0; font-size:12px; font-weight:700; color:var(--textcolor-add-waiting-before); border:1px solid var(--bordercolor-add-waiting-before); background:var(--bgcolor-add-waiting-before); border-radius:3px; box-sizing: border-box}
 
 .checklistbtnbox{height:56px; border-top:1px solid var(--bordercolor-checklistbtnbox)}
 .checklistbtnbox .lta{padding-left:8px}
