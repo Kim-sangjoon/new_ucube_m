@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:ev="http://www.w3.org/2001/xml-events"
+    xmlns:w2="http://www.inswave.com/websquare" xmlns:xf="http://www.w3.org/2002/xforms">
+    <head meta_programName="13_변경 내용 요청 화면 팝업">
+    	<w2:type>DEFAULT</w2:type>
+        <w2:buildDate/>
+        <xf:model>
+            <xf:instance>
+                <data xmlns=""/>
+            </xf:instance>
+            <w2:dataCollection baseNode="map">
+            </w2:dataCollection>
+            <w2:workflowCollection>
+            </w2:workflowCollection>
+        </xf:model>
+         <script type="text/javascript" lazy="false"><![CDATA[
+        
+	scwin.onpageload = function() {
+		
+	};
+	
+	scwin.onpageunload = function() {
+		
+	};
+	
+	]]></script>
+    </head>
+    <body ev:onpageload="scwin.onpageload" ev:onpageunload="scwin.onpageunload" class="dark">
+    	<xf:group class="wrapper popup" id="" style="">
+    		<xf:group class="header  white_bg titleinfo" id="" style="" tagname="section">
+    			<xf:group class="titlebar" id="" style="">
+    				<xf:group class="cta" id="">
+    					<w2:textbox class="title" id="" label="요금제 변경 요청" style="" tagname="h2"></w2:textbox>
+    				</xf:group>
+    			</xf:group>
+    			<xf:group class="user_info" id="">
+    				<w2:textbox class="text" id="" label="신*혜 님" style="" tagname="span"></w2:textbox>
+    				<w2:textbox class="dot" id="" label="dot" style="" tagname="i"></w2:textbox>
+    				<w2:textbox class="text" id="" label="500000000000" style="" tagname="span"></w2:textbox>
+    				<w2:textbox class="dot" id="" label="dot" style="" tagname="i"></w2:textbox>
+    				<w2:textbox class="text" id="" label="5G 프리미엄" style="" tagname="span"></w2:textbox>
+    			</xf:group>
+    			<xf:group class="btn_pre" id="" style="" tagname="button"></xf:group>
+    		</xf:group>
+    		<xf:group class="container" id="" style="" tagname="section">
+
+
+    			<xf:group class="" id="" style="" tagname="section">
+    				<xf:group class="titlebox2" id="" style="">
+    					<w2:textbox id="" label="변경 내용" style="" tagname="h3"></w2:textbox>
+    				</xf:group>
+    				<xf:group id="" class="container_inner">
+    					<xf:group style="" id="" class="detailbox">
+    						<xf:group style="" id="" class="itemlist">
+    							<xf:group style="" id="" class="item ly">
+    								<xf:group style="" id="" class="lta fn wd-90">
+    									<w2:textbox tagname="label" style="" id="" label="변경 전 요금제"></w2:textbox>
+    								</xf:group>
+    								<xf:group style="" id="" class="rta">
+    									<w2:textbox tagname="span" style="" id="" label="5G 프리미엄/월 95,000원" class=""></w2:textbox>
+    								</xf:group>
+    							</xf:group>
+    							<xf:group style="" id="" class="item ly">
+    								<xf:group style="" id="" class="lta fn">
+    									<w2:textbox tagname="label" style="" id="" label="변경 후 요금제"></w2:textbox>
+    								</xf:group>
+    								<xf:group style="" id="" class="rta">
+    									<w2:textbox tagname="span" style="" id="" label="5G 프리미어 슈퍼 /월 115,000원" class=""></w2:textbox>
+    								</xf:group>
+    							</xf:group>
+    						</xf:group>
+    					</xf:group>
+    					<xf:group id="" style="" class="docconfirmbox mt16">
+    						<xf:group id="" class="ly">
+    							<xf:group style="" id="" class="lta">
+    								<w2:textbox id="" label="변경 신청서 _모바일" style="" class="filename"></w2:textbox>
+    							</xf:group>
+    							<xf:group style="" id="" class="rta fn">
+    								<xf:group class="btn_cfs ico on" id="" style="" tagname="button">
+    									<w2:textbox id="" label="확인" style="" tagname="span"></w2:textbox>
+    									<w2:textbox id="" label="icon" style="" tagname="em"></w2:textbox>
+    								</xf:group>
+    							</xf:group>
+    						</xf:group>
+    					</xf:group>
+    					<xf:group class="textbox title mt8" id="" style="">
+    						<xf:group id="" style="" class="titbox">
+    							<w2:textbox id="" label="안내" style="" tagname="span"></w2:textbox>
+    						</xf:group>
+    					<xf:group id="" class="innerbox16 bgtp"><xf:group tagname="ul" style="" id="" class="contbox">
+    							<xf:group tagname="li" style="" id="">
+    								<w2:textbox tagname="span" style="" id="" label="변경요청되어 고객 동의여부 확인하기 위한 동의 URL을 고객님의 단말기에 SMS로 발송합니다.">
+    								</w2:textbox>
+    							</xf:group>
+    						</xf:group><xf:group tagname="ul" style="" id="" class="msgbox pl0 mt16">
+    							<xf:group tagname="li" id="">
+    								<w2:textbox tagname="span" style="" id="" label="고객님께서 동의하지 않으시면 변경작업이 완료되지 않으니 참고 바랍니다."></w2:textbox>
+    							</xf:group>
+    						</xf:group></xf:group></xf:group>
+    				</xf:group></xf:group>
+
+    		</xf:group>
+    		<xf:group class="bottomfix whiteBg noshadow" id="" style="">
+    			<xf:group class="btnbox" id="" style="">
+    				<xf:trigger class="btn_df" disabled="" id="" style="" type="button">
+    					<xf:label><![CDATA[이전]]></xf:label>
+    				</xf:trigger>
+    				<xf:trigger class="btn_cm" disabled="" id="" style="" type="button">
+    					<xf:label><![CDATA[SMS 발송]]></xf:label>
+    				</xf:trigger>
+    			</xf:group>
+    		</xf:group>
+    	</xf:group>
+    </body>
+</html>

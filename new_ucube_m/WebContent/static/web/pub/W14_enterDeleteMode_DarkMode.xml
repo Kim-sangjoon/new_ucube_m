@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:ev="http://www.w3.org/2001/xml-events"
+    xmlns:w2="http://www.inswave.com/websquare" xmlns:xf="http://www.w3.org/2002/xforms">
+    <head meta_programName="14_삭제모드 진입, 삭제할 항목 선택">
+    	<w2:type>DEFAULT</w2:type>
+        <w2:buildDate/>
+        <xf:model>
+            <xf:instance>
+                <data xmlns=""/>
+            </xf:instance>
+            <w2:dataCollection baseNode="map">
+            </w2:dataCollection>
+            <w2:workflowCollection>
+            </w2:workflowCollection>
+        </xf:model>
+         <script type="text/javascript" lazy="false"><![CDATA[
+        
+	scwin.onpageload = function() {
+		
+	};
+	
+	scwin.onpageunload = function() {
+		
+	};
+	
+	]]></script>
+    </head>
+    <body ev:onpageload="scwin.onpageload" ev:onpageunload="scwin.onpageunload" class="dark">
+    	<xf:group class="wrapper popup" id="" style="">
+    		<xf:group class="header  white_bg titleinfo" id="" style="" tagname="section">
+    			<xf:group class="titlebar" id="" style="">
+    				<xf:group class="cta" id="">
+    					<w2:textbox class="title" id="" label="부가서비스조회 및 변경" style="" tagname="h2"></w2:textbox>
+    				</xf:group>
+    			</xf:group>
+    			<xf:group class="user_info" id="">
+    				<w2:textbox class="text" id="" label="신*혜 님" style="" tagname="span"></w2:textbox>
+    				<w2:textbox class="dot" id="" label="dot" style="" tagname="i"></w2:textbox>
+    				<w2:textbox class="text" id="" label="500000000000" style="" tagname="span"></w2:textbox>
+    				<w2:textbox class="dot" id="" label="dot" style="" tagname="i"></w2:textbox>
+    				<w2:textbox class="text" id="" label="5G 프리미엄" style="" tagname="span"></w2:textbox>
+    			</xf:group>
+    			<xf:group class="btn_close" id="" style="" tagname="button"></xf:group>
+    		</xf:group>
+    		<xf:group class="container listbottombtn" id="" style="" tagname="section">
+
+
+    			<xf:group class="" id="" style="" tagname="section">
+    				<xf:group class="titlebox2" id="" style="">
+    					<xf:group id="" class="ly">
+    						<xf:group id="" class="lta fn">
+    							<w2:textbox tagname="h3" style="" id="" label="이용중인 부가서비스"></w2:textbox>
+    						</xf:group>
+    						<xf:group style="" id="" class="rta">
+    							<xf:select appearance="full" class="filterbtn" cols="" ev:onchange="" ev:oncheckboxclick=""
+    								ev:onviewchange="" id="" ref="" renderType="checkboxgroup" rows="" selectedindex="-1" style="">
+    								<xf:choices>
+    									<xf:item>
+    										<xf:label><![CDATA[전체 15]]></xf:label>
+    										<xf:value><![CDATA[all]]></xf:value>
+    									</xf:item>
+    								</xf:choices>
+    							</xf:select>
+    							<xf:select appearance="full" class="filterbtn" cols="" ev:onviewchange="" id="" ref=""
+    								renderType="checkboxgroup" rows="" selectedindex="-1" style="">
+    								<xf:choices>
+    									<xf:item>
+    										<xf:label><![CDATA[유료 10]]></xf:label>
+    										<xf:value><![CDATA[0]]></xf:value>
+    									</xf:item>
+    									<xf:item>
+    										<xf:label><![CDATA[무료 5]]></xf:label>
+    										<xf:value><![CDATA[1]]></xf:value>
+    									</xf:item>
+    								</xf:choices>
+    							</xf:select>
+    						</xf:group>
+    					</xf:group>
+    				</xf:group>
+    				<xf:group class="checklistwrap editmode" id="" style="">
+    					<xf:group class="checklistview" id="" style="">
+    						<xf:group class="itemlist" id="" style="">
+    							<xf:group class="ly" id="" style="">
+    								<xf:group class="check fn" id="" style="">
+    									<xf:select appearance="full" cols="" id="" ref="" renderType="checkboxgroup" rows=""
+    										selectedindex="-1" style="">
+    										<xf:choices>
+    											<xf:item>
+    												<xf:label><![CDATA[]]></xf:label>
+    												<xf:value><![CDATA[]]></xf:value>
+    											</xf:item>
+    										</xf:choices>
+    									</xf:select>
+    								</xf:group>
+    								<xf:group class="txtlabel" id="" style="">
+    									<w2:textbox id="" label="050 안심서비스" style="" tagname=""></w2:textbox>
+    								</xf:group>
+    								<xf:group class="rta fn" id="" style="">
+    									<w2:textbox class="" id="" label="11,000원" style="" tagname="span"></w2:textbox>
+    								</xf:group>
+    							</xf:group>
+    						</xf:group>
+    						<xf:group class="itemlist" id="" style="">
+    							<xf:group class="ly" id="" style="">
+    								<xf:group class="check fn" id="" style="">
+    									<xf:select appearance="full" cols="" id="" ref="" renderType="checkboxgroup" rows=""
+    										selectedindex="-1" style="">
+    										<xf:choices>
+    											<xf:item>
+    												<xf:label></xf:label>
+    												<xf:value></xf:value>
+    											</xf:item>
+    										</xf:choices>
+    									</xf:select>
+    								</xf:group>
+    								<xf:group class="txtlabel" id="" style="">
+    									<w2:textbox id="" label="060 발신차단" style=""></w2:textbox>
+    								</xf:group>
+    								<xf:group class="rta fn" id="" style="">
+    									<w2:textbox class="" id="" label="5,500원" style="" tagname="span"></w2:textbox>
+    								</xf:group>
+    							</xf:group>
+    						</xf:group>
+    						<xf:group class="itemlist" id="" style="">
+    							<xf:group class="ly" id="" style="">
+    								<xf:group class="check fn" id="" style="">
+    									<xf:select appearance="full" cols="" id="" ref="" renderType="checkboxgroup" rows=""
+    										selectedindex="-1" style="">
+    										<xf:choices>
+    											<xf:item>
+    												<xf:label></xf:label>
+    												<xf:value></xf:value>
+    											</xf:item>
+    										</xf:choices>
+    									</xf:select>
+    								</xf:group>
+    								<xf:group class="txtlabel" id="" style="">
+    									<w2:textbox id="" label="060 정보료 알리미" style=""></w2:textbox>
+    								</xf:group>
+    								<xf:group class="rta fn" id="" style="">
+    									<w2:textbox class="" id="" label="무료" style="" tagname="span"></w2:textbox>
+    								</xf:group>
+    							</xf:group>
+    						</xf:group>
+    						<xf:group class="itemlist" id="" style="">
+    							<xf:group class="ly" id="" style="">
+    								<xf:group class="check fn" id="" style="">
+    									<xf:select appearance="full" cols="" id="" ref="" renderType="checkboxgroup" rows=""
+    										selectedindex="-1" style="">
+    										<xf:choices>
+    											<xf:item>
+    												<xf:label></xf:label>
+    												<xf:value></xf:value>
+    											</xf:item>
+    										</xf:choices>
+    									</xf:select>
+    								</xf:group>
+    								<xf:group class="txtlabel" id="" style="">
+    									<w2:textbox id="" label="데이터 비디오 안심옵션" style=""></w2:textbox>
+    								</xf:group>
+    								<xf:group class="rta fn" id="" style="">
+    									<w2:textbox class="" id="" label="무료" style="" tagname="span"></w2:textbox>
+    								</xf:group>
+    							</xf:group>
+    						</xf:group>
+    						<xf:group class="itemlist" id="" style="">
+    							<xf:group class="ly" id="" style="">
+    								<xf:group class="check fn" id="" style="">
+    									<xf:select appearance="full" cols="" id="" ref="" renderType="checkboxgroup" rows=""
+    										selectedindex="-1" style="">
+    										<xf:choices>
+    											<xf:item>
+    												<xf:label></xf:label>
+    												<xf:value></xf:value>
+    											</xf:item>
+    										</xf:choices>
+    									</xf:select>
+    								</xf:group>
+    								<xf:group class="txtlabel" id="" style="">
+    									<w2:textbox id="" label="U+ 영화월정액 프리미엄" style=""></w2:textbox>
+    								</xf:group>
+    								<xf:group class="rta fn" id="" style="">
+    									<w2:textbox class="" id="" label="14,500원" style="" tagname="span"></w2:textbox>
+    								</xf:group>
+    							</xf:group>
+    						</xf:group>
+    						<xf:group class="itemlist" id="" style="">
+    							<xf:group class="ly" id="" style="">
+    								<xf:group class="check fn" id="" style="">
+    									<xf:select appearance="full" cols="" id="" ref="" renderType="checkboxgroup" rows=""
+    										selectedindex="-1" style="">
+    										<xf:choices>
+    											<xf:item>
+    												<xf:label></xf:label>
+    												<xf:value></xf:value>
+    											</xf:item>
+    										</xf:choices>
+    									</xf:select>
+    								</xf:group>
+    								<xf:group class="txtlabel" id="" style="">
+    									<w2:textbox id="" label="050 안심서비스" style=""></w2:textbox>
+    								</xf:group>
+    								<xf:group class="rta fn" id="" style="">
+    									<w2:textbox class="" id="" label="11,000원" style="" tagname="span"></w2:textbox>
+    								</xf:group>
+    							</xf:group>
+    						</xf:group>
+    						<xf:group class="itemlist" id="" style="">
+    							<xf:group class="ly" id="" style="">
+    								<xf:group class="check fn" id="" style="">
+    									<xf:select appearance="full" cols="" id="" ref="" renderType="checkboxgroup" rows=""
+    										selectedindex="-1" style="">
+    										<xf:choices>
+    											<xf:item>
+    												<xf:label></xf:label>
+    												<xf:value></xf:value>
+    											</xf:item>
+    										</xf:choices>
+    									</xf:select>
+    								</xf:group>
+    								<xf:group class="txtlabel" id="" style="">
+    									<w2:textbox id="" label="060 발신차단" style=""></w2:textbox>
+    								</xf:group>
+    								<xf:group class="rta fn" id="" style="">
+    									<w2:textbox class="" id="" label="무료" style="" tagname="span"></w2:textbox>
+    								</xf:group>
+    							</xf:group>
+    						</xf:group>
+    						<xf:group class="itemlist" id="" style="">
+    							<xf:group class="ly" id="" style="">
+    								<xf:group class="check fn" id="" style="">
+    									<xf:select appearance="full" cols="" id="" ref="" renderType="checkboxgroup" rows=""
+    										selectedindex="-1" style="">
+    										<xf:choices>
+    											<xf:item>
+    												<xf:label></xf:label>
+    												<xf:value></xf:value>
+    											</xf:item>
+    										</xf:choices>
+    									</xf:select>
+    								</xf:group>
+    								<xf:group class="txtlabel" id="" style="">
+    									<w2:textbox id="" label="데이터 비디오 안심옵션" style=""></w2:textbox>
+    								</xf:group>
+    								<xf:group class="rta fn" id="" style="">
+    									<w2:textbox class="" id="" label="무료" style="" tagname="span"></w2:textbox>
+    								</xf:group>
+    							</xf:group>
+    						</xf:group>
+    						<xf:group class="itemlist" id="" style="">
+    							<xf:group class="ly" id="" style="">
+    								<xf:group class="check fn" id="" style="">
+    									<xf:select appearance="full" cols="" id="" ref="" renderType="checkboxgroup" rows=""
+    										selectedindex="-1" style="">
+    										<xf:choices>
+    											<xf:item>
+    												<xf:label></xf:label>
+    												<xf:value></xf:value>
+    											</xf:item>
+    										</xf:choices>
+    									</xf:select>
+    								</xf:group>
+    								<xf:group class="txtlabel" id="" style="">
+    									<w2:textbox id="" label="데이터 비디오 안심옵션" style=""></w2:textbox>
+    								</xf:group>
+    								<xf:group class="rta fn" id="" style="">
+    									<w2:textbox class="" id="" label="8,800원" style="" tagname="span"></w2:textbox>
+    								</xf:group>
+    							</xf:group>
+    						</xf:group>
+    						<xf:group class="itemlist" id="" style="">
+    							<xf:group class="ly" id="" style="">
+    								<xf:group class="check fn" id="" style="">
+    									<xf:select appearance="full" cols="" id="" ref="" renderType="checkboxgroup" rows=""
+    										selectedindex="-1" style="">
+    										<xf:choices>
+    											<xf:item>
+    												<xf:label></xf:label>
+    												<xf:value></xf:value>
+    											</xf:item>
+    										</xf:choices>
+    									</xf:select>
+    								</xf:group>
+    								<xf:group class="txtlabel" id="" style="">
+    									<w2:textbox id="" label="데이터 비디오 안심옵션" style=""></w2:textbox>
+    								</xf:group>
+    								<xf:group class="rta fn" id="" style="">
+    									<w2:textbox class="" id="" label="8,800원" style="" tagname="span"></w2:textbox>
+    								</xf:group>
+    							</xf:group>
+    						</xf:group>
+    						<xf:group class="itemlist" id="" style="">
+    							<xf:group class="ly" id="" style="">
+    								<xf:group class="check fn" id="" style="">
+    									<xf:select appearance="full" cols="" id="" ref="" renderType="checkboxgroup" rows=""
+    										selectedindex="-1" style="">
+    										<xf:choices>
+    											<xf:item>
+    												<xf:label></xf:label>
+    												<xf:value></xf:value>
+    											</xf:item>
+    										</xf:choices>
+    									</xf:select>
+    								</xf:group>
+    								<xf:group class="txtlabel" id="" style="">
+    									<w2:textbox id="" label="U+ 영화월정액 프리미엄" style=""></w2:textbox>
+    								</xf:group>
+    								<xf:group class="rta fn" id="" style="">
+    									<w2:textbox class="" id="" label="14,500원" style="" tagname="span"></w2:textbox>
+    								</xf:group>
+    							</xf:group>
+    						</xf:group>
+    						<xf:group class="itemlist" id="" style="">
+    							<xf:group class="ly" id="" style="">
+    								<xf:group class="check fn" id="" style="">
+    									<xf:select appearance="full" cols="" id="" ref="" renderType="checkboxgroup" rows=""
+    										selectedindex="-1" style="">
+    										<xf:choices>
+    											<xf:item>
+    												<xf:label></xf:label>
+    												<xf:value></xf:value>
+    											</xf:item>
+    										</xf:choices>
+    									</xf:select>
+    								</xf:group>
+    								<xf:group class="txtlabel" id="" style="">
+    									<w2:textbox id="" label="050 안심서비스" style=""></w2:textbox>
+    								</xf:group>
+    								<xf:group class="rta fn" id="" style="">
+    									<w2:textbox class="" id="" label="11,000원" style="" tagname="span"></w2:textbox>
+    								</xf:group>
+    							</xf:group>
+    						</xf:group>
+    					</xf:group>
+    				</xf:group>
+    			</xf:group>
+
+    		</xf:group>
+    		<xf:group class="bottomfix whiteBg noshadow" id="" style="">
+    			<xf:group id="" class="checklistbtnbox ly">
+    				<xf:group id="" class="lta">
+    					<xf:group class="btn_df" id="" style="" tagname="button">
+    						<w2:textbox id="" label="전체선택" style="" tagname="span"></w2:textbox>
+    					</xf:group>
+    					<xf:group class="btn_df" id="" style="" tagname="button">
+    						<w2:textbox id="" label="취소" style="" tagname="span"></w2:textbox>
+    					</xf:group>
+    				</xf:group>
+    				<xf:group id="" style="" class="rta fn">
+    					<xf:group class="btn_df ico trash" id="" style="" tagname="button">
+    						<w2:textbox id="" label="icon" style="" tagname="em"></w2:textbox>
+    						<w2:textbox id="" label="삭제" style="" tagname="span"></w2:textbox>
+    					</xf:group>
+    				</xf:group>
+    			</xf:group>
+    		</xf:group>
+    	</xf:group>
+    </body>
+</html>
