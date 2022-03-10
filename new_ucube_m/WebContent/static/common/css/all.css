@@ -2502,7 +2502,7 @@ input.adsearch{padding-left:40px; background-image:url(./../images/ico_search32.
 /* textbox ul */
 .textbox.title{padding:0}
 .textbox.title .titbox{display:inline-block; width:100%; background:var(--bgcolor-textbox-title-titbox)}
-.textbox.title .titbox span{font-size:14px; font-weight:500; color:var(--main-txtcolor-title); padding-left:16px; line-height:38px;}
+.textbox.title .titbox span{font-size:14px; font-weight:500; color:var(--main-txtcolor-title); padding-left:16px; line-height:37px;}
 .textbox ul.contbox{padding-left:0}
 .textbox ul.contbox li{position:relative}
 .textbox ul.contbox li + li{margin-top:8px}
