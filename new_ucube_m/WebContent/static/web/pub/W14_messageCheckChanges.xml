@@ -425,7 +425,7 @@
     			<xf:group class="boxwrap" id="">
     				<xf:group id="" class="container_inner pb25">
     					<w2:textbox tagname="h3" style="" id="" label="변경사항 확인"></w2:textbox>
-    					<w2:textbox style="" id="" label="변경요청되어 고객 동의여부 확인하기 위한 동의&lt;br/&gt;URL을 고객님의 단말기에 SMS로 발송합니다." class="content mb12 p0">
+    					<w2:textbox style="" id="" label="변경요청되어 고객 동의여부 확인하기 위한 동의 URL을 고객님의 단말기에 SMS로 발송합니다." class="content mb12 p0">
     					</w2:textbox>
     					<xf:group tagname="ul" style="" id="" class="msgbox">
     						<xf:group tagname="li" id="">
@@ -443,7 +443,7 @@
     										<xf:group id="" class="lta">
     											<w2:textbox tagname="span" style="" id="" label="060 정보료 알리미2"></w2:textbox>
     										</xf:group>
-    										<xf:group id="" style="" class="rta fn wd-70 tal">
+    										<xf:group id="" style="" class="rta fn wd-70">
     											<w2:textbox id="" label="1,100원" style="" tagname="span"></w2:textbox>
     										</xf:group>
     									</xf:group>
@@ -453,7 +453,7 @@
     										<xf:group class="lta" id="">
     											<w2:textbox id="" label="데이터 비디오 안심옵션2" style="" tagname="span"></w2:textbox>
     										</xf:group>
-    										<xf:group class="rta fn wd-70 tal" id="" style="">
+    										<xf:group class="rta fn wd-70" id="" style="">
     											<w2:textbox id="" label="8,800원" style="" tagname="span"></w2:textbox>
     										</xf:group>
     									</xf:group>
@@ -463,7 +463,7 @@
     										<xf:group class="lta" id="">
     											<w2:textbox id="" label="060 발신차단2" style="" tagname="span"></w2:textbox>
     										</xf:group>
-    										<xf:group class="rta fn wd-70 tal" id="" style="">
+    										<xf:group class="rta fn wd-70" id="" style="">
     											<w2:textbox id="" label="무료" style="" tagname="span"></w2:textbox>
     										</xf:group>
     									</xf:group>
@@ -482,7 +482,7 @@
     										<xf:group class="lta" id="">
     											<w2:textbox id="" label="060 발신차단" style="" tagname="span"></w2:textbox>
     										</xf:group>
-    										<xf:group class="rta fn wd-70 tal" id="" style="">
+    										<xf:group class="rta fn wd-70" id="" style="">
     											<w2:textbox id="" label="5,500원" style="" tagname="span"></w2:textbox>
     										</xf:group>
     									</xf:group>
@@ -492,7 +492,7 @@
     										<xf:group class="lta" id="">
     											<w2:textbox id="" label="060 정보료 알리미" style="" tagname="span"></w2:textbox>
     										</xf:group>
-    										<xf:group class="rta fn wd-70 tal" id="" style="">
+    										<xf:group class="rta fn wd-70" id="" style="">
     											<w2:textbox id="" label="무료" style="" tagname="span"></w2:textbox>
     										</xf:group>
     									</xf:group>
