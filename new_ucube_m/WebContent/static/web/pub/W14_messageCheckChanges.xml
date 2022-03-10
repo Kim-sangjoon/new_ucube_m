@@ -425,7 +425,7 @@
     			<xf:group class="boxwrap" id="">
     				<xf:group id="" class="container_inner pb25">
     					<w2:textbox tagname="h3" style="" id="" label="변경사항 확인"></w2:textbox>
-    					<w2:textbox style="" id="" label="변경요청되어 고객 동의여부 확인하기 위한 동의 URL을 고객님의 단말기에 SMS로 발송합니다." class="content mb12 p0">
+    					<w2:textbox style="" id="" label="변경요청되어 고객 동의여부 확인하기 위한 동의&lt;br/&gt;URL을 고객님의 단말기에 SMS로 발송합니다." class="content mb12 p0">
     					</w2:textbox>
     					<xf:group tagname="ul" style="" id="" class="msgbox">
     						<xf:group tagname="li" id="">
