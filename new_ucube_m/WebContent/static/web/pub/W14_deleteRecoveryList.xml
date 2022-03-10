@@ -24,6 +24,10 @@
 		
 	};
 	
+	
+	scwin.btn_restore_onclick = function(e) {
+		alert("복구하기");
+	};
 	]]></script>
     </head>
     <body ev:onpageload="scwin.onpageload" ev:onpageunload="scwin.onpageunload">
@@ -183,7 +187,7 @@
     								</xf:group>
     							</xf:group>
     						</xf:group>
-    						<xf:group class="itemlist delete_waiting restore" id="" style="">
+    						<xf:group class="itemlist delete_waiting btn_restore" id="" style="" ev:onclick="">
     							<xf:group class="ly" id="" style="">
     								<xf:group class="check fn" id="" style="">
     									<xf:select appearance="full" cols="" id="" ref="" renderType="checkboxgroup" rows=""
@@ -246,7 +250,7 @@
     								</xf:group>
     							</xf:group>
     						</xf:group>
-    						<xf:group class="itemlist delete" id="" style="">
+    						<xf:group class="itemlist btn_delete" id="" style="">
     							<xf:group class="ly" id="" style="">
     								<xf:group class="check fn" id="" style="">
     									<xf:select appearance="full" cols="" id="" ref="" renderType="checkboxgroup" rows=""

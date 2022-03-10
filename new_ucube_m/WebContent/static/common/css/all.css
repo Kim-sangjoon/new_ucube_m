@@ -2514,7 +2514,7 @@ input.adsearch{padding-left:40px; background-image:url(./../images/ico_search32.
 .titlebox2 .lta{margin-right:0}
 .titlebox2 .rta{padding:2.5px 0; margin-left:0}
 
-.checklistwrap .checklistview .itemlist{padding:12px 16px}
+.checklistwrap .checklistview .itemlist{padding:12px 16px; position:relative; right:0; transition:all .3s}
 .checklistwrap .checklistview .itemlist + .itemlist{border-top:1px solid var(--bordercolor-checklistview-itemlist)}
 .checklistwrap .checklistview .itemlist .w2checkbox_label{font-size:13px; padding-left:20px}
 .checklistwrap .checklistview .itemlist .txtlabel{margin:0}
@@ -2523,15 +2523,15 @@ input.adsearch{padding-left:40px; background-image:url(./../images/ico_search32.
 .checklistwrap .checklistview .itemlist .ly .check .w2checkbox{height:20px; width:20px}
 .checklistwrap .checklistview .itemlist .ly .check{margin-right:23px; display:none}
 .checklistwrap.editmode .checklistview .itemlist .ly .check{display:block}
-.checklistwrap .checklistview .itemlist.delete{position:relative; right:87px}
-.checklistwrap .checklistview .itemlist.delete::before{content:'삭제'; position:absolute; right:-87px; top:0; padding:13px 32px; font-size:13px; color:#FFFFFF; background:#F94B50}
+.checklistwrap .checklistview .itemlist.btn_delete{position:relative; right:87px; transition:all 0.3s; pointer-events: none}
+.checklistwrap .checklistview .itemlist.btn_delete::before{content:'삭제'; position:absolute; right:-87px; top:0; padding:13px 32px; font-size:13px; color:#FFFFFF; background:#F94B50}
 
-.checklistwrap .checklistview .itemlist.delete_waiting{background:var(--bgcolor-delete_waiting)}
+.checklistwrap .checklistview .itemlist.delete_waiting{position:relative; left:0; background:var(--bgcolor-delete_waiting); transition:all 0.3s}
 .checklistwrap .checklistview .itemlist.delete_waiting span{color:var(--textcolor-delete-waiting-span)}
 .checklistwrap .checklistview .itemlist.delete_waiting .txtlabel{position:relative; padding-left:60px; color:var(--textcolor-delete-waiting-span)}
 .checklistwrap .checklistview .itemlist.delete_waiting .txtlabel::before{content: '삭제대기'; position:absolute; display:block; padding:4px; top:-4px; left:0; font-size:12px; font-weight:700; color:var(--textcolor-delete-waiting-before); border:1px solid var(--bordercolor-delete-waiting-before); background:var(--bgcolor-delete-waiting-before); border-radius:3px; box-sizing: border-box}
-.checklistwrap .checklistview .itemlist.delete_waiting.restore{position:relative; left:87px}
-.checklistwrap .checklistview .itemlist.delete_waiting.restore::before{content:'복구'; position:absolute; left:-87px; top:0; padding:13px 32px; font-size:13px; color:#FFFFFF; background:#637FC3}
+.checklistwrap .checklistview .itemlist.delete_waiting.btn_restore{position:relative; left:87px; transition:all 0.3s;  pointer-events: none}
+.checklistwrap .checklistview .itemlist.delete_waiting.btn_restore::before{content:'복구'; position:absolute; left:-87px; top:0; padding:13px 32px; font-size:13px; color:#FFFFFF; background:#637FC3}
 
 .checklistwrap .checklistview .itemlist.add_waiting{background:var(--bgcolor-add_waiting)}
 .checklistwrap .checklistview .itemlist.add_waiting .txtlabel{position:relative; padding-left:60px}
