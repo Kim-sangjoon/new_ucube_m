@@ -101,13 +101,46 @@
     									</xf:choices>
     								</xf:select>
     								<w2:textbox tagname="span" dataType="" style="" id="" label="(필수)" class="txt_red"></w2:textbox>
-    							</xf:group><xf:group class="msgbox_df" id="" style="" tagname="">
-    					<w2:textbox id="" label="부당한 이의제기는 삼가해주시기 바랍니다." style="" tagname="span"></w2:textbox>
-    				</xf:group>
+    							</xf:group>
+    							<xf:group class="msgbox_df" id="" style="" tagname="">
+    								<w2:textbox id="" label="부당한 이의제기는 삼가해주시기 바랍니다." style="" tagname="span"></w2:textbox>
+    							</xf:group>
     						</xf:group>
     					</xf:group>
     				</xf:group>
-    				
+    				<xf:group class="docconfirmbox mt16" id="" style="">
+    					<xf:group class="ly" id="">
+    						<xf:group class="lta" id="" style="">
+    							<w2:textbox class="filename" id="" label="변경 신청서 _모바일" style=""></w2:textbox>
+    						</xf:group>
+    						<xf:group class="rta fn" id="" style="">
+    							<xf:group class="btn_cfs ico on" id="" style="" tagname="button">
+    								<w2:textbox id="" label="확인" style="" tagname="span"></w2:textbox>
+    								<w2:textbox id="" label="icon" style="" tagname="em"></w2:textbox>
+    							</xf:group>
+    						</xf:group>
+    					</xf:group>
+    				</xf:group>
+    				<xf:group class="textbox title mt8" id="" style="">
+    					<xf:group class="titbox" id="" style="">
+    						<w2:textbox id="" label="안내" style="" tagname="span"></w2:textbox>
+    					</xf:group>
+    					<xf:group class="innerbox16 bgtp" id="">
+    						<xf:group class="contbox" id="" style="" tagname="ul">
+    							<xf:group id="" style="" tagname="li">
+    								<w2:textbox id="" label="변경요청되어 고객 동의여부 확인하기 위한 동의 URL을 고객님의 단말기에 SMS로 발송합니다." style=""
+    									tagname="span">
+    								</w2:textbox>
+    							</xf:group>
+    						</xf:group>
+    						<xf:group class="msgbox pl0 mt16" id="" style="" tagname="ul">
+    							<xf:group id="" tagname="li">
+    								<w2:textbox id="" label="고객님께서 동의하지 않으시면 변경작업이 완료되지 않으니 참고 바랍니다." style="" tagname="span"></w2:textbox>
+    							</xf:group>
+    						</xf:group>
+    					</xf:group>
+    				</xf:group>
+
     			</xf:group>
     			<xf:group class="container_inner" id="" style="">
     				<xf:group id="" tagname="section">

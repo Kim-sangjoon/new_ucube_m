@@ -422,11 +422,6 @@
     --bordercolor-add-waiting-before:#FFFCEE;
     --bgcolor-add-waiting-before:#FFECC3;
     --ico-search22:url(./../images/ico_search22.svg);
-    
-
-
-
-
 
 
 
@@ -859,10 +854,6 @@
 
 
 
-
-
-
-
     /* 사용안함 */
     --ico-menu06-customer-on:url(./../images/ico_06_customer_on_dark.svg);
     --ico-menu07-allmenu-on:url(./../images/ico_07_allmenu_on_dark.svg);
@@ -1221,6 +1212,7 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow:hidd
 .container.nobottom{display:block; height:calc( 100vh - 55px)}
 .container.topborder{position:relative; background: var(--bgcolor-container-inner) !important}
 .container.topborder::before{content: ''; position:absolute; top:0; display:block; width:100%; height: 8px; background: var(--bordercolor-messageboxwrap-main-section)}
+.container_inner,
 .container .container_inner{padding:0 16px 16px 16px}
 .header.white_bg + .container .container_inner{background: var(--bgcolor-container-inner)}
 .container.vcenter .container_inner{flex:1}
@@ -1623,6 +1615,12 @@ html,body,.wrapper,.container,.container_inner,.bottomMenu,.navbox{overflow:hidd
 .messagebox .messageboxwrap.main{margin-top:8px; background:var(--bordercolor-messageboxwrap-main-section)}
 .messagebox .messageboxwrap.main.titleinfo{height:calc(100vh - 171px)}
 
+ul.msgbox{margin-top:0px}
+ul.msgbox li{position:relative; padding-left:24px}
+ul.msgbox li span{font-size:14px; color:var(--textcolor-messagebox-textbox-ul-msgbox-li-span); font-weight:400}
+ul.msgbox li span.text_df{color:var(--textcolor-messagebox-textbox-ul-msgbox-li-span-df)}
+ul.msgbox li::before{content:''; position:absolute; top:2px; left:0; width:21px; height:21px; background:var(--ico-noti21) no-repeat}
+
 .sectionbg{height:calc(100% - 8px)}
 .textbox{background:var(--bgcolor-messagebox-textbox); border:1px solid var(--bordercolor--messagebox-textbox); box-sizing:border-box; padding:14px}
 .textbox ol.numberbox{padding-left:8px}
@@ -1861,9 +1859,10 @@ input.adsearch{padding-left:40px; background-image:url(./../images/ico_search32.
 .alertbox .boxwrap h3{text-align:center; color:var(--textcolor-alertbox-boxwrap-h3); font-size:15px; line-height:22px; font-weight:700; margin-top:25px}
 .alertbox .boxwrap .content{padding:0 16px; text-align:center; color:var(--textcolor-alertbox-boxwrap-content); font-size:14px; line-height:20px; font-weight:400; margin-top:17px; margin-bottom:25px; overflow-y:auto;}
 .alertbox .boxwrap .alertbtnbox{display:flex; margin-top:auto}
-.btn_al{flex:1; box-sizing:border-box; border:none; border-top:1px solid var(--bordercolor-top-btn-al); background:var(--bgcolor-btn-al); color:var(--textcolor-btn-al); font-weight:700; font-size:15px; padding:13px 0}
+.btn_al{flex:1; box-sizing:border-box; border:none; border-top:1px solid var(--bordercolor-top-btn-al); height:48px; background:var(--bgcolor-btn-al); color:var(--textcolor-btn-al); font-weight:700; font-size:15px; padding:13px 0}
 .btn_al + .btn_al{border-left:1px solid var(--bordercolor-btn-al-bar)}
 .btn_al.cm{color:var(--textcolor-btn-al-cm)}
+.btn_al.fn{flex:none; width:auto; padding-left:42px; padding-right:42px}
 
 /* bottom sheet */
 .bottomsheet .dim{display:none}
@@ -2130,6 +2129,7 @@ input.adsearch{padding-left:40px; background-image:url(./../images/ico_search32.
 .pb15{padding-bottom:15px !important}
 .pb16{padding-bottom:16px !important}
 .pb20{padding-bottom:20px !important}
+.pb25{padding-bottom:25px !important}
 .pl0{padding-left:0 !important}
 .pl1{padding-left:1px !important}
 .pl2{padding-left:2px !important}
@@ -2183,6 +2183,7 @@ input.adsearch{padding-left:40px; background-image:url(./../images/ico_search32.
 .mb5{margin-bottom:5px !important}
 .mb7{margin-bottom:7px !important}
 .mb10{margin-bottom:10px !important}
+.mb12{margin-bottom:12px !important}
 .mb15{margin-bottom:15px !important}
 .mb20{margin-bottom:20px !important}
 .mb25{margin-bottom:25px !important}
@@ -2522,11 +2523,15 @@ input.adsearch{padding-left:40px; background-image:url(./../images/ico_search32.
 .checklistwrap .checklistview .itemlist .ly .check .w2checkbox{height:20px; width:20px}
 .checklistwrap .checklistview .itemlist .ly .check{margin-right:23px; display:none}
 .checklistwrap.editmode .checklistview .itemlist .ly .check{display:block}
+.checklistwrap .checklistview .itemlist.delete{position:relative; right:87px}
+.checklistwrap .checklistview .itemlist.delete::before{content:'삭제'; position:absolute; right:-87px; top:0; padding:13px 32px; font-size:13px; color:#FFFFFF; background:#F94B50}
 
 .checklistwrap .checklistview .itemlist.delete_waiting{background:var(--bgcolor-delete_waiting)}
 .checklistwrap .checklistview .itemlist.delete_waiting span{color:var(--textcolor-delete-waiting-span)}
 .checklistwrap .checklistview .itemlist.delete_waiting .txtlabel{position:relative; padding-left:60px; color:var(--textcolor-delete-waiting-span)}
 .checklistwrap .checklistview .itemlist.delete_waiting .txtlabel::before{content: '삭제대기'; position:absolute; display:block; padding:4px; top:-4px; left:0; font-size:12px; font-weight:700; color:var(--textcolor-delete-waiting-before); border:1px solid var(--bordercolor-delete-waiting-before); background:var(--bgcolor-delete-waiting-before); border-radius:3px; box-sizing: border-box}
+.checklistwrap .checklistview .itemlist.delete_waiting.restore{position:relative; left:87px}
+.checklistwrap .checklistview .itemlist.delete_waiting.restore::before{content:'복구'; position:absolute; left:-87px; top:0; padding:13px 32px; font-size:13px; color:#FFFFFF; background:#637FC3}
 
 .checklistwrap .checklistview .itemlist.add_waiting{background:var(--bgcolor-add_waiting)}
 .checklistwrap .checklistview .itemlist.add_waiting .txtlabel{position:relative; padding-left:60px}
